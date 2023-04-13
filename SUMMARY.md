@@ -3,11 +3,6 @@
 * [Welcome](README.md)
 * [FAQ](faq.md)
 
-## Elements Language
-
-* [Introduction](elements-language/introduction.md)
-* [Includes](elements-language/includes.md)
-
 ## Converting Stacks
 
 * [How To](converting-stacks/how-to.md)
