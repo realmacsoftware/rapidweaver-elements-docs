@@ -16,7 +16,7 @@ A: RapidWeaver Elements is currently in private beta and due to launch in 2023.
 
 #### Q: Are stacks compatible with RapidWeaver Elements?
 
-A: stacks are not compatible with RapidWeaver Elements out of the box. However, developers can use our one-click conversion tool to convert thier stacks into Elements.
+A: stacks are not compatible with RapidWeaver Elements out of the box. However, developers can use our one-click conversion tool to convert their stacks into Elements.
 
 We've already seen a flurry of activity during the initial developer beta, and some notable stacks developers have commited to supporting Elements.
 
