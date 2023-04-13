@@ -26,7 +26,7 @@ The resulting .elementpack file is now ready for use and distribution to custome
 
 ### stacks Converter
 
-The stacks conveter is far more than just a conversion tool, stacks developers have previously had no way to validate their templates and other content. In Elements we decided to tackle this head on and create a tool that can find and report problems in stacks.&#x20;
+The stacks converter is far more than just a conversion tool, stacks developers have previously had no way to validate their templates and other content. In Elements we decided to tackle this head on and create a tool that can find and report problems in stacks.&#x20;
 
 Regardless of if you plan to ship your stack as an Element, we think all stacks developers will find this tool immensely useful.
 
