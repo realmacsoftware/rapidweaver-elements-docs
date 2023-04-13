@@ -26,7 +26,7 @@ The following terminal command will move all the found encrypted stacks to anoth
 
 {% code overflow="wrap" %}
 ```
-// `mkdir "../EncryptedStacks"; files=(); ARRAY=(`find . -name "*.plist" -print0 | xargs -0 grep -l stackData`); for FILE in $ARRAY; do files+=(`echo $FILE | cut -d"/" -f2`); done; STACKS=(`echo $files | tr ' ' '\n' | sort -u`); for FILE in $STACKS; do mv "./$FILE" "../EncryptedStacks/"; done`
+`mkdir "../EncryptedStacks"; files=(); ARRAY=(`find . -name "*.plist" -print0 | xargs -0 grep -l stackData`); for FILE in $ARRAY; do files+=(`echo $FILE | cut -d"/" -f2`); done; STACKS=(`echo $files | tr ' ' '\n' | sort -u`); for FILE in $STACKS; do mv "./$FILE" "../EncryptedStacks/"; done`
 ```
 {% endcode %}
 
