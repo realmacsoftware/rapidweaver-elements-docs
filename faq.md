@@ -4,7 +4,7 @@ description: A growing collection frequently asked questions.
 
 # FAQ
 
-> ⚠️ **RapidWeaver Elements is still in development,** and as such, features can and will change between now and a public launch. The below FAQ is not a guarantee on feature set or compatibility.&#x20;
+> ⚠️ **RapidWeaver Elements is still in development,** and as such, features can and will change between now and the public launch. The below FAQ is not a guarantee on feature set or compatibility.&#x20;
 
 #### Q: What is RapidWeaver Elements?
 
