@@ -1,6 +1,10 @@
 # Encrypted stacks
 
-If you're trying to convert a stack to an Element and it's not showing up, it might be because the stack has been encrypted. Follow the steps below to find out what stacks on your system are encrypted.
+> ⚠️ The documentation and process detailed here is for third-party **developers only**.
+
+If you're trying to convert a stack to an Element and it's not showing up, it might be because the stack you're trying to convert is encrypted. Please re-try the conversion process on your un-encrypted stacks.&#x20;
+
+You can follow the steps below to find out what stacks on your system are encrypted.
 
 ### How to check for encrypted stacks
 
