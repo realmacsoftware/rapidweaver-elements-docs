@@ -1,5 +1,5 @@
 ---
-description: A growing collection frequently asked questions.
+description: A growing collection frequently asked questions
 ---
 
 # FAQ

@@ -1,3 +1,7 @@
+---
+description: How to Identify encrypted stacks
+---
+
 # Encrypted stacks
 
 > ⚠️ The documentation and process detailed here is for third-party **developers only**.
