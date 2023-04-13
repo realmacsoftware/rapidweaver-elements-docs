@@ -22,10 +22,20 @@ To see your converted stacks, just use the "Reveal Addons Folder…" option in t
 Addons > Elements > your-awesome.elementpack
 ```
 
-## stacks Converter
+### stacks Converter
 
 The stacks conveter is far more than just a conversion tool, stacks developers have previously had no way to validate their templates and other content. In Elements we decided to tackle this head on and create a tool that can find and report problems in stacks and is recommended for all stack developers.
 
 {% embed url="https://youtu.be/oCtBT-fKDFM" %}
 How to convert stacks to Elements using a beta version of RapidWeaver Elements.
 {% endembed %}
+
+### Warnings and Errors
+
+When converting a stack to an Element you may see one or more of the following symbols in the console.
+
+🛑 **Critical error**, the stack was not converted.
+
+⚠️ **Minor issue**, there was an issue but the stack was still converted.
+
+✅ **Success**, stack converted with no issues.
