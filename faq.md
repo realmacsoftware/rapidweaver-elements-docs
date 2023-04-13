@@ -28,7 +28,7 @@ A: Yes and No. While Elements supports the stacks language, it also has its own 
 
 #### Q: How do I convert my stacks to Elements?
 
-A: Developers should take a look at our [converting stacks to Elements guide](converting-stacks/how-to.md).
+A: Developers should take a look at our [converting stacks to Elements guide](converting-stacks/how-to.md) along with [Template Overrides](converting-stacks/template-overrides.md) and the [Language Enhancements](converting-stacks/language-enhancements/) that are available.
 
 #### **Q: Will RapidWeaver Elements be able to open older RW Classic Stack based projects?**
 
