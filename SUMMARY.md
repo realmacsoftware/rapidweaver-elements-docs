@@ -15,3 +15,7 @@
 * [Language Enhancements](converting-stacks/language-enhancements/README.md)
   * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
   * [Functions](converting-stacks/language-enhancements/functions.md)
+
+***
+
+* [Encrypted stacks](encrypted-stacks.md)
