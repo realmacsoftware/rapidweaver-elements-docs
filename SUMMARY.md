@@ -9,5 +9,5 @@
 * [Encrypted stacks](converting-stacks/encrypted-stacks.md)
 * [Template Overrides](converting-stacks/template-overrides.md)
 * [Language Enhancements](converting-stacks/language-enhancements/README.md)
-  * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
   * [Functions](converting-stacks/language-enhancements/functions.md)
+  * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
