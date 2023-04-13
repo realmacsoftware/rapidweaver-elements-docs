@@ -5,8 +5,8 @@
 
 ## Converting Stacks
 
-* [How To](converting-stacks/how-to.md)
-* [Encrypted stacks](converting-stacks/encrypted-stacks.md)
+* [How to Convert](converting-stacks/how-to.md)
+* [Identify Encrypted stacks](converting-stacks/encrypted-stacks.md)
 * [Template Overrides](converting-stacks/template-overrides.md)
 * [Language Enhancements](converting-stacks/language-enhancements/README.md)
   * [Functions](converting-stacks/language-enhancements/functions.md)
