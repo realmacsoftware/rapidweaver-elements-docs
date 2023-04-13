@@ -30,6 +30,10 @@ A: Yes and No. While Elements supports the stacks language, it also has its own 
 
 A: Developers should take a look at our [converting stacks to Elements guide](converting-stacks/how-to.md) along with [Template Overrides](converting-stacks/template-overrides.md) and the [Language Enhancements](converting-stacks/language-enhancements/) that are available.
 
+#### Q: Where do I find my stacks that have been converted to Elements?
+
+To see your converted stacks, just use the "Reveal Addons Folder…" option in the RapidWeaver menu. The .elementpack file will be placed in Addons > Elements > your-awesome.elementpack
+
 #### **Q: Will RapidWeaver Elements be able to open older RW Classic Stack based projects?**
 
 Yes, providing third-party developers choose to convert their stacks to Elements. Once this is done, existing Stacks based RapidWeaver Classic projects will open in RapidWeaver Elements.
