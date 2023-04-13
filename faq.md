@@ -8,7 +8,7 @@ description: A growing collection frequently asked questions.
 
 #### Q: What is RapidWeaver Elements?
 
-RapidWeaver Elements is taking RapidWeaver in a new direction. It's built from the ground up utilising the latest web technologies, meaning it’s modern, fast, and opens up a world of mind-blowing possibilities. In short, we're taking drag-and-drop website building to the next level.
+RapidWeaver Elements is taking RapidWeaver in a new direction. It's built from the ground up utilising the latest web technologies, meaning it’s modern, fast, and opens up a world of mind-blowing possibilities. In short, **we're taking drag-and-drop website building to the next level**.
 
 #### Q: When will RapidWeaver Elements be available?
 
