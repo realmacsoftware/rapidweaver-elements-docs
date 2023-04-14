@@ -10,7 +10,7 @@ Use the RapidWeaver Elements Icons on your website to let customers know your pr
 
 The RapidWeaver Elements icon has been designed to be familair to existing customer, while also giving hints to its new drag and drop layout capabilties.
 
-<figure><img src="../.gitbook/assets/RapidWeaver Element Display.jpg" alt=""><figcaption><p>RapidWeaver Elements - Preview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/RapidWeaver Element Display.jpg" alt=""><figcaption><p>RapidWeaver Elements for macOS - Preview</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/rapidweaver-elements.png" %}
 RapidWeaver Elements @ 1024x1024 - Transparent PNG file
