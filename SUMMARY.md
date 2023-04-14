@@ -11,3 +11,7 @@
 * [Language Enhancements](converting-stacks/language-enhancements/README.md)
   * [Functions](converting-stacks/language-enhancements/functions.md)
   * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
+
+## Branding
+
+* [Logotype](branding/logotype.md)
