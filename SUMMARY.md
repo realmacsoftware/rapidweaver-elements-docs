@@ -15,4 +15,4 @@
 ## Branding
 
 * [Logotype](branding/logotype.md)
-* [Icons](branding/icons.md)
+* [Icon](branding/icon.md)
