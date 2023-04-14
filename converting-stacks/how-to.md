@@ -2,7 +2,7 @@
 description: Convert your stacks to Elements
 ---
 
-# How To
+# How to Convert
 
 > ⚠️ The documentation and process detailed here is for third-party **developers only**.
 
@@ -14,12 +14,12 @@ Converting your stacks to Elements is easy. Simply follow these steps to get sta
 4. Click the plus button and choose "Convert Stacks to Elements…"
 5. Choose single or multiple stacks that you'd like to convert from the open panel.
 
-This will open the stack converter window and RapidWeaver will begin the conversion process. Successfully converted .elementpacks are automatically encrypted.
+This will open the stack converter window and RapidWeaver will begin the conversion process. Successfully converted .rwelementpack(s) are automatically encrypted.
 
-To see your converted stack(s), just use the "Reveal Addons Folder…" option in the RapidWeaver menu. The .elementpack file will be placed in the following location:
+To see your converted stack(s), just use the "Reveal Addons Folder…" option in the RapidWeaver menu. The .rwelementpack file will be placed in the following location:
 
 ```
-Addons > Elements > your-awesome.elementpack
+Addons > Elements > your-awesome.rwelementpack
 ```
 
 The resulting .elementpack file is now ready for use and distribution to customers.&#x20;
