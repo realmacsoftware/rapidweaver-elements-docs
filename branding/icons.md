@@ -6,7 +6,7 @@ description: RapidWeaver Elements Product Icons
 
 Use the RapidWeaver Elements Icons on your website to let customers know your products are compatible with the next generation of RapidWeaver. All Icons are available as transparent PNG's.
 
-### RapidWeaver Elements Icon
+### RapidWeaver Elements macOS Icon
 
 The RapidWeaver Elements icon has been designed to be familair to existing customer, while also giving hints to its new drag and drop layout capabilties.
 
