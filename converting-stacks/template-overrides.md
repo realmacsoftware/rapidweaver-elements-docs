@@ -1,5 +1,9 @@
 # Template Overrides
 
+{% hint style="info" %}
+Available from RapidWeaver Elements Beta 4
+{% endhint %}
+
 Template overrides allow you to write an Elements specific template to be used during conversion. The advantage of this is so you can use the simplified and improved Elements templating language. &#x20;
 
 To use template overrides during conversion, simply create a new file with the same name as your existing template and insert `.elements` before the file extension.
