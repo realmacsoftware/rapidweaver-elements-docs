@@ -21,3 +21,5 @@ Named containers can also help tidy up conditional statements, making them less 
    %slice -name="extraItems"%
 %[endif]%
 ```
+
+⚠️ It is the developer's responsibility to ensure multiple containers with the same name are not shown at the same time.
