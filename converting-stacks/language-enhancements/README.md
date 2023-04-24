@@ -9,3 +9,7 @@ The Elements templating language offers stacks developers backwards compatibilit
 {% content-ref url="conditional-statements.md" %}
 [conditional-statements.md](conditional-statements.md)
 {% endcontent-ref %}
+
+{% content-ref url="containers.md" %}
+[containers.md](containers.md)
+{% endcontent-ref %}
