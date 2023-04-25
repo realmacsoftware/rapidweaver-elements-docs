@@ -2,7 +2,6 @@
 
 * [RapidWeaver Elements](README.md)
 * [FAQ](faq.md)
-* [Error Messages](error-messages.md)
 
 ## Converting Stacks
 
@@ -13,6 +12,7 @@
   * [Functions](converting-stacks/language-enhancements/functions.md)
   * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
   * [Containers](converting-stacks/language-enhancements/containers.md)
+* [Error Messages Explained](converting-stacks/error-messages-explained.md)
 
 ## Branding
 
