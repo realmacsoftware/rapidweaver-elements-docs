@@ -4,7 +4,9 @@ description: Convert your stacks to Elements
 
 # How to Convert
 
-> ⚠️ The documentation and process detailed here is for third-party **developers only**.
+{% hint style="info" %}
+The documentation and process detailed here is for third-party **developers only**.
+{% endhint %}
 
 Converting your stacks to Elements is easy. Simply follow these steps to get started.
 

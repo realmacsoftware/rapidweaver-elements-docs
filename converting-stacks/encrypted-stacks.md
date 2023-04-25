@@ -2,9 +2,11 @@
 description: How to Identify encrypted stacks
 ---
 
-# Encrypted stacks
+# Identify Encrypted stacks
 
-> ⚠️ The documentation and process detailed here is for third-party **developers only**.
+{% hint style="info" %}
+The documentation and process detailed here is for third-party **developers only**.
+{% endhint %}
 
 If you're trying to convert a stack to an Element and it's not showing up, it might be because the stack you're trying to convert is encrypted. Please re-try the conversion process on your un-encrypted stacks.&#x20;
 

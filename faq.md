@@ -1,14 +1,16 @@
 ---
-description: A growing collection frequently asked questions
+description: Frequently Asked Questions
 ---
 
 # FAQ
 
-> ⚠️ **RapidWeaver Elements is still in development,** and as such, features can and will change between now and the public launch. The below FAQ is not a guarantee on feature set or compatibility.&#x20;
+{% hint style="info" %}
+**RapidWeaver Elements is still in development,** and as such, features can and will change between now and the public launch. The below FAQ is not a guarantee on feature set or compatibility.&#x20;
+{% endhint %}
 
 #### Q: What is RapidWeaver Elements?
 
-RapidWeaver Elements is taking RapidWeaver in a new direction. It's built from the ground up utilising the latest web technologies, meaning it’s modern, fast, and opens up a world of mind-blowing possibilities. In short, **we're taking drag-and-drop website building to the next level**.
+A: RapidWeaver Elements is taking RapidWeaver in a new direction. It's built from the ground up utilising the latest web technologies, meaning it’s modern, fast, and opens up a world of mind-blowing possibilities. In short, **we're taking drag-and-drop website building to the next level**.
 
 #### Q: When will RapidWeaver Elements be available?
 

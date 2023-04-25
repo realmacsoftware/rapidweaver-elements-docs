@@ -2,6 +2,7 @@
 
 * [RapidWeaver Elements](README.md)
 * [FAQ](faq.md)
+* [Error Messages](error-messages.md)
 
 ## Converting Stacks
 
