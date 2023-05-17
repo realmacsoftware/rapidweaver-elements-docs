@@ -4,6 +4,22 @@ description: Stacks conversion error messages explained
 
 # Error Messages Explained
 
+### Error Symbol Overview
+
+When converting a stack to an Element you may see one or more of the following symbols in the console.
+
+🛑 **Critical error**, the stack was not converted.
+
+⚠️ **Minor issue**, there was an issue but the stack was still converted.
+
+✅ **Success**, stack converted with no issues.
+
+
+
+### Error Messages Explained
+
+Details on specific error messages and how to reoslve them.
+
 #### `🛑 Pimary Stack Failed to Convert`
 
 The main stack failed to convert for some reason which prevented any child stack from converting. Check the error on the main stack to see what happened.
