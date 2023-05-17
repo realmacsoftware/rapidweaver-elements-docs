@@ -26,7 +26,7 @@ Using the conversion tool developers will be able to offer customers both a stac
 
 #### Q: Is the Elements language the same as the stacks language?
 
-A: Yes and No. While Elements supports the stacks language, it also has its own syntax and language enhancements that can be used while developing Elements.
+A: Yes and No. While Elements supports the stacks language, it also has its own syntax and language enhancements that can be used while converting or developing new Elements.
 
 #### Q: How do I convert my stacks to Elements?
 
