@@ -44,5 +44,3 @@ As an example, the Realmac Software website currently uses the Foundry stacks fr
 
 RapidWeaver Elements currently supports all existing RapidWeaver themes. However, at this time it does not support default page types (Contact Form, File Sharing, Photo Album, Blog, Sitemap, etc). This may change, but at this time content will need to be moved over manually.
 
-Just like some developers are porting their stacks to blocs.app, we're giving developers the tools they need to port their stacks to RapidWeaver Elements.
-
