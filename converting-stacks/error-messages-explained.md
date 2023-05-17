@@ -4,7 +4,7 @@ description: Stacks conversion error messages explained
 
 # Error Messages Explained
 
-### Error Symbol Overview
+### Error Symbols Overview
 
 When converting a stack to an Element you may see one or more of the following symbols in the console.
 
