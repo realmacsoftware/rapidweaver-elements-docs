@@ -45,3 +45,13 @@ When converting a stack to an Element you may see one or more of the following s
 ⚠️ **Minor issue**, there was an issue but the stack was still converted.
 
 ✅ **Success**, stack converted with no issues.
+
+### Stack Developer Resources
+
+We've compiled a list of official stack developer resources below
+
+* Stacks API docs: [http://api.yourhead.com/](http://api.yourhead.com/)
+* Stacks Wiki: [https://github.com/yourhead/s3/wiki](https://github.com/yourhead/s3/wiki)
+* Stacks Wiki 2: [https://gitlab.com/yourhead/stacks/-/wikis/home](https://gitlab.com/yourhead/stacks/-/wikis/home)
+* Stacks Issues: [https://gitlab.com/yourhead/stacks/-/issues](https://gitlab.com/yourhead/stacks/-/issues)
+* Sample Stack: [https://github.com/yourhead/ImageFunStack](https://github.com/yourhead/ImageFunStack)
