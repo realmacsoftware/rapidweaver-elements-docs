@@ -12,7 +12,7 @@ Element bundles are directory hierarchies, with the top-level directory having a
 
 RapidWeaver Element Packs (.rwelementpack) are highly optimised encrypted bundles compiled from an RapidWeaver Dev Pack (.rwdevpack) and ready for distribution.&#x20;
 
-RapidWeaver Dev Packs are purley for development and should not be distributed.
+RapidWeaver Dev Packs are only for development and should not be distributed.
 
 Elements should only be distributed as compiled RapidWeaver Element Packs (.rwelementpack).
 
