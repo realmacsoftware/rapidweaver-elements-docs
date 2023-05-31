@@ -6,7 +6,7 @@
 ## Elements Language
 
 * [Introduction](elements-language/introduction.md)
-* [Bundle Structure](elements-language/bundle-structure/README.md)
+* [Bundle Structure](elements-language/structure.md)
   * [info.json](elements-language/bundle-structure/info.json.md)
 
 ## Converting Stacks

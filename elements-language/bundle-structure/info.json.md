@@ -1,6 +1,10 @@
 # info.json
 
-The info.json file defines the basic information about about an Element. The file consists of a series of keys and values. [View example below](info.json.md#info.json-example).
+The info.json file outlines the basic information about an Element. The file consists of a series of keys and values. It's required for an Element to function. [View example below](info.json.md#info.json-example).
+
+### Supported Key-Value Pairs <a href="#key-value-pairs-explained" id="key-value-pairs-explained"></a>
+
+The Elements info.json file supports the following key-value pairs:
 
 #### Identifier
 
@@ -29,6 +33,22 @@ The name of the Element. This will be displayed inside of RapidWeaver. A unique 
 **`Type:`**`string`
 
 Elements are grouped inside of RapidWeaver undercollections. You can use this key to group your Elements togther.
+
+#### Build
+
+**`Key:`**`build`\
+**`Type:`**`string`
+
+The build number of an Element. The number should be an integer value, like "100". We recommend increasing the value with each release.
+
+#### Version
+
+**`Key:`**`version`\
+**`Type:`**`string`
+
+The version of an Element. We recommend the following convention (as used by many apps): _major.minor.patch. and in factice that might look like_ "1.0.0" for an initial release..
+
+
 
 ### info.json example
 
