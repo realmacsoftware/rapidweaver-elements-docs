@@ -2,10 +2,6 @@
 
 ## RapidWeaver Current Mode
 
-{% hint style="info" %}
-Available from RapidWeaver Elements Beta 5
-{% endhint %}
-
 Elements gives you access to the current RapidWeaver mode inside of conditional statements or functions.&#x20;
 
 Returns true if the current mode is edit

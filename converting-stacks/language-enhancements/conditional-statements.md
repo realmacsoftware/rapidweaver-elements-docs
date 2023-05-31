@@ -2,10 +2,6 @@
 
 ## RapidWeaver Current Mode
 
-{% hint style="info" %}
-Available from RapidWeaver Elements Beta 5
-{% endhint %}
-
 Elements gives you access to the current RapidWeaver mode inside of conditional statements or functions. This can be particularly useful for showing content in edit mode or in preview when a certain property evaluates to true.
 
 ```
