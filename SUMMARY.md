@@ -8,6 +8,7 @@
 * [Introduction](elements-language/introduction.md)
 * [Bundle Structure](elements-language/structure.md)
   * [info.json](elements-language/bundle-structure/info.json.md)
+  * [Include](elements-language/bundle-structure/include.md)
 
 ## Converting Stacks
 
