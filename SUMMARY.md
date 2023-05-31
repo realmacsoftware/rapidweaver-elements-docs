@@ -6,6 +6,7 @@
 ## Elements Language
 
 * [Introduction](elements-language/introduction.md)
+* [Structure](elements-language/structure.md)
 
 ## Converting Stacks
 
