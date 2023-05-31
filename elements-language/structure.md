@@ -31,3 +31,7 @@ An Element pack can contain multiple Elements, each Element should be placed in 
 Here's a Finder window showing the above Element layout on macOS Ventura.
 
 <figure><img src="../.gitbook/assets/CleanShot 2023-05-31 at 14.08.03@2x.png" alt=""><figcaption><p>Finder window showing the layout of a typical Element.</p></figcaption></figure>
+
+And the same Element being edited in [Visual Studio Code](https://code.visualstudio.com).
+
+<figure><img src="../.gitbook/assets/CleanShot 2023-05-31 at 14.26.45@2x.png" alt=""><figcaption><p>Editing an Element in Visual Studio Code</p></figcaption></figure>
