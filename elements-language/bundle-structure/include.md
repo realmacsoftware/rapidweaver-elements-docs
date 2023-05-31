@@ -1,3 +1,7 @@
+---
+description: Include content from another template file
+---
+
 # Include
 
 An include allows you to insert the content of another template file within the current template file.
