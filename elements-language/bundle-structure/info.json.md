@@ -1,3 +1,7 @@
+---
+description: Outline basic information about your Element
+---
+
 # info.json
 
 The info.json file outlines the basic information about an Element. The file consists of a series of keys and values. It's required for an Element to function. [View example below](info.json.md#info.json-example).

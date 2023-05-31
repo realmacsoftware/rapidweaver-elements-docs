@@ -1,5 +1,5 @@
 ---
-description: A brief introduction to the Elements templating language.
+description: A brief introduction to the Elements templating language
 ---
 
 # Introduction

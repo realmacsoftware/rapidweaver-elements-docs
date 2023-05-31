@@ -1,5 +1,5 @@
 ---
-description: An Element is a bundled folder.
+description: An Element is a bundled folder
 ---
 
 # Bundle Structure
