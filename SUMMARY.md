@@ -1,7 +1,7 @@
 # Table of contents
 
 * [RapidWeaver Elements](README.md)
-* [FAQ](faq.md)
+* [Developer FAQ](faq.md)
 
 ## Elements Language
 

@@ -1,8 +1,8 @@
 ---
-description: Frequently Asked Questions
+description: Frequently Asked Developer Questions
 ---
 
-# FAQ
+# Developer FAQ
 
 {% hint style="info" %}
 **RapidWeaver Elements is still in development,** and as such, features can and will change between now and the public launch. The below FAQ is not a guarantee on feature set or compatibility.&#x20;
