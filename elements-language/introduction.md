@@ -4,6 +4,12 @@ The Elements language allows third-party developers to create custom Elements th
 
 The only thing you need to start building your own custom Elements is a copy of RapidWeaver and a text editor. Previous web development experience is recommend, but not required.
 
+### What's Required?
+
+* A licensed developer copy RapidWeaver Elements
+* Text editor, we recommend [Visual Studio Code](https://code.visualstudio.com)
+* Icon App to comple an ICN's, we recommend [Icon Slate](https://www.kodlian.com/apps/icon-slate)
+
 {% hint style="info" %}
 The Elements language is still in development, features and documentation will be updated as development progresses.
 {% endhint %}
