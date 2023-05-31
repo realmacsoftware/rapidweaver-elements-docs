@@ -14,7 +14,7 @@ A: RapidWeaver Elements is taking RapidWeaver in a new direction. It's built fro
 
 #### Q: When will RapidWeaver Elements be available?
 
-A: RapidWeaver Elements is currently in private beta and due to launch in 2023.
+A: RapidWeaver Elements is currently in beta and due to launch publicly in 2023.
 
 #### Q: Are stacks compatible with RapidWeaver Elements?
 
@@ -28,9 +28,13 @@ Using the conversion tool developers will be able to offer customers both a stac
 
 A: Yes and No. While Elements supports the stacks language, it also has its own syntax and language enhancements that can be used while converting or developing new Elements.
 
-#### Q: How do I convert my stacks to Elements?
+#### Q:As a Developer, how do I convert my stacks to Elements?
 
 A: Developers should take a look at our [converting stacks to Elements guide](converting-stacks/how-to.md) along with [Template Overrides](converting-stacks/template-overrides.md) and the [Language Enhancements](converting-stacks/language-enhancements/) that are available.
+
+#### Q: Will end-users be able to convert stacks to Elements?
+
+A: Only the developer version of RapidWeaver will have the conversion tool enabled.
 
 #### Q: Where do I find my stacks that have been converted to Elements?
 
