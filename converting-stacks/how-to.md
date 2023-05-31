@@ -48,7 +48,7 @@ When converting a stack to an Element you may see one or more of the following s
 
 ### Stack Developer Resources
 
-We've compiled a list of official stack developer resources below
+A list of official stack developer resources:
 
 * Stacks API docs: [http://api.yourhead.com/](http://api.yourhead.com/)
 * Stacks Wiki: [https://github.com/yourhead/s3/wiki](https://github.com/yourhead/s3/wiki)
