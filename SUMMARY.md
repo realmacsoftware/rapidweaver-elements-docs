@@ -3,6 +3,10 @@
 * [RapidWeaver Elements](README.md)
 * [FAQ](faq.md)
 
+## Elements Language
+
+* [Introduction](elements-language/introduction.md)
+
 ## Converting Stacks
 
 * [How to Convert](converting-stacks/how-to.md)
