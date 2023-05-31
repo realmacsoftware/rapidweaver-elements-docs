@@ -1,8 +1,14 @@
-# Structure
+---
+description: An Element is a bundled folder.
+---
+
+# Bundle Structure
 
 ### Introduction <a href="#introduction" id="introduction"></a>
 
 Elements require a specific directory structure in order to work correctly.&#x20;
+
+Element bundles are directory hierarchies, with the top-level directory having a name that ends with a `.rwdevpack` or `.rwelementspack` extension.
 
 ### Element Structure
 

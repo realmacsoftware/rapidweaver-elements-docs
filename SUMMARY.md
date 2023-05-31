@@ -6,7 +6,7 @@
 ## Elements Language
 
 * [Introduction](elements-language/introduction.md)
-* [Bundle Structure](elements-language/bundle-structure.md)
+* [Bundle Structure](elements-language/structure.md)
 
 ## Converting Stacks
 
