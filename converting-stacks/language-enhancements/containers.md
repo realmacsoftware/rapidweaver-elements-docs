@@ -2,10 +2,6 @@
 
 ## Named Containers
 
-{% hint style="info" %}
-Available from RapidWeaver Elements Beta 6
-{% endhint %}
-
 Elements allows you to name any container within your template file giving you a consistant & reliable way to manage child items. To use a named container, add the `name` argument to a `slice` statement.
 
 ```
