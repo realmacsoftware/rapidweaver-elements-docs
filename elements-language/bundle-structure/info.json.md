@@ -8,7 +8,7 @@ The info.json file outlines the basic information about an Element. The file con
 
 ### Supported Key-Value Pairs <a href="#key-value-pairs-explained" id="key-value-pairs-explained"></a>
 
-The Elements info.json file supports the following key-value pairs:
+The Elements info.json file supports the following key-value pairs.
 
 #### Identifier
 
