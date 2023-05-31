@@ -32,7 +32,7 @@ The name of the Element. This will be displayed inside of RapidWeaver. A unique 
 **`Key:`**`group`\
 **`Type:`**`string`
 
-Elements are grouped inside of RapidWeaver undercollections. You can use this key to group your Elements togther.
+Elements are grouped in the Elements Library inside of RapidWever . You can use this key to group your Elements togther.
 
 #### Build
 
@@ -48,7 +48,14 @@ The build number of an Element. The number should be an integer value, like "100
 
 The version of an Element. We recommend the following convention (as used by many apps): _major.minor.patch. and in factice that might look like_ "1.0.0" for an initial release..
 
+#### Icon
 
+**`Key:`**`icon`\
+**`Type:`**`string`
+
+The name of the `.icns` file to be used for the icon in the Elements Library. The corresponding `.icns` file should sit in the same directory as the `info.json` file.
+
+RapidWeaver Elements will automatically look for an `.icns` file based on a key-value pair. For example; setting a value of "myIcon" would look for a file named `myIcon.icns`.
 
 ### info.json example
 
