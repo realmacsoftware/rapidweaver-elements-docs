@@ -10,6 +10,12 @@ The info.json file outlines the basic information about an Element. The file con
 
 The Elements info.json file supports the following key-value pairs.
 
+{% hint style="info" %}
+**Important:** This documentation is incomplete and missing key-value pairs.
+
+Check back soon for a complete list.
+{% endhint %}
+
 #### Identifier
 
 **`Key:`**`identifier` \
