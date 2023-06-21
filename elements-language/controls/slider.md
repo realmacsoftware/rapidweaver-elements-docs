@@ -24,7 +24,7 @@ The name of the Slider. This will be displayed beside the UI element of RapidWea
 **`Key:`**`content`\
 **`Type:`**`array`
 
-Can be used to supplay an array of values to the slider. See [code example](slider.md#slider-example)).
+Can be used to specify an array of values to the slider. See [code example](slider.md#slider-example) below.
 
 
 
