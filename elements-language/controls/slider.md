@@ -2,7 +2,7 @@
 
 A slider can be used for choosing from a range of values.
 
-### Slide Example
+### Slider Example
 
 You can use the following code as a starting point for a stepped slider with seven values.
 
