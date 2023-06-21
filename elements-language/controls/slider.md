@@ -2,6 +2,32 @@
 
 A slider can be used for choosing from a range of values.
 
+{% hint style="info" %}
+**Important:** This documentation is incomplete and missing key-value pairs.
+
+Check back soon for a complete list.
+{% endhint %}
+
+### Supported Key-Value Pairs <a href="#key-value-pairs-explained" id="key-value-pairs-explained"></a>
+
+The slider control supports the following key-value pairs.
+
+#### title
+
+**`Key:`**`title`\
+**`Type:`**`string`
+
+The name of the Slider. This will be displayed beside the UI element of RapidWeaver.
+
+#### content
+
+**`Key:`**`content`\
+**`Type:`**`array`
+
+Can be used to supplay an array of values to the slider. See [code example](slider.md#slider-example)).
+
+
+
 ### Slider Example
 
 You can use the following code as a starting point for a stepped slider with seven values.
