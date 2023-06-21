@@ -1,6 +1,10 @@
+---
+description: Access the users project settings
+---
+
 # Site Properties
 
-Site properties can be accessed from all templates files.
+The users site site settings can be accessed as properties from all templates files.
 
 
 
