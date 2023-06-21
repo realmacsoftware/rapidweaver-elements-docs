@@ -9,6 +9,8 @@
 * [Bundle Structure](elements-language/structure.md)
   * [info.json](elements-language/bundle-structure/info.json.md)
   * [Include](elements-language/bundle-structure/include.md)
+* [Controls](elements-language/controls/README.md)
+  * [Slider](elements-language/controls/slider.md)
 
 ## Converting Stacks
 
