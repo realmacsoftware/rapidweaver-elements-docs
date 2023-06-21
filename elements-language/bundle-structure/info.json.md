@@ -67,7 +67,7 @@ The name of the `.icns` file to be used for the icon in the Elements Library. Th
 
 RapidWeaver Elements will automatically look for an `.icns` file based on a key-value pair. For example; setting a value of "myIcon" would look for a file named `myIcon.icns`.
 
-### info.json example
+### info.json Example
 
 You can use the following code as a starting point for your own info.json file.
 
