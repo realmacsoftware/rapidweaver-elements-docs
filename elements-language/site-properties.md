@@ -13,7 +13,7 @@ The users site site settings can be accessed as properties from all templates fi
 Plain text value.
 
 ```
-%id=rw:projectTitle%
+%rw:projectTitle%
 ```
 
 **Slogan**&#x20;
@@ -21,7 +21,7 @@ Plain text value.
 Plain text value.
 
 ```
-%id=rw:projectSlogan%
+%rw:projectSlogan%
 ```
 
 **Footer**
@@ -29,7 +29,7 @@ Plain text value.
 Plain text value.
 
 ```
-%id=rw:projectFooter%
+%rw:projectFooter%
 ```
 
 **Email**
@@ -37,7 +37,7 @@ Plain text value.
 Plain text value.
 
 ```
-%id=rw:projectEmail%
+%rw:projectEmail%
 ```
 
 **Contact Text**
@@ -45,7 +45,7 @@ Plain text value.
 Plain text value.
 
 ```
-%id=rw:projectContactText%
+%rw:projectContactText%
 ```
 
 **Base URL**
@@ -53,7 +53,7 @@ Plain text value.
 Plain text value.
 
 ```
-%id=rw:projectBaseURL%
+%rw:projectBaseURL%
 ```
 
 **Enable Social Tags**
@@ -61,7 +61,7 @@ Plain text value.
 Bool, returns a string of "True" or "False".
 
 ```
-%id=rw:projectEnableSocialTags%
+%rw:projectEnableSocialTags%
 ```
 
 **Twitter Account**
@@ -69,7 +69,7 @@ Bool, returns a string of "True" or "False".
 Plain text value.
 
 ```
-%id=rw:projectTwitterAccount%
+%rw:projectTwitterAccount%
 ```
 
 **Project Language**
@@ -77,7 +77,7 @@ Plain text value.
 Plain text value.
 
 ```
-%id=rw:projectLanguage%
+%rw:projectLanguage%
 ```
 
 **Banner URL**
@@ -85,7 +85,7 @@ Plain text value.
 Plan text value.
 
 ```
-%id=rw:projectBannerURL%<
+%rw:projectBannerURL%<
 ```
 
 **Banner Alt Text**
@@ -93,7 +93,7 @@ Plan text value.
 Plan text value.
 
 ```
-%id=rw:projectBannerAltText%
+%rw:projectBannerAltText%
 ```
 
 **Logo URL**
@@ -101,7 +101,7 @@ Plan text value.
 Plan text value.
 
 ```
-%id=rw:projectLogoURL%
+%rw:projectLogoURL%
 ```
 
 **Logo Alt Text**
@@ -109,7 +109,7 @@ Plan text value.
 Plan text value.
 
 ```
-%id=rw:projectLogoAltText%
+%rw:projectLogoAltText%
 ```
 
 ### Code Example
@@ -117,7 +117,7 @@ Plan text value.
 The following example outputs the project title and slogan.
 
 ```
-<H1>%id=rw:projectTitle%</h1>
-<h2>%id=rw:projectSlogan%</h2>
+<H1>%rw:projectTitle%</h1>
+<h2>%rw:projectSlogan%</h2>
 ```
 
