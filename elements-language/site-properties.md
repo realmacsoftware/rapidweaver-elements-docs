@@ -85,7 +85,7 @@ Plain text value.
 Plan text value.
 
 ```
-%rw:projectBannerURL%<
+%rw:projectBannerURL%
 ```
 
 **Banner Alt Text**
