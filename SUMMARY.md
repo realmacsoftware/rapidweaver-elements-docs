@@ -14,6 +14,7 @@
 * [Template Variables](elements-language/template-variables/README.md)
   * [Basic](elements-language/template-variables/basic/README.md)
     * [Plain Text](elements-language/template-variables/basic/plain-text.md)
+    * [Rich Text](elements-language/template-variables/basic/rich-text.md)
   * [Properties](elements-language/template-variables/properties/README.md)
     * [Site Properties](elements-language/template-variables/properties/site-properties.md)
 
