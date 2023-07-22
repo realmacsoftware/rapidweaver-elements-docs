@@ -1,6 +1,6 @@
 # Plain Text
 
-An editable plain text area.
+An editable HTML / plain text area.
 
 ```
 %html%
@@ -19,3 +19,4 @@ The code below shows an editable plain text variable inside of an h1 tag, along 
 ```
 <h1>%html="Hello World"%</h1>
 ```
+

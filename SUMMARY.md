@@ -6,14 +6,16 @@
 ## Elements Language
 
 * [Introduction](elements-language/introduction.md)
-* [Site Properties](elements-language/site-properties.md)
 * [Bundle Structure](elements-language/structure.md)
   * [info.json](elements-language/bundle-structure/info.json.md)
   * [Include](elements-language/bundle-structure/include.md)
 * [Controls](elements-language/controls/README.md)
   * [Slider](elements-language/controls/slider.md)
 * [Template Variables](elements-language/template-variables/README.md)
-  * [Plain Text](elements-language/template-variables/plain-text.md)
+  * [Basic](elements-language/template-variables/basic/README.md)
+    * [Plain Text](elements-language/template-variables/basic/plain-text.md)
+  * [Properties](elements-language/template-variables/properties/README.md)
+    * [Site Properties](elements-language/template-variables/properties/site-properties.md)
 
 ## Converting Stacks
 
