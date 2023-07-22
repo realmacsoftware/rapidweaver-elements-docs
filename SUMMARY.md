@@ -12,6 +12,8 @@
   * [Include](elements-language/bundle-structure/include.md)
 * [Controls](elements-language/controls/README.md)
   * [Slider](elements-language/controls/slider.md)
+* [Template Variables](elements-language/template-variables/README.md)
+  * [Plain Text](elements-language/template-variables/plain-text.md)
 
 ## Converting Stacks
 
