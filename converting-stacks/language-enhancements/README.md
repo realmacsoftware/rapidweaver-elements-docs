@@ -12,10 +12,6 @@ You can take advantage of the language additions below when using the [Templates
 [containers.md](containers.md)
 {% endcontent-ref %}
 
-{% content-ref url="format.md" %}
-[format.md](format.md)
-{% endcontent-ref %}
-
 {% content-ref url="functions.md" %}
 [functions.md](functions.md)
 {% endcontent-ref %}

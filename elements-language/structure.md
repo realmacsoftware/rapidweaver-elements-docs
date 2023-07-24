@@ -27,15 +27,15 @@ An Element pack can contain multiple Elements, each Element should be placed in 
 * **HelloWorld.rwdevpack** (bundle)
   * **elements** (folder)
     * **com.realmac.elementpack.helloworld** (folder)
-      * hooks.js
+      * [hooks.js](bundle-structure/hooks.md)
       * **icon.icns**
-      * **info.json**
+      * [**info.json**](bundle-structure/info.json.md)
       * properties.json
       * **templates** (folder)
         * **each** (folder)
           * **index.html**
           * styles.css
-        * include (folder)
+        * [include](bundle-structure/include.md) (folder)
           * extra.html
         * page (folder)
           * page.html

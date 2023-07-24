@@ -21,7 +21,6 @@
 * [Language](converting-stacks/language-enhancements/README.md)
   * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
   * [Containers](converting-stacks/language-enhancements/containers.md)
-  * [Format](converting-stacks/language-enhancements/format.md)
   * [Functions](converting-stacks/language-enhancements/functions.md)
 
 ## Converting Stacks
