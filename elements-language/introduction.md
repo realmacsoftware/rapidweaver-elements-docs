@@ -17,7 +17,7 @@ The only thing you need to start building your own custom Elements is a copy of 
 ### What's Required?
 
 * A licensed developer copy RapidWeaver Elements.
-* Text editor, we recommend [Visual Studio Code](https://code.visualstudio.com) or [Nova from Panic](https://nova.app).
+* Text editor, we recommend [Visual Studio Code](https://code.visualstudio.com).
 * Icon App to comple an ICN's, we recommend [Icon Slate](https://www.kodlian.com/apps/icon-slate).
 
 ### Developer Community
