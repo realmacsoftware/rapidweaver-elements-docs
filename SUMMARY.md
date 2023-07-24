@@ -25,10 +25,10 @@
 * [Identify Encrypted stacks](converting-stacks/encrypted-stacks.md)
 * [Template Overrides](converting-stacks/template-overrides.md)
 * [Language Enhancements](converting-stacks/language-enhancements/README.md)
-  * [Format](converting-stacks/language-enhancements/format.md)
-  * [Functions](converting-stacks/language-enhancements/functions.md)
   * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
   * [Containers](converting-stacks/language-enhancements/containers.md)
+  * [Format](converting-stacks/language-enhancements/format.md)
+  * [Functions](converting-stacks/language-enhancements/functions.md)
 * [Error Messages Explained](converting-stacks/error-messages-explained.md)
 
 ## Branding
