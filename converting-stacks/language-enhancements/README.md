@@ -1,6 +1,6 @@
 # Language Enhancements
 
-The Elements templating language offers stacks developers backwards compatibility with the stacks language along with several major advancements.
+The Elements templating language offers developers backwards compatibility with the stacks language along with several major advancements.
 
 You can take advantage of the language additions below when using the [Templates Overrides](../template-overrides.md) feature.
 
@@ -15,3 +15,4 @@ You can take advantage of the language additions below when using the [Templates
 {% content-ref url="containers.md" %}
 [containers.md](containers.md)
 {% endcontent-ref %}
+
