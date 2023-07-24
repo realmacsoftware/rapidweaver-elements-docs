@@ -18,17 +18,17 @@
     * [Rich Text](elements-language/template-variables/basic/rich-text.md)
   * [Properties](elements-language/template-variables/properties/README.md)
     * [Site Properties](elements-language/template-variables/properties/site-properties.md)
+* [Language](elements-language/language-enhancements/README.md)
+  * [Conditional Statements](elements-language/language-enhancements/conditional-statements.md)
+  * [Containers](elements-language/language-enhancements/containers.md)
+  * [Format](elements-language/language-enhancements/format.md)
+  * [Functions](elements-language/language-enhancements/functions.md)
 
 ## Converting Stacks
 
 * [How to Convert](converting-stacks/how-to.md)
 * [Identify Encrypted stacks](converting-stacks/encrypted-stacks.md)
 * [Template Overrides](converting-stacks/template-overrides.md)
-* [Language Enhancements](converting-stacks/language-enhancements/README.md)
-  * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
-  * [Containers](converting-stacks/language-enhancements/containers.md)
-  * [Format](converting-stacks/language-enhancements/format.md)
-  * [Functions](converting-stacks/language-enhancements/functions.md)
 * [Error Messages Explained](converting-stacks/error-messages-explained.md)
 
 ## Branding
