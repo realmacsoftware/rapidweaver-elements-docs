@@ -8,7 +8,7 @@
 * [Introduction](elements-language/introduction.md)
 * [Bundle Structure](elements-language/structure.md)
   * [info.json](elements-language/bundle-structure/info.json.md)
-  * [hooks.js](elements-language/bundle-structure/hooks.js.md)
+  * [Hooks](elements-language/bundle-structure/hooks.md)
   * [Include](elements-language/bundle-structure/include.md)
 * [Controls](elements-language/controls/README.md)
   * [Slider](elements-language/controls/slider.md)
