@@ -3,14 +3,14 @@
 A slider can be used for choosing from a range of values.
 
 {% hint style="info" %}
-**Important:** This documentation is incomplete and missing key-value pairs.
+**Important:** This documentation is incomplete and missing options.
 
 Check back soon for a complete list.
 {% endhint %}
 
-### Supported Key-Value Pairs <a href="#key-value-pairs-explained" id="key-value-pairs-explained"></a>
+### Supported Options <a href="#key-value-pairs-explained" id="key-value-pairs-explained"></a>
 
-The slider control supports the following key-value pairs.
+The slider control supports the following options.
 
 #### title
 
