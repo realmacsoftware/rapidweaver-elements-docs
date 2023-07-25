@@ -19,6 +19,13 @@ The slider control supports the following options.
 
 The name of the Slider. This will be displayed beside the UI element of RapidWeaver.
 
+#### property
+
+**`Key:`**`property`\
+**`Type:`**`string`
+
+The name of the property set by this control.
+
 #### content
 
 **`Key:`**`content`\

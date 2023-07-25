@@ -24,7 +24,7 @@ The name of the Slider. This will be displayed beside the UI element of RapidWea
 **`Key:`**`property`\
 **`Type:`**`string`
 
-The name of the property
+The name of the property set by this control.
 
 #### format
 
