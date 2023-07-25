@@ -1,8 +1,8 @@
 # Radio Buttons
 
-Radio Buttons can be used to choose a value from an array of values.
+Radio Buttons can be used to show several buttons where only one button is active at a time. Selecting another button will deselect the currently active button. The property always contains the value from the active button. A format may be added to apply additional formatting on the value. Only one default should be set.
 
-
+Example radio button configuration
 
 ```
 {
