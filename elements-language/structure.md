@@ -28,7 +28,7 @@ An Element pack can contain multiple Elements, each Element should be placed in 
   * **elements** (folder)
     * **com.realmac.elementpack.helloworld** (folder)
       * [hooks.js](bundle-structure/hooks.md)
-      * **icon.icns**
+      * [**icon.icns**](bundle-structure/icons.md)
       * [**info.json**](bundle-structure/info.json.md)
       * properties.json
       * **templates** (folder)
