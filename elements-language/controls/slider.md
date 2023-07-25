@@ -26,6 +26,13 @@ The name of the Slider. This will be displayed beside the UI element of RapidWea
 
 The name of the property set by this control.
 
+#### default
+
+**`Key:`**`default`\
+**`Type:`**`string, number, bool`
+
+The initial value of this control
+
 #### content
 
 **`Key:`**`content`\
