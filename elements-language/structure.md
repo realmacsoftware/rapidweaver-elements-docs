@@ -29,7 +29,10 @@ An Element pack can contain multiple Elements, each Element should be placed in 
     * **com.realmac.elementpack.helloworld** (folder)
       * [hooks.js](bundle-structure/hooks.md)
       * [**icon.icns**](bundle-structure/icons.md)
+      * icon-dark.icns
       * [**info.json**](bundle-structure/info.json.md)
+      * paletteIcon.png
+      * paletteIcon-dark.png
       * properties.json
       * **templates** (folder)
         * **each** (folder)
