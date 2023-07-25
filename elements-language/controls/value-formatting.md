@@ -2,7 +2,7 @@
 
 ## Value Formatting
 
-In some cases, it's adventagous to add additional formatting around a value before it's used in the templates. To achieve this, add a "format" property to the configuration specifying the format string.&#x20;
+In some cases, it's adventagous to add additional formatting around a value before it's used in the templates. To achieve this, add a "format" property to the configuration specifying the format string. Value formatting is support by all controls.
 
 For example, the following creates a slider ranging from 0-12 with a property called `padding`
 
