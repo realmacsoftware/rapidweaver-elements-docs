@@ -14,6 +14,7 @@
 * [Controls](elements-language/controls/README.md)
   * [Radio Buttons](elements-language/controls/radio-buttons.md)
   * [Slider](elements-language/controls/slider.md)
+  * [Value Formatting](elements-language/controls/value-formatting.md)
 * [Template Variables](elements-language/template-variables/README.md)
   * [Basic](elements-language/template-variables/basic/README.md)
     * [Plain Text](elements-language/template-variables/basic/plain-text.md)

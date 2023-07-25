@@ -33,6 +33,13 @@ The name of the property set by this control.
 
 The initial value of this control
 
+#### format
+
+**`Key:`**`format`\
+**`Type:`**`string`
+
+Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](value-formatting.md) for more information.
+
 #### content
 
 **`Key:`**`content`\
