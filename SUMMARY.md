@@ -12,6 +12,7 @@
   * [Hooks](elements-language/bundle-structure/hooks.md)
   * [Include](elements-language/bundle-structure/include.md)
 * [Controls](elements-language/controls/README.md)
+  * [Radio Buttons](elements-language/controls/radio-buttons.md)
   * [Slider](elements-language/controls/slider.md)
 * [Template Variables](elements-language/template-variables/README.md)
   * [Basic](elements-language/template-variables/basic/README.md)
