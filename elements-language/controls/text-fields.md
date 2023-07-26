@@ -1,4 +1,4 @@
-# Text Fields
+# Text Field
 
 A text field can be used for freeform text input.
 
