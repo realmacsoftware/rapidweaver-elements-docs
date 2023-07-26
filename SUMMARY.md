@@ -12,6 +12,7 @@
   * [Hooks](elements-language/bundle-structure/hooks.md)
   * [Include](elements-language/bundle-structure/include.md)
 * [Controls](elements-language/controls/README.md)
+  * [Text Fields](elements-language/controls/text-fields.md)
   * [Radio Buttons](elements-language/controls/radio-buttons.md)
   * [Slider](elements-language/controls/slider.md)
   * [Value Formatting](elements-language/controls/value-formatting.md)
