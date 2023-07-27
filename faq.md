@@ -30,7 +30,7 @@ A: Yes and No. While Elements supports the stacks language, it also has its own 
 
 #### Q:As a Developer, how do I convert my stacks to Elements?
 
-A: Developers should take a look at our [converting stacks to Elements guide](elements-language/porting-stacks/how-to.md) along with [Template Overrides](elements-language/porting-stacks/template-overrides.md) and the [Language Enhancements](converting-stacks/language-enhancements/) that are available.
+A: Developers should take a look at our [converting stacks to Elements guide](template-language/porting-stacks/how-to.md) along with [Template Overrides](template-language/porting-stacks/template-overrides.md) and the [Language Enhancements](template-language/language-enhancements/) that are available.
 
 #### Q: Will end-users be able to convert stacks to Elements?
 
