@@ -16,13 +16,6 @@ The Elements info.json file supports the following key-value pairs.
 Check back soon for a complete list.
 {% endhint %}
 
-#### Framework
-
-**`Key:`**`framework` \
-**`Type:`**`string`
-
-Elements are grouped in the Elements Catalogue inside of RapidWever . You can use this key to group Elements from the same Framework togther.
-
 #### Identifier
 
 **`Key:`**`identifier` \
@@ -95,6 +88,13 @@ A URL to the location of the marketing page online.
 
 The URL to redirect users to when this Element is uninstalled or missing.
 
+#### Framework
+
+**`Key:`**`framework` \
+**`Type:`**`string`
+
+Elements are grouped in the Elements Catalogue inside of RapidWever . You can use this key to group Elements from the same Framework togther.
+
 ### info.json Example
 
 You can use the following code as a starting point for your own info.json file.
@@ -106,7 +106,6 @@ You can use the following code as a starting point for your own info.json file.
   "title": "Hello World",
   "group": "Fun",
   "build": "001",
-  "framework": "MyAwesomeFramwork",
   "version": "0.0.1",
   "icon": "icon"
 }

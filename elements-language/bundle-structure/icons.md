@@ -6,8 +6,6 @@ At a bare minumim you'll want to include an "icon.icns" file, this icns file can
 We recommend [Icon Slate](https://www.kodlian.com/apps/icon-slate) to compile .icns files.
 {% endhint %}
 
-Your main icon.icns file should be named in the Elements info.plist.&#x20;
-
 * **icon.icns (Required)**
 * icon-dark.icns (optional)
 * paletteIcon.png (optional)
