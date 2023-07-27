@@ -10,7 +10,7 @@
   * [Text](user-guide/classic-elements/text.md)
   * [ExtraContent](user-guide/classic-elements/extracontent.md)
 
-## Template Language
+## 🛠 Template Language
 
 * [Introduction](elements-language/introduction.md)
 * [Bundle Structure](elements-language/structure.md)
