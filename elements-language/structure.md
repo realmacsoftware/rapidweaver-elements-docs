@@ -27,10 +27,10 @@ An Element pack can contain multiple Elements, each Element should be placed in 
 * **HelloWorld.rwdevpack** (bundle)
   * **elements** (folder)
     * **com.realmac.elementpack.helloworld** (folder)
-      * [hooks.js](hooks.md)
-      * [**icon.icns**](icons.md)
+      * [hooks.js](bundle-structure/hooks.md)
+      * [**icon.icns**](bundle-structure/icons.md)
       * icon-dark.icns
-      * [**info.json**](info.json.md)
+      * [**info.json**](bundle-structure/info.json.md)
       * paletteIcon.png
       * paletteIcon-dark.png
       * properties.json
@@ -38,15 +38,15 @@ An Element pack can contain multiple Elements, each Element should be placed in 
         * **each** (folder)
           * **index.html**
           * styles.css
-        * [include](include.md) (folder)
+        * [include](bundle-structure/include.md) (folder)
           * extra.html
         * page (folder)
           * page.html
 
 Here's a Finder window showing the above Element layout on macOS Ventura.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-05-31 at 14.08.03@2x.png" alt=""><figcaption><p>Finder window showing the layout of a typical Element.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2023-05-31 at 14.08.03@2x.png" alt=""><figcaption><p>Finder window showing the layout of a typical Element.</p></figcaption></figure>
 
 And the same Element being edited in [Visual Studio Code](https://code.visualstudio.com).
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-05-31 at 14.26.45@2x.png" alt=""><figcaption><p>Editing an Element in Visual Studio Code</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2023-05-31 at 14.26.45@2x.png" alt=""><figcaption><p>Editing an Element in Visual Studio Code</p></figcaption></figure>

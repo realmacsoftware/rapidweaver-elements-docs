@@ -6,7 +6,7 @@ description: Include content from another template file
 
 An include allows you to insert the content of another template file within the current template file.
 
-Include files should be stored in the "include" directory. Refer to the [Bundle Structure](./) for more information.
+Include files should be stored in the "include" directory. Refer to the [Bundle Structure](../structure.md) for more information.
 
 Suppose you have the following template files in your include folder:
 
