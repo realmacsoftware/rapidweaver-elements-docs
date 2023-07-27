@@ -7,6 +7,7 @@
 
 * [Elements](user-guide/elements.md)
 * [Classic Elements](user-guide/classic-elements/README.md)
+  * [Text](user-guide/classic-elements/text.md)
   * [ExtraContent](user-guide/classic-elements/extracontent.md)
 
 ## Template Language

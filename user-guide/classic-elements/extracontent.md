@@ -26,5 +26,5 @@ You can learn more about the history and use cases of ExtraContent below.&#x20;
 * [ExtraContentPlus](https://stacks4stacks.com/extracontentplus/) (not yet available in Elements)
 
 {% hint style="info" %}
-Special thanks to [Will Woodgate from ThemeFlood](https://themeflood.com/about/) for keeping information about ExtraContent content online and alive for all these years 🫡
+Special thanks to [Will Woodgate from ThemeFlood](https://themeflood.com/about/) for keeping information about ExtraContent online and alive for all these years 🫡
 {% endhint %}
