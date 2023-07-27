@@ -5,8 +5,9 @@
 
 ## 📖 User Guide
 
-* [Elements](user-guide/elements/README.md)
-  * [ExtraContent](user-guide/elements/extracontent.md)
+* [Elements](user-guide/elements.md)
+* [Classic Elements](user-guide/classic-elements/README.md)
+  * [ExtraContent](user-guide/classic-elements/extracontent.md)
 
 ## Template Language
 
