@@ -2,6 +2,12 @@
 
 * [RapidWeaver Elements](README.md)
 * [Developer FAQ](faq.md)
+* [Page](page.md)
+
+## 📖 User Guide
+
+* [Elements](user-guide/elements/README.md)
+  * [ExtraContent](user-guide/elements/extracontent.md)
 
 ## Elements Language
 
