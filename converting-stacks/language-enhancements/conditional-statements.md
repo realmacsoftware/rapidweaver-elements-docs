@@ -15,10 +15,6 @@ Elements gives you access to the current RapidWeaver mode inside of conditional 
 
 ## Else If Statements
 
-{% hint style="info" %}
-Available from RapidWeaver Elements Beta 5
-{% endhint %}
-
 Elements allows you to specify a number of else if statements to run before falling back to the else block. An `elseif` statement works just like a regular `if` statement and follows the same syntax.
 
 ```
