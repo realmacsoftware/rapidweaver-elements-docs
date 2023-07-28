@@ -119,5 +119,41 @@ The following example outputs the project title and slogan.
 ```
 <H1>%rw:projectTitle%</h1>
 <h2>%rw:projectSlogan%</h2>
+
+<ul>
+  <li>
+    <strong>projectFooter:</strong> %rw:projectFooter%
+  </li>
+  <li>
+    <strong>projectEmail:</strong> %rw:projectEmail%
+  </li>
+  <li>
+    <strong>projectContactText:</strong> %rw:projectContactText%
+  </li>
+  <li>
+    <strong>projectBaseURL:</strong> %rw:projectBaseURL%
+  </li>
+  <li>
+    <strong>projectEnableSocialTags:</strong> %rw:projectEnableSocialTags%
+  </li>
+  <li>
+    <strong>projectTwitterAccount:</strong> %rw:projectTwitterAccount%
+  </li>
+  <li>
+    <strong>projectLanguage:</strong> %rw:projectLanguage%
+  </li>
+  <li>
+    <strong>projectBannerURL:</strong> %rw:projectBannerURL%
+  </li>
+  <li>
+    <strong>projectBannerAltText:</strong> %rw:projectBannerAltText%
+  </li>
+  <li>
+    <strong>projectLogoURL:</strong> %rw:projectLogoURL%
+  </li>
+  <li>
+    <strong>projectLogoAltText:</strong> %rw:projectLogoAltText%
+  </li>
+</ul>
 ```
 
