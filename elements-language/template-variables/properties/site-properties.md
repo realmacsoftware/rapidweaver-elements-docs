@@ -114,7 +114,7 @@ Plan text value.
 
 ### Code Example
 
-The following example outputs the project title and slogan.
+The following example outputs the project title and slogan along with a list of all supported properties.
 
 ```
 <H1>%rw:projectTitle%</h1>
