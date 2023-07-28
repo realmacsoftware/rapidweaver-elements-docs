@@ -10,13 +10,13 @@ Element bundles are directory hierarchies, with the top-level directory having a
 
 ### Distributing Element Packs
 
-RapidWeaver Element Packs (.rwelementpack) are highly optimised encrypted bundles compiled from an RapidWeaver Dev Pack (.rwdevpack) and ready for distribution.&#x20;
+RapidWeaver Element Packs (.rwelementpack) are highly optimised encrypted bundles compiled from an RapidWeaver Dev Pack (.rwdevpack) and ready for distribution. Use the dev tools inside of RapidWeaver to convert from a DevPack into a compiled Element Pack.
 
 RapidWeaver Dev Packs are only for development and should not be distributed.
 
 Elements should only be distributed as compiled RapidWeaver Element Packs (.rwelementpack).
 
-### Dev Element Bundle Structure
+### Dev Pack Bundle Structure
 
 The following outlines the folder structure supported by elements — Only **bold items are required** for a basic Element to function inside of RapidWeaver.
 
@@ -50,3 +50,15 @@ Here's a Finder window showing the above Element layout on macOS Ventura.
 And the same Element being edited in [Visual Studio Code](https://code.visualstudio.com).
 
 <figure><img src="../.gitbook/assets/CleanShot 2023-05-31 at 14.26.45@2x.png" alt=""><figcaption><p>Editing an Element in Visual Studio Code</p></figcaption></figure>
+
+### Dev Pack with Multiple Elements
+
+An Element pack can have multiple addons inside of it, here's an example of that structure:
+
+**WebWorld.rwdevpack** (bundle)
+
+* **elements** (folder)
+  * [**info.json**](bundle-structure/info.json.md)
+  * **com.realmac.elementpack.helloworld** (folder)
+  * **com.realmac.elementpack.goodbyeworld** (folder)
+
