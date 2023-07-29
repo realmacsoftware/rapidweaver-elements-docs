@@ -16,6 +16,8 @@ The only thing you need to start building your own custom Elements is a copy of 
 
 ### What's Required?
 
+The following is a list of suggested tools to make developing Elements easier.
+
 * A licensed developer copy RapidWeaver Elements.
 * Text editor, we recommend [Visual Studio Code](https://code.visualstudio.com).
   * [RapidWeaver Elements Syntax Highlighting](https://github.com/realmacsoftware/rapidweaver-elements-syntax-highlighting) for Visual Studio Code.&#x20;
