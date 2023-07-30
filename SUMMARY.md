@@ -23,6 +23,7 @@
   * [Divider](template-language/ui-controls/divider.md)
   * [Information](template-language/ui-controls/information.md)
   * [Radio Buttons](template-language/ui-controls/radio-buttons.md)
+  * [Link](template-language/ui-controls/link.md)
   * [Slider](template-language/ui-controls/slider.md)
   * [Text Field](template-language/ui-controls/text-field.md)
   * [Value Formatting](template-language/ui-controls/value-formatting.md)
