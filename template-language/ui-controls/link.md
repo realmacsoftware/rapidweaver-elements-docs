@@ -18,3 +18,9 @@ The control allows users to input a URL or link to another page within the site.
   ]
 }
 ```
+
+### Template Example
+
+```
+<a href="%id=link.href%" target="%id=link.target%>Click Me</a>
+```
