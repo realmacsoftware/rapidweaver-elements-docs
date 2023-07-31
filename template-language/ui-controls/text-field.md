@@ -84,9 +84,51 @@ The following code example displays a multi-line text box.
             }
       ],
     }]
-    
 }
 ```
 
 
 
+### Named Properties
+
+If you would like the ability to reference an input directly you can add a `property` key like so:
+
+```
+{
+    "groups": [        
+      {
+        "title" : "Section Title",
+        "properties" : [
+            {
+                "title": "Text Fields",
+                "property": "MyTextField",
+                "inputs" : {
+                    "items" : [{
+                        "property" : "Name",
+                        "default" : "Mario"
+                    }, {
+                        "property" : "Occupation",
+                        "default" : "Plumber"
+                    }]
+                }
+            }
+      ],
+    }]
+}
+```
+
+This allows you to use `%id=Name%` and `%id=Occupation%` in your template files, rather than needing to referencing the index of your property.
+
+#### Named Property Example
+
+```
+file: templates/each/index.html
+---
+<!-- With Named Properties -->
+<h1>%id=Name%</h1>
+<h2>%id=Occupation%</h2>
+
+<!-- Without Named Properties -->
+<h1>%id=MyTextField[0]%</h1>
+<h2>%id=MyTextField[1]%</h2>
+```
