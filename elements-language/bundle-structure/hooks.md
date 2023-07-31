@@ -28,7 +28,7 @@ in template.html
 <p><strong>%id=obj.name%</strong> - %id=obj.job.title%</p>
 ```
 
-The rendered out put would look something like this:
+The rendered output would look something like this:
 
 **Mario** - Plumber
 
