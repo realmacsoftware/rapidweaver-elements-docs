@@ -12,42 +12,12 @@ Check back soon for a complete list.
 
 The slider control supports the following options.
 
-#### title
-
-**`Key:`**`title`\
-**`Type:`**`string`
-
-The name of the Slider. This will be displayed beside the UI element of RapidWeaver.
-
-#### property
-
-**`Key:`**`property`\
-**`Type:`**`string`
-
-The name of the property set by this control.
-
-#### default
-
-**`Key:`**`default`\
-**`Type:`**`string, number, bool`
-
-The initial value of this control
-
-#### format
-
-**`Key:`**`format`\
-**`Type:`**`string`
-
-Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](value-formatting.md) for more information.
-
-#### content
-
-**`Key:`**`content`\
-**`Type:`**`array`
-
-Can be used to specify an array of values to the slider. See [code example](slider.md#slider-example) below.
-
-
+| Key        | Type   | Notes                                                                                                                                                                            |
+| ---------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `title`    | string | The name of the Slider. This will be displayed beside the UI element of RapidWeaver                                                                                              |
+| `property` | string | The name of the property set by this control.                                                                                                                                    |
+| `format`   | string | Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](value-formatting.md) for more information. |
+| `content`  | array  | Can be used to specify an array of values to the slider. See [code example](slider.md#slider-example) below.                                                                     |
 
 ### Slider Example
 
