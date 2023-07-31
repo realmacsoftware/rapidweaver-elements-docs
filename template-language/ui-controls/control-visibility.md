@@ -2,7 +2,7 @@
 description: Show and hide controls based on another control's value.
 ---
 
-# Control Visibility
+# Visibility
 
 You can modify the visibility of each control by checking the value of another control's value.
 
