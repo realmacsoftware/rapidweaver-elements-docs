@@ -34,6 +34,7 @@ An Element pack can contain multiple Elements, each Element should be placed in 
       * paletteIcon.png
       * paletteIcon-dark.png
       * properties.json
+      * assets (folder)
       * **templates** (folder)
         * **each** (folder)
           * **index.html**
