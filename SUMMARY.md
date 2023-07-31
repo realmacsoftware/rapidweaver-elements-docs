@@ -27,7 +27,7 @@
   * [Slider](template-language/ui-controls/slider.md)
   * [Text Field](template-language/ui-controls/text-field.md)
   * [Value Formatting](template-language/ui-controls/value-formatting.md)
-  * [Control Visibility](template-language/ui-controls/control-visibility.md)
+  * [Visibility](template-language/ui-controls/visibility.md)
 * [Template Variables](elements-language/template-variables/README.md)
   * [Basic](elements-language/template-variables/basic/README.md)
     * [Plain Text](elements-language/template-variables/basic/plain-text.md)
