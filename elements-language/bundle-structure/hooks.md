@@ -6,6 +6,34 @@ description: A powerful and flexible way to extend Elements
 
 Hooks are an incredibly powerful way to extend your Elements, performing heavy manipulations on properties before using them in your templates. Every Element can specify it's own hooks Javascript file, named `hooks.js` and placed in the root directory of the element.
 
+### Setting Values
+
+in hooks.js
+
+```
+// Set values in the context
+context.setValues({
+    "obj": {
+        "name" : "Mario",
+        "job" : {
+            "title" : "Plumber"
+        }
+    }
+})
+```
+
+in template.html
+
+```
+<p><strong>%id=obj.name%</strong> - %id=obj.job.title%</p>
+```
+
+The rendered out put would look something like this:
+
+**Mario** - Plumber
+
+
+
 ### Transform Hook
 
 The transform hook allows you to get and set property values before they're used in templates. Let's assume you have the following slider defined in your properties and you're using the value in a template.
