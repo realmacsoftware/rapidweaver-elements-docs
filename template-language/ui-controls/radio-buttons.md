@@ -12,70 +12,23 @@ Check back soon for a complete list.
 
 The radio buttons control supports the following options.
 
-#### title
+| Key             | Type   | Notes                                                                                                                                                                            |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `buttons`       | object | An object describing the type of buttons and available items.                                                                                                                    |
+| `buttons.items` | array  | An array of buttons to display. See the [Button Items option](radio-buttons.md#button-items-options) table below                                                                 |
+| `buttons.style` | string | Should be set to `radio` to enable radio functionality.                                                                                                                          |
+| `format`        | string | Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](value-formatting.md) for more information. |
+| `property`      | string | The name of the property set by this control.                                                                                                                                    |
+| `title`         | string | The name of the Slider. This will be displayed beside the UI element of RapidWeaver.                                                                                             |
 
-**`Key:`**`title`\
-**`Type:`**`string`
+### Button Items Options
 
-The name of the Slider. This will be displayed beside the UI element of RapidWeaver.
-
-#### property
-
-**`Key:`**`property`\
-**`Type:`**`string`
-
-The name of the property set by this control.
-
-#### format
-
-**`Key:`**`format`\
-**`Type:`**`string`
-
-Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](value-formatting.md) for more information.
-
-#### buttons.style
-
-**`Key:`**`style`\
-**`Type:`**`string`
-
-Should be set to `radio` to enable radio functionality.
-
-#### buttons.items
-
-**`Key:`**`items`\
-**`Type:`**`array`
-
-An array of buttons to display. Each button can be configured with the following options.
-
-### Button Options <a href="#key-value-pairs-explained" id="key-value-pairs-explained"></a>
-
-#### subtitle
-
-**`Key:`**`subtitle`\
-**`Type:`**`string`
-
-A subtitle to display next to the button.
-
-#### value
-
-**`Key:`**`value`\
-**`Type:`**`string`
-
-The value the button represents. The property will be set to this value when the button is active.
-
-#### icon
-
-**`Key:`**`icon`\
-**`Type:`**`string`
-
-Name of the icon to show on the button. Can be any icon from the Font Awesome 4 library.
-
-#### default
-
-**`Key:`**`default`\
-**`Type:`**`bool`
-
-Set to true if this is the default option. Should only be set on one item.
+| Key        | Type    | Notes                                                                                              |
+| ---------- | ------- | -------------------------------------------------------------------------------------------------- |
+| `default`  | boolean | Set to true if this is the default option. Should only be set on one item.                         |
+| `icon`     | string  | Name of the icon to show on the button. Can be any icon from the Font Awesome 4 library.           |
+| `subtitle` | string  | A subtitle to display next to the button.                                                          |
+| `value`    | string  | The value the button represents. The property will be set to this value when the button is active. |
 
 ### Radio Button Example
 
