@@ -41,6 +41,7 @@
   * [Functions](converting-stacks/language-enhancements/functions.md)
 * [Porting stacks](template-language/porting-stacks/README.md)
   * [How to Convert](converting-stacks/how-to.md)
+  * [Framework Key](template-language/porting-stacks/framework-key.md)
   * [Template Overrides](converting-stacks/template-overrides.md)
   * [Identify Encrypted stacks](converting-stacks/encrypted-stacks.md)
   * [Error Messages Explained](converting-stacks/error-messages-explained.md)
