@@ -1,3 +1,7 @@
+---
+description: Organise your converted stacks into a Framework group
+---
+
 # Framework Key
 
 If you’re porting a stacks Framework to Elements you’ll want to add the following key to your info.plist so it shows correctly in the new Elements Catalogue and Library.
