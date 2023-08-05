@@ -1,5 +1,5 @@
 ---
-description: Enhance the look of your Element in the Library
+description: Enhance the look of your converted stacks
 ---
 
 # Palette Icon
