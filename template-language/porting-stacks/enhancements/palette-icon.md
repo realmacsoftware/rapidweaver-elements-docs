@@ -10,6 +10,6 @@ The Palette icon is used for converted stacks and native Elements when the Libra
 
 ### How to Support the Palette Icon
 
-The Palette Icon should be placed in the Stacks "Resources" folder before converting your Stack into an Element.  This image should be named RWpaletteIcon.png and the supported aspect ratio is 2:1 (256x128).
+The Palette Icon should be placed in the stack's "Resources" folder before converting your stack into an Element.  This image should be named RWPaletteIcon.png and the supported aspect ratio is 2:1 (256x128).
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2023-08-05 at 10 .17.45@2x.png" alt=""><figcaption><p>RWPaletteIcon.png in the Resources folder.</p></figcaption></figure>
