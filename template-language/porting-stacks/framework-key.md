@@ -8,6 +8,8 @@ If you’re porting a stacks Framework to Elements you’ll want to add the foll
 
 <figure><img src="../../.gitbook/assets/28mjjna1rxd0tzy5tkfuz0qw9epz.png" alt=""><figcaption><p>Catlog view in Elements Developer beta 12</p></figcaption></figure>
 
+### How to Support the Framework Key
+
 In each Stack within your Framework, simply add the “framework” key along with the name of the Framework as a “String” to the info.plist. Stacks will ignore this key, but Elements will use it when porting your stack over into an Element.
 
 ```markup
