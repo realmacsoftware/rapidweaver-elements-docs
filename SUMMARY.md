@@ -42,9 +42,9 @@
 * [Porting stacks](template-language/porting-stacks/README.md)
   * [How to Convert](converting-stacks/how-to.md)
   * [Additions](template-language/porting-stacks/additions/README.md)
-    * [Framework Key](template-language/porting-stacks/additions/framework-key.md)
+    * [Framework Key](template-language/porting-stacks/framework-key.md)
     * [Palette Icon](template-language/porting-stacks/additions/palette-icon.md)
-    * [Template Overrides](template-language/porting-stacks/additions/template-overrides.md)
+    * [Template Overrides](converting-stacks/template-overrides.md)
   * [Identify Encrypted stacks](converting-stacks/encrypted-stacks.md)
   * [Error Messages Explained](converting-stacks/error-messages-explained.md)
 

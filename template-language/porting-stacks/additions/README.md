@@ -8,15 +8,15 @@ You can distribute your stack with any (or all) of these optional additions and 
 
 The following optional additions should be implemented in your Stack before conversion:
 
-{% content-ref url="framework-key.md" %}
-[framework-key.md](framework-key.md)
+{% content-ref url="../framework-key.md" %}
+[framework-key.md](../framework-key.md)
 {% endcontent-ref %}
 
 {% content-ref url="palette-icon.md" %}
 [palette-icon.md](palette-icon.md)
 {% endcontent-ref %}
 
-{% content-ref url="template-overrides.md" %}
-[template-overrides.md](template-overrides.md)
+{% content-ref url="../../../converting-stacks/template-overrides.md" %}
+[template-overrides.md](../../../converting-stacks/template-overrides.md)
 {% endcontent-ref %}
 
