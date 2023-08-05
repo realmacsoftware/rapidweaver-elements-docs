@@ -1,6 +1,10 @@
+---
+description: Enhance the look of your Element in the Library
+---
+
 # Palette Icon
 
-The Palette icon is used for converted stacks and native Elements when the Library is viewed as a grid.&#x20;
+The Palette icon is used for converted stacks and native Elements when the Library is viewed as a grid. If your stack doesn't have a Palette icon, Elements will fall back to using the legacy stacks icon from the Resources folder.
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2023-08-05 at 10 .14.04@2x.png" alt=""><figcaption><p>Element Library in Grid View — Developer Beta 12</p></figcaption></figure>
 

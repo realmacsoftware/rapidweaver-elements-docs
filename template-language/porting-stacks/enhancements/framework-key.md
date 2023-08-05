@@ -6,7 +6,7 @@ description: Organise your converted stacks into a Framework group
 
 If you’re porting a stacks Framework to Elements you’ll want to add the following key to your info.plist so it shows correctly in the new Elements Catalogue and Library.
 
-<figure><img src="../../.gitbook/assets/28mjjna1rxd0tzy5tkfuz0qw9epz.png" alt=""><figcaption><p>Catlog view in Elements Developer beta 12</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/28mjjna1rxd0tzy5tkfuz0qw9epz.png" alt=""><figcaption><p>Catlog view in Elements Developer beta 12</p></figcaption></figure>
 
 ### How to Support the Framework Key
 
@@ -17,4 +17,4 @@ In each Stack within your Framework, simply add the “framework” key along wi
 <string>Foundry 3</string>
 ```
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-08-04 at 5.15.58@2x.png" alt=""><figcaption><p>Example of adding the Framework key to a Stack</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2023-08-04 at 5.15.58@2x.png" alt=""><figcaption><p>Example of adding the Framework key to a Stack</p></figcaption></figure>
