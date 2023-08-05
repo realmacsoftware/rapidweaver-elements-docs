@@ -21,8 +21,8 @@ Supported image sizes in the icon.icns file.
 
 Supported image size/ratio for the Palette Icon. This image should be named paletteIcon.png and paletteIcon-dark.png if you'd also like to display a different version in dark mode.
 
-* 128x256
-* 128x256@2x
+* 256x128
+* 256x128@2x
 
 ### Asset Placement
 
