@@ -4,6 +4,14 @@ description: A powerful and flexible way to extend Elements
 
 # Hooks
 
+Global Properties
+
+| Property Name | Type   | Values              |
+| ------------- | ------ | ------------------- |
+| `rw:mode`     | string | `edit` or `preview` |
+|               |        |                     |
+|               |        |                     |
+
 Hooks are an incredibly powerful way to extend your Elements, performing heavy manipulations on properties before using them in your templates. Every Element can specify it's own hooks Javascript file, named `hooks.js` and placed in the root directory of the element.
 
 ### Setting Values
