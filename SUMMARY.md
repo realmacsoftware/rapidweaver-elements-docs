@@ -5,7 +5,21 @@
 
 ## 📖 User Guide
 
-* [Elements](user-guide/elements.md)
+* [Elements](user-guide/elements/README.md)
+  * [Button](user-guide/elements/button.md)
+  * [Card](user-guide/elements/card.md)
+  * [Container](user-guide/elements/container.md)
+  * [Flex](user-guide/elements/flex.md)
+  * [Gallery](user-guide/elements/gallery.md)
+  * [Grid](user-guide/elements/grid.md)
+  * [Heading](user-guide/elements/heading.md)
+  * [Image](user-guide/elements/image.md)
+  * [Link List](user-guide/elements/link-list.md)
+  * [Modal](user-guide/elements/modal.md)
+  * [Navbar](user-guide/elements/navbar.md)
+  * [Section](user-guide/elements/section.md)
+  * [Text](user-guide/elements/text.md)
+  * [Image Grid](user-guide/elements/image-grid.md)
 * [Classic Elements](user-guide/classic-elements/README.md)
   * [HTML](user-guide/classic-elements/html.md)
   * [Text](user-guide/classic-elements/text.md)
