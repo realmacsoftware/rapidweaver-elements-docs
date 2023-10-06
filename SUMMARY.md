@@ -63,7 +63,7 @@
   * [Identify Encrypted stacks](converting-stacks/encrypted-stacks.md)
   * [Error Messages Explained](converting-stacks/error-messages-explained.md)
 
-## Branding
+## 🖌 Branding
 
 * [Logotype](branding/logotype.md)
 * [Icon](branding/icon.md)

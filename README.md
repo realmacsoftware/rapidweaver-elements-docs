@@ -7,5 +7,5 @@ coverY: 0
 
 # RapidWeaver Elements
 
-RapidWeaver Elements is a next-generation website builder for macOS, it's currently in private beta and due for release later in 2023.
+RapidWeaver Elements is a next-generation website builder for macOS, it's currently in private beta and due for release later in 2024.
 
