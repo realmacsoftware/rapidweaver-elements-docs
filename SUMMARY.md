@@ -1,7 +1,6 @@
 # Table of contents
 
 * [RapidWeaver Elements](README.md)
-* [Developer FAQ](faq.md)
 
 ## 📖 User Guide
 
@@ -29,6 +28,7 @@
 ## 🛠 Template Language
 
 * [Introduction](elements-language/introduction.md)
+* [Developer FAQ](template-language/faq.md)
 * [Bundle Structure](elements-language/structure.md)
   * [info.json](elements-language/bundle-structure/info.json.md)
   * [Icons](elements-language/bundle-structure/icons.md)
