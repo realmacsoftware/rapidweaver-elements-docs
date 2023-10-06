@@ -1,8 +1,8 @@
 ---
-description: Frequently Asked Developer Questions
+description: Frequently Asked Stacks Developer Questions
 ---
 
-# Developer FAQ
+# Stacks Developer FAQ
 
 {% hint style="info" %}
 **RapidWeaver Elements is still in development,** and as such, features can and will change between now and the public launch. The below FAQ is not a guarantee on feature set or compatibility.&#x20;
@@ -14,7 +14,7 @@ A: RapidWeaver Elements is taking RapidWeaver in a new direction. It's built fro
 
 #### Q: When will RapidWeaver Elements be available?
 
-A: RapidWeaver Elements is currently in beta and due to launch publicly in 2024.
+A: RapidWeaver Elements is currently in private beta and due to launch publicly in 2024.
 
 #### Q: Are stacks compatible with RapidWeaver Elements?
 
@@ -30,7 +30,7 @@ A: Yes and No. While Elements supports the stacks language, it also has its own 
 
 #### Q:As a Developer, how do I convert my stacks to Elements?
 
-A: Developers should take a look at our [converting stacks to Elements guide](../converting-stacks/how-to.md) along with [Template Overrides](porting-stacks/enhancements/template-overrides.md) and the [Language Enhancements](../converting-stacks/language-enhancements/) that are available.
+A: Developers should take a look at our [converting stacks to Elements guide](../../converting-stacks/how-to.md) along with [Template Overrides](enhancements/template-overrides.md) and the [Language Enhancements](../../converting-stacks/language-enhancements/) that are available.
 
 #### Q: Will end-users be able to convert stacks to Elements?
 

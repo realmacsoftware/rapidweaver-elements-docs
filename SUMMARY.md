@@ -28,7 +28,6 @@
 ## 🛠 Template Language
 
 * [Introduction](elements-language/introduction.md)
-* [Developer FAQ](template-language/faq.md)
 * [Bundle Structure](elements-language/structure.md)
   * [info.json](elements-language/bundle-structure/info.json.md)
   * [Icons](elements-language/bundle-structure/icons.md)
@@ -55,6 +54,7 @@
   * [Containers](converting-stacks/language-enhancements/containers.md)
   * [Functions](converting-stacks/language-enhancements/functions.md)
 * [Porting stacks](template-language/porting-stacks/README.md)
+  * [Stacks Developer FAQ](template-language/porting-stacks/faq.md)
   * [How to Convert](converting-stacks/how-to.md)
   * [Enhancements](template-language/porting-stacks/enhancements/README.md)
     * [Framework Key](template-language/porting-stacks/enhancements/framework-key.md)
