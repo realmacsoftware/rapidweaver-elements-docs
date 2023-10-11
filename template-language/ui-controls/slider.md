@@ -17,6 +17,7 @@ The slider control supports the following options.
 | `title`    | string | The name of the Slider. This will be displayed beside the UI element of RapidWeaver                                                                                              |
 | `property` | string | The name of the property set by this control.                                                                                                                                    |
 | `format`   | string | Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](value-formatting.md) for more information. |
+| `default`  | string | The default value the slider should be set to.                                                                                                                                   |
 | `content`  | array  | Can be used to specify an array of values to the slider. See [code example](slider.md#slider-example) below.                                                                     |
 
 ### Slider Example
