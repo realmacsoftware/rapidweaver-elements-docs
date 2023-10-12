@@ -23,12 +23,12 @@ The radio buttons control supports the following options.
 
 ### Button Items Options
 
-| Key        | Type    | Notes                                                                                              |
-| ---------- | ------- | -------------------------------------------------------------------------------------------------- |
-| `default`  | boolean | Set to true if this is the default option. Should only be set on one item.                         |
-| `icon`     | string  | Name of the icon to show on the button. Can be any icon from the Font Awesome 4 library.           |
-| `subtitle` | string  | A subtitle to display next to the button.                                                          |
-| `value`    | string  | The value the button represents. The property will be set to this value when the button is active. |
+| Key        | Type    | Notes                                                                                                                         |
+| ---------- | ------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `default`  | boolean | Set to true if this is the default option. Should only be set on one item.                                                    |
+| `icon`     | string  | Name of the icon to show on the button. Can be any icon from the [Font Awesome 4 library](https://fontawesome.com/v4/icons/). |
+| `subtitle` | string  | A subtitle to display next to the button.                                                                                     |
+| `value`    | string  | The value the button represents. The property will be set to this value when the button is active.                            |
 
 ### Radio Button Example
 
