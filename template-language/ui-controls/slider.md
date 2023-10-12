@@ -43,3 +43,19 @@ You can use the following code as a starting point for a stepped slider with sev
 },
 ```
 
+The following example has a minimum value of 0 and maximum of 100. The units are set to round, and display in the UI with a "%" after the number.
+
+```
+{
+	  "title" : "Contrast",
+	  "property" : "contrast",
+	  "format": "{{value}}%",
+	  "default" : 50,
+	  "slider": {
+		  "min" : 0,
+		  "max" : 100,
+		  "units": "%",
+		  "round" : true
+	  }
+  }
+```
