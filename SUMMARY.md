@@ -28,6 +28,7 @@
 ## 🛠 Template Language
 
 * [Introduction](elements-language/introduction.md)
+* [Getting Started](template-language/getting-started.md)
 * [Bundle Structure](elements-language/structure.md)
   * [info.json](elements-language/bundle-structure/info.json.md)
   * [Icons](elements-language/bundle-structure/icons.md)
