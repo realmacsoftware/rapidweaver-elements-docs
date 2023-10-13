@@ -34,6 +34,7 @@
   * [Hooks](elements-language/bundle-structure/hooks.md)
   * [Include](elements-language/bundle-structure/include.md)
 * [UI Controls](template-language/ui-controls/README.md)
+  * [Switch](template-language/ui-controls/switch.md)
   * [Color](template-language/ui-controls/color.md)
   * [Detail](template-language/ui-controls/detail.md)
   * [Divider](template-language/ui-controls/divider.md)
