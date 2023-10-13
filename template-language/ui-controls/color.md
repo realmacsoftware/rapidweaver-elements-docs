@@ -2,6 +2,20 @@
 
 There's two types of colour picker, a native color well, and a Tailwinds spefic colour chooser that integrates with the Theme Studio in RapidWeaver Elements.
 
+### Theme Studio Color Picker (themeColor)
+
+We recommend this control be used when targeting the built-in Tailwinds framework.
+
+```
+{
+	"title": "Color",
+	"property": "customColor",
+	"default": "black",
+	"format": "text-{{value}}",
+	"themeColor": {}
+  },
+```
+
 ### Standard Color Picker (color)
 
 The Color control displays the standard macOS color well.
@@ -21,20 +35,6 @@ The Color control displays the standard macOS color well.
 			  "property" : "colors-two"
 		  }]
 	  }
-  },
-```
-
-### Tailwinds Color Picker (customerColor)
-
-We recommend this control be used when targeting the built-in Tailwinds framework.
-
-```
-{
-	"title": "Color",
-	"property": "customerColor",
-	"default": "black",
-	"format": "text-{{value}}",
-	"themeColor": {}
   },
 ```
 
