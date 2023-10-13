@@ -1,6 +1,6 @@
 # Color
 
-There's two types of colour picker, a native color well, and a Tailwinds spefic colour chooser that integrates with the Theme Studio in RapidWeaver Elements.
+There's two types of colour picker, a native "color well", and a Tailwinds specify colour picker that integrates with the Theme Studio in RapidWeaver Elements.
 
 ### Theme Studio Color Picker (themeColor)
 
