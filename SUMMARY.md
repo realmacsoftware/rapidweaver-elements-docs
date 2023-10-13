@@ -37,7 +37,7 @@
 * [UI Controls](template-language/ui-controls/README.md)
   * [Buttons](template-language/ui-controls/buttons/README.md)
     * [Checkbox](template-language/ui-controls/buttons/checkbox.md)
-    * [Radio Buttons](template-language/ui-controls/radio-buttons.md)
+    * [Radio](template-language/ui-controls/buttons/radio.md)
     * [Switch](template-language/ui-controls/buttons/switch.md)
   * [Color](template-language/ui-controls/color.md)
   * [Detail](template-language/ui-controls/detail.md)

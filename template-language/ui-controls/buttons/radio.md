@@ -1,4 +1,4 @@
-# Radio Buttons
+# Radio
 
 Radio Buttons can be used to show several buttons where only one button is active at a time. Selecting another button will deselect the currently active button. The property always contains the value from the active button. A format may be added to apply additional formatting on the value. Only one default should be set.
 
@@ -12,14 +12,14 @@ Check back soon for a complete list.
 
 The radio buttons control supports the following options.
 
-| Key             | Type   | Notes                                                                                                                                                                            |
-| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `buttons`       | object | An object describing the type of buttons and available items.                                                                                                                    |
-| `buttons.items` | array  | An array of buttons to display. See the [Button Items option](radio-buttons.md#button-items-options) table below                                                                 |
-| `buttons.style` | string | Should be set to `radio` to enable radio functionality.                                                                                                                          |
-| `format`        | string | Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](value-formatting.md) for more information. |
-| `property`      | string | The name of the property set by this control.                                                                                                                                    |
-| `title`         | string | The name of the Slider. This will be displayed beside the UI element of RapidWeaver.                                                                                             |
+| Key             | Type   | Notes                                                                                                                                                                               |
+| --------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `buttons`       | object | An object describing the type of buttons and available items.                                                                                                                       |
+| `buttons.items` | array  | An array of buttons to display. See the [Button Items option](radio.md#button-items-options) table below                                                                            |
+| `buttons.style` | string | Should be set to `radio` to enable radio functionality.                                                                                                                             |
+| `format`        | string | Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](../value-formatting.md) for more information. |
+| `property`      | string | The name of the property set by this control.                                                                                                                                       |
+| `title`         | string | The name of the Slider. This will be displayed beside the UI element of RapidWeaver.                                                                                                |
 
 ### Button Items Options
 
