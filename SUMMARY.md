@@ -45,6 +45,8 @@
   * [Information](template-language/ui-controls/information.md)
   * [Link](template-language/ui-controls/link.md)
   * [Slider](template-language/ui-controls/slider.md)
+  * [Theme Spacing](template-language/ui-controls/theme-spacing.md)
+  * [Theme Color](template-language/ui-controls/theme-color.md)
   * [Text Field](template-language/ui-controls/text-field.md)
   * [Value Formatting](template-language/ui-controls/value-formatting.md)
   * [Visibility](template-language/ui-controls/control-visibility.md)
