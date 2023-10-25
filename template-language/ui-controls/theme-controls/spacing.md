@@ -1,4 +1,4 @@
-# Theme Spacing
+# Spacing
 
 
 
@@ -8,23 +8,31 @@
 Check back soon for a complete list.
 {% endhint %}
 
+The “mode” key on themeSpacing properties can be set to `padding`, `margin`, `gap`, or `translate` to change the behaviour of the control.
+
 ### Spacing Example
 
-You can use the following code as a starting point for adding the padding conrol.
+You can use the following code as a starting point for adding the padding and gap control.&#x20;
 
 ```
 {
-    "title": "Margin",
-    "property": "margin",
-    "format": "m{{side}}-[{{value}}]",
-    "themeSpacing": {
-    "default": {
-              "top": "0",
-              "right": "auto",
-              "bottom": "0",
-              "left": "auto"
-            }
-    }
-}
+    "title" : "Padding",
+    "properties" : [{
+        "title" : "Spacing",
+        "property" : "themePadding",
+        "themeSpacing": {
+            "mode": "padding"
+        }
+    }]
+}, {
+    "title" : "Gap",
+    "properties" : [{
+        "title" : "Gap",
+        "property" : "themeGap",
+        "themeSpacing": {
+            "mode": "gap"
+        }
+    }]
+}, 
 
 ```
