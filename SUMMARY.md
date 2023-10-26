@@ -12,10 +12,10 @@
   * [Gallery](user-guide/elements/gallery.md)
   * [Grid](user-guide/elements/grid.md)
   * [Heading](user-guide/elements/heading.md)
+  * [HTML](user-guide/elements/html.md)
   * [Image](user-guide/elements/image.md)
-  * [Image Grid](user-guide/elements/image-grid.md)
   * [Layer](user-guide/elements/layer.md)
-  * [Link List](user-guide/elements/link-list.md)
+  * [List](user-guide/elements/list.md)
   * [Modal](user-guide/elements/modal.md)
   * [Navbar](user-guide/elements/navbar.md)
   * [Section](user-guide/elements/section.md)
@@ -23,8 +23,6 @@
   * [Text](user-guide/elements/text.md)
   * [Video](user-guide/elements/video.md)
 * [Classic Elements](user-guide/classic-elements/README.md)
-  * [HTML](user-guide/classic-elements/html.md)
-  * [Text](user-guide/classic-elements/text.md)
   * [ExtraContent](user-guide/classic-elements/extracontent.md)
 
 ## 🛠 Template Language
