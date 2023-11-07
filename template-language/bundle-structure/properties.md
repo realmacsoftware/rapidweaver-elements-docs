@@ -1,6 +1,6 @@
 # Properties
 
-Properties.json
+properties.json
 
 ```
 {
