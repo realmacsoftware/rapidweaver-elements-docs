@@ -2,6 +2,10 @@
 
 properties.json
 
+{% hint style="info" %}
+Icon type is an SF Symbol. This control does not support Font Awesome.
+{% endhint %}
+
 ```
 {
     "groups": [{
