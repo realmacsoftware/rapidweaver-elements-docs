@@ -2,9 +2,9 @@
 description: Outline basic information about your Element
 ---
 
-# info.json
+# info
 
-The info.json file outlines the basic information about an Element. The file consists of a series of keys and values. It's required for an Element to function. [View example below](info.json.md#info.json-example).
+The info.json file outlines the basic information about an Element. The file consists of a series of keys and values. It's required for an Element to function. [View example below](info.md#info.json-example).
 
 ### Supported Key-Value Pairs <a href="#key-value-pairs-explained" id="key-value-pairs-explained"></a>
 

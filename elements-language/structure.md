@@ -30,7 +30,7 @@ An Element pack can contain multiple Elements, each Element should be placed in 
       * [hooks.js](bundle-structure/hooks.md)
       * [**icon.icns**](bundle-structure/icons.md)
       * icon-dark.icns
-      * [**info.json**](bundle-structure/info.json.md)
+      * [**info.json**](../template-language/bundle-structure/info.md)
       * paletteIcon.png
       * paletteIcon-dark.png
       * properties.json
@@ -59,7 +59,7 @@ An Element pack can have multiple addons inside of it, here's an example of that
 **WebWorld.rwdevpack** (bundle)
 
 * **elements** (folder)
-  * [**info.json**](bundle-structure/info.json.md)
+  * [**info.json**](../template-language/bundle-structure/info.md)
   * **com.realmac.elementpack.helloworld** (folder)
   * **com.realmac.elementpack.goodbyeworld** (folder)
 
