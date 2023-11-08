@@ -5,6 +5,7 @@
 ## 📖 User Guide
 
 * [Elements](user-guide/elements/README.md)
+  * [Animate](user-guide/elements/animate.md)
   * [Button](user-guide/elements/button.md)
   * [Card](user-guide/elements/card.md)
   * [Container](user-guide/elements/container.md)
