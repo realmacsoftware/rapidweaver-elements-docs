@@ -54,6 +54,7 @@
   * [Text Field](template-language/ui-controls/text-field.md)
   * [Value Formatting](template-language/ui-controls/value-formatting.md)
   * [Visibility](template-language/ui-controls/control-visibility.md)
+  * [Heading](template-language/ui-controls/heading.md)
 * [Template Variables](elements-language/template-variables/README.md)
   * [Basic](elements-language/template-variables/basic/README.md)
     * [Plain Text](elements-language/template-variables/basic/plain-text.md)
