@@ -8,10 +8,14 @@ We recommend this control be used when targeting the built-in Tailwinds framewor
 
 ```
 {
-	"title": "Color",
-	"property": "customColor",
-	"default": "black",
-	"format": "text-{{value}}",
-	"themeColor": {}
-  },
+    "title": "Color",
+    "property": "customColor",
+    "format": "text-{{value}}",
+    "themeColor": {
+        "default": {
+            "name": "black",
+            "brightness" : 300
+        }
+    }
+}
 ```
