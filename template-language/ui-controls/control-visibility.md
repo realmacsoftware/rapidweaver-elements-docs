@@ -21,7 +21,7 @@ You can modify the visibility of each control by checking the value of another c
         },
         {
           "visible": {
-            "id": "customSizing",
+            "property": "customSizing",
             "value": true
           },
           "information": {},
@@ -29,7 +29,7 @@ You can modify the visibility of each control by checking the value of another c
         },
         {
           "visible": {
-            "id": "customSizing",
+            "property": "customSizing",
             "value": false
           },
           "information": {},
@@ -52,7 +52,7 @@ You can modify the visibility of each control by checking the value of another c
       "properties": [
         {
           "visible": {
-            "id": "exampleTextProperty",
+            "property": "exampleTextProperty",
             "operator: "!="
             "value": "hello world"
           },
@@ -61,7 +61,7 @@ You can modify the visibility of each control by checking the value of another c
         },
         {
           "visible": {
-            "id": "exampleTextProperty",
+            "property": "exampleTextProperty",
             "operator: "=="
             "value": "hello world"
           },
