@@ -4,9 +4,21 @@ description: Show and hide controls based on another control's value.
 
 # Visibility
 
-You can modify the visibility of each control by checking the value of another control's value.
+You can control the enabled state or visibility of a property using an expression like the following!
+
+```
+"enable": "(alignment == 'custom' && padding >= 4) || padding <= 1"
+```
+
+
+
+### Deprecated Visibility Controls
+
+The code below outlines the way control visibility used to be handled. While this curently works, the language below is now deprecated and should not be used.
 
 ### Basic Example
+
+You can modify the visibility of each control by checking the value of another control's value.
 
 ```
 {
