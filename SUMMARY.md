@@ -4,6 +4,7 @@
 
 ## 📖 User Guide
 
+* [Design System](user-guide/design-system.md)
 * [Elements](user-guide/elements/README.md)
   * [Animate](user-guide/elements/animate.md)
   * [Button](user-guide/elements/button.md)
