@@ -24,8 +24,6 @@
   * [Slider](user-guide/elements/slider.md)
   * [Text](user-guide/elements/text.md)
   * [Video](user-guide/elements/video.md)
-* [Classic Elements](user-guide/classic-elements/README.md)
-  * [ExtraContent](user-guide/classic-elements/extracontent.md)
 
 ## 🛠 Template Language
 
