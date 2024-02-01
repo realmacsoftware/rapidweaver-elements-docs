@@ -28,5 +28,5 @@ The following is a list of suggested tools to make developing Elements easier.
 
 We have a dedicated [Developer Group](https://community.realmacsoftware.com/s/developer/) over on the [RapidWeaver Community](https://community.realmacsoftware.com/). The developer group is open to anyone interested in building addons for the RapidWeaver ecosystem. We're always around to offer help with getting started or if you just need a hand while developing your next great addon for RapidWeaver. Come join us, we're a friendly bunch ☺️
 
-**Ready to Join?** [Sign-up for the community](https://login.circle.so/sign\_up?post\_login\_redirect=%2Fc%2Fbetas%2F\&request\_host=community.realmacsoftware.com\&user%5Binvitation\_token%5D=) first, then [request developer access](https://community.realmacsoftware.com/c/betas/).
+**Ready to Join?** email support@realmacsoftware.com
 

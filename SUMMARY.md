@@ -67,15 +67,6 @@
   * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
   * [Containers](converting-stacks/language-enhancements/containers.md)
   * [Functions](converting-stacks/language-enhancements/functions.md)
-* [Porting stacks](template-language/porting-stacks/README.md)
-  * [Stacks Developer FAQ](template-language/porting-stacks/faq.md)
-  * [How to Convert](converting-stacks/how-to.md)
-  * [Enhancements](template-language/porting-stacks/enhancements/README.md)
-    * [Framework Key](template-language/porting-stacks/enhancements/framework-key.md)
-    * [Palette Icon](template-language/porting-stacks/enhancements/palette-icon.md)
-    * [Template Overrides](template-language/porting-stacks/enhancements/template-overrides.md)
-  * [Identify Encrypted stacks](converting-stacks/encrypted-stacks.md)
-  * [Error Messages Explained](converting-stacks/error-messages-explained.md)
 
 ## 🖌 Branding
 
