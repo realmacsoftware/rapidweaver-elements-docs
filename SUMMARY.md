@@ -5,7 +5,9 @@
 ## 📖 User Guide
 
 * [Design System](user-guide/design-system.md)
-* [Node Browser](user-guide/node-browser.md)
+* [Features](user-guide/features/README.md)
+  * [Page Management](user-guide/features/page-management.md)
+  * [Node Browser](user-guide/features/node-browser.md)
 * [Theme Studio](user-guide/theme-studio/README.md)
   * [Theme](user-guide/theme-studio/theme.md)
   * [Colors](user-guide/theme-studio/colors.md)
