@@ -5,6 +5,17 @@
 ## 📖 User Guide
 
 * [Design System](user-guide/design-system.md)
+* [Node Browser](user-guide/node-browser.md)
+* [Theme Studio](user-guide/theme-studio/README.md)
+  * [Theme](user-guide/theme-studio/theme.md)
+  * [Colors](user-guide/theme-studio/colors.md)
+  * [Screens](user-guide/theme-studio/screens.md)
+  * [Font Family](user-guide/theme-studio/font-family.md)
+  * [Font Style](user-guide/theme-studio/font-style.md)
+  * [Spacing](user-guide/theme-studio/spacing.md)
+  * [Shadows](user-guide/theme-studio/shadows.md)
+  * [Border Width](user-guide/theme-studio/border-width.md)
+  * [Border Radius](user-guide/theme-studio/border-radius.md)
 * [Elements](user-guide/elements/README.md)
   * [Animate](user-guide/elements/animate.md)
   * [Button](user-guide/elements/button.md)
