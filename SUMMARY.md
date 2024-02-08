@@ -7,6 +7,8 @@
 * [Design System](user-guide/design-system.md)
 * [Features](user-guide/features/README.md)
   * [Page Management](user-guide/features/page-management.md)
+  * [Resources](user-guide/features/resources.md)
+  * [Data Editor](user-guide/features/data-editor.md)
   * [Node Browser](user-guide/features/node-browser.md)
 * [Theme Studio](user-guide/theme-studio/README.md)
   * [Theme](user-guide/theme-studio/theme.md)
