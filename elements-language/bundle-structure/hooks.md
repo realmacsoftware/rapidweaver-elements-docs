@@ -6,13 +6,15 @@ description: A powerful and flexible way to extend Elements
 
 Global Properties
 
-| Property Name | Type   | Values              |
-| ------------- | ------ | ------------------- |
-| `rw:mode`     | string | `edit` or `preview` |
-|               |        |                     |
-|               |        |                     |
+<table><thead><tr><th>Property Name</th><th width="186">Type</th><th>Values</th></tr></thead><tbody><tr><td><code>rw:mode</code></td><td>string</td><td><code>edit</code> or <code>preview</code></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
 Hooks are an incredibly powerful way to extend your Elements, performing heavy manipulations on properties before using them in your templates. Every Element can specify it's own hooks Javascript file, named `hooks.js` and placed in the root directory of the element.
+
+
+
+**Available Context methods**
+
+<table><thead><tr><th>Method Name</th><th width="186">Type</th><th>Values</th></tr></thead><tbody><tr><td>getValues</td><td></td><td></td></tr><tr><td>getClassNames</td><td></td><td></td></tr><tr><td>getResponsiveValues</td><td></td><td></td></tr><tr><td>getBreakpoints</td><td></td><td></td></tr><tr><td>getBreakpointNames</td><td></td><td></td></tr></tbody></table>
 
 ### Setting Values
 
