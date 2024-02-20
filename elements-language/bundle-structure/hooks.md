@@ -10,11 +10,9 @@ Global Properties
 
 Hooks are an incredibly powerful way to extend your Elements, performing heavy manipulations on properties before using them in your templates. Every Element can specify it's own hooks Javascript file, named `hooks.js` and placed in the root directory of the element.
 
-
-
 **Available Context methods**
 
-<table><thead><tr><th>Method Name</th><th width="186">Type</th><th>Values</th></tr></thead><tbody><tr><td>getValues</td><td></td><td></td></tr><tr><td>getClassNames</td><td></td><td></td></tr><tr><td>getResponsiveValues</td><td></td><td></td></tr><tr><td>getBreakpoints</td><td></td><td></td></tr><tr><td>getBreakpointNames</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Method Name</th><th width="186">Type</th><th>Values</th></tr></thead><tbody><tr><td><code>getValues</code></td><td></td><td></td></tr><tr><td><code>getClassNames</code></td><td></td><td></td></tr><tr><td><code>getResponsiveValues</code></td><td></td><td></td></tr><tr><td><code>getBreakpoints</code></td><td></td><td></td></tr><tr><td><code>getBreakpointNames</code></td><td></td><td></td></tr></tbody></table>
 
 ### Setting Values
 
