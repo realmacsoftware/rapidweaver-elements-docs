@@ -40,7 +40,7 @@
   * [Text](user-guide/elements/text.md)
   * [Video](user-guide/elements/video.md)
 
-## 🛠 Template Language
+## 🛠️ Template Language
 
 * [Introduction](elements-language/introduction.md)
 * [Getting Started](template-language/getting-started.md)
@@ -81,7 +81,7 @@
   * [Containers](converting-stacks/language-enhancements/containers.md)
   * [Functions](converting-stacks/language-enhancements/functions.md)
 
-## 🖌 Branding
+## 🖌️ Branding
 
 * [Logotype](branding/logotype.md)
 * [Icon](branding/icon.md)

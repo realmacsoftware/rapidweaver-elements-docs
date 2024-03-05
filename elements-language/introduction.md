@@ -21,6 +21,7 @@ The following is a list of suggested tools to make developing Elements easier.
 * A licensed developer copy RapidWeaver Elements.
 * Text editor, we recommend [Visual Studio Code](https://code.visualstudio.com).
   * [RapidWeaver Elements Syntax Highlighting](https://github.com/realmacsoftware/rapidweaver-elements-syntax-highlighting) for Visual Studio Code.&#x20;
+* JSON Editor, we recommend [OK JASON](https://okjson.app).
 * Icon App to comple an ICN's, we recommend [Icon Slate](https://www.kodlian.com/apps/icon-slate).
 * [SF Symbol app](https://developer.apple.com/sf-symbols/) for icon name reference.
 
