@@ -6,6 +6,7 @@
 
 * [Design System](user-guide/design-system.md)
 * [Features](user-guide/features/README.md)
+  * [Custom CSS Values](user-guide/features/custom-css-values.md)
   * [Page Management](user-guide/features/page-management.md)
   * [Resources](user-guide/features/resources.md)
   * [Node Browser](user-guide/features/node-browser.md)
