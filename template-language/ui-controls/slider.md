@@ -23,6 +23,7 @@ The slider control supports the following options.
 | `max`      | number  | The maximum value for the slider.                                                                                                                                                |
 | `units`    | string  | The units string appears alongside the slider value in the user interface, but it is not included in the template output value.                                                  |
 | `round`    | boolean | If true an integer will be used instead of a floating point.                                                                                                                     |
+| `ticks`    | number  | the number of ticks that will appear beneath the slider                                                                                                                          |
 
 ### Slider Example
 
@@ -63,3 +64,21 @@ The following example has a minimum value of 0 and maximum of 100. The units are
 	  }
   }
 ```
+
+An example slider setting a star rating between 0 and 5.
+
+```
+{
+	"title" : "Rating",
+	"property" : "rating",
+	"default" : 3,
+	"slider": {
+		"min" : 0,
+		"max" : 5,
+		"round" : true,
+    		"units" : "Stars",
+    		"ticks": 6
+	}
+}
+```
+
