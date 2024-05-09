@@ -1,21 +1,13 @@
 # Icons
 
-At a bare minumim you'll want to include an "icon.icns" file, this icns file can be used for all views where your Element appears within the RapidWeaver Elements UI.
+At a bare minumim you'll want to include an "icon.icns" file, this icns file can be used for all views where your Element appears within the RapidWeaver Elements UI. Additional Palette and Banner icon styles are also available.
 
-### Supported Icons
+### Standard Icon
+
+All Elements require this icon.
 
 * **icon.icns (Required)**
 * icon-dark.icns (optional)
-* paletteIcon.png (optional)
-* paletteIcon-dark.png (optional)
-
-{% hint style="info" %}
-We recommend [Icon Slate](https://www.kodlian.com/apps/icon-slate) to compile .icns files.
-{% endhint %}
-
-### **List View Icon**
-
-<figure><img src="../../.gitbook/assets/CleanShot 2023-08-05 at 10 .46.36@2x (1).png" alt=""><figcaption><p>Element Library: List view icons (Developer Beta 12)</p></figcaption></figure>
 
 Supported image sizes in the icon.icns file.
 
@@ -25,14 +17,46 @@ Supported image sizes in the icon.icns file.
 * 256x256.png / 256x256@2x.png (optional)
 * 512x512.png / 512x512@2x.png (optional)
 
-### Grid View Icon
+{% hint style="info" %}
+We recommend [Icon Slate](https://www.kodlian.com/apps/icon-slate) to compile .icns files.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-08-05 at 10 .46.30@2x.png" alt=""><figcaption><p>Element Library: Grid view icons (Developer Beta 12)</p></figcaption></figure>
+### Palette Icons
 
 The Palette image should be named paletteIcon.png and paletteIcon-dark.png if you'd also like to display a different version in dark mode.
 
-* 256x128
-* 256x128@2x (optional)
+* paletteIcon.png
+* paletteIcon-dark.png (optional)
+
+Supported palette image sizes.
+
+* 512x256
+
+### Banner Icons
+
+If you're developing an Element that represents a layout we recommend using the Banner style icon.&#x20;
+
+* bannerLayer1.png
+* bannerLayer1-Dark.png (optional)
+
+Banner icons can be layered, and each layer can represent a different colour in the Theme Studio. For example this icon uses four layers and three of those layers will be tinted with the Theme colour.
+
+* bannerLayer1.png
+* bannerLayer2-primary-500.png
+* bannerLayer3-primary-200.png
+* bannerLayer4-secondary-500.png
+
+Banner images should be 512px in width, but can be as short or tall as you need.
+
+### **List View Icon** (Standard Icon)
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-08-05 at 10 .46.36@2x (1).png" alt=""><figcaption><p>Element Library: List view icons (Developer Beta 12)</p></figcaption></figure>
+
+### Grid View (Pallete Icon)
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-08-05 at 10 .46.30@2x.png" alt=""><figcaption><p>Element Library: Grid view icons (Developer Beta 12)</p></figcaption></figure>
+
+
 
 ### Asset Placement
 
