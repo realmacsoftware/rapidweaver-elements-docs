@@ -33,7 +33,7 @@ context.setValues({
 in template.html
 
 ```
-<p><strong>%id=obj.name%</strong> - %id=obj.job.title%</p>
+<p><strong>{{obj.name}}</strong> - {{obj.job.title}}</p>
 ```
 
 The rendered output would look something like this:
@@ -62,7 +62,7 @@ The transform hook allows you to get and set property values before they're used
 
 ```
 // template.html
-The slider is %id=padding%
+The slider is {{padding}}
 ```
 
 When the slider is set to 5, the output would be
@@ -74,12 +74,12 @@ The slider is 5
 Now lets add a transform hook that multiplies the padding value by 2
 
 ```
-const transformHook = (context) => {
+const transformHook = (rw) => {
   const {
     padding,
-  } = context.getValues();
+  } = rw.props;
 
-  context.setValues({
+  rw.setProps({
     padding: padding*2,
   });
 };
@@ -97,7 +97,7 @@ The slider is 10
 This becomes incredibly powerful and convenient when you need to perform logic based on multiple properties. The following example show how you might generate a list of css classes based on standard or custom settings.
 
 ```
-const transformHook = (context) => {
+const transformHook = (rw) => {
   const {
     customSizing,     // Checkbox
     size,             // Slider 
@@ -106,7 +106,7 @@ const transformHook = (context) => {
     paddingRight      // Slider 
     paddingBottom     // Slider 
     paddingLeft       // Slider
-  } = context.getValues();
+  } = rw.props;
   
   const sizeClasses = [
     // Included if customSizing == false
@@ -119,12 +119,10 @@ const transformHook = (context) => {
     customSizing && paddingBottom,
     customSizing && paddingLeft,
   ]
-    // Filter out nil items
     .filter(Boolean)
-    // Join all items, separating with a space
     .join(" ");
 
-  context.setValues({
+  rw.setProps({
     classes: sizeClasses,
   });
 };
@@ -135,5 +133,5 @@ exports.transformHook = transformHook;
 The template simply uses the classes property instead of attempting to handle all options from 7 different properties. For example&#x20;
 
 ```
-<div class="%id=classes%"><div>
+<div class="{{classes}}"><div>
 ```

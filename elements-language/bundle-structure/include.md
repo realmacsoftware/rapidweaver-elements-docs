@@ -25,7 +25,8 @@ World
 You could then include the contents of those files into your main template.html file by using the following code:
 
 ```
-%include -template="hello"% %include -template="world"%
+@include("hello")
+@include("world")
 ```
 
 The output from template.html would look like this
@@ -36,9 +37,14 @@ Hello World
 
 ## Property access
 
-The include template files allow access to properties as if they were part of the main template file.
+The include template files allow access to properties as if they were part of the main template file. Given that you have set a `pages` value in your hooks file (via the `rw.setProps()` method), you can pass that property to your template like so:
 
 ```
-%include -template="menuitem" -property="rw:menuitems"%
+@include("menuitem", property: pages)
 ```
 
+You can of cause include multiple properties simply by comma separating them:
+
+```
+@include("banner", title: "Can be a string", body: canAlsoBeAVariable)
+```

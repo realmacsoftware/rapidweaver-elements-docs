@@ -153,8 +153,8 @@ An example of setting Default Properites on various controls.
         }, {
             "title": "Slider",
             "property": "slider",
-            "default": 45,
             "slider": {
+                "default": "45"
                 "min": 20,
                 "max": 60,
                 "round": true,
@@ -163,8 +163,8 @@ An example of setting Default Properites on various controls.
         }, {
             "title": "Slider 2",
             "property": "slider2",
-            "default": { "base" : 20, "sm" : 30, },
             "slider": {
+                "default": { "base" : 20, "sm" : 30, },
                 "min": 20,
                 "max": 60,
                 "round": true,
@@ -173,8 +173,8 @@ An example of setting Default Properites on various controls.
         }, {
             "title": "Slider 3",
             "property": "slider3",
-            "default": "3",
             "slider": {
+                "default": "3",
                 "content": [
                     {"title": "a", "value": "2"}, 
                     {"title": "b", "value": "3"}, 
@@ -184,11 +184,11 @@ An example of setting Default Properites on various controls.
         }, {
             "title": "Alignment",
             "property": "alignment",
-            "default": {
-                "base": "w-auto",
-                "md": "w-full"
-            },
             "segmented": {
+                "default": {
+                    "base": "w-auto",
+                    "md": "w-full"
+                },
                 "items": [{
                     "value": "w-full",
                     "icon": "text.alignleft"
