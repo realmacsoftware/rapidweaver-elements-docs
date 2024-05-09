@@ -51,6 +51,7 @@
   * [Properties](template-language/bundle-structure/properties.md)
   * [Hooks](elements-language/bundle-structure/hooks.md)
   * [Include](elements-language/bundle-structure/include.md)
+* [Local Data](template-language/local-data.md)
 * [UI Controls](template-language/ui-controls/README.md)
   * [Buttons](template-language/ui-controls/buttons/README.md)
     * [Checkbox](template-language/ui-controls/buttons/checkbox.md)
