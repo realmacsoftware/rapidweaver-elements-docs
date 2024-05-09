@@ -17,6 +17,10 @@ RapidWeaver Elements is a mobile first, static website builder. Mobile has now s
 
 RapidWeaver Elements has a powerful WYSIWYG (what you see is what you get) editor built in. It's been designed so professional web designers and newcomers feel right at home. You've never experienced an editor this good before.
 
+### Design Elements included
+
+Build webpages in seconds with drag and drop ease. These pre-built Element packs give you
+
 ### Automagic Navigation
 
 Never worry about manually creating menus or fixing broken links again. RapidWeaver Elements takes care of all that for you.
@@ -25,14 +29,40 @@ Never worry about manually creating menus or fixing broken links again. RapidWea
 
 RapidWeaver Elements gives you the power to customise every part of your website. You have complete freedom for you or your clients. Easily change colors, fonts and text styles, borders, shadows and so much more.
 
-### Publish Anywhere
+### Smart Publishing
 
-Build your website locally and when you're ready publish your site to any number of online services, includeing FTP, SFTP, Amazon S3 and more.
+Build your website locally and when you're ready publish your site to any number of online services, includeing FTP, SFTP, Amazon S3 and more. RapidWeaver will keep track of the changes and only publish new or chnaged files making publoishing updates blazing fast!
 
 ### Node Browser
 
+Awesome
 
+### Globals
 
-### Extend with Custom Elements
+Build once and use anywhere in your website.
+
+### Build Custom Elements
 
 We built Elements with it's own powerful and flexible language allowing anyone to create custom Elements. With powerful data integration the possibilities of what you can create are endless.
+
+### Solid Foundation
+
+Under the hood RapidWeaver Element uses the popular Tailwind CSS framework and AlpineJS.
+
+
+
+{% hint style="info" %}
+### Roadmap
+
+Don’t buy Elements for might it might do down the road, but it for what it can do now. However, we wanted to give you a glimpse into the future
+
+#### Online Data Editor
+
+#### Online Project Backup
+
+#### Built-in Hosting
+
+#### Built-in CDN
+
+Say goodbye to warehousing and hello to RapidWeaver’s integrated Cloud Storage solution.
+{% endhint %}
