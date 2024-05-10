@@ -72,7 +72,7 @@
   * [Properties](template-language/template-variables/properties.md)
 * [Language](converting-stacks/language-enhancements/README.md)
   * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
-  * [Containers](converting-stacks/language-enhancements/containers.md)
+  * [Dropzones](template-language/language-enhancements/dropzones.md)
   * [Functions](converting-stacks/language-enhancements/functions.md)
 
 ## 🖌️ Branding

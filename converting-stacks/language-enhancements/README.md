@@ -8,8 +8,8 @@ You can take advantage of the language additions below when using the [Templates
 [conditional-statements.md](conditional-statements.md)
 {% endcontent-ref %}
 
-{% content-ref url="containers.md" %}
-[containers.md](containers.md)
+{% content-ref url="../../template-language/language-enhancements/dropzones.md" %}
+[dropzones.md](../../template-language/language-enhancements/dropzones.md)
 {% endcontent-ref %}
 
 {% content-ref url="functions.md" %}
