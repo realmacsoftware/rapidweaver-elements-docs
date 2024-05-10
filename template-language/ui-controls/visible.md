@@ -1,92 +1,30 @@
----
-description: Show and hide controls based on another control's value.
----
+# Visible
 
-# Visibility
+The `visible` key in an object's properties can be set using a logical expression that evaluates to `true` or `false`. This determines whether a specific UI element is shown or hidden based on the conditions specified in the expression. Works in the same way as [enabled](enabled.md).
 
-You can control the enabled state or visibility of a property using an expression like the following!
+* **Boolean Logic**: Use logical operators (`&&`, `||`, `!`) to combine multiple conditions.
+* **Comparison Operators**: Use `==`, `!=`, `>`, `<`, `>=`, `<=` to compare values.
 
-```
-"enable": "(alignment == 'custom' && padding >= 4) || padding <= 1"
-```
+## Examples
 
+1.  **Complex Condition**
 
+    ```json
+    "visible": "(backgroundType == 'custom' || backgroundType == 'image') && textColor == 'white'"
+    ```
 
-### Deprecated Visibility Controls
+    This makes the property visible only if the backgroundType is either custom' or 'image', and the textColor is 'white'.
+2.  **Visibility Based on Numeric Ranges**
 
-The code below outlines the way control visibility used to be handled. While this curently works, the language below is now deprecated and should not be used.
+    ```json
+    "visible": "opacity > 20 && opacity < 30"
+    ```
 
-### Basic Example
+    Useful for showing elements that should only be visible within a specific range, e.g., showing a message if the opacity is not between 20-30.
+3.  **Negation to Hide Elements**
 
-You can modify the visibility of each control by checking the value of another control's value.
+    ```json
+    "visible": "!mySwitchControl"
+    ```
 
-```
-{
-  "groups": [
-    {
-      "title": "Spacing",
-      "properties": [
-        {
-          "detail": {},
-          "default": false,
-          "property": "customSpacing"
-        },
-        {
-          "visible": {
-            "property": "customSizing",
-            "value": true
-          },
-          "information": {},
-          "title": "I am shown when customSizing is true"
-        },
-        {
-          "visible": {
-            "property": "customSizing",
-            "value": false
-          },
-          "information": {},
-          "title": "I am shown when customSizing is false"
-        },
-        ...
-      ]
-    }
-  ]
-}
-```
-
-### Example with operators
-
-```
-{
-  "groups": [
-    {
-      "title": "Spacing",
-      "properties": [
-        {
-          "visible": {
-            "property": "exampleTextProperty",
-            "operator: "!="
-            "value": "hello world"
-          },
-          "information": {},
-          "title": "Shown when the exampleTextProperty string is not equal to 'hello world'"
-        },
-        {
-          "visible": {
-            "property": "exampleTextProperty",
-            "operator: "=="
-            "value": "hello world"
-          },
-          "information": {},
-          "title": "Shown when the exampleTextProperty string is equal to 'hello world'"
-        },
-        ...
-      ]
-    }
-  ]
-}
-```
-
-### Operators
-
-<table><thead><tr><th width="240">Operator</th><th width="124.33333333333331">Type</th><th>Notes</th></tr></thead><tbody><tr><td>==</td><td>any</td><td></td></tr><tr><td>!=</td><td>any</td><td></td></tr><tr><td>&#x3C;</td><td>number</td><td></td></tr><tr><td>&#x3C;=</td><td>number</td><td></td></tr><tr><td>></td><td>number</td><td></td></tr><tr><td>>=</td><td>number</td><td></td></tr><tr><td>contains</td><td>string</td><td></td></tr><tr><td>matches</td><td>string</td><td></td></tr><tr><td>caseInsensitiveMatches</td><td>string</td><td></td></tr></tbody></table>
+    The property is visible when `mySwitchControl` is `false`.
