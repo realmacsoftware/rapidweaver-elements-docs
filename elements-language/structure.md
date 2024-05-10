@@ -33,7 +33,7 @@ An Element pack can contain multiple Elements, each Element should be placed in 
       * [**info.json**](bundle-structure/info.json.md)
       * paletteIcon.png
       * paletteIcon-dark.png
-      * properties.json
+      * [properties.json](../template-language/bundle-structure/properties.md)
       * assets (folder)
       * **templates** (folder)
         * **each** (folder)
