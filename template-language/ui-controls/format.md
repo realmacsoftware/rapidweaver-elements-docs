@@ -115,7 +115,7 @@ If the number field is set to 50 and the template contains&#x20;
 &#x20;the output will be&#x20;
 
 ```
-transform: translateX(50px);
+--translateX: 50px;
 ```
 
 In this case you would either want to add this to a CSS file, or use an inline style attribute to set the `--translateX`:
