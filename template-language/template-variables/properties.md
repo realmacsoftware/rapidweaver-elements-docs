@@ -24,17 +24,17 @@ With this in place, we gain access to the following within template files.
 
 | Property Name                  | Type    | Description |
 | ------------------------------ | ------- | ----------- |
-| \{{project.siteURL\}}          | String  |             |
-| \{{project.mode\}}             | String  |             |
-| \{{project.title\}}            | String  |             |
-| \{{project.slogan\}}           | String  |             |
-| \{{project.copyright\}}        | String  |             |
-| \{{project.email\}}            | String  |             |
-| \{{project.contactText\}}      | String  |             |
-| \{{project.enableSocialTags\}} | Boolean |             |
-| \{{project.language\}}         | String  |             |
-| \{{project.logo.url\}}         | String  |             |
-| \{{project.logo.alt\}}         | String  |             |
+| `{{project.siteURL}}`          | String  |             |
+| `{{project.mode}}`             | String  |             |
+| `{{project.title}}`            | String  |             |
+| `{{project.slogan}}`           | String  |             |
+| `{{project.copyright}}`        | String  |             |
+| `{{project.email}}`            | String  |             |
+| `{{project.contactText}}`      | String  |             |
+| `{{project.enableSocialTags}}` | Boolean |             |
+| `{{project.language}}`         | String  |             |
+| `{{project.logo.url}}`         | String  |             |
+| `{{project.logo.alt}}`         | String  |             |
 
 
 
