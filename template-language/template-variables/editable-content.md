@@ -10,14 +10,10 @@ Add an editible text area with optional default text.
 @text("heading")
 ```
 
-```
-%text%
-```
-
-An editable plain text area with a default value of "Hello World".
+An editable text area with a default value of "Hello World!".
 
 ```
-@text("heading", default: "Enter your text here.")
+@text("heading", default: "Hello World!")
 ```
 
 ### Image Dropzone
