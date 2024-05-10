@@ -12,7 +12,3 @@ You can take advantage of the language additions below when using the [Templates
 [dropzones.md](../../template-language/language-enhancements/dropzones.md)
 {% endcontent-ref %}
 
-{% content-ref url="functions.md" %}
-[functions.md](functions.md)
-{% endcontent-ref %}
-
