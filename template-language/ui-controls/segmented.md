@@ -2,15 +2,15 @@
 
 Display a segmented control.&#x20;
 
-{% hint style="info" %}
-Icon type is an SF Symbol. This control does not support Font Awesome.
-{% endhint %}
-
 ```
 {
     "title": "Alignment",
     "property": "alignment",
     "segmented": {
+        "default": {
+            "base": "align-left",
+            "md": "align-center"
+        },
         "items": [{
             "value": "align-left",
             "icon": "text.alignleft"

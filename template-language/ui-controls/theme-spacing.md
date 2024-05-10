@@ -1,6 +1,4 @@
-# Spacing
-
-
+# Theme Spacing
 
 {% hint style="info" %}
 **Important:** This documentation is incomplete and missing options.
@@ -8,47 +6,46 @@
 Check back soon for a complete list.
 {% endhint %}
 
-The “mode” key on themeSpacing properties can be set to `padding`, `margin`, `gap`, or `translate` to change the behaviour of the control.
+The `themeSpacing` attribute is should be used for all space settings like padding, margins, gaps, translate, and positioning.
 
-### Spacing Example
+This control allows the user's site to dynamically adapt to any theme updates, changes, or overrides to the spacing scale.
 
-You can use the following code as a starting point for adding the padding and gap control.&#x20;
+The themeSpacing control has the following modes:
+
+* padding
+* margin
+* gap
+* transition
+* position
+
+Each one of these modes correspond to the appropriate Tailwind utility classes. This means both developers and users can manage one single spacing scale that help promote consistency across all sites built in RapidWeaver Elements. See the examples below for more information.
 
 ```
 {
-    "title" : "Padding",
-    "properties" : [{
-        "title" : "Spacing",
-        "property" : "themePadding",
-        "themeSpacing": {
-            "mode": "padding",
-            "default": {
-                "custom": false,
-                "left" : "sm",
-                "right" : "lg",
-                "top" : "xl",
-                "bottom" : "xs",
-                "linkHorizontal": true
+    "title": "Padding",
+    "property": "themeSpacing",
+    "themeSpacing": {
+        "mode": "padding",
+        "default": {
+            "base": {
+                "left": "sm",
+                "right": "sm",
+                "top": "sm",
+                "bottom": "sm"
+            },
+            "md": {
+                "left": "md",
+                "right": "md",
+                "top": "md",
+                "bottom": "md"
             }
         }
-    }]
-}, {
-    "title" : "Gap",
-    "properties" : [{
-        "title" : "Gap",
-        "property" : "themeGap",
-        "themeSpacing": {
-            "mode": "gap",
-            "default": {
-                "custom": true,
-                "left" : 10,
-                "right" : 20,
-                "top" : 30,
-                "bottom" : 40,
-                "linkVertical": true
-            }
-        }
-    }]
+    }
 }
-
 ```
+
+### Custom Values
+
+You can also specify that a custom value should be used by default for the themeSpacing control. This allows you to gain precise control over the value of the spacing when your element is dropped on to a page.
+
+### Linking Values

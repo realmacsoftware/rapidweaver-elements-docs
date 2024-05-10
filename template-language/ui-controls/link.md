@@ -4,7 +4,7 @@ The Link control allows users to input a URL or link to another page within thei
 
 ### Properties.json
 
-To add a Link to your Element's controls set the `"property"` to `"link"` in the properties.json file, like so:
+To add a Link to your Element's controls use `"link": {}` in the properties.json file, like so:
 
 ```
 {
@@ -26,5 +26,5 @@ To add a Link to your Element's controls set the `"property"` to `"link"` in the
 This will give you access to the link object in your template files.
 
 ```
-<a href="%id=link.href%" target="%id=link.target%>Click Me</a>
+<a href="{{link.href}}" target="{{link.target}}>Click Me</a>
 ```

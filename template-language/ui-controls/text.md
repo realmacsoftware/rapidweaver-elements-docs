@@ -1,4 +1,4 @@
-# Text Field
+# Text
 
 A text field can be used for freeform text input.
 
@@ -8,127 +8,26 @@ A text field can be used for freeform text input.
 Check back soon for a complete list.
 {% endhint %}
 
-
-
 ### Text Field
 
-The following code exampledisplay a single text field.
+The following code example will display a text field.
 
 ```
 {
     "groups": [        
       {
-        "title" : "Section Title",
+        "title" : "Text Field Example",
         "properties" : [
             {
-                "title": "Text Fields",
+                "title": "Text Field",
                 "property": "MyTextField",
-                "inputs" : {
-                    "items" : [{
-                        "subtitle" : "one",
-                        "default" : "a"
-                    }]
+                "text" : {
+                    "default" : "Hello World"
+                    "subtitle" : "one",
                 }
             }
       ],
     }]
     
 }
-```
-
-The following code example displays an array of text fields.
-
-```
-{
-    "groups": [        
-      {
-        "title" : "Section Title",
-        "properties" : [
-            {
-                "title": "Text Fields",
-                "property": "MyTextField",
-                "inputs" : {
-                    "items" : [{
-                        "subtitle" : "one",
-                        "default" : "a"
-                    }, {
-                        "subtitle" : "two",
-                        "default" : "b"
-                    }, {
-                        "subtitle" : "three",
-                        "default" : "c"
-                    }]
-                }
-            }
-      ],
-    }]
-    
-}
-```
-
-### Multi-line Text Field
-
-The following code example displays a multi-line text box.
-
-```
-{
-    "groups": [        
-      {
-        "title" : "Section Title",
-        "properties" : [
-            {
-                "multi": {},
-                "title":"Text",
-                "property" : "text",
-                "default" : "my default text"
-            }
-      ],
-    }]
-}
-```
-
-
-
-### Named Properties
-
-If you would like the ability to reference an input directly you can add a `property` key like so:
-
-```
-{
-    "groups": [        
-      {
-        "title" : "Section Title",
-        "properties" : [
-            {
-                "title": "Text Fields",
-                "property": "MyTextField",
-                "inputs" : {
-                    "items" : [{
-                        "property" : "Name",
-                        "default" : "Mario"
-                    }, {
-                        "property" : "Occupation",
-                        "default" : "Plumber"
-                    }]
-                }
-            }
-      ],
-    }]
-}
-```
-
-This allows you to use `%id=Name%` and `%id=Occupation%` in your template files, rather than needing to referencing the index of your property.
-
-#### Named Property Example
-
-```
-file: templates/each/index.html
----
-<!-- With Named Properties -->
-<h1>%id=Name%</h1>
-<h2>%id=Occupation%</h2>
-
-<!-- Without Named Properties -->
-<h1>%id=MyTextField[0]%</h1>
-<h2>%id=MyTextField[1]%</h2>
 ```

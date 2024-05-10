@@ -1,21 +1,25 @@
 # Theme Color
 
-There's two types of colour picker, a native "[color well](broken-reference)", and a Tailwinds specify colour picker that integrates with the Theme Studio in RapidWeaver Elements.
+For consistency and integration with the Theme Studio in RapidWeaver Elements, use the `themeColor` attribute to specify all color options for your elements. This ensures that the color settings are centrally managed and adaptable to theme changes.
 
-### Theme Studio Color Picker (themeColor)
+Here’s an example configuration for a color property:
 
-We recommend this control be used when targeting the built-in Tailwinds framework.
-
-```
+```json
 {
-    "title": "Color",
-    "property": "customColor",
-    "format": "text-{{value}}",
+    "title": "Color",
+    "id": "customColor",
+    "format": "text-{{value}}",
     "themeColor": {
-        "default": {
-            "name": "black",
-            "brightness" : 300
+        "default": {
+            "name": "black",
+            "brightness": 300
         }
     }
 }
 ```
+
+**Usage of `themeColor`:**
+
+* **default**: Sets the initial or fallback color and brightness. In this case, the default color is black with a brightness value of 300.
+
+**Output Example:** [The `format` key](format.md) controls the output format of the `customColor` property. In your template files, referencing `{{customColor}}` with the example configuration above would output: `text-black-300`.

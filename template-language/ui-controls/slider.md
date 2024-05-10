@@ -33,8 +33,8 @@ You can use the following code as a starting point for a stepped slider with sev
 {
     "title": "Contrast",
     "property": "contrast",
-    "default": "contrast-70",
     "slider": {
+        "default": "contrast-70",
         "content": [
             { "value": "contrast-0", "title": "0" },
             { "value": "contrast-50", "title": "50" },
@@ -55,8 +55,8 @@ The following example has a minimum value of 0 and maximum of 100. The units are
 	  "title" : "Contrast",
 	  "property" : "contrast",
 	  "format": "{{value}}%",
-	  "default" : 50,
 	  "slider": {
+		  "default" : 50,
 		  "min" : 0,
 		  "max" : 100,
 		  "units": "%",
@@ -71,8 +71,8 @@ An example slider setting a star rating between 0 and 5.
 {
 	"title" : "Rating",
 	"property" : "rating",
-	"default" : 3,
 	"slider": {
+		"default" : 3,
 		"min" : 0,
 		"max" : 5,
 		"round" : true,
