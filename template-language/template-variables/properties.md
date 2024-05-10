@@ -4,17 +4,18 @@ description: Access the users project settings
 
 # Properties
 
-The users site site settings can be accessed as properties from all templates files.
+Page and Projects settings can be accessed as properties from all templates files.
 
-| Property Name        | Type    | Scope |
-| -------------------- | ------- | ----- |
-| `{{title}}`          | Sstring | Page  |
-| `{{icon}}`           | String  | Page  |
-| `{{url}}`            | String  | Page  |
-| `{{isActive}}`       | Boolean | Page  |
-| `{{isExternalPage}}` | Boolean | Page  |
-| `{{hasChildren}}`    | Boolean | Page  |
-|                      |         |       |
+| Property Name         | Type    | Scope |
+| --------------------- | ------- | ----- |
+| `{{title}}`           | Sstring | Page  |
+| `{{icon}}`            | String  | Page  |
+| `{{url}}`             | String  | Page  |
+| `{{isActive}}`        | Boolean | Page  |
+| `{{isExternalPage}}`  | Boolean | Page  |
+| `{{hasChildren}}`     | Boolean | Page  |
+| `{{pageDepth}}`       | Number  | Page  |
+| `{{openInNewWindow}}` | Boolean | Page  |
 
 
 
