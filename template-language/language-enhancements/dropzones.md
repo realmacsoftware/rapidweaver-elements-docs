@@ -8,7 +8,13 @@ A dropzones is an area within a template where child element can be added. Each 
 @dropzone("extraItems")
 ```
 
-⚠️ Multiple dropzones with the same name can used, but you should be careful not to show them at the same time. This can be useful if you want to show child items in different places based on a control.
+```
+@dropzone(name: "content")
+```
+
+{% hint style="info" %}
+Multiple dropzones with the same name can used, but you should be careful not to show them at the same time. This can be useful if you want to show child items in different places based on a control.
+{% endhint %}
 
 ```
 @if(edit)
@@ -17,3 +23,4 @@ A dropzones is an area within a template where child element can be added. Each 
    @dropzone("extraItems")
 @endif
 ```
+

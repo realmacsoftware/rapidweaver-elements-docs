@@ -6,15 +6,9 @@ description: An Element is a bundled folder
 
 Elements require a specific directory structure in order to work correctly, these are called Bundles in macOS.
 
-Element bundles are directory hierarchies, with the top-level directory having a name that ends with a `.rwdevpack` or `.rwelementpack` extension.
+Element bundles are directory hierarchies, with the top-level directory having a name that ends with a `.rwdevpack` extension.
 
-### Distributing Element Packs
-
-RapidWeaver Element Packs (.rwelementpack) are highly optimised encrypted bundles compiled from an RapidWeaver Dev Pack (.rwdevpack) and ready for distribution. Use the dev tools inside of RapidWeaver to convert from a DevPack into a compiled Element Pack.
-
-RapidWeaver Dev Packs are only for development and should not be distributed.
-
-Elements should only be distributed as compiled RapidWeaver Element Packs (.rwelementpack).
+The Pro version of RapidWeaver Elements is required to build and develop Elements.
 
 ### Dev Pack Bundle Structure
 

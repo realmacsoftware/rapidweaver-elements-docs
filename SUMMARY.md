@@ -39,6 +39,7 @@
 
 * [Introduction](elements-language/introduction.md)
 * [Getting Started](template-language/getting-started.md)
+* [Distribution](template-language/distribution.md)
 * [Bundle Structure](elements-language/structure.md)
   * [info](elements-language/bundle-structure/info.json.md)
   * [Icons](elements-language/bundle-structure/icons.md)
@@ -47,9 +48,7 @@
   * [Include](elements-language/bundle-structure/include.md)
 * [Local Data](template-language/local-data.md)
 * [UI Controls](template-language/ui-controls/README.md)
-  * [Enabled](template-language/ui-controls/enabled.md)
   * [Visible](template-language/ui-controls/visible.md)
-  * [Format](template-language/ui-controls/format.md)
   * [Divider](template-language/ui-controls/divider.md)
   * [Heading](template-language/ui-controls/heading.md)
   * [Information](template-language/ui-controls/information.md)
@@ -67,12 +66,13 @@
   * [Theme Spacing](template-language/ui-controls/theme-spacing.md)
   * [Theme Shadow](template-language/ui-controls/theme-shadow.md)
   * [Theme Text Style](template-language/ui-controls/theme-text-style.md)
-* [Template Variables](elements-language/template-variables/README.md)
-  * [Editable Content](template-language/template-variables/editable-content.md)
-  * [Properties](template-language/template-variables/properties.md)
 * [Language](converting-stacks/language-enhancements/README.md)
+  * [Properties](template-language/language-enhancements/properties.md)
+  * [Editable Content](template-language/language-enhancements/editable-content.md)
   * [Conditional Statements](converting-stacks/language-enhancements/conditional-statements.md)
   * [Dropzones](template-language/language-enhancements/dropzones.md)
+  * [Enabled](template-language/language-enhancements/enabled.md)
+  * [Format](template-language/language-enhancements/format.md)
 
 ## 🖌️ Branding
 

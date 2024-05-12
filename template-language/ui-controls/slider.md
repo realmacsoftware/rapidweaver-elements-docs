@@ -12,18 +12,18 @@ Check back soon for a complete list.
 
 The slider control supports the following options.
 
-| Key        | Type    | Notes                                                                                                                                                                  |
-| ---------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `title`    | string  | The name of the Slider. This will be displayed beside the UI element of RapidWeaver                                                                                    |
-| `property` | string  | The name of the property set by this control.                                                                                                                          |
-| `format`   | string  | Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](format.md) for more information. |
-| `default`  | string  | The default value the slider should be set to.                                                                                                                         |
-| `content`  | array   | Can be used to specify an array of values to the slider. See [code example](slider.md#slider-example) below.                                                           |
-| `min`      | number  | The minimum value for the slider.                                                                                                                                      |
-| `max`      | number  | The maximum value for the slider.                                                                                                                                      |
-| `units`    | string  | The units string appears alongside the slider value in the user interface, but it is not included in the template output value.                                        |
-| `round`    | boolean | If true an integer will be used instead of a floating point.                                                                                                           |
-| `ticks`    | number  | the number of ticks that will appear beneath the slider                                                                                                                |
+| Key        | Type    | Notes                                                                                                                                                                                           |
+| ---------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `title`    | string  | The name of the Slider. This will be displayed beside the UI element of RapidWeaver                                                                                                             |
+| `property` | string  | The name of the property set by this control.                                                                                                                                                   |
+| `format`   | string  | Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](../language-enhancements/format.md) for more information. |
+| `default`  | string  | The default value the slider should be set to.                                                                                                                                                  |
+| `content`  | array   | Can be used to specify an array of values to the slider. See [code example](slider.md#slider-example) below.                                                                                    |
+| `min`      | number  | The minimum value for the slider.                                                                                                                                                               |
+| `max`      | number  | The maximum value for the slider.                                                                                                                                                               |
+| `units`    | string  | The units string appears alongside the slider value in the user interface, but it is not included in the template output value.                                                                 |
+| `round`    | boolean | If true an integer will be used instead of a floating point.                                                                                                                                    |
+| `ticks`    | number  | the number of ticks that will appear beneath the slider                                                                                                                                         |
 
 ### Slider Example
 

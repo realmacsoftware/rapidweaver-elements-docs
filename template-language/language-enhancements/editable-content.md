@@ -16,10 +16,3 @@ An editable text area with a default value of "Hello World!".
 @text("heading", default: "Hello World!")
 ```
 
-### Image Dropzone
-
-Add an editble image well to the content.
-
-```
-@dropzone(name: "content")
-```
