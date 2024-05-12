@@ -28,8 +28,18 @@ With this in place, we gain access to the following within template files.
 
 ### Page Properties
 
-<table><thead><tr><th width="275">Property Name</th><th width="135">Type</th><th width="100">Description</th></tr></thead><tbody><tr><td><code>{{page.title}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.id}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.language}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.filename}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.ext}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.absolutePath}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.docRootPath}}</code></td><td>String</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="275">Property Name</th><th width="135">Type</th><th width="338">Description</th></tr></thead><tbody><tr><td><code>{{page.title}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.id}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.language}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.filename}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.ext}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.absolutePath}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.docRootPath}}</code></td><td>String</td><td></td></tr></tbody></table>
 
+### Node Properties
 
+| Property Name               | Type   | Description |
+| --------------------------- | ------ | ----------- |
+| \{{node.id\}}               | String |             |
+| \{{node.parent.id\}}        | String |             |
+| \{{node.parent.container\}} | String |             |
+| \{{node.title\}}            | String |             |
 
-<table><thead><tr><th width="241">Property Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><code>{{icon}}</code></td><td></td><td></td></tr><tr><td><code>{{url}}</code></td><td></td><td></td></tr><tr><td><code>{{isActive}}</code></td><td></td><td></td></tr><tr><td><code>{{isExternalPage}}</code></td><td></td><td></td></tr><tr><td><code>{{hasChildren}}</code></td><td></td><td></td></tr><tr><td><code>{{pageDepth}}</code></td><td></td><td></td></tr><tr><td><code>{{openInNewWindow}}</code></td><td></td><td></td></tr></tbody></table>
+### Element Properties
+
+<table><thead><tr><th width="249">Property Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>{{element.group}}</td><td>String</td><td></td></tr><tr><td>{{element.title}}</td><td>String</td><td></td></tr><tr><td>{{element.version}}</td><td>String</td><td></td></tr><tr><td>{{element.assetPath}}</td><td>String</td><td></td></tr><tr><td>{{element.siteAssetPath}}</td><td>String</td><td></td></tr></tbody></table>
+
