@@ -28,7 +28,7 @@ With this in place, we gain access to the following within template files.
 
 ### Page Properties
 
-<table><thead><tr><th width="241">Property Name</th><th width="237">Type</th><th width="100">Description</th></tr></thead><tbody><tr><td><code>{{page.title}}</code></td><td></td><td></td></tr><tr><td><code>{{page.id}}</code></td><td></td><td></td></tr><tr><td><code>{{page.language}}</code></td><td></td><td></td></tr><tr><td><code>{{page.filename}}</code></td><td></td><td></td></tr><tr><td><code>{{page.ext}}</code></td><td></td><td></td></tr><tr><td><code>{{page.absolutePath}}</code></td><td></td><td></td></tr><tr><td><code>{{page.docRootPath}}</code></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="275">Property Name</th><th width="135">Type</th><th width="100">Description</th></tr></thead><tbody><tr><td><code>{{page.title}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.id}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.language}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.filename}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.ext}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.absolutePath}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.docRootPath}}</code></td><td>String</td><td></td></tr></tbody></table>
 
 
 
