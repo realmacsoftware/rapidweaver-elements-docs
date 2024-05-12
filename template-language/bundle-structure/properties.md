@@ -1,10 +1,6 @@
 # Properties
 
-properties.json
-
-{% hint style="info" %}
-Icon type is an SF Symbol. This control does not support Font Awesome.
-{% endhint %}
+The properties.json file defines the User Interface for an Element. [Browse the UI Control docs](../ui-controls/) for a full list of available controls.
 
 ```
 {

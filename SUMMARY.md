@@ -48,6 +48,7 @@
   * [Include](elements-language/bundle-structure/include.md)
 * [Local Data](template-language/local-data.md)
 * [UI Controls](template-language/ui-controls/README.md)
+  * [Group](template-language/ui-controls/group.md)
   * [Visible](template-language/ui-controls/visible.md)
   * [Divider](template-language/ui-controls/divider.md)
   * [Heading](template-language/ui-controls/heading.md)
