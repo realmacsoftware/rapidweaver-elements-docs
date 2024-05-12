@@ -49,20 +49,22 @@ We built Elements with it's own powerful and flexible language allowing anyone t
 
 Under the hood RapidWeaver Element uses the popular Tailwind CSS framework and AlpineJS.
 
+### Our Roadmap
 
-
-{% hint style="info" %}
-### Roadmap
-
-Don’t buy Elements for might it might do down the road, but it for what it can do now. However, we wanted to give you a glimpse into the future
+Please remeber you're purchasing Elements for what it can do now. Not what it might be able to do in the future. Development plans can and usual do change, but hopefully this will give you a glimse of where we'd like to get to.
 
 #### Online Data Editor
 
+Take your local data and make it editable online!
+
 #### Online Project Backup
 
+Kepe your projects safe and share them between Macs.
+
 #### Built-in Hosting
+
+One-click easy hosting.
 
 #### Built-in CDN
 
 Say goodbye to warehousing and hello to RapidWeaver’s integrated Cloud Storage solution.
-{% endhint %}
