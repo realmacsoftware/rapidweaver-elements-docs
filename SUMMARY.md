@@ -20,10 +20,10 @@
   * [Shadows](user-guide/theme-studio/shadows.md)
   * [Border Width](user-guide/theme-studio/border-width.md)
   * [Border Radius](user-guide/theme-studio/border-radius.md)
+* [Globals](user-guide/globals.md)
 * [Data Editor](user-guide/data-editor.md)
+* [Custom Elements](user-guide/custom-elements.md)
 * [Elements](user-guide/elements/README.md)
-  * [Custom Elements](user-guide/elements/custom-elements.md)
-  * [Custom CSS Values](user-guide/elements/custom-css-values.md)
   * [Atom Pack](user-guide/elements/atom-pack/README.md)
     * [Button](user-guide/elements/atom-pack/button.md)
     * [Heading](user-guide/elements/atom-pack/heading.md)
@@ -34,6 +34,7 @@
     * [Flex](user-guide/elements/atom-pack/flex.md)
     * [Grid](user-guide/elements/atom-pack/grid.md)
     * [Section](user-guide/elements/atom-pack/section.md)
+  * [Custom CSS Values](user-guide/elements/custom-css-values.md)
 
 ## 🛠️ Template Language
 
