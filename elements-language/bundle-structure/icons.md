@@ -56,6 +56,12 @@ Banner images should be 512px in width, but can be as short or tall as you need.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2023-08-05 at 10 .46.30@2x.png" alt=""><figcaption><p>Element Library: Grid view icons (Developer Beta 12)</p></figcaption></figure>
 
+### Grid and List View (Banner Icon)
+
+Banner icons will appear the same in both grid and list.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-05-12 at 6 .51.51@2x (1).png" alt=""><figcaption><p>Element Library: Grid view icons (Pre-Beta Build 22484)</p></figcaption></figure>
+
 
 
 ### Asset Placement
