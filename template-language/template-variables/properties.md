@@ -1,5 +1,5 @@
 ---
-description: Access the users project settings
+description: Access Project Preties
 ---
 
 # Properties
@@ -22,32 +22,14 @@ exports.transformHook = transformHook;
 
 With this in place, we gain access to the following within template files.
 
-| Property Name                  | Type    | Description |
-| ------------------------------ | ------- | ----------- |
-| `{{project.siteURL}}`          | String  |             |
-| `{{project.mode}}`             | String  |             |
-| `{{project.title}}`            | String  |             |
-| `{{project.slogan}}`           | String  |             |
-| `{{project.copyright}}`        | String  |             |
-| `{{project.email}}`            | String  |             |
-| `{{project.contactText}}`      | String  |             |
-| `{{project.enableSocialTags}}` | Boolean |             |
-| `{{project.language}}`         | String  |             |
-| `{{project.logo.url}}`         | String  |             |
-| `{{project.logo.alt}}`         | String  |             |
+### Project Properties
+
+<table><thead><tr><th width="346">Property Name</th><th width="127">Type</th><th width="278">Description</th></tr></thead><tbody><tr><td><code>{{project.siteURL}}</code></td><td>String</td><td></td></tr><tr><td><code>{{project.mode}}</code></td><td>String</td><td></td></tr><tr><td><code>{{project.title}}</code></td><td>String</td><td></td></tr><tr><td><code>{{project.slogan}}</code></td><td>String</td><td></td></tr><tr><td><code>{{project.copyright}}</code></td><td>String</td><td></td></tr><tr><td><code>{{project.email}}</code></td><td>String</td><td></td></tr><tr><td><code>{{project.contactText}}</code></td><td>String</td><td></td></tr><tr><td><code>{{project.enableSocialTags}}</code></td><td>Boolean</td><td></td></tr><tr><td><code>{{project.language}}</code></td><td>String</td><td></td></tr><tr><td><code>{{project.logo.url}}</code></td><td>String</td><td></td></tr><tr><td><code>{{project.logo.alt}}</code></td><td>String</td><td></td></tr></tbody></table>
+
+### Page Properties
+
+<table><thead><tr><th width="241">Property Name</th><th width="237">Type</th><th width="100">Description</th></tr></thead><tbody><tr><td><code>{{page.title}}</code></td><td></td><td></td></tr><tr><td><code>{{page.id}}</code></td><td></td><td></td></tr><tr><td><code>{{page.language}}</code></td><td></td><td></td></tr><tr><td><code>{{page.filename}}</code></td><td></td><td></td></tr><tr><td><code>{{page.ext}}</code></td><td></td><td></td></tr><tr><td><code>{{page.absolutePath}}</code></td><td></td><td></td></tr><tr><td><code>{{page.docRootPath}}</code></td><td></td><td></td></tr></tbody></table>
 
 
 
-| Property Name         | Type    | Scope |
-| --------------------- | ------- | ----- |
-| `{{title}}`           | String  | Page  |
-| `{{icon}}`            | String  | Page  |
-| `{{url}}`             | String  | Page  |
-| `{{isActive}}`        | Boolean | Page  |
-| `{{isExternalPage}}`  | Boolean | Page  |
-| `{{hasChildren}}`     | Boolean | Page  |
-| `{{pageDepth}}`       | Number  | Page  |
-| `{{openInNewWindow}}` | Boolean | Page  |
-
-
-
+<table><thead><tr><th width="241">Property Name</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><code>{{icon}}</code></td><td></td><td></td></tr><tr><td><code>{{url}}</code></td><td></td><td></td></tr><tr><td><code>{{isActive}}</code></td><td></td><td></td></tr><tr><td><code>{{isExternalPage}}</code></td><td></td><td></td></tr><tr><td><code>{{hasChildren}}</code></td><td></td><td></td></tr><tr><td><code>{{pageDepth}}</code></td><td></td><td></td></tr><tr><td><code>{{openInNewWindow}}</code></td><td></td><td></td></tr></tbody></table>
