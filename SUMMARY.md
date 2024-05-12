@@ -1,7 +1,7 @@
 # Table of contents
 
 * [RapidWeaver Elements](README.md)
-* [Pricing](pricing.md)
+* [Pricing Information](pricing-information.md)
 
 ## 📖 User Guide
 
