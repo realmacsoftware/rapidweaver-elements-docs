@@ -1,10 +1,10 @@
 ---
-description: Access Project Preties
+description: Access Project Properties
 ---
 
 # Properties
 
-Various properties from the current environment can be used within templates but access must be granted through the `setProps` command in the hooks file first.
+Various properties from the current environment can be used within templates but access must be granted through the `setProps` command in the [hooks.js](../../elements-language/bundle-structure/hooks.md) file first.
 
 ```
 const transformHook = (rw) => {    
