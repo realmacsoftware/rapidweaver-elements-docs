@@ -39,6 +39,11 @@ An Element pack can contain multiple Elements, each Element should be placed in 
         * extra.html
       * page (folder)
         * page.html
+  * com.realmac.elementpack.foobar (folder)
+  * shared (folder)
+    * assets (folder)
+    * hooks (folder)
+    * templates (folder)
 
 Here's a Finder window showing the above Element layout on macOS Ventura.
 
