@@ -45,7 +45,7 @@ An Element pack can contain multiple Elements, each Element should be placed in 
     * hooks (folder)
     * templates (folder)
 
-Here's a Finder window showing the above Element layout on macOS Ventura.
+Here's a Finder window showing a standard Element folder structure on macOS Ventura.
 
 <figure><img src="../.gitbook/assets/CleanShot 2023-05-31 at 14.08.03@2x.png" alt=""><figcaption><p>Finder window showing the layout of a typical Element.</p></figcaption></figure>
 
