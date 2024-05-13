@@ -22,4 +22,4 @@ Here’s an example configuration for a color property:
 
 * **default**: Sets the initial or fallback color and brightness. In this case, the default color is black with a brightness value of 300.
 
-**Output Example:** [The `format` key](../format.md) controls the output format of the `customColor` property. In your template files, referencing `{{customColor}}` with the example configuration above would output: `text-black-300`.
+**Output Example:** [The `format` key](../general-structure/format.md) controls the output format of the `customColor` property. In your template files, referencing `{{customColor}}` with the example configuration above would output: `text-black-300`.
