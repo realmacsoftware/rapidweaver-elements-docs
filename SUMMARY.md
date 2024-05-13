@@ -55,6 +55,7 @@
     * [rw.setProps](elements-language/hooks.js/functions/rw.setprops.md)
     * [rw.setRootElement](elements-language/hooks.js/functions/rw.setrootelement.md)
   * [Environment data](elements-language/hooks.js/environment-data/README.md)
+    * [rw.collections](elements-language/hooks.js/environment-data/rw.collections.md)
     * [rw.element](elements-language/hooks.js/environment-data/rw.element.md)
     * [rw.node](elements-language/hooks.js/environment-data/rw.node.md)
     * [rw.page](elements-language/hooks.js/environment-data/rw.page.md)
