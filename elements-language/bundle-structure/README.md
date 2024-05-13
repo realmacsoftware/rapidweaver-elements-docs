@@ -22,20 +22,20 @@ An Element pack can contain multiple Elements, each Element should be placed in 
 * **elements** (folder)
 * info.json
   * **com.realmac.elementpack.helloworld** (folder)
-    * [hooks.js](bundle-structure/hooks.md)
-    * [**icon.icns**](bundle-structure/icons.md)
+    * [hooks.js](broken-reference)
+    * [**icon.icns**](icons.md)
     * icon-dark.icns
-    * [**info.json**](bundle-structure/info.json.md)
+    * [**info.json**](info.json.md)
     * paletteIcon.png
     * paletteIcon-dark.png
-    * [properties.json](../template-language/bundle-structure/properties.md)
+    * [properties.json](broken-reference)
     * assets (folder)
       * page (folder)
     * **templates** (folder)
       * **each** (folder)
         * **index.html**
         * styles.css
-      * [include](bundle-structure/include.md) (folder)
+      * [include](../templates/includes.md) (folder)
         * extra.html
       * page (folder)
         * page.html
@@ -47,11 +47,11 @@ An Element pack can contain multiple Elements, each Element should be placed in 
 
 Here's a Finder window showing a standard Element folder structure on macOS Ventura.
 
-<figure><img src="../.gitbook/assets/CleanShot 2023-05-31 at 14.08.03@2x.png" alt=""><figcaption><p>Finder window showing the layout of a typical Element.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-05-31 at 14.08.03@2x.png" alt=""><figcaption><p>Finder window showing the layout of a typical Element.</p></figcaption></figure>
 
 And the same Element being edited in [Visual Studio Code](https://code.visualstudio.com).
 
-<figure><img src="../.gitbook/assets/CleanShot 2023-05-31 at 14.26.45@2x.png" alt=""><figcaption><p>Editing an Element in Visual Studio Code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2023-05-31 at 14.26.45@2x.png" alt=""><figcaption><p>Editing an Element in Visual Studio Code</p></figcaption></figure>
 
 ### Dev Pack with Multiple Elements
 
@@ -60,7 +60,7 @@ An Element pack can have multiple addons inside of it, here's an example of that
 **WebWorld.rwdevpack** (bundle)
 
 * **elements** (folder)
-  * [**info.json**](bundle-structure/info.json.md)
+  * [**info.json**](info.json.md)
   * **com.realmac.elementpack.helloworld** (folder)
   * **com.realmac.elementpack.goodbyeworld** (folder)
 

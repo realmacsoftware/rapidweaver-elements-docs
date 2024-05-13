@@ -1,6 +1,6 @@
-# Properties
+# Properties.json
 
-The properties.json file defines the User Interface for an Element. [Browse the UI Control docs](../ui-controls/) for a full list of available controls.
+The properties.json file defines the User Interface for an Element. [Browse the UI Control docs](ui-controls/) for a full list of available controls.
 
 ```
 {

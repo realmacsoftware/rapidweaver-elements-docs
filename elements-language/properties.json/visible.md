@@ -1,6 +1,6 @@
 # Visible
 
-The `visible` key in an object's properties can be set using a logical expression that evaluates to `true` or `false`. This determines whether a specific UI element is shown or hidden based on the conditions specified in the expression. Works in the same way as [enabled](../language-enhancements/enabled.md).
+The `visible` key in an object's properties can be set using a logical expression that evaluates to `true` or `false`. This determines whether a specific UI element is shown or hidden based on the conditions specified in the expression. Works in the same way as [enabled](enabled.md).
 
 * **Boolean Logic**: Use logical operators (`&&`, `||`, `!`) to combine multiple conditions.
 * **Comparison Operators**: Use `==`, `!=`, `>`, `<`, `>=`, `<=` to compare values.

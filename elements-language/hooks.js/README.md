@@ -1,8 +1,4 @@
----
-description: A powerful and flexible way to extend Elements
----
-
-# Hooks
+# Hooks.js
 
 Global Properties
 
