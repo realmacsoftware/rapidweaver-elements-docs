@@ -2,8 +2,8 @@
 
 Display a divider between content.
 
-```
-        {
-          "divider": {}
-        }
+```json
+{
+  "divider": {}
+}
 ```
