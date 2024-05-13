@@ -127,6 +127,7 @@ In this case you would either want to add this to a CSS file, or use an inline s
   ...
   transform: scale(0.5) translateX(var(--translateX, 0));
 }
+</style>
 
 // now that your class is setup to use the --translateX custom property
 // you can reassign it locally:
