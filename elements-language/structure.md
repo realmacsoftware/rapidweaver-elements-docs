@@ -19,24 +19,25 @@ An Element pack can contain multiple Elements, each Element should be placed in 
 {% endhint %}
 
 * **HelloWorld.rwdevpack** (bundle)
-  * **elements** (folder)
-    * **com.realmac.elementpack.helloworld** (folder)
-      * [hooks.js](bundle-structure/hooks.md)
-      * [**icon.icns**](bundle-structure/icons.md)
-      * icon-dark.icns
-      * [**info.json**](bundle-structure/info.json.md)
-      * paletteIcon.png
-      * paletteIcon-dark.png
-      * [properties.json](../template-language/bundle-structure/properties.md)
-      * assets (folder)
-      * **templates** (folder)
-        * **each** (folder)
-          * **index.html**
-          * styles.css
-        * [include](bundle-structure/include.md) (folder)
-          * extra.html
-        * page (folder)
-          * page.html
+* **elements** (folder)
+* info.json
+  * **com.realmac.elementpack.helloworld** (folder)
+    * [hooks.js](bundle-structure/hooks.md)
+    * [**icon.icns**](bundle-structure/icons.md)
+    * icon-dark.icns
+    * [**info.json**](bundle-structure/info.json.md)
+    * paletteIcon.png
+    * paletteIcon-dark.png
+    * [properties.json](../template-language/bundle-structure/properties.md)
+    * assets (folder)
+    * **templates** (folder)
+      * **each** (folder)
+        * **index.html**
+        * styles.css
+      * [include](bundle-structure/include.md) (folder)
+        * extra.html
+      * page (folder)
+        * page.html
 
 Here's a Finder window showing the above Element layout on macOS Ventura.
 
