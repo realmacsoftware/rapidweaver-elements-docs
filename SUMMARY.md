@@ -81,6 +81,7 @@
     * [Information](elements-language/properties.json/ui-controls/information.md)
     * [Link](elements-language/properties.json/ui-controls/link.md)
     * [Number](elements-language/properties.json/ui-controls/number.md)
+    * [Resource](elements-language/properties.json/ui-controls/resource.md)
     * [Segmented](elements-language/properties.json/ui-controls/segmented.md)
     * [Slider](elements-language/properties.json/ui-controls/slider.md)
     * [Switch](elements-language/properties.json/ui-controls/switch.md)
