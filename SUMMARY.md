@@ -78,6 +78,7 @@
   * [UI Controls](elements-language/properties.json/ui-controls/README.md)
     * [Divider](elements-language/properties.json/ui-controls/divider.md)
     * [Heading](elements-language/properties.json/ui-controls/heading.md)
+    * [Image](elements-language/properties.json/ui-controls/image.md)
     * [Information](elements-language/properties.json/ui-controls/information.md)
     * [Link](elements-language/properties.json/ui-controls/link.md)
     * [Number](elements-language/properties.json/ui-controls/number.md)
