@@ -112,4 +112,5 @@
 ## 🖌️ Branding
 
 * [Logotype](branding/logotype.md)
+* [Logotype Animated](branding/logotype-animated.md)
 * [Icon](branding/icon.md)
