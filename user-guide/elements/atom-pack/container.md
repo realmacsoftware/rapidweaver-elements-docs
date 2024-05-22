@@ -6,17 +6,21 @@ The Container Element serves as a wrapper or holder for other elements. It is co
 The container width can be set up globally for each breakpoint in the [Screens area](../../theme-studio/screens.md) of the Theme Studio.
 {% endhint %}
 
-### Layout
+### Layout Group
 
-#### Align
+#### Margin
 
-Align allows you to set the alignment of the items with the container.&#x20;
+The Margin allows you to set the margin on all sides of the container. You can adjust the left and right margins to set the spacing as follows:
+
+* **Align Center**, set the let and right margin to "Auto"
+* **Align Left**, set the left and right margin to "0"
+* **Align Right**, set the left margin to "0" and the right margin to "auto"
 
 #### Padding
 
 Apply padding independently to each side of the element.
 
-### Advanced
+### Advanced Group
 
 #### Visible
 
@@ -31,10 +35,6 @@ You can browse all the available Tailwind classes over in the [Tailwind CSS docu
 #### Clip Content
 
 Clip content that overflows this Element.
-
-#### Position
-
-Controls the position of child Elements within this Element.
 
 
 
