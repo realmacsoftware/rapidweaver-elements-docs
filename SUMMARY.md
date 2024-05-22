@@ -7,6 +7,8 @@
 
 * [Design System](user-guide/design-system.md)
 * [Features](user-guide/features/README.md)
+  * [Custom Elements](user-guide/features/custom-elements.md)
+  * [Data Editor](user-guide/features/data-editor.md)
   * [Globals](user-guide/features/globals.md)
   * [Node Browser](user-guide/features/node-browser.md)
   * [Page Management](user-guide/features/page-management.md)
@@ -21,8 +23,6 @@
   * [Shadows](user-guide/theme-studio/shadows.md)
   * [Border Width](user-guide/theme-studio/border-width.md)
   * [Border Radius](user-guide/theme-studio/border-radius.md)
-* [Data Editor](user-guide/data-editor.md)
-* [Custom Elements](user-guide/custom-elements.md)
 * [Elements](user-guide/elements/README.md)
   * [Atom Pack](user-guide/elements/atom-pack/README.md)
     * [Button](user-guide/elements/atom-pack/button.md)
