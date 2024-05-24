@@ -35,13 +35,15 @@ Build your website locally and when you're ready publish your site to any number
 
 ### Node Browser
 
-Awesome
+The Node Browser allows you to see and manage the entire structure of your page.
 
-### Globals
+### Global Templates
 
-Build once and use anywhere in your website.
+Globals give you the power to create customisable groups of elements to maintain a consistent design language across your entire site.&#x20;
 
-### Build Custom Elements
+Create global templates to help ensure the design for you website is modular, reusable, and consistent.
+
+### Custom Elements
 
 We built Elements with it's own powerful and flexible language allowing anyone to create custom Elements. With powerful data integration the possibilities of what you can create are endless.
 
@@ -49,22 +51,22 @@ We built Elements with it's own powerful and flexible language allowing anyone t
 
 Under the hood RapidWeaver Element uses the popular Tailwind CSS framework and AlpineJS.
 
-### Our Roadmap
+## Future Roadmap
 
-Please remeber you're purchasing Elements for what it can do now. Not what it might be able to do in the future. Development plans can and usual do change, but hopefully this will give you a glimse of where we'd like to get to.
+Please remeber you're purchasing Elements for what it can do now. Not what it might be able to do in the future. Development plans can and usual do change. The list below will give you an insight into just some of things we've discussed internally and would like to implement in the future.
 
 #### Online Data Editor
 
 Take your local data and make it editable online!
 
+#### Built-in CDN
+
+Say goodbye to warehousing and hello to RapidWeaver’s integrated cloud storage solution.
+
 #### Online Project Backup
 
-Kepe your projects safe and share them between Macs.
+Keep your projects safe and share them between Macs.
 
 #### Built-in Hosting
 
 One-click easy hosting.
-
-#### Built-in CDN
-
-Say goodbye to warehousing and hello to RapidWeaver’s integrated Cloud Storage solution.
