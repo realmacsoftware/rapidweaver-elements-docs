@@ -7,7 +7,7 @@ This documentation is a **work-in-progress and subject to change**. It is not fi
 {% endhint %}
 
 **Pricing Information**\
-RapidWeaver Elements will cost $149/year during the public beta phase. Anyone purchasing a license during this time will lock in this pricing for the first three years. By supporting us and purchasing a license before the official launch you'll save $150.
+RapidWeaver Elements will cost $149/year during the public beta phase. Anyone purchasing a license during this time will lock in this pricing for the first three years.
 
 When RapidWeaver Elements officially launches, the cost will be $199/year for new users.
 
