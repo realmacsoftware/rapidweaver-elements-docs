@@ -1,4 +1,4 @@
-# Pricing Information
+# Pricing & Requirments
 
 RapidWeaver Elements has everything you need built-in to build a beautiful modern website.
 
@@ -11,5 +11,6 @@ RapidWeaver Elements will cost $149/year during the public beta phase. Anyone pu
 
 When RapidWeaver Elements officially launches, the cost will be $199/year for new users.
 
+### System Requirements
 
-
+To be confirmed.
