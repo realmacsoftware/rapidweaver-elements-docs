@@ -48,7 +48,7 @@ Data collection properties are described in the same way as Element properties.
 
 This means we must create a `properties.json` file and describe our properties in exactly the same way as Element properties.
 
-**Note:** all properties available to Elements are also available to data collections. Read the [properties.json docs](../properties.json/) for more information.
+**Note:** all properties available to Elements are also available to data collections. Read the [properties.json docs](properties.json/) for more information.
 
 So, given that a feature should have a title, description, and icon, we should add the following to properties.json:
 
