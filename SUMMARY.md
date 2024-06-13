@@ -1,6 +1,6 @@
 # Table of contents
 
-* [RapidWeaver Elements](README.md)
+* [Welcome to Elements](README.md)
 * [Pricing & Requirments](pricing-and-requirments.md)
 
 ## 📖 User Guide
