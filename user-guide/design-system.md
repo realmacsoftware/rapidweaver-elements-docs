@@ -4,9 +4,17 @@ description: Learn more about how the Elements design system works.
 
 # Design System
 
+### Atoms
+
+Atoms represent the most basic elements of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks, the are the core componenets.
+
+### Components
+
+Components are pre-built sections and layouts, each with their own unique set of features. They include things like, navigation, footer, layouts, and galleries.
+
 ### Mobile First Design
 
-Elements is a mobile first, static website builder. Mobile has now surpassed desktop in global internet usage, Google has switched to Mobile First indexing. that’s why RapidWeaver Elements takes a mobile first approach to website design to ensure your sites work better and rank higher in search results.
+Elements is a mobile first, static website builder. Mobile has now surpassed desktop in global internet usage, Google has switched to Mobile First indexing. that’s why Elements takes a mobile first approach to website design to ensure your sites work better and rank higher in search results.
 
 We recommend designing at the mobile breakpoint first, and working your way up through the breakpoints to support larger screens.
 
@@ -14,7 +22,7 @@ We recommend designing at the mobile breakpoint first, and working your way up t
 
 Elements is built upon the popular [Tailwind CSS framework](https://tailwindcss.com/) (and AlpineJS) which makes it a piece of cake to build modern responsive websites.
 
-By standardising on the framework used inside of Elements, we ensure all third-party components work great with every website you build.&#x20;
+By standardising on the framework used inside of Elements, we ensure third-party components work great with every website you build.&#x20;
 
 #### Learn More About Tailwind
 
