@@ -14,7 +14,7 @@ Components are pre-built sections and layouts, each with their own unique set of
 
 Here's a high level illustration on how Atoms and Components differ.
 
-<figure><img src="../.gitbook/assets/atoms_and_components (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/atoms_and_components.png" alt=""><figcaption><p>Atoms and Components in Elements</p></figcaption></figure>
 
 ### Mobile First Design
 
