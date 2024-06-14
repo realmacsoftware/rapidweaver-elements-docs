@@ -6,7 +6,7 @@ description: Learn more about how the Elements design system works.
 
 ### Atoms
 
-Atoms represent the most basic elements of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks, the are the core componenets.
+Atoms represent the most basic elements of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks, the are the core components.
 
 ### Components
 
