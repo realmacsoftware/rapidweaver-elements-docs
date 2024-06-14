@@ -12,6 +12,10 @@ Atoms represent the most basic elements of a webpage, they are at the foundation
 
 Components are pre-built sections and layouts, each with their own unique set of features. They include things like, navigation, footer, layouts, and galleries.
 
+Here's a high level illustration on how Atoms and Components differ.
+
+<figure><img src="../.gitbook/assets/atoms_and_components (1).png" alt=""><figcaption></figcaption></figure>
+
 ### Mobile First Design
 
 Elements is a mobile first, static website builder. Mobile has now surpassed desktop in global internet usage, Google has switched to Mobile First indexing. that’s why Elements takes a mobile first approach to website design to ensure your sites work better and rank higher in search results.
