@@ -30,7 +30,7 @@ You can reuse global blocks across your site so you need only need update the co
 
 You can take Globals even further by overriding content and design aspects on an individual instance. For example you might have a banner that you want to use on every page of your site and you'd like the design to be consistent. You can use the override feature to customise the text and background image on each instance. You can even override the design settings on individual instances.
 
-Here's a visual illustration of how Globals work with Atoms and Components.
+Here's a visual illustration of how Atoms and Components can be group togther to form a Global.
 
 <figure><img src="../.gitbook/assets/atoms_components_globals.png" alt=""><figcaption><p>Atoms, Components, and Globals in Elements</p></figcaption></figure>
 
