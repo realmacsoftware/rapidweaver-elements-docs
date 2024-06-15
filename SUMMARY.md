@@ -10,7 +10,7 @@
   * [Custom Elements](user-guide/features/custom-elements.md)
   * [Data Editor](user-guide/features/data-editor.md)
   * [Editor](user-guide/features/editor.md)
-  * [Global Components](user-guide/features/globals.md)
+  * [Globals](user-guide/features/globals.md)
   * [Node Browser](user-guide/features/node-browser.md)
   * [Page Management](user-guide/features/page-management.md)
   * [Resources](user-guide/features/resources.md)

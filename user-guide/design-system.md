@@ -16,6 +16,14 @@ Here's a high level illustration on how Atoms and Components differ.
 
 <figure><img src="../.gitbook/assets/atoms_and_components.png" alt=""><figcaption><p>Atoms and Components in Elements</p></figcaption></figure>
 
+### Globals
+
+Globals are User created groups of atoms and components,. Globals help maintain a consistent design language across your entire site.
+
+You can reuse global blocks across your site so you need only need update the content in one place and have it automagically mirrored in all other instances of that global. For example, this can be very  useful for global header and footer sections. You can take Globals even further by overriding content and design aspects on an individual instance. For example you might have a banner that you want to use on every page of your site and you'd like the design to be consistent. You can use the override feature to customise the text and background image on each instance. You can even override the design settings on certain instances.
+
+
+
 ### Mobile First Design
 
 Elements is a mobile first, static website builder. Mobile has now surpassed desktop in global internet usage, Google has switched to Mobile First indexing. that’s why Elements takes a mobile first approach to website design to ensure your sites work better and rank higher in search results.

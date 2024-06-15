@@ -2,9 +2,9 @@
 description: Create reusable shared groups of elements
 ---
 
-# Global Components
+# Globals
 
-Global components (or globals for short) give you the power to create customisable groups of elements to maintain a consistent design language across your entire site.
+Globals give you the power to create customisable groups of atoms and components to maintain a consistent design language across your entire site.
 
 {% hint style="info" %}
 Globals help ensure the design for you website is modular, reusable, and consistent.
