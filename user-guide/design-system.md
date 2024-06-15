@@ -6,9 +6,7 @@ description: Learn more about how the Elements design system works.
 
 If you're just starting out with Elements it's important to take the time to learn the difference between Atoms, Components, and Globals.
 
-It's also worth noting that Elements is a Mobile first design system, you can leanr more about all of this and more below.
-
-If you have more questions about any of this, please [visit the forum](https://forums.realmacsoftware.com).
+It's also worth noting that Elements is a Mobile first design system, you can learn more about all of this and more below. If you have more questions, please [visit the forum](https://forums.realmacsoftware.com).
 
 ### Atoms
 
