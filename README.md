@@ -2,9 +2,9 @@
 description: Next generation website builder for macOS
 ---
 
-# RapidWeaver Elements
+# Welcome to Elements
 
-Elements is a next-generation website builder for macOS, it enables anyone to build a modern website without writing a line of code.
+RapidWeaver Elements is a next-generation website builder for macOS, it enables anyone to build a modern website without writing a line of code.
 
 ### ⚠️ Beware! This documentation is a **work-in-progress!**
 
