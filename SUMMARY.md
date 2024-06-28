@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome to Elements](README.md)
-* [Pricing & Requirments](pricing-and-requirments.md)
 
 ## 📖 User Guide
 
