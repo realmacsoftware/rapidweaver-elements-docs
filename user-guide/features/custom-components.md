@@ -15,22 +15,22 @@ If you know a bit of HTML you can create your own custom Components for use in y
 
 ### Adding Editable Content Areas
 
-The following code should be placed in the HTML Template area. Using any of the following tags enable editable areas with the page. No setup of configuration in the properties file is required.
+Using the following tags enable editable areas with the page. No setup of configuration in the properties file is required.
 
-Replace any text in the html template that you want to make editable within the page.
+Replace any text in the html template to make it editable within the page.
 
 ```
 @text("heading")
 ```
 
-Here's a real world example of using the code to make the heading editible/
+Here's a real world example of using the code to make the a heading editible.
 
 ```html
 <h1 class="text-lg text-gray-300 font-heading">@text("heading")</h1>
 <p class="text-sm text-slate-300/70">Build the website of your dreams.</p>
 ```
 
-You can also a default value to editable text areas, so that when your custom component is droped into a page it will be populated with a defulat value. In the example below, it would be "Hello World!".
+You can also set a default value for an editable text areas, so that when your custom component is dropped into a page it will be populated with a defulat value. In the example below, it would be "Hello World!".
 
 ```
 @text("heading", default: "Hello World!")

@@ -1,3 +1,4 @@
 # Data Editor
 
-Add data records to Smart Elements.
+Add data records to supported components.
+
