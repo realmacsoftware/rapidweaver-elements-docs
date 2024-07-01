@@ -5,8 +5,9 @@
 ## 📖 User Guide
 
 * [Design System](user-guide/design-system.md)
-* [Previewing Your Website](user-guide/previewing-your-website.md)
 * [Site Settings](user-guide/site-settings.md)
+* [Previewing Your Website](user-guide/previewing-your-website.md)
+* [Publishing Your Website](user-guide/publishing-your-website.md)
 * [Features](user-guide/features/README.md)
   * [Custom Components](user-guide/features/custom-components.md)
   * [Data Editor](user-guide/features/data-editor.md)
@@ -15,7 +16,6 @@
   * [Node Browser](user-guide/features/node-browser.md)
   * [Page Management](user-guide/features/page-management.md)
   * [Resources](user-guide/features/resources.md)
-  * [Publishing](user-guide/features/publishing.md)
 * [Theme Studio](user-guide/theme-studio/README.md)
   * [Theme](user-guide/theme-studio/theme.md)
   * [Colors](user-guide/theme-studio/colors.md)
