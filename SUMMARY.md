@@ -5,9 +5,9 @@
 ## 📖 User Guide
 
 * [Design System](user-guide/design-system.md)
-* [Site Settings](user-guide/site-settings.md)
 * [Previewing Your Website](user-guide/previewing-your-website.md)
-* [Publishing Your Website](user-guide/publishing-your-website.md)
+* [Site Settings](user-guide/site-settings/README.md)
+  * [Publishing](user-guide/site-settings/publishing.md)
 * [Features](user-guide/features/README.md)
   * [Custom Components](user-guide/features/custom-components.md)
   * [Data Editor](user-guide/features/data-editor.md)
