@@ -44,6 +44,16 @@ Elements is built upon the popular [Tailwind CSS framework](https://tailwindcss.
 
 By standardising on the framework used inside of Elements, we ensure third-party components work great with every website you build.&#x20;
 
+**Elements builds a custom version of Tailwind CSS in real-time.** As you add, remove, or modify any components and content in your project, Elements generates the required CSS, and only the required CSS. Elements **does not** load Tailwind from a CDN. Doing so would have severely limited what we are able to do from a design and theming perspective.
+
+To reiterate, **all CSS generation happens in real-time** as you edit your project. It’s truly amazing once you start working with it.
+
+This setup ensures that Elements produces the **smallest amount of CSS possible**, as it only generates the CSS you are _actually using_ in your project.
+
+The way Elements generates CSS for you means there is no need for each developer to write and ship the same CSS over and over again. Elements offers you a modern, reliable, flexible design system that both developers and end users can utilize.
+
+The design system in Elements allows the app, third-party developers, and end users to all create code, components, and content separately but still maintain consistency from a design/theming perspective.
+
 #### Learn More About Tailwind
 
 * [Tailwind CSS](https://tailwindcss.com)
