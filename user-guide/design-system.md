@@ -10,11 +10,11 @@ It's also worth noting that Elements is a Mobile first design system, you can le
 
 ### Atoms
 
-Atoms represent the most basic elements of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks, the are the core components.
+Atoms represent the most basic elements of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks.
 
 ### Components
 
-Components are pre-built sections and layouts, each with their own unique set of features. They include things like, navigation, footer, layouts, and galleries. They are often fixed layouts, that offer a limited amount of customisation.
+Components are generally pre-built sections, each with their own unique set of features. They include things like, navigation, footer, layouts, and galleries. They are often fixed layouts, that offer a limited amount of customisation.
 
 Here's a high level illustration on how Atoms and Components differ.
 
@@ -22,9 +22,9 @@ Here's a high level illustration on how Atoms and Components differ.
 
 ### Globals
 
-Globals are user created groups of atoms and/or components,. Globals can help maintain a consistent design language across your entire site.
+Globals are user created groups of atoms and/or components. Globals can help maintain a consistent design language across your entire site.
 
-You can reuse global blocks across your site so you need only need update the content in one place and have it automagically mirrored to all other instances of that global. For example, this can be very useful for header and footer sections.&#x20;
+You can reuse global blocks across your site so you need only need update the content in one place and have it automagically mirrored to all other instances of that global. For example, this can be very useful for header and footer sections.
 
 You can take Globals even further by overriding content and design aspects on an individual instance. For example you might have a banner that you want to use on every page of your site and you'd like the design to be consistent. You can use the override feature to customise the text and background image on each instance. You can even override the design settings on individual instances.
 
