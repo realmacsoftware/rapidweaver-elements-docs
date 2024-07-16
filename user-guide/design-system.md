@@ -4,13 +4,13 @@ description: Learn more about how the Elements design system works.
 
 # Design System
 
-If you're just starting out with Elements it's important to take the time to learn the difference between Atoms, Components, and Globals.
+If you're just starting out with Elements it's important to take the time to learn the difference between Components and Global Components.
 
 It's also worth noting that Elements is a Mobile first design system, you can learn more about all of this and more below. If you have more questions, please [visit the forum](https://forums.realmacsoftware.com).
 
-### Atoms
+### Core Components
 
-Atoms represent the most basic elements of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks.
+Core Components represent the most basic elements of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks.
 
 ### Components
 
@@ -20,15 +20,15 @@ Here's a high level illustration on how Atoms and Components differ.
 
 <figure><img src="../.gitbook/assets/atoms_and_components.png" alt=""><figcaption><p>Atoms and Components in Elements</p></figcaption></figure>
 
-### Globals
+### Global Components
 
-Globals are user created groups of atoms and/or components. Globals can help maintain a consistent design language across your entire site.
+Global Components (or Globals as they are often called) are user created groups of components. Globals can help maintain a consistent design language across your entire site.
 
 You can reuse global blocks across your site so you need only need update the content in one place and have it automagically mirrored to all other instances of that global. For example, this can be very useful for header and footer sections.
 
 You can take Globals even further by overriding content and design aspects on an individual instance. For example you might have a banner that you want to use on every page of your site and you'd like the design to be consistent. You can use the override feature to customise the text and background image on each instance. You can even override the design settings on individual instances.
 
-Here's a visual illustration of how Atoms and Components can be group togther to form a Global.
+Here's a visual illustration of how Components can be group togther to form a Global.
 
 <figure><img src="../.gitbook/assets/atoms_components_globals.png" alt=""><figcaption><p>Atoms, Components, and Globals in Elements</p></figcaption></figure>
 
