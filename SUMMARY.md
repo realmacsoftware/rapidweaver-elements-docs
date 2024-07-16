@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to Elements](README.md)
+* [Elements FAQ](elements-faq.md)
 
 ## 📖 User Guide
 
