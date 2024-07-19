@@ -8,17 +8,13 @@ If you're just starting out with Elements it's important to take the time to lea
 
 It's also worth noting that Elements is a Mobile first design system, you can learn more about all of this and more below. If you have more questions, please [visit the forum](https://forums.realmacsoftware.com).
 
-### Core Components
-
-Core Components represent the most basic elements of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks.
-
 ### Components
 
+The core Components inside Elements represent the most basic building blocks of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks.
+
+### Sections
+
 Components are generally pre-built sections, each with their own unique set of features. They include things like, navigation, footer, layouts, and galleries. They are often fixed layouts, that offer a limited amount of customisation.
-
-Here's a high level illustration on how Atoms and Components differ.
-
-<figure><img src="../.gitbook/assets/atoms_and_components.png" alt=""><figcaption><p>Atoms and Components in Elements</p></figcaption></figure>
 
 ### Global Components
 
@@ -27,10 +23,6 @@ Global Components (or Globals as they are often called) are user created groups 
 You can reuse global blocks across your site so you need only need update the content in one place and have it automagically mirrored to all other instances of that global. For example, this can be very useful for header and footer sections.
 
 You can take Globals even further by overriding content and design aspects on an individual instance. For example you might have a banner that you want to use on every page of your site and you'd like the design to be consistent. You can use the override feature to customise the text and background image on each instance. You can even override the design settings on individual instances.
-
-Here's a visual illustration of how Components can be group togther to form a Global.
-
-<figure><img src="../.gitbook/assets/atoms_components_globals.png" alt=""><figcaption><p>Atoms, Components, and Globals in Elements</p></figcaption></figure>
 
 ### Mobile First Design
 
