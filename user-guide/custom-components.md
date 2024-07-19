@@ -44,4 +44,12 @@ A dropzones is an area within an HTML template where existing component can be a
 
 ### Going Further
 
-Custom Components inside of Elements only scratch the surface of what's possible. You can take things further by creating Element Packs outside of RapidWeaver Elements. You can learn more about Element Packs in the [Elements Pack section](../../element-packs/introduction/getting-started.md) of this manual.
+Custom Components inside of Elements only scratch the surface of what's possible. You can take things further by creating Element Packs outside of RapidWeaver Elements. You can learn more about Element Packs in the [Elements Pack section](../elements-language/api-introduction/getting-started.md) of this manual.
+
+### Dev Diary Videos for Custom Elements
+
+The following videos will show you how to create Custom Elements. The following videos were recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video.
+
+{% embed url="https://www.youtube.com/watch?v=FeNoKUzd_fg" %}
+
+{% embed url="https://youtu.be/COzwMMJDr5U?si=7ey-mtI0eJvh7BjQ" %}

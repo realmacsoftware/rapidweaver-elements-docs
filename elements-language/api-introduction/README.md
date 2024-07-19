@@ -1,8 +1,8 @@
 ---
-description: A brief introduction to the Elements templating language
+description: A brief introduction to the Elements templating
 ---
 
-# Introduction
+# API Introduction
 
 {% hint style="info" %}
 The Elements language is still in development, features and documentation will be updated as development progresses.
@@ -20,7 +20,6 @@ The following is a list of suggested tools to make developing Elements easier.
 
 * A licensed copy RapidWeaver Elements Pro
 * Text editor, we recommend [Visual Studio Code](https://code.visualstudio.com).
-* Icon App to comple an ICN's, we recommend [Icon Slate](https://www.kodlian.com/apps/icon-slate).
 * [SF Symbol app](https://developer.apple.com/sf-symbols/) for icon name reference.
 
 ### Developer Community
