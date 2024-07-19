@@ -4,10 +4,10 @@ description: Learn how to ship Elements directly to the Element userbase.
 
 # Distribution
 
+RapidWeaver Element Packs (.elementspack) are highly optimised encrypted bundles compiled from a RapidWeaver Dev Pack (.elementsdevpack) and ready for distribution. Use the developers tools inside of RapidWeaver to convert from a DevPack into a compiled Element Pack.
+
 Compiled Elements can only be shipped using the RapidWeaver Elements Distribution platform.
 
-RapidWeaver Element Packs (.elementspack) are highly optimised encrypted bundles compiled from an RapidWeaver Dev Pack (.elementsdevpack) and ready for distribution. Use the developers tools inside of RapidWeaver to convert from a DevPack into a compiled Element Pack and ship it directly to customers.
-
 {% hint style="info" %}
-Element Dev packs can be shared and sold publicly, but please be aware these are unencrpted and require RapidWeaver Pro to work.
+Element Dev packs can be shared publicly, but please be aware these are unencrypted and require a Professional Elements license to run.
 {% endhint %}
