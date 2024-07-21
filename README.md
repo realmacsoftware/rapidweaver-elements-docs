@@ -23,7 +23,7 @@ Elements is currently in private beta. Please keep an eye on the [Elements forum
 This is not a complete list of everything that will be added during the beta phase, but it does list some of the more commonly requested features. We'll do our best to update this list regularly.
 
 * Manual: Expanded documentation and videos.&#x20;
-* Editor: Improved Text Editor with ability to link text!
+* Editor: Improve inline Text Editor with ability to link text!
 * Editor: More pre-built sections.
 * Theme Studio: Dark and Light Mode support.
 * Theme Studio: More Themes.
