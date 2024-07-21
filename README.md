@@ -26,10 +26,12 @@ This is not a complete list of everything that will be added during the beta pha
 * Editor: Add support for links in inline Text Editor.
 * Editor: Improve inline Text Editor output.
 * Editor: More pre-built sections.
+* Components: Animation.
 * Theme Studio: Dark and Light Mode support.
 * Theme Studio: More Themes.
 * Theme Studio: Ability to create your own Themes.
-* And much more…
+
+**Something missing from the list?** Post your suggestions in the [Elements Feature Requests area](https://forums.realmacsoftware.com/c/rapidweaver-elements/feature-requests/) over on the Forum.
 
 ### Pricing
 
