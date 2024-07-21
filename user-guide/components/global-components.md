@@ -24,3 +24,14 @@ There are a number of ways to turn a group of Elements into a Global. Right-clic
 
 To unlink a group of Elements on a page, right-click on the Global in the Node Browser and choose "Unlink from Global".
 
+### Dev Diary Videos for Global Components
+
+The following videos will show you how to create and use Globals. The following videos were recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video.
+
+{% embed url="https://www.youtube.com/watch?v=wbwUQI07D54" %}
+
+{% embed url="https://www.youtube.com/watch?v=18CRcqK2hTo" %}
+
+{% embed url="https://www.youtube.com/watch?v=tiGr2zuibXY&t=186s" %}
+
+{% embed url="https://www.youtube.com/watch?v=LQtle4AHzHs&t=33s" %}
