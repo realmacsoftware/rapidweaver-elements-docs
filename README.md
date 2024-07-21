@@ -14,6 +14,10 @@ Please note this manual is a work-in-progress. The information within is being w
 We're aiming to have a complete draft set of documentation by the time Elements ships.
 {% endhint %}
 
+### Beta
+
+Elements is currently in private beta, please keep an eye on the [Elements forum for news](https://forums.realmacsoftware.com/c/rapidweaver-elements/) about the public beta.
+
 ### Pricing
 
 Information available soon.
