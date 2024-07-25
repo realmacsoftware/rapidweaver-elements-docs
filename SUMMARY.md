@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to Elements](README.md)
+* [Be part of the IndieWeb](be-part-of-the-indieweb.md)
 * [Elements FAQ](elements-faq.md)
 
 ## 📖 User Guide
