@@ -18,21 +18,6 @@ We're aiming to have a complete draft set of documentation by the time Elements 
 
 Elements is currently in private beta. Please keep an eye on the [Elements forum for news](https://forums.realmacsoftware.com/c/rapidweaver-elements/) about the public beta. **New betas are available every Tuesday.**
 
-#### Beta Roadmap
-
-This is not a complete list of everything that will be added during the beta phase, but it does list some of the more commonly requested features. We'll do our best to update this list regularly.
-
-* Manual: Expanded documentation and videos.&#x20;
-* Editor: Add support for links in inline Text Editor.
-* Editor: Improve inline Text Editor output.
-* Editor: More pre-built sections.
-* Components: Animation.
-* Theme Studio: Dark and Light Mode support.
-* Theme Studio: More Themes.
-* Theme Studio: Ability to create your own Themes.
-
-**Something missing from the list?** Post your suggestions in the [Elements Feature Requests area](https://forums.realmacsoftware.com/c/rapidweaver-elements/feature-requests/) over on the Forum.
-
 ### Pricing
 
 Information available soon.
