@@ -1,5 +1,5 @@
 ---
-description: We ❤️ the IndieWeb,
+description: We ❤️ the Independent Web.
 ---
 
 # Be part of the IndieWeb
@@ -10,4 +10,4 @@ Just like our company, we believe the web should stay open and independent. When
 
 You can post anything you want, in any format you want, with no one monitoring you. In addition, you share simple readable links such as _example.com/ideas_. These links are [permanent](https://indieweb.org/permalinks) and will always work.
 
-You can learn more about the [IndieWeb over on the official website](https://indieweb.org/IndieWeb).
+You can learn more about the [IndieWeb over on their official website](https://indieweb.org/IndieWeb).
