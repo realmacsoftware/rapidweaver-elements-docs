@@ -1,8 +1,8 @@
 ---
-description: We ❤️ the Independent Web.
+description: We ❤️ the Indie Web.
 ---
 
-# Be part of the IndieWeb
+# The Independent Web
 
 Realmac Software has always been an indie company and has never taken on outside investment. We've remained an independent and private company for over 20 years. We are and always have been 100% customer funded and focused.
 
