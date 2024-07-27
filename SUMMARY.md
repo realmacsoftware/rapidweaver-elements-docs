@@ -47,6 +47,7 @@
 
 * [API Introduction](elements-language/api-introduction/README.md)
   * [Getting Started](elements-language/api-introduction/getting-started.md)
+  * [Component Styling](elements-language/api-introduction/component-styling.md)
   * [Distribution](elements-language/api-introduction/distribution.md)
 * [Bundle Structure](elements-language/bundle-structure/README.md)
   * [Icons](elements-language/bundle-structure/icons.md)
