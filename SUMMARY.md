@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome to Elements](README.md)
-* [The Independent Web](the-independent-web.md)
+* [The Independent Web](be-part-of-the-indieweb.md)
 * [Elements FAQ](elements-faq.md)
 
 ## 📖 User Guide

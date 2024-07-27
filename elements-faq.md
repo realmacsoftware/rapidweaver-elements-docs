@@ -2,33 +2,27 @@
 
 This document will continue to evolve as we receive new questions or as development changes and we approach the launch.
 
-Please remember the information here is subject to change and is no guarantee of the features RapidWeaver Elements will launch with.
-
 #### Q: When will the public beta version be available?
 
-The beta version of RapidWeaver Elements will be available versy soon…
+You can [request beta access here](https://forums.realmacsoftware.com/t/request-elements-beta-access-here/43887/).
 
-#### Q: When is the official launch date for RapidWeaver Elements?
+#### Q: When is the official launch date for Elements?
 
-Our goal is to launch RapidWeaver Elements in 2024. However, the exact public launch date will depend on the progress of development and the feedback we receive during the beta phase.
+Our goal is to launch Elements in 2024. However, the exact public launch date will depend on the progress of development and the feedback we receive during the beta phase.
 
-#### Q: What will be the pricing for RapidWeaver Elements?
+#### Q: What are the system requirements for Elements?
 
-As of now, the pricing for RapidWeaver Elements has not been finalised.
-
-#### Q: What are the system requirements for RapidWeaver Elements?
-
-To run RapidWeaver Elements, you will need macOS Ventura (13.x) or later. If you are using an older system, you can continue using RapidWeaver Classic, which requires macOS 10.14 (Mojave) or newer.
+To run Elements, you will need macOS Ventura (13.x) or later. If you are using an older system, you can continue using RapidWeaver Classic, which requires macOS 10.14 (Mojave) or newer.
 
 #### Q: Will my existing RapidWeaver themes be compatible?
 
-RapidWeaver Elements will not support Classic legacy themes. It’s been a tough decision to make, but ultimately we think Elements will be a much better product if we build it for the future.
+Elements will not support Classic legacy themes. It’s been a tough decision to make, but ultimately we think Elements will be a much better product if we build it for the future.
 
-Elements will support new style themes that are more modern, and work in a totally different way to Classic themes.
+Elements supports a new style themes that are more modern, and work in a totally different way to Classic themes.
 
-#### Q: Are stacks compatible with RapidWeaver Elements?
+#### Q: Are legacy stacks compatible with Elements?
 
-No, stacks are not compatible and cannot be used in RapidWeaver Elements.
+No, stacks are not compatible and cannot be used in Elements.
 
 #### Q: I have created my own stacks, will I be able to convert them into Elements?
 
@@ -56,5 +50,5 @@ While the initial version of Elements will not run on iPad, the technology we've
 
 #### Q: I’m interested in developing third-party Elements, do you have any documentation?
 
-If you’d like to develop addons for RapidWeaver Elements, please [get in-touch](mailto:support@realmacsoftware.com).
+If you’d like to develop addons for RapidWeaver Elements, please [get in-touch](mailto:dan@realmacsoftware.com).
 
