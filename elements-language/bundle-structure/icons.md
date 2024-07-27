@@ -1,5 +1,9 @@
 # Icons
 
+{% hint style="info" %}
+**WARNING:** This icon document is out of date. The way icons are generated and displayed have been overhauled. Updated icon docs will be available soon!
+{% endhint %}
+
 At a bare minumim you'll want to include an "icon.icns" file, this icns file can be used for all views where your Element appears within the RapidWeaver Elements UI. Additional Palette and Banner icon styles are also available.
 
 ### Standard Icon
