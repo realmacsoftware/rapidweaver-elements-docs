@@ -27,3 +27,31 @@ For customization, you can use properties to generate Tailwind classes ready to 
 ### Optimized CSS Generation
 
 In summary, the custom CSS in your component templates should use Tailwind classes. This change removes the need for scoped CSS and keeps all styling within Tailwind. Elements can then generate only the CSS your page uses, since it builds Tailwind locally and includes just the necessary utilities. This results in a smaller, more efficient CSS file(s).
+
+***
+
+### Great, but I really want to scope my CSS
+
+If you’ve read all that and are saying to yourself “great…but I still really need use custom/scoped CSS!” then there is a way but only use this as a last resort.
+
+You could manually “scope” your CSS classes by using the component’s ID in your Template and Styles. I know that’s not strictly “scoped CSS”, but it will encapsulate the CSS to each individual component instance.
+
+In your styles you can do something like:
+
+```bash
+.{{id}} {
+    ...
+}
+
+.{{id}} .child-element {
+    ...
+}
+```
+
+And in your Template file:
+
+```perl
+<div class="{{id}} ...">...</div>
+```
+
+Remember; If you add custom CSS it will not be controllable from the Theme Studio.
