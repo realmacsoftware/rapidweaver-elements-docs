@@ -1,4 +1,4 @@
-# Group
+# Grouping Controls
 
 Groups allow you to organise similar settings into relevant groups.
 
@@ -53,6 +53,30 @@ Controls should placed inside of the properties array. The following example has
                 
             ]
         }
+    ]
+}
+```
+
+The following example has two groups, the first with a text box, and the second with an image dropwell.
+
+```
+{
+    "groups": [{
+        "title" : "First Group",
+        "properties" : [{
+            "title": "Title",
+            "property": "title",
+            "text": {}
+        }]
+    },
+    {
+        "title" : "Second Group",
+        "properties" : [{
+            "title": "Image",
+            "property": "image",
+            "image": {}
+            }]
+    } 
     ]
 }
 ```
