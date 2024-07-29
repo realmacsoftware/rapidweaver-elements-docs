@@ -63,6 +63,7 @@ The following example has two groups, the first with a text box, and the second 
 {
     "groups": [{
         "title" : "First Group",
+        "icon" : "1.circle.fill",
         "properties" : [{
             "title": "Title",
             "property": "title",
@@ -71,6 +72,7 @@ The following example has two groups, the first with a text box, and the second 
     },
     {
         "title" : "Second Group",
+        "icon" : "2.circle.fill",
         "properties" : [{
             "title": "Image",
             "property": "image",
