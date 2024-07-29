@@ -10,4 +10,4 @@ To convert classic stacks to an Element Component it will unfortunately need to 
 
 Porting your stack(s) over to Elements will also give you the chance to bring it up-to-date, making sure it's fully WYSIWYG, and uses the built-in Tailwind CSS theming system.
 
-You can learn more about why your converted Stack must use Tailwind CSS in the [Component Styling](component-styling.md) section of this manual.
+You can learn more about why your converted Stack must use Tailwind CSS in the [Component Styling](component-styling.md) section of this manual. We also recommended reading the [Design System](../../user-guide/design-system.md) section of this manual.
