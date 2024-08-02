@@ -76,3 +76,41 @@ An example slider setting a star rating between 0 and 5.
 }
 ```
 
+Here's an example of an `items` array in sliders so you can set custom values for each point in the slider.
+
+```
+{
+  "title": "Z Index",
+  "id": "zIndex",
+  "format": "z-{{value}}",
+  "slider": {
+    "default": "0",
+    "items": [
+      {
+        "value": "0",
+        "title": "0"
+      },
+      {
+        "value": "10",
+        "title": "10"
+      },
+      {
+        "value": "20",
+        "title": "20"
+      },
+      {
+        "value": "30",
+        "title": "30"
+      },
+      {
+        "value": "40",
+        "title": "40"
+      },
+      {
+        "value": "50",
+        "title": "50"
+      }
+    ]
+  }
+},
+```
