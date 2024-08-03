@@ -16,7 +16,7 @@ The following code example will display a text field.
                 "title": "Text Field",
                 "property": "MyTextField",
                 "text" : {
-                    "default" : "Hello World"
+                    "default" : "Hello World",
                     "subtitle" : "one",
                 }
             }
