@@ -2,7 +2,7 @@
 description: Access Project Properties
 ---
 
-# Environment data
+# Available Data
 
 Various properties from the current environment can be used within templates but access must be granted through the `setProps` command in the [hooks.js](broken-reference) file first.
 
@@ -28,7 +28,7 @@ With this in place, we gain access to the following within template files.
 
 ### Page Properties
 
-<table><thead><tr><th width="275">Property Name</th><th width="135">Type</th><th width="338">Description</th></tr></thead><tbody><tr><td><code>{{page.title}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.id}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.language}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.filename}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.ext}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.absolutePath}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.docRootPath}}</code></td><td>String</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="275">Property Name</th><th width="135">Type</th><th width="338">Description</th></tr></thead><tbody><tr><td><code>{{page.title}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.description}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.id}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.language}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.filename}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.ext}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.absolutePath}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.docRootPath}}</code></td><td>String</td><td></td></tr></tbody></table>
 
 ### Node Properties
 
