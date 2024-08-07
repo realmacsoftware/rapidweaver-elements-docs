@@ -7,7 +7,7 @@ Here’s a structured example for defining a font property:
 ```json
 {
     "title": "Theme Font",
-    "id": "fontFamily",
+    "property": "fontFamily",
     "themeFont": {
         "default": {
             "base": { "name": "sub-heading" },

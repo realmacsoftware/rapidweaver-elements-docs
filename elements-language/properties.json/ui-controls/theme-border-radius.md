@@ -3,7 +3,7 @@
 ```
 {
           "title": "Radius",
-          "id": "borderRadius",
+          "property": "borderRadius",
           "themeBorderRadius": {
             "default": {
               "base": {

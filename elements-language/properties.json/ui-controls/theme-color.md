@@ -7,7 +7,7 @@ Here’s an example configuration for a color property:
 ```json
 {
     "title": "Color",
-    "id": "customColor",
+    "property": "customColor",
     "format": "text-{{value}}",
     "themeColor": {
         "default": {

@@ -5,7 +5,7 @@
 ```
         {
           "title": "Text Style",
-          "id": "headingTextStyles",
+          "property": "headingTextStyles",
           "themeTextStyle": {
             "default": {
               "base": {

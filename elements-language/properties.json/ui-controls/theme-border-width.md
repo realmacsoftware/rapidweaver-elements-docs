@@ -3,7 +3,7 @@
 ```
 {
           "title": "Border",
-          "id": "borderWidth",
+          "property": "borderWidth",
           "themeBorderWidth": {
             "default": {
               "base": {
