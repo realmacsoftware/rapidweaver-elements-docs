@@ -28,3 +28,49 @@ The `visible` key in an object's properties can be set using a logical expressio
     ```
 
     The property is visible when `mySwitchControl` is `false`.
+
+The following example code toggles the visibility of controls based on the value of the switch.
+
+```
+{
+    "groups": [
+            {
+      "title": "SWITCH TEST",
+      "icon": "switch.2",
+      "properties": [
+        {
+          "title": "Test Switch",
+          "property": "testSwitch",
+          "switch": {
+            "trueValue": true,
+            "falseValue": false,
+            "default": false
+          }
+        },
+        {
+          "information": {},
+          "title": "No Controls",
+          "visible": "testSwitch == false"
+        },
+        {
+          "information": {},
+          "title": "Let's Slide…",
+          "visible": "testSwitch == true"
+        },
+        {
+	"title" : "slider",
+	"property" : "slider",
+    "visible": "testSwitch == true",
+	"slider": {
+		"default" : 5,
+		"min" : 1,
+		"max" : 50,
+		"round" : true,
+	}
+},
+        
+  ]
+    }
+    ]
+}
+```
