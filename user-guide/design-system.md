@@ -14,7 +14,7 @@ The core Components inside Elements represent the most basic building blocks of 
 
 ### Sections
 
-Components are generally pre-built sections, each with their own unique set of features. They include things like, navigation, footer, layouts, and galleries. They are often fixed layouts, that offer a limited amount of customisation.
+Sections are generally pre-built sections, each with their own unique set of features. They include things like, navigation, footer, layouts, and galleries. They are often fixed layouts, that offer a limited amount of customisation.
 
 ### Global Components
 
