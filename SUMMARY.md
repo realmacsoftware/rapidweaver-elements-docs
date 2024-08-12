@@ -83,7 +83,7 @@
   * [Default Values](elements-language/properties.json/default-values.md)
   * [General Structure](elements-language/properties.json/general-structure/README.md)
     * [Title](elements-language/properties.json/general-structure/title.md)
-    * [ID](elements-language/properties.json/general-structure/id.md)
+    * [Property](elements-language/properties.json/general-structure/property.md)
     * [Format](elements-language/properties.json/general-structure/format.md)
     * [Visible](elements-language/properties.json/general-structure/visible.md)
     * [Enabled](elements-language/properties.json/general-structure/enabled.md)
