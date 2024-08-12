@@ -89,6 +89,7 @@
     * [Enabled](elements-language/properties.json/general-structure/enabled.md)
   * [UI Controls](elements-language/properties.json/ui-controls/README.md)
     * [Divider](elements-language/properties.json/ui-controls/divider.md)
+    * [Dropdown](elements-language/properties.json/ui-controls/dropdown.md)
     * [Heading](elements-language/properties.json/ui-controls/heading.md)
     * [Image](elements-language/properties.json/ui-controls/image.md)
     * [Information](elements-language/properties.json/ui-controls/information.md)
