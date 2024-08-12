@@ -31,6 +31,7 @@
   * [Global Components](user-guide/components/global-components.md)
   * [Custom CSS Values](user-guide/components/custom-css-values.md)
 * [Site Settings](user-guide/site-settings/README.md)
+  * [Template](user-guide/site-settings/template.md)
   * [Publishing](user-guide/site-settings/publishing.md)
 * [Theme Studio](user-guide/theme-studio/README.md)
   * [Theme](user-guide/theme-studio/theme.md)
