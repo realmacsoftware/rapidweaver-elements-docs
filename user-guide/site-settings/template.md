@@ -1,4 +1,12 @@
+---
+description: Site Template
+---
+
 # Template
+
+{% hint style="info" %}
+The site template is only used during preview and export. It is not used in Edit mode.
+{% endhint %}
 
 To reference a file in you Resources folder you can use the following tag to get the correct path to the resources folder:`{{page.resourcesPath}}.`
 
@@ -8,7 +16,7 @@ The following example shows how you might link to a "store.js" file in the Resou
 «script src="{{page.resourcesPath}}/store.js">
 ```
 
-Here's an example of the default site Template. **Important:** Please note the template is only used during preview and export. It is not used in Edit mode.
+Here's an example of the default site Template. Please note the template is only used during preview and export. It is not used in Edit mode.
 
 ```
 {{page.customPageStart}}
