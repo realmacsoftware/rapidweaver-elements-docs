@@ -13,7 +13,7 @@ To reference a file in you Resources folder you can use the following tag to get
 The following example shows how you might link to a "store.js" file in the Resources folder.
 
 ```
-<script src="{{page.resourcesPath}}/snow.js"/>
+<script src="{{page.resourcesPath}}/scripts/javascript.js"></script>
 ```
 
 Here's an example of the default site Template. Please note the template is only used during preview and export. It is not used in Edit mode.
