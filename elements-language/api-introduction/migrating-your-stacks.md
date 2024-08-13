@@ -16,10 +16,11 @@ You can learn more about why your converted stack **must use Tailwind CSS** in t
 
 To give users a seamless experience when using built-in and third-party components you should ensure the following:
 
-* [ ] Component is fully WYSIWYG in Elements Editor
-  * [ ] Settings/Admin options are not visible in the Editor (place these in the inspector)
-* [ ] Component Uses Tailwind CSS classes
-  * [ ] Is compatible with the Theme Studio in Elements
+* [ ] Component is fully WYSIWYG in the Elements Editor
+  * [ ] Settings and Admin options are not visible in the Editor (place these in the Inspector)
+* [ ] Component uses Tailwind CSS
+  * [ ] &#x20;Uses the Tailwind classes found in the Theme Studio
+  * [ ] Takes advantage of the Theme based [UI controls](../properties.json/ui-controls/)
 
 ### Developer Support
 
