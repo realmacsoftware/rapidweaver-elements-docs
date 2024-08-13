@@ -6,7 +6,7 @@ description: Show and hide controls based on another control's value.
 
 The `enabled` key in an object's properties can be set using a logical expression that evaluates to `true` or `false`. This determines whether a specific UI element is enabled or disabled based on the conditions specified in the expression. Works in the same way as [visible](visible.md).
 
-* **Boolean Logic**: Use logical operators (`&&`, `||`, `!`) to combine multiple conditions.
+* **Boolean Logic**: Use logical operators (`&&`, `||`) to combine multiple conditions.
 * **Comparison Operators**: Use `==`, `!=`, `>`, `<`, `>=`, `<=` to compare values.
 
 ## Examples
@@ -28,7 +28,7 @@ The `enabled` key in an object's properties can be set using a logical expressio
 3.  **Negation to Hide Elements**
 
     ```json
-    "enabled": "!mySwitchControl"
+    "enabled": "mySwitchControl != true"
     ```
 
     The property is enabled when `mySwitchControl` is `false`.
