@@ -54,7 +54,7 @@ The following example code toggles the visibility of controls based on the value
         }, {
             "title": "slider",
             "property": "slider",
-            "visible": "testSwitch == true",
+            "visible": "testSwitch != true",
             "slider": {
                 "default": 5,
                 "min": 1,
