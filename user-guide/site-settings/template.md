@@ -1,11 +1,11 @@
 ---
-description: Site Template
+description: Fully Customizable Site Template
 ---
 
 # Template
 
 {% hint style="info" %}
-The site template is only used during preview and export. It is not used in Edit mode.
+The site template is **only used during preview and export**. It is not used in Edit mode.
 {% endhint %}
 
 To reference a file in you Resources folder you can use the following tag to get the correct path to the resources folder:`{{page.resourcesPath}}.`
@@ -16,7 +16,13 @@ The following example shows how you might link to a "store.js" file in the Resou
 <script src="{{page.resourcesPath}}/scripts/javascript.js"></script>
 ```
 
-Here's an example of the default site Template. Please note the template is only used during preview and export. It is not used in Edit mode.
+### Page Properties
+
+The Site Template also has access to all the page level properties, such as `{{page.title}}` and `{{page.description}}`. A full list can be found in the [Available Data](../../elements-language/hooks.js/available-data/) section under [Page Properties](https://docs.realmacsoftware.com/elements-docs/elements-language/hooks.js/available-data#page-properties) in this manual.
+
+### Site Template Example
+
+The following is an example of the default site Template. Please note the template is only used during preview and export. It is not used in Edit mode.
 
 ```
 {{page.customPageStart}}
