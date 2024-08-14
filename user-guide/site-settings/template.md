@@ -8,17 +8,21 @@ description: Fully Customizable Site Template
 The site template is **only used during preview and export**. It is not used in Edit mode.
 {% endhint %}
 
-To reference a file in you Resources folder you can use the following tag to get the correct path to the resources folder:`{{page.resourcesPath}}.`
+The site template give you the ability to modify the underlying template code for your entire site. It's perfect for placing scripts, such as Google Analytics anywhere within the page structure.&#x20;
 
-The following example shows how you might link to a "store.js" file in the Resources folder.
+The site template is used on every page of your website. If you need to insert a script just on specific pages, you should use the page level code areas instead.
+
+### Page Properties
+
+The Site Template has access to all the page level properties, such as `{{page.title}}` and `{{page.description}}`. A full list can be found in the [Available Data](../../elements-language/hooks.js/available-data/) section under [Page Properties](https://docs.realmacsoftware.com/elements-docs/elements-language/hooks.js/available-data#page-properties) in this manual.
+
+To reference a file in you Resources folder you can use the following page tag to get the correct path to the resources folder:`{{page.resourcesPath}}.`
+
+The following example shows how you might link to a "store.js" file that's in a "scripts" folder in the Resources area.
 
 ```
 <script src="{{page.resourcesPath}}/scripts/javascript.js"></script>
 ```
-
-### Page Properties
-
-The Site Template also has access to all the page level properties, such as `{{page.title}}` and `{{page.description}}`. A full list can be found in the [Available Data](../../elements-language/hooks.js/available-data/) section under [Page Properties](https://docs.realmacsoftware.com/elements-docs/elements-language/hooks.js/available-data#page-properties) in this manual.
 
 ### Site Template Example
 
