@@ -4,9 +4,13 @@ Displays an image dropwell in the inspectod, ready for a resource to be dropped 
 
 ```
 {
-  "title": "Image",
-  "property": "image",
-  "image": {}
-},
-
+    "groups": [{
+        "title": "Image Resource Example",
+        "properties": [{
+            "title": "Image",
+            "property": "image",
+            "image": {}
+        }]
+    }]
+}
 ```
