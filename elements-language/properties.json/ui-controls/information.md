@@ -3,8 +3,13 @@
 Display some informational static text.
 
 ```
-        {
-          "information": {},
-          "title": "You can display a helpful tip here!"
-        }
+{
+    "groups": [{
+        "title": "Information Example",
+        "properties": [{
+            "information": {},
+            "title": "You can display a helpful tip here!"
+        }]
+    }]
+}
 ```
