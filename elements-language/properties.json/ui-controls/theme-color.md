@@ -6,15 +6,20 @@ Here’s an example configuration for a color property:
 
 ```json
 {
-    "title": "Color",
-    "property": "customColor",
-    "format": "text-{{value}}",
-    "themeColor": {
-        "default": {
-            "name": "black",
-            "brightness": 300
-        }
-    }
+    "groups": [{
+        "title": "Theme Color Example",
+        "properties": [{
+            "title": "Color",
+            "property": "customColor",
+            "format": "text-{{value}}",
+            "themeColor": {
+                "default": {
+                    "name": "blue",
+                    "brightness": 600
+                }
+            }
+        }]
+    }]
 }
 ```
 
