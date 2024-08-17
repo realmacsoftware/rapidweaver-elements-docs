@@ -4,6 +4,11 @@ Display a divider between content.
 
 ```json
 {
-  "divider": {}
+    "groups": [{
+        "title": "Divider Example",
+        "properties": [{
+            "divider": {}
+        }]
+    }]
 }
 ```
