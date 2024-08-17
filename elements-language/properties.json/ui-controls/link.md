@@ -8,16 +8,16 @@ To add a Link to your Element's controls use `"link": {}` in the properties.json
 
 ```
 {
-  "title": "Link",
-  "properties": [
-    {
-      "title": "Link",
-      "property": "link",
-      "link": {
-        "subtitle": "Link to another page"
-      }
-    }
-  ]
+    "groups": [{
+        "title": "Link Example",
+        "properties": [{
+            "title": "Link",
+            "property": "link",
+            "link": {
+                "subtitle": "Link to another page"
+            }
+        }]
+    }]
 }
 ```
 
