@@ -2,6 +2,9 @@
 
 ```
 {
+    "groups": [{
+        "title": "Theme Shadow Example",
+        "properties": [{
             "title": "Shadow",
             "property": "boxShadow",
             "themeShadow": {
@@ -9,5 +12,7 @@
                     "name": "none"
                 }
             }
-        },
+        }]
+    }]
+}
 ```
