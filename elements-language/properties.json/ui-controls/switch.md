@@ -1,17 +1,21 @@
 # Switch
 
-The following examples returns a true or false value.
+The following examples returns a true or false value. Note that `responsive` should be `false`.
 
 ```
 {
-          "title": "Visible",
-          "property": "display",
-          "switch": {
-            "trueValue": true,
-            "falseValue": false,
-            "default": true
-          }
-        },  
+    "groups": [{
+        "title": "Switch Example",
+        "properties": [{
+            "title": "Visible",
+            "property": "display",
+            "responsive": false,
+            "switch": {
+                "default": true
+            }
+        }]
+    }]
+}
 ```
 
 In the Template file you can do the following to display different html based on the value.
@@ -24,18 +28,51 @@ In the Template file you can do the following to display different html based on
 @endif
 ```
 
-The following example returns a string value.
+The following example returns a string value instead of true or false. Note that `responsive` should be `false`.
 
 ```
 {
-          "title": "Visible",
-          "property": "display",
-          "switch": {
-            "trueValue": "Hello",
-            "falseValue": "Goodbye",
-            "default": true
-          }
-        },
+    "groups": [{
+        "title": "Switch Example",
+        "properties": [{
+            "title": "Prices Inc VAT",
+            "property": "includeVATMessage",
+            "responsive": false,
+            "switch": {
+                "trueValue": "Price includes VAT",
+                "falseValue": "Price does not include VAT",
+                "default": true
+            }
+        }]
+    }]
+}
 ```
 
-To display this value in the template file you can call the property name of `{{display}}`.
+To display this value in a template file, use `{{display}}`.
+
+
+
+### Responsive
+
+When using a switch responsively, trueValue and falseValue should be set to a Tailwind class name. You'll then receive a list of Tailwind classes within your template, prefixed for each breakpoint as necessary.
+
+```
+{
+    "groups": [{
+        "title": "Responsive Switch Example",
+        "properties": [{
+            "title": "Show Detail",
+            "property": "showDetail",
+            "responsive": true,
+            "switch": {
+                "trueValue": "block",
+                "falseValue": "hidden",
+                "default": {
+                    "base": false,
+                    "md": true,
+                }
+            }
+        }]
+    }]
+}
+```
