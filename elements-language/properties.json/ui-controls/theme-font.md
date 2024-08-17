@@ -7,7 +7,7 @@ Here’s a structured example for defining a font property:
 ```json
 {
     "groups": [{
-        "title": "TextArea Example",
+        "title": "Theme Font Example",
         "properties": [{
             "title": "Theme Font",
             "property": "fontFamily",
