@@ -12,7 +12,7 @@ The slider control supports the following options.
 | `property` | string  | The name of the property set by this control.                                                                                                                                               |
 | `format`   | string  | Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](../general-structure/format.md) for more information. |
 | `default`  | string  | The default value the slider should be set to.                                                                                                                                              |
-| `content`  | array   | Can be used to specify an array of values to the slider. See [code example](slider.md#slider-example) below.                                                                                |
+| `items`    | array   | Can be used to specify an array of values to the slider. See [code example](slider.md#slider-example) below.                                                                                |
 | `min`      | number  | The minimum value for the slider.                                                                                                                                                           |
 | `max`      | number  | The maximum value for the slider.                                                                                                                                                           |
 | `units`    | string  | The units string appears alongside the slider value in the user interface, but it is not included in the template output value.                                                             |
@@ -29,7 +29,7 @@ You can use the following code as a starting point for a stepped slider with sev
     "property": "contrast",
     "slider": {
         "default": "contrast-70",
-        "content": [
+        "items": [
             { "value": "contrast-0", "title": "0" },
             { "value": "contrast-50", "title": "50" },
             { "value": "contrast-70", "title": "75" },
@@ -39,7 +39,7 @@ You can use the following code as a starting point for a stepped slider with sev
             { "value": "contrast-200", "title": "200" }
         ]
     }
-},
+}
 ```
 
 The following example has a minimum value of 0 and maximum of 100. The units are set to round, and display in the UI with a "%" after the number.
@@ -112,5 +112,5 @@ Here's an example of an `items` array in sliders so you can set custom values fo
       }
     ]
   }
-},
+}
 ```
