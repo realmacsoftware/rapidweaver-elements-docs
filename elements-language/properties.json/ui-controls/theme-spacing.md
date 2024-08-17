@@ -22,25 +22,30 @@ Each one of these modes correspond to the appropriate Tailwind utility classes. 
 
 ```
 {
-    "title": "Padding",
-    "property": "themeSpacing",
-    "themeSpacing": {
-        "mode": "padding",
-        "default": {
-            "base": {
-                "left": "sm",
-                "right": "sm",
-                "top": "sm",
-                "bottom": "sm"
-            },
-            "md": {
-                "left": "md",
-                "right": "md",
-                "top": "md",
-                "bottom": "md"
+    "groups": [{
+        "title": "Theme Spacing Example",
+        "properties": [{
+            "title": "Padding",
+            "property": "themeSpacing",
+            "themeSpacing": {
+                "mode": "padding",
+                "default": {
+                    "base": {
+                        "left": "sm",
+                        "right": "sm",
+                        "top": "sm",
+                        "bottom": "sm"
+                    },
+                    "md": {
+                        "left": "md",
+                        "right": "md",
+                        "top": "md",
+                        "bottom": "md"
+                    }
+                }
             }
-        }
-    }
+        }]
+    }]
 }
 ```
 
