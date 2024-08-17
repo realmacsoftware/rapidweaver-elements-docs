@@ -46,32 +46,32 @@ The following example has a minimum value of 0 and maximum of 100. The units are
 
 ```
 {
-	  "title" : "Contrast",
-	  "property" : "contrast",
-	  "format": "{{value}}%",
-	  "slider": {
-		  "default" : 50,
-		  "min" : 0,
-		  "max" : 100,
-		  "units": "%",
-		  "round" : true
-	  }
-  }
+    "title": "Contrast",
+    "property": "contrast",
+    "format": "{{value}}%",
+    "slider": {
+        "default": 50,
+        "min": 0,
+        "max": 100,
+        "units": "%",
+        "round": true
+    }
+}
 ```
 
 An example slider setting a star rating between 0 and 5.
 
 ```
 {
-	"title" : "Rating",
-	"property" : "rating",
+	"title": "Rating",
+	"property": "rating",
 	"slider": {
-		"default" : 3,
-		"min" : 0,
-		"max" : 5,
-		"round" : true,
-    		"units" : "Stars",
-    		"ticks": 6
+		"default": 3,
+		"min": 0,
+		"max": 5,
+		"round": true,
+        "units": "Stars",
+        "ticks": 6
 	}
 }
 ```
@@ -80,37 +80,30 @@ Here's an example of an `items` array in sliders so you can set custom values fo
 
 ```
 {
-  "title": "Z Index",
-  "id": "zIndex",
-  "format": "z-{{value}}",
-  "slider": {
-    "default": "0",
-    "items": [
-      {
-        "value": "0",
-        "title": "0"
-      },
-      {
-        "value": "10",
-        "title": "10"
-      },
-      {
-        "value": "20",
-        "title": "20"
-      },
-      {
-        "value": "30",
-        "title": "30"
-      },
-      {
-        "value": "40",
-        "title": "40"
-      },
-      {
-        "value": "50",
-        "title": "50"
-      }
-    ]
-  }
+    "title": "Z Index",
+    "id": "zIndex",
+    "format": "z-{{value}}",
+    "slider": {
+        "default": "0",
+        "items": [{
+            "value": "0",
+            "title": "0"
+        }, {
+            "value": "10",
+            "title": "10"
+        }, {
+            "value": "20",
+            "title": "20"
+        }, {
+            "value": "30",
+            "title": "30"
+        }, {
+            "value": "40",
+            "title": "40"
+        }, {
+            "value": "50",
+            "title": "50"
+        }]
+    }
 }
 ```
