@@ -8,20 +8,16 @@ The following code example will display a text field.
 
 ```
 {
-    "groups": [        
-      {
-        "title" : "Text Field Example",
-        "properties" : [
-            {
-                "title": "Text Field",
-                "property": "MyTextField",
-                "text" : {
-                    "default" : "Hello World",
-                    "subtitle" : "one",
-                }
+    "groups": [{
+        "title": "Text Field Example",
+        "properties": [{
+            "title": "Text Field",
+            "property": "MyTextField",
+            "text": {
+                "default" : "Hello World",
+                "subtitle" : "one",
             }
-      ],
+        }]
     }]
-    
 }
 ```
