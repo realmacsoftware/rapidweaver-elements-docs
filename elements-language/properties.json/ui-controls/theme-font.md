@@ -6,15 +6,20 @@ Here’s a structured example for defining a font property:
 
 ```json
 {
-    "title": "Theme Font",
-    "property": "fontFamily",
-    "themeFont": {
-        "default": {
-            "base": { "name": "sub-heading" },
-            "sm": { "name": "heading" },
-            "md": { "name": "quote" }
-        }
-    }
+    "groups": [{
+        "title": "TextArea Example",
+        "properties": [{
+            "title": "Theme Font",
+            "property": "fontFamily",
+            "themeFont": {
+                "default": {
+                    "base": { "name": "body" },
+                    "sm": { "name": "heading" },
+                    "md": { "name": "quote" }
+                }
+            }
+        }]
+    }]
 }
 ```
 
