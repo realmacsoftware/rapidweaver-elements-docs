@@ -1,5 +1,11 @@
 # Resource
 
+
+
+{% tabs %}
+{% tab title="Full Example" %}
+
+
 ```
 {
     "groups": [{
@@ -13,6 +19,10 @@
 }
 ```
 
+
+{% endtab %}
+
+{% tab title="Short Example" %}
 The following code example for the Resources control should be placed inside of the main ‘properties’ array which is inside of groups, see [Grouping Controls](../grouping-controls.md).
 
 ```
@@ -22,3 +32,6 @@ The following code example for the Resources control should be placed inside of 
             "resource": {}
         }
 ```
+{% endtab %}
+{% endtabs %}
+
