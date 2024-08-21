@@ -10,7 +10,7 @@ Here’s an example configuration for a color property:
         "title": "Theme Color Example",
         "properties": [{
             "title": "Color",
-            "property": "customColor",
+            "id": "customColor",
             "format": "text-{{value}}",
             "themeColor": {
                 "default": {

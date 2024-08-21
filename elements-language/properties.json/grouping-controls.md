@@ -32,23 +32,16 @@ Controls should placed inside of the properties array. The following example has
             "properties": [
                 {
                     "title": "Title",
-                    "property": "buttonTitle",
+                    "id": "buttonTitle",
                     "default": "",
-                    "inputs": {
-                        "items": [
-                            {
-                                "property": "buttonText",
-                                "default": ""
-                            }
-                        ]
+                    "text": {
+                       "default": "Click Me"
                     }
                 },
                 {
                     "title": "Image",
-                    "property": "buttonImage",
-                    "image": {
-                        
-                    }
+                    "id": "buttonImage",
+                    "image": {}
                 },
                 
             ]
@@ -66,7 +59,7 @@ The following example has two groups, the first with a text box, and the second 
         "icon" : "1.circle.fill",
         "properties" : [{
             "title": "Title",
-            "property": "title",
+            "id": "title",
             "text": {}
         }]
     },
@@ -75,9 +68,9 @@ The following example has two groups, the first with a text box, and the second 
         "icon" : "2.circle.fill",
         "properties" : [{
             "title": "Image",
-            "property": "image",
+            "id": "image",
             "image": {}
-            }]
+        }]
     } 
     ]
 }

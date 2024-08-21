@@ -10,7 +10,7 @@ Here’s a structured example for defining a font property:
         "title": "Theme Font Example",
         "properties": [{
             "title": "Theme Font",
-            "property": "fontFamily",
+            "id": "fontFamily",
             "themeFont": {
                 "default": {
                     "base": { "name": "body" },

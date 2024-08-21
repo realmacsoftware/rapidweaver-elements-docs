@@ -8,7 +8,7 @@ Display a segmented control.&#x20;
         "title": "Segmented Example",
         "properties": [{
             "title": "Alignment",
-            "property": "alignment",
+            "id": "alignment",
             "segmented": {
                 "default": {
                     "base": "align-left",

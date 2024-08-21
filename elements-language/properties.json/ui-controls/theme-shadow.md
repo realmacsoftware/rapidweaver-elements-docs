@@ -6,7 +6,7 @@
         "title": "Theme Shadow Example",
         "properties": [{
             "title": "Shadow",
-            "property": "boxShadow",
+            "id": "boxShadow",
             "themeShadow": {
                 "default": {
                     "name": "none"

@@ -6,7 +6,7 @@
         "title": "TextArea Example",
         "properties": [{
             "title": "TextArea",
-            "property": "myTextArea",
+            "id": "myTextArea",
             "textArea": {
                 "default": "Hello World",
                 "subtitle": "a multi-line text input"

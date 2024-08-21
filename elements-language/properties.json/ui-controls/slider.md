@@ -6,18 +6,18 @@ A slider can be used for choosing from a range of values.
 
 The slider control supports the following options.
 
-| Key        | Type    | Notes                                                                                                                                                                                       |
-| ---------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `title`    | string  | The name of the Slider. This will be displayed beside the UI element of RapidWeaver                                                                                                         |
-| `property` | string  | The name of the property set by this control.                                                                                                                                               |
-| `format`   | string  | Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](../general-structure/format.md) for more information. |
-| `default`  | string  | The default value the slider should be set to.                                                                                                                                              |
-| `items`    | array   | Can be used to specify an array of values to the slider. See [code example](slider.md#slider-example) below.                                                                                |
-| `min`      | number  | The minimum value for the slider.                                                                                                                                                           |
-| `max`      | number  | The maximum value for the slider.                                                                                                                                                           |
-| `units`    | string  | The units string appears alongside the slider value in the user interface, but it is not included in the template output value.                                                             |
-| `round`    | boolean | If true an integer will be used instead of a floating point.                                                                                                                                |
-| `ticks`    | number  | the number of ticks that will appear beneath the slider                                                                                                                                     |
+| Key       | Type    | Notes                                                                                                                                                                                       |
+| --------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `title`   | string  | The name of the Slider. This will be displayed beside the UI element of RapidWeaver                                                                                                         |
+| `id`      | string  | The id for this control.                                                                                                                                                                    |
+| `format`  | string  | Can be used to apply additional formatting to the value. `{{value}}` will be replaced with the selected value. See [value formatting](../general-structure/format.md) for more information. |
+| `default` | string  | The default value the slider should be set to.                                                                                                                                              |
+| `items`   | array   | Can be used to specify an array of values to the slider. See [code example](slider.md#slider-example) below.                                                                                |
+| `min`     | number  | The minimum value for the slider.                                                                                                                                                           |
+| `max`     | number  | The maximum value for the slider.                                                                                                                                                           |
+| `units`   | string  | The units string appears alongside the slider value in the user interface, but it is not included in the template output value.                                                             |
+| `round`   | boolean | If true an integer will be used instead of a floating point.                                                                                                                                |
+| `ticks`   | number  | the number of ticks that will appear beneath the slider                                                                                                                                     |
 
 ### Slider Example
 
@@ -29,7 +29,7 @@ You can use the following code as a starting point for a stepped slider with sev
         "title": "Slider Example",
         "properties": [{
             "title": "Contrast",
-            "property": "contrast",
+            "id": "contrast",
             "slider": {
                 "default": "contrast-70",
                 "items": [
@@ -55,7 +55,7 @@ The following example has a minimum value of 0 and maximum of 100. The units are
         "title": "Slider Example",
         "properties": [{
             "title": "Contrast",
-            "property": "contrast",
+            "id": "contrast",
             "format": "{{value}}%",
             "slider": {
                 "default": 50,
@@ -77,7 +77,7 @@ An example slider setting a star rating between 0 and 5.
         "title": "Slider Example",
         "properties": [{
             "title": "Rating",
-            "property": "rating",
+            "id": "rating",
             "slider": {
                 "default": 3,
                 "min": 0,

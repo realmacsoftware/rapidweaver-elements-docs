@@ -26,7 +26,7 @@ Each one of these modes correspond to the appropriate Tailwind utility classes. 
         "title": "Theme Spacing Example",
         "properties": [{
             "title": "Padding",
-            "property": "themeSpacing",
+            "id": "themeSpacing",
             "themeSpacing": {
                 "mode": "padding",
                 "default": {

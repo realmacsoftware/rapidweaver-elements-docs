@@ -8,7 +8,7 @@
         "title": "Theme Text Style Example",
         "properties": [{
             "title": "Text Style",
-            "property": "headingTextStyles",
+            "id": "headingTextStyles",
             "themeTextStyle": {
                 "default": {
                     "base": {

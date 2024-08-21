@@ -6,7 +6,7 @@
         "title": "Theme Border Radius Example",
         "properties": [{
             "title": "Radius",
-            "property": "borderRadius",
+            "id": "borderRadius",
             "themeBorderRadius": {
                 "default": {
                     "base": {

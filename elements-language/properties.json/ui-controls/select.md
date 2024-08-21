@@ -8,7 +8,7 @@ Example code for a dropdown menu…
         "title": "Select Example",
         "properties": [ {
             "title": "Case",
-            "property": "headingTextTransform",
+            "id": "headingTextTransform",
             "select": {
                 "default": "normal-case",
                 "items": [{

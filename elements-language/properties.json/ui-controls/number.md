@@ -6,7 +6,7 @@
         "title": "Number Example",
         "properties": [{
             "title": "Number",
-            "property": "myNumber",
+            "id": "myNumber",
             "number" : {
                 "default" : 100,
                 "subtitle" : "a simple number input",

@@ -12,7 +12,7 @@ The following code example will display a text field inside of a group.
         "title": "Text Field Example",
         "properties": [{
             "title": "Text Field",
-            "property": "MyTextField",
+            "id": "MyTextField",
             "text": {
                 "default" : "Hello World",
                 "subtitle" : "one",
@@ -27,7 +27,7 @@ The following code example for the Text Field control should be placed inside of
 ```
 {
             "title": "Text Field",
-            "property": "MyTextField",
+            "id": "MyTextField",
             "text": {
                 "default" : "Hello World",
                 "subtitle" : "one",

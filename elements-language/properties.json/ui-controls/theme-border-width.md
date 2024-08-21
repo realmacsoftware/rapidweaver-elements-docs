@@ -6,7 +6,7 @@
         "title": "Theme Border Example",
         "properties": [{
             "title": "Border",
-            "property": "borderWidth",
+            "id": "borderWidth",
             "themeBorderWidth": {
                 "default": {
                     "base": {

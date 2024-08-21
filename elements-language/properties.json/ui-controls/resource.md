@@ -9,7 +9,7 @@ The following code example for the Resources control should be placed inside of 
 ```
 {
             "title": "Resource",
-            "property": "resource",
+            "id": "resource",
             "resource": {}
         }
 ```
