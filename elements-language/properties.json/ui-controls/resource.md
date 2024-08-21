@@ -24,7 +24,7 @@ In this example, the Resource control is placed within a group titled “Resourc
         "title": "Resource Example",
         "properties": [{
             "title": "Resource",
-            "property": "resource",
+            "id": "resource",
             "resource": {}
         }]
     }]
