@@ -1,14 +1,16 @@
 # Conditional Statements
 
-### If statment
+### If Statement
 
-Elements gives you access to the current RapidWeaver mode inside of conditional statements. This can be particularly useful for showing content in edit mode or in preview when a certain property evaluates to true.
+The following example displays the text inside of the IF statment when the switch is on/true. It's worth noting that only non-responsive controls can be used in 'if' statements.
 
 ```
-@if(edit)
-   Show this in edit
+@if(switch)
+    <li><b>This is only visible when switch is true</b></li>
 @endif
 ```
+
+When performing complex logic like string comparisons, use the [hooks file](../hooks.js/) to perform this logic and provide simple bool values to the template. This helps to keep templates simple and focused on HTML rather than complex conditional logic.
 
 ### Else If Statements
 
@@ -26,9 +28,9 @@ Elements allows you to specify a number of else if statements to run before fall
 @endif
 ```
 
-### Condistional Statement for edit/preview mode
+### Conditional Statement for Edit/Preview Modes
 
-The code example below displays a line of text in the various edit and preview modes.&#x20;
+Elements gives you access to the current RapidWeaver mode inside of conditional statements. This can be particularly useful for showing content in edit mode or in preview.
 
 ```
 @if(edit)   
