@@ -38,7 +38,7 @@ The following example code toggles the visibility of controls based on the value
         "icon": "switch.2",
         "properties": [{
             "title": "Test Switch",
-            "property": "testSwitch",
+            "id": "testSwitch",
             "responsive": false,
             "switch": {
                 "default": false
@@ -53,7 +53,7 @@ The following example code toggles the visibility of controls based on the value
             "visible": "testSwitch == true"
         }, {
             "title": "slider",
-            "property": "slider",
+            "id": "slider",
             "visible": "testSwitch != false",
             "slider": {
                 "default": 5,

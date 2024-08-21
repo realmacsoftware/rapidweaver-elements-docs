@@ -11,7 +11,7 @@ For example, the following creates a slider ranging from 0-12 with a property ca
 ```
 {
     "title" : "Padding",
-    "property" : "padding",
+    "id" : "padding",
     "format": "pt-{{value}}",  
     "slider": {
         "default" : 5,
@@ -40,7 +40,7 @@ You could also format the control's value to use tailwind's arbitrary value feat
 ```
 {
     "title" : "Opacity",
-    "property" : "opacity",
+    "id" : "opacity",
     "format": "opacity-[{{value}}%]",  
     "slider": {
         "default" : 50,
@@ -69,7 +69,7 @@ You could also format the control's value to output a valid CSS property. For ex
 ```
 {
     "title" : "Translate X",
-    "property" : "translateX",
+    "id" : "translateX",
     "format": "transform: translateX({{value}}px);",  
     "number": {
         "default" : 50,
@@ -98,7 +98,7 @@ You can even use the format to control a CSS Custom Property (css variable). If 
 ```
 {
     "title" : "Translate X",
-    "property" : "translateX",
+    "id" : "translateX",
     "format": "--translateX: {{value}}px;",  
     "number": {
         "default" : 50,
