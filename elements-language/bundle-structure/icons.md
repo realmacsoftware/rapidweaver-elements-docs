@@ -1,44 +1,34 @@
 # Icons
 
-{% hint style="info" %}
-**WARNING:** This icon document is out of date. The way icons are generated and displayed have been overhauled. Updated icon docs will be available soon!
-{% endhint %}
-
-At a bare minumim you'll want to include an "icon.icns" file, this icns file can be used for all views where your Element appears within the RapidWeaver Elements UI. Additional Palette and Banner icon styles are also available.
+At a bare minimum you'll want to include  PDF's images for light mode icons so they can be used for all views where your Component appears within the RapidWeaver Elements UI.&#x20;
 
 ### Standard Icon
 
 All Elements require this icon.
 
-* **icon.icns (Required)**
-* icon-dark.icns (optional)
-
-Supported image sizes in the icon.icns file.
-
-* 16x16.png / 16x16@2x.png
-* 32x32.png / 32x32@2x.png
-* 128x128.png / 128x128@2x.png
-* 256x256.png / 256x256@2x.png (optional)
-* 512x512.png / 512x512@2x.png (optional)
-
-{% hint style="info" %}
-We recommend [Icon Slate](https://www.kodlian.com/apps/icon-slate) to compile .icns files.
-{% endhint %}
+* **icon.pdf (Required), 1:1 ratio, e.g. 128x128 (Square)**
+* icon-dark.pdf (optional), 1:1 ratio, e.g. 128x128 (Square)
 
 ### Palette Icons
 
-The Palette image should be named paletteIcon.png and paletteIcon-dark.png if you'd also like to display a different version in dark mode.
+The Palette image should be named paletteIcon.pdf and paletteIcon-dark.pdf if you'd also like to display a different version in dark mode.
 
-* paletteIcon.png
-* paletteIcon-dark.png (optional)
+* **paletteIcon.png (Required), 1:2 ratio, e.g. 128x256 (landscape)**
+* paletteIcon-dark.png (optional), 1:2 ratio, e.g. 128x256 (landscape)
 
-Supported palette image sizes.
+### Sketch Example File
 
-* 512x256
+Your pdf icons should be on a transaparent background.
 
-### Banner Icons
+<figure><img src="../../.gitbook/assets/CleanShot 2024-08-21 at 11 .39.38@2x.png" alt=""><figcaption></figcaption></figure>
 
-If you're developing an Element that represents a layout we recommend using the Banner style icon.&#x20;
+We've provided an example Sketch document below you can use to get started.
+
+{% file src="../../.gitbook/assets/Components Icon Template.zip" %}
+
+### Banner Icons (Experimental)
+
+We also offer experimental support for banner style icons, these are great for layout style components. However, this style of icon may not be supported when Elements ships, please use with caution and ensure you also include the standard style of icon.
 
 * bannerLayer1.png
 * bannerLayer1-Dark.png (optional)
