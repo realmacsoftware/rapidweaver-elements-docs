@@ -42,6 +42,18 @@ A dropzones is an area within an HTML template where existing component can be a
 @dropzone("extraItems")
 ```
 
+Can also be written like this.
+
+```
+@dropzone(name: "content")
+```
+
+You can also add a title for the Dropzone, this will be shown in the Node Browser.
+
+```
+@dropzone("zone-1", title: "Zone 1")
+```
+
 ### Going Further with the Elements API
 
 Using the above tags inside of Custom Components only scratch the surface of what's possible, you can also use the [Elements API](../../elements-language/api-introduction/) inside of your Custom Components.
