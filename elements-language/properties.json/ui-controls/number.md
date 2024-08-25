@@ -34,6 +34,3 @@ Displays a number field with a stepper.
 ```
 {% endtab %}
 {% endtabs %}
-
-```
-```
