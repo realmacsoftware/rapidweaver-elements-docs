@@ -6,12 +6,12 @@ Displays a text field in the inspector.
 {% tab title="Control Example" %}
 ```json
 {
-  "title": "Text Field",
-  "id": "MyTextField",
-  "text": {
+    "title": "Text Field",
+    "id": "MyTextField",
+    "text": {
     "default": "Hello World",
-    "subtitle": "one"
-  }
+        "subtitle": "one"
+    }
 }
 ```
 {% endtab %}
