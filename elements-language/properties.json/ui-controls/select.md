@@ -10,24 +10,19 @@ Displays a select box, also known as a dropdown menu.
     "id": "headingTextTransform",
     "select": {
         "default": "normal-case",
-        "items": [
-            {
-                "value": "normal-case",
-                "title": "None"
-            },
-            {
-                "value": "uppercase",
-                "title": "Uppercase"
-            },
-            {
-                "value": "lowercase",
-                "title": "Lowercase"
-            },
-            {
-                "value": "capitalize",
-                "title": "Capitalize"
-            }
-        ]
+        "items": [{
+            "value": "normal-case",
+            "title": "None"
+        }, {
+            "value": "uppercase",
+            "title": "Uppercase"
+        }, {
+            "value": "lowercase",
+            "title": "Lowercase"
+        }, {
+            "value": "capitalize",
+            "title": "Capitalize"
+        }]
     }
 }
 ```
@@ -38,7 +33,7 @@ Displays a select box, also known as a dropdown menu.
 {
     "groups": [{
         "title": "Select Example",
-        "properties": [ {
+        "properties": [{
             "title": "Case",
             "id": "headingTextTransform",
             "select": {
