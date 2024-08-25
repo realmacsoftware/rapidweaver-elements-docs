@@ -6,15 +6,15 @@ Displays the Theme Studio Color control.
 {% tab title="Control Example" %}
 ```json
 {
-  "title": "Color",
-  "id": "customColor",
-  "format": "text-{{value}}",
-  "themeColor": {
-    "default": {
-      "name": "blue",
-      "brightness": 600
+    "title": "Color",
+    "id": "customColor",
+    "format": "text-{{value}}",
+    "themeColor": {
+        "default": {
+            "name": "blue",
+            "brightness": 600
+        }
     }
-  }
 }
 ```
 {% endtab %}
