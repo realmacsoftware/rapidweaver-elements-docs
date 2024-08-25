@@ -1,10 +1,65 @@
 # Theme Spacing
 
-{% hint style="info" %}
-**Important:** This documentation is incomplete and missing options.
+Displays the Theme Studio Spacing control.
 
-Check back soon for a complete list.
-{% endhint %}
+{% tabs %}
+{% tab title="Control Example" %}
+```json
+{
+    "title": "Padding",
+    "id": "themeSpacing",
+    "themeSpacing": {
+        "mode": "padding",
+        "default": {
+            "base": {
+                "left": "sm",
+                "right": "sm",
+                "top": "sm",
+                "bottom": "sm"
+            },
+            "md": {
+                "left": "md",
+                "right": "md",
+                "top": "md",
+                "bottom": "md"
+            }
+        }
+    }
+}
+```
+{% endtab %}
+
+{% tab title="Group Example" %}
+```json
+{
+    "groups": [{
+        "title": "Theme Spacing Example",
+        "properties": [{
+            "title": "Padding",
+            "id": "themeSpacing",
+            "themeSpacing": {
+                "mode": "padding",
+                "default": {
+                    "base": {
+                        "left": "sm",
+                        "right": "sm",
+                        "top": "sm",
+                        "bottom": "sm"
+                    },
+                    "md": {
+                        "left": "md",
+                        "right": "md",
+                        "top": "md",
+                        "bottom": "md"
+                    }
+                }
+            }
+        }]
+    }]
+}
+```
+{% endtab %}
+{% endtabs %}
 
 The `themeSpacing` attribute is should be used for all space settings like padding, margins, gaps, translate, and positioning.
 

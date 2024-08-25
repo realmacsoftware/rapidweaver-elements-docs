@@ -1,9 +1,25 @@
 # Theme Color
 
-For consistency and integration with the Theme Studio in RapidWeaver Elements, use the `themeColor` attribute to specify all color options for your elements. This ensures that the color settings are centrally managed and adaptable to theme changes.
+Displays the Theme Studio Color control.
 
-Here’s an example configuration for a color property:
+{% tabs %}
+{% tab title="Control Example" %}
+```json
+{
+  "title": "Color",
+  "id": "customColor",
+  "format": "text-{{value}}",
+  "themeColor": {
+    "default": {
+      "name": "blue",
+      "brightness": 600
+    }
+  }
+}
+```
+{% endtab %}
 
+{% tab title="Group Example" %}
 ```json
 {
     "groups": [{
@@ -22,6 +38,10 @@ Here’s an example configuration for a color property:
     }]
 }
 ```
+{% endtab %}
+{% endtabs %}
+
+For consistency and integration with the Theme Studio in RapidWeaver Elements, use the `themeColor` attribute to specify all color options for your elements. This ensures that the color settings are centrally managed and adaptable to theme changes.
 
 **Usage of `themeColor`:**
 
