@@ -10,11 +10,9 @@ It's also worth noting that Elements is a Mobile first design system, you can le
 
 ### Components
 
-The core Components inside Elements represent the most basic building blocks of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks.
+The core Components inside Elements represent the basic building blocks of a webpage, they are at the foundation of your page design. They include things like, containers, grids, headings, text, and buttons. They are singular items, like lego bricks.&#x20;
 
-### Sections
-
-Sections are generally pre-built sections, each with their own unique set of features. They include things like, navigation, footer, layouts, and galleries. They are often fixed layouts, that offer a limited amount of customisation.
+Some of the more advanced Components go beyond the basics, these include things like, menu's, and galleries.
 
 ### Global Components
 

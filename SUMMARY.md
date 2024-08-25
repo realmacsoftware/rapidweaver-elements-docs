@@ -4,7 +4,7 @@
 * [The Independent Web](be-part-of-the-indieweb.md)
 * [Elements FAQ](elements-faq.md)
 
-## 📖 User Guide
+## User Guide
 
 * [Design System](user-guide/design-system.md)
 * [Previewing Your Website](user-guide/previewing-your-website.md)
@@ -44,7 +44,7 @@
   * [Border Width](user-guide/theme-studio/border-width.md)
   * [Border Radius](user-guide/theme-studio/border-radius.md)
 
-## 🛠️ Elements Language
+## Elements Language
 
 * [API Introduction](elements-language/api-introduction/README.md)
   * [Getting Started](elements-language/api-introduction/getting-started.md)
@@ -122,7 +122,7 @@
   * [JavaScript](elements-language/templates/javascript.md)
 * [Themes](elements-language/themes.md)
 
-## 🖌️ Branding
+## Branding
 
 * [Logotype](branding/logotype.md)
 * [Logotype Animated](branding/logotype-animated.md)
