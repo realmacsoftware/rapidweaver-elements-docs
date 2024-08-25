@@ -6,12 +6,12 @@ Displays a switch, similar to a checkbox in functionality.
 {% tab title="Control Example" %}
 ```json
 {
-  "title": "Visible",
-  "id": "display",
-  "responsive": false,
-  "switch": {
-    "default": true
-  }
+    "title": "Visible",
+    "id": "display",
+    "responsive": false,
+    "switch": {
+        "default": true
+    }
 }
 ```
 {% endtab %}
