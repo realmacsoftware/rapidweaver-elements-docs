@@ -6,8 +6,8 @@ Displays a heading in the inspector interface.
 {% tab title="Control Example" %}
 ```json
 {
-  "title": "Border",
-  "heading": {}
+    "title": "Border",
+    "heading": {}
 }
 ```
 {% endtab %}
