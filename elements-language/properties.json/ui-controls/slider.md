@@ -2,6 +2,54 @@
 
 A slider can be used for choosing from a range of values.
 
+Displays a resource dropwell.
+
+{% tabs %}
+{% tab title="Control Example" %}
+```json
+{
+    "title": "Resource",
+    "id": "resource",
+    "resource": {}
+}
+```
+{% endtab %}
+
+{% tab title="Group Example" %}
+The following example displays a stepped slider with seven pre-defined values.
+
+```json
+
+
+{
+    "groups": [{
+        "title": "Slider Example",
+        "properties": [{
+            "title": "Contrast",
+            "id": "contrast",
+            "slider": {
+                "default": "contrast-70",
+                "items": [
+                    { "value": "contrast-0", "title": "0" },
+                    { "value": "contrast-50", "title": "50" },
+                    { "value": "contrast-70", "title": "75" },
+                    { "value": "contrast-100", "title": "100" },
+                    { "value": "contrast-125", "title": "125" },
+                    { "value": "contrast-150", "title": "150" },
+                    { "value": "contrast-200", "title": "200" }
+                ]
+            }
+        }]
+    }]
+}
+```
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
 ### Supported Options <a href="#key-value-pairs-explained" id="key-value-pairs-explained"></a>
 
 The slider control supports the following options.

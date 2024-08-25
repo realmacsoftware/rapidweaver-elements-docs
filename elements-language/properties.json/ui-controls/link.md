@@ -2,11 +2,21 @@
 
 The Link control allows users to input a URL or link to another page within their RapidWeaver project.
 
-### Properties.json
-
-To add a Link to your Element's controls use `"link": {}` in the properties.json file, like so:
-
+{% tabs %}
+{% tab title="Control Example" %}
+```json
+{
+    "title": "Link",
+    "id": "link",
+    "link": {
+        "subtitle": "Link to another page"
+    }
+}
 ```
+{% endtab %}
+
+{% tab title="Group Example" %}
+```json
 {
     "groups": [{
         "title": "Link Example",
@@ -20,11 +30,13 @@ To add a Link to your Element's controls use `"link": {}` in the properties.json
     }]
 }
 ```
+{% endtab %}
+{% endtabs %}
 
-### Templates
+### Template Example
 
-This will give you access to the link object in your template files.
+The following will give you access to the link object in your template file(s).
 
-```
+```html
 <a href="{{link.href}}" target="{{link.target}}>Click Me</a>
 ```

@@ -1,8 +1,20 @@
 # Image
 
-Displays an image dropwell in the inspectod, ready for a resource to be dropped into.
+Displays an image dropwell in the inspector.
 
+{% tabs %}
+{% tab title="Control Example" %}
+```json
+{
+    "title": "Image",
+    "id": "image",
+    "image": {}
+}
 ```
+{% endtab %}
+
+{% tab title="Group Example" %}
+```json
 {
     "groups": [{
         "title": "Image Resource Example",
@@ -14,3 +26,5 @@ Displays an image dropwell in the inspectod, ready for a resource to be dropped 
     }]
 }
 ```
+{% endtab %}
+{% endtabs %}
