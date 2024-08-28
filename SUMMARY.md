@@ -127,3 +127,8 @@
 * [Logotype](branding/logotype.md)
 * [Logotype Animated](branding/logotype-animated.md)
 * [Icon](branding/icon.md)
+
+## Legal
+
+* [Subscription Terms of Service](legal/subscription-terms-of-service.md)
+* [Cloud Terms of Service](legal/cloud-terms-of-service.md)
