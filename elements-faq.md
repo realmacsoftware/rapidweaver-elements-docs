@@ -2,17 +2,13 @@
 
 This document will continue to evolve as we receive new questions or as development changes and we approach the launch.
 
-#### Q: When will the public beta version be available?
-
-You can [request beta access here](https://forums.realmacsoftware.com/t/request-elements-beta-access-here/43887/).
-
 #### Q: When is the official launch date for Elements?
 
 Our goal is to launch Elements in 2024. However, the exact public launch date will depend on the progress of development and the feedback we receive during the beta phase.
 
 #### Q: What are the system requirements for Elements?
 
-To run Elements, you will need macOS Ventura (13.x) or later. If you are using an older system, you can continue using RapidWeaver Classic, which requires macOS 10.14 (Mojave) or newer.
+Requires macOS Ventura (13.x) or newer.
 
 #### Q: Will my existing RapidWeaver themes be compatible?
 
