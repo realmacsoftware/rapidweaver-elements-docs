@@ -14,13 +14,9 @@ Please note this manual is a work-in-progress. The information within is being w
 We're aiming to have a complete draft set of documentation by the time Elements ships.
 {% endhint %}
 
-### Join the Beta
-
-You can [request beta access here](https://forums.realmacsoftware.com/t/request-elements-beta-access-here/43887/). We publish new **beta builds almost every Tuesday.**
-
 ### Pricing
 
-Information available soon.
+Elements will start at just $59/year —Includes 1 year of updates. Yours to keep forever. Build unlimited websites.  All licenses allow installation on 2 Macs.
 
 ### System Requirements
 
