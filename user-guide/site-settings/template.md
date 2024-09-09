@@ -70,3 +70,9 @@ The following is an example of the default site Template. Please note the templa
 {{page.customPageEnd}}
 
 ```
+
+### Dev Diary Videos for Site Templates
+
+The following videos will show you how to use the Template feature in Elements. The videos were recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video.
+
+{% embed url="https://www.youtube.com/watch?v=3_2D73Eg52Y" %}
