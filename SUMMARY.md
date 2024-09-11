@@ -46,8 +46,7 @@
 
 ## Elements Cloud
 
-* [Account Sign-up](elements-cloud/account-sign-up.md)
-* [Cloud Storage](elements-cloud/cloud-storage.md)
+* [Getting Started](elements-cloud/getting-started.md)
 
 ## Elements Language
 
