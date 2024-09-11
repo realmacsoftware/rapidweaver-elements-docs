@@ -46,7 +46,7 @@
 
 ## Elements Cloud
 
-* [Getting Started](elements-cloud/getting-started.md)
+* [Getting Started](elements-cloud/account-sign-up.md)
 
 ## Elements Language
 
