@@ -2,6 +2,10 @@
 
 Website resources include anything from image files to PDFs and folders. All of your resources can be managed right inside RapidWeaver Elements.
 
+{% hint style="info" %}
+All resources added to a project will be included when publishing or exporting your website.
+{% endhint %}
+
 ### Adding Resources
 
 Open the resources list in the left-hand sidebar, and drag and drop in files (and folders), from the Finder. The structure and naming of your files will be the same in-app and when it's exported to the finder.
