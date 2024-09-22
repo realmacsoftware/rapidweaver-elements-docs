@@ -24,7 +24,7 @@ The following is a list of suggested tools to make developing Elements easier.
 
 ### Developer Community
 
-We have a dedicated area on the RapidWeaver Forum, called the [RapidWeaver Developer Network](https://forums.realmacsoftware.com/c/rapidweaver-developer-network/28). The developer group is open to anyone interested in building addons for the RapidWeaver ecosystem.&#x20;
+We have a [dedicated developer area](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58) on the [RapidWeaver Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58). The [developer group](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58) is open to anyone interested in building addons for the RapidWeaver ecosystem.&#x20;
 
 We're always around to offer help with getting started or if you just need a hand while developing your next great addon for RapidWeaver. Come join us, we're a friendly bunch ☺️
 
