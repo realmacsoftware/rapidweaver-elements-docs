@@ -29,7 +29,7 @@ The  portal feature allows you to transport part of your template code to the bo
 If you are linking and including scripts, you'll want to tell Elements to only include the link once (when multiple instances of the same component are on the page). To do that you can use the "includeOne argument.
 
 ```
-@portal(head, includeOnce: true)
+@portal(headEnd, includeOnce: true)
 //Code will only be included once when using multiple instances of the same component.
 @endportal
 ```
