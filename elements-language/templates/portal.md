@@ -4,25 +4,25 @@ The  portal feature allows you to transport part of your template code to the bo
 
 ```
 @portal(headStart)
-//Any code here will be transported into the head of the page.
+//Code here will be transported to the top of the page head.
 @endportal
 ```
 
 ```
 @portal(headEnd)
-//Any code here will be transported into the head of the page.
+//Code here will be transported to the bottom of the page head.
 @endportal
 ```
 
 ```
 @portal(bodyStart)
-//Any code here will be transported to the top of the page body.
+//Code here will be transported to the top of the page body.
 @endportal
 ```
 
 ```
 @portal(bodyEnd)
-//
+//Code here will be transported to the bottom of the page body.
 @endportal
 ```
 
@@ -30,7 +30,7 @@ If you are linking and including scripts, you'll want to tell Elements to only i
 
 ```
 @portal(head, includeOnce: true)
-<script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"</script>
+//Code will only be included once when using multiple instances of the same component.
 @endportal
 ```
 
@@ -38,7 +38,7 @@ Include once across multiple components.
 
 ```
 @portal(headEnd, id: "com.realmacsoftware.alpine", includeOnce: true)
-// link to alpine script.
+//Code will only be included once when using the same ID across multiple compoenents.
 @endportal
 
 ```
