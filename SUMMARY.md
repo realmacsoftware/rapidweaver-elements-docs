@@ -114,6 +114,7 @@
     * [Theme Text Style](elements-language/properties.json/ui-controls/theme-text-style.md)
 * [Shared Files](elements-language/shared-files.md)
 * [Templates](elements-language/templates/README.md)
+  * [Portal](elements-language/templates/portal.md)
   * [Conditional Statements](elements-language/templates/conditional-statements.md)
   * [Looping](elements-language/templates/looping.md)
   * [Includes](elements-language/templates/includes.md)
