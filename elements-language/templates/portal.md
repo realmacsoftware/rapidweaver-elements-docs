@@ -1,6 +1,18 @@
 # Portal
 
-The  portal feature allows you to transport part of your template code to the body or head area of the page.
+The  portal feature allows you to transport sections of your template code to another part of the page.
+
+```
+@portal(pageStart)
+//Code here will be transported to the top of the page before the open HTML tag.
+@endportal
+```
+
+```
+@portal(pageEnd)
+//Code here will be transported to the bottom of the page after the end html tag.
+@endportal
+```
 
 ```
 @portal(headStart)
