@@ -8,6 +8,12 @@ If everyone is using Tailwind we can **ensure consistency across all components*
 
 It also makes collaboration smoother, as everyone follows the same styling method.
 
+### Default Colours
+
+Tailwind (and Elements) includes an expertly-crafted default color palette out-of-the-box - you should take advantage of that and use it.
+
+All components **need to work out of the box**.  A good guide is to use "Brand" for things like buttons, and "Text" for the text colours, and "Surface" for background colours.
+
 ### Utility-First Approach
 
 Tailwind offers a utility-first approach to styling. This means you apply small, reusable utility classes directly to your HTML elements. Instead of writing a lot of custom CSS, you can compose styles using these predefined classes.
