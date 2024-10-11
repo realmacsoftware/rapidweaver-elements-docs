@@ -12,16 +12,6 @@ Porting your stack(s) over to Elements will also give you the chance to bring it
 
 You can learn more about why your converted stack **must use Tailwind CSS** in the [Component Styling](component-styling.md) section of this manual. We also recommended reading the [Design System](../../elements-app/design-system.md) section of this manual.
 
-### Stacks to Elements Component Checklist
-
-To give users a seamless experience when using built-in and third-party components you should ensure the following:
-
-* [ ] Component is fully WYSIWYG in the Elements Editor
-  * [ ] Settings and Admin options are not visible in the Editor (place these in the Inspector)
-* [ ] Component uses Tailwind CSS
-  * [ ] &#x20;Uses the Tailwind classes found in the Theme Studio
-  * [ ] Takes advantage of the Theme based [UI controls](../properties.json/ui-controls/)
-
 ### Developer Support
 
 If you have questions about porting your stack to Elements or building a new component please visit the [Elements Developer Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58). We're also happy to arrange a video call to give one-on-one support with converting or building your components.

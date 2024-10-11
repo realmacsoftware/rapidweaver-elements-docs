@@ -1,12 +1,26 @@
-# Component Styling
+---
+description: A standardized approach
+---
 
-### A Standardized Approach
+# Component Styling
 
 Elements is based on Tailwind, so obviously we use Tailwind for all our components, and highly recommend everyone using and building for Elements does the same.
 
 If everyone is using Tailwind we can **ensure consistency across all components**, making it easier for end users to build sites that are consistent and easy to update.
 
 It also makes collaboration smoother, as everyone follows the same styling method.
+
+### ⚠️ Consistency for the User
+
+In Elements, all styling configurations—such as colors, fonts, and sizes—are controlled by the Theme (which anyone can create) and managed through the Theme Studio (where users can customize the styling to their needs).
+
+Components shouldn't dictate custom styling; instead, they inherit styles from the Tailwind themes. **The theme informs the components how they should look, ensuring consistency across all components, whether they are built-in, third-party, or custom-made.** This approach ensures that users can switch themes seamlessly without breaking their site’s design.
+
+Allowing components to dictate their own styles will lead to inconsistencies, making it unclear whether a component will “just work” within a given project. That’s why components rely on the values defined in the Theme Studio as their defaults, ensuring uniformity. They are not opinionated about the actual values—they just need to know that a value exists for each style.
+
+For example, let’s say you have a Heading component. You want to set a default font family and font size. In your properties.json, you would define the default font family as heading and the default font size as 3xl.
+
+The component doesn’t concern itself with the specific values of these properties; it only cares that they exist. This allows themes and users to fully customize the styles while ensuring that all components “just work” in any project.
 
 ### Default Colours
 
@@ -34,13 +48,23 @@ For customization, you can use properties to generate Tailwind classes ready to 
 
 In summary, the custom CSS in your component templates should use Tailwind classes. This change removes the need for scoped CSS and keeps all styling within Tailwind. Elements can then generate only the CSS your page uses, since it builds Tailwind locally and includes just the necessary utilities. This results in a smaller, more efficient CSS file(s).
 
+## Elements Component Checklist
+
+To give users a seamless experience when using built-in and third-party components you should ensure you meet the following requirements below. Please go through the checklist.
+
+* [ ] Component is fully WYSIWYG in the Elements Editor
+  * [ ] Settings and Admin options are not visible in the Editor (place these in the Inspector)
+* [ ] Component uses Tailwind CSS…
+  * [ ] and uses the Tailwind classes found in the Theme Studio
+  * [ ] It also takes advantage of the Theme based [UI controls](../properties.json/ui-controls/)!
+
 ***
 
-### Great, but I really want to scope my CSS
+### I really NEED to scope my CSS
 
-If you’ve read all that and are saying to yourself “great…but I still really need use custom/scoped CSS!” then there is a way but only use this as a last resort.
+If you’ve read all too the above and are still saying to yourself “great…but I really need to use custom/scoped CSS!” then there is a way but only use this as a last resort!
 
-You could manually “scope” your CSS classes by using the component’s ID in your Template and Styles. I know that’s not strictly “scoped CSS”, but it will encapsulate the CSS to each individual component instance.
+You can manually “scope” your CSS classes by using the component’s ID in your Template and Styles. Ahiwl this is not strictly “scoped CSS”, it will encapsulate the CSS to each individual component instance.
 
 In your styles you can do something like:
 
@@ -60,4 +84,4 @@ And in your Template file:
 <div class="{{id}} ...">...</div>
 ```
 
-Remember; If you add custom CSS it will not be controllable from the Theme Studio.
+Remember; If you add custom CSS it will not be controllable from the Theme Studio, thus resulting in a worse user experiance.
