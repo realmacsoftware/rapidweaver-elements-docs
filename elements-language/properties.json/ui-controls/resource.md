@@ -18,6 +18,7 @@ Displays a resource dropwell that accepts all file types.
 {
     "groups": [{
         "title": "Resource Example",
+        "icon": "folder",
         "properties": [{
             "title": "Resource",
             "id": "resource",
@@ -29,7 +30,7 @@ Displays a resource dropwell that accepts all file types.
 {% endtab %}
 {% endtabs %}
 
-### Restricting Fiel Types
+### Restricting file Types
 
 You can restrict the file types allowed in a dropwell, by using the `accepts` property.
 
