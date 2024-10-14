@@ -30,7 +30,7 @@ Displays a resource dropwell that accepts all file types.
 {% endtab %}
 {% endtabs %}
 
-### Restricting file Types
+### Restricting File Types
 
 You can restrict the file types allowed in a dropwell, by using the `accepts` property.
 
@@ -42,7 +42,7 @@ You can restrict the file types allowed in a dropwell, by using the `accepts` pr
 
 Support for multiple file types can be added using comma seperated values.
 
-```
+```json
 "resource": {
     "accepts": "zip, pdf"
 }
