@@ -1,6 +1,6 @@
 # Resource
 
-Displays a resource dropwell.
+Displays a resource dropwell that accepts all file types.
 
 {% tabs %}
 {% tab title="Control Example" %}
@@ -28,6 +28,24 @@ Displays a resource dropwell.
 ```
 {% endtab %}
 {% endtabs %}
+
+### Restricting Fiel Types
+
+You can restrict the file types allowed in a dropwell, by using the `accepts` property.
+
+```json
+"resource": {
+    "accepts": "svg"
+}
+```
+
+Support for multiple file types can be added using comma seperated values.
+
+```
+"resource": {
+    "accepts": "zip, pdf"
+}
+```
 
 
 
