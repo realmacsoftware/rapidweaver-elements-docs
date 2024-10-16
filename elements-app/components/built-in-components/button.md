@@ -8,3 +8,7 @@ Buttons are fundamental user interface elements in web design that enable users 
 
 Buttons provide a clear call to action.
 
+{% content-ref url="https://app.gitbook.com/o/qIywZyO82bvjWx2b4aH7/snippet/17979" %}
+[Test Snippet](https://app.gitbook.com/o/qIywZyO82bvjWx2b4aH7/snippet/17979)
+{% endcontent-ref %}
+
