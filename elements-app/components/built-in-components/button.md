@@ -8,13 +8,3 @@ Buttons are fundamental user interface elements in web design that enable users 
 
 Buttons provide a clear call to action.
 
-{% content-ref url="../common-controls/layout.md" %}
-[layout.md](../common-controls/layout.md)
-{% endcontent-ref %}
-
-
-
-{% content-ref url="../common-controls/" %}
-[common-controls](../common-controls/)
-{% endcontent-ref %}
-
