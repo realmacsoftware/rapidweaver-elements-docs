@@ -14,6 +14,8 @@
 * [Node Browser](elements-app/node-browser.md)
 * [Responsive Breakpoints](elements-app/responsive-breakpoints.md)
 * [Components](elements-app/components/README.md)
+  * [Common Controls](elements-app/components/common-controls/README.md)
+    * [Layout](elements-app/components/common-controls/layout.md)
   * [Built-in Components](elements-app/components/built-in-components/README.md)
     * [Button](elements-app/components/built-in-components/button.md)
     * [Container](elements-app/components/built-in-components/container.md)
