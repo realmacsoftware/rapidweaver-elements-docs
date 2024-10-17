@@ -16,6 +16,7 @@
 * [Components](elements-app/components/README.md)
   * [Common Controls](elements-app/components/common-controls/README.md)
     * [Spacing](elements-app/components/common-controls/spacing.md)
+    * [Transitions](elements-app/components/common-controls/transitions.md)
   * [Built-in Components](elements-app/components/built-in-components/README.md)
     * [Button](elements-app/components/built-in-components/button.md)
     * [Container](elements-app/components/built-in-components/container.md)
