@@ -1,6 +1,23 @@
 # Components
 
-Components are the raw building blocks for page design in Elements.
+Components are the raw building blocks for page design in Elements. Let's take a look at the different types of Components available.
 
-<table><thead><tr><th width="184">Element</th><th>Description</th></tr></thead><tbody><tr><td><strong>Button</strong></td><td>Provide a clear call to action with a button. <a href="built-in-components/button.md">Learn more about Button</a>.</td></tr><tr><td><strong>Container</strong></td><td>Group elements to specify width and general padding. <a href="built-in-components/container.md">Learn more about Container</a>.</td></tr><tr><td><strong>Flex</strong></td><td>Flex Elements are perfect for laying out content within your grid, use it to align items, and creat uniform spacing. <a href="built-in-components/flex.md">Learn more about Flex</a>.</td></tr><tr><td><strong>Grid</strong></td><td>The foundation of page layout, use a grid to organise your content. <a href="built-in-components/grid.md">Learn more about Grid</a>.</td></tr><tr><td><strong>Heading</strong></td><td>Title your page or content with a flexible Heading. <a href="built-in-components/heading.md">Learn more about Heading</a>.</td></tr><tr><td><strong>Image</strong></td><td>A flexible way to display jpg and png images in your page layout. <a href="built-in-components/image.md">Learn more about mage</a>.</td></tr><tr><td><strong>Paragraph</strong></td><td>Perfect for adding blocks of text to a page layout. <a href="built-in-components/paragraph.md">Learn more about Paragraph</a>.</td></tr><tr><td><strong>Section</strong></td><td>Group Elements together inside a Section with background colours, images, and/or video. Used for banners, coloured content blocks, grouping text and images together. <a href="built-in-components/section.md">Learn more</a><a href="built-in-components/section.md"> about Section.</a></td></tr><tr><td><strong>SVG</strong></td><td>A flexible way to display sag images in your page layout. <a href="built-in-components/svg.md">Learn more about SVG</a>.</td></tr><tr><td><strong>Video</strong></td><td>An easy way to add a single video to your website. <a href="built-in-components/video.md">Learn more about Video</a>.</td></tr></tbody></table>
+### Built-in Components
 
+Elements ships with a comprehensive range of Components that allow you to put together an entire website. They include everything from Headings, Images, Galleries, and layout tools, like Grid and Flex.
+
+### Custom Components
+
+If you know a bit of HTML you can create your own custom Components for use in your projects. These can be anything from a simple html snippet to a fully blown Component using the [Elements API](../../elements-language/api-introduction/), with custom UI controls. [Learn more about Custom Components](./#custom-components).
+
+Custom Components can only be shared via projects, the code is open and visible to anyone with that project. They are perfect for creating bespoke solutions for your project(s), or getting familiar with the [Elements API](../../elements-language/api-introduction/) before you migrate to building components like those built into Elements.
+
+### Third-party Components
+
+Third-party developers can use the [Elements API](../../elements-language/api-introduction/) to create full-blown Components that are on a par with the built-in Components — Yes, we use exactly the same API that is available to all users.
+
+Third-party components will be [distributed via the RapidWeaver Elements Distribution Platform](../../elements-language/api-introduction/distribution.md) as Element Packs (.elementspack). These packs are shipped as highly optimized, encrypted bundles. The code cannot be modified or edited by users or third parties (exactly like the built-in Components).
+
+### Global Components
+
+Global Components give you the power to create reusable (and customisable) groups of components to maintain a consistent design language across your entire site. [Learn more about Globals](global-components.md).
