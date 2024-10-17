@@ -8,7 +8,7 @@ The Apply to dropdown allows you to specify the values of a component the transi
 
 * All - Apply a transition to all values.
 * None -  Don't apply a transtion (similar to seeing the duration value to 0).
-* Most Common -&#x20;
+* Most Common - Applies transitions to color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter.
 * Colours - Only apply transition to colours.
 * Opacity - Only apply transition to the opacity.
 * Shadows - Only apply transition to the shadows.
