@@ -12,6 +12,7 @@
 * [Page Manager](elements-app/page-manager.md)
 * [Resources](elements-app/resources.md)
 * [Node Browser](elements-app/node-browser.md)
+* [Dark Mode](elements-app/dark-mode.md)
 * [Responsive Breakpoints](elements-app/responsive-breakpoints.md)
 * [Components](elements-app/components/README.md)
   * [Common Controls](elements-app/components/common-controls/README.md)
