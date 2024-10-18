@@ -1,3 +1,7 @@
+---
+description: Adjust animation curve, duration, and delay for transitions
+---
+
 # Transitions
 
 The Transitions settings apply to the Filter, Effect, and Transform sections on the same Component. Transition settings contol the the timing, animation curve and delay when transitioning (or animating) an object between two states.
