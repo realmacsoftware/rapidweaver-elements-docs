@@ -8,7 +8,7 @@ With dark mode now a prominent feature in many operating systems, it’s increas
 
 Elements supports automatic switching between light and dark mode. This approach enables automatic theme switching based on the user’s system (or browser) settings, ensuring websites adapts seamlessly to both light and dark modes.
 
-### Changing Colours based Mode
+### Changing Colours based on Mode
 
 Every colour in Elements supports Dark and Light Mode, this means you can change the colour of text, backgrounds, buttons, borders, and more, all based on the users system settings.
 
