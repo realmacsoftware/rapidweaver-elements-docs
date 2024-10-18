@@ -1,20 +1,24 @@
 # Icons
 
-At a bare minimum you'll want to include  PDF's images for light mode icons so they can be used for all views where your Component appears within the RapidWeaver Elements UI.&#x20;
+At a bare minimum you'll want to include PDF images for light mode icons so they can be used for all views where your Component appears within the RapidWeaver Elements UI.&#x20;
+
+{% hint style="info" %}
+**Important:** The PDF graphic for your icon should have a transparent background so it can be composited in app on to the background tile to give a constant for Components in Elements.&#x20;
+{% endhint %}
 
 ### Standard Icon
 
-All Elements require this icon.
+All Elements require an icon.pdf file for light mode. If the dark-mode.pdf file isn't provided, icon.pdf will be used in Dark Mode.
 
 * **icon.pdf (Required), 1:1 ratio, e.g. 128x128 (Square)**
 * icon-dark.pdf (optional), 1:1 ratio, e.g. 128x128 (Square)
 
 ### Palette Icons
 
-The Palette image should be named paletteIcon.pdf and paletteIcon-dark.pdf if you'd also like to display a different version in dark mode.
+The Palette image should be named paletteIcon.pdf and paletteIcon-dark.pdf for Dark Mode. If the paletteIcon-dark.pdf file isn't provided, paletteIcon.pdf will be used in Dark Mode.
 
-* **paletteIcon.png (Required), 1:2 ratio, e.g. 128x256 (landscape)**
-* paletteIcon-dark.png (optional), 1:2 ratio, e.g. 128x256 (landscape)
+* **paletteIcon.pdf (Required), 1:2 ratio, e.g. 128x256 (landscape)**
+* paletteIcon-dark.pdf (optional), 1:2 ratio, e.g. 128x256 (landscape)
 
 ### Sketch Example File
 
@@ -26,7 +30,21 @@ We've provided an example Sketch document below you can use to get started.
 
 {% file src="../../.gitbook/assets/Components Icon Template.zip" %}
 
-### Banner Icons (Experimental)
+### Asset Placement
+
+All Icon files should be placed at the root of the Component alongside the info.json file.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-10-18 at 5 .29.48@2x.png" alt=""><figcaption><p>Finder window showing the icon files inside of a typical Element.</p></figcaption></figure>
+
+
+
+***
+
+### Experimental / Unsupported - Banner Icons
+
+{% hint style="info" %}
+⚠️ While this feature works, please do not use it as it may be removed in a future build.
+{% endhint %}
 
 We also offer experimental support for banner style icons, these are great for layout style components. However, this style of icon may not be supported when Elements ships, please use with caution and ensure you also include the standard style of icon.
 
@@ -58,8 +76,3 @@ Banner icons will appear the same in both grid and list.
 
 
 
-### Asset Placement
-
-All Icon files should be placed at the root of the Element alongside the info.json file.
-
-<figure><img src="../../.gitbook/assets/CleanShot 2023-07-25 at 4.14.41@2x.png" alt=""><figcaption><p>Finder window showing the icon files inside of a typical Element.</p></figcaption></figure>
