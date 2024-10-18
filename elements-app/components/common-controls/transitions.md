@@ -2,6 +2,8 @@
 
 The Transitions settings apply to the Filter, Effect, and Transform sections on the same Component. Transition settings contol the the timing, animation curve and delay when transitioning (or animating) an object between two states.
 
+{% embed url="https://youtu.be/tg2k4ZcFeQg" %}
+
 ### Apply to
 
 The Apply to dropdown allows you to specify the values of a component the transition will apply to. In most cases you'll want this set to "All".
