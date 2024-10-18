@@ -5,7 +5,7 @@ At a bare minimum you'll want to include PDF images for light mode icons so they
 <figure><img src="../../.gitbook/assets/CleanShot 2024-10-18 at 5 .36.55.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Important:** The PDF graphic for your icon should have a transparent background so it can be composited in app on to the background tile to give a constant for Components in Elements.&#x20;
+**Important:** The PDF graphic for your icon should have a transparent background so it can be composited in app on to the background tile to give a consistent look.
 {% endhint %}
 
 ### Standard Icon
