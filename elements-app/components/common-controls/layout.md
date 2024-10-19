@@ -14,15 +14,13 @@ The Position controls how an element is placed in the document and how it intera
 
 Controls the stack order of an element on the page. See [Tailwind CSS Z-Index](https://tailwindcss.com/docs/z-index) for more details.
 
-* None
-* Auto
-* Custom
+<table><thead><tr><th width="218">Z-Index Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No Z-Index properties are set on the container.</td></tr><tr><td>Auto</td><td>Lets the browser automatically determine the Z-index of the container.</td></tr><tr><td>Custom</td><td>Set the Z-index manual for the container,can be a positive or negatiev value (e.g. -50, or 50).</td></tr></tbody></table>
 
-### Type
+### Type (Inset)
 
-* None
-* Uniform
-* Individual
+The Uniform inset- property is used to control the positioning of an element relative to its nearest positioned ancestor.&#x20;
+
+<table><thead><tr><th width="218">Z-Index Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No uniform or individual spacing properties are set on the container.</td></tr><tr><td>Uniform</td><td>Uniform combines the top, right, bottom, and left offset properties into a single option, allowing you to quickly set all four sides at once.</td></tr><tr><td>Individual</td><td>Individual set the top, right, bottom, and left offset properties.</td></tr></tbody></table>
 
 ## Advanced
 
