@@ -26,4 +26,6 @@ The Padding property controls the space inside an element, between its content a
 
 Padding can be set for all four sides of an element—top, right, bottom, and left—or individually for each side.
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-16 at 3 .05.02@2x.png" alt=""><figcaption></figcaption></figure>
+## Spacing UI in Elements
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-16 at 3 .05.02@2x.png" alt=""><figcaption><p>RapidWeaver Elements Component Spacing (October 2024)</p></figcaption></figure>

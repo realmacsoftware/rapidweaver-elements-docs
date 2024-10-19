@@ -68,5 +68,7 @@ Set the duration for the transition animation in milliseconds, for example setti
 
 Set the delay of the transition start in milliseconds, for example setting a value of 500, would result in a delay of 0.5 seconds before the animation will start. Setting the value to 1,000 would set a delay of 1 second before the animation starts.
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-17 at 9 .52.22@2x.png" alt=""><figcaption><p>Transitions UI</p></figcaption></figure>
+## Transitions UI in Elements
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-17 at 9 .52.22@2x.png" alt=""><figcaption><p>RapidWeaver Elements Component Transitions UI (Ocober 2024)</p></figcaption></figure>
 

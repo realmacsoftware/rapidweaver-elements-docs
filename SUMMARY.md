@@ -16,6 +16,7 @@
 * [Responsive Breakpoints](elements-app/responsive-breakpoints.md)
 * [Components](elements-app/components/README.md)
   * [Common Controls](elements-app/components/common-controls/README.md)
+    * [Page](elements-app/components/common-controls/page.md)
     * [Layout](elements-app/components/common-controls/layout.md)
     * [Spacing](elements-app/components/common-controls/spacing.md)
     * [Transitions](elements-app/components/common-controls/transitions.md)

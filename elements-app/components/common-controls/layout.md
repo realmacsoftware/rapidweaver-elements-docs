@@ -1,8 +1,14 @@
+---
+description: Set advanced properties for Position, Z-index, Visibility, and more.
+---
+
 # Layout
 
 The Layout controls help you manage the overall layout and positioning of elements within a webpage. These controls include controls for handling display properties, positioning, z-index, overflow, visibility, and more.
 
 ## General
+
+General layout settings for Position, Z-index, and Inset.
 
 ### Position
 
@@ -18,15 +24,17 @@ Controls the stack order of an element on the page. See [Tailwind CSS Z-Index](h
 
 ### Type (Inset)
 
-The Uniform inset- property is used to control the positioning of an element relative to its nearest positioned ancestor.&#x20;
+The Uniform inset- property is used to control the positioning of an element relative to its nearest positioned ancestor. [See Tailwind CSS Top / Right / Bottom / Left](https://tailwindcss.com/docs/top-right-bottom-left) for more details.
 
 <table><thead><tr><th width="218">Z-Index Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No uniform or individual spacing properties are set on the container.</td></tr><tr><td>Uniform</td><td>Uniform combines the top, right, bottom, and left offset properties into a single option, allowing you to quickly set all four sides at once.</td></tr><tr><td>Individual</td><td>Individual set the top, right, bottom, and left offset properties.</td></tr></tbody></table>
 
 ## Advanced
 
+Advanced layout settings for Overflow, Isolation, and Visibility.
+
 ### Overflow
 
-Controls how an element handles content that is too large for the container.
+Controls how an element handles content that is too large for the container. See [Tailwind CSS Overflow](https://tailwindcss.com/docs/overflow) for more details.
 
 <table><thead><tr><th width="218">Overflow Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No overflow properties are set on the container.</td></tr><tr><td>Visible</td><td>Content that overflows the container will still be visible outside of its bounds.</td></tr><tr><td>Hidden</td><td>Content that exceeds the dimensions of the container is completely hidden (no scrollbars are displayed, and you can’t scroll to see the overflowed content).</td></tr><tr><td>Scroll</td><td>A scrollbar is always shown, regardless of whether the content overflows the container or not. The user can scroll to view the overflowing content.</td></tr><tr><td>Auto</td><td>Scrollbars will automatically appear only if the content overflows the container.</td></tr></tbody></table>
 
@@ -42,8 +50,7 @@ Controls the visibility of an element on the page. See [Tailwind CSS Visibility]
 
 <table><thead><tr><th width="206">Visibility Properties</th><th>Description</th></tr></thead><tbody><tr><td>Auto</td><td>This is the default setting that lets the browser determine the visibility of an element.</td></tr><tr><td>Visible</td><td>When set to visible, the element is fully visible on the page and takes up space in the layout as usual.</td></tr><tr><td>Hidden</td><td>The element is not visible on the page, and the space it occupied will be removed.</td></tr><tr><td>Collapse</td><td>The element is not visible on the page, but it still takes up the same space in the layout as if it were visible. It’s just hidden from view.</td></tr></tbody></table>
 
-
+## Layout UI in Elements
 
 <figure><img src="../../../.gitbook/assets/CleanShot 2024-10-19 at 8 .02.46@2x.png" alt=""><figcaption><p>Component Layout Controls (October 2024)</p></figcaption></figure>
 
-###
