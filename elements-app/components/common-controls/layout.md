@@ -15,7 +15,7 @@
 
 ### Z-Index
 
-Controls the stack order of an element on the page.
+Controls the stack order of an element on the page. See [Tailwind CSS Z-Index](https://tailwindcss.com/docs/z-index) for more details.
 
 * None
 * Auto
