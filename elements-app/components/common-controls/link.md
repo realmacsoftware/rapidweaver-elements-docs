@@ -4,13 +4,11 @@ description: Link to a page, resource or website.
 
 # Link
 
-The link property allows you to link to a page, resource or website.
+The link property allows you to link to a page, resource or extrenal website. Elements will keep track and update all internally linked pages and resources.
 
 ### Link Panel
 
-You can envoke the link panel on Components and text areas that support the link attribute, by clicking the "Choose Link…" button in the inspector.&#x20;
-
-To clear a link click the "x" icon to the right hand side of the link button.
+You can envoke the link panel on most components and inline text areas. Add a link click the "Choose Link…" button in the inspector. To clear a link click the "x" icon to the right hand side of the link button.
 
 <table><thead><tr><th width="136">Link Types</th><th>Description</th></tr></thead><tbody><tr><td>URL</td><td>Link to an external website, a mailto link will automatically be created if an email address is entered.</td></tr><tr><td>Page</td><td>Link to a  page within your project.</td></tr><tr><td>Resource</td><td>Link to a  resource within your project.</td></tr></tbody></table>
 
