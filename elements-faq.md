@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Elements FAQ
 
 This document will continue to evolve as we receive new questions or as development changes and we approach the launch.

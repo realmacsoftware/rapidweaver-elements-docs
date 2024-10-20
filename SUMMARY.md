@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Welcome to Elements](README.md)
-* [The Independent Web](be-part-of-the-indieweb.md)
+* [Introduction](README.md)
 * [Elements FAQ](elements-faq.md)
 
 ## Elements App
