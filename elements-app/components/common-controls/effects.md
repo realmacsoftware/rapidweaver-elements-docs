@@ -4,7 +4,7 @@ hidden: true
 
 # Effects
 
-Apply effects such as box shadows, oppacity and adjust blend modes.
+Apply effects such as box shadows and oppacity.
 
 ### Type
 
@@ -18,5 +18,9 @@ Specify if the component has effects enabled or disabled.
 
 ### Box Shadow
 
-Apply a box shadow to the&#x20;
+Apply a box shadow to the Component.
+
+### Opacity
+
+Set an opacity for the component.
 
