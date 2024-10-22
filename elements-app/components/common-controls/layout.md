@@ -32,11 +32,11 @@ The  Inset property is used to control the positioning of an element relative to
 
 Advanced layout settings for Overflow, Isolation, and Visibility.
 
-{% embed url="https://youtu.be/rOHL-KScsqc" %}
-
 ### Overflow
 
 Controls how an element handles content that is too large for the container. See [Tailwind CSS Overflow](https://tailwindcss.com/docs/overflow) for more details.
+
+{% embed url="https://youtu.be/rOHL-KScsqc" %}
 
 <table><thead><tr><th width="218">Overflow Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No overflow properties are set on the container.</td></tr><tr><td>Visible</td><td>Content that overflows the container will still be visible outside of its bounds.</td></tr><tr><td>Hidden</td><td>Content that exceeds the dimensions of the container is completely hidden (no scrollbars are displayed, and you can’t scroll to see the overflowed content).</td></tr><tr><td>Scroll</td><td>A scrollbar is always shown, regardless of whether the content overflows the container or not. The user can scroll to view the overflowing content.</td></tr><tr><td>Auto</td><td>Scrollbars will automatically appear only if the content overflows the container.</td></tr></tbody></table>
 
