@@ -50,6 +50,8 @@ In complex layouts, different elements may interact with each other in ways that
 
 Controls the visibility of an element on the page. See [Tailwind CSS Visibility](https://tailwindcss.com/docs/visibility) for more details.
 
+{% embed url="https://youtu.be/Lt9ZGrEG21M" %}
+
 <table><thead><tr><th width="206">Visibility Properties</th><th>Description</th></tr></thead><tbody><tr><td>Auto</td><td>This is the default setting that lets the browser determine the visibility of an element.</td></tr><tr><td>Visible</td><td>When set to visible, the element is fully visible on the page and takes up space in the layout as usual.</td></tr><tr><td>Hidden</td><td>The element is not visible on the page, and the space it occupied will be removed.</td></tr><tr><td>Collapse</td><td>The element is not visible on the page, but it still takes up the same space in the layout as if it were visible. It’s just hidden from view.</td></tr></tbody></table>
 
 ## Layout UI in Elements
