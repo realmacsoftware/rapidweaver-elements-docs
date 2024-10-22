@@ -34,3 +34,8 @@ To **hide Components in Light Mode** use the following classes:
 
 `hidden dark:block`
 
+### Dev Diary Videos for Dark Mode
+
+The following video will show you how to set Colours for  Dark and Light mode in Elements. The video was recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video.
+
+{% embed url="https://youtu.be/dZkGtd1sHPc" %}
