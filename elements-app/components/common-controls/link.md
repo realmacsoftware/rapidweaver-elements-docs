@@ -6,6 +6,8 @@ description: Link to a page, resource or website.
 
 The link property allows you to link to a page, resource or extrenal website. Elements will keep track and update all internally linked pages and resources.
 
+{% embed url="https://youtu.be/mt-5Zhk3M7E" %}
+
 ### Link Panel
 
 You can envoke the link panel on most components and inline text areas. Add a link click the "Choose Link…" button in the inspector. To clear a link click the "x" icon to the right hand side of the link button.
