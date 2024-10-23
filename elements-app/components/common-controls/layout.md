@@ -18,7 +18,7 @@ The Position controls how an element is placed in the document and how it intera
 
 ### Z-Index
 
-Controls the stack order of an element on the page. See [Tailwind CSS Z-Index](https://tailwindcss.com/docs/z-index) for more details.
+The z-index controls the stack order of elements on the page and is an important CSS property in web design. When multiple elements overlap, the z-index determines which element appears on top of the others. See [Tailwind CSS Z-Index](https://tailwindcss.com/docs/z-index) for more details.
 
 {% embed url="https://youtu.be/tW5AMT6l6CY" %}
 
@@ -26,7 +26,7 @@ Controls the stack order of an element on the page. See [Tailwind CSS Z-Index](h
 
 ### Type (Inset)
 
-The  Inset property is used to control the positioning of an element relative to its nearest positioned ancestor. [See Tailwind CSS Top / Right / Bottom / Left](https://tailwindcss.com/docs/top-right-bottom-left) for more details.
+The Inset property is used to control the positioning of an element relative to its nearest positioned ancestor. [See Tailwind CSS Top / Right / Bottom / Left](https://tailwindcss.com/docs/top-right-bottom-left) for more details.
 
 <table><thead><tr><th width="218">Z-Index Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No uniform or individual spacing properties are set on the container.</td></tr><tr><td>Uniform</td><td>Uniform combines the top, right, bottom, and left offset properties into a single option, allowing you to quickly set all four sides at once.</td></tr><tr><td>Individual</td><td>Individual set the top, right, bottom, and left offset properties.</td></tr></tbody></table>
 
