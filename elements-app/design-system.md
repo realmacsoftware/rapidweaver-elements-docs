@@ -28,7 +28,7 @@ Elements is a mobile first, static website builder. Mobile has now surpassed des
 
 We recommend designing at the mobile breakpoint first, and working your way up through the breakpoints to support larger screens.
 
-### Built on Tailwind and AlpineJS
+### Built on Tailwind, AlpineJS, and the GSAP Animation Library
 
 Elements is built upon the popular [Tailwind CSS framework](https://tailwindcss.com/) (and AlpineJS) which makes it a piece of cake to build modern responsive websites.
 
