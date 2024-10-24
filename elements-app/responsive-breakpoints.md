@@ -2,7 +2,7 @@
 
 The responsive breakpoint system in Elements allows you to change component properties at different user defined breakpoints (i.e. Mobile, Table, Desktop, etc).
 
-Breakpoints for a project be defined in the [Screens](../theme-studio/screens.md) area of the [Theme Studio](../theme-studio/).
+Breakpoints for a project be defined in the [Screens](theme-studio/screens.md) area of the [Theme Studio](theme-studio/).
 
 ### Dev Diary Videos for Responsive Websites
 
