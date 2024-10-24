@@ -8,6 +8,7 @@
 * [Design System](elements-app/design-system.md)
 * [Previewing Your Website](elements-app/previewing-your-website.md)
 * [Editor](elements-app/editor.md)
+* [Downloading & Installation](elements-app/downloading-and-installation.md)
 * [Page Manager](elements-app/page-manager.md)
 * [Resources](elements-app/resources.md)
 * [Node Browser](elements-app/node-browser.md)

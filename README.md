@@ -10,15 +10,6 @@ Elements is a no-code static website builder for macOS. It's designed to cater t
 
 Elements has everything you need built-in to build a beautiful modern website.
 
-### System Requirements
-
-In order to run Elements you will need to meet the minimum requirements:
-
-* Requires macOS 13 Ventura or newer.
-* Apple Silicon or Intel based Mac.
-
-Elements is built to work on all modern macs, so long as they meet the minimum requirements you you'll be good to go.
-
 ### Be part of the Independent Web
 
 Realmac Software has always been an indie company and has never taken on outside investment. We've remained an independent and private company for over 20 years. We are and always have been 100% customer funded and focused.
