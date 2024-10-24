@@ -6,6 +6,8 @@ description: A quick and flexible way to apply common visual effects
 
 Filters allow you to apply various visual effects to elements, such as blurring, adjusting brightness,  or adding drop shadows. These filters are applied via the filter settings on most elements and enable quick visual enhancements.
 
+{% embed url="https://youtu.be/sWHJvwiWOac" %}
+
 ### Type
 
 Specify if the component has effects enabled or disabled. The Hover effect works in conjuction with [Transitions](transitions.md).
@@ -25,7 +27,7 @@ Specify if the component has effects enabled or disabled. The Hover effect works
 
 #### Backdrop Filters
 
-* Blur - Applies a blur effect to the content behind the element, rather than the element itself. It creates a frosted glass-like effect, which is commonly used in modern web design to maintain focus on the content in the foreground while still giving a glimpse of what’s behind.
+* Blur - Applies a blur effect to the content behind the element, rather than the element itself. It creates a frosted glass-like effect, which is commonly used in modern web design to maintain focus on the content in the foreground while still giving a glimpse of what’s behind. To see this effect, ensure your component has a completely transparent background or semi-transparent background colour.
 
 ## Filters UI in Elements
 
