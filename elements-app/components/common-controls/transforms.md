@@ -22,7 +22,7 @@ Specify if the component has transforms enabled or disabled. The Hover effect wo
 
 ### Transforms
 
-* Origin - Set&#x20;
+* Origin - Set the origin of the transform.
 * Scale - Changes the size of an element by percent.
 * Rotate - Rotates an element by a specified degree, supports positive and negative values.
 * Translate - Moves an element along the X or Y axis, supports positive and negative values.
