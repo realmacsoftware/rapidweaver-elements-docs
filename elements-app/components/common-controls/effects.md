@@ -1,6 +1,12 @@
+---
+description: Apply box shadows rollovers and more.
+---
+
 # Effects
 
-Apply effects such as box shadows and opacity.&#x20;
+Easily enhance the visual appeal of elements in your website by applying effects like box shadow and opacity. These effects can help create depth, highlight key elements, and adjust the transparency of components, giving your site a modern, polished look.
+
+{% embed url="https://youtu.be/IljWfMjwW-Y" %}
 
 ### Type
 
