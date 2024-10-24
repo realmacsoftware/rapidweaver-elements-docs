@@ -6,7 +6,7 @@ description: A quick and flexible way to apply common visual effects
 
 Filters allow you to apply various visual effects to elements, such as blurring, adjusting brightness,  or adding drop shadows. These filters are applied via the filter settings on most elements and enable quick visual enhancements.
 
-{% embed url="https://youtu.be/sWHJvwiWOac" %}
+{% embed url="https://www.youtube.com/watch?v=wFKU85vhOEQ&list=PLlqV01jBZsjA6LyBb9uY-H7EtHjgO1HcR&index=1&pp=iAQB" %}
 
 ### Type
 
