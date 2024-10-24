@@ -13,7 +13,7 @@
   * [Resources](elements-app/resources.md)
   * [Responsive Breakpoints](elements-app/responsive-breakpoints.md)
   * [Dark Mode](elements-app/dark-mode.md)
-  * [Previewing Your Website](elements-app/previewing-your-website.md)
+  * [Preview](elements-app/previewing-your-website.md)
 * [Components](elements-app/components/README.md)
   * [Common Controls](elements-app/components/common-controls/README.md)
     * [Link](elements-app/components/common-controls/link.md)
