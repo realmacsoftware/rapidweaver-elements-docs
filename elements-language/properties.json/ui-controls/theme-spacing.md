@@ -72,6 +72,7 @@ The themeSpacing control has the following modes:
 * gap
 * transition
 * position
+* single
 
 Each one of these modes correspond to the appropriate Tailwind utility classes. This means both developers and users can manage one single spacing scale that help promote consistency across all sites built in RapidWeaver Elements. See the examples below for more information.
 
@@ -103,6 +104,28 @@ Each one of these modes correspond to the appropriate Tailwind utility classes. 
     }]
 }
 ```
+
+### Single Mode
+
+The single mode allows you to access the spacing scale from the Theme Studio in a single select control. This is handy when you need to set a single property rather than all four properties (top, right, bottom left). For example, if you need to set only the `top` css property you can do so like this:
+
+```
+{
+    "title": "Top",
+    "id": "top",
+    "format": "top-{{value}}
+    "themeSpacing": {
+        "mode": "single",
+        "default": {
+            "base": {
+                "value": "2",
+            }
+        }
+    }
+}
+```
+
+In this example, the default value will be returned as `top-2`.
 
 ### Custom Values
 
