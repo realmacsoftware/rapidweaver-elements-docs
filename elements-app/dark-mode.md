@@ -34,7 +34,13 @@ To **hide Components in Light Mode** use the following classes:
 
 `hidden dark:block`
 
-### Dev Diary Videos for Dark Mode
+### Turning Off Dark Mode
+
+If you don't want dark mode on your website, you can switch this off in the Project Settings. Please note, this will hide the UI option to toggle between dark and light mode, and only preveiw and export the light mode versuion of you website.
+
+<figure><img src="../.gitbook/assets/CleanShot 2024-10-27 at 3 .31.32@2x.png" alt=""><figcaption></figcaption></figure>
+
+## Dev Diary Videos for Dark Mode
 
 The following video will show you how to set Colours for  Dark and Light mode in Elements. The video was recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video.
 
