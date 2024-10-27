@@ -52,6 +52,14 @@ A: [Tabler Icons](https://tabler.io/icons) has over 5,650 free SVG icons, they a
 
 {% embed url="https://share.cleanshot.com/TsQRDhMX" %}
 
+### Free SVG Icon Libraries
+
+All of the following icon libraries work well Elements, if you require them to be resiable in Elements you'll need to remove the Height and Width values from the code before importing.
+
+* [https://tabler.io/icons](https://tabler.io/icons), over 5,650 free SVG icons.
+* [https://feathericons.com](https://feathericons.com), simply beautiful open source icons
+* [https://phosphoricons.com](https://phosphoricons.com/?size=64\&weight=%22duotone%22), outline, filled, duotone and more.
+
 ### Further Reading
 
 * [Practical SVG](https://practical-svg.chriscoyier.net) by Chris Coyier
