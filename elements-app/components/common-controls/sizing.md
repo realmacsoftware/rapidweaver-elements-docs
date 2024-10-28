@@ -1,5 +1,5 @@
 ---
-hidden: true
+description: Set the Width and Height for elements.
 ---
 
 # Sizing
@@ -18,4 +18,20 @@ The height setting offers a comprehensive range of options that make it easy to 
 
 <table><thead><tr><th width="194">Position Properties</th><th>Description</th></tr></thead><tbody><tr><td>Auto</td><td>No position properties are set on the element, the parent element and browser handles the height of the element.</td></tr><tr><td>Full</td><td>The element will take up the full height of the parent element.</td></tr><tr><td>Screen</td><td>The element will take up the full hight of the viewport, e.g. 100vh (full viewport height).</td></tr><tr><td>Theme Spacing</td><td>Choose from the pre-defined size classes set in the Theme Studio. You can also override the pre-defined classes and use <a href="../custom-css-values.md">Custom CSS Values</a>.</td></tr></tbody></table>
 
-###
+### Min & Max Settings
+
+In Elements the min-width and max-width settings provide control over the minimum and maximum width of elements, allowing you to set constraints on how wide an element can grow or shrink. These settings are especially useful for responsive design, as they help maintain readability and layout consistency across different screen sizes.
+
+#### Why Use Min-Width and Max-Width?
+
+1\. Content Readability: Setting maximum widths prevents text from stretching too wide, which enhances readability, especially on larger screens.
+
+2\. Responsive Design: Min and max-widths help maintain an adaptable layout by controlling how elements respond to different screen sizes.
+
+3\. Layout Constraints: Min-widths prevent elements from collapsing too small, while max-widths keep elements from overflowing their containers, ensuring a balanced and visually consistent design.
+
+Use min-width and max-width settings when you need control over element sizes to ensure responsive, readable, and user-friendly layouts across various screen sizes.
+
+## Sizing UI in Elements
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-28 at 11 .51.11@2x.png" alt=""><figcaption></figcaption></figure>
