@@ -6,6 +6,8 @@ description: Set the Width and Height for elements.
 
 The sizing option provides options for setting fixed widths, percentage-based widths, viewport-based widths, and even fractional widths to ensure flexibility and precision in responsive design.
 
+{% embed url="https://youtu.be/cCSxBM194SQ" %}
+
 ### Width
 
 The width setting offers a comprehensive range of options that make it easy to control the width of elements in your design.
