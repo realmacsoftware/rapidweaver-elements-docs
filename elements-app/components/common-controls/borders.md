@@ -2,7 +2,7 @@
 
 In Elements, borders are easy to add, customize, and control, allowing you to create clean and consistent boundaries around components with minimal effort. Elements provides a range of options for setting border width, border color, border style, and even border radius (for rounded corners). This flexibility makes it simple to define borders that suit your design, from subtle outlines to bold accents.
 
-{% embed url="https://youtu.be/PaWL7Vieoh8?si=bsAcSB-hChr6z3ou" %}
+{% embed url="https://youtu.be/PaWL7Vieoh8?si=Y56iftuks4qwy6z1" %}
 
 ### Type
 
