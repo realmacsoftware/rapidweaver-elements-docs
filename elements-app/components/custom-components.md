@@ -6,12 +6,13 @@ description: Extend RapidWeaver by creating your very own custom Components
 
 If you know a bit of HTML you can create your own custom Components for use in your projects. These can be anything from a simple html snippet to a fully blown Component with custom UI controls. **The possibilities of what you can create are endless!**
 
-#### A few things to note before you get started:
+### A few things to note before you get started:
 
 1. No extrenal code editor is required, you can build everything inside of RapidWeaver  Elements.
 2. Custom Components are stored in the project they were created in.
-3. Custom Components have full access to the Elements Language (although they cannot include extra files like third-party component can).
-4. Custom Components can build and create local data stores.
+3. Custom Components have full access to the [Elements Language](../../elements-language/api-introduction/) (although they cannot include extra files like third-party component can).
+4. To ensure compatibility with Elements you should use Tailwind CSS classes when writting your Template HTML.
+5. Custom Components can easily be converted into an encrpyted third-party component that can be [distributed and sold via the Elements platform](../../elements-language/api-introduction/distribution.md).
 
 ### Adding Editable Content Areas
 
@@ -62,10 +63,16 @@ If you're a developer you can take things even further by creating distributable
 
 ### Dev Diary Videos for Custom Elements
 
-The following videos will show you how to create Custom Elements. The following videos were recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video.
+The following videos will show you how to create Custom Elements. The following videos were recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video. View the [Tutorial playlist on YouTube](https://www.youtube.com/playlist?list=PLlqV01jBZsjAODafdmCOpU7dYxqiB6y02) for more videos.
 
 {% embed url="https://www.youtube.com/watch?v=FeNoKUzd_fg" %}
 
 {% embed url="https://youtu.be/COzwMMJDr5U?si=7ey-mtI0eJvh7BjQ" %}
 
 {% embed url="https://www.youtube.com/watch?v=ekiHAQDWsMg" %}
+
+{% embed url="https://www.youtube.com/watch?v=c3hejkIlloQ&list=PLlqV01jBZsjAODafdmCOpU7dYxqiB6y02&index=4&t=1106s&pp=gAQBiAQB" %}
+
+{% embed url="https://www.youtube.com/watch?v=oYEIdQUKXTY&list=PLlqV01jBZsjAODafdmCOpU7dYxqiB6y02&index=2&pp=gAQBiAQB" %}
+
+{% embed url="https://www.youtube.com/watch?v=kbIQjRuteY4&list=PLlqV01jBZsjAODafdmCOpU7dYxqiB6y02&index=1&pp=gAQBiAQB" %}
