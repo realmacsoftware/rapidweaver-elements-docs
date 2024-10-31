@@ -126,6 +126,7 @@
     * [Theme Spacing](elements-language/properties.json/ui-controls/theme-spacing.md)
     * [Theme Shadow](elements-language/properties.json/ui-controls/theme-shadow.md)
     * [Theme Text Style](elements-language/properties.json/ui-controls/theme-text-style.md)
+    * [Theme Typography](elements-language/properties.json/ui-controls/theme-typography.md)
 * [Shared Files](elements-language/shared-files.md)
 * [Templates](elements-language/templates/README.md)
   * [Portal](elements-language/templates/portal.md)
