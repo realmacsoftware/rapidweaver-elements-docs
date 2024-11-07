@@ -24,7 +24,7 @@ Replace any text in the html template to make it editable within the page.
 @text("heading")
 ```
 
-Here's a real world example of using the code to make the a heading editible.
+Here's a real world example of using the code to make the a heading editable.
 
 ```html
 <h1 class="text-lg text-gray-300 font-heading">@text("heading")</h1>

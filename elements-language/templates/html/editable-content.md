@@ -4,7 +4,7 @@ The following tags should be placed in the html template file. Using any of the 
 
 ### Editable Text
 
-Add an editible text area with optional default text.
+Add a simple editible text area with optional default text.
 
 ```
 @text("heading")
@@ -14,5 +14,13 @@ An editable text area with a default value of "Hello World!".
 
 ```
 @text("heading", default: "Hello World!")
+```
+
+### Editable Typography
+
+Adds a text area that support the Typography feature.
+
+```
+ @richtext("heading", default: "Hello World!")
 ```
 
