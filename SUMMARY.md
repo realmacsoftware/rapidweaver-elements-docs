@@ -97,6 +97,7 @@
     * [rw.project](elements-language/hooks.js/available-data/rw.project.md)
     * [rw.props](elements-language/hooks.js/available-data/rw.props.md)
 * [Properties.json](elements-language/properties.json/README.md)
+  * [Responsive Values](elements-language/properties.json/responsive-values.md)
   * [Grouping Controls](elements-language/properties.json/grouping-controls.md)
   * [Default Values](elements-language/properties.json/default-values.md)
   * [General Structure](elements-language/properties.json/general-structure/README.md)
