@@ -16,7 +16,7 @@ The [Elements API](./) allows you to build powerful products that can be used by
 
 ### How it works
 
-Sign-up for an Elements Cloud account (in-app), enter your details, along with your Stripe account API key. We take care of the rest. You can be up and running and selling addons within minutes.
+Sign-up for an Elements Cloud account (in-app), enter your details, along with connecting your Stripe account. We take care of the rest. You can be up and running and selling addons within minutes.
 
 You can set your own prices, launch new products or updates, and most importantly get your product directly in front of users via the built-in Elements Store.
 
