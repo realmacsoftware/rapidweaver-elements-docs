@@ -5,8 +5,8 @@
 
 ## Elements App
 
-* [Downloading & Installation](elements-app/downloading-and-installation.md)
 * [License Types](elements-app/license-types.md)
+* [Downloading & Installation](elements-app/downloading-and-installation.md)
 * [Design System](elements-app/design-system.md)
 * [Editor](elements-app/editor.md)
   * [Page Manager](elements-app/page-manager.md)
