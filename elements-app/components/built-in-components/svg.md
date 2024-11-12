@@ -38,13 +38,15 @@ Getting SVG's to display correctly is a bit of a dark art, but with a bit of tin
 
 #### Q: Why doesn't the Fill or Stroke colour work as expected?
 
-SVG images don’t always respond as expected to CSS styles for a few reasons, and it’s a common stumbling block. Here’s a quick rundown on why this happens and how to get more reliable control over your SVGs in RapidWeaver Elements…
+A: SVG images don’t always respond as expected to CSS styles for a few reasons, and it’s a common stumbling block. Here’s a quick rundown on why this happens and how to get more reliable control over your SVGs in RapidWeaver Elements…
 
-SVG elements have their own styling properties, like fill and stroke, which can sometimes conflict with CSS styles. If these attributes are set within the SVG code itself (e.g., ), they can override CSS. For greater flexibility, try removing these inline attributes and letting CSS handle the styling.
+SVG elements have their own styling properties, like fill and stroke, which can sometimes conflict with CSS styles. If these attributes are set within the SVG code itself, they can override Colours and Styles from Elements.
 
 For scalable, theme-compatible SVGs, you can set the fill and stroke attributes to currentColor within the SVG file. This approach allows Elements to set SVG color for the stroke or Fill.
 
-Set `fill="currentColor"` within your SVGs if you want Elements to set the colour of the stroke or fill.
+Set `fill="currentColor"` within your SVGs if you want Elements to set the colour of the stroke or fill. Depending on how the SVG is coded, this might not work, if that is the case, you should try removing `fill="currentColor"` from yoru SVG.
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-11-12 at 10 .34.54@2x.png" alt=""><figcaption><p>Set fill to currentColor or remove it, to allow Elements to set the fill colour of your SVG.</p></figcaption></figure>
 
 #### Q: How do I change the size of an SVG?
 
@@ -54,7 +56,7 @@ A: Use the Sizing settings in the component inspector, by default this is set to
 
 A: Remove the height and width values in the SVG file, see screenshot below for an example.
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-23 at 11 .32.29@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-23 at 11 .32.29@2x.png" alt=""><figcaption><p>Remove width and height to let Elements set the scale of your SVG</p></figcaption></figure>
 
 #### Q: Where can I find SVG Icons for use in Elements?
 
