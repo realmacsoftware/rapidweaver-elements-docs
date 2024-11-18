@@ -2,7 +2,7 @@
 
 Elements uses the following Frameworks:
 
-* [GSAP Javascript Animation Library](https://gsap.com/), Comercial Business License.
 * [Tailwind CSS](https://tailwindcss.com)
+* [Motion JS](https://motion.dev)
 * [Slate Text Editor](https://github.com/ianstormtaylor/slate)
 
