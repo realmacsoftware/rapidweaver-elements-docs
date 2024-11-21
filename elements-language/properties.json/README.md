@@ -2,34 +2,7 @@
 
 The properties.json file defines the User Interface for an Element. [Browse the UI Control docs](ui-controls/) for a full list of available controls.
 
-```
-{
-    "groups": [{
-        "title" : "Formatting",
-        "icon": "textformat.size",
-        "properties" : [{
-            "title": "Alignment",
-            "id": "alignment",
-            "segmented": {
-                "items": [{
-                    "value": "align-left",
-                    "icon": "text.alignleft"
-                }, {
-                    "value": "align-center",
-                    "icon": "text.aligncenter",
-                    "default": true
-                }, {
-                    "value": "align-right",
-                    "icon": "text.alignright",
-                    "title": "Right"
-                }]
-            }
-        }]
-    }]
-}
-```
-
-An example of setting Default Properites on various controls.
+Here's an example of setting Default Properites on various UI controls.
 
 ```
 {
