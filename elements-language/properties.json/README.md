@@ -9,7 +9,7 @@ The properties.json file defines the User Interface for an Element. [Browse the 
         "icon": "textformat.size",
         "properties" : [{
             "title": "Alignment",
-            "property": "alignment",
+            "id": "alignment",
             "segmented": {
                 "items": [{
                     "value": "align-left",
@@ -37,19 +37,19 @@ An example of setting Default Properites on various controls.
         "title" : "Content",
         "properties" : [{
             "title": "Text Style",
-            "property": "textStyle",
+            "id": "textStyle",
             "themeTextStyle": {
                 "default": { "base":{"name": "lg"}, "sm":{"name":"2xl"}, "md":{"name":"4xl"} }
             }
         },{
             "title": "Theme Font",
-            "property": "textFont",
+            "id": "textFont",
             "themeFont": {
                 "default": { "base": { "name": "heading" }, "sm": { "name": "quote" } }
             }
         }, {
             "title" : "Padding",
-            "property" : "themeSpacing",
+            "id" : "themeSpacing",
             "themeSpacing": {
                 "mode": "padding",
                 "default": {
@@ -72,7 +72,7 @@ An example of setting Default Properites on various controls.
             }
         }, {
             "title": "Border Width",
-            "property": "borderWidth",
+            "id": "borderWidth",
             "themeBorderWidth": {
                 "default": {
                     "base": {
@@ -95,7 +95,7 @@ An example of setting Default Properites on various controls.
             }
         }, {
             "title": "Border Radius",
-            "property": "borderRadius",
+            "id": "borderRadius",
             "themeBorderRadius": {
                 "default": {
                     "base": {
@@ -118,7 +118,7 @@ An example of setting Default Properites on various controls.
             }
         }, {
             "title": "Spacing",
-            "property": "spacing",
+            "id": "spacing",
             "themeSpacing": {
                 "default": {
                     "base": {
@@ -141,14 +141,14 @@ An example of setting Default Properites on various controls.
             }
         }, {
             "title" : "Shadow",
-            "property" : "themeShadow",
+            "id" : "themeShadow",
             "mode": "shadow",
             "themeShadow": {
                 "default": { "base":{"name": "sm"}, "sm":{"name": "lg"}, "md":{"name":"xl"} }
             }
         }, {
             "title": "Slider",
-            "property": "slider",
+            "id": "slider",
             "slider": {
                 "default": "45"
                 "min": 20,
@@ -158,7 +158,7 @@ An example of setting Default Properites on various controls.
             }
         }, {
             "title": "Slider 2",
-            "property": "slider2",
+            "id": "slider2",
             "slider": {
                 "default": { "base" : 20, "sm" : 30, },
                 "min": 20,
@@ -168,7 +168,7 @@ An example of setting Default Properites on various controls.
             }
         }, {
             "title": "Slider 3",
-            "property": "slider3",
+            "id": "slider3",
             "slider": {
                 "default": "3",
                 "content": [
@@ -179,7 +179,7 @@ An example of setting Default Properites on various controls.
             }
         }, {
             "title": "Alignment",
-            "property": "alignment",
+            "id": "alignment",
             "segmented": {
                 "default": {
                     "base": "w-auto",
