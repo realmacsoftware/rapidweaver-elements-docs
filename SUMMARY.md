@@ -8,6 +8,7 @@
 * [License Types](elements-app/license-types.md)
 * [Downloading & Installation](elements-app/downloading-and-installation.md)
 * [Design System](elements-app/design-system.md)
+* [Static Site Generator](elements-app/static-site-generator.md)
 * [Editor](elements-app/editor.md)
   * [Page Manager](elements-app/page-manager.md)
   * [Node Browser](elements-app/node-browser.md)
