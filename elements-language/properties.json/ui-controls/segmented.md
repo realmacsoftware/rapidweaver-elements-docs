@@ -22,8 +22,7 @@ Display a segmented control.&#x20;
             "default": true
         }, {
             "value": "align-right",
-            "icon": "text.alignright",
-            "title": "Right"
+            "icon": "text.alignright"
         }]  
     }
 }
@@ -52,8 +51,7 @@ Display a segmented control.&#x20;
                     "default": true
                 }, {
                     "value": "align-right",
-                    "icon": "text.alignright",
-                    "title": "Right"
+                    "icon": "text.alignright"
                 }]  
             }
         }]
@@ -62,4 +60,31 @@ Display a segmented control.&#x20;
 ```
 {% endtab %}
 {% endtabs %}
+
+You can also use the following title key to display text instead of icons.
+
+```json
+{
+    "groups": [{
+        "title": "Segmented Example",
+        "properties": [{
+            "title": "Alignment",
+            "id": "alignment",
+            "segmented": {
+                "items": [{
+                    "value": "align-left",
+                    "title": "Left"
+                }, {
+                    "value": "align-center",
+                    "title": "Center",
+                    "default": true
+                }, {
+                    "value": "align-right",
+                    "title": "Right"
+                }]  
+            }
+        }]
+    }]
+}
+```
 

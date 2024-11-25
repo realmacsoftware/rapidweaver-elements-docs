@@ -38,5 +38,5 @@ The Link control allows users to input a URL or link to another page within thei
 The following will give you access to the link object in your template file(s).
 
 ```html
-<a href="{{link.href}}" target="{{link.target}}>Click Me</a>
+<a href="{{link.href}}" target="{{link.target}}">Click Me</a>
 ```
