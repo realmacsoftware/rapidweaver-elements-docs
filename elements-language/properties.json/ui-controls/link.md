@@ -33,6 +33,16 @@ The Link control allows users to input a URL or link to another page within thei
 {% endtab %}
 {% endtabs %}
 
+### Template Example
+
+The following will give you access to the link object in your template file(s).
+
+```html
+<a href="{{link.href}}" target="{{link.target}}">Click Me</a>
+```
+
+### Getting the Absolute URL
+
 By default the link attribute will return a relative URL. To get the full URL add the absoluteURL property.
 
 ```json
@@ -45,10 +55,9 @@ By default the link attribute will return a relative URL. To get the full URL ad
         }
 ```
 
-### Template Example
-
-The following will give you access to the link object in your template file(s).
+Corresponding template example using the absoluteURL.
 
 ```html
-<a href="{{link.href}}" target="{{link.target}}">Click Me</a>
+<a href="{{redirectURL.href}}">Click Me</a>
 ```
+
