@@ -2,7 +2,7 @@
 description: Benefits of using a static site generator like Elements
 ---
 
-# Why build a Static Website?
+# Static Website Benefits
 
 RapidWeaver **Elements is a powerful static website builder** (local CMS system) that perfectly balances simplicity with professional-grade capabilities. Its intuitive drag-and-drop interface eliminates the need for coding knowledge, while still providing users with complete control over their design choices. With a rich selection of professionally designed templates and a streamlined publishing process, RapidWeaver Elements makes it possible for anyone to create stunning websites.
 
@@ -55,3 +55,4 @@ The variety of websites you can build with RapidWeaver Elements is completely op
 * **Landing Pages:** Marketing landing pages.
 * **Event Websites:** Conference or event sites.
 * **Personal Websites:** Hobbies, niche interests.
+* **Digital Garden:** Your very own corner of the internet.

@@ -3,7 +3,8 @@
 * [Introduction](README.md)
 * [Why Elements?](why-elements/README.md)
   * [Join the Independent Web](why-elements/join-the-independent-web.md)
-  * [Why build a Static Website?](why-elements/why-build-a-static-website.md)
+  * [Static Website Benefits](why-elements/static-website-benefits.md)
+  * [Build a Digital Garden](why-elements/build-a-digital-garden.md)
 * [Elements FAQ](elements-faq.md)
 
 ## Elements App
