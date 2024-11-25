@@ -33,6 +33,18 @@ The Link control allows users to input a URL or link to another page within thei
 {% endtab %}
 {% endtabs %}
 
+By default the link attribute will return a relative URL. To get the full URL add the absoluteURL property.
+
+```json
+        {
+          "title": "Link",
+          "id": "globalLink",
+          "link": {
+            "absoluteURL": true
+          }
+        }
+```
+
 ### Template Example
 
 The following will give you access to the link object in your template file(s).
