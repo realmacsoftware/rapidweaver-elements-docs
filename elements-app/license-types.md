@@ -13,7 +13,7 @@ Each license includes:
 * 1 year of free updates
 * Installation on up to 2 Macs simultaneously
 * Unlimited Support via Email and Forum
-* If your subscription expires, Elements is still yours to keep forever (you just won't recive updates)
+* If your subscription expires, **Elements is still yours to keep forever** (you just won't receive updates)
 
 Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences that we have highlighted in the table below.
 

@@ -1,6 +1,9 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Why Elements?](why-elements/README.md)
+  * [Join the Independent Web](why-elements/join-the-independent-web.md)
+  * [Why build a Static Website?](why-elements/why-build-a-static-website.md)
 * [Elements FAQ](elements-faq.md)
 
 ## Elements App
@@ -8,7 +11,6 @@
 * [License Types](elements-app/license-types.md)
 * [Downloading & Installation](elements-app/downloading-and-installation.md)
 * [Design System](elements-app/design-system.md)
-* [Static Site Generator](elements-app/static-site-generator.md)
 * [Editor](elements-app/editor.md)
   * [Page Manager](elements-app/page-manager.md)
   * [Node Browser](elements-app/node-browser.md)
