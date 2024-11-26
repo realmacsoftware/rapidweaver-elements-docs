@@ -113,12 +113,12 @@ The single mode allows you to access the spacing scale from the Theme Studio in 
 {
     "title": "Top",
     "id": "top",
-    "format": "top-{{value}}
+    "format": "top-{{value}}"
     "themeSpacing": {
         "mode": "single",
         "default": {
             "base": {
-                "value": "2",
+                "value": "2"
             }
         }
     }
