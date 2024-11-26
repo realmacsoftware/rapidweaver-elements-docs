@@ -44,9 +44,3 @@ Users have no need to backup or worry about locating previous purchases, they ar
 ### What You Earn
 
 As a developer, you make a 75% commission on all sales via Elements Store Platform. The money is payed out to your Stripe account immediately at the time of purchase. The other 25% goes to cover transaction fees, hosting, distribution, taxes, and helps support the development of the Elements platform.
-
-### Distribution FAQ:
-
-Q: Can I distribute my compoenents directly?
-
-A: While in theroy, you could distribute Dev Element Packs we would strongly urge you not to do this.
