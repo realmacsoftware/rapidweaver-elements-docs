@@ -4,7 +4,7 @@
 This document is not finished… It will provide examples on how to convert a stack into a native Element Component.
 {% endhint %}
 
-This document only applies to existing developers that build stacks for RapidWeaver Classic. If you are a new developer to the Elements platform you can safely ignore this document.
+**This document only applies to existing developers that build stacks for RapidWeaver Classic. If you are a new developer to the Elements platform you can safely ignore this document.**
 
 To convert classic stacks to an Element Component it will unfortunately need to be re-written. However, once you get familiar with how the properties JSON file is constructed, you'll find converting your stack info.plist into this new format is fairly straightforward.
 
