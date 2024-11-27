@@ -62,6 +62,8 @@
   * [Shadows](elements-app/theme-studio/shadows.md)
   * [Border Width](elements-app/theme-studio/border-width.md)
   * [Border Radius](elements-app/theme-studio/border-radius.md)
+* [Solutions](elements-app/solutions/README.md)
+  * [Adjust Smooth Scroll Speed](elements-app/solutions/adjust-smooth-scroll-speed.md)
 
 ## Elements Cloud
 
