@@ -36,6 +36,10 @@ Don't like the color or the typography in your website? No problem. Change it yo
 
 Hover and scroll animations are easy to configure on with just a few clicks, you can even live preview your animations in the editor.
 
+### Typography
+
+Write long form content with different style blocks just like a modern word-processor, all controlled via the global Theme Studio.
+
 ### Custom Components
 
 Build your own Custom Components for your website using the Elements API.
