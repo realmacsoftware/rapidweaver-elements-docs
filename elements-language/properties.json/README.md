@@ -4,42 +4,42 @@ The properties.json file defines the User Interface for an Element. [Browse the 
 
 Here's an example of setting Default Properites on various UI controls.
 
-```
+```json
 {
     "groups": [{
-        "title" : "Content",
-        "properties" : [{
+        "title": "Content",
+        "properties": [{
             "title": "Text Style",
             "id": "textStyle",
             "themeTextStyle": {
-                "default": { "base":{"name": "lg"}, "sm":{"name":"2xl"}, "md":{"name":"4xl"} }
+                "default": { "base": { "name": "lg" }, "sm": { "name": "2xl" }, "md": { "name": "4xl" } }
             }
-        },{
+        }, {
             "title": "Theme Font",
             "id": "textFont",
             "themeFont": {
                 "default": { "base": { "name": "heading" }, "sm": { "name": "quote" } }
             }
         }, {
-            "title" : "Padding",
-            "id" : "themeSpacing",
+            "title": "Padding",
+            "id": "themeSpacing",
             "themeSpacing": {
                 "mode": "padding",
                 "default": {
                     "base": {
                         "custom": true,
-                        "left" : 10,
-                        "right" : 20,
-                        "top" : 30,
-                        "bottom" : 40,
+                        "left": 10,
+                        "right": 20,
+                        "top": 30,
+                        "bottom": 40,
                         "linkVertical": true
                     },
                     "sm": {
                         "custom": false,
-                        "left" : "xl",
-                        "right" : "xl",
-                        "top" : "xl",
-                        "bottom" : "xl",
+                        "left": "xl",
+                        "right": "xl",
+                        "top": "xl",
+                        "bottom": "xl"
                     }
                 }
             }
@@ -50,20 +50,20 @@ Here's an example of setting Default Properites on various UI controls.
                 "default": {
                     "base": {
                         "custom": false,
-                        "left" : "2",
-                        "right" : "2",
-                        "top" : "2",
-                        "bottom" : "2",
+                        "left": "2",
+                        "right": "2",
+                        "top": "2",
+                        "bottom": "2",
                         "linkHorizontal": true
                     },
                     "sm": {
                         "custom": false,
-                        "left" : "8",
-                        "right" : "8",
-                        "top" : "8",
-                        "bottom" : "8",
+                        "left": "8",
+                        "right": "8",
+                        "top": "8",
+                        "bottom": "8",
                         "linkHorizontal": true
-                    },
+                    }
                 }
             }
         }, {
@@ -73,20 +73,20 @@ Here's an example of setting Default Properites on various UI controls.
                 "default": {
                     "base": {
                         "custom": false,
-                        "topLeft" : "sm", 
-                        "topRight" : "sm",
-                        "bottomLeft" : "sm",
-                        "bottomRight" : "sm",
+                        "topLeft": "sm",
+                        "topRight": "sm",
+                        "bottomLeft": "sm",
+                        "bottomRight": "sm",
                         "linkHorizontal": true
                     },
                     "sm": {
                         "custom": true,
-                        "topLeft" : 5,
-                        "topRight" : 5,
-                        "bottomLeft" : 5,
-                        "bottomRight" : 5,
+                        "topLeft": 5,
+                        "topRight": 5,
+                        "bottomLeft": 5,
+                        "bottomRight": 5,
                         "linkHorizontal": true
-                    },
+                    }
                 }
             }
         }, {
@@ -96,34 +96,34 @@ Here's an example of setting Default Properites on various UI controls.
                 "default": {
                     "base": {
                         "custom": false,
-                        "left" : "sm",
-                        "right" : "sm",
-                        "top" : "sm",
-                        "bottom" : "sm",
+                        "left": "sm",
+                        "right": "sm",
+                        "top": "sm",
+                        "bottom": "sm",
                         "linkHorizontal": true
                     },
                     "sm": {
                         "custom": false,
-                        "left" : "lg",
-                        "right" : "lg",
-                        "top" : "lg",
-                        "bottom" : "lg",
+                        "left": "lg",
+                        "right": "lg",
+                        "top": "lg",
+                        "bottom": "lg",
                         "linkHorizontal": true
-                    },
+                    }
                 }
             }
         }, {
-            "title" : "Shadow",
-            "id" : "themeShadow",
+            "title": "Shadow",
+            "id": "themeShadow",
             "mode": "shadow",
             "themeShadow": {
-                "default": { "base":{"name": "sm"}, "sm":{"name": "lg"}, "md":{"name":"xl"} }
+                "default": { "base": { "name": "sm" }, "sm": { "name": "lg" }, "md": { "name": "xl" } }
             }
         }, {
             "title": "Slider",
             "id": "slider",
             "slider": {
-                "default": "45"
+                "default": "45",
                 "min": 20,
                 "max": 60,
                 "round": true,
@@ -133,7 +133,7 @@ Here's an example of setting Default Properites on various UI controls.
             "title": "Slider 2",
             "id": "slider2",
             "slider": {
-                "default": { "base" : 20, "sm" : 30, },
+                "default": { "base": 20, "sm": 30 },
                 "min": 20,
                 "max": 60,
                 "round": true,
@@ -145,9 +145,9 @@ Here's an example of setting Default Properites on various UI controls.
             "slider": {
                 "default": "3",
                 "content": [
-                    {"title": "a", "value": "2"}, 
-                    {"title": "b", "value": "3"}, 
-                    {"title": "c", "value": "4"}
+                    { "title": "a", "value": "2" },
+                    { "title": "b", "value": "3" },
+                    { "title": "c", "value": "4" }
                 ]
             }
         }, {
@@ -158,25 +158,16 @@ Here's an example of setting Default Properites on various UI controls.
                     "base": "w-auto",
                     "md": "w-full"
                 },
-                "items": [{
-                    "value": "w-full",
-                    "icon": "text.alignleft"
-                }, {
-                    "value": "w-asdf",
-                    "icon": "text.alignleft"
-                }, {
-                    "value": "w-auto",
-                    "icon": "text.aligncenter"
-                }, {
-                    "value": "custom",
-                    "icon": "text.alignright",
-                    "title": "Custom"
-                }]  
+                "items": [
+                    { "value": "w-full", "icon": "text.alignleft" },
+                    { "value": "w-asdf", "icon": "text.alignleft" },
+                    { "value": "w-auto", "icon": "text.aligncenter" },
+                    { "value": "custom", "icon": "text.alignright", "title": "Custom" }
+                ]
             }
         }]
     }]
 }
-
 ```
 
 
