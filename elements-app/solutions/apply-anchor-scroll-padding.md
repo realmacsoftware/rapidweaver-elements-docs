@@ -1,4 +1,4 @@
-# Apply an Anchor Offset
+# Apply Anchor Scroll Padding
 
 If you need/want your Anchor link to stop (or leave some space) before a Component on the page you can use the [Scroll Padding Tailwind Utility class](https://tailwindcss.com/docs/scroll-padding).
 
