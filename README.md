@@ -32,6 +32,10 @@ Includes a complete collection of Components to design and build your own websit
 
 Don't like the color or the typography in your website? No problem. Change it yourself with the visual theme editor.
 
+### Animation
+
+Hover and scroll animations are easy to configure on with just a few clicks, you can even live preview your animations in the editor.
+
 ### Custom Components
 
 Build your own Custom Components for your website using the Elements API.
