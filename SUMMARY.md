@@ -63,6 +63,7 @@
   * [Border Width](elements-app/theme-studio/border-width.md)
   * [Border Radius](elements-app/theme-studio/border-radius.md)
 * [Solutions](elements-app/solutions/README.md)
+  * [Adding Snow to your Website](elements-app/solutions/adding-snow-to-your-website.md)
   * [Adjust Smooth Scroll Speed](elements-app/solutions/adjust-smooth-scroll-speed.md)
   * [Apply Anchor Scroll Padding](elements-app/solutions/apply-anchor-scroll-padding.md)
 
