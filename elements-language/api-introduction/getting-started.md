@@ -6,9 +6,9 @@ description: Building your first Element
 
 In this getting started guide we'll begin by creating a Custom Component inside of Elements and then look at migrating what we've built into an external DevElement.
 
-## Creating a Custom Element
+## Creating a Custom Component
 
-Creating a Custom Component in Elements is the fastest way to get started with exploring the Elements API. Custom Components can eaily be migrated to Distributable Element Packs at a later date.
+Creating a Custom Component in Elements is the easiest and fastest way to get started with exploring the Elements API. Custom Components can eaily be migrated to distributable Element Packs at a later date.
 
 {% stepper %}
 {% step %}
@@ -36,7 +36,13 @@ Next, open the Component Editor so we can view and edit the code. All changes ma
 {% endstep %}
 {% endstepper %}
 
-## Creating an Element Pack
+## Creating an Element Dev Pack
 
-The boilerplate code for Element pack can be created inside of Elements, once created it can be edited in your favourite code editor.
+The boilerplate code for an Element Dev Pack (and Component) can be created inside Elements.
+
+Go to Elements > Settings > Addons
+
+You can create a new Element Dev Pack by pressing the "New Pack" button, this will promot you to enter information about your pack, such as developer name and title, along with a location to save the Dev Pack.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-11-29 at 4 .51.49@2x.png" alt=""><figcaption></figcaption></figure>
 
