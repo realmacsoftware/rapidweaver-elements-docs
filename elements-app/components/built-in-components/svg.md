@@ -39,6 +39,7 @@ All of the following icon libraries work well Elements, if you require them to b
 * [https://tabler.io/icons](https://tabler.io/icons), over 5,650 free SVG icons.
 * [https://feathericons.com](https://feathericons.com), simply beautiful open source icons
 * [https://phosphoricons.com](https://phosphoricons.com/?size=64\&weight=%22duotone%22), outline, filled, duotone and more.
+* [https://heroicons.com](https://heroicons.com/outline), hand-crafted SVG icons, by the makers of Tailwind CSS (you'll need to the code into a file and save it with a .svg extension before adding to Elements).
 
 ### Q\&A on fixing SVG's for display on a website.
 
@@ -68,7 +69,7 @@ A: Remove the height and width values in the SVG file, see screenshot below for 
 
 #### Q: Where can I find SVG Icons for use in Elements?
 
-A: [Tabler Icons](https://tabler.io/icons) has over 5,650 free SVG icons, they are all perfect for use on your Elements websites. Download any of the icons from there and remove the width and height code (as above), and they are ready to use in your project. The icons from Tabler are setup to use the stroke attribute. See the video below for a quick overview of how this works in practice.
+A: [Tabler Icons](https://tabler.io/icons) has over 5,650 free SVG icons, they are all perfect for use on your Elements websites. Download any of the icons from there and remove the width and height code (as above), and they are ready to use in your project. The icons from Tabler are setup to use the stroke attribute. See the video below for a quick overview of how this works in practice. Also, [see our list above](svg.md#free-svg-icon-libraries).
 
 {% embed url="https://share.cleanshot.com/TsQRDhMX" %}
 
