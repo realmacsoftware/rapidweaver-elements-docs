@@ -2,9 +2,31 @@
 description: Outline basic information about your Element
 ---
 
-# info
+# info.json
 
-The info.json file outlines the basic information about an Element. The file consists of a series of keys and values. It's required for an Element to function. [View example below](info.json.md#info.json-example).
+The info.json file outlines the basic information about a Component. The file consists of a series of key and value pairs. It's required for Component to function.
+
+### Component Categories
+
+Every Component needs to have a defined category so Elements knows where to show it in the UI, it also helps users locate the Component. Your Component MUST use one of the categories. I you think we're missing a category, pleae visit the [developer forum and let us know](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/).
+
+| Group             | example                                                       |
+| ----------------- | ------------------------------------------------------------- |
+| **Content**       | Headings, Paragraphs, Lists.                                  |
+| **Layout**        | Grid, Flex, Containers, Columns.                              |
+| **Navigation**    | Menus, Nav Bars, Breadcrumbs, Tabs.                           |
+| **Forms**         | Text Fields, Text Areas, Checkboxes, Buttons.                 |
+| **SEO**           | Keywords, SEO helpers.                                        |
+| **Media**         | Images, Video, Audio Players, Icons, Embeds (YouTube, Vimeo). |
+| **Ecommerce**     | Cart Integration, Product display, Add to Cart Buttons.       |
+| **Accessibility** | ARIA Lables, Contrast Checkers.                               |
+| **Animation**     | Hover Effects, Animated SVG's.                                |
+| **Dynamic**       | CMS Components, Google Sheets                                 |
+| **Utilities**     | Cookies, Anchors, Placeholders, Dividers.                     |
+| **Interactive**   | Modals, Popovers, Accordions, Carousels.                      |
+| **Security**      | Password Protection, Login Forms.                             |
+
+
 
 ### Supported Key-Value Pairs <a href="#key-value-pairs-explained" id="key-value-pairs-explained"></a>
 
@@ -38,4 +60,4 @@ You can use the following code as a starting point for your own info.json file.
 }
 ```
 
-<figure><img src="../../.gitbook/assets/CleanShot 2023-08-04 at 5.17.44@2x.png" alt=""><figcaption><p>Example info.json file inside of an Element.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2023-08-04 at 5.17.44@2x.png" alt=""><figcaption><p>Example info.json file inside of an Element.</p></figcaption></figure>
