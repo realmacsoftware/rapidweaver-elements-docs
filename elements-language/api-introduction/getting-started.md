@@ -14,7 +14,7 @@ Creating a Custom Component in Elements is the fastest way to get started with e
 {% step %}
 ### Open the Components area in the sidebar of your project
 
-Presst the "+" button next to the "Custom" heading, and choose HTML. You should now see the component appear in the list.
+Press the "+" button next to the "Custom" heading, and choose HTML. You should now see the component appear in the list.
 
 <img src="../../.gitbook/assets/CleanShot 2024-11-29 at 4 .20.54@2x.png" alt="" data-size="original">
 {% endstep %}
