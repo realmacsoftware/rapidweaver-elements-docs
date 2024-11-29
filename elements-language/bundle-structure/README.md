@@ -6,7 +6,9 @@ description: An Element Pack is a bundled folder
 
 Components and Themes require a specific directory structure in order to work correctly, these are called Bundles in macOS.
 
-Element Packs are bundles are directory hierarchies, with the top-level directory having a name that ends with a `.elementsdevpack` extension.
+Element Packs are essentially a collection of folders and files, with the top-level directory having a name that ends with a `.elementsdevpack` extension. This name and structure is only used for development purposes, dev element packs should now be sold or distributed to other users.
+
+Addons distributed via the Elements Store and encrypted and non-editable meaning your code is protected. You can [learn more about distributing your addon here](../api-introduction/distribution.md).
 
 ### Element Dev Pack Bundle Structure
 
@@ -16,8 +18,9 @@ The following outlines the top level folder structure for an Element Pack. It ca
   * components (folder)
   * [info.json (file)](./#info.json)
   * themes (folder)
+  * [shared (folder)](../shared-files.md)
 
-The following shows a Element Dev Pack containing multiple themes and components:
+The following shows an Element Dev Pack containing multiple themes and components:
 
 * MyElementPack.elementsdevpack (bundle)
 * info.json
@@ -27,6 +30,7 @@ The following shows a Element Dev Pack containing multiple themes and components
 * themes (folder)
   * com.companyname.themes.architect (folder)
   * com.companyname.themes.solar (folder)
+* shared (folder)
 
 ### info.json
 
