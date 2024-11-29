@@ -25,9 +25,9 @@ Place the following code in your **Template:**
 
 ```html
 @portal(headEnd)
-    <script src="resources/scripts/snowstorm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm.js" integrity="sha512-N8H1tAcm2/wJx02Q3FznOerQj4sFIdQJpmntt0/7ufMLh8dH1DFf7Zss+lbL7JwtYJuGVV+cVmWOdTA4x2lOTg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        snowStorm.flakesMaxActive = {{snowAmount}};    // show more snow on screen at once
+        snowStorm.flakesMaxActive = {{snowAmount}};
         snowStorm.followMouse = {{followMouse}};
     </script>
 @endportal
