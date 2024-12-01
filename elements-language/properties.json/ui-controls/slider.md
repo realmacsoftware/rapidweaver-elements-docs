@@ -175,5 +175,6 @@ The slider control supports the following options.
 | `max`     | number  | The maximum value for the slider.                                                                                                                                                           |
 | `units`   | string  | The units string appears alongside the slider value in the user interface, but it is not included in the template output value.                                                             |
 | `round`   | boolean | If true an integer will be used instead of a floating point.                                                                                                                                |
-| `ticks`   | number  | the number of ticks that will appear beneath the slider                                                                                                                                     |
+| `ticks`   | number  | the number of ticks that will appear beneath the slider.                                                                                                                                    |
+| `snap`    | boolean | is set to true, slider will snap to `ticks`.                                                                                                                                                |
 
