@@ -15,23 +15,36 @@ The shared folder lives at the root of the Element Dev Pack and is accesible by 
       * headEnd (folder)
       * headStart (folder)
 
-### Assets folder
+### Assets Folder
 
-Any required asset files can be store here. It might include things like Javascript Files, Fonts, CSS, and Images.
+Any required asset files can be store here. It might include things like Javascript Files, Fonts, CSS, and Images. To link to a shared asset, you can create an html file in the Templates folder.
 
-### Hooks folder
+The following code would link to an asset called "example-script.js"
 
-This folder can contain all shared hooks.js files.
+```
+<script src="{{assetPath}}/example-script.js"></script>
+```
+
+<figure><img src="../.gitbook/assets/CleanShot 2024-12-01 at 2 .51.52@2x.png" alt=""><figcaption></figcaption></figure>
+
+### Hooks Folder
+
+This folder can contain all shared hooks.js files. There is no restricion on naming, they just need to be .js files.
 
 {% hint style="info" %}
-**Good to know:** Shared hook files are compressed into a single file, processed and run first — before individual component hook files.
+Shared hook files are compressed into a single file, processed and run first — before individual component hook files.
 {% endhint %}
 
-### Templates
+### Templates Folder
 
-This folder can contain extra templates files.
+This folder can contain extra html templates files, There is no restricion on naming, they just need to be .html files. They should also be stored in one of the following sub folders;
+
+* bodyStart
+* bodyEnd
+* headEnd
+* headStart
 
 {% hint style="info" %}
-Shared Template files are only included in the page once per component pack!
+Shared Template files are only included once in the page per component pack.
 {% endhint %}
 
