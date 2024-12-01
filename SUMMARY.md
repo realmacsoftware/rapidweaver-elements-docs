@@ -101,7 +101,7 @@
     * [rw.setRootElement](elements-language/hooks.js/available-functions/rw.setrootelement.md)
   * [Available Data](elements-language/hooks.js/available-data/README.md)
     * [rw.collections](elements-language/hooks.js/available-data/rw.collections.md)
-    * [rw.element](elements-language/hooks.js/available-data/rw.element.md)
+    * [rw.component](elements-language/hooks.js/available-data/rw.element.md)
     * [rw.node](elements-language/hooks.js/available-data/rw.node.md)
     * [rw.page](elements-language/hooks.js/available-data/rw.page.md)
     * [rw.project](elements-language/hooks.js/available-data/rw.project.md)
