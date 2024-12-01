@@ -38,6 +38,10 @@ Next, open the Component Editor so we can view and edit the code. All changes ma
 
 ## Creating an Element Dev Pack
 
+{% hint style="info" %}
+A public [repository on GitHub](https://github.com/realmacsoftware/RWElementDevPacks/tree/main) with a growing collection of Element Dev Packs is now available.
+{% endhint %}
+
 The boilerplate code for an Element Dev Pack (and Component) can be created inside Elements.
 
 Go to Elements > Settings > Addons

@@ -18,6 +18,10 @@ The following is a list of suggested tools to make developing Elements easier.
 * Text editor, we recommend [Visual Studio Code](https://code.visualstudio.com).
 * [SF Symbol app](https://developer.apple.com/sf-symbols/) for icon name reference.
 
+### Sample Code on GitHub
+
+A public [repository on GitHub](https://github.com/realmacsoftware/RWElementDevPacks/tree/main) with a growing collection of Element Dev Packs is now available.
+
 ### Developer Community
 
 We have a [dedicated developer area](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58) on the [RapidWeaver Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58). The [developer group](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58) is open to anyone interested in building addons for the RapidWeaver Elements ecosystem.&#x20;
