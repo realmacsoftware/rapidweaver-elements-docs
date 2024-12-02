@@ -22,6 +22,14 @@ The Palette image should be named paletteIcon.pdf and paletteIcon-dark.pdf for D
 * **paletteIcon.pdf (Required), 1:2 ratio, e.g. 128x256 (landscape)**
 * paletteIcon-dark.pdf (optional), 1:2 ratio, e.g. 128x256 (landscape)
 
+### How to add a Custom Icon to your Component
+
+All required icon files should be placed in the root folder of your component. Watch the short video below to learn more about adding icons to your Components.
+
+{% embed url="https://www.youtube.com/watch?v=qZOiHiWnjW8" %}
+
+
+
 ### Sketch Example File
 
 Your pdf icons **MUST be on a transparent background**.\
