@@ -24,9 +24,12 @@ The Palette image should be named paletteIcon.pdf and paletteIcon-dark.pdf for D
 
 ### Sketch Example File
 
-Your pdf icons should be on a transaparent background.
+Your pdf icons **MUST be on a transparent background**.\
+The background should not be exported as this is generated in Elements.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-08-21 at 11 .39.38@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-12-02 at 11 .02.57@2x.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-08-21 at 11 .39.38@2x.png" alt=""><figcaption><p>Showing background in Sketch (for design purposes only)</p></figcaption></figure>
 
 We've provided an example Sketch document below you can use to get started.
 
