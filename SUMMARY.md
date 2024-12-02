@@ -103,7 +103,7 @@
     * [rw.collections](elements-language/hooks.js/available-data/rw.collections.md)
     * [rw.component](elements-language/hooks.js/available-data/rw.element.md)
     * [rw.node](elements-language/hooks.js/available-data/rw.node.md)
-    * [rw.page](elements-language/hooks.js/available-data/rw.page.md)
+    * [rw.pages](elements-language/hooks.js/available-data/rw.page.md)
     * [rw.project](elements-language/hooks.js/available-data/rw.project.md)
     * [rw.props](elements-language/hooks.js/available-data/rw.props.md)
 * [Assets](elements-language/assets.md)
