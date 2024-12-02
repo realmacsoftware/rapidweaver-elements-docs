@@ -1,6 +1,6 @@
 # rw.page
 
-The following template example will out put the page (and folder) details for all the pages in a project.
+The following template example will output the page (and folder) details for all the pages in a project.
 
 <pre class="language-html"><code class="lang-html">@each(page in pages)
     {{page.title}}
@@ -21,7 +21,7 @@ The following template example will out put the page (and folder) details for al
 @endeach
 </code></pre>
 
-Becfore you can access the page properties you'll need to include the following code in the Hooks.js
+Before you can access the page properties you'll need to include the following code in the Hooks.js
 
 ```javascript
 const transformHook = (rw) => {    
