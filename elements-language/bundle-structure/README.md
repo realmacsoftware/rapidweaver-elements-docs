@@ -34,7 +34,7 @@ The following shows an Element Dev Pack containing multiple themes and component
 
 ### info.json
 
-The info.json file at the root of your Element Pack defines a few importan things,
+The info.json file at the root of your Element Pack defines a few important things,
 
 ```json
 {
