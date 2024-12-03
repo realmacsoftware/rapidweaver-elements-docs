@@ -19,7 +19,7 @@ The [Elements API](./) allows you to build powerful products that can be used by
 
 Sign-up for an Elements Cloud account (in-app), enter your details, along with connecting your Stripe account. We take care of the rest. You can be up and running and selling addons within minutes.
 
-You can set your own prices, launch new products or updates, and most importantly get your product directly in front of users via the Elements Marketplace available on the Web and built diurectly into Elements.
+You can set your own prices, launch new products or updates, and most importantly get your product directly in front of users via the Elements Marketplace available on the Web and built directly into Elements.
 
 You don't need to get bogged down in setting up a website, online payments system, distribution, or licensing, the Elements Store Platform handles it all.
 
@@ -39,7 +39,7 @@ Distributing your add-on via the Elements Store comes with a host of benefits. H
 
 Users also benefit from the Elements Distribution platform as they will be able to log into their Elements Cloud account on any Mac and instantly get access to all their previous purchases.&#x20;
 
-Users have no need to backup or worry about locating previous purchases, they are all store safely in thier Elements Cloud Account.
+Users have no need to backup or worry about locating previous purchases, they are all stored safely in thier Elements Cloud Account.
 
 ### What You Earn
 
