@@ -74,7 +74,7 @@
 ## Elements Store
 
 * [Getting Started](elements-store/distribution.md)
-* [Submission](elements-store/submission.md)
+* [Add-on Guidelines](elements-store/add-on-guidelines.md)
 
 ## Elements Language
 

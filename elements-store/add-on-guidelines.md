@@ -2,9 +2,9 @@
 description: A guide to making sure your add-ons meets user expectations
 ---
 
-# Submission
+# Add-on Guidelines
 
-To give users a seamless experience when using built-in and third-party components you should ensure your all your add-ons meet the requirements list below.
+To give users a seamless experience when using built-in and third-party components you should ensure all your add-ons meet the requirements list below.
 
 {% hint style="info" %}
 This document is a work-in-progress.
