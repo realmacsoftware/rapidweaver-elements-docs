@@ -1,6 +1,0 @@
----
-icon: store
----
-
-# ELEMENTS STORE
-

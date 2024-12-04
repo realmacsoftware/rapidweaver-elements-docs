@@ -71,11 +71,10 @@
 
 * [Getting Started](elements-cloud/account-sign-up.md)
 
-***
+## Elements Store
 
-* [ELEMENTS STORE](elements-store/README.md)
-  * [Getting Started](elements-store/distribution.md)
-  * [Submission](elements-store/submission.md)
+* [Getting Started](elements-store/distribution.md)
+* [Submission](elements-store/submission.md)
 
 ## Elements Language
 
