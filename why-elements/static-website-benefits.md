@@ -10,7 +10,7 @@ What truly sets RapidWeaver Elements apart is its commitment to generating optim
 
 By using Elements, you maintain **full ownership of your content and hosting choices, free from platform lock-in.** This combination of user-friendly features, professional output, and creative freedom makes Elements an excellent choice for anyone looking to build a modern, efficient static website.
 
-Contine reading to learn more about why RapidWeaver Elements is a better choice than using an [un-secure online cms, like Wordpress](https://wpscan.com/wordpresses/).
+Contine reading to learn more about why [RapidWeaver Elements](https://www.realmacsoftware.com/rapidweaver/elements/) is a better choice than using an [un-secure online cms, like Wordpress](https://wpscan.com/wordpresses/).
 
 ### Static Site Generator (SSG) vs Data-Driven Websites
 

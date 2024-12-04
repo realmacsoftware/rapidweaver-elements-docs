@@ -4,7 +4,7 @@ description: RapidWeaver Elements is a website builder for macOS.
 
 # Introduction
 
-Welcome to Elements
+## Welcome to Elements
 
 Elements is a no-code static website builder for macOS. It's designed to cater to all skill levels, whether you’re a beginner looking for simplicity or an experienced web developer needing advanced customization, Elements offers the perfect balance. With its user-friendly interface and powerful features, you can create fast, efficient, and beautiful websites with ease.
 
@@ -15,10 +15,6 @@ Elements has everything you need built-in to build a beautiful modern website.
 ## Element Features
 
 Elements has been in the works for over three years now. We’ve been working tirelessly with beta testers to make sure we’re building the best web design software for Mac. Check out the feature list below to learn more!
-
-{% hint style="info" %}
-This is a work-in-progress list and doesn't represent all the available features.
-{% endhint %}
 
 ### WYSIWYG Editor
 
@@ -46,7 +42,7 @@ Changing colours on your website to support Dark and Light mode shouldn't be har
 
 ### Animation
 
-Hover and scroll animations are easy to configure on with just a few clicks, you can even live preview your animations in the editor.
+Hover and scroll animations are easy to configure on with just a few clicks. Fade-in, Scroll, Blur, Hover, it's all there and more.
 
 ### Typography
 
@@ -75,3 +71,7 @@ Publish your website online using the built-in Smart Publish Engine. Supporting 
 ### Apple Intelligence
 
 Never get stuck with writing or polishing your conent, let Apple Inteligence (and ChatGPT) help you write, express yourself, and get things done effortlessly. Requires macOS Sequoia.
+
+### Elements Marketplace
+
+Explore a curated selection of addons, including beautifully crafted templates and versatile components, designed to help you build stunning websites with ease.

@@ -6,6 +6,8 @@ description: Build your own space on the web, one you fully own and control.
 
 A digital garden is a personal online space where individuals cultivate and organize their thoughts, ideas, and knowledge over time. Unlike a traditional blog, a digital garden is more dynamic and non-linear, allowing for continuous growth and evolution of content. It's a space where you can explore interlinked topics, make connections, and develop ideas organically, free from the constraints of typical social media platforms.
 
+[RapidWeaver Elements](https://www.realmacsoftware.com/rapidweaver/elements/) is the perfect tool to build your own Digital Garden.
+
 ## Articles on Digital Gardening
 
 ### A Brief History & Ethos of the Digital Garden
