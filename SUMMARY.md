@@ -71,13 +71,18 @@
 
 * [Getting Started](elements-cloud/account-sign-up.md)
 
+***
+
+* [ELEMENTS STORE](elements-store/README.md)
+  * [Distribution](elements-store/distribution.md)
+  * [Submission](elements-store/submission.md)
+
 ## Elements Language
 
 * [API Introduction](elements-language/api-introduction/README.md)
   * [Getting Started](elements-language/api-introduction/getting-started.md)
   * [Migrating your stacks](elements-language/api-introduction/migrating-your-stacks.md)
   * [Component Styling](elements-language/api-introduction/component-styling.md)
-  * [Distribution](elements-language/api-introduction/distribution.md)
 * [Element Pack](elements-language/bundle-structure/README.md)
 * [Collections](elements-language/collections/README.md)
   * [Data collections in Hooks.js](elements-language/collections/data-collections-in-hooks.js.md)

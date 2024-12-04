@@ -36,7 +36,7 @@ Next, open the Component Editor so we can view and edit the code. All changes ma
 {% endstep %}
 {% endstepper %}
 
-## Creating an Element Dev Pack
+## Creating an Element Dev Pack & Component
 
 {% hint style="info" %}
 A public [repository on GitHub](https://github.com/realmacsoftware/RWElementDevPacks/tree/main) with a growing collection of Element Dev Packs is now available.
@@ -44,9 +44,9 @@ A public [repository on GitHub](https://github.com/realmacsoftware/RWElementDevP
 
 The boilerplate code for an Element Dev Pack (and Component) can be created inside Elements.
 
-Go to Elements > Settings > Addons
+Go to Elements > Settings > Addons and click the "Create Pack" button in the bottom left had corner of the window. You will then be prompted to enter information about your pack, such as developer name and title, along with a location to save the Dev Pack.
 
-You can create a new Element Dev Pack by pressing the "New Pack" button, this will promot you to enter information about your pack, such as developer name and title, along with a location to save the Dev Pack.
+Watcht the short video below to see how to create an Element  Dev Pack including a Component.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-11-29 at 4 .51.49@2x.png" alt=""><figcaption></figcaption></figure>
+{% embed url="https://youtu.be/wFXaFmr4kmg?si=QJDFotPPgf6Lb7ZZ" %}
 

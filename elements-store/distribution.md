@@ -4,16 +4,26 @@ description: Distribute and Sell your Elements directly to the Element user base
 
 # Distribution
 
+If you’re building add-ons for Elements then, welcome! This documentation is for you. It covers everything you need to know about submitting and promoting your addon to the growing number of passionate RapidWeaver Element users around the world.
+
 {% hint style="info" %}
 **The Elements Distribution Platform and in-app Store are going live in 2025.**\
 This preliminary information is subject to change.
 {% endhint %}
 
+### What is the RapidWeaver Marketplace? <a href="#what-is-the-marketplace-1" id="what-is-the-marketplace-1"></a>
+
+The [RapidWeaver Marketplace](https://marketplace.realmacsoftware.com/) is a website for listing and marketing your Element add-ons to new and existing Element users. It’s a free service developed and maintained by Realmac Software.
+
+The Marketplace was built to support developers and give customers an easier and faster way to find addons for Elements. You can think of it like an App Store, but for Element Users.
+
+The URL for the service is [https://marketplace.realmacsoftware.com](https://marketplace.realmacsoftware.com/).
+
 ### Build, share, and sell addons for RapidWeaver Elements.
 
 **Create and launch the next must-have Component. Build your reputation, generate income, and help shape the future of Elements.**
 
-The [Elements API](./) allows you to build powerful products that can be used by the rapidly growing Elements user base. Now is an excellent time to establish yourself as one of the key players in this flourishing community.&#x20;
+The [Elements API](../elements-language/api-introduction/) allows you to build powerful products that can be used by the rapidly growing Elements user base. Now is an excellent time to establish yourself as one of the key players in this flourishing community.&#x20;
 
 ### How it works
 

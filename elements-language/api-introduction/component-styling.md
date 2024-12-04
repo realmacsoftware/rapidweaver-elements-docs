@@ -48,16 +48,6 @@ For customization, you can use properties to generate Tailwind classes ready to 
 
 In summary, the custom CSS in your component templates should use Tailwind classes. This change removes the need for scoped CSS and keeps all styling within Tailwind. Elements can then generate only the CSS your page uses, since it builds Tailwind locally and includes just the necessary utilities. This results in a smaller, more efficient CSS file(s).
 
-## Elements Component Checklist
-
-To give users a seamless experience when using built-in and third-party components you should ensure you meet the following requirements below. Please go through the checklist.
-
-* [ ] Component is fully WYSIWYG in the Elements Editor
-  * [ ] Settings and Admin options are not visible in the Editor (place these in the Inspector)
-* [ ] Component uses Tailwind CSS…
-  * [ ] and uses the Tailwind classes found in the Theme Studio
-  * [ ] It also takes advantage of the Theme based [UI controls](../properties.json/ui-controls/)!
-
 ***
 
 ### I really NEED to scope my CSS

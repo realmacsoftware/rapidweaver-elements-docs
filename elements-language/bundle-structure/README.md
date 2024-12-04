@@ -8,7 +8,7 @@ Components and Themes require a specific directory structure in order to work co
 
 Element Packs are essentially a collection of folders and files, with the top-level directory having a name that ends with a `.elementsdevpack` extension. This name and structure is only used for development purposes, dev element packs should not be sold or distributed to other users.
 
-Addons distributed via the Elements Store and encrypted and non-editable meaning your code is protected. You can [learn more about distributing your addon here](../api-introduction/distribution.md).
+Addons distributed via the Elements Store and encrypted and non-editable meaning your code is protected. You can [learn more about distributing your addon here](../../elements-store/distribution.md).
 
 ### Element Dev Pack Bundle Structure
 
