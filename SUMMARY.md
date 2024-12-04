@@ -74,7 +74,7 @@
 ***
 
 * [ELEMENTS STORE](elements-store/README.md)
-  * [Distribution](elements-store/distribution.md)
+  * [Getting Started](elements-store/distribution.md)
   * [Submission](elements-store/submission.md)
 
 ## Elements Language
