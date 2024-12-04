@@ -18,3 +18,4 @@ This document is a work-in-progress.
 * [ ] Component uses Tailwind CSS:
   * [ ] Component styling uses Tailwind classes found in the Theme Studio
   * [ ] Takes advantage of the Theme based [UI controls](../elements-language/properties.json/ui-controls/)!
+* [ ] Components should not parse @text or @typography data in their hooks.js files
