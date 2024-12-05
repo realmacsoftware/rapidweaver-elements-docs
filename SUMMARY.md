@@ -49,7 +49,6 @@
   * [Custom Components](elements-app/components/custom-components.md)
   * [Global Components](elements-app/components/global-components.md)
   * [Data Components](elements-app/components/data-components.md)
-  * [Custom CSS Values](elements-app/components/custom-css-values.md)
 * [Site Settings](elements-app/site-settings/README.md)
   * [Template](elements-app/site-settings/template.md)
   * [Publishing](elements-app/site-settings/publishing.md)

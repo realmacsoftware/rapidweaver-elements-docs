@@ -59,7 +59,7 @@ Set `fill="currentColor"` within your SVGs if you want Elements to set the colou
 
 #### Q: How do I change the size of an SVG?
 
-A: Use the Sizing settings in the component inspector, by default this is set to use a Theme Studio value. [Custom CSS values](../custom-css-values.md) can also be used to size the SVG.
+A: Use the Sizing settings in the component inspector, by default this is set to use a Theme Studio value. [Custom CSS values](broken-reference) can also be used to size the SVG.
 
 #### Q: Why doesn't the SVG change size when I adjust the sizing in Elements?
 

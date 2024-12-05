@@ -12,13 +12,13 @@ The sizing option provides options for setting fixed widths, percentage-based wi
 
 The width setting offers a comprehensive range of options that make it easy to control the width of elements in your design.
 
-<table><thead><tr><th width="194">Position Properties</th><th>Description</th></tr></thead><tbody><tr><td>Auto</td><td>No position properties are set on the element, the parent element and browser handles the width of the element.</td></tr><tr><td>Full</td><td>The element will take up the full width of the parent element.</td></tr><tr><td>Screen</td><td>The element will take up the full width of the viewport, e.g. 100vw (full viewport width).</td></tr><tr><td>Breakpoint</td><td>The element width will be to set to the Breakpoint classes setup in the Theme Studio.</td></tr><tr><td>Theme Spacing</td><td>Choose from the pre-defined size classes set in the Theme Studio. You can also override the pre-defined classes and use <a href="../custom-css-values.md">Custom CSS Values</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="194">Position Properties</th><th>Description</th></tr></thead><tbody><tr><td>Auto</td><td>No position properties are set on the element, the parent element and browser handles the width of the element.</td></tr><tr><td>Full</td><td>The element will take up the full width of the parent element.</td></tr><tr><td>Screen</td><td>The element will take up the full width of the viewport, e.g. 100vw (full viewport width).</td></tr><tr><td>Breakpoint</td><td>The element width will be to set to the Breakpoint classes setup in the Theme Studio.</td></tr><tr><td>Theme Spacing</td><td>Choose from the pre-defined size classes set in the Theme Studio. You can also override the pre-defined classes and use <a href="broken-reference">Custom CSS Values</a>.</td></tr></tbody></table>
 
 ### Height
 
 The height setting offers a comprehensive range of options that make it easy to control the height of elements in your design.
 
-<table><thead><tr><th width="194">Position Properties</th><th>Description</th></tr></thead><tbody><tr><td>Auto</td><td>No position properties are set on the element, the parent element and browser handles the height of the element.</td></tr><tr><td>Full</td><td>The element will take up the full height of the parent element.</td></tr><tr><td>Screen</td><td>The element will take up the full hight of the viewport, e.g. 100vh (full viewport height).</td></tr><tr><td>Theme Spacing</td><td>Choose from the pre-defined size classes set in the Theme Studio. You can also override the pre-defined classes and use <a href="../custom-css-values.md">Custom CSS Values</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="194">Position Properties</th><th>Description</th></tr></thead><tbody><tr><td>Auto</td><td>No position properties are set on the element, the parent element and browser handles the height of the element.</td></tr><tr><td>Full</td><td>The element will take up the full height of the parent element.</td></tr><tr><td>Screen</td><td>The element will take up the full hight of the viewport, e.g. 100vh (full viewport height).</td></tr><tr><td>Theme Spacing</td><td>Choose from the pre-defined size classes set in the Theme Studio. You can also override the pre-defined classes and use <a href="broken-reference">Custom CSS Values</a>.</td></tr></tbody></table>
 
 ### Min & Max Settings
 
@@ -33,6 +33,19 @@ In Elements the min-width and max-width settings provide control over the minimu
 3\. Layout Constraints: Min-widths prevent elements from collapsing too small, while max-widths keep elements from overflowing their containers, ensuring a balanced and visually consistent design.
 
 Use min-width and max-width settings when you need control over element sizes to ensure responsive, readable, and user-friendly layouts across various screen sizes.
+
+### Using Custom CSS Values
+
+A lot of Components support a “custom sizing” option for you to specify the exact size of an element, this can be things like width, height, and placement.
+
+When adding a value into the custom size box, it’s useful to remember that anything native css supports, Elements supports! So values like vh, px, rem, %, and [css maths 2](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions/Using_CSS_math_functions) should all work as expected.
+
+Here's some examples:
+
+* 250px - Make the width (or hight) 250px wide.
+* calc(100vw-20px) - 100% viewport width - 20px.
+* 100vw - 100% of the viewport width.
+* 80vh - 80% of the viewport height.
 
 ## Sizing UI in Elements
 
