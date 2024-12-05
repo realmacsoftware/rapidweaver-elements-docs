@@ -2,7 +2,7 @@
 description: Distribute and Sell your Elements directly to the Element user base.
 ---
 
-# Distribution
+# Getting Started
 
 If you’re building add-ons for Elements then, welcome! This documentation is for you. It covers everything you need to know about submitting and promoting your addon to the growing number of passionate RapidWeaver Element users around the world.
 
@@ -53,4 +53,4 @@ Users have no need to backup or worry about locating previous purchases, they ar
 
 ### What You Earn
 
-As a developer, you make a 75% commission on all sales via Elements Store Platform. The money is payed out to your Stripe account immediately at the time of purchase. The other 25% goes to cover transaction fees, hosting, distribution, taxes, and helps support the development of the Elements platform.
+As a developer, you make a 75% commission on all sales via Elements Store Platform. The money is payed out to your Stripe account. The other 25% goes to cover transaction fees, hosting, distribution, taxes, and helps support the development of the Elements platform.
