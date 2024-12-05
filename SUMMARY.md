@@ -37,6 +37,7 @@
     * [Button](elements-app/components/built-in-components/button.md)
     * [Divider](elements-app/components/built-in-components/divider.md)
     * [Image](elements-app/components/built-in-components/image.md)
+    * [Reveal](elements-app/components/built-in-components/reveal.md)
     * [SVG](elements-app/components/built-in-components/svg.md)
     * [Text](elements-app/components/built-in-components/text.md)
     * [Typography](elements-app/components/built-in-components/typography.md)

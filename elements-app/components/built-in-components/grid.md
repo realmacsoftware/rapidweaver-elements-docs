@@ -1,3 +1,7 @@
+---
+description: Powerful grid based layout system
+---
+
 # Grid
 
 The Grid Element is a powerful layout system based on CSS Grid that allows you to create complex two-dimensional grid-based layouts for web pages. It provides a precise way to position and align elements within a grid container, making it easier to design responsive and flexible layouts.

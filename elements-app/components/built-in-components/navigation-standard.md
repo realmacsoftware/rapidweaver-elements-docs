@@ -1,6 +1,8 @@
+---
+description: Automatically build and display your website navigation
+---
+
 # Navigation - Standard
-
-
 
 ### How to create a traditional "Sticky" menu
 
