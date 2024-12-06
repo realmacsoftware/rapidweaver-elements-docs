@@ -1,3 +1,7 @@
+---
+icon: seal-question
+---
+
 # Why Elements?
 
 {% hint style="info" %}

@@ -1,5 +1,6 @@
 ---
 description: Choose the perfect license for your needs
+icon: file-certificate
 ---
 
 # License Types

@@ -1,5 +1,6 @@
 ---
 description: RapidWeaver Elements is a website builder for macOS.
+icon: wreath
 ---
 
 # Introduction

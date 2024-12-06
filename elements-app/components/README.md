@@ -1,3 +1,7 @@
+---
+icon: object-ungroup
+---
+
 # Components
 
 Components are the raw building blocks for page design in Elements. Let's take a look at the different types of Components available.

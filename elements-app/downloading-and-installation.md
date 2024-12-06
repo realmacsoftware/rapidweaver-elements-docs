@@ -1,3 +1,7 @@
+---
+icon: desktop-arrow-down
+---
+
 # Downloading & Installation
 
 ### Download and Install Elements
@@ -32,6 +36,8 @@ When you first launch Elements, the Finder will inform you that a **Quick Look P
 Go to the Finder menu and choose "Settings…"
 
 <img src="../.gitbook/assets/CleanShot 2024-10-24 at 4 .28.50@2x.png" alt="" data-size="original">
+
+
 {% endstep %}
 
 {% step %}

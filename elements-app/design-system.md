@@ -1,5 +1,6 @@
 ---
 description: Learn more about how the Elements design system works.
+icon: pen-ruler
 ---
 
 # Design System

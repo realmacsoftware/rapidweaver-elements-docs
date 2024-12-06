@@ -1,5 +1,6 @@
 ---
 description: Learn more about Elements WYSIWYG Editor
+icon: pen
 ---
 
 # Editor
