@@ -19,6 +19,10 @@ Elements is built to work on all modern macs, so long as they meet the minimum r
 
 ### Enable Website Previews in Finder Icons (Quicklook)
 
+{% hint style="info" %}
+**IMPORTANT:** This functionality is currently disabled in beta builds, and can safely be ignored for now.
+{% endhint %}
+
 If you'd like to see previews of your projects in the finder instead of the generic Elements icon, you'll need to enable Quick Look. Follow our short guide below to enable this.&#x20;
 
 <figure><img src="../.gitbook/assets/CleanShot 2024-10-24 at 4 .34.08@2x.png" alt=""><figcaption></figcaption></figure>
@@ -33,9 +37,9 @@ When you first launch Elements, the Finder will inform you that a **Quick Look P
 {% step %}
 ### Open System Settings
 
-Go to the Finder menu and choose "Settings…"
+Go to the Apple menu and choose "System Settings…"
 
-<img src="../.gitbook/assets/CleanShot 2024-10-24 at 4 .28.50@2x.png" alt="" data-size="original">
+<img src="../.gitbook/assets/CleanShot 2024-12-08 at 3 .56.55@2x.png" alt="" data-size="original">
 
 
 {% endstep %}
