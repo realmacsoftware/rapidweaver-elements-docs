@@ -1,5 +1,6 @@
 ---
 description: Animate components when they enters the viewport
+hidden: true
 ---
 
 # Reveal
