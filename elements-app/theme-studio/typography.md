@@ -1,13 +1,11 @@
----
-description: Change the style of your website in a single click
----
-
-# Theme
+# Typography
 
 
 
-### Dev Diary Videos for Themes
+
+
+### Dev Diary Videos for Typography
 
 The following video will show you how themes work in Elements. The video was recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video.
 
-{% embed url="https://www.youtube.com/watch?v=RE2E0_gvqbA" %}
+{% embed url="https://youtu.be/rOHc9Z_Dx2Q?si=fK3qh0iiKicA3pLQ" %}

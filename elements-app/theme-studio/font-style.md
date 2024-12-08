@@ -1,6 +1,6 @@
 ---
-description: Manage global font styles
+description: Manage global font size
 ---
 
-# Font Style
+# Font Size
 

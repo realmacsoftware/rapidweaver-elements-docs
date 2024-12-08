@@ -1,3 +1,30 @@
 # Node Browser
 
-The Node Browser allows you to see and manage the entire structure of your page.
+The Node Browser allows you to see and manage the entire structure of your page, this is esecially useful for intricate designs, and larger more complex pages.
+
+{% hint style="info" %}
+Components can be dragged and dropped from the Node Browser to the Editor and vice versa.
+{% endhint %}
+
+### Search/Filter Components
+
+To filter down to specific Components you can use the search field, located at the bottom of the Node Browser.
+
+### Right-Click Options
+
+The Node Browser has the following options when right-clicking on a Component in the Node Browser.
+
+| Menu command       | Action                                                                                    |
+| ------------------ | ----------------------------------------------------------------------------------------- |
+| Rename             | Edit the title of the selected Component.                                                 |
+| Duplicate          | Duplicate a single component and/or all sub components.                                   |
+| Convert to Global  | Convert the current selection into a [Global Component](components/global-components.md). |
+| Unlink from Global | Unlink the current selection into a [Global Component](components/global-components.md).  |
+| Select Similar     | Will select all matching Components in the Node Browser.                                  |
+| View Help…         | Opens the default System browser with the Help page for the selected Component.           |
+| Remove             | Deletes the currently selected Component.                                                 |
+
+{% hint style="info" %}
+Right clicking on the Page Title at the top of the Component Tree gives you a list of available pages you can switch too.
+{% endhint %}
+
