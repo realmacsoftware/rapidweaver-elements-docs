@@ -147,6 +147,7 @@
 * [Templates](elements-language/templates/README.md)
   * [Portal](elements-language/templates/portal.md)
   * [Conditional Statements](elements-language/templates/conditional-statements.md)
+  * [Regular Expressions](elements-language/templates/regular-expressions.md)
   * [Looping](elements-language/templates/looping.md)
   * [Includes](elements-language/templates/includes.md)
   * [Image Resources](elements-language/templates/image-resources.md)
