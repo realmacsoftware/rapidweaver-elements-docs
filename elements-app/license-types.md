@@ -1,6 +1,6 @@
 ---
-description: Choose the perfect license for your needs
 icon: file-certificate
+description: Choose the perfect license for your needs
 ---
 
 # License Types
@@ -22,9 +22,9 @@ Every Elements license includes all you need to build the website you've always 
 
 ### Why Choose a Pro License?
 
-An active Pro license is essential for those using Elements as a professional tool. It ensures that as a Pro user you have everything you need to meet the demands of client work, from the freedom to sell  websites to the reliable support and advanced features required to excel in a competitive market.
+An active Pro license is required for those using Elements as a professional tool. It ensures that as a Pro user you have everything you need to meet the demands of client work, from the freedom to sell  websites to the reliable support and advanced features required to excel in a competitive market.
 
-**Resell Websites and Client Projects** -  The Pro license allows users to develop and sell websites to third-party clients, making it the ideal choice for freelancers, agencies, or anyone building websites as part of their business. With this license, users have the freedom to fully leverage Elements’ powerful tools and customizations to create and deliver high-quality websites for clients, turning Elements into a valuable asset for generating revenue.
+**Resell Websites and Client Projects** -  An active Pro license is required for users to develop and sell websites to third-party clients, making it the ideal choice for freelancers, agencies, or anyone building websites as part of their business. With this license, users have the freedom to fully leverage Elements’ powerful tools and customizations to create and deliver high-quality websites for clients, turning Elements into a valuable asset for generating revenue.
 
 **Priority Support** - The Pro license is specifically aimed at professionals working on client projects, where timely support is crucial. Elements’ priority support helps Pro users troubleshoot issues, get answers to complex questions, and keep projects moving forward without delay—making it a reliable tool for maintaining client satisfaction and meeting project deadlines.
 
