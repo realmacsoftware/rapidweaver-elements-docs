@@ -12,7 +12,7 @@ The “Reveal” animation component in Elements allows you to add visually enga
 
 ### Advanced Usage
 
-By using the data-reveal classes in your [Custom Components](../custom-components.md) you can take advantge of the Animation framework built into Elements.
+By using the data-reveal classes in your [Custom Components](../custom-components.md), you can take advantage of the Animation framework built into Elements.
 
 ```html
 <div
@@ -33,7 +33,7 @@ data-reveal-id="reveal-reveal"
 
 ### Animations
 
-Animations in Custom Components can be set indipendantly on enter and exit, as shown in the sample code.
+Animations in [Custom Components](../custom-components.md) can be set independently on enter and exit, as shown in the sample code.
 
 <pre class="language-textile"><code class="lang-textile">&#x3C;div
 class="group/reveal block max-w-max"
@@ -46,7 +46,7 @@ data-reveal-id="reveal-reveal"
 >
 </code></pre>
 
-The following can be applied to `data-reveal-animation` and `data-reveal-exit-animation` in your Custom Component.
+The following can be applied to `data-reveal-animation` and `data-reveal-exit-animation` in your [Custom Component](../custom-components.md).
 
 | Reveal Animation   |   |
 | ------------------ | - |
