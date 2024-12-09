@@ -48,50 +48,50 @@ data-reveal-id="reveal-reveal"
 
 The following can be applied to `data-reveal-animation` and `data-reveal-exit-animation` in your [Custom Component](../custom-components.md).
 
-| Reveal Animation   |   |
-| ------------------ | - |
-| fadeUpIn           |   |
-| fadeUpOut          |   |
-| fadeDownIn         |   |
-| fadeDownOut        |   |
-| fadeLeftIn         |   |
-| fadeLeftOut        |   |
-| fadeRightIn        |   |
-| fadeRightOut       |   |
-| slideUpIn          |   |
-| slideUpOut         |   |
-| slideDownIn        |   |
-| slideDownOut       |   |
-| slideLeftIn        |   |
-| slideLeftOut       |   |
-| slideRightIn       |   |
-| slideRightOut      |   |
-| zoomUpIn           |   |
-| zoomUpOut          |   |
-| zoomDownOut        |   |
-| zoomDownIn         |   |
-| zoomRightIn        |   |
-| zoomRightOut       |   |
-| zoomLeftIn         |   |
-| zoomLeftOut        |   |
-| lightSpeedLeftIn   |   |
-| lightSpeedLeftOut  |   |
-| lightSpeedRightIn  |   |
-| lightSpeedRightOut |   |
-| lightSpeedUpIn     |   |
-| lightSpeedUpOut    |   |
-| lightSpeedDownIn   |   |
-| lightSpeedDownOut  |   |
-| rotateUpIn         |   |
-| rotateDownIn       |   |
-| rotateRightIn      |   |
-| rotateLeftIn       |   |
-| rotateUpOut        |   |
-| rotateDownOut      |   |
-| rotateRightOut     |   |
-| rotateLeftOut      |   |
-| bounceInDown       |   |
-| swing              |   |
+| Reveal Animation   | Description     |
+| ------------------ | --------------- |
+| fadeUpIn           | Fade Up and In  |
+| fadeUpOut          | Fade Up and Out |
+| fadeDownIn         | ...             |
+| fadeDownOut        |                 |
+| fadeLeftIn         |                 |
+| fadeLeftOut        |                 |
+| fadeRightIn        |                 |
+| fadeRightOut       |                 |
+| slideUpIn          |                 |
+| slideUpOut         |                 |
+| slideDownIn        |                 |
+| slideDownOut       |                 |
+| slideLeftIn        |                 |
+| slideLeftOut       |                 |
+| slideRightIn       |                 |
+| slideRightOut      |                 |
+| zoomUpIn           |                 |
+| zoomUpOut          |                 |
+| zoomDownOut        |                 |
+| zoomDownIn         |                 |
+| zoomRightIn        |                 |
+| zoomRightOut       |                 |
+| zoomLeftIn         |                 |
+| zoomLeftOut        |                 |
+| lightSpeedLeftIn   |                 |
+| lightSpeedLeftOut  |                 |
+| lightSpeedRightIn  |                 |
+| lightSpeedRightOut |                 |
+| lightSpeedUpIn     |                 |
+| lightSpeedUpOut    |                 |
+| lightSpeedDownIn   |                 |
+| lightSpeedDownOut  |                 |
+| rotateUpIn         |                 |
+| rotateDownIn       |                 |
+| rotateRightIn      |                 |
+| rotateLeftIn       |                 |
+| rotateUpOut        |                 |
+| rotateDownOut      |                 |
+| rotateRightOut     |                 |
+| rotateLeftOut      |                 |
+| bounceInDown       |                 |
+| swing              |                 |
 
 
 
