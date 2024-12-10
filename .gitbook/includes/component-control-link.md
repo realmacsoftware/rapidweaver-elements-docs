@@ -10,7 +10,13 @@ You can invoke the link panel on most components and inline text areas. Add a li
 
 
 
+
+
+
+
 </details>
+
+<table><thead><tr><th width="136">Link Types</th><th>Description</th></tr></thead><tbody><tr><td>URL</td><td>Link to an external website, a mailto link will automatically be created if an email address is entered.</td></tr><tr><td>Page</td><td>Link to a  page within your project.</td></tr><tr><td>Anchor</td><td>Link to an Anchor on the page. Anchor ID's can be set in the Advanced settings on all built-in Components.</td></tr><tr><td>Resource</td><td>Link to a  resource within your project.</td></tr></tbody></table>
 
 
 
@@ -19,8 +25,6 @@ You can invoke the link panel on most components and inline text areas. Add a li
 The link property allows you to link to a page, resource or extrenal website. Elements will keep track and update all internally linked pages and resources.
 
 ## Link Panel
-
-<table><thead><tr><th width="136">Link Types</th><th>Description</th></tr></thead><tbody><tr><td>URL</td><td>Link to an external website, a mailto link will automatically be created if an email address is entered.</td></tr><tr><td>Page</td><td>Link to a  page within your project.</td></tr><tr><td>Anchor</td><td>Link to an Anchor on the page. Anchor ID's can be set in the Advanced settings on all built-in Components.</td></tr><tr><td>Resource</td><td>Link to a  resource within your project.</td></tr></tbody></table>
 
 {% hint style="info" %}
 ### Disabling Smooth Scroll for Anchors
