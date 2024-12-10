@@ -8,3 +8,11 @@ Buttons are fundamental user interface elements in web design that enable users 
 
 Buttons provide a clear call to action.
 
+
+
+
+
+{% include "../../../.gitbook/includes/component-control-link.md" %}
+
+
+
