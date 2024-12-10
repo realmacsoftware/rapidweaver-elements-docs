@@ -1,5 +1,6 @@
 ---
 description: Sign-up for a free Elements Cloud Account
+icon: lightbulb
 ---
 
 # Getting Started

@@ -1,3 +1,7 @@
+---
+icon: icons
+---
+
 # Icons
 
 At a bare minimum you'll want to include PDF images for light mode icons so they can be used for all views where your Component appears within the RapidWeaver Elements UI.&#x20;

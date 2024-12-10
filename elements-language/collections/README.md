@@ -1,3 +1,7 @@
+---
+icon: rectangle-history
+---
+
 # Collections
 
 Collcetions are a flexible way to create datasets for your element. You can add multiple collections to your elements.

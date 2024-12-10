@@ -1,5 +1,6 @@
 ---
 description: Outline basic information about your Element
+icon: file
 ---
 
 # info.json

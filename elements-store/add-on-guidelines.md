@@ -1,5 +1,6 @@
 ---
 description: A guide to making sure your add-ons meets user expectations
+icon: box-check
 ---
 
 # Add-on Guidelines

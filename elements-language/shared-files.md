@@ -1,3 +1,7 @@
+---
+icon: folder-closed
+---
+
 # Shared Files
 
 The shared folder lives at the root of the Element Dev Pack and is accesible by all components in the pack.

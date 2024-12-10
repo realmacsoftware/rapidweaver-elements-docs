@@ -1,3 +1,7 @@
+---
+icon: cabinet-filing
+---
+
 # Assets
 
 Assets can be included per component or [shared in a component pack](shared-files.md).

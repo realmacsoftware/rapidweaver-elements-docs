@@ -1,3 +1,7 @@
+---
+icon: anchor
+---
+
 # Hooks.js
 
 Global Properties

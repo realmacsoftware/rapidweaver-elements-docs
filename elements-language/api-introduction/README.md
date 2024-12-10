@@ -1,5 +1,6 @@
 ---
 description: A brief introduction to the Elements templating language
+icon: wreath
 ---
 
 # API Introduction

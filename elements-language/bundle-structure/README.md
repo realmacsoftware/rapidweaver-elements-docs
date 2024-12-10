@@ -1,5 +1,6 @@
 ---
 description: An Element Pack is a bundled folder
+icon: box
 ---
 
 # Element Pack

@@ -1,3 +1,7 @@
+---
+icon: masks-theater
+---
+
 # Themes
 
 Element Themes are based on standard [Tailwind config files](https://tailwindcss.com/docs/configuration). They can be built using the Theme Studio in Elements.

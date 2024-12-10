@@ -1,5 +1,6 @@
 ---
 description: Distribute and Sell your Elements directly to the Element user base.
+icon: lightbulb
 ---
 
 # Getting Started
