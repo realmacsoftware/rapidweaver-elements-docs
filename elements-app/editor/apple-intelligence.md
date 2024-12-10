@@ -1,5 +1,5 @@
 ---
-description: Generate, refine, and polish your written content with AI in Elements.
+description: How to use Apple Intelligence Writing Tools in RapidWeaver Elements.
 ---
 
 # Apple Intelligence
