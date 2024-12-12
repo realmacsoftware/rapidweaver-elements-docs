@@ -68,6 +68,7 @@
   * [Adding Snow to your Website](elements-app/solutions/adding-snow-to-your-website.md)
   * [Adjust Smooth Scroll Speed](elements-app/solutions/adjust-smooth-scroll-speed.md)
   * [Apply Anchor Scroll Padding](elements-app/solutions/apply-anchor-scroll-padding.md)
+* [Quicklook Document](elements-app/quicklook-document.md)
 
 ## Elements Cloud
 

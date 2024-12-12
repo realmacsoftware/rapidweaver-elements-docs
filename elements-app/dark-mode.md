@@ -6,7 +6,7 @@ description: Automatic colour switching based on the users system settings
 
 With dark mode now a prominent feature in many operating systems, it’s increasingly common to create a dark version of your website alongside the default design.
 
-Elements supports automatic switching between light and dark mode. This approach enables automatic theme switching based on the user’s system (or browser) settings, ensuring websites adapts seamlessly to both light and dark modes.
+Elements supports automatic switching between light and dark mode. This approach enables automatic theme switching based on the user’s system (or browser) settings, ensuring websites adapt seamlessly to both light and dark modes.
 
 ### Choosing Background and Text Colours
 
