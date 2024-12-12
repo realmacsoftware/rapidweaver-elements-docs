@@ -11,6 +11,7 @@
 
 * [License Types](elements-app/license-types.md)
 * [Downloading & Installation](elements-app/downloading-and-installation.md)
+* [Getting Started](elements-app/getting-started.md)
 * [Design System](elements-app/design-system.md)
 * [Editor](elements-app/editor.md)
   * [Apple Intelligence](elements-app/editor/apple-intelligence.md)
