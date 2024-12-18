@@ -14,11 +14,15 @@ Each license includes:
 * 1 year of free updates
 * Installation on up to 2 Macs simultaneously
 * Unlimited Support via Email and Forum
-* If your subscription expires, **Elements is still yours to keep forever** (you just won't receive updates)
+* If your subscription expires, **Elements can still be used,** you just won't receive future updates until you resubscribe.
 
 Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences that we have highlighted in the table below.
 
 <table><thead><tr><th width="269">Key Features</th><th>Base</th><th>Plus</th><th>Pro</th></tr></thead><tbody><tr><td>Custom Components</td><td>3</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Global Components</td><td>2</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Full Theme Customization</td><td>-</td><td>Yes</td><td>Yes</td></tr><tr><td>Remove Elements Branding</td><td>-</td><td>Yes</td><td>Yes</td></tr><tr><td>Priority Support</td><td>-</td><td>-</td><td>Yes</td></tr><tr><td>Resell Websites</td><td>-</td><td>-</td><td>Yes</td></tr><tr><td><strong>Price</strong></td><td><strong>$59/year</strong></td><td><strong>$119/year</strong></td><td><strong>$249/year</strong></td></tr></tbody></table>
+
+### Elements Branding
+
+The Base license for Elements will place a small floating badge in the corner of your website showing it was built with Elements. **Plus and Pro licenses have no visible Elements branding**.
 
 ### Why Choose a Pro License?
 
