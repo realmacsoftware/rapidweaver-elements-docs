@@ -4,7 +4,7 @@ title: Accessing Properties
 
 ## Accessing Properties
 
-[UI Control Properties](../../elements-language/properties.json/ui-controls/) can be placed inside of HTML, CSS, and Javascript files.
+[UI Control Properties](../../elements-language/properties.json/ui-controls/) can be placed inside of any Template files, including HTML, CSS, and Javascript files.
 
 For example in your [Properties.json](../../elements-language/properties.json/) file you can add the a [text field](../../elements-language/properties.json/ui-controls/text.md), and then reference that value in your [Template files](../../elements-language/templates/), including HTML, CSS, and Javascript.
 
@@ -29,4 +29,8 @@ In your Template file you can reference the text field by using double brackets 
 ```html
 <h1>This is the value from the Text Field: {{MyTextField}}</h1>
 ```
+
+{% hint style="info" %}
+Anything set in [rw.setProps](../../elements-language/hooks.js/available-data/rw.props.md) is also available to all Templates files in your component.
+{% endhint %}
 
