@@ -1,6 +1,6 @@
 ---
-description: RapidWeaver Elements is a website builder for macOS.
 icon: wreath
+description: RapidWeaver Elements is a website builder for macOS.
 ---
 
 # Introduction
@@ -9,11 +9,15 @@ icon: wreath
 
 Elements is a no-code static website builder for macOS. It's designed to cater to all skill levels, whether you’re a beginner looking for simplicity or an experienced web developer needing advanced customization, Elements offers the perfect balance. With its user-friendly interface and powerful features, you can create fast, efficient, and beautiful websites with ease.
 
-Elements has everything you need built-in to build a beautiful modern website.
+Elements has everything you need built-in to build a beautiful modern website, and it's getting better all the time thanks to our passionate user base.
+
+### Elements is Community Driven
+
+We listen to our amazing community of passionate users and build the features they want. Why not [Suggest a Feature](https://elements.nolt.io), or [View the Roadmap](https://elements.nolt.io/roadmap) (as voted on by our users).
 
 <figure><img src=".gitbook/assets/CleanShot 2024-11-27 at 9 .27.54@2x.png" alt=""><figcaption></figcaption></figure>
 
-## Element Features
+## Learn more about the features you'll find in Elements
 
 Elements has been in the works for over three years now. We’ve been working tirelessly with beta testers to make sure we’re building the best web design software for Mac. Check out the feature list below to learn more!
 
