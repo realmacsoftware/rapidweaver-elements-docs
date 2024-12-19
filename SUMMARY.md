@@ -82,7 +82,7 @@
 
 ## Elements Language
 
-* [API Introduction](elements-language/api-introduction/README.md)
+* [Introduction](elements-language/api-introduction/README.md)
   * [Getting Started](elements-language/api-introduction/getting-started.md)
   * [Migrating your stacks](elements-language/api-introduction/migrating-your-stacks.md)
   * [Component Styling](elements-language/api-introduction/component-styling.md)
