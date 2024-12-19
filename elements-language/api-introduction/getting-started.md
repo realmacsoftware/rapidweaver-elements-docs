@@ -22,4 +22,6 @@ Watcht the short video below to see how to create an Element  Dev Pack including
 
 ## Editing the Component
 
-Coming soon…
+The following video will show you how to edit your newely created component with your favourite text editor. In this video we use [Nova from Panic](https://nova.app) but it will work exactly the same with VS Code, BBEdit, or any other text editor.
+
+{% embed url="https://youtu.be/gRWb-GBDiPk" %}
