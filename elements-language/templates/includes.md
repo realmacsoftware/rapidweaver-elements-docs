@@ -59,7 +59,10 @@ Rather than wrapping your @include statement inside an @if statement, you can us
   @include("myTemplate")
 @endif
 
-// you can do this:
+// You can do this:
 @includeIf(myVariable, "myTemplate")
+
+// You can also negate the property
+@includeIf(!myVariable, "myTemplate")
 ```
 
