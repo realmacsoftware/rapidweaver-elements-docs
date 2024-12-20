@@ -156,6 +156,7 @@
   * [Image Resources](elements-language/templates/image-resources.md)
   * [HTML](elements-language/templates/html/README.md)
     * [Anchor](elements-language/templates/html/anchor.md)
+    * [Raw](elements-language/templates/html/raw.md)
     * [Editable Content](elements-language/templates/html/editable-content.md)
     * [Dropzones](elements-language/templates/html/dropzones.md)
     * [Inline templates](elements-language/templates/html/inline-templates.md)
