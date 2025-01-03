@@ -22,7 +22,7 @@ The info.json file at the root of your Element Pack defines important informatio
 }
 ```
 
-Version Numbers
+### Version Numbers
 
 When you create a new pack the version number should be set to 1 and build should also be 1. As you make changes to components and release an update, the build number should increase. This allows you to identify the particular release a user has, identify issues, and supply fixes or add new features.
 
