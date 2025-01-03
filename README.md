@@ -55,7 +55,7 @@ Write long form content with different style blocks just like a modern word-proc
 
 ### Custom Components
 
-Build your own [Custom Components](elements-app/solutions/adjust-smooth-scroll-speed.md) for your website using the [Elements API](elements-language/api-introduction/).
+Build your own [Custom Components](elements-app/how-to/adjust-smooth-scroll-speed.md) for your website using the [Elements API](elements-language/api-introduction/).
 
 ### Template Editor
 

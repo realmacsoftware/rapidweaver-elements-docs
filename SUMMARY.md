@@ -65,10 +65,10 @@
   * [Border Width](elements-app/theme-studio/border-width.md)
   * [Border Radius](elements-app/theme-studio/border-radius.md)
   * [Typography](elements-app/theme-studio/typography.md)
-* [Solutions](elements-app/solutions/README.md)
-  * [Adding Snow to your Website](elements-app/solutions/adding-snow-to-your-website.md)
-  * [Adjust Smooth Scroll Speed](elements-app/solutions/adjust-smooth-scroll-speed.md)
-  * [Apply Anchor Scroll Padding](elements-app/solutions/apply-anchor-scroll-padding.md)
+* [How to](elements-app/how-to/README.md)
+  * [Add Snow to your Website](elements-app/how-to/add-snow-to-your-website.md)
+  * [Adjust Smooth Scroll Speed](elements-app/how-to/adjust-smooth-scroll-speed.md)
+  * [Apply Anchor Scroll Padding](elements-app/how-to/apply-anchor-scroll-padding.md)
 * [Quicklook Document](elements-app/quicklook-document.md)
 
 ## Elements Cloud
