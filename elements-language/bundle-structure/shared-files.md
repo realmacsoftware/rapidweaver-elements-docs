@@ -29,7 +29,7 @@ The following code would link to an asset called "example-script.js"
 <script src="{{assetPath}}/example-script.js"></script>
 ```
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-12-01 at 2 .51.52@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-12-01 at 2 .51.52@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Hooks Folder
 

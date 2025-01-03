@@ -8,7 +8,7 @@ Element Themes are based on standard [Tailwind config files](https://tailwindcss
 
 Themes are a set of pre-configured values based on the available settings inside of the Theme Studio. The gif below shows how a site can look radically different depending on the theme chosen.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-10-11 at 10 .45.49.gif" alt=""><figcaption><p>Changing Themes in Elements Beta (October 2024)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-10-11 at 10 .45.49.gif" alt=""><figcaption><p>Changing Themes in Elements Beta (October 2024)</p></figcaption></figure>
 
 ### Theme Structure
 
@@ -21,13 +21,13 @@ A theme contains three files, they should be stored in a folder using a reverse 
       * [info.json](themes.md#info.-json-file)
       * [theme.json](themes.md#theme.json)
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-10-11 at 10 .14.29@2x.png" alt=""><figcaption><p>Example layout for an Elements Dev Pack</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-10-11 at 10 .14.29@2x.png" alt=""><figcaption><p>Example layout for an Elements Dev Pack</p></figcaption></figure>
 
 ### Icon
 
 The icon for your theme should be a PNG, and sized at 440x280px. Ideally it will use the font and colour from the theme to give the user as idea of what to expect.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-10-11 at 10 .20.54@2x.png" alt=""><figcaption><p>Included Themes in the beta version of Elements (October 2024)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-10-11 at 10 .20.54@2x.png" alt=""><figcaption><p>Included Themes in the beta version of Elements (October 2024)</p></figcaption></figure>
 
 ### Info. json file
 
@@ -54,4 +54,4 @@ The info file store basic information about your theme.
 
 
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-07-27 at 6 .23.20@2x.png" alt=""><figcaption><p>A screenshot of the Tailwind Theme Studio in Elements for macOS.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-27 at 6 .23.20@2x.png" alt=""><figcaption><p>A screenshot of the Tailwind Theme Studio in Elements for macOS.</p></figcaption></figure>

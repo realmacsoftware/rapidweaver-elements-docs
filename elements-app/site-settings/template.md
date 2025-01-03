@@ -14,7 +14,7 @@ The site template is used on every page of your website. If you need to insert a
 
 ### Page Properties
 
-The Site Template has access to all the page level properties, such as `{{page.title}}` and `{{page.description}}`. A full list can be found in the [Available Data](../../elements-language/components/hooks.js/available-data/) section under [Page Properties](https://docs.realmacsoftware.com/elements-docs/elements-language/hooks.js/available-data#page-properties) in this manual.
+The Site Template has access to all the page level properties, such as `{{page.title}}` and `{{page.description}}`. A full list can be found in the [Available Data](../../elements-language/bundle-structure/components/hooks.js/available-data/) section under [Page Properties](https://docs.realmacsoftware.com/elements-docs/elements-language/hooks.js/available-data#page-properties) in this manual.
 
 To reference a file in you Resources folder you can use the following page tag to get the correct path to the resources folder:`{{page.resourcesPath}}.`
 

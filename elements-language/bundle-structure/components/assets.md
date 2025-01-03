@@ -32,5 +32,5 @@ const transformHook = (rw) => {
 exports.transformHook = transformHook;
 ```
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-12-01 at 3 .12.28@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-12-01 at 3 .12.28@2x.png" alt=""><figcaption></figcaption></figure>
 

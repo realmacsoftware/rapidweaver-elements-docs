@@ -6,7 +6,7 @@ icon: icons
 
 At a bare minimum you'll want to include PDF images for light mode icons so they can be used for all views where your Component appears within the RapidWeaver Elements UI.&#x20;
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-10-18 at 5 .36.55.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-18 at 5 .36.55.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Important:** The PDF graphic for your icon should have a transparent background so it can be composited in app on to the background tile to give a consistent look.
@@ -30,7 +30,7 @@ The Palette image should be named paletteIcon.pdf and paletteIcon-dark.pdf for D
 
 All Icon files should be placed at the root of the Component alongside the info.json file.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-10-18 at 5 .29.48@2x.png" alt=""><figcaption><p>Finder window showing the icon files inside of a typical Element.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-18 at 5 .29.48@2x.png" alt=""><figcaption><p>Finder window showing the icon files inside of a typical Element.</p></figcaption></figure>
 
 
 
@@ -45,13 +45,13 @@ Watch the short video below to learn more about adding custom icons to your Comp
 Your pdf icons **MUST be on a transparent background**.\
 The background should not be exported as this is generated in Elements.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-12-02 at 11 .02.57@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-12-02 at 11 .02.57@2x.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-08-21 at 11 .39.38@2x.png" alt=""><figcaption><p>Showing background in Sketch (for design purposes only)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-08-21 at 11 .39.38@2x.png" alt=""><figcaption><p>Showing background in Sketch (for design purposes only)</p></figcaption></figure>
 
 We've provided an example Sketch document below you can use to get started.
 
-{% file src="../../.gitbook/assets/Components Icon Template.zip" %}
+{% file src="../../../.gitbook/assets/Components Icon Template.zip" %}
 
 ***
 
@@ -75,7 +75,7 @@ Banner icons can be layered, and each layer can represent a different colour in 
 
 Banner images should be 512px in width, but can be as short or tall as you need. Banner icons will appear the same in both grid and list.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-05-12 at 6 .51.51@2x (1).png" alt=""><figcaption><p>Element Library: Banner icons (Pre-Beta Build 22484)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-05-12 at 6 .51.51@2x (1).png" alt=""><figcaption><p>Element Library: Banner icons (Pre-Beta Build 22484)</p></figcaption></figure>
 
 
 
