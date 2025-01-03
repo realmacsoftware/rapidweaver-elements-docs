@@ -17,7 +17,7 @@ The following outlines the top level folder structure for an Element Pack. It ca
 
 * MyElementPack.elementsdevpack (folder/bundle)
   * components (folder)
-  * [info.json (file)](./#info.json)
+  * [info.json (file)](info.json.md)
   * themes (folder)
   * [shared (folder)](../shared-files.md)
 
