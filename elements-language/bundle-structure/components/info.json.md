@@ -50,13 +50,6 @@ You can use the following code as a starting point for your own info.json file.
   "tags": [
     "simple",
     "example"
-  ],
-  "assets": [
-    {
-      "filename": "assets/image-square.png"
-    }
   ]
 }
 ```
-
-<figure><img src="../../../.gitbook/assets/CleanShot 2023-08-04 at 5.17.44@2x.png" alt=""><figcaption><p>Example info.json file inside of an Element.</p></figcaption></figure>
