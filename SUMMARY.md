@@ -87,6 +87,7 @@
   * [Migrating your stacks](elements-language/api-introduction/migrating-your-stacks.md)
   * [Component Styling](elements-language/api-introduction/component-styling.md)
 * [Element Pack](elements-language/bundle-structure/README.md)
+  * [info.json](elements-language/bundle-structure/info.json.md)
 * [Collections](elements-language/collections/README.md)
   * [Data collections in Hooks.js](elements-language/collections/data-collections-in-hooks.js.md)
   * [Accessing Data in Templates](elements-language/collections/accessing-data-in-templates.md)
