@@ -4,7 +4,7 @@ icon: file
 
 # info.json
 
-The info.json file at the root of your Element Pack defines a few important things.
+The info.json file at the root of your Element Pack defines important information about the pack.
 
 * title: The name of the element pack
 * identifier: A unique id for the pack, should be a reverse domain identifier
