@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Migrating your stacks
 
 {% hint style="info" %}

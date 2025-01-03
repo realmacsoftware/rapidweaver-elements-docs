@@ -84,8 +84,8 @@
 
 * [Introduction](elements-language/api-introduction/README.md)
   * [Getting Started](elements-language/api-introduction/getting-started.md)
-  * [Migrating your stacks](elements-language/api-introduction/migrating-your-stacks.md)
   * [Component Styling](elements-language/api-introduction/component-styling.md)
+  * [Migrating your stacks](elements-language/api-introduction/migrating-your-stacks.md)
 * [Element Pack](elements-language/bundle-structure/README.md)
   * [info.json](elements-language/bundle-structure/info.json.md)
   * [Components](elements-language/bundle-structure/components/README.md)
