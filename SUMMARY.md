@@ -163,7 +163,10 @@
   * [Collections](elements-language/bundle-structure/collections/README.md)
     * [Data collections in Hooks.js](elements-language/bundle-structure/collections/data-collections-in-hooks.js.md)
     * [Accessing Data in Templates](elements-language/bundle-structure/collections/accessing-data-in-templates.md)
-  * [Shared Files](elements-language/bundle-structure/shared-files.md)
+  * [Shared Files](elements-language/bundle-structure/shared-files/README.md)
+    * [Assets](elements-language/bundle-structure/shared-files/assets.md)
+    * [Hooks](elements-language/bundle-structure/shared-files/hooks.md)
+    * [Templates](elements-language/bundle-structure/shared-files/templates.md)
   * [Themes](elements-language/bundle-structure/themes.md)
 
 ## Branding

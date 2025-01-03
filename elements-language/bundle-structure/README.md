@@ -19,7 +19,7 @@ The following outlines the top level folder structure for an Element Pack. It ca
   * components (folder)
   * [info.json (file)](info.json.md)
   * themes (folder)
-  * [shared (folder)](shared-files.md)
+  * [shared (folder)](shared-files/)
 
 The following shows an Element Dev Pack containing multiple themes and components:
 
