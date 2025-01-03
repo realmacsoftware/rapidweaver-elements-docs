@@ -1,6 +1,6 @@
 ---
-description: A guide to making sure your add-ons meets user expectations
 icon: box-check
+description: A guide to making sure your add-ons meets user expectations
 ---
 
 # Add-on Guidelines
@@ -18,5 +18,5 @@ This document is a work-in-progress.
   * [ ] Settings and Admin options are not visible in the Editor (place these in the Inspector)
 * [ ] Component uses Tailwind CSS:
   * [ ] Component styling uses Tailwind classes found in the Theme Studio
-  * [ ] Takes advantage of the Theme based [UI controls](../elements-language/properties.json/ui-controls/)!
+  * [ ] Takes advantage of the Theme based [UI controls](../elements-language/components/properties.json/ui-controls/)!
 * [ ] Components should not parse @text or @typography data in their hooks.js files

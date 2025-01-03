@@ -4,7 +4,7 @@ icon: cabinet-filing
 
 # Assets
 
-Assets can be included per component or [shared in a component pack](shared-files.md).
+Assets can be included per component or [shared in a component pack](../shared-files.md).
 
 To link to an asset in a single component you'll need to do the following;
 
@@ -32,5 +32,5 @@ const transformHook = (rw) => {
 exports.transformHook = transformHook;
 ```
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-12-01 at 3 .12.28@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-12-01 at 3 .12.28@2x.png" alt=""><figcaption></figcaption></figure>
 
