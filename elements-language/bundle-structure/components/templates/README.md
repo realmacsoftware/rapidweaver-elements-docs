@@ -1,5 +1,6 @@
 ---
 icon: code
+description: Component Template Folder
 ---
 
 # Templates

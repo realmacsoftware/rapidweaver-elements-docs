@@ -5,6 +5,8 @@
   * [Join the Independent Web](why-elements/join-the-independent-web.md)
   * [Static Website Benefits](why-elements/static-website-benefits.md)
   * [Build a Digital Garden](why-elements/build-a-digital-garden.md)
+* [Elements Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43)
+* [Suggest a Feature](https://elements.nolt.io)
 * [Elements FAQ](elements-faq.md)
 
 ## Elements App
@@ -66,19 +68,11 @@
   * [Border Radius](elements-app/theme-studio/border-radius.md)
   * [Typography](elements-app/theme-studio/typography.md)
 * [How to](elements-app/how-to/README.md)
+  * [Align Components](elements-app/how-to/align-components.md)
   * [Add Snow to your Website](elements-app/how-to/add-snow-to-your-website.md)
   * [Adjust Smooth Scroll Speed](elements-app/how-to/adjust-smooth-scroll-speed.md)
   * [Apply Anchor Scroll Padding](elements-app/how-to/apply-anchor-scroll-padding.md)
 * [Quicklook Document](elements-app/quicklook-document.md)
-
-## Elements Cloud
-
-* [Getting Started](elements-cloud/account-sign-up.md)
-
-## Elements Store
-
-* [Getting Started](elements-store/distribution.md)
-* [Add-on Guidelines](elements-store/add-on-guidelines.md)
 
 ## Elements Language
 
@@ -168,6 +162,15 @@
     * [Hooks](elements-language/bundle-structure/shared-files/hooks.md)
     * [Templates](elements-language/bundle-structure/shared-files/templates.md)
   * [Themes](elements-language/bundle-structure/themes.md)
+
+## Elements Cloud
+
+* [Getting Started](elements-cloud/account-sign-up.md)
+
+## Elements Store
+
+* [Getting Started](elements-store/distribution.md)
+* [Add-on Guidelines](elements-store/add-on-guidelines.md)
 
 ## Branding
 
