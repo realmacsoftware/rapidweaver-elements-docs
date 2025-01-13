@@ -22,18 +22,6 @@ Every colour in Elements supports Dark and Light Mode, this means you can change
 
 By default when you set a colour it's set for Light Mode. To set an alternative colour for Dark mode, you need to press the Dark/Light Mode toggle button at the top of the editor.
 
-### Hide and Show Components based on Mode
-
-If you'd like to hide and show other elements (including images) based on the users system settings you can use the following classes.
-
-To **hide Components in Dark mode** use the following class:
-
-`dark:hidden`
-
-To **hide Components in Light Mode** use the following classes:
-
-`hidden dark:block`
-
 ### Turning Off Dark Mode
 
 If you don't want dark mode on your website, you can switch this off in the Project Settings. Please note, this will hide the UI option to toggle between dark and light mode, and only preveiw and export the light mode versuion of you website.
