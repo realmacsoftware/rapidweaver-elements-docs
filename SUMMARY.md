@@ -68,11 +68,11 @@
   * [Border Radius](elements-app/theme-studio/border-radius.md)
   * [Typography](elements-app/theme-studio/typography.md)
 * [How to](elements-app/how-to/README.md)
-  * [Align Components](elements-app/how-to/align-components.md)
-  * [Make a two column layout](elements-app/how-to/make-a-two-column-layout.md)
   * [Add Snow to your Website](elements-app/how-to/add-snow-to-your-website.md)
   * [Adjust Smooth Scroll Speed](elements-app/how-to/adjust-smooth-scroll-speed.md)
+  * [Align Components](elements-app/how-to/align-components.md)
   * [Apply Anchor Scroll Padding](elements-app/how-to/apply-anchor-scroll-padding.md)
+  * [Make a two column layout](elements-app/how-to/make-a-two-column-layout.md)
 * [Quicklook Document](elements-app/quicklook-document.md)
 
 ## Elements Language
