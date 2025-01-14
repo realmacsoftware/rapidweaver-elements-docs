@@ -1,4 +1,8 @@
-# Adding Snow to your Website
+---
+description: During the winter you might want to add snow to your website…
+---
+
+# Add Snow to your Website
 
 Adding a snow effect to your website is a fun way to bring festive cheer to your projects in December. It creates a cozy seasonal atmosphere, delights visitors, and adds personality to your design, making your site more memorable and shareable. In this tutorial, we’ll show you how to easily implement a lightweight snow animation using JavaScript in Elements, perfect for enhancing your holiday-themed websites.
 
