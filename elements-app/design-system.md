@@ -15,15 +15,15 @@ The core components inside elements represent the basic building blocks of a web
 
 Some of the more advanced components go beyond the basics; these include things like menus and galleries.
 
-### Global Components
+### Global Templates
 
-[Global Components](components/global-components.md) (or Globals as they are often called) are user created groups of components. Globals can help maintain a consistent design language across your entire site.
+[Global Templates](design-system.md#global-templates) (or Globals as they are often called) are user created groups of components. Globals can help maintain a consistent design language across your entire site.
 
 You can reuse global blocks across your site so you only need to update the content in one place and have it automagically mirrored to all other instances of that global. For example, this can be very useful for header and footer sections.
 
 You can take Globals even further by overriding content and design aspects on an individual instance. For example, you might have a banner that you want to use on every page of your site, and you'd like the design to be consistent. You can use the override feature to customise the text and background image on each instance. You can even override the design settings on individual instances.
 
-You can[ learn more about Global Components here](components/global-components.md).
+You can [learn more about Global Templates here](design-system.md#global-templates).
 
 ### Mobile First Design
 

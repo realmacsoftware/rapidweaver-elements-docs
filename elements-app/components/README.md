@@ -22,6 +22,3 @@ Third-party developers can use the [Elements API](../../elements-language/api-in
 
 Third-party components will be [distributed via the RapidWeaver Elements Distribution Platform](../../elements-store/distribution.md) as Element Packs (.elementspack). These packs are shipped as highly optimized, encrypted bundles. The code cannot be modified or edited by users or third parties (exactly like the built-in Components).
 
-### Global Components
-
-Global Components give you the power to create reusable (and customisable) groups of components to maintain a consistent design language across your entire site. [Learn more about Globals](global-components.md).

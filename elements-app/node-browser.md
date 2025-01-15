@@ -18,16 +18,16 @@ To filter down to specific Components you can use the search field, located at t
 
 The Node Browser has the following options when right-clicking on a Component in the Node Browser.
 
-| Menu command              | Action                                                                                    |
-| ------------------------- | ----------------------------------------------------------------------------------------- |
-| Rename                    | Edit the title of the selected Component.                                                 |
-| Duplicate                 | Duplicate a single component and/or all sub components.                                   |
-| Duplicate without Content | Will duplicate the selected Component without any of the Child components.                |
-| Convert to Global         | Convert the current selection into a [Global Component](components/global-components.md). |
-| Unlink from Global        | Unlink the current selection into a [Global Component](components/global-components.md).  |
-| Select Similar            | Will select all matching Components in the Node Browser.                                  |
-| View Help…                | Opens the default System browser with the Help page for the selected Component.           |
-| Remove                    | Deletes the currently selected Component.                                                 |
+| Menu command              | Action                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------- |
+| Rename                    | Edit the title of the selected Component.                                       |
+| Duplicate                 | Duplicate a single component and/or all sub components.                         |
+| Duplicate without Content | Will duplicate the selected Component without any of the Child components.      |
+| Convert to Global         | Convert the current selection into a [Template](templates.md).                  |
+| Unlink from Global        | Unlink the current selection into a [Template](templates.md).                   |
+| Select Similar            | Will select all matching Components in the Node Browser.                        |
+| View Help…                | Opens the default System browser with the Help page for the selected Component. |
+| Remove                    | Deletes the currently selected Component.                                       |
 
 {% hint style="info" %}
 Right clicking on the Page Title at the top of the Component Tree gives you a list of available pages you can switch too.
