@@ -73,6 +73,7 @@
   * [Align Components](elements-app/how-to/align-components.md)
   * [Apply Anchor Scroll Padding](elements-app/how-to/apply-anchor-scroll-padding.md)
   * [Make a two column layout](elements-app/how-to/make-a-two-column-layout.md)
+* [Resources](<elements-app/resources (1).md>)
 * [Quicklook Document](elements-app/quicklook-document.md)
 
 ## Elements Language
