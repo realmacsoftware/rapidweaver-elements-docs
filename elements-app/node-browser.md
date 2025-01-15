@@ -7,7 +7,7 @@ The Node Browser allows you to see and manage the entire structure of your page,
 
 
 {% hint style="info" %}
-Components can be dragged and dropped from the Node Browser to the Editor and vice versa.
+Components can be dragged and dropped from the Node Browser to the Editor and vice versa. Components can also be dropped directly into the Node Browser.
 {% endhint %}
 
 ### Search/Filter Components

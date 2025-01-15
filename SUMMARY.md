@@ -52,7 +52,6 @@
     * [Borders](elements-app/components/common-controls/borders.md)
     * [Advanced](elements-app/components/common-controls/advanced.md)
   * [Custom Components](elements-app/components/custom-components.md)
-  * [Global Components](elements-app/components/global-components.md)
   * [Data Components](elements-app/components/data-components.md)
 * [Templates](elements-app/templates.md)
 * [Site Settings](elements-app/site-settings/README.md)
