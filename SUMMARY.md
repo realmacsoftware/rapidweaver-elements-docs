@@ -17,6 +17,7 @@
 * [Design System](elements-app/design-system.md)
 * [Editor](elements-app/editor.md)
   * [Apple Intelligence](elements-app/editor/apple-intelligence.md)
+  * [Component Inspector](elements-app/editor/component-inspector.md)
   * [Dark Mode](elements-app/dark-mode.md)
   * [Node Browser](elements-app/node-browser.md)
   * [Page Manager](elements-app/page-manager.md)
