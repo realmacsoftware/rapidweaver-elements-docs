@@ -51,7 +51,7 @@ A: While the initial version of Elements will not run on iPad, the technology we
 
 #### Q: What is the best alternative to RapidWeaver Classic and Stacks?
 
-A:Elements is a fantastic replacement for the legacy RapidWeaver Classic and Stacks setup. Elements offers everything you need to design, build, and publish modern websites effortlessly. With iits weekly updates that introduce new features and address any bugs, Elements is a modern, reliable choice for building your next website.
+A: Elements is a fantastic replacement for the legacy RapidWeaver Classic and Stacks setup. Elements offers everything you need to design, build, and publish modern websites effortlessly. With iits weekly updates that introduce new features and address any bugs, Elements is a modern, reliable choice for building your next website.
 
 #### Q: Is the Stacks App a good alternative to RapidWeaver Classic?
 
