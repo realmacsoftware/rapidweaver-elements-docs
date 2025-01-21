@@ -25,6 +25,7 @@
   * [Preview](elements-app/previewing-your-website.md)
   * [Resources](elements-app/resources.md)
   * [Responsive Breakpoints](elements-app/responsive-breakpoints.md)
+  * [Workspaces](elements-app/editor/workspaces.md)
 * [Components](elements-app/components/README.md)
   * [Built-in Components](elements-app/components/built-in-components/README.md)
     * [Button](elements-app/components/built-in-components/button.md)
