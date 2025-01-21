@@ -1,6 +1,5 @@
 ---
 description: Enable Website Previews in Finder Icons (Quicklook)
-hidden: true
 ---
 
 # Quicklook Document

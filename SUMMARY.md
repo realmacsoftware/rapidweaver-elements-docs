@@ -5,9 +5,10 @@
   * [Join the Independent Web](why-elements/join-the-independent-web.md)
   * [Static Website Benefits](why-elements/static-website-benefits.md)
   * [Build a Digital Garden](why-elements/build-a-digital-garden.md)
-* [Elements Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43)
-* [Suggest a Feature](https://elements.nolt.io)
 * [Elements FAQ](elements-faq.md)
+* [Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43)
+* [Marketplace](http://marketplace.realmacsoftware.com/elements/)
+* [Suggest a Feature](https://elements.nolt.io)
 
 ## Elements App
 
