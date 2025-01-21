@@ -1,11 +1,11 @@
 ---
-description: The Definitive RapidWeaver Elements FAQ
 icon: message-question
+description: The Definitive RapidWeaver Elements FAQ
 ---
 
 # Elements FAQ
 
-Welcome to the official and in-depth FAQ documentation for all things RapidWeaver. This resource is designed to provide you with clear and concise answers to the most common questions about RapidWeaver Classic, the Stacks plugin, and RapidWeaver Elements. Whether you’re just getting started or you’re an experienced user, our goal is to make sure you have all the information you need to build stunning websites with confidence.
+Welcome to the official and in-depth FAQ documentation for all things RapidWeaver. This resource is designed to provide you with clear and concise answers to the most common questions about RapidWeaver Classic, Stacks, and RapidWeaver Elements. Whether you’re just getting started or you’re an experienced user, our goal is to make sure you have all the information you need to build stunning websites with confidence.
 
 #### Q: When is the expected launch date for RapidWeaver Elements?
 
