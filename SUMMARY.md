@@ -72,6 +72,7 @@
   * [Typography](elements-app/theme-studio/typography.md)
 * [How to](elements-app/how-to/README.md)
   * [Layout](elements-app/how-to/layout/README.md)
+    * [Build a Sticky Menu](elements-app/how-to/layout/build-a-sticky-menu.md)
     * [Site Banner with Text](elements-app/how-to/layout/site-banner-with-text.md)
     * [Make a two column layout](elements-app/how-to/layout/make-a-two-column-layout.md)
     * [Add an Icon Inside a Button](elements-app/how-to/layout/add-an-icon-inside-a-button.md)
