@@ -1,5 +1,5 @@
 ---
-description: How to make a sticky menu
+description: How to make a sticky menu and change it's visual properties on scroll
 ---
 
 # Build a Sticky Menu
@@ -16,19 +16,17 @@ Watch the following tutorial to see how to build a Sticky Menu, along with addin
 
 {% embed url="https://youtu.be/E7lQCiPmuQo" %}
 
-## Advanced Sticky Menu Tutorial
+## Advanced Sticky Menu Tutorial - Part 2
 
-In this advanced tutorial we use some Javascript to adjust the look of the menu when the user scrolls down the page.
-
-
-
-#### Demo Project
+In this advanced tutorial we use some Javascript to adjust the look of the menu when the user scrolls down the page.&#x20;
 
 You can [click here to open the Space Demo Project](elementsapp://downloadDocument/sDsH9PgNy9uG) in Elements.
 
-#### Code Examples
+{% embed url="https://youtu.be/Wv7J6BpHoEA" %}
 
-Adding and Removing Standard CSS Classes
+### Code Examples
+
+Adding and Removing Standard CSS Classes:
 
 ```javascript
 <script>
@@ -49,7 +47,7 @@ Adding and Removing Standard CSS Classes
 </script>
 ```
 
-Adding and Removing Tailwind Classes
+Adding and Removing Tailwind Classes:
 
 ```javascript
 
