@@ -1,6 +1,6 @@
 # Center Align Components
 
-To change the alignment of the built-in Components, use the Margin setting under the [Spacing Control](../../components/common-controls/spacing.md). Watch the video below to learn more about setting the alignment of an object, including how to center an object.
+To change the alignment of the built-in Components, use the Margin setting under the [Spacing Control](../components/common-controls/spacing.md). Watch the video below to learn more about setting the alignment of an object, including how to center an object.
 
 {% embed url="https://youtu.be/spmpYAMEr-U" %}
 

@@ -1,6 +1,0 @@
----
-icon: table-pivot
----
-
-# Layout
-
