@@ -81,6 +81,7 @@
   * [Add Snow to your Website](elements-app/how-to/add-snow-to-your-website.md)
   * [Build a Sticky Menu](elements-app/how-to/build-a-sticky-menu.md)
   * [Center Align Components](elements-app/how-to/center-align-components.md)
+  * [Create a Card](elements-app/how-to/create-a-card.md)
   * [Site Banner with Text](elements-app/how-to/site-banner-with-text.md)
   * [Make a two column layout](elements-app/how-to/make-a-two-column-layout.md)
 * [Resources](<elements-app/resources (1).md>)
