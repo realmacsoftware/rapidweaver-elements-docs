@@ -52,7 +52,8 @@ In complex layouts, different elements may interact with each other in ways that
 
 ### Visibility
 
-Controls the visibility of an element on the page. See [Tailwind CSS Visibility](https://tailwindcss.com/docs/visibility) for more details.
+Controls the visibility of an element on the page. See [Tailwind CSS Visibility](https://tailwindcss.com/docs/visibility) for more details. \
+**Please note:** The Visibility control was updated Janury 2025, so the video is slightly out of date.
 
 {% embed url="https://youtu.be/Lt9ZGrEG21M" %}
 
