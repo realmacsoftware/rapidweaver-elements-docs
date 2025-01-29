@@ -1,6 +1,6 @@
 ---
 icon: draw-square
-description: Reusable Component Groups
+description: Start quickly, control deeply.
 ---
 
 # Templates
