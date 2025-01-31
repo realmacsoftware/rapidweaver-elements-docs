@@ -132,6 +132,7 @@
         * [Theme Typography](elements-language/bundle-structure/components/properties.json/ui-controls/theme-typography.md)
     * [Templates](elements-language/bundle-structure/components/templates/README.md)
       * [Portal](elements-language/bundle-structure/components/templates/portal.md)
+      * [Server Folder](elements-language/bundle-structure/components/templates/server-folder.md)
       * [Conditional Statements](elements-language/bundle-structure/components/templates/conditional-statements.md)
       * [Regular Expressions](elements-language/bundle-structure/components/templates/regular-expressions.md)
       * [Looping](elements-language/bundle-structure/components/templates/looping.md)
