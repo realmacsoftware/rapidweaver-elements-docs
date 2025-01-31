@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Backend
 
 A folder for deployment of backend files.
