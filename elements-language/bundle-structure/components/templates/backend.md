@@ -2,9 +2,9 @@
 hidden: true
 ---
 
-# Server Folder
+# Backend
 
-Files for deployment to the server.
+A folder for deployment of backend files.
 
 The following supported files will get processed:
 
