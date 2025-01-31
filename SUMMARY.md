@@ -180,6 +180,7 @@
 ## Elements Cloud
 
 * [Getting Started](elements-cloud/account-sign-up.md)
+* [Troubleshooting](elements-cloud/troubleshooting.md)
 
 ## Elements Store
 
