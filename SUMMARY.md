@@ -36,6 +36,7 @@
     * [Container](elements-app/components/built-in-components/container.md)
     * [Divider](elements-app/components/built-in-components/divider.md)
     * [Flex](elements-app/components/built-in-components/flex.md)
+    * [Form](elements-app/components/built-in-components/form.md)
     * [Gallery](elements-app/components/built-in-components/gallery.md)
     * [Grid](elements-app/components/built-in-components/grid.md)
     * [Image](elements-app/components/built-in-components/image.md)
