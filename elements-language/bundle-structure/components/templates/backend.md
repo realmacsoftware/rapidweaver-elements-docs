@@ -91,7 +91,7 @@ Then place this in the `templates/form.html` frontend file.
 <p id="messageDisplay"></p>
 ```
 
-When the submit button is pressed in the above form, the form sends all the form values to the \{{node.backendPath\}}`/process.php` file on the server. The `node.backendPath` property will be replaced with the node's unique id.
+When the submit button is pressed in the above form, the form sends all the form values to the \{{node.backendPath\}}`/submit.php` file on the server. The `node.backendPath` property will be replaced with the node's unique id.
 
 To use the `node.backendPath` property, we'll need to use the hooks.js file. Create a hooks.js file in your component and add this.
 
