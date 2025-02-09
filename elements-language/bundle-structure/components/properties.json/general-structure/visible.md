@@ -4,6 +4,7 @@ The `visible` key in an object's properties can be set using a logical expressio
 
 * **Boolean Logic**: Use logical operators (`&&`, `||`) to combine multiple conditions.
 * **Comparison Operators**: Use `==`, `!=`, `>`, `<`, `>=`, `<=` to compare values.
+* Regex Match: Use `matches` to perform a regex comparison.
 
 ## Examples
 
@@ -28,6 +29,13 @@ The `visible` key in an object's properties can be set using a logical expressio
     ```
 
     The property is visible when `mySwitchControl` is `false`.
+4.  **Match a regex**
+
+    ```json
+    "visible": "name matches /rapid|weaver|elements/"
+    ```
+
+    The property is visible when `name` contains `rapid` or `weaver` or `elements`.
 
 The following example code toggles the visibility of controls based on the value of the switch.
 
@@ -45,10 +53,6 @@ The following example code toggles the visibility of controls based on the value
             }
         }, {
             "information": {},
-            "title": "No Controls",
-            "visible": "testSwitch == false"
-        }, {
-            "information": {},
             "title": "Let's Slide…",
             "visible": "testSwitch == true"
         }, {
@@ -61,6 +65,19 @@ The following example code toggles the visibility of controls based on the value
                 "max": 50,
                 "round": true
             }
+        }]
+    }, {
+        "title": "MATCHES",
+        "icon": "equal",
+        "properties": [{
+            "title": "Name",
+            "id": "name",
+            "responsive": false,
+            "input": {}
+        }, {
+            "information": {},
+            "title": "Name contains rapid or weaver or elements",
+            "visible": "name matches /rapid|weaver|elements/"
         }]
     }]
 }
