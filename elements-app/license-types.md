@@ -28,7 +28,11 @@ The Base license for Elements will place a small floating badge in the corner of
 
 An active Pro license is required for those using Elements as a professional tool. It ensures that as a Pro user you have everything you need to meet the demands of client work, from the freedom to sell  websites to the reliable support and advanced features required to excel in a competitive market.
 
+The Pro license pricing reflects the added value, flexibility, and commercial rights that the **Pro license** provides compared to the **Base license**.
+
 **Resell Websites and Client Projects** -  An active Pro license is required for users to develop and sell websites to third-party clients, making it the ideal choice for freelancers, agencies, or anyone building websites as part of their business. With this license, users have the freedom to fully leverage Elements’ powerful tools and customizations to create and deliver high-quality websites for clients, turning Elements into a valuable asset for generating revenue.
+
+The **Base license** is meant for personal projects or hobbyists, while the **Pro license** is designed for **freelancers, agencies, and businesses** who are making money from reselling websites.
 
 **Priority Support** - The Pro license is specifically aimed at professionals working on client projects, where timely support is crucial. Elements’ priority support helps Pro users troubleshoot issues, get answers to complex questions, and keep projects moving forward without delay—making it a reliable tool for maintaining client satisfaction and meeting project deadlines.
 
