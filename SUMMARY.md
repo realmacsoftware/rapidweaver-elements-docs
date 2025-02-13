@@ -15,6 +15,7 @@
 * [License Types](elements-app/license-types.md)
 * [Downloading & Installation](elements-app/downloading-and-installation.md)
 * [Getting Started](elements-app/getting-started.md)
+* [Keyboard Shortcuts](elements-app/keyboard-shortcuts.md)
 * [Migrations](elements-app/migrations/README.md)
   * [Migrating from Blocs](elements-app/migrations/migrating-from-blocs.md)
   * [Migrating from Classic](elements-app/migrations/migrating-from-classic.md)
