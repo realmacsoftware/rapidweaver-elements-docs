@@ -4,7 +4,9 @@ icon: rectangle-history
 
 # Collections
 
-Collcetions are a flexible way to create datasets for your element. You can add multiple collections to your elements.
+Collections are a flexible way to create datasets for your element. You can add multiple collections to your elements.
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-02-13 at 9 .05.06@2x.png" alt=""><figcaption><p>Example Collection view with four records.</p></figcaption></figure>
 
 To add data collections to your element you must first create a `collections` folder at the root of your element.
 
