@@ -13,7 +13,7 @@ A: Elements will launch as a public beta in 2025.
 
 #### Q: What are the system requirements for Elements?
 
-A: RapidWeacer Elements requires macOS Ventura (13.x) or newer.
+A: RapidWeaver Elements requires macOS Ventura (13.x) or newer.
 
 #### Q: Will my existing RapidWeaver themes be compatible?
 
