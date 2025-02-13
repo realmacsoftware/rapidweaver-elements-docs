@@ -10,6 +10,12 @@ Collections are a flexible way to create datasets for your element. You can add 
 
 To add data collections to your element you must first create a `collections` folder at the root of your element.
 
+{% hint style="info" %}
+A public [repository on GitHub](https://github.com/realmacsoftware/RWElementDevPacks/tree/main) with a growing collection of Element Dev Packs is now available, including Collection examples!
+{% endhint %}
+
+###
+
 **Example structure**
 
 ```
