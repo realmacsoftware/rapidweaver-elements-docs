@@ -25,7 +25,7 @@ If you think we're missing a category, please visit the [forum and let us know](
 | **Accessibility** | ARIA Lables, Contrast Checkers.                               |
 | **Animation**     | Hover Effects, Animated SVG's.                                |
 | **Dynamic**       | CMS Components, Google Sheets                                 |
-| **Utilities**     | Cookies, Anchors, Placeholders, Dividers.                     |
+| **Utility**       | Cookies, Anchors, Placeholders, Dividers.                     |
 | **Interactive**   | Modals, Popovers, Accordions, Carousels.                      |
 | **Security**      | Password Protection, Login Forms.                             |
 
