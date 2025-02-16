@@ -173,6 +173,7 @@
   * [Collections](elements-language/bundle-structure/collections/README.md)
     * [Data collections in Hooks.js](elements-language/bundle-structure/collections/data-collections-in-hooks.js.md)
     * [Accessing Data in Templates](elements-language/bundle-structure/collections/accessing-data-in-templates.md)
+    * [Collections in properties.json](elements-language/bundle-structure/collections/collections-in-properties.json.md)
   * [Shared Files](elements-language/bundle-structure/shared-files/README.md)
     * [Assets](elements-language/bundle-structure/shared-files/assets.md)
     * [Hooks](elements-language/bundle-structure/shared-files/hooks.md)
