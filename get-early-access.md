@@ -1,6 +1,6 @@
 ---
-description: Learn more about Elements Early Access
 icon: rocket-launch
+description: Learn more about Elements Early Access
 ---
 
 # Get Early Access
@@ -18,10 +18,10 @@ The Elements Beta helped us refine the foundation, and now we’re confident Ele
 
 ### How to Join Early Access
 
-You can get Early Access today by visiting [elementsapp.io](https://elementsapp.io/) and purchasing a copy. Once you do, you’ll be able to start building with Elements right away!
+If you're comfortable using in-development software, you can get Early Access today by visiting [elementsapp.io](https://elementsapp.io/) and purchasing a copy. Once you do, you’ll be able to start building with Elements right away!
 
 ### Your Feedback Matters!
 
-By using Elements, sharing your experiences, and letting us know what works (and what could be better), you’re playing a huge role in shaping its future. We love hearing from you, so keep that feedback coming!
+By using Elements, [sharing your experiences](https://forums.realmacsoftware.com/c/rapidweaver-elements/43), and letting us know what works (and what could be better), you’re playing a huge role in shaping its future. We love hearing from you, so keep that feedback coming!
 
 Thanks for being part of this journey—we can’t wait to see what you create with Elements! ✨
