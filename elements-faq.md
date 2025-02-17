@@ -9,7 +9,7 @@ Welcome to the official and in-depth FAQ documentation for all things RapidWeave
 
 #### Q: When is the expected launch date for RapidWeaver Elements?
 
-A: [Elements is now in Early Access](https://www.elementsapp.io/?utm_source=element-docs), and available to purchase.
+A: [Elements is now in Early Access](get-early-access.md), and available to purchase — An official 1.0 release build will be available later this year.
 
 #### Q: What are the system requirements for Elements?
 
