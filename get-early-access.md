@@ -18,7 +18,7 @@ The Elements Beta helped us refine the foundation, and now we’re confident Ele
 
 ### How to Join Early Access
 
-If you're comfortable using in-development software, you can get Early Access today by visiting [elementsapp.io](https://elementsapp.io/) and purchasing a copy. Once you do, you’ll be able to start building with Elements right away!
+If you're comfortable using in-development software, you can [get Early Access](https://www.elementsapp.io/?utm_source=element-docs) today by visiting [elementsapp.io](https://www.elementsapp.io/?utm_source=element-docs) and purchasing a copy. Once you do, you’ll be able to start building with Elements right away!
 
 Right now, Early Access is only available to paying users. This allows us to focus on providing the best experience and support for those actively using Elements.&#x20;
 
