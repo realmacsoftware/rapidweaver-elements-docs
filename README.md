@@ -14,7 +14,7 @@ Elements has everything you need built-in to build a beautiful modern website, a
 {% hint style="info" %}
 ### 🚀 Elements is now in Early Access.
 
-[Click here to learn more.](get-early-access.md)
+Elements is moving from Private Beta to Early Access, [click here to learn more](get-early-access.md) about this exciting announcement!
 {% endhint %}
 
 ### Elements is Community Driven
