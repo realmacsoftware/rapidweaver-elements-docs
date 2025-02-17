@@ -9,7 +9,7 @@ Welcome to the official and in-depth FAQ documentation for all things RapidWeave
 
 #### Q: When is the expected launch date for RapidWeaver Elements?
 
-A: Elements will launch as a public beta in 2025.
+A: [Elements is now in Early Access](https://www.elementsapp.io/?utm_source=element-docs), and available to purchase.
 
 #### Q: What are the system requirements for Elements?
 

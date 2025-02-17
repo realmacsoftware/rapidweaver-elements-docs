@@ -7,7 +7,7 @@ description: RapidWeaver Elements is a desktop application for macOS.
 
 ### Download and Install Elements
 
-First, you'll need to [Download Elements](https://elementsapp.io/download/) — look for the download button on the page. When the download is complete double-click to unzip the file, then move Elements.app to your Applications Folder.
+First, you'll need to [Download Elements](https://www.elementsapp.io/?utm_source=element-docs) — look for the download button on the page. When the download is complete double-click to unzip the file, then move Elements.app to your Applications Folder.
 
 ### System Requirements
 
