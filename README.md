@@ -11,6 +11,12 @@ Elements is a no-code static website builder for macOS. It's designed to cater t
 
 Elements has everything you need built-in to build a beautiful modern website, and it's getting better all the time thanks to our passionate user base.
 
+{% hint style="info" %}
+### 🚀 Elements is now in Early Access.
+
+[Click here to get Early Access to Elements](get-early-access.md).
+{% endhint %}
+
 ### Elements is Community Driven
 
 We listen to our amazing community of passionate users and build the features they want. Why not [Suggest a Feature](https://elements.nolt.io), or [View the Roadmap](https://elements.nolt.io/roadmap) (as voted on by our users).

@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Get Early Access](get-early-access.md)
 * [Why Elements?](why-elements/README.md)
   * [Join the Independent Web](why-elements/join-the-independent-web.md)
   * [Static Website Benefits](why-elements/static-website-benefits.md)
