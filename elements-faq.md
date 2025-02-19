@@ -55,7 +55,7 @@ A: Elements is a fantastic replacement for the legacy RapidWeaver Classic and St
 
 #### Q: Is the Stacks App a good alternative to RapidWeaver Classic?
 
-A: The standalone Stacks App was publicly [announced in early 2022](https://blog.yourhead.com/the-stacks-5-app-faq/), but three years later, a usable beta has yet to be released. While the Stacks plugin was a popular addition to RapidWeaver Classic, it was also the primary cause of crashes and instability. Furthermore, Stacks relies on a deprecated version of Apple’s WebKit framework, which poses significant risks for long-term compatibility and performance.
+A: The standalone Stacks App was publicly [announced in early 2022](https://blog.yourhead.com/the-stacks-5-app-faq/), but three years later, a usable beta has yet to be released. While the Stacks plugin was a popular addition to RapidWeaver Classic, it was also the primary cause of crashes and instability. Furthermore, Stacks relies on a deprecated version of Apple’s WebKit framework, which poses significant risks for long-term compatibility and performance. We have yet to see any&#x20;
 
 In late 2024, several prominent third-party Stacks developers, including Stacks4Stacks and Elixir Graphics, ceased operations. This shift was largely driven by declining sales and waning interest in the Stacks platform and its ecosystem, signaling a broader transition away from this legacy technology.
 

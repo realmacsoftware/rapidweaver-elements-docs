@@ -12,7 +12,6 @@ The shared folder lives at the root of the Element Dev Pack and is accesible by 
   * themes (folder)
   * **shared (folder)**
     * [assets (folder)](assets.md)
-    * [hooks (folder)](hooks.md)
     * [templates (folder)](templates.md)
       * bodyStart (folder)
       * bodyEnd (folder)

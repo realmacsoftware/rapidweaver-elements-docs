@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Hooks
 
 This folder should only contain JS files! There is no restriction on naming.
