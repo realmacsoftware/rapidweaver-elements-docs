@@ -1,9 +1,9 @@
 ---
-description: A brief introduction to the Elements templating language
 icon: wreath
+description: A brief introduction to the Elements templating language
 ---
 
-# API Introduction
+# Introduction
 
 The Elements language is a simple, yet powerful **templating language** for RapidWeaver Elements, it's often referred to as the Elements API.
 
@@ -25,9 +25,9 @@ A public [repository on GitHub](https://github.com/realmacsoftware/RWElementDevP
 
 ### Developer Community
 
-We have a [dedicated developer area](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58) on the [RapidWeaver Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58). The [developer group](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58) is open to anyone interested in building addons for the RapidWeaver Elements ecosystem.&#x20;
+We have a [Component Development area](https://forums.realmacsoftware.com/c/rapidweaver-elements/custom-components/56) on the [Elements Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/developer/58) — It's open to anyone interested in using or building addons for the RapidWeaver Elements ecosystem.&#x20;
 
-We're always around to offer help with getting started or if you just need a hand while developing your next great addon for RapidWeaver. Come join us, we're a friendly bunch ☺️
+We're always around to offer help with getting started or if you just need a hand while developing your next great addon for Elements. Come join us, we're a friendly bunch ☺️
 
 **Got questions?** email support@realmacsoftware.com
 

@@ -24,6 +24,10 @@ Right now, Early Access is only available to paying users. This allows us to foc
 
 This approach ensures that our paying customers get taken care of first, with frequent updates and improvements based on real-world use. Your support helps shape the future of Elements, and we truly appreciate it! 🙌✨
 
+### How long will Elements be in Early Access
+
+As long as needed, but our goal is to ship a 1.0 version later this year!
+
 ### Your Feedback Matters!
 
 By using Elements, [sharing your experiences](https://forums.realmacsoftware.com/c/rapidweaver-elements/43), and letting us know what works (and what could be better), you’re playing a huge role in shaping its future. We love hearing from you, so keep that feedback coming!
