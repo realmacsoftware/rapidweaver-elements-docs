@@ -60,9 +60,9 @@ Rather than wrapping your @include statement inside an @if statement, you can us
 @endif
 
 // You can do this:
-@includeIf(myVariable, "myTemplate")
+@includeIf(myVariable, template:"myTemplate")
 
 // You can also negate the property
-@includeIf(!myVariable, "myTemplate")
+@includeIf(!myVariable, template:"myTemplate")
 ```
 
