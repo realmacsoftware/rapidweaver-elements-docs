@@ -72,6 +72,7 @@ All of the following icon libraries work well Elements, if you require them to b
 * [https://feathericons.com](https://feathericons.com), simply beautiful open source icons
 * [https://phosphoricons.com](https://phosphoricons.com/?size=64\&weight=%22duotone%22), outline, filled, duotone and more.
 * [https://heroicons.com](https://heroicons.com/outline), hand-crafted SVG icons, by the makers of Tailwind CSS (you'll need to the code into a file and save it with a .svg extension before adding to Elements).
+* [https://svgl.app](https://svgl.app), a beautiful library of company SVG logos.
 
 ### Further Reading
 
