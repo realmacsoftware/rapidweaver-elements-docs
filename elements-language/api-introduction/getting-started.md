@@ -7,8 +7,16 @@ description: Building your first Component
 In this getting started guide we'll learn how to create a Component inside an Element DevPack, and then edit it and see the updates live in Elements.
 
 {% hint style="info" %}
-A public [repository on GitHub](https://github.com/realmacsoftware/RWElementDevPacks/tree/main) with a growing collection of Element Dev Packs is now available.
+A public [repository on GitHub](https://github.com/realmacsoftware/RWElementDevPacks/tree/main) with example Element Dev Packs is now available.
 {% endhint %}
+
+### Installing an existing Dev Pack into Elements
+
+A growing collection of example Dev Packs are available in our public [GitHub repository](https://github.com/realmacsoftware/RWElementDevPacks/tree/main). These can be downloaded and installed for use in Elements. To load an existing Dev Pack into Elements, follow the steps below.
+
+1. Launch Elements and open the app Settings window (command-,) and select the "Addons" panel.
+2. Click the "Add Pack" button to navigate to and select an existing Dev Pack. You should now see your chosen Dev Pack in the Installed Addons list view. You cna now close the Settings window.
+3. Open an existing document (or create a new one), and navigate to the Components panel, the components inside of the dev pack you added should now be listed and can be added to your project.
 
 ### Creating an Element Dev Pack & Component
 
@@ -16,7 +24,7 @@ The boilerplate code for an Element Dev Pack (and Component) can be created insi
 
 Go to Elements > Settings > Addons and click the "Create Pack" button in the bottom left had corner of the window. You will then be prompted to enter information about your pack, such as developer name and title, along with a location to save the Dev Pack.
 
-Watcht the short video below to see how to create an Element  Dev Pack including a Component.
+Watch the short video below to see how to create an Element  Dev Pack including a Component.
 
 {% embed url="https://youtu.be/wFXaFmr4kmg?si=QJDFotPPgf6Lb7ZZ" %}
 
