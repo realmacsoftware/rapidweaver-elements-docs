@@ -18,6 +18,10 @@ A growing collection of example Dev Packs are available in our public [GitHub re
 2. Click the "Add Pack" button to navigate to and select an existing Dev Pack. You should now see your chosen Dev Pack in the Installed Addons list view. You cna now close the Settings window.
 3. Open an existing document (or create a new one), and navigate to the Components panel, the components inside of the dev pack you added should now be listed and can be added to your project.
 
+Watch the short video below to see how to install an Element Dev Pack.
+
+{% embed url="https://youtu.be/qGxY-toYjdY" %}
+
 ### Creating an Element Dev Pack & Component
 
 The boilerplate code for an Element Dev Pack (and Component) can be created inside Elements.
@@ -36,8 +40,16 @@ The following video will show you how to edit your newely created component with
 
 ### Adding Assets to a Component
 
-The following video shows how you can add extra files for use in your Component. This videos shows adding a js file and linking to it from the page template.
+The following video shows how you can add extra files for use in your Component. This videos shows adding a JS file and linking to it from the page template.
 
 You can also [add shared files](../bundle-structure/shared-files/) that can be used by all the components in a pack. This videos focuses on [page level Assets](../bundle-structure/components/assets.md).
 
 {% embed url="https://youtu.be/zegch8Rd4uw" %}
+
+### Add a Custom Icon to your Component
+
+Adding a custom icon to your Components gives them an extra level of polish, while making them easier to find visual in Elements.&#x20;
+
+Watch the short video below to learn more about adding custom icons to your Components.
+
+{% embed url="https://www.youtube.com/watch?v=qZOiHiWnjW8" %}
