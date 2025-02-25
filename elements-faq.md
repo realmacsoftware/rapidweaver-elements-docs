@@ -5,17 +5,19 @@ description: The Definitive RapidWeaver Elements FAQ
 
 # Elements FAQ
 
-Welcome to the official and in-depth FAQ documentation for all things RapidWeaver. This resource is designed to provide you with clear and concise answers to the most common questions about RapidWeaver Classic, Stacks, and RapidWeaver Elements. Whether you’re just getting started or you’re an experienced user, our goal is to make sure you have all the information you need to build stunning websites with confidence.
+Welcome to the official and in-depth FAQ documentation for all things RapidWeaver. This resource is designed to provide you with clear and concise answers to the most common questions about RapidWeaver Elements. Whether you’re just getting started or you’re an experienced user, our goal is to make sure you have all the information you need to build stunning websites with confidence.
 
 #### Q: When is the expected launch date for RapidWeaver Elements?
 
-A: [Elements is now in Early Access](get-early-access.md), and available to purchase — An official 1.0 release build will be available later this year.
+A: [Elements is in Early Access](get-early-access.md), and available to purchase. However, it is not a finished product and we don't have a set release date for the final 1.0 release. We're continuing to work closly with our paying early access customers to give them the support and features they need.
+
+We hope to have an official 1.0 release available later this year. You can [learn more about joining our Early Access programe here](get-early-access.md).
 
 #### Q: What are the system requirements for Elements?
 
 A: RapidWeaver Elements requires macOS Ventura (13.x) or newer.
 
-#### Q: Will my existing RapidWeaver themes be compatible?
+#### Q: Will my existing RapidWeaver Classic themes be compatible?
 
 A: Elements will not support Classic legacy themes. It’s been a tough decision to make, but ultimately we think Elements will be a much better product if we build it for the future of web design.
 
