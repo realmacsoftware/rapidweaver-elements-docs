@@ -10,7 +10,7 @@ Just like our company, we believe the web should stay open and independent. When
 
 You can post anything you want, in any format you want. In addition, you share simple readable links such as _example.com/ideas_. These links are [permanent](https://indieweb.org/permalinks) and will always work.
 
-**Take back control and build your next website with** [**RapidWeaver Elements**](https://www.realmacsoftware.com/rapidweaver/elements/)**!**
+**Take back control and build your next website with** [**Elements**](https://www.realmacsoftware.com/rapidweaver/elements/) **on macOS.**
 
 ### **Further Reading**
 
@@ -22,3 +22,5 @@ You can post anything you want, in any format you want. In addition, you share s
   You already have a social media account. But you should also have a personal website.
 * [Autonomy Online: A Case For The IndieWeb](https://www.smashingmagazine.com/2020/08/autonomy-online-indieweb/)\
   One of the principles of the IndieWeb is that you own your content
+* [This Page is Under Construction](https://localghost.dev/blog/this-page-is-under-construction/).\
+  A love letter to the personal website.
