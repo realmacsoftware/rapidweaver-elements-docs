@@ -109,11 +109,11 @@ Each one of these modes correspond to the appropriate Tailwind utility classes. 
 
 The single mode allows you to access the spacing scale from the Theme Studio in a single select control. This is handy when you need to set a single property rather than all four properties (top, right, bottom left). For example, if you need to set only the `top` css property you can do so like this:
 
-```
+```json
 {
     "title": "Top",
     "id": "top",
-    "format": "top-{{value}}"
+    "format": "top-{{value}}",
     "themeSpacing": {
         "mode": "single",
         "default": {
