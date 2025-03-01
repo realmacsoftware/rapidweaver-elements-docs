@@ -89,6 +89,7 @@
   * [Site Banner with Text](elements-app/how-to/site-banner-with-text.md)
   * [Make a two column layout](elements-app/how-to/make-a-two-column-layout.md)
 * [Resources](<elements-app/resources (1).md>)
+* [Troubleshooting](elements-app/troubleshooting.md)
 * [Quicklook Document](elements-app/quicklook-document.md)
 
 ## Elements Language
