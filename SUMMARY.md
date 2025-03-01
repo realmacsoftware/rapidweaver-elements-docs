@@ -90,6 +90,7 @@
   * [Make a two column layout](elements-app/how-to/make-a-two-column-layout.md)
 * [Resources](<elements-app/resources (1).md>)
 * [Troubleshooting](elements-app/troubleshooting.md)
+* [SEO](elements-app/seo.md)
 * [Quicklook Document](elements-app/quicklook-document.md)
 
 ## Elements Language
