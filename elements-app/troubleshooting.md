@@ -8,7 +8,7 @@ icon: face-scream
 
 ## Removing Preferences
 
-Before deleting your preferences file, ensure you have a copy of your license number. You will need to re-enter it when launching Elements. To reset Elements, remove the preferences file by following these steps.
+To reset Elements, remove the preferences file by following these steps.
 
 {% stepper %}
 {% step %}
@@ -38,7 +38,7 @@ Delete the file: `com.realmacsoftware.rapidweaverelements.plist`
 {% step %}
 ### Re-launch Elements
 
-You can now safely re-launch Elements and re-register.
+You can now safely re-launch Elements.
 {% endstep %}
 {% endstepper %}
 
