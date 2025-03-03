@@ -10,6 +10,12 @@ icon: face-scream
 
 To reset Elements, remove the preferences file by following these steps.
 
+{% hint style="info" %}
+For an automatica way to remove the Preferences you can do the following. Hold down the option key and go to Help > Clear Applications Preferences.
+{% endhint %}
+
+
+
 {% stepper %}
 {% step %}
 ### Quit Elements
