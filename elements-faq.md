@@ -9,9 +9,9 @@ Welcome to the official and in-depth FAQ documentation for all things RapidWeave
 
 #### Q: When is the expected launch date for RapidWeaver Elements?
 
-A: [Elements is in Early Access](early-access/), and available to purchase. However, it is not a finished product and we don't have a set release date for the final 1.0 release. We're continuing to work closly with our paying early access customers to give them the support and features they need.
+A: [Elements is in Early Access](early-access.md), and available to purchase. However, it is not a finished product and we don't have a set release date for the final 1.0 release. We're continuing to work closly with our paying early access customers to give them the support and features they need.
 
-We hope to have an official 1.0 release available later this year. You can [learn more about joining our Early Access programe here](early-access/).
+We hope to have an official 1.0 release available later this year. You can [learn more about joining our Early Access programe here](early-access.md).
 
 #### Q: What are the system requirements for Elements?
 

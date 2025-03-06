@@ -1,13 +1,9 @@
 ---
-description: Licensing and Activation information
 icon: file-certificate
+description: License Activation information
 ---
 
-# Licensing & Activation
-
-Below you'll find licensing information for RapidWeaver Elements.
-
-### License recovery <a href="#license-recovery" id="license-recovery"></a>
+# License Activation
 
 If you've lost your license, visit our [License Manager](https://realmac.onfastspring.com/account?_ga=2.10544500.1105777797.1626726782-1957467528.1625162309) and use the automated system to help find your previous purchases.
 
@@ -87,63 +83,4 @@ You can email [support@realmacsoftware.com](mailto:support@realmacsoftware.com) 
 6. Try starting your Mac in Safe Mode. A [guide can be found here](https://www.macworld.com/article/671817/how-to-start-a-mac-in-safe-mode.html) on how to do this.
 
 Trying out the above will help you narrow down the problem and determine if your Mac or network is causing the issue.
-
-## Purchasing <a href="#purchasing" id="purchasing"></a>
-
-This purchasing FAQ is currently being updated regularly based on questions we've been asked or seen on related forums.
-
-If you have any issues or need anything clarifying, please email [support@realmacsoftware.com](mailto:support@realmacsoftware.com) - we're always here to help 🙏
-
-### **Q: I didn't receive a license email. Where is it?!**
-
-If you purchase one of our products, you will receive an order confirmation email within 5 minutes confirming your order along with your license number for the product. The email will be sent from "[mailer@fastspring.com](mailto:mailer@fastspring.com)" which is our payment provider. If you can't find the email it's usually because of one of the following reasons:
-
-* The email from us ended up in your Spam Folder.
-* You entered your email address incorrectly when purchasing (no shame, we've all done it!).
-
-The first step is to check your spam folder for anything from Realmac Software or [mailer@fastspring.com](mailto:mailer@fastspring.com).
-
-If you still can't find your order email, you can contact us directly: [support@realmacsoftware.com](mailto:support@realmacsoftware.com). Please include your name, email address, what product you purchased, and when — this will help speed up the search!
-
-### **Q: Do you offer refunds?**
-
-**Yes!** We offer a 30 day money-back guarantee.
-
-If you've purchased Elements from us and are not happy, let us know within 30 days, and we'll issue a refund for you.
-
-Please forward your original email receipt from your purchase to obtain your refund. While you don't have to do this, it does make it much quicker for us to find and process.
-
-Send this email to [support@realmacsoftware.com](mailto:support@realmacsoftware.com)
-
-We generally issue refunds within 48 hours (often quicker).
-
-{% hint style="info" %}
-You don’t need to include a reason, but we really appreciate your feedback to help us improve Elements.
-{% endhint %}
-
-### **Q: Is Elements subscription based?**
-
-Not in the traditional sense. When you purchase a Elements license from our [online store](https://www.realmacsoftware.com/store/), you are automatically subscribed to one year of app updates. The license itself will not expire (you can use it forever), however the one year period of app updates will renew on an annual basis.
-
-Please note the following:
-
-* Subscriptions automatically renew **unless you cancel them**.
-* If you cancel, your one year period of app updates will remain active until the next renewal date.
-* You can [manage your subscription here](https://realmac.onfastspring.com/account/).
-
-### **Q: What is your subscription cancellation policy?**
-
-You can cancel your subscription anytime via your [Billing Manager](https://realmac.onfastspring.com/account/).
-
-We offer a 30 day money-back guarantee from the date you **initially purchase** a license for our software. During those initial 30 days you can cancel your subscription and request a refund with no questions asked.
-
-Subsequent automatic subscription renewals **are not refundable under our 30 day money-back guarantee.**
-
-### **Q: What happens if I cancel my subscription?**
-
-Your one year period of app updates will remain active. You will continue to receive updates until the next renewal date. If you wish to receive further updates after that renewal date, you will need to manually re-subscribe.
-
-### **Q: What happens if my subscription expires?**
-
-You get to keep the version of Elements you're currently using, you just won't receive any further updates to it. You'll need to re-subscribe to start receiving updates again.
 

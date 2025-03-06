@@ -1,8 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Early Access](early-access/README.md)
-  * [License Types](early-access/license-types.md)
+* [Early Access](early-access.md)
 * [Elements FAQ](elements-faq.md)
 * [Why Elements?](why-elements/README.md)
   * [Join the Independent Web](why-elements/join-the-independent-web.md)
@@ -14,8 +13,10 @@
 
 ## Elements App
 
-* [Downloading & Installation](elements-app/downloading-and-installation.md)
-* [Licensing & Activation](elements-app/licensing-and-activation.md)
+* [Download & Installation](elements-app/download-and-installation.md)
+* [Purchasing](elements-app/purchasing/README.md)
+  * [License Types](elements-app/purchasing/license-types.md)
+  * [License Activation](elements-app/purchasing/license-activation.md)
 * [Getting Started](elements-app/getting-started.md)
 * [Keyboard Shortcuts](elements-app/keyboard-shortcuts.md)
 * [Migrations](elements-app/migrations/README.md)

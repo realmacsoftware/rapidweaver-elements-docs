@@ -7,6 +7,8 @@ description: Choose the perfect license for your needs
 
 With Elements’ three license options—Base, Plus, and Pro, you can choose the plan that best fits your needs, whether you're a casual user, hobbyist, or professional web designer.
 
+You can [purchase Elements via our website](https://www.elementsapp.https/www.elementsapp.io/purchase/?utm_source=elements-manual).&#x20;
+
 **Each license includes:**
 
 * Unlimited websites
