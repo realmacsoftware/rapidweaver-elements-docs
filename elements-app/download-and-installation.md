@@ -3,7 +3,7 @@ icon: desktop-arrow-down
 description: RapidWeaver Elements is a desktop application for macOS.
 ---
 
-# Downloading & Installation
+# Download & Installation
 
 ### Download and Install Elements
 
@@ -17,6 +17,10 @@ In order to run Elements you will need to meet the minimum requirements:
 * Apple Silicon or Intel based Mac.
 
 Elements is built to work on all modern macs, so long as they meet the minimum requirements you'll be good to go.
+
+#### Important Note for [OpenCore Legacy Patcher ](https://dortania.github.io/OpenCore-Legacy-Patcher/)Users
+
+If you are using an older Intel-based Mac with tools like MyBootMgr and OpenCore Legacy Patcher to install a newer macOS version unsupported by your hardware, you might encounter issues with Elements. We do not recommend or support this setup.
 
 ### Getting Help
 
