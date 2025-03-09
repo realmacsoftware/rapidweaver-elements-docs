@@ -20,7 +20,7 @@ Elements is built to work on all modern macs, so long as they meet the minimum r
 
 #### Important Note for [OpenCore Legacy Patcher ](https://dortania.github.io/OpenCore-Legacy-Patcher/)Users
 
-If you are using an older Intel-based Mac with tools like MyBootMgr and OpenCore Legacy Patcher to install a newer macOS version unsupported by your hardware, you might encounter issues with Elements. We do not recommend or support this setup.
+If you are using an older Intel-based Mac with tools like MyBootMgr and OpenCore Legacy Patcher to install a newer macOS version unsupported by your hardware, you might encounter issues with Elements ([Issue #1](https://forums.realmacsoftware.com/t/components-does-not-showing-in-editor/46486), [Issue #2](https://forums.realmacsoftware.com/t/trying-to-edit-text-greys-the-entire-workspace-out/46587)) — We do not recommend or support this setup.
 
 ### Getting Help
 
