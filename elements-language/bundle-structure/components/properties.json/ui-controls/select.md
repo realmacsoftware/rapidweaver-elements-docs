@@ -1,6 +1,8 @@
 # Select
 
-Displays a select box, also known as a dropdown menu.&#x20;
+Displays a select box, also known as a dropdown menu. A select box can be responsive or non-responsive and has two or more items to choose from.&#x20;
+
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2025-03-10 at 21.11.14.png" alt=""><figcaption></figcaption></figure>
 
 #### Property Schema
 
