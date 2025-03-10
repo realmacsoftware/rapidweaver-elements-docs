@@ -29,3 +29,10 @@ A webhook allows your form submissions to be sent directly to another service, l
 • Create support tickets in Zendesk or Trello
 
 There's really no limit to what you can do with the new webhooks feature. Whether you’re building a customer support system, a lead capture form, or a dynamic survey that feeds into a database, webhooks unlock powerful automation and customization that email simply can’t match.
+
+{% hint style="info" %}
+**Webhooks and Attachments:** If you are using an attachment in your form, only the first attached file will be sent via the WebHook.
+{% endhint %}
+
+
+
