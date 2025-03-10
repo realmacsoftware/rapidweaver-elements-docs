@@ -8,6 +8,17 @@ Elements has a host of available keyboard shortcuts.
 
 {% file src="../.gitbook/assets/Elements Keyboard Shortcuts v1.pdf" %}
 
+### Editor
+
+| Action              | Keyboard Shortcut | Details |
+| ------------------- | ----------------- | ------- |
+| Quick Add Window    | Command-Shift-F   |         |
+| Next Workspace      | Command+Option+.  |         |
+| Previous Workspace  | Command+Option+,  |         |
+| Show/Hide Titles    | Command+Option+'  |         |
+| Show/Hide Outlines  | Command+shift+'   |         |
+| Show/Hide Selection | Command+'         |         |
+
 ### Screens
 
 | Action          | Keyboard Shortcut | Details |
