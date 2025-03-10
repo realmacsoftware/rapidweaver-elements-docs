@@ -24,6 +24,8 @@ The returned value is dependent on the responsive setting and either returns a s
 
 #### Example
 
+Below is an example of a typical responsive dropdown that returns one or more tailwind text transform classes, one for each device breakpoint.
+
 {% tabs %}
 {% tab title="Control Example" %}
 ```json
