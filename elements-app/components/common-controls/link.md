@@ -26,8 +26,16 @@ Custom attributes in an link (anchor tag) provide additional information about h
 
 <table><thead><tr><th width="106">Name</th><th width="210">Value</th><th>Description</th></tr></thead><tbody><tr><td>title</td><td>Go to Example Website</td><td>Provides additional information about the link, usually displayed as a tooltip when the user hovers over the link.</td></tr><tr><td>rel</td><td>noreferrer</td><td>Ensures that no referrer information (the URL of the current page) is sent to the destination.</td></tr><tr><td>rel</td><td>nofollow</td><td>Tells search engines not to follow this link for SEO purposes.</td></tr><tr><td>type</td><td>application/pdf</td><td>Specifies the MIME type of the linked resource. This is typically used when linking to downloadable files or specific content types. This example is for a pdf document.</td></tr></tbody></table>
 
-## Link UI in Elements
+### Linking to an Anchor
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-19 at 9 .21.00@2x.png" alt=""><figcaption><p>RapidWeaver Elements Component Link</p></figcaption></figure>
+1. You first need to add an ID to the component that will serve as your anchor. The ID can be found in the Advanced section in the settings for the selected component.
+2. Then where you want to create your link in the text. Select the text, which will display the inline text&#x20;
+   * Click the LINK button in the inline text editor to open the link dialog.
+   * If your anchor is on the same page, choose the page from the dropdown next to the link field.
+   * This will display all available anchors in the Anchor popup.
+   * Select the desired anchor, and you're done.
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-19 at 9 .07.39@2x.png" alt=""><figcaption><p>RapidWeaver Elements Link Panel</p></figcaption></figure>
+{% embed url="https://youtu.be/ZBxTRLSlOoA" %}
+
+
+
