@@ -34,5 +34,7 @@ There's really no limit to what you can do with the new webhooks feature. Whethe
 **Webhooks and Attachments:** If you are using an attachment in your form, only the first attached file will be sent via the WebHook.
 {% endhint %}
 
+{% include "../../../.gitbook/includes/common-controls.md" %}
+
 
 

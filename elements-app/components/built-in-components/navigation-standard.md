@@ -4,6 +4,12 @@ description: Automatically build and display your website navigation
 
 # Navigation - Standard
 
+Details comign soon.
+
+{% include "../../../.gitbook/includes/common-controls.md" %}
+
+
+
 ### How to create a traditional "Sticky" menu
 
 The “Sticky” option under **Layout > Position** applies the CSS property `position: sticky`. However, it might not behave as intuitively as expected.

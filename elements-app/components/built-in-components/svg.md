@@ -32,6 +32,8 @@ To set a stroke colour on an SVG it needs to be setup correctly to support strok
 
 <table><thead><tr><th width="136">Link Types</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No colour or classes will be applied to the SVG.</td></tr><tr><td>Static</td><td>Set a single fill colour on the SVG.</td></tr><tr><td>Hover</td><td>Set a Start and End colour for the SVG. The Hover colour is displayed when the mouse cursor is over the SVG.</td></tr><tr><td>Width</td><td>Set a stroke width for the SVG in pixels.</td></tr></tbody></table>
 
+{% include "../../../.gitbook/includes/common-controls.md" %}
+
 ### Q\&A on fixing SVG's for display on a website.
 
 Getting SVG's to display correctly is a bit of a dark art, but with a bit of tinkering you'll be able to modify them to work and look great on the web and in Elements.

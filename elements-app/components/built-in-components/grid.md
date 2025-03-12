@@ -19,3 +19,5 @@ Once your containers are in the grid, you can adjust their behavior by changing 
 • Alternatively, you can define the grid as having 12 columns and assign each grid item a width of 3. This approach is functionally identical but provides more granular control. While both methods work, many find the simpler “4 columns, 1 width per item” method easier to manage.
 
 Grids can feel a bit tricky at first, but once you get the hang of it, they’re incredibly flexible and powerful.&#x20;
+
+{% include "../../../.gitbook/includes/common-controls.md" %}

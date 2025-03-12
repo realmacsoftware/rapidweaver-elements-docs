@@ -26,3 +26,5 @@ Basic image protection can be applied using the Image Protection option under th
 It’s a common request: protect images on a website from being downloaded or copied. While blocking right-click can deter casual users, it’s important to understand that it doesn’t truly secure your images. Web browsers inherently download all page assets—including images—so they can display them. This means anyone with basic knowledge of developer tools or access to the browser’s cache can still retrieve your images.
 
 Instead of relying on “image protection,” consider watermarking your images or ensuring they’re resized and optimized for the web. This approach makes them less valuable for unauthorized use while still serving their purpose on your site.
+
+{% include "../../../.gitbook/includes/common-controls.md" %}
