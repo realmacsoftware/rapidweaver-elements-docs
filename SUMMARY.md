@@ -94,6 +94,8 @@
 * [Troubleshooting](elements-app/troubleshooting.md)
 * [SEO](elements-app/seo.md)
 * [Quicklook Document](elements-app/quicklook-document.md)
+* [Advanced](elements-app/advanced/README.md)
+  * [URL Scheme](elements-app/advanced/url-scheme.md)
 
 ## Elements Language
 
