@@ -1,16 +1,18 @@
 ---
-description: A standardized approach
+description: A standardised approach
 ---
 
 # Component Styling
 
-Elements is based on Tailwind, so obviously we use Tailwind for all our components, and highly recommend everyone using and building for Elements does the same.
+Elements is based on Tailwind. We use Tailwind for all our components, and highly recommend everyone using and building for Elements does the same.
 
-If everyone is using Tailwind we can **ensure consistency across all components**, making it easier for end users to build sites that are consistent and easy to update.
+If everyone is using Tailwind (and the built-in Theme UI Controls) we can **ensure consistency across all components**, making it easier for end users to build sites that are consistent and easy to update.
 
 It also makes collaboration smoother, as everyone follows the same styling method.
 
-### ⚠️ Consistency for the User
+**Your main goal should always be to make a component that feels native to Elements.**
+
+### Consistency for the User
 
 In Elements, all styling configurations—such as colors, fonts, and sizes—are controlled by the Theme (which anyone can create) and managed through the Theme Studio (where users can customize the styling to their needs).
 
@@ -21,6 +23,19 @@ Allowing components to dictate their own styles will lead to inconsistencies, ma
 For example, let’s say you have a Heading component. You want to set a default font family and font size. In your properties.json, you would define the default font family as heading and the default font size as 3xl.
 
 The component doesn’t concern itself with the specific values of these properties; it only cares that they exist. This allows themes and users to fully customize the styles while ensuring that all components “just work” in any project.
+
+### Important: Use Theme Controls
+
+When designing your Component, you should always use the Theme-based UI Controls wherever possible; these include the following:
+
+* [Theme Border Width](../bundle-structure/components/properties.json/ui-controls/theme-border-width.md)
+* [Theme Border Radius](../bundle-structure/components/properties.json/ui-controls/theme-border-radius.md)
+* [Theme Color](../bundle-structure/components/properties.json/ui-controls/theme-color.md)
+* [Theme Font](../bundle-structure/components/properties.json/ui-controls/theme-font.md)
+* [Theme Spacing](../bundle-structure/components/properties.json/ui-controls/theme-spacing.md)
+* [Theme Shadow](../bundle-structure/components/properties.json/ui-controls/theme-shadow.md)
+* [Theme Text Style](../bundle-structure/components/properties.json/ui-controls/theme-text-style.md)
+* [Theme Typography](../bundle-structure/components/properties.json/ui-controls/theme-typography.md)
 
 ### Default Colours
 
