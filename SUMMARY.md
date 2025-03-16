@@ -187,6 +187,7 @@
     * [Hooks](elements-language/bundle-structure/shared-files/hooks.md)
     * [Templates](elements-language/bundle-structure/shared-files/templates.md)
   * [Themes](elements-language/bundle-structure/themes.md)
+* [Troubleshooting](elements-language/troubleshooting.md)
 
 ## Elements Cloud
 
