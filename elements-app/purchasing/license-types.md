@@ -1,5 +1,4 @@
 ---
-icon: file-certificate
 description: Choose the perfect license for your needs
 ---
 

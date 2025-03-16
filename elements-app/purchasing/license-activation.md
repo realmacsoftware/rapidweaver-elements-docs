@@ -1,5 +1,4 @@
 ---
-icon: file-certificate
 description: License Activation information
 ---
 

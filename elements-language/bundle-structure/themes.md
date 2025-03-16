@@ -19,8 +19,12 @@ As well as the named [Default Tailwind Colours](https://tailwindcss.com/docs/col
 * **Secondary** – A complementary color used for additional UI elements, accents, and supporting details.
 * **Surface** – The background color that provides contrast behind text and UI elements.
 * **Text** – The primary color for headings and body text, ensuring readability and visual clarity.
-* **Black** – Usually just shades of black, but can be a deep, rich color palette.
-* **White** – Usually just shades of white, but can be a soft, neutral color palette.
+* **Dark** – A deep, rich color used, providing contrast and depth.
+* **Light** – A soft, neutral color, offering a clean and spacious appearance.
+* **Black** – A strong, high-contrast black often used for text, icons, and dark backgrounds.
+* **White** – Usually pure white, perfect for clean backgrounds, and bright text.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-16 at 4 .44.23@2x.png" alt=""><figcaption><p>Example Colour Palette</p></figcaption></figure>
 
 ### Theme Structure
 
