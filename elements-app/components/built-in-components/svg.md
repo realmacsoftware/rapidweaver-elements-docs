@@ -34,6 +34,10 @@ To set a stroke colour on an SVG it needs to be setup correctly to support strok
 
 {% include "../../../.gitbook/includes/common-controls.md" %}
 
+### How to "cleanup" SVG's Cleanup with Sektch
+
+[SVG Cleanup with Sketch App ](https://forums.realmacsoftware.com/t/svg-cleanup-with-sketch-app/46751)on the Elements Forum provides a good overview and discussion on the best way to get your SVG's ready for use in Elements.
+
 ### Q\&A on fixing SVG's for display on a website.
 
 Getting SVG's to display correctly is a bit of a dark art, but with a bit of tinkering you'll be able to modify them to work and look great on the web and in Elements.
@@ -65,6 +69,8 @@ A: Remove the height and width values in the SVG file, see screenshot below for 
 A: [Tabler Icons](https://tabler.io/icons) has over 5,650 free SVG icons, they are all perfect for use on your Elements websites. Download any of the icons from there and remove the width and height code (as above), and they are ready to use in your project. The icons from Tabler are setup to use the stroke attribute. See the video below for a quick overview of how this works in practice. Also, [see our list above](svg.md#free-svg-icon-libraries).
 
 {% embed url="https://share.cleanshot.com/TsQRDhMX" %}
+
+###
 
 ### Free SVG Icon Libraries
 
