@@ -34,9 +34,11 @@ To set a stroke colour on an SVG it needs to be setup correctly to support strok
 
 {% include "../../../.gitbook/includes/common-controls.md" %}
 
-### How to "cleanup" SVG's with Sektch
+### How to "cleanup" SVG's with Sketch
 
-[SVG Cleanup with Sketch App ](https://forums.realmacsoftware.com/t/svg-cleanup-with-sketch-app/46751)on the Elements Forum provides a good overview and discussion on the best way to get your SVG's ready for use in Elements.
+[SVG Cleanup with Sketch App ](https://forums.realmacsoftware.com/t/svg-cleanup-with-sketch-app/46751)on the Elements Forum provides a good overview and discussion on the best way to get your SVG's ready for use in Elements.&#x20;
+
+You can download [Sketch App here](https://www.sketch.com), and the [SVGO plugin here](https://sketchelements.com/plugins/svgo-compressor/).
 
 ### Q\&A on fixing SVG's for display on a website.
 
