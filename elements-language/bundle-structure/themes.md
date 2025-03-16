@@ -10,6 +10,15 @@ Themes are a set of pre-configured values based on the available settings inside
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-10-11 at 10 .45.49.gif" alt=""><figcaption><p>Changing Themes in Elements Beta (October 2024)</p></figcaption></figure>
 
+### Required Theme Colours
+
+As well as the named [Default Tailwind Colours](https://v1.tailwindcss.com/docs/customizing-colors#default-color-palette), Element Themes must also specify these additional colours:
+
+* **Brand** – The primary brand color, commonly used for logos and dominant interface elements, such as buttons and key actions.
+* **Secondary** – A complementary color used for additional UI elements, accents, and supporting details.
+* **Surface** – The background color that provides contrast behind text and UI elements.
+* **Text** – The primary color for headings and body text, ensuring readability and visual clarity.
+
 ### Theme Structure
 
 A theme contains three files, they should be stored in a folder using a reverse domain name. They can be distributed in the same pack alongisde components.
@@ -31,25 +40,19 @@ The icon for your theme should be a PNG, and sized at 440x280px. Ideally it will
 
 ### Info. json file
 
-The info file store basic information about your theme.
+The info file stores basic information about your theme, inlcuding the required Google Fonts.
 
 ```
 {
-  "author": "Your Awesome Company Name",
+  "author": "Awesome Company",
   "title": "Example Theme",
   "subTitle": "clean, bold, and classy.",
-  "tags": [
-    "clean",
-    "bold",
-    "classy"
-  ],
   "helpURL": "https://forums.realmacsoftware.com/",
   "infoURL": "https://www.realmacsoftware.com/",
   "googleFontNames": [
     "Playfair Display"
   ]
 }
-
 ```
 
 
