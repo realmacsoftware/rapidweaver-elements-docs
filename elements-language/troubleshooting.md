@@ -21,4 +21,4 @@ If you know in advance which Tailwind classes your PHP code will generate, you c
 <div class="hidden bg-red-500 bg-blue-500 bg-green-500"></div>
 ```
 
-To learn more about read [Just-in-Time friendly style variants in Tailwind CSS UI components](https://www.protailwind.com/just-in-time-friendly-style-variants-in-tailwind-css-ui-components-part-1), and a way to work around this, [this thread in the Elements Forum](https://forums.realmacsoftware.com/t/php-code-dynamic-tailwind-classes-heads-up/46302).
+You can learn more about this here: [Just-in-Time friendly style variants in Tailwind CSS UI components](https://www.protailwind.com/just-in-time-friendly-style-variants-in-tailwind-css-ui-components-part-1), and in [this thread on the Elements Forum](https://forums.realmacsoftware.com/t/php-code-dynamic-tailwind-classes-heads-up/46302).
