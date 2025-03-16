@@ -19,8 +19,8 @@ As well as the named [Default Tailwind Colours](https://tailwindcss.com/docs/col
 * **Secondary** – A complementary color used for additional UI elements, accents, and supporting details.
 * **Surface** – The background color that provides contrast behind text and UI elements.
 * **Text** – The primary color for headings and body text, ensuring readability and visual clarity.
-* **Dark** – A deep, rich color palette, used for darker UI elements
-* **Light** – A soft, neutral color palette for, used for lighter UI elements.
+* **White** – Usually just shades of Black, but can be a deep, rich color palette.
+* **Black** – Usually just shades of White, but can be a soft, neutral color palette.
 
 ### Theme Structure
 
