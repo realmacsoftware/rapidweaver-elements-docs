@@ -12,7 +12,7 @@ Themes are a set of pre-configured values based on the available settings inside
 
 ### Required Theme Colours
 
-As well as the named [Default Tailwind Colours](https://v1.tailwindcss.com/docs/customizing-colors#default-color-palette), Element Themes must also specify these additional colours:
+As well as the named [Default Tailwind Colours](https://tailwindcss.com/docs/colors), Element Themes must also specify these additional colours:
 
 * **Brand** – The primary brand color, commonly used for logos and dominant interface elements, such as buttons and key actions.
 * **Secondary** – A complementary color used for additional UI elements, accents, and supporting details.
