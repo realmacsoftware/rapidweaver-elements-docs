@@ -14,10 +14,13 @@ Themes are a set of pre-configured values based on the available settings inside
 
 As well as the named [Default Tailwind Colours](https://tailwindcss.com/docs/colors), Element Themes must also specify these additional colours:
 
-* **Brand** – The primary brand color, commonly used for logos and dominant interface elements, such as buttons and key actions.
+* **Brand** – The primary brand color, commonly used for logos and brand assets.
+* **Primary** – The dominant colour used for interface elements, such as buttons and key actions.
 * **Secondary** – A complementary color used for additional UI elements, accents, and supporting details.
 * **Surface** – The background color that provides contrast behind text and UI elements.
 * **Text** – The primary color for headings and body text, ensuring readability and visual clarity.
+* **Dark** – A deep, rich color palette, used for darker UI elements
+* **Light** – A soft, neutral color palette for, used for lighter UI elements.
 
 ### Theme Structure
 
