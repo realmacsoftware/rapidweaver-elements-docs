@@ -31,7 +31,7 @@ The icon for your theme should be a PNG, and sized at 440x280px. Ideally it will
 
 ### Info. json file
 
-The info file stores basic information about your theme, inlcuding the required Google Fonts.
+The info file stores basic information about your theme, including the required Google Fonts.
 
 ```
 {
@@ -48,7 +48,7 @@ The info file stores basic information about your theme, inlcuding the required 
 
 ## Theme Settings
 
-The following settings are required for a complete Elements Theme that will be compatible with users projects.
+The following settings are required for a complete Elements Theme that will be compatible with users’ projects.
 
 ### Theme Colours (Required)
 
