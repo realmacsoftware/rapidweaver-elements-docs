@@ -54,9 +54,9 @@ The following settings are required for a complete Elements Theme that will be c
 
 As well as all of the named [Default Tailwind Colours](https://tailwindcss.com/docs/colors), Element Themes must also specify these additional colours:
 
-* **Primary** – Dominant colour used for interface elements, such as buttons and key actions.
-* **Secondary** – Complementary color used for secondary UI elements, and supporting details.
-* **Surface** – Background color that provides contrast behind text and UI elements.
+* **Brand** – Dominant colour used for branding and key items.
+* **Accent** – Complementary color used for secondary elements, and supporting details.
+* **Surface** – Background color that provides contrast behind text and elements.
 * **Text** – Primary color for headings and body text, ensuring readability and visual clarity.
 * **Black** – Pure black (will eventually be automatically defined by Elements).
 * **White** – Pure white (will eventually be automatically defined by Elements).
