@@ -4,8 +4,8 @@ description: Deploy extra files to the backend.
 
 # Backend
 
-{% hint style="warning" %}
-Sub-directories are not currently supported in the backend directory.&#x20;
+{% hint style="info" %}
+Sub-directories are not supported in the backend directory. Instead, use the shared assets directory for the bulk of your code and reference it from backend scripts, passing in the values from properties. [See more](backend.md#subdirectories-are-not-supported)
 {% endhint %}
 
 Files added to the backend directory are processed in the same context as other template files. However, instead of forming part of the page, they will be deployed as extra files to the page's backend directory during publish.
@@ -108,3 +108,22 @@ const transformHook = (rw) => {
 
 exports.transformHook = transformHook;
 ```
+
+#### Subdirectories are not supported
+
+Elements monitors every file in the backend directory for changes. This can cause problems when adding large php libraries with hundreds of files. A better solution is to add the php library to the Element pack's [shared assets](../../shared-files/assets.md) directory.
+
+The assets are deployed only once after a component from the pack is added to the page. Use the hooks file to find the site assets path and pass it to the backend file.
+
+```
+const transformHook = (rw) => {
+    rw.setProps({
+        siteAssetPath: rw.component.siteAssetPath,
+        node: rw.node
+    });
+};
+
+exports.transformHook = transformHook;
+```
+
+Internally, we've found it good practice to keep the backend php files to a minimum. They build a minimal config object using the properties from the component, then call a method in a php file within site assets, passing in the config object.
