@@ -4,6 +4,10 @@ description: Deploy extra files to the backend.
 
 # Backend
 
+{% hint style="warning" %}
+Sub-directories are not currently supported in the backend directory.&#x20;
+{% endhint %}
+
 Files added to the backend directory are processed in the same context as other template files. However, instead of forming part of the page, they will be deployed as extra files to the page's backend directory during publish.
 
 To ensure there are no conflicts with other components, all backend files are stored in a subdirectory corresponding to the current node id. For example:
