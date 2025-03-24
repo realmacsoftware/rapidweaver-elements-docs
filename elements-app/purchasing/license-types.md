@@ -14,6 +14,7 @@ You can [purchase Elements via our website](https://www.elementsapp.https/www.el
 * Templates, Themes, and Components
 * 1 year of free updates
 * Installation on up to 2 Macs simultaneously
+* 1TB of Cloud Storage for Projects (An active license is required to use Elements Cloud).
 * Unlimited Support via Email and Forum
 * If your subscription expires, **Elements can still be used,** you just won't receive future updates until you resubscribe.
 
