@@ -126,4 +126,4 @@ const transformHook = (rw) => {
 exports.transformHook = transformHook;
 ```
 
-Internally, we've found it good practice to keep the backend php files to a minimum. They build a minimal config object using the properties from the component, then call a method in a php file within site assets, passing in the config object.
+Internally, we've found it good practice to keep the backend php files to a minimum. They build a minimal config object using the properties from the component, then call a method in a php file within site assets passing in the config object.
