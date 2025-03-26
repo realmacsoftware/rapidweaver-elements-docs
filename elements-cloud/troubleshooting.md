@@ -17,4 +17,12 @@ ping amplify.aws
 
 You can also try opening [https://aws.amazon.com/amplify/](https://aws.amazon.com/amplify/) in your browser. If it doesn’t load or is slow, your network might be restricting access.
 
-If possible connect to another network and try to re-upload your files. If you're still having issues please get by [asking on the Forum for help](https://forums.realmacsoftware.com/).
+If possible connect to another network and try to re-upload your files.&#x20;
+
+If issues persist, try these steps:
+
+1. Log out and back into Elements Cloud.
+2. Attempt to send the project to Elements Cloud again.
+3. Go to the Help Menu and select **Copy Support Logs**. Send the file to [support@realmacsoftware.com](mailto:support@realmacsoftware.com).
+
+You can also post about any issues you might be having on the [Elements Forum](https://forums.realmacsoftware.com/).
