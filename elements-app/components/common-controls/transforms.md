@@ -20,6 +20,10 @@ Specify if the component has transforms enabled or disabled. The Hover effect wo
 | Static          | Enable effects.                                     |
 | Hover           | Enable Start and End state hover effects.           |
 
+### Custom ID's for Hover
+
+The component must be nested somewhere inside a component that has the custom ID applied, and the custom id class needs to be formatted with the group modifier, like so: `group/parent-component-id`.
+
 ### Transforms
 
 * Origin - Set the origin of the transform.
