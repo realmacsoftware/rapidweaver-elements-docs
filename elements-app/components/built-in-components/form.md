@@ -34,6 +34,19 @@ There's really no limit to what you can do with the new webhooks feature. Whethe
 **Webhooks and Attachments:** If you are using an attachment in your form, only the first attached file will be sent via the WebHook.
 {% endhint %}
 
+### Testing Webhooks Locally
+
+Webhook submissions require a server environment, so once you **publish the page to a server**—either a remote server or a local one—you should find the submission works as expected.
+
+If you want to test everything **locally**, you’ll need to set up a local web server on your Mac. We recommend [ServBay](https://www.servbay.com/) for this.
+
+Here’s a quick guide:
+
+1. **Install ServBay**
+2. **Publish your Elements site** to a local folder
+3. In ServBay, **create a new site** and point the root directory to your published folder
+4. Open the site in your browser through ServBay for full local testing—including Forms and webhooks
+
 {% include "../../../.gitbook/includes/common-controls.md" %}
 
 
