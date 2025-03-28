@@ -12,7 +12,7 @@ Here is an example emtpy group:
 {
 	"groups": [
 			{
-	  "title": "Untitled",
+	  "title": "Colour Settings",
 	  "icon": "paintpalette",
 	  "properties": [
 		  
@@ -20,6 +20,12 @@ Here is an example emtpy group:
 	}]
 }
 ```
+
+### Group Icon
+
+You can specify an icon to appear next to the title of your group. The **Icon** property uses SF Symbols. Please refer to the [SF Symbol app](https://developer.apple.com/sf-symbols/) for a list of available icons.
+
+### Group Controls
 
 Controls should placed inside of the properties array. The following example has a heading and an image drop well inside of the group.
 
