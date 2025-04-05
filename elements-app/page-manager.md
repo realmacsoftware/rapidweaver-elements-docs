@@ -12,6 +12,10 @@ Easily manage the structure of your website. Create pages and folders and drag t
 
 To create a new page, press Command-N or use the "+" symbol to the right of the Pages title.
 
+### Code Pages
+
+To create a new file inside of your project, right click inside of the Page Manager and choose "New File".
+
 ### Folders
 
 Folders are a great way to organize site content when you don't need a top level page. Folders can contain any number of pages or additional folders.
