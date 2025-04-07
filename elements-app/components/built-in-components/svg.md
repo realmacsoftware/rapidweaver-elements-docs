@@ -6,6 +6,10 @@ description: Add Scalable Vector Graphics to your website
 
 SVGs (Scalable Vector Graphics) have become a go-to choice for web design because they offer incredible flexibility and quality. Unlike traditional image formats like JPEG or PNG, SVGs are vector-based, meaning they’re made up of lines and shapes rather than pixels. This makes them infinitely scalable without losing quality, so they look sharp on any screen size or resolution, from small mobile devices to large desktop monitors.
 
+{% hint style="info" %}
+**Important Note:** The SVG Component will attempt to do a basic "cleanup" of the SVG file before it is displayed. This "cleanup" includes removing fill, width, height, stroke-width, and style attributes from the SVG — This is done at runtime and does not alter the code of the SVG stored in Elements.
+{% endhint %}
+
 ### Here are a few reasons why SVGs are especially useful on websites:
 
 1\. Crisp at Any Size: SVGs maintain perfect clarity when resized, ensuring icons, logos, and illustrations always appear sharp and professional.
