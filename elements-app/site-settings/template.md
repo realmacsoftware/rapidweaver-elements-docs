@@ -73,6 +73,19 @@ The following is an example of the default site Template. Please note the templa
 
 ```
 
+### Example of adding Twitter/X social tags
+
+You might like to add Twitter/X specific meta tags to your site so pages display correctly on their platform. Simply add the following to your site template.
+
+```
+    <!-- Twitter/X Card Tags (Ensures Proper Display on Twitter) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{page.social.title}}">
+    <meta name="twitter:description" content="{{page.social.description}}">
+    <meta name="twitter:image" content="{{page.social.image}}">
+    <meta name="twitter:url" content="{{page.social.url}}">
+```
+
 ### Dev Diary Videos for Site Templates
 
 The following videos will show you how to use the Template feature in Elements. The videos were recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video.
