@@ -16,6 +16,8 @@ The site template is used on every page of your website. If you need to insert a
 
 The Site Template has access to the following properties.
 
+<table><thead><tr><th width="275">Property Name</th><th width="135">Type</th><th width="338">Description</th></tr></thead><tbody><tr><td><code>{{page.id}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.title}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.menuTitle}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.filename}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.ext}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.language}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.absolutePath}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.docRootPath}}</code></td><td>String</td><td></td></tr><tr><td><code>{{page.isFolder}}</code></td><td>Boolean</td><td>Does this page represent a folder</td></tr><tr><td><code>{{page.displayInMenu}}</code></td><td>Boolean</td><td>Should the page be shown in menus</td></tr><tr><td><code>{{page.isDraft}}</code></td><td>Boolean</td><td>Draft pages are not published</td></tr><tr><td><code>{{page.icon.url}}</code></td><td>String</td><td>Path to the page icon</td></tr></tbody></table>
+
 To reference a file in you Resources folder you can use the following page tag to get the correct path to the resources folder:`{{page.resourcesPath}}.`
 
 The following example shows how you might link to a "store.js" file that's in a "scripts" folder in the Resources area.
