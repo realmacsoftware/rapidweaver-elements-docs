@@ -13,14 +13,14 @@ You can [purchase Elements via our website](https://www.elementsapp.https/www.el
 * Unlimited websites
 * Templates, Themes, and Components
 * 1 year of free updates
-* Installation on up to 2 Macs simultaneously
+* Installation on up to 3 Macs simultaneously
 * 1TB of Cloud Storage for Projects (An active license is required to use Elements Cloud).
 * Unlimited Support via Email and Forum
 * If your subscription expires, **Elements can still be used,** you just won't receive future updates until you resubscribe.
 
 Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences highlighted in the table below. We find that most users prefer the Plus plan.
 
-<table><thead><tr><th width="269">Key Features</th><th>Base</th><th>Plus</th><th>Pro</th></tr></thead><tbody><tr><td>Custom Components</td><td>3</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Global Components</td><td>2</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Full Theme Customization</td><td>-</td><td>Yes</td><td>Yes</td></tr><tr><td>Remove Elements Branding</td><td>-</td><td>Yes</td><td>Yes</td></tr><tr><td>Form Webhooks</td><td>-</td><td>-</td><td>Yes</td></tr><tr><td>Priority Support</td><td>-</td><td>-</td><td>Yes</td></tr><tr><td>Resell Websites</td><td>-</td><td>-</td><td>Yes</td></tr><tr><td><strong>Price</strong></td><td><strong>$59/year</strong></td><td><strong>$119/year</strong></td><td><strong>$249/year</strong></td></tr></tbody></table>
+<table><thead><tr><th width="269">Key Features</th><th>Base</th><th>Plus</th><th>Pro</th></tr></thead><tbody><tr><td>Custom Components</td><td>3</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Global Components</td><td>2</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Remove Elements Branding</td><td>-</td><td>Yes</td><td>Yes</td></tr><tr><td>Priority Support</td><td>-</td><td>-</td><td>Yes</td></tr><tr><td>Resell Websites</td><td>-</td><td>-</td><td>Yes</td></tr><tr><td><strong>Price</strong></td><td><strong>$59/year</strong></td><td><strong>$119/year</strong></td><td><strong>$249/year</strong></td></tr></tbody></table>
 
 ### Key Features Explained&#x20;
 
@@ -41,10 +41,6 @@ The Base license for Elements does not allow the creation or duplication of new 
 #### Elements Branding
 
 The Base license for Elements will place a small floating badge in the corner of your website showing it was built with Elements. **Plus and Pro licenses have no visible Elements branding**.
-
-#### Form Webhooks (Pro Only)
-
-Forms are available in all version of Elements, however, the ability to **send form data via a webhook is only available in the Pro version of Elements**.
 
 #### Resell Websites (Pro Only)
 
