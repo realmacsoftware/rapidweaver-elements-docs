@@ -2,11 +2,9 @@
 description: Automatically build and display your website navigation
 ---
 
-# Navigation - Standard
+# Menu
 
 Details comign soon.
-
-{% include "../../../.gitbook/includes/common-controls.md" %}
 
 
 

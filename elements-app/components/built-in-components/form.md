@@ -10,6 +10,12 @@ The Form Component is a **powerful form solution** allowing you to send form sub
 
 The Form Component in Elements requires PHP 8.x or newer.
 
+### Available Form Components
+
+The following Components must be placed inside of the "Form Component" wrapper to function correctly.
+
+<table><thead><tr><th width="212">Form Component</th><th>Details</th></tr></thead><tbody><tr><td>Attachment</td><td></td></tr><tr><td>Checkbox</td><td></td></tr><tr><td>Error</td><td></td></tr><tr><td>Input</td><td></td></tr><tr><td>Label</td><td></td></tr><tr><td>Radio</td><td></td></tr><tr><td>Submit</td><td></td></tr><tr><td>Success</td><td></td></tr></tbody></table>
+
 ### Email
 
 To recive emails via the Form Component you will need to enter your Email server details. Here’s a breakdown of what each field means and what you’ll need to configure to make it work properly:
@@ -46,8 +52,6 @@ Here’s a quick guide:
 2. **Publish your Elements site** to a local folder
 3. In ServBay, **create a new site** and point the root directory to your published folder
 4. Open the site in your browser through ServBay for full local testing—including Forms and webhooks
-
-{% include "../../../.gitbook/includes/common-controls.md" %}
 
 
 
