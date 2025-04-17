@@ -1,6 +1,6 @@
 ---
-icon: file
 description: Outline basic information about your Element
+icon: file
 ---
 
 # info.json
@@ -15,19 +15,20 @@ If you think we're missing a category, please visit the [forum and let us know](
 
 | Group             | example                                                       |
 | ----------------- | ------------------------------------------------------------- |
-| **Content**       | Headings, Paragraphs, Lists.                                  |
-| **Layout**        | Grid, Flex, Containers, Columns.                              |
-| **Navigation**    | Menus, Nav Bars, Breadcrumbs, Tabs.                           |
-| **Forms**         | Text Fields, Text Areas, Checkboxes, Buttons.                 |
-| **SEO**           | Keywords, SEO helpers.                                        |
-| **Media**         | Images, Video, Audio Players, Icons, Embeds (YouTube, Vimeo). |
-| **Ecommerce**     | Cart Integration, Product display, Add to Cart Buttons.       |
 | **Accessibility** | ARIA Lables, Contrast Checkers.                               |
 | **Animation**     | Hover Effects, Animated SVG's.                                |
-| **Dynamic**       | CMS Components, Google Sheets                                 |
-| **Utility**       | Cookies, Anchors, Placeholders, Dividers.                     |
+| **CMS**           | Content Management Systems                                    |
+| **Content**       | Headings, Paragraphs, Lists.                                  |
+| **Dynamic**       | Online Databases, Google Sheets.                              |
+| **Ecommerce**     | Cart Integration, Product display, Add to Cart Buttons.       |
+| **Forms**         | Text Fields, Text Areas, Checkboxes, Buttons.                 |
 | **Interactive**   | Modals, Popovers, Accordions, Carousels.                      |
+| **Layout**        | Grid, Flex, Containers, Columns.                              |
+| **Media**         | Images, Video, Audio Players, Icons, Embeds (YouTube, Vimeo). |
+| **Navigation**    | Menus, Nav Bars, Breadcrumbs, Tabs.                           |
 | **Security**      | Password Protection, Login Forms.                             |
+| **SEO**           | Keywords, SEO helpers.                                        |
+| **Utility**       | Cookies, Anchors, Placeholders, Dividers.                     |
 
 
 
