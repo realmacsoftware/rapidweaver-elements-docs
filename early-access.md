@@ -1,13 +1,13 @@
 ---
-icon: rocket-launch
 description: Learn more about Elements Early Access
+icon: rocket-launch
 ---
 
 # Early Access
 
 Elements is moving from Beta to Early Access! While it’s still in development, it’s now ready for real-world use, and we’re releasing new builds every week based on your feedback.
 
-You can [purchase Elements via our website](https://www.elementsapp.https/www.elementsapp.io/purchase/?utm_source=elements-manual).&#x20;
+You can [purchase Elements via our website](https://elementsapp.io).&#x20;
 
 ### Why Early Access?
 
