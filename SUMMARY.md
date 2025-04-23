@@ -72,6 +72,7 @@
     * [Advanced](elements-app/components/common-controls/advanced.md)
   * [Custom Components](elements-app/components/custom-components.md)
   * [Data Components](elements-app/components/data-components.md)
+  * [Blogging Components](elements-app/components/blogging-components.md)
 * [Templates](elements-app/templates/README.md)
   * [Global Templates](elements-app/templates/global-templates.md)
 * [Site Settings](elements-app/site-settings/README.md)
