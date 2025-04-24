@@ -81,3 +81,9 @@ You can now safely re-launch Elements.
 {% endstep %}
 {% endstepper %}
 
+### Document Repaired Warning Dialog
+
+If you see this dialog when opening a project, Don't panic! This is nothing to be alarmed about. **Your project(s) are safe.**
+
+Elements is just tidying up the document and putting any orphan nodes it finds at the top of the page. These can safely be deleted, and you can carry on working on your project.
+
