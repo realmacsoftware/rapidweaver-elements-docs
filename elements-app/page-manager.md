@@ -12,9 +12,13 @@ Easily manage the structure of your website. Create pages and folders and drag t
 
 To create a new page, press Command-N or use the "+" symbol to the right of the Pages title.
 
-### Code Pages
+### Code Files
 
 To create a new file inside of your project, right click inside of the Page Manager and choose "New File".
+
+### Markdown Files
+
+To create a new Markdown File with option front matter, right click inside of the Page Manager and choose "New Markdown File".
 
 ### Folders
 

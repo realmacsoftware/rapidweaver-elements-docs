@@ -1,6 +1,6 @@
 # URL Scheme
 
-RapidWeaver Elements supports the following URL Schemes.
+RapidWeaver Elements supports the following URL Schemes:
 
 ### Magic Publishing Link
 

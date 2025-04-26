@@ -40,7 +40,7 @@ The Base license for Elements does not allow the creation or duplication of new 
 
 #### Elements Branding
 
-The Base license for Elements will place a small floating badge in the corner of your website showing it was built with Elements. **Plus and Pro licenses have no visible Elements branding**.
+The Base license for Elements will place a small floating badge in the corner of your website showing it was built with Elements. The branding is in place to subsidise the low cost of the license. **Plus and Pro licenses have no visible Elements branding**.
 
 #### Resell Websites (Pro Only)
 

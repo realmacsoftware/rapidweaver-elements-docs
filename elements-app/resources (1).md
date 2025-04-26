@@ -16,7 +16,7 @@ Easy to use commenting systems that you can add to any page on your website.
 
 ### Blogging
 
-The following blogging platforms can be easily integrated into a static website.
+If you don't want to use the blog components that are included with Elements, the following blogging platforms can be easily integrated into a static website:
 
 * [dropinblog.com](https://dropinblog.com)
 * [bloghandy.com](https://bloghandy.com)

@@ -8,7 +8,7 @@ The Video Element is a simple way to add a single video to your website.
 
 ### How to add Video
 
-You can add YouTube or Vimeo videos by dragging and dropping the url from your web browser to the the Resources area in RapidWeaver Elements.
+You can add YouTube or Vimeo videos by dragging and dropping the URL from your web browser to the Resources area in RapidWeaver Elements.
 
 ### Supported Video Types
 

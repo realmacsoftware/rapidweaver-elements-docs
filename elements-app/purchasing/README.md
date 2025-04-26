@@ -4,7 +4,7 @@ icon: circle-dollar
 
 # Purchasing
 
-You can [purchase Elements via our website](https://www.elementsapp.https/www.elementsapp.io/purchase/?utm_source=elements-manual).&#x20;
+You can [purchase Elements via our website](https://elementsapp.io/#buy-elements).&#x20;
 
 If you have any issues or need anything clarifying, [please email](mailto:support@realmacsoftware.com).
 
@@ -21,9 +21,9 @@ If you still can't find your order email, you can contact us directly: [support@
 
 ### **Q: Do you offer refunds?**
 
-**Yes!** We offer a 30 day money-back guarantee.
+**Yes!** We offer a 7 day money-back guarantee.
 
-If you've purchased Elements from us and are not happy, let us know within 30 days, and we'll issue a refund for you.
+If you've purchased Elements from us and are not happy, let us know within 7 days, and we'll issue a refund for you.
 
 Please forward your original email receipt from your purchase to obtain your refund. While you don't have to do this, it does make it much quicker for us to find and process.
 

@@ -4,9 +4,7 @@ icon: bullseye
 
 # SEO
 
-This page is a **work-in-progress.**
-
-## Heres’ the Basics:
+The following is a list of items that will help your website rank better in search engines:
 
 1. Setting Browser Titles
 2. Add Meta Descriptions
@@ -21,7 +19,7 @@ Image description is useful for users, search engines, and accessibility tools. 
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-03-06 at 10 .22.37@2x.png" alt=""><figcaption><p>Setting an Image Description in Elements</p></figcaption></figure>
 
-#### Setting image alt text is important for SEO because:
+#### Setting image alt text is important for SEO because it:
 
 1\. **Improves Accessibility** – Alt text helps visually impaired users who rely on screen readers understand the content of an image.
 
