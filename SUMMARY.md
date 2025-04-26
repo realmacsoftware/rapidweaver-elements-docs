@@ -38,7 +38,7 @@
   * [Built-in Components](elements-app/components/built-in-components/README.md)
     * [Accordion](elements-app/components/built-in-components/accordion.md)
     * [Background](elements-app/components/built-in-components/background.md)
-    * [Blog](elements-app/components/built-in-components/blog.md)
+    * [Blog](elements-app/components/blogging-components.md)
     * [Button](elements-app/components/built-in-components/button.md)
     * [Container](elements-app/components/built-in-components/container.md)
     * [Divider](elements-app/components/built-in-components/divider.md)
