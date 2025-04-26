@@ -36,7 +36,5 @@ Set a thumbnail image to be displayed before the video is played.
 
 <table><thead><tr><th width="136">Options</th><th>Description</th></tr></thead><tbody><tr><td>Mode</td><td>Supports the ability to specify an Image for Light &#x26; Dark Mode.</td></tr><tr><td>Image</td><td>Set an image to be displayed as the thumbnail before the video loads. This should be a jpg file.</td></tr><tr><td>Description</td><td>Sets an Alt tag on the image. Used for SEO and Accessibility.</td></tr><tr><td>Overlay</td><td>Overlay a colour onto the image, perfect for making dimming the image and makeing the play button "pop".</td></tr></tbody></table>
 
-{% include "../../../.gitbook/includes/common-controls.md" %}
-
 
 

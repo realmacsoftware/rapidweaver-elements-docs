@@ -113,5 +113,3 @@ Choose between colour, background image, and gradient for your text. Each differ
 ### Links
 
 Default and HOver
-
-{% include "../../../.gitbook/includes/common-controls.md" %}

@@ -146,8 +146,6 @@ This flexible system ensures that you can seamlessly integrate animations tailor
 
 
 
-{% include "../../../.gitbook/includes/common-controls.md" %}
-
 
 
 

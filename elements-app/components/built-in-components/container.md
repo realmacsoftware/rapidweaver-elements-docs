@@ -36,7 +36,5 @@ You can browse all the available Tailwind classes over in the [Tailwind CSS docu
 
 Clip content that overflows this Element.
 
-{% include "../../../.gitbook/includes/common-controls.md" %}
-
 
 

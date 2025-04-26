@@ -36,8 +36,6 @@ To set a stroke colour on an SVG it needs to be setup correctly to support strok
 
 <table><thead><tr><th width="136">Link Types</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No colour or classes will be applied to the SVG.</td></tr><tr><td>Static</td><td>Set a single fill colour on the SVG.</td></tr><tr><td>Hover</td><td>Set a Start and End colour for the SVG. The Hover colour is displayed when the mouse cursor is over the SVG.</td></tr><tr><td>Width</td><td>Set a stroke width for the SVG in pixels.</td></tr></tbody></table>
 
-{% include "../../../.gitbook/includes/common-controls.md" %}
-
 ### How to "cleanup" SVG's with Sketch
 
 [SVG Cleanup with Sketch App ](https://forums.realmacsoftware.com/t/svg-cleanup-with-sketch-app/46751)on the Elements Forum provides a good overview and discussion on the best way to get your SVG's ready for use in Elements.&#x20;

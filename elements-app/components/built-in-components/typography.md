@@ -6,5 +6,3 @@ description: Built for long form content
 
 Content coming soon.
 
-{% include "../../../.gitbook/includes/common-controls.md" %}
-
