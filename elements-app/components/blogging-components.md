@@ -8,8 +8,6 @@ description: The built in blogging components allow you to create a fully functi
 
 The Form Component in Elements requires PHP 8.x or newer. **You must ensure all blog related pages use a .php extension.**
 
-
-
 | Blog Components | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
 | Author          |                                                                 |
@@ -70,6 +68,10 @@ avatar: blog/steve-photo.png
 ---
 This is all about Steve.
 ```
+
+### RSS Feed
+
+Any page with a post list can provide an RSS feed. Simply append  `?format=rss` to the end of the URL, like this `yourwebsite.com/blog/?format=rss` .
 
 ### Advanced
 
