@@ -10,9 +10,9 @@ Accordions help improve page flow, reduce scrolling, and enhance the overall use
 
 ### How to use Accordion
 
-The Accordion Component can be found under Interactive in the component list.
+You’ll find the Accordion component under the Interactive section in the Components list. Each Accordion Item has two separate drop zones: one for the Title and one for the Content. You can add text, images, or other components into these areas to build rich, interactive sections.
 
-The Accordion Component has two  seperate dropzones, a Content area and Title area.
+If you group multiple Accordions together, you can enable a setting that allows only one Accordion to be open at a time — perfect for keeping your layouts clean and focused.
 
-You can group accordions togther if you'd like the option to only have one accordion open at a time.
+{% embed url="https://youtu.be/w1pfxSfHN5o" %}
 
