@@ -8,7 +8,7 @@ The Form Component is a **powerful form solution** allowing you to send form sub
 
 ### Server Requirements
 
-The Form Component in Elements requires PHP 8.x or newer.
+The Form Component in Elements requires PHP 8.x or newer. **You must ensure all pages with a Form use a .php extension.**
 
 ### Available Form Components
 

@@ -4,6 +4,10 @@ description: The built in blogging components allow you to create a fully functi
 
 # Blog
 
+### Server Requirements
+
+The Form Component in Elements requires PHP 8.x or newer. **You must ensure all blog related pages use a .php extension.**
+
 
 
 | Blog Components | Description                                                     |
@@ -21,7 +25,7 @@ description: The built in blogging components allow you to create a fully functi
 
 ### File and Folder Setup
 
-The built-in Blog system in Element requires a specifit file and folder setup to work.
+The built-in Blog system in Element requires a specifit file and folder setup to work. You must ensure all **blog related pages use a .php extension**.&#x20;
 
 ### Posts
 
