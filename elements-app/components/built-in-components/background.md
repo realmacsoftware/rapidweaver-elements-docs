@@ -1,8 +1,14 @@
+---
+description: Create fixed or angled backgrounds
+---
+
 # Background
 
 ### Overview
 
 The Background component lets you easily add color, gradients, or images behind your content, helping you create visually rich and layered designs. Whether you’re highlighting a section, creating contrast, or simply enhancing the overall look of your page, the Background component gives you full control over the style and appearance.
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-04-28 at 4 .23.29@2x.png" alt=""><figcaption><p>The Background Component can be found under Layout in the component list.</p></figcaption></figure>
 
 You can choose a simple color, apply a background image, or even create angled backgrounds for dynamic effects. Fine-tune the opacity, fixed positioning, and layering options to craft exactly the look you want.
 

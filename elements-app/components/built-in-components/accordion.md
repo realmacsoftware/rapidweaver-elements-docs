@@ -1,3 +1,7 @@
+---
+description: Organize content into collapsible sections
+---
+
 # Accordion
 
 ### Overview
