@@ -1,5 +1,5 @@
 ---
-description: A guide to help you get comfortable with the basics
+description: Advice to help you get started with Elements
 icon: lightbulb
 ---
 
