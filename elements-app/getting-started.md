@@ -13,3 +13,6 @@ Think of this video as a quick tour to help you get comfortable with the basics.
 
 {% embed url="https://youtu.be/zas7L3rMX18" %}
 
+### Ready-Made Projects to Explore and Use
+
+The [Elements Marketplace](https://marketplace.realmacsoftware.com/elements) offers a selection of [free pre-built Projects](https://marketplace.realmacsoftware.com/elements) that are perfect for getting your website up and running quickly. Whether you want to launch something fast or learn by exploring how others have built their pages, these Projects are a great way to dive in and get inspired.
