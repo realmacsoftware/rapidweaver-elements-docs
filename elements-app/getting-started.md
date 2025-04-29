@@ -1,15 +1,15 @@
 ---
-description: Building your first website with RapidWeaver Elements for macOS.
+description: A guide to help you get comfortable with the basics
 icon: lightbulb
 ---
 
 # Getting Started
 
-This guide will walk you through the steps of building a website with Elements. So, grab a cup of tea (or coffee), and let's get started.
+### An Introduction to the Elements Interface
 
-{% hint style="info" %}
-This manual is still a work-in-progress. Check back soon for updates.
-{% endhint %}
+While the following video doesn’t cover every feature available in Elements, it offers a clear, high-level overview of the app’s layout and workflow. You’ll get a feel for how to add components to a page, how the editing interface is organized, and how to start building a website.
 
+Think of this video as a quick tour to help you get comfortable with the basics. Once you’ve watched it, you’ll be ready to dive deeper and explore all the powerful options Elements has to offer.
 
+{% embed url="https://youtu.be/zas7L3rMX18" %}
 
