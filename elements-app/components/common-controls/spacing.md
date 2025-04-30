@@ -20,6 +20,10 @@ The Margin property controls the space around an element, outside of its border.
 
 Margins can be set for all four sides of an element—top, right, bottom, and left—or individually for each side.
 
+{% hint style="info" %}
+When you set a margin-right on a component, it creates space to the right of it. However, if there’s nothing positioned immediately to the right — like another component or a container edge — you might not see any visible change. This is a common CSS quirk that can feel a bit confusing at first, especially when you’re expecting the element itself to shift.
+{% endhint %}
+
 ### Padding
 
 The Padding property controls the space inside an element, between its content and the element’s border. Unlike margin, which affects the space outside an element, padding pushes the content inward, creating internal spacing within the element itself.
