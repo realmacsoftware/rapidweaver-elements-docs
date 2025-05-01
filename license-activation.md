@@ -1,22 +1,31 @@
 ---
-description: License Activation information
+description: Frequently Asked Licensing Questions
+icon: file-certificate
 ---
 
-# License Activation
+# Licensing FAQ
+
+### Q: Help, I've lost my license?
 
 If you've lost your license, visit our [License Manager](https://realmac.onfastspring.com/account?_ga=2.10544500.1105777797.1626726782-1957467528.1625162309) and use the automated system to help find your previous purchases.
 
-If you’ve tried using our license manager and are still having issues, please email [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we’ll get you up and running.
+If you’ve tried using our license manager and are still having issues, please email [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we’ll get you back up and running.
 
 Be sure to check your Spam folder. Just in case!
 
-### Manage your subscription <a href="#manage-your-subscription" id="manage-your-subscription"></a>
+### Q: How do I manage my subscription? <a href="#manage-your-subscription" id="manage-your-subscription"></a>
 
 Our [Billing Manager](https://realmac.onfastspring.com/account/) can help you check a subscription status, change payment details, and cancel your subscription. All you need is access to the email address you used to purchase our software.
 
 If you no longer have access to the email address, contact [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we'll be able to help you directly.
 
-### Reset a license manually <a href="#reset-a-license-manually" id="reset-a-license-manually"></a>
+### Q: How do I cancel my subscription? <a href="#cancel-your-subscription" id="cancel-your-subscription"></a>
+
+Hopefully this day will never come, but if you need to cancel your subscription for one of our apps, visit the [Billing Manager](https://realmac.onfastspring.com/account/) page.
+
+In the event you cancel your subscription, any apps registered will continue providing all of its updates till the end of the current subscription period (the one you’ve already paid for).
+
+### Q: How do I deactivate my license? <a href="#manage-your-subscription" id="manage-your-subscription"></a>
 
 If you have access to the activated version of our Elements, do this:
 
@@ -27,21 +36,9 @@ If you have access to the activated version of our Elements, do this:
 
 That's it. You can now use the same license to register the app on another Mac.
 
-If you don't have access to your old Mac, don't worry, you can still deactivate it following the steps above.
+If you don't have access to your old Mac, you can still manage your license activations in the "Register…" window. This includes seeing what machines are licensed and deactivating any machines you no longer require. `Elements > Registration…`
 
-### Managing License Activations <a href="#managing-license-activations" id="managing-license-activations"></a>
-
-You can manage your license activations in the "Register…" window. This includes seeing what machines are licensed and deactivating any machines you no longer require.
-
-Elements > Registration…
-
-### Cancel your subscription <a href="#cancel-your-subscription" id="cancel-your-subscription"></a>
-
-Hopefully this day will never come, but if you need to cancel your subscription for one of our apps, visit the [Billing Manager](https://realmac.onfastspring.com/account/) page.
-
-In the event you cancel your subscription, any apps registered will continue providing all of its updates till the end of the current subscription period (the one you’ve already paid for).
-
-### Update Period Expired <a href="#update-period-expired" id="update-period-expired"></a>
+### Q: Why am I seeing an "Update Period Expired" message when trying to register Elements? <a href="#update-period-expired" id="update-period-expired"></a>
 
 You'll see this message if you're trying to activate a newer version of Elements that was released after your subscription period ended.
 
@@ -49,9 +46,7 @@ If your subscription has expired and you're trying to use a new version of Eleme
 
 Elements will show you what version you can still use underneath the "Renew License" button. Clicking the button will take you to the release notes page where you can download this version.
 
-## Licensing FAQ
-
-### **Q: I'm getting an "Activation failure (404)" Error when I try to register. What should I do?**
+### **Q: I'm** seeing **an "Activation failure (404)" Error when I try to register. What should I do?**
 
 First, make sure you are running the latest version of Elements.
 

@@ -3,8 +3,10 @@
 * [Introduction](README.md)
 * [Early Access](early-access.md)
 * [Elements FAQ](elements-faq.md)
+* [Purchasing FAQ](purchasing-faq/README.md)
+  * [License Types](purchasing-faq/license-types.md)
+* [Licensing FAQ](license-activation.md)
 * [Why Elements?](why-elements/README.md)
-  * [Join the Independent Web](why-elements/join-the-independent-web.md)
   * [Static Website Benefits](why-elements/static-website-benefits.md)
   * [Build a Digital Garden](why-elements/build-a-digital-garden.md)
 * [Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43)
@@ -14,9 +16,7 @@
 ## Elements App
 
 * [Download & Installation](elements-app/download-and-installation.md)
-* [Purchasing](elements-app/purchasing/README.md)
-  * [License Types](elements-app/purchasing/license-types.md)
-  * [License Activation](elements-app/purchasing/license-activation.md)
+* [Purchasing](elements-app/purchasing.md)
 * [Getting Started](elements-app/getting-started.md)
 * [Keyboard Shortcuts](elements-app/keyboard-shortcuts.md)
 * [Migrations](elements-app/migrations/README.md)
