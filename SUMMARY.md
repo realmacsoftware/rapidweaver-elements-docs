@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Early Access](early-access.md)
+* [System Requirements](download-and-installation.md)
 * [Elements FAQ](elements-faq.md)
 * [Purchasing FAQ](purchasing-faq/README.md)
   * [License Types](purchasing-faq/license-types.md)
@@ -11,12 +12,9 @@
   * [Build a Digital Garden](why-elements/build-a-digital-garden.md)
 * [Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43)
 * [Marketplace](http://marketplace.realmacsoftware.com/elements/)
-* [Suggest a Feature](https://elements.nolt.io)
 
 ## Elements App
 
-* [Download & Installation](elements-app/download-and-installation.md)
-* [Purchasing](elements-app/purchasing.md)
 * [Getting Started](elements-app/getting-started.md)
 * [Keyboard Shortcuts](elements-app/keyboard-shortcuts.md)
 * [Migrations](elements-app/migrations/README.md)

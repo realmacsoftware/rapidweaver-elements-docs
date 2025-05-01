@@ -1,9 +1,0 @@
----
-icon: circle-dollar
----
-
-# Purchasing
-
-
-
-###

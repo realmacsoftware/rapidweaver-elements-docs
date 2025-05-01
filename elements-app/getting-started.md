@@ -5,6 +5,10 @@ icon: lightbulb
 
 # Getting Started
 
+### Download Elements
+
+First, you'll need to [Download Elements](https://elementsapp.io/download/). When the download is complete double-click to unzip the file, then move Elements.app to your Applications Folder.
+
 ### An Introduction to the Elements Interface
 
 While the following video doesn’t cover every feature available in Elements, it offers a clear, high-level overview of the app’s layout and workflow. You’ll get a feel for how to add components to a page, how the editing interface is organized, and how to start building a website.
