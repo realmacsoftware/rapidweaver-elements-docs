@@ -17,6 +17,14 @@ We hope to have an official 1.0 release available later this year. You can [lear
 
 A: RapidWeaver Elements requires macOS Ventura (13.x) or newer.
 
+### Q: How do I find my license?
+
+If you've lost your license, visit our [License Manager](https://realmac.onfastspring.com/account?_ga=2.10544500.1105777797.1626726782-1957467528.1625162309) and use the automated system to help find your previous purchases.
+
+If you’ve tried using our license manager and are still having issues, please email [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we’ll get you back up and running.
+
+Be sure to check your Spam folder. Just in case!
+
 ### Q: Will my existing RapidWeaver Classic themes be compatible?
 
 A: Elements will not support Classic legacy themes. It’s been a tough decision to make, but ultimately we think Elements will be a much better product if we build it for the future of web design.

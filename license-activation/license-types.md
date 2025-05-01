@@ -4,9 +4,9 @@ description: Choose the perfect license for your needs
 
 # License Types
 
-With Elements’ three license options—Base, Plus, and Pro, you can choose the plan that best fits your needs, whether you're a casual user, hobbyist, or professional web designer.
+With Elements’ flexible licensing options—Base, Plus, Pro, and Studio, you can choose the plan that best fits you or your teams needs, whether you're a casual user, hobbyist, or professional web designer.
 
-You can [purchase Elements via our website](https://www.elementsapp.https/www.elementsapp.io/purchase/?utm_source=elements-manual).&#x20;
+You can [purchase Elements via our website](https://www.elementsapp.io).&#x20;
 
 **Each license includes:**
 
@@ -16,15 +16,15 @@ You can [purchase Elements via our website](https://www.elementsapp.https/www.el
 * Installation on up to 3 Macs simultaneously
 * 1TB of Cloud Storage for Projects (An active license is required to use Elements Cloud).
 * Unlimited Support via Email and Forum
-* If your subscription expires, **Elements can still be used,** you just won't receive future updates until you resubscribe.
+* If your subscription expires, Elements can still be used, you just won't receive future updates until you resubscribe.
 
-Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences highlighted in the table below. We find that most users prefer the Plus plan.
+Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences highlighted in the table below.
 
-<table><thead><tr><th width="269">Key Features</th><th>Base</th><th>Plus</th><th>Pro</th></tr></thead><tbody><tr><td>Custom Components</td><td>3</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Global Components</td><td>2</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Remove Elements Branding</td><td>-</td><td>Yes</td><td>Yes</td></tr><tr><td>Priority Support</td><td>-</td><td>-</td><td>Yes</td></tr><tr><td>Resell Websites</td><td>-</td><td>-</td><td>Yes</td></tr><tr><td><strong>Price</strong></td><td><strong>$59/year</strong></td><td><strong>$119/year</strong></td><td><strong>$249/year</strong></td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="269">Key Features</th><th>Base</th><th>Plus</th><th>Pro</th><th>Studio</th><th>Site</th></tr></thead><tbody><tr><td>Custom Components</td><td>3</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Global Components</td><td>2</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Cloud Storage</td><td>1GB</td><td>1GB</td><td>1GB</td><td>10GB</td><td>1TB</td></tr><tr><td>Remove Elements Branding</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Priority Support</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Resell Websites</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Number of Users</td><td>1</td><td>1</td><td>1</td><td>10</td><td>Unlimited</td></tr><tr><td>License Type</td><td>Personal</td><td>Personal</td><td>Commercial</td><td>Commercial</td><td>Commercial</td></tr><tr><td><strong>Price</strong></td><td><strong>$59/year</strong></td><td><strong>$119/year</strong></td><td><strong>$249/year</strong></td><td><strong>$1,950/year</strong></td><td><strong>$14,950/year</strong></td></tr></tbody></table>
 
 ### Key Features Explained&#x20;
 
-The **Plus license** is designed for users who need or want more than the Base license but don’t require the full commercial permissions of the Pro license.&#x20;
+The **Plus license** is designed for users who need or want more than the Base license but don’t require the full commercial permissions of the Pro license.
 
 #### Custom Components
 
@@ -34,17 +34,13 @@ The Base license for Elements only allows the creation of 3 custom components pe
 
 The Base license for Elements only allows the creation of 2 global components per project. **Plus and Pro licenses can create an unlimited number of Global Components per project.**
 
-#### Full Theme Customization
-
-The Base license for Elements does not allow the creation or duplication of new or existing themes. **Plus and Pro licenses can create and modify an unlimited number of themes.**
-
 #### Elements Branding
 
-The Base license for Elements will place a small floating badge in the corner of your website showing it was built with Elements. The branding is in place to subsidise the low cost of the license. **Plus and Pro licenses have no visible Elements branding**.
+The Base license for Elements will place a small floating badge in the corner of your website showing it was built with Elements. The branding is in place to subsidise the low cost of the license. **Plus, Pro, Studio, and Site licenses have no visible Elements branding**.
 
-#### Resell Websites (Pro Only)
+#### Resell Websites (Pro, Studio, and Site)
 
-An active Pro license is required for developing and selling websites to third-party clients. More details on this can be found below.
+An active Pro, Studio, or Site license is required for developing and selling websites to third-party clients.
 
 ### Why Choose a Plus License over a Base License?
 

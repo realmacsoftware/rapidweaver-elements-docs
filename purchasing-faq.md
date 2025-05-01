@@ -24,7 +24,7 @@ If you still can't find your order email, you can contact us directly: [support@
 
 With Elements’ three license options—Base, Plus, and Pro, you can choose the plan that best fits your needs, whether you're a casual user, hobbyist, or professional web designer.
 
-Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences. Please take a look at our [License Types document](license-types.md) for more details.
+Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences. Please take a look at our [License Types document](license-activation/license-types.md) for more details.
 
 ### Q: Can I switch to a different license?
 

@@ -5,13 +5,9 @@ icon: file-certificate
 
 # Licensing FAQ
 
-### Q: Help, I've lost my license?
+### Q: What are the differences between the licenses?
 
-If you've lost your license, visit our [License Manager](https://realmac.onfastspring.com/account?_ga=2.10544500.1105777797.1626726782-1957467528.1625162309) and use the automated system to help find your previous purchases.
-
-If you’ve tried using our license manager and are still having issues, please email [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we’ll get you back up and running.
-
-Be sure to check your Spam folder. Just in case!
+Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences that are highlighted in [Licensing Types](license-types.md).
 
 ### Q: How do I manage my subscription? <a href="#manage-your-subscription" id="manage-your-subscription"></a>
 
@@ -24,6 +20,14 @@ If you no longer have access to the email address, contact [support@realmacsoftw
 Hopefully this day will never come, but if you need to cancel your subscription for one of our apps, visit the [Billing Manager](https://realmac.onfastspring.com/account/) page.
 
 In the event you cancel your subscription, any apps registered will continue providing all of its updates till the end of the current subscription period (the one you’ve already paid for).
+
+### Q: Help, I've lost my license?
+
+If you've lost your license, visit our [License Manager](https://realmac.onfastspring.com/account?_ga=2.10544500.1105777797.1626726782-1957467528.1625162309) and use the automated system to help find your previous purchases.
+
+If you’ve tried using our license manager and are still having issues, please email [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we’ll get you back up and running.
+
+Be sure to check your Spam folder. Just in case!
 
 ### Q: How do I deactivate my license? <a href="#manage-your-subscription" id="manage-your-subscription"></a>
 
