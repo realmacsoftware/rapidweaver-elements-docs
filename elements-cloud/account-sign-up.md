@@ -5,7 +5,11 @@ icon: lightbulb
 
 # Getting Started
 
-Every Elements Cloud account comes with 1GB of free cloud storage. An active license is required for continued use of Elements Cloud. You can sign-up in-app.
+Every Elements Cloud account comes with 1GB of free cloud storage. An active license is required for continued use of Elements Cloud. You can sign-up in-app.&#x20;
+
+{% hint style="info" %}
+An active subscription is required to use Elements Cloud.
+{% endhint %}
 
 ### How to Sign-Up for an Elements Cloud Account
 
