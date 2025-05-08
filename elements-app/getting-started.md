@@ -30,3 +30,9 @@ In general, we'd recommend:
 * **Compressing images** using tools like Squash, TinyPNG or ImageOptim.
 * **Optimizing videos** for the web using formats like MP4 (H.264) and reducing resolution/bitrate where possible.
 * **Hosting larger files externally** (videos, audio, PDFs, etc.) and linking to them using URLs. That keeps your project lightweight and more manageable in the long run.
+
+### Need Website Hosting?
+
+Elements works with almost any host, but if you’re still deciding on a hosting provider, and are looking for a company that knows Elements, then we recommend [Chillidog Hosting](https://billing.chillidoghosting.com/aff.php?aff=113). They are the official hosting partner of Realmac Software. Every aspect of [Chillidog’s hosting](https://billing.chillidoghosting.com/aff.php?aff=113) is built to ensure absolute compatibility with Elements, the friendly support staff at [Chillidog](https://billing.chillidoghosting.com/aff.php?aff=113) are all familiar with Elements.
+
+Best of all, we have worked closely to ensure you can set up your publishing details inside of Elements with a single click from your Chillidog dashboard!

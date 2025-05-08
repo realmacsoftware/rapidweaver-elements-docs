@@ -16,3 +16,7 @@ Publishing your site is an exciting moment: you’ll be able to enter a website 
 Depending on who your hosting provider is, you may need to tweak a few options in Elements before you publish your website. This is entirely normal and is simply due to web hosts having different requirements when publishing your site.
 
 Most importantly, you’ll need to remember that the details you enter into Elements are supplied by your hosting provider, not Realmac Software. Many hosting providers will require you to use publishing details that differ from any details you may use to access their control panel in a web browser. While this may be frustrating, it’s designed to keep your private information safe. If you are at all unsure about what to enter into Elements, drop your hosting provider an email, and they’ll be able to advise you.
+
+### Recommended Website Hosting
+
+Elements works with almost any host, but if you’re still deciding on a hosting provider, and are looking for a company that knows Elements, then we recommend [Chillidog Hosting](https://billing.chillidoghosting.com/aff.php?aff=113). They are the official hosting partner of Realmac Software. Every aspect of [Chillidog’s hosting](https://billing.chillidoghosting.com/aff.php?aff=113) is built to ensure absolute compatibility with Elements, the friendly support staff at [Chillidog](https://billing.chillidoghosting.com/aff.php?aff=113) are all familiar with Elements.
