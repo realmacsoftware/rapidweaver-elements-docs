@@ -6,24 +6,24 @@ icon: keyboard
 
 Elements has a host of available keyboard shortcuts.
 
-### Editor
+### Editor: General
 
-| Action              | Keyboard Shortcut  | Details |
-| ------------------- | ------------------ | ------- |
-| Quick Add Window    | Command-Shift-F    |         |
-| Next Workspace      | Command+Option+.   |         |
-| Previous Workspace  | Command+Option+,   |         |
-| Show/Hide Titles    | Command+Option+'   |         |
-| Show/Hide Outlines  | Command+shift+'    |         |
-| Show/Hide Selection | Command+'          |         |
-| Select Previous     | Up arrow           |         |
-| Select Next         | Down arrow         |         |
-| Select Parent       | Option-up arrow    |         |
-| Select Child        | Option-down arrow  |         |
-| Move Up             | Command-up arrow   |         |
-| Move Down           | Command-down arrow |         |
+| Action              | Keyboard Shortcut | Details |
+| ------------------- | ----------------- | ------- |
+| Quick Add Window    | Command-Shift-F   |         |
+| Next Workspace      | Command+Option+.  |         |
+| Previous Workspace  | Command+Option+,  |         |
+| Show/Hide Titles    | Command+Option+'  |         |
+| Show/Hide Outlines  | Command+shift+'   |         |
+| Show/Hide Selection | Command+'         |         |
 
-### Screens
+### Editor: Selecting and Moving Components
+
+<table><thead><tr><th>Action</th><th width="269">Keyboard Shortcut</th><th>Details</th></tr></thead><tbody><tr><td>Select Previous Sibling</td><td>Option+Up arrow</td><td></td></tr><tr><td>Select Next Sibling</td><td>Option+Down arrow</td><td></td></tr><tr><td>Select Parent</td><td>Option+Up arrow</td><td></td></tr><tr><td>Select Child</td><td>Option+Down arrow</td><td></td></tr><tr><td>Move Up</td><td>Options+Command+Up arrow</td><td></td></tr><tr><td>Move Down</td><td>Options+Command+Up arrow</td><td></td></tr><tr><td>Move to Parent</td><td>Options+Command+Left arrow</td><td></td></tr><tr><td>Move to Child</td><td>Options+Command+Right arrow</td><td></td></tr></tbody></table>
+
+{% embed url="https://youtu.be/myHZq5hb8TE" %}
+
+### Editor: Screens
 
 | Action          | Keyboard Shortcut | Details |
 | --------------- | ----------------- | ------- |
