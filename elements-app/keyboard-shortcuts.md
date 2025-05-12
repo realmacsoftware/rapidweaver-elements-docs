@@ -8,14 +8,15 @@ Elements has a host of available keyboard shortcuts.
 
 ### Editor: General
 
-| Action              | Keyboard Shortcut | Details |
-| ------------------- | ----------------- | ------- |
-| Quick Add Window    | Command-Shift-F   |         |
-| Next Workspace      | Command+Option+.  |         |
-| Previous Workspace  | Command+Option+,  |         |
-| Show/Hide Titles    | Command+Option+'  |         |
-| Show/Hide Outlines  | Command+shift+'   |         |
-| Show/Hide Selection | Command+'         |         |
+| Action              | Keyboard Shortcut      | Details              |
+| ------------------- | ---------------------- | -------------------- |
+| Quick Add Component | Command-Shift-F        |                      |
+| Next Workspace      | Command+Option+.       |                      |
+| Previous Workspace  | Command+Option+,       |                      |
+| Show/Hide Titles    | Command+Option+'       |                      |
+| Show/Hide Outlines  | Command+shift+'        |                      |
+| Show/Hide Selection | Command+'              |                      |
+| Scroll to Selection | Command+Shift+Option+' | Toggle Editor Scroll |
 
 ### Editor: Selecting and Moving Components
 
