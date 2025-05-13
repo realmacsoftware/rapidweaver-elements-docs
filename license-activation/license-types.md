@@ -4,7 +4,7 @@ description: Choose the perfect license for your needs
 
 # License Types
 
-With Elements’ flexible licensing options—Base, Plus, Pro, and Studio, you can choose the plan that best fits you or your teams needs, whether you're a casual user, hobbyist, or professional web designer.
+With Elements’ flexible licensing options; Base, Plus, Pro, and Studio, you can choose the plan that best fits you or your teams needs, whether you're a casual user, hobbyist, or professional web designer.
 
 You can [purchase Elements via our website](https://www.elementsapp.io).&#x20;
 
@@ -14,7 +14,7 @@ You can [purchase Elements via our website](https://www.elementsapp.io).&#x20;
 * Templates, Themes, and Components
 * 1 year of free updates
 * Installation on up to 3 Macs simultaneously
-* 1TB of Cloud Storage for Projects (An active license is required to use Elements Cloud).
+* 1GB of Cloud Storage for Projects (An active license is required to use Elements Cloud)
 * Unlimited Support via Email and Forum
 * If your subscription expires, Elements can still be used, you just won't receive future updates until you resubscribe.
 
