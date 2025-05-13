@@ -13,14 +13,14 @@ You can [purchase Elements via our website](https://www.elementsapp.io).&#x20;
 * Unlimited websites
 * Templates, Themes, and Components
 * 1 year of free updates
-* Installation on up to 3 Macs simultaneously
+* Installation on up to 3 Macs simultaneously per user license
 * 1GB of Cloud Storage for Projects (An active license is required to use Elements Cloud)
 * Unlimited Support via Email and Forum
 * If your subscription expires, Elements can still be used, you just won't receive future updates until you resubscribe.
 
 Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences highlighted in the table below.
 
-<table data-full-width="true"><thead><tr><th width="269">Key Features</th><th>Base</th><th>Plus</th><th>Pro</th><th>Studio</th><th>Site</th></tr></thead><tbody><tr><td>Custom Components</td><td>3</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Global Components</td><td>2</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Cloud Storage</td><td>1GB</td><td>1GB</td><td>1GB</td><td>10GB</td><td>1TB</td></tr><tr><td>Remove Elements Branding</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Priority Support</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Resell Websites</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Number of Users</td><td>1</td><td>1</td><td>1</td><td>10</td><td>Unlimited</td></tr><tr><td>License Type</td><td>Personal</td><td>Personal</td><td>Commercial</td><td>Commercial</td><td>Commercial</td></tr><tr><td><strong>Price</strong></td><td><strong>$59/year</strong></td><td><strong>$119/year</strong></td><td><strong>$249/year</strong></td><td><strong>$1,950/year</strong></td><td><strong>$14,950/year</strong></td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="269">Key Features</th><th>Base</th><th>Plus</th><th>Pro</th><th>Studio</th><th>Site</th></tr></thead><tbody><tr><td>Custom Components</td><td>3</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Global Components</td><td>2</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>Cloud Storage</td><td>1GB</td><td>1GB</td><td>1GB</td><td>10GB</td><td>1TB</td></tr><tr><td>Remove Elements Branding</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Priority Support</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Resell Websites</td><td>-</td><td>-</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Users (3 Macs per user)</td><td>1</td><td>1</td><td>1</td><td>10</td><td>Unlimited</td></tr><tr><td>License Type</td><td>Personal</td><td>Personal</td><td>Commercial</td><td>Commercial</td><td>Commercial</td></tr><tr><td><strong>Price</strong></td><td><strong>$59/year</strong></td><td><strong>$119/year</strong></td><td><strong>$249/year</strong></td><td><strong>$1,950/year</strong></td><td><strong>$14,950/year</strong></td></tr></tbody></table>
 
 ### Key Features Explained&#x20;
 
