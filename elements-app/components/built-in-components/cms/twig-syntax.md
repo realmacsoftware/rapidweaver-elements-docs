@@ -22,9 +22,10 @@ Outputs: HELLO WORLD!
 
 
 
-### Official Twig Resources
+### Useful Resources
 
 * [Twig Docs](https://twig.symfony.com/doc/3.x/)
 * [Twig Filters](https://twig.symfony.com/doc/3.x/filters/index.html)
 * [Twig Playground](https://twig.symfony.com/play)
+* [PHP Date Functions](https://www.php.net/manual/en/function.date.php)
 
