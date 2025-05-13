@@ -20,7 +20,11 @@ Outputs: Hello world!
 
 Outputs: HELLO WORLD!
 
-### Useful Links
 
+
+### Official Twig Resources
+
+* [Twig Docs](https://twig.symfony.com/doc/3.x/)
 * [Twig Filters](https://twig.symfony.com/doc/3.x/filters/index.html)
+* [Twig Playground](https://twig.symfony.com/play)
 
