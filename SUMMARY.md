@@ -37,6 +37,7 @@
     * [Accordion](elements-app/components/built-in-components/accordion.md)
     * [Background](elements-app/components/built-in-components/background.md)
     * [CMS](elements-app/components/built-in-components/cms/README.md)
+      * [Twig Syntax](elements-app/components/built-in-components/cms/twig-syntax.md)
       * [CMS Online Editor](elements-app/components/built-in-components/cms/cms-online-editor.md)
     * [Button](elements-app/components/built-in-components/button.md)
     * [Container](elements-app/components/built-in-components/container.md)
