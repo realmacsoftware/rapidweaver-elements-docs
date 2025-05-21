@@ -4,7 +4,11 @@ description: Export locally or publish online
 
 # Publishing
 
-When you’re ready to publish your website, you'll need to configure the.  Elements can publish to the following locations and services:
+When you’re ready to publish your website, you'll need to go to your Site Settings and select the "publishing" tab in the sidebar to set up a publishing destination.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-21 at 10 .54.04@2x.png" alt=""><figcaption></figcaption></figure>
+
+Elements can publish to the following locations and services:
 
 * Local (to your Mac)
 * FTP
