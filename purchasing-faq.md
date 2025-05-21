@@ -60,9 +60,9 @@ Please note the following:
 
 You can cancel your subscription anytime via your [Billing Manager](https://realmac.onfastspring.com/account/).
 
-We offer a 30 day money-back guarantee from the date you **initially purchase** a license for our software. During those initial 30 days you can cancel your subscription and request a refund with no questions asked.
+We offer a 7 day money-back guarantee from the date you **initially purchase** a license for our software. During those initial 7 days you can cancel your subscription and request a refund with no questions asked.
 
-Subsequent automatic subscription renewals **are not refundable under our 30 day money-back guarantee.**
+Subsequent automatic subscription renewals **are not refundable under our 7 day money-back guarantee.**
 
 ### **Q: What happens if I cancel my subscription?**
 
