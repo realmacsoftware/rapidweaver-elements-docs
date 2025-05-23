@@ -41,7 +41,7 @@
       * [Markdown](elements-app/components/built-in-components/cms/markdown.md)
       * [Online Editor](elements-app/components/built-in-components/cms/online-editor.md)
       * [Pretty URLs](elements-app/components/built-in-components/cms/pretty-urls.md)
-      * [Twig Syntax](elements-app/components/built-in-components/cms/twig-syntax.md)
+      * [Syntax](elements-app/components/built-in-components/cms/syntax.md)
     * [Button](elements-app/components/built-in-components/button.md)
     * [Container](elements-app/components/built-in-components/container.md)
     * [Divider](elements-app/components/built-in-components/divider.md)
