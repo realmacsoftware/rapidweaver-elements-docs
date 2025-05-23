@@ -22,7 +22,7 @@ If you still can't find your order email, you can contact us directly: [support@
 
 ### Q: What are the differences between the license types?
 
-With Elements’ three license options—Base, Plus, and Pro, you can choose the plan that best fits your needs, whether you're a casual user, hobbyist, or professional web designer.
+With Elements’ five license options—Base, Plus, Pro, Studio, and Site, you can choose the plan that best fits your needs, whether you're a casual user, hobbyist, professional web designer, or multi-member team.
 
 Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences. Please take a look at our [License Types document](license-activation/license-types.md) for more details.
 
