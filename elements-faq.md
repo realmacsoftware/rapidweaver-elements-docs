@@ -7,11 +7,13 @@ icon: message-question
 
 Welcome to the official and in-depth FAQ documentation for all things RapidWeaver. This resource is designed to provide you with clear and concise answers to the most common questions about RapidWeaver Elements. Whether you’re just getting started or you’re an experienced user, our goal is to make sure you have all the information you need to build stunning websites with confidence.
 
+### Q: I have questions about Subscriptions or Purchasing Elements?
+
+Take a look at our in-depth [Purchasing and Licensing FAQ](purchasing-and-licensing-faq/).
+
 ### Q: When is the expected launch date for RapidWeaver Elements?
 
-A: [Elements is in Early Access](early-access.md), and available to purchase. However, it is not a finished product and we don't have a set release date for the final 1.0 release. We're continuing to work closly with our paying early access customers to give them the support and features they need.
-
-We hope to have an official 1.0 release available later this year. You can [learn more about joining our Early Access programe here](early-access.md).
+A: [Elements is in Early Access](early-access.md), and available to purchase now. However, it is not a finished product and we don't have a set release date for the final release. We're continuing to work closely with our paying early access customers to give them the support and features they need.
 
 ### Q: What are the system requirements for Elements?
 
@@ -50,4 +52,8 @@ RapidWeaver Elements represents our vision for reimagining web design on the Mac
 ### Q: I’m interested in developing third-party Components for Elements, do you have any documentation?
 
 A: Yes, please check the [Elements Language](broken-reference) documentation to [get started](elements-language/api-introduction/getting-started.md).
+
+### Q: I still have a question, where can I go for help?
+
+If you question wasn't answered above or you need clarification, please [post on the Elements forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43), and we'll get back to you as soon as possible.
 
