@@ -22,7 +22,7 @@ For best browser support and performance, custom fonts should be provided in WOF
 
 #### Adding Custom Fonts&#x20;
 
-Add your font files to the resources area in Elements, use the media inspector to define a weight (and width if required) for each of the fint files.
+Add your font files to the resources area in Elements, use the media inspector to define a weight (and width if required) for each of the font files.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2025-05-05 at 7 .22.28@2x.png" alt=""><figcaption></figcaption></figure>
 
