@@ -74,17 +74,16 @@ A: [Tabler Icons](https://tabler.io/icons) has over 5,650 free SVG icons, they a
 
 {% embed url="https://share.cleanshot.com/TsQRDhMX" %}
 
-###
-
 ### Free SVG Icon Libraries
 
 All of the following icon libraries work well Elements, if you require them to be resiable in Elements you'll need to remove the Height and Width values from the code before importing.
 
+* [https://lucide.dev](https://lucide.dev), open-source library, over 1000+ svg icons.
 * [https://tabler.io/icons](https://tabler.io/icons), over 5,650 free SVG icons.
 * [https://feathericons.com](https://feathericons.com), simply beautiful open source icons
 * [https://phosphoricons.com](https://phosphoricons.com/?size=64\&weight=%22duotone%22), outline, filled, duotone and more.
-* [https://heroicons.com](https://heroicons.com/outline), hand-crafted SVG icons, by the makers of Tailwind CSS (you'll need to the code into a file and save it with a .svg extension before adding to Elements).
 * [https://svgl.app](https://svgl.app), a beautiful library of company SVG logos.
+* [https://heroicons.com](https://heroicons.com/outline), hand-crafted SVG icons, by the makers of Tailwind CSS (you'll need to copy and paste the code into a file and save it with a .svg extension before adding to Elements).
 
 ### Further Reading
 
