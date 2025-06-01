@@ -24,7 +24,7 @@ Creating a Custom Component in Elements is the easiest and fastest way to get st
 
 Press the "+" button next to the "Custom" heading, and choose HTML. You should now see the component appear in the list.
 
-<img src="../../.gitbook/assets/CleanShot 2024-11-29 at 4 .20.54@2x.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .02.15@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -32,7 +32,7 @@ Press the "+" button next to the "Custom" heading, and choose HTML. You should n
 
 Drag your HTML component into the page, you're now ready to start customizing it.
 
-<img src="../../.gitbook/assets/CleanShot 2024-11-29 at 4 .23.42@2x.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .03.57@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -40,7 +40,11 @@ Drag your HTML component into the page, you're now ready to start customizing it
 
 Next, open the Component Editor so we can view and edit the code. All changes made to the code update in realtime. Go ahead, change the text and watch the preview update.
 
-<img src="../../.gitbook/assets/CleanShot 2024-11-29 at 4 .26.20@2x (1).png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .04.38@2x.png" alt=""><figcaption></figcaption></figure>
+
+The Component Editor is a panel so can be placed or added anywhere in the UI. Right-click an icon in the inspector to select it from the drop down menu.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .08.23@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
