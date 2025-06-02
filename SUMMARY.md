@@ -106,12 +106,12 @@
   * [Make a two column layout](elements-app/how-to/make-a-two-column-layout.md)
 * [Resources](<elements-app/resources (1).md>)
 * [Troubleshooting](elements-app/troubleshooting.md)
-* [SEO](elements-app/seo.md)
+* [SEO](elements-app/seo/README.md)
+  * [Robots.txt](elements-app/seo/robots.txt.md)
 * [Accessibility](elements-app/accessibility.md)
-* [Robots.txt](elements-app/robots.txt.md)
-* [Quicklook Document](elements-app/quicklook-document.md)
 * [Advanced](elements-app/advanced/README.md)
   * [URL Scheme](elements-app/advanced/url-scheme.md)
+* [Quicklook Document](elements-app/quicklook-document.md)
 
 ## Elements Language
 
