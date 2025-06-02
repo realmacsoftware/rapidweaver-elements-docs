@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Migrating from Blocs
 
 Elements is a fantastic alternative to Blocs because it offers an incredibly flexible and intuitive design experience, especially for users who want to harness the power of Tailwind CSS.&#x20;
