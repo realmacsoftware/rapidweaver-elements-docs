@@ -1,6 +1,10 @@
-# Global Templates
+---
+icon: globe
+---
 
-Global Templates give you the power to create reusable (and customisable) groups of components to maintain a consistent design language across your entire site.
+# Globals
+
+Global Templates (aka Globals) give you the power to create reusable (and customisable) groups of components to maintain a consistent design language across your entire site.
 
 {% hint style="info" %}
 Global Templates help ensure the design for you website is modular, reusable, and consistent.

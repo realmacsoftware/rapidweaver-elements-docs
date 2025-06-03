@@ -23,8 +23,8 @@ The Node Browser has the following options when right-clicking on a Component in
 | Rename                    | Edit the title of the selected Component.                                       |
 | Duplicate                 | Duplicate a single component and/or all sub components.                         |
 | Duplicate without Content | Will duplicate the selected Component without any of the Child components.      |
-| Convert to Global         | Convert the current selection into a [Template](templates/).                    |
-| Unlink from Global        | Unlink the current selection into a [Template](templates/).                     |
+| Convert to Global         | Convert the current selection into a [Template](templates.md).                  |
+| Unlink from Global        | Unlink the current selection into a [Template](templates.md).                   |
 | Select Similar            | Will select all matching Components in the Node Browser.                        |
 | View Help…                | Opens the default System browser with the Help page for the selected Component. |
 | Remove                    | Deletes the currently selected Component.                                       |

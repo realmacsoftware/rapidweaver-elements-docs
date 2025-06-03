@@ -1,5 +1,5 @@
 ---
-icon: globe
+icon: gear
 ---
 
 # Project Settings
