@@ -210,10 +210,11 @@
 * [Getting Started](elements-cloud/account-sign-up.md)
 * [Troubleshooting](elements-cloud/troubleshooting.md)
 
-## Elements Store
+## Elements Marketplace
 
-* [Getting Started](elements-store/distribution.md)
-* [Add-on Guidelines](elements-store/add-on-guidelines.md)
+* [Getting Started](elements-marketplace/distribution.md)
+* [Add-on Guidelines](elements-marketplace/add-on-guidelines.md)
+* [Marketplace API](elements-marketplace/marketplace-api.md)
 
 ## Branding
 
