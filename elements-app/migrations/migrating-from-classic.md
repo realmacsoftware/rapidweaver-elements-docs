@@ -19,3 +19,25 @@ Unlike Classic, Elements eliminates the need for outdated themes and stacks, str
 > _"I discovered RapidWeaver through a monthly Dutch Mac magazine, and it has since become my most-used app. In my spare time, I volunteer to build websites for smaller organizations._
 >
 > _Inspired by the weekly developer videos and forum discussions, I started experimenting on my own in Elements. With the help of AI, I’ve been able to achieve solutions that, as someone with no programming background, I never thought possible. I’m now creating my own components for Elements that previously required me to purchase Stacks in RapidWeaver Classic. —_ Bart Vosters
+
+## RapidWeaver Classic FAQ
+
+### Q: Will my existing RapidWeaver Classic themes be compatible?
+
+A: Elements does not support Classic legacy themes. It’s been a tough decision to make, but ultimately we think Elements is a much better product as we built it for the future of web design.
+
+### Q: Can I import my RapidWeaver Classic projects into RapidWeaver Elements?
+
+A: Not at this time, Element based websites are built completely differently so there's no easy way to open those older Classic documents.However, you could see this as a great opportunity to refresh your website and bring it up-to-date with modern web technologies and standards.
+
+### Q: Is it possible to use RapidWeaver Classic and RapidWeaver Elements side-by-side?
+
+A: Yes, you can install and run both applications simultaneously on your Mac. We anticipate this scenario to be quite popular as it allows users to manage older projects in Classic while simultaneously migrating and developing newer projects in Elements.
+
+### Q: Will RapidWeaver Classic be phased out and replaced by RapidWeaver Elements?
+
+A: No, both versions of RapidWeaver will coexist as they cater to slightly different customer needs.
+
+RapidWeaver Classic continues to serve thousands of customers who maintain and build existing websites using a variety of legacy plugins and addons. We will continue to develop and update RapidWeaver Classic to support this "classic" workflow. RapidWeaver Classic requires macOS 10.14 (Mojave) or a newer version.
+
+RapidWeaver Elements represents our vision for reimagining web design on the Mac, it's easier and more powerful than ever before to build no-code websites.
