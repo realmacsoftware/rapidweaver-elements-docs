@@ -118,7 +118,7 @@ $aboutPage = $cms->item('pages', 'about');
 require_once '/path/to/ElementsCMS.php';
 
 $cms = ElementsCMS::make(
-    '/var/www/content',
+    '/var/www/cms_data',
     ['debug' => true, 'cache_ttl' => 3600]
 );
 ```
