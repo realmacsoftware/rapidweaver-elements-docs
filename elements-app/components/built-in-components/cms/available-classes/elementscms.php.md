@@ -65,15 +65,14 @@ Parameters:
 ```php
 $debug = $cms->option('debug', false);
 $theme = $cms->option('theme', 'default');
-setOption(string $key, $value): void
 ```
 
 #### `setOption(string $key, $value): void`
 
 Sets an option value.
 
-* $key (string): The option key to set
-* $value (mixed): The value to set
+* `$key (string)`: The option key to set
+* `$value (mixed)`: The value to set
 
 ```php
 $cms->setOption('debug', true);
