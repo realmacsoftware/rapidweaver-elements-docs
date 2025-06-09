@@ -36,6 +36,8 @@
     * [Accordion](elements-app/components/built-in-components/accordion.md)
     * [Background](elements-app/components/built-in-components/background.md)
     * [CMS](elements-app/components/built-in-components/cms/README.md)
+      * [Available Classes](elements-app/components/built-in-components/cms/available-classes/README.md)
+        * [ElementsCMS.php](elements-app/components/built-in-components/cms/available-classes/elementscms.php.md)
       * [Frontmatter](elements-app/components/built-in-components/cms/frontmatter.md)
       * [Markdown](elements-app/components/built-in-components/cms/markdown.md)
       * [Online Editor](elements-app/components/built-in-components/cms/online-editor.md)
