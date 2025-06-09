@@ -33,7 +33,11 @@ Static factory method that creates a new instance of ElementsCMS.Parameters:
 * $basePath (string): The base path for the CMS content storage
 * $options (array, optional): Additional configuration options for the CMS
 
-Returns: ElementsCMS instanceExample:phpApply to ElementsCMS....$cms = ElementsCMS::make('/path/to/content', \['theme' => 'default']);
+Returns: ElementsCMS instance
+
+```php
+$cms = ElementsCMS::make('/path/to/cms_data');
+```
 
 ### Configuration Methods
 
