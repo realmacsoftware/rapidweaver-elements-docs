@@ -39,7 +39,7 @@
       * [Helpers](elements-app/components/built-in-components/cms/helpers.md)
       * [Available Classes](elements-app/components/built-in-components/cms/available-classes/README.md)
         * [ElementsCMS.php](elements-app/components/built-in-components/cms/available-classes/elementscms.php.md)
-        * [ElementsCMSCollection.php](elements-app/components/built-in-components/cms/available-classes/elementscmscollection.php.md)
+        * [ElementsCMSCollection](elements-app/components/built-in-components/cms/available-classes/elementscmscollection.md)
         * [ElementsCMSItem.php](elements-app/components/built-in-components/cms/available-classes/elementscmsitem.php.md)
       * [Frontmatter](elements-app/components/built-in-components/cms/frontmatter.md)
       * [Markdown](elements-app/components/built-in-components/cms/markdown.md)
