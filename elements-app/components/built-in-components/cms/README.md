@@ -8,16 +8,28 @@ description: Markdown based Content Management System in Elements
 
 The CMS Components in Elements require PHP 8.x or newer. **You must ensure all CMS related pages use a .php extension.**
 
-| Blog Components | Description                                                    |
-| --------------- | -------------------------------------------------------------- |
-| Body            |                                                                |
-| Collection      | Wrapper, other CMS components should be placed inside of this. |
-| Conditional     |                                                                |
-| Field           |                                                                |
-| Item            |                                                                |
-| Item Author     |                                                                |
-| Item Image      |                                                                |
-| Item Tags       |                                                                |
+#### Wrapper Components
+
+These components are used as wrappers, or container, components. You should place other components inside of these. Components placed inside these components will gain access to CMS data.
+
+| CMS Component     | Description                                                                                                  |
+| ----------------- | ------------------------------------------------------------------------------------------------------------ |
+| Collection        | Wrapper for fetching a collection (folder) or items, other CMS components should be placed inside of this.   |
+| Collection Item   | Used for Collection page templates. Will fetch the requested Collection Item based on the `slug` in the URL. |
+| Static Item       | Wrapper for fetching a single item from the CMS, other CMS components should be placed inside of this.       |
+| Collection Search | Adds instant search to any collection.                                                                       |
+
+#### Child Components
+
+These components should be placed inside the wrapper components. These components have access to CMS data, such as as the title, date, author, body, and so on.
+
+| Component             | Description                                                                      |
+| --------------------- | -------------------------------------------------------------------------------- |
+| Body                  | Used to access the body of an item.                                              |
+| Item Author           | Display the author for the current item.                                         |
+| Item Tags             | Display tags for the current item.                                               |
+| Collection Pagination | Adds pagination links to any collection. **Must be placed inside a Collection.** |
+| Conditional           | Conditionally display content.                                                   |
 
 ### File and Folder Setup
 
