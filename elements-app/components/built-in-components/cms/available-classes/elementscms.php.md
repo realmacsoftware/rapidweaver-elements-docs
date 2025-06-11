@@ -141,10 +141,10 @@ $pages = $cms->collection('pages');
 
 ```php
 // Load a specific blog post
-$post = $cms->item('blog', 'introduction-to-cms');
+$post = $cms->item('blog/introduction-to-cms');
 
 // Load a page
-$homepage = $cms->item('pages', 'home');
+$homepage = $cms->item('pages/home');
 ```
 
 #### Managing Configuration
