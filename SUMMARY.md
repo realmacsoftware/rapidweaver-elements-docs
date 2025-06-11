@@ -45,7 +45,6 @@
       * [Markdown](elements-app/components/built-in-components/cms/markdown.md)
       * [Online Editor](elements-app/components/built-in-components/cms/online-editor.md)
       * [Pretty URLs](elements-app/components/built-in-components/cms/pretty-urls.md)
-      * [Syntax](elements-app/components/built-in-components/cms/syntax.md)
       * [Template Data](elements-app/components/built-in-components/cms/template-data.md)
     * [Button](elements-app/components/built-in-components/button.md)
     * [Container](elements-app/components/built-in-components/container.md)
