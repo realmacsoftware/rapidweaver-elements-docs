@@ -14,10 +14,10 @@ These components are used as wrappers, or container, components. You should plac
 
 | CMS Component     | Description                                                                                                  |
 | ----------------- | ------------------------------------------------------------------------------------------------------------ |
-| Collection        | Wrapper for fetching a collection (folder) or items, other CMS components should be placed inside of this.   |
+| Static Item       | Wrapper for fetching a single item from the CMS.                                                             |
+| Collection        | Wrapper for fetching a collection (folder) og items.                                                         |
 | Collection Item   | Used for Collection page templates. Will fetch the requested Collection Item based on the `slug` in the URL. |
-| Static Item       | Wrapper for fetching a single item from the CMS, other CMS components should be placed inside of this.       |
-| Collection Search | Adds instant search to any collection.                                                                       |
+| Collection Search | Adds instant search for any collection.                                                                      |
 
 #### Child Components
 
