@@ -23,13 +23,14 @@ These components are used as wrappers, or container, components. You should plac
 
 These components should be placed inside the wrapper components. These components have access to CMS data, such as as the title, date, author, body, and so on.
 
-| Component             | Description                                                                      |
-| --------------------- | -------------------------------------------------------------------------------- |
-| Body                  | Used to access the body of an item.                                              |
-| Item Author           | Display the author for the current item.                                         |
-| Item Tags             | Display tags for the current item.                                               |
-| Collection Pagination | Adds pagination links to any collection. **Must be placed inside a Collection.** |
-| Conditional           | Conditionally display content.                                                   |
+| Component             | Description                                                                                            |
+| --------------------- | ------------------------------------------------------------------------------------------------------ |
+| Body                  | Used to access the body of an item.                                                                    |
+| Item Author           | Display the author for the current item.                                                               |
+| Item Tags             | Display tags for the current item.                                                                     |
+| Related Items         | Display items related to the current item. **Must be placed inside a Static Item or Collection Item.** |
+| Collection Pagination | Adds pagination links to any collection. **Must be placed inside a Collection.**                       |
+| Conditional           | Conditionally display content.                                                                         |
 
 ### File and Folder Setup
 
