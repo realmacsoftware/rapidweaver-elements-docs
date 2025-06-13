@@ -144,8 +144,12 @@ The CMS includes a powerful search system that can be used in two ways:
 // Search within a collection
 $results = $collection->search('search term');
 
-// Search with template rendering
-$results = $collection->search('search term', 'template.twig');
+// The search results are scored based on where matches are found:
+// - Title matches: 10 points
+// - Excerpt matches: 5 points
+// - Body matches: 1 point
+// - Tag matches: 3 points per matching tag
+// Results are automatically sorted by score in descending order
 ```
 
 #### AJAX Search Endpoint
@@ -157,19 +161,34 @@ The CMS provides a search endpoint at `search.php` that accepts the following pa
 * `detailPageUrl`: URL for detail pages
 * `prettyUrls`: Whether to use pretty URLs
 * `basePath`: Base path for content
-* `template`: Twig template for rendering results
+* `template`: HTML template for rendering results, can include Twig syntax
 
 Example AJAX call:
 
 ```javascript
-fetch(
-    "search.php?q=search+term&collectionPath=blog&detailPageUrl=/posts&prettyUrls=true&basePath=/content&template=search-result.twig"
-)
-    .then((response) => response.json())
-    .then((results) => {
-        // Handle results
-    });
+// Alpine snippet
+this.template = this.$el.querySelector(
+    '[data-template="cmsCollectionSearchItemsTemplate"]'
+).innerHTML;
+
+const params = new URLSearchParams({
+    q: this.query,
+    collectionPath: "{{collectionDir.href}}",
+    detailPageUrl: "{{detailPage.href}}",
+    prettyUrls: "{{prettyUrls}}",
+    basePath: "<?= __DIR__ ?>",
+    template: this.template,
+});
+
+const res = await fetch(`{{cmsPath}}/search.php?${params}`, {
+    method: "GET",
+    headers: {
+        "Content-Type": "application/json",
+    },
+});
 ```
+
+The search system automatically maintains an index file (`search-index.json`) in the collection directory for improved performance. The index is automatically rebuilt when content changes are detected.
 
 ### Related Items
 
