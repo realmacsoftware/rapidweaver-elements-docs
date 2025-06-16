@@ -7,6 +7,12 @@ icon: rss
 
 The Elements Marketplace API provides a simple, read-only JSON endpoint for fetching all available Addons. Use this to power in-app listings, build third-party tools, or stay up to date with the latest components, templates, and integrations available for Elements.
 
+### Example Use Case
+
+The Marketplace API is used inside of the Elements Project Chooser to return a list of free projects.
+
+<figure><img src="../.gitbook/assets/CleanShot 2025-06-16 at 10 .09.53@2x.png" alt=""><figcaption><p>Project Chooser inside of Elements for macOS.</p></figcaption></figure>
+
 ### Endpoint
 
 The Marketplace API is accessible via a single, public URL. This endpoint returns a JSON array of all current Addons available in the Elements Marketplace — including templates, components, and integrations.
