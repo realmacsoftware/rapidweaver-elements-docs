@@ -55,7 +55,7 @@ API responses are paginated and results for the current page are found in the `d
 
 ### List Elements Addons
 
-`GET` `/api/addons/elements`\
+`GET` `/api/elements/addons`\
 To appear in the listing, Addons must meet the following criteria:
 
 * Approved review status
