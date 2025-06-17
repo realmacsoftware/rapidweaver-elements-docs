@@ -1,5 +1,5 @@
 ---
-description: Outline basic information about your Element
+description: Outline basic information about your Component
 icon: file
 ---
 

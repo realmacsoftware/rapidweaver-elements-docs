@@ -4,7 +4,7 @@ icon: cabinet-filing
 
 # Assets
 
-Assets can be included per component or [shared in a component pack](../shared-files/). Assets are additional files that should be deployed when a project is published. They are not processed in any way and are simply copied during publish.
+Assets can be included per component or [shared in a component pack](shared-files/). Assets are additional files that should be deployed when a project is published. They are not processed in any way and are simply copied during publish.
 
 ### Directory structure
 

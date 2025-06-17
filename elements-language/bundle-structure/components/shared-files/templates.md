@@ -21,7 +21,7 @@ This folder can contain extra html templates files, There is no restriction on n
 * **php** - files containing PHP&#x20;
 
 {% hint style="info" %}
-HTML, PHP, CSS, and JS files are supported in the [Templates folder at the single Component](../components/templates/) level.
+HTML, PHP, CSS, and JS files are supported in the [Templates folder at the single Component](../templates/) level.
 {% endhint %}
 
 

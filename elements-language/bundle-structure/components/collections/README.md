@@ -6,7 +6,7 @@ icon: rectangle-history
 
 Collections are a flexible way to create datasets for your element. You can add multiple collections to your elements.
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2025-02-13 at 9 .05.06@2x.png" alt=""><figcaption><p>Example Collection view with four records.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/CleanShot 2025-02-13 at 9 .05.06@2x.png" alt=""><figcaption><p>Example Collection view with four records.</p></figcaption></figure>
 
 To add data collections to your element you must first create a `collections` folder at the root of your element.
 
@@ -60,7 +60,7 @@ Data collection properties are described in the same way as Element properties.
 
 This means we must create a `properties.json` file and describe our properties in exactly the same way as Element properties.
 
-**Note:** all properties available to Elements are also available to data collections. Read the [properties.json docs](../components/properties.json/) for more information.
+**Note:** all properties available to Elements are also available to data collections. Read the [properties.json docs](../properties.json/) for more information.
 
 So, given that a feature should have a title, description, and icon, we should add the following to properties.json:
 

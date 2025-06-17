@@ -1,6 +1,6 @@
 # Collections in properties.json
 
-For your collection to appear in the page inspector alongside the other controls for your Component you need to also add an entry into the [properties.json](../components/properties.json/) file, for example:
+For your collection to appear in the page inspector alongside the other controls for your Component you need to also add an entry into the [properties.json](../properties.json/) file, for example:
 
 ```json
     {

@@ -14,4 +14,4 @@ The following HTML file placed in the shared templates \`headEnd\` folder links 
 <script src="{{assetPath}}/snowstorm.js"></script>
 ```
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-12-01 at 2 .51.52@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/CleanShot 2024-12-01 at 2 .51.52@2x.png" alt=""><figcaption></figcaption></figure>

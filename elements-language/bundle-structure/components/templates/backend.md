@@ -111,7 +111,7 @@ exports.transformHook = transformHook;
 
 #### Subdirectories are not supported
 
-Elements monitors every file in the backend directory for changes. This can cause problems when adding large php libraries with hundreds of files. A better solution is to add the php library to the Element pack's [shared assets](../../shared-files/assets.md) directory.
+Elements monitors every file in the backend directory for changes. This can cause problems when adding large php libraries with hundreds of files. A better solution is to add the php library to the Element pack's [shared assets](../shared-files/assets.md) directory.
 
 The assets are deployed only once after a component from the pack is added to the page. Use the hooks file to find the site assets path and pass it to the backend file.
 

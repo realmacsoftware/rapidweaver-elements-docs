@@ -9,7 +9,7 @@ Hooks provide a powerful way to extend your components by manipulating propertie
 The typical flow of a component follows this sequence: properties → hooks → template. Hooks process and refine properties, allowing you to perform complex logic before passing them into the template for rendering.
 
 {% hint style="info" %}
-Each component has its own unique `hooks.js` file. To share code across multiple components, refer to [shared hooks](../../shared-files/hooks.md).
+Each component has its own unique `hooks.js` file. To share code across multiple components, refer to [shared hooks](../shared-files/hooks.md).
 {% endhint %}
 
 To use a transform hook, create a `hooks.js`file in the root of your component with this code.
