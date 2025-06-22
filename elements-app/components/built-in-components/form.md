@@ -73,3 +73,7 @@ Here’s a quick guide:
 
 
 
+{% embed url="https://youtu.be/pR26NPw0Ip8?si=4aJyKiEJp5ntrPiD" %}
+
+
+
