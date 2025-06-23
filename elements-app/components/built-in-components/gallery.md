@@ -18,3 +18,8 @@ Galleries can contain a mixture of file types, including:
 
 
 
+### What is best size to make Gallery images?
+
+Elements is designed to be flexible with image sizes, but for best results in galleries, we recommend using images that are at least 1200px wide for modern displays. This ensures your gallery looks sharp on all devices.
+
+For batch resizing and compressing images we recommend [Squash for macOS](https://www.realmacsoftware.com/squash/).
