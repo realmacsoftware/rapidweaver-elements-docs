@@ -26,7 +26,7 @@ Ideally you should be running PHP 8.4 or newer, but as a minimum you need 8.1. Y
 
 The following Components must be placed inside of the "Form" Component wrapper to function correctly.
 
-<table><thead><tr><th width="212">Form Component</th><th>Details</th></tr></thead><tbody><tr><td>Attachment</td><td>Allows users to attach files when sending the form, can be limited in size or specific file type.</td></tr><tr><td>Checkbox</td><td></td></tr><tr><td>Error</td><td>Display an error message on form submit.</td></tr><tr><td>Input</td><td></td></tr><tr><td>Label</td><td></td></tr><tr><td>Radio</td><td></td></tr><tr><td>Submit</td><td>Another component such as a Button or Image can be placed inside this component to trigger the Form Submit function.</td></tr><tr><td>Success</td><td>Display a success message on form submit.</td></tr></tbody></table>
+<table><thead><tr><th width="212">Form Component</th><th>Details</th></tr></thead><tbody><tr><td>Attachment</td><td>Allows users to attach files when sending the form, can be limited in size or specific file type. Multiple files are supported when sending forms via email. However attachments in Webhooks are limited to a single file.</td></tr><tr><td>Checkbox</td><td></td></tr><tr><td>Error</td><td>Display an error message on form submit.</td></tr><tr><td>Input</td><td></td></tr><tr><td>Label</td><td></td></tr><tr><td>Radio</td><td></td></tr><tr><td>Submit</td><td>Another component such as a Button or Image can be placed inside this component to trigger the Form Submit function.</td></tr><tr><td>Success</td><td>Display a success message on form submit.</td></tr></tbody></table>
 
 ### Form Setup
 
@@ -54,9 +54,11 @@ A webhook allows your form submissions to be sent directly to another service, l
 
 There's really no limit to what you can do with the new webhooks feature. Whether you’re building a customer support system, a lead capture form, or a dynamic survey that feeds into a database, webhooks unlock powerful automation and customization that email simply can’t match.
 
-{% hint style="info" %}
-**Webhooks and Attachments:** If you are using an attachment in your form, only the first attached file will be sent via the WebHook.
-{% endhint %}
+### Webhooks and Attachments
+
+If you are using an attachment in your form, only the first attached file will be sent via the WebHook. Multiple files are supported when sending forms via email.
+
+Most webhook endpoints expect a single file attachment, typically for straightforward processing, like saving it to cloud storage or forwarding it via email. Supporting multiple files would require a more complex multipart or array-based structure, which many webhook endpoints don’t handle out of the box.
 
 ### Testing Webhooks Locally
 
