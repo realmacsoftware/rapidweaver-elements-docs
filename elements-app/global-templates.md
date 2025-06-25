@@ -4,15 +4,19 @@ icon: globe
 
 # Globals
 
-Global Templates (aka Globals) give you the power to create reusable (and customisable) groups of components to maintain a consistent design language across your entire site.
+Globals give you the power to create reusable linked (and customisable) groups of components to maintain a consistent design language across your entire site.
+
+{% hint style="info" %}
+Templates are very similar to Globals, but there's one important difference: Templates are single use and not linked. Where's Globals remain linked and are perfect for making changes across your entire site, perfect for shared menus and footers. [Learn more about Templates here](templates.md).
+{% endhint %}
+
+You can reuse global template blocks across your site so you only need update the content in one place and have it automagically mirrored in all other instances of that global. For example, this can be very  useful for global header and footer sections.
+
+You can take Globals even further by overriding content and design aspects on an individual instance. You might have a banner that you want to use on every page of your site and you'd like the design to be consistent. You can use the override feature to customise the text and background image on each instance. You can even override the design settings on certain instances.
 
 {% hint style="info" %}
 Global Templates help ensure the design for you website is modular, reusable, and consistent.
 {% endhint %}
-
-You can reuse global template blocks across your site so you need only need update the content in one place and have it automagically mirrored in all other instances of that global. For example, this can be very  useful for global header and footer sections.
-
-You can take Globals even further by overriding content and design aspects on an individual instance. For example you might have a banner that you want to use on every page of your site and you'd like the design to be consistant. You can use the override feature to customise the text and background image on each instance. You can even override the design settings on certain instances.
 
 Once you learn how to use the power of globals you'll wonder how you ever built wesbites without them.
 
