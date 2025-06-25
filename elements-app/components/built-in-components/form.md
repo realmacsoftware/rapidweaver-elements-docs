@@ -8,7 +8,7 @@ The Form Component is a **powerful form solution** allowing you to send form sub
 
 ### Server Requirements
 
-The Form Component in Elements **requires PHP 8.1 or newer**. You must ensure all pages with a Form use a .php extension.
+The Form Component in Elements **requires PHP 8.1 or newer**.
 
 #### PHP Server Check&#x20;
 
@@ -20,7 +20,6 @@ Ideally you should be running PHP 8.4 or newer, but as a minimum you need 8.1. Y
 
 * [ ] Forms will not work locally, they must be published to a live server.
 * [ ] Web Server is running PHP 8.1 or newer.
-* [ ] Page extension for the Form page is set .php (not .html).
 
 ### Form Components
 
