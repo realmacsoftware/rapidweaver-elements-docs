@@ -45,7 +45,7 @@ If you’re still building with stacks-based frameworks, now’s a great time to
 
 Making the switch can feel daunting, but the Power of Elements makes the transition both smoother and more rewarding than you might expect. Here are some tips to help you get started:
 
-### 1. Review Your Current Structure
+### . Review Your Current Structure
 
 * **Audit your content:** Go through your existing site (text, images, structure) and make a list of your key pages and features.
 * **Note special functionality:** Jot down things like forms, animations, custom menus, galleries, accordions, and any third-party stacks you’ve relied on.
