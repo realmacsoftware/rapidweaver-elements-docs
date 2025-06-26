@@ -14,6 +14,12 @@ With its modular approach and extensive customization options, Elements allows y
 >
 > Give it a try. You won’t be disappointed, and the forums and especially the developers offer a ton of help if you get stuck. — [Fynn via the Forums](https://forums.realmacsoftware.com/t/dev-diary-85-we-hit-1-000-subscribers-whats-next/47893/3).
 
+### Tips from Ex-Blocs Users
+
+* Elements’ Node Browser gives you a clear overview of your layouts, much easier than wrangling blocs and brics!
+* Tailwind theming _just works_ in Elements, so you don’t have to fight with custom classes or inconsistent styles.
+* If you need a hand, the [Elements Support Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43) is super friendly, and you can always tag [@elementsbot](https://forums.realmacsoftware.com/u/elementsbot) for help.
+
 ## How to Switch from Blocs to Elements
 
 Migrating from Blocs to Elements is a fantastic move if you’re looking for a modern, flexible, and genuinely fun web design experience. Elements was built from the ground up for rapid, future-proof site building—with a fully WYSIWYG editor and the power of Tailwind CSS at your fingertips.
@@ -66,8 +72,8 @@ For each page from your Blocs site:
 * Preview your site in the browser by pressing `Cmd + P` or the browser icon in the toolbar.
 * If you're site looks good, feploy to your host via the built-in publishing engine.
 
-### Tips from Ex-Blocs Users
+***
 
-* Elements’ Node Browser gives you a clear overview of your layouts, much easier than wrangling blocs and brics!
-* Tailwind theming _just works_ in Elements, so you don’t have to fight with custom classes or inconsistent styles.
-* If you need a hand, the [Elements Support Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43) is super friendly, and you can always tag [@elementsbot](https://forums.realmacsoftware.com/u/elementsbot) for help.
+If you have any specific component or layout you’re struggling to recreate, just [ask on the forum](https://forums.realmacsoftware.com/). Share a screenshot or describe what you need and we'll guide you to the best solution in Elements.
+
+**Welcome to the future of Mac web design, the Power of Elements is waiting for you!**
