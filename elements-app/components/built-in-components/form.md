@@ -4,7 +4,7 @@ description: Send form data via email or webhooks
 
 # Form
 
-The Form Component is a **powerful form solution** allowing you to send form submissions via your own email server or via a webhook.
+The Form Component is a flexible and powerful solution for sending form submissions either to your own email server or via a webhook.
 
 ### Server Requirements
 
@@ -12,20 +12,28 @@ The Form Component in Elements **requires PHP 8.1 or newer**.
 
 #### PHP Server Check&#x20;
 
-Ideally you should be running PHP 8.4 or newer, but as a minimum you need 8.1. You can easily check this by appending `?apicheck` to any page with a Form, for example:
+We recommend PHP 8.4 or later for best performance, but the minimum supported version is 8.1.
+
+To check which PHP version your server is using, simply append `?apicheck` to the URL of any page containing a Form. For example:
 
 `my-website.com/contact/?apicheck`&#x20;
 
-#### Form Compatibility Checklist
+### ✅ Form Compatibility & Gotchas Checklist
 
-* [ ] Forms will not work locally, they must be published to a live server.
-* [ ] Web Server is running PHP 8.1 or newer.
+Before going live with your form, make sure you’ve covered the following essentials. These common issues can prevent form submissions from working correctly, so it’s worth double-checking everything below:
+
+* [ ] **Forms must be published to a live server.** They won’t function when previewed locally.
+* [ ] **Your web server must be running PHP 8.1 or newer.** We recommend PHP 8.4 or later where possible.
+* [ ] **Sending multiple attachments?** Be sure to enable the “**multiple**” toggle in the Attachment Component settings.
+* [ ] **Using the reply-to feature?** The field name for your email input must be exactly email (all lowercase) for Elements to set the reply-to address properly.
+* [ ] **Avoid special characters in field names.** Stick to letters, numbers, and hyphens. Avoid spaces, symbols, or punctuation in form field names as they may not be parsed correctly on the server.
+* [ ] **Use the Error and Success components.** These components are optional. However, without them, users won’t see feedback after submitting the form. Include both for a complete user experience.
 
 ### Form Components
 
-The following Components must be placed inside of the "Form" Component wrapper to function correctly.
+To function correctly, the following Components must be placed inside a Form Component wrapper.
 
-<table><thead><tr><th width="212">Form Component</th><th>Details</th></tr></thead><tbody><tr><td>Attachment</td><td>Allows users to attach files when sending the form, can be limited in size or specific file type. Multiple files are supported when sending forms via email. However attachments in Webhooks are limited to a single file.</td></tr><tr><td>Checkbox</td><td></td></tr><tr><td>Error</td><td>Display an error message on form submit.</td></tr><tr><td>Input</td><td></td></tr><tr><td>Label</td><td></td></tr><tr><td>Radio</td><td></td></tr><tr><td>Submit</td><td>Another component such as a Button or Image can be placed inside this component to trigger the Form Submit function.</td></tr><tr><td>Success</td><td>Display a success message on form submit.</td></tr></tbody></table>
+<table><thead><tr><th width="212">Form Component</th><th>Details</th></tr></thead><tbody><tr><td>Attachment</td><td>Allows users to attach files to a form submission. You can limit attachments by file type or size. Multiple files are supported when sending forms via email, though Webhooks are limited to a single file.</td></tr><tr><td>Checkbox</td><td>Collects one or more yes/no values. Commonly used for terms and conditions, opt-ins, or preferences. Often paired with a Label for clarity and accessibility.</td></tr><tr><td>Error</td><td>Displays an error message when the form fails to submit. Useful for alerting users to missing fields or validation issues.</td></tr><tr><td>Input</td><td>A single-line text field for collecting user input such as names, email addresses, or numbers. Supports placeholder text and validation options.</td></tr><tr><td>Label</td><td>Describes the purpose of a form field. Helps improve accessibility and is typically used alongside Input, Checkbox, or Radio components.</td></tr><tr><td>Radio</td><td>Lets users choose a single option from a predefined list.</td></tr><tr><td>Submit</td><td>Triggers the form submission. You can place a Button, Image, or other interactive element inside this component to send the form.</td></tr><tr><td>Success</td><td>Displays a success message when the form has been submitted successfully.</td></tr></tbody></table>
 
 ### Form Setup
 
@@ -71,8 +79,6 @@ Here’s a quick guide:
 2. **Publish your Elements site** to a local folder
 3. In ServBay, **create a new site** and point the root directory to your published folder
 4. Open the site in your browser through ServBay for full local testing—including Forms and webhooks
-
-
 
 {% embed url="https://youtu.be/pR26NPw0Ip8?si=4aJyKiEJp5ntrPiD" %}
 
