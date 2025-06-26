@@ -72,3 +72,8 @@ For each page from your Blocs site:
 * Preview your site in the browser by pressing `Cmd + P` or the browser icon in the toolbar.
 * If you're site looks good, feploy to your host via the built-in publishing engine.
 
+***
+
+If you have any specific component or layout you’re struggling to recreate, just [ask on the forum](https://forums.realmacsoftware.com/). Share a screenshot or describe what you need and we'll guide you to the best solution in Elements.
+
+**Welcome to the future of Mac web design, the Power of Elements is waiting for you!**
