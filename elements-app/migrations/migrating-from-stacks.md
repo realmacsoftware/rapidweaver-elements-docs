@@ -12,6 +12,12 @@ It’s perfect for those who want a faster, more cohesive design experience, esp
 
 Elements is a modern, all-in-one website builder built exclusively for macOS, no plugins, no patchwork. Unlike Classic + Stacks + Foundation + Additional stacks, which can quickly become expensive and fragmented, Elements gives you everything you need in one beautifully integrated app. It’s faster, cleaner, and easier to use, while still giving you full control over your design and code. Plus, Elements gets weekly updates, built in the open with direct feedback from users like you.
 
+{% embed url="https://youtu.be/9sS8FvPjICs" %}
+
+In this video, we edit a very similar website using both Stacks with the Foundation Framework and RapidWeaver Elements. We walk through the editing experience in each. It’s a side-by-side comparison that really shows just how much cleaner, faster, and more enjoyable building with Elements is.
+
+If you’ve been using Stacks and Foundation for a while, you’ll probably recognise the pain points. In Elements, everything’s more streamlined. Components are smart and reusable, editing is instant, and you can focus on design without constantly fighting the tool.
+
 ### Testimonials from Stacks users switching to Elements
 
 > I used RapidWeaver Classic for years, invested a lot (!) of money in frameworks, cms solutions and 3rd party stacks which all had a different way to name or sort their settings. That already drove me nuts.
