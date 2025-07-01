@@ -39,6 +39,8 @@ If you’ve been using Stacks and Foundation for a while, you’ll probably reco
 > \
 > _Elements is truly forming to be an incredible web design app and I am excited for what is still coming! Keep up the great work Team Realmac!"_ — Gunther Schenk
 
+> _This is the web design tool I have been dreaming of for over 20 years! Finally it appears my dream is becoming a reality! I am currently building a large website for a client using Rapid Weaver classic and the stacks plug in and it is a daily struggle with these antiquated tools! Sometimes it is so incredibly frustrating when I am trying to accomplish what I thought was a simple task which becomes a three day ordeal just to try and get the stack to perform what I have envisioned. The constant back and forth between edit and preview is enough to make you want to pull your hair out! **I am genuinely excited to leave Stacks behind and begin designing professional sites in Elements!**_ — @RockNRollSoul69 via YouTube
+
 ## How to move from Stack Frameworks like Foundry and Foundation to Elements
 
 Foundry from Elixir Graphics, Foundation from Weavers Space, and other stack-based frameworks were great in their time, they gave a lot of people the tools to build websites without touching code. But as things stand today, most of those frameworks are outdated or haven;t seen any significant updates in years.
