@@ -5,9 +5,22 @@ icon: draw-square
 
 # Templates
 
-Templates are groups of Components that have been put togther to create a design or layout. Once a template is dropped into your page you can customise how you like, and it is no longer linked to the original template.&#x20;
+Templates are groups of Components that have been put togther to create a design or layout. Once a template is dropped into your page you can customise it however you like and it won't affect the original.
 
 The core pack inside of Elements includes a selection of useful layouts for everyday web design, including menus, hero banners, layouts, forms, and more.
+
+**Templates vs Globals in Elements:**
+
+* **Templates** are like blueprints: a quick way to drop in a ready-made layout or design made of Components.
+  * As soon as you add a Template to your page, it becomes a standalone set of components, completely independent from the original template.
+  * No matter how much (or how little) you customise it, it’s _not_ linked to the original anymore.
+  * Changing the original template (from a Template Pack) will _not_ affect anything you’ve already added to your site.
+  * You’re free to modify it as much or as little as you want, once the template is dropped into your site think of it as a copy, not a link!
+
+**Want content to stay in sync across pages?** That’s where [Globals](global-templates.md) come in!
+
+* [Globals](global-templates.md) are like master elements: place them on multiple pages and update in one place—the change is mirrored everywhere. Perfect for headers, footers, banners, and other repeat content.
+* You can even override certain aspects of a [Global](global-templates.md) on a single page if you want a little variation.
 
 {% hint style="info" %}
 Globals are similar, but very different to Templates. Templates are single use and not linked. Where's Globals remain linked and are perfect for making changes across your entire site, perfect for shared menus and footers. [Learn more about Globals here](global-templates.md).
