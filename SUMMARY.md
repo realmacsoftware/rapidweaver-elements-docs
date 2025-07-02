@@ -114,6 +114,7 @@
 * [Resources](<elements-app/resources (1).md>)
 * [Troubleshooting](elements-app/troubleshooting.md)
 * [SEO](elements-app/seo/README.md)
+  * [Google Analytics](elements-app/seo/google-analytics.md)
   * [Robots.txt](elements-app/seo/robots.txt.md)
 * [Accessibility](elements-app/accessibility.md)
 * [Advanced](elements-app/advanced/README.md)
