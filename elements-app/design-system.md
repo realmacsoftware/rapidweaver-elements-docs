@@ -1,19 +1,31 @@
 ---
-icon: pen-ruler
 description: Learn more about how the Elements design system works.
+icon: pen-ruler
 ---
 
 # Design System
 
-If you're just starting out with Elements it's important to take the time to learn the difference between Components and Global Components.
+If you're just starting out with Elements it's important to take the time to learn the difference between Components, Templates, and Global Templates.
 
-It's also worth noting that Elements is a Mobile first design system, you can learn more about all of this and more below. If you have more questions, please [visit the forum](https://forums.realmacsoftware.com).
+It's also worth noting that Elements is a Mobile first design system, based on Tailwind CSS. You can learn about all of this and more below.&#x20;
+
+{% hint style="info" %}
+If you have any questions, please [visit the forum](https://forums.realmacsoftware.com), we're always around to help!
+{% endhint %}
 
 ### Components
 
 The core components inside elements represent the basic building blocks of a webpage; they are at the foundation of your page design. They include things like containers, grids, headings, text, and buttons. They are singular items, like Lego bricks.
 
 Some of the more advanced components go beyond the basics; these include things like menus and galleries.
+
+### Templates
+
+Templates are groups of Components that have been put togther to create a design or layout. Once a template is dropped into your page you can customise it however you like and it won't affect the original.
+
+The core pack inside of Elements includes a selection of useful layouts for everyday web design, including menus, hero banners, layouts, forms, and more.
+
+You can learn more about [Templates and how they differ to Global Templates here](templates.md).
 
 ### Global Templates
 
@@ -29,13 +41,15 @@ You can [learn more about Global Templates here](design-system.md#global-templat
 
 Elements takes a mobile-first design approach. Mobile has now surpassed desktop in global internet usage. Google has switched to mobile-first indexing. That’s why Elements takes a mobile-first approach to website design to ensure your sites work better and rank higher in search results.
 
+While it may feel more natural to some designers to start from a larger, desktop layout and scale downward, CSS doesn’t support a true “desktop-first” cascade. There’s no native way to define base styles at the largest breakpoint and then override them on smaller screens without introducing redundancy or conflicts in your code.
+
+Mobile-first design ensures your site is accessible, performant, and adaptable on all devices, starting from the smallest screen up. Once you get comfortable with this approach, it often leads to cleaner, more maintainable layouts.
+
 We recommend designing at the mobile breakpoint first, and working your way up through the breakpoints to support larger screens.
 
-### Built on Tailwind, AlpineJS, and the GSAP Animation Library
+### Built on Tailwind and AlpineJS
 
-Elements is built upon the popular [Tailwind CSS framework](https://tailwindcss.com/), along with [AlpineJS](https://alpinejs.dev). and the [GSAP Animation Library](https://gsap.com), which makes it a piece of cake to build modern responsive websites.
-
-By standardising on the framework used inside Elements, we ensure third-party components work great with every website you build.
+Elements is built upon the popular [Tailwind CSS framework](https://tailwindcss.com/), along with [AlpineJS](https://alpinejs.dev), which makes it a piece of cake to build modern responsive websites. By standardising on the framework used inside Elements, we ensure third-party components work great with every website you build.
 
 ### Real-time CSS Generation
 
@@ -57,10 +71,4 @@ The design system in Elements allows the app, third-party developers, and end us
 * [Tailwind CSS: Utility-First Fundamentals](https://tailwindcss.com/docs/utility-first)
 * [Tailwind UI](https://tailwindui.com)
 * [Why Tailwind is the Future of CSS Frameworks: A Comparison with Bootstrap](https://b-benjithomas.medium.com/why-tailwind-is-the-future-of-css-frameworks-a-comparison-with-bootstrap-aabe9a9c2166)
-* [Why Is TailWind CSS So Great?](https://medium.com/codex/why-is-tailwind-css-so-great-20c407108ae1)
-
-#### How to use Tailwind Utility Classes in Elements
-
-{% embed url="https://www.youtube.com/watch?v=yKBmzEqxWdk&t=14s" %}
-
-\
+* [Why Is TailWind CSS So Great?](https://medium.com/codex/why-is-tailwind-css-so-great-20c407108ae1)\

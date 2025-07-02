@@ -25,3 +25,7 @@ Let’s get started.
 [migrating-from-stacks.md](migrating-from-stacks.md)
 {% endcontent-ref %}
 
+{% content-ref url="migrating-from-wordpress.md" %}
+[migrating-from-wordpress.md](migrating-from-wordpress.md)
+{% endcontent-ref %}
+

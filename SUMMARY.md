@@ -20,6 +20,7 @@
   * [Migrating from Blocs](elements-app/migrations/migrating-from-blocs.md)
   * [Migrating from Classic](elements-app/migrations/migrating-from-classic.md)
   * [Migrating from Stacks](elements-app/migrations/migrating-from-stacks.md)
+  * [Migrating from Wordpress](elements-app/migrations/migrating-from-wordpress.md)
 * [Design System](elements-app/design-system.md)
 * [Editor](elements-app/editor.md)
   * [Apple Intelligence](elements-app/editor/apple-intelligence.md)
