@@ -11,12 +11,6 @@ Welcome to the official and in-depth FAQ documentation for all things RapidWeave
 
 Take a look at our in-depth [Purchasing and Licensing FAQ](purchasing-and-licensing-faq/).
 
-### Q: Is there a demo/trial version of Elements available?
-
-Right now, Early Access to [Elements](https://elementsapp.io/) is only available to paying users. This lets us focus on delivering the best experience and support to those actively using the app. It also means we can ship frequent updates based on real-world feedback, your support directly helps shape the future of [Elements](https://elementsapp.io/)&#x20;
-
-That said, if you pick up [Elements](https://elementsapp.io/) and decide it’s not for you, we’re happy to offer a full refund. No questions asked.
-
 ### Q: I've lost my license, where can I find it?
 
 If you've lost your license, visit our [License Manager](https://realmac.onfastspring.com/account?_ga=2.10544500.1105777797.1626726782-1957467528.1625162309) and use the automated system to help find your previous purchases.
