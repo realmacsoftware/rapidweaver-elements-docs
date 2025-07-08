@@ -1,6 +1,6 @@
 ---
 description: RapidWeaver Elements is a desktop application for macOS.
-icon: desktop-arrow-down
+icon: laptop
 ---
 
 # System Requirements

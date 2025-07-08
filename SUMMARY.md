@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Early Access](early-access.md)
+* [Download Trial](download-trial.md)
 * [System Requirements](download-and-installation.md)
 * [Elements FAQ](elements-faq.md)
 * [Purchasing & Licensing FAQ](purchasing-and-licensing-faq/README.md)
