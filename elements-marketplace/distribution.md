@@ -8,7 +8,7 @@ icon: lightbulb
 If you’re building add-ons for Elements then, welcome! This documentation is for you. It covers everything you need to know about submitting and promoting your addon to the growing number of passionate RapidWeaver Element users around the world.
 
 {% hint style="info" %}
-**The Elements Distribution Platform and in-app Store are going live in 2025.**\
+**The Elements Distribution Platform is going live later this year.**\
 This preliminary information is subject to change.
 {% endhint %}
 
@@ -26,7 +26,7 @@ The URL for the service is [https://marketplace.realmacsoftware.com](https://mar
 
 The [Elements API](../elements-language/api-introduction/) allows you to build powerful products that can be used by the rapidly growing Elements user base. Now is an excellent time to establish yourself as one of the key players in this flourishing community.&#x20;
 
-### How it works
+### How it works (Subject to change)
 
 Sign-up for an Elements Cloud account (in-app), enter your details, along with connecting your Stripe account. We take care of the rest. You can be up and running and selling addons within minutes.
 

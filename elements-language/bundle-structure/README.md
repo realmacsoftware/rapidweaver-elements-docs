@@ -15,6 +15,7 @@ An Element Pack can contain one or more add-on types, including any combination 
 * Resources
 * Templates
 * Themes
+* Projects (planned)
 
 Templates, Resources, and Themes should be built inside of Elements. However, Components require a specific directory structure in order to work correctly, these are called Bundles in macOS, and need to be built outside of Elements.
 

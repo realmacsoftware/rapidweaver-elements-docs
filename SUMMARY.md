@@ -123,6 +123,11 @@
   * [URL Scheme](elements-app/advanced/url-scheme.md)
 * [Quicklook Document](elements-app/quicklook-document.md)
 
+## Elements Cloud
+
+* [Getting Started](elements-cloud/account-sign-up.md)
+* [Troubleshooting](elements-cloud/troubleshooting.md)
+
 ## Elements Language
 
 * [Introduction](elements-language/api-introduction/README.md)
@@ -217,14 +222,10 @@
   * [Themes](elements-language/bundle-structure/themes.md)
 * [Troubleshooting](elements-language/troubleshooting.md)
 
-## Elements Cloud
-
-* [Getting Started](elements-cloud/account-sign-up.md)
-* [Troubleshooting](elements-cloud/troubleshooting.md)
-
 ## Elements Marketplace
 
 * [Getting Started](elements-marketplace/distribution.md)
+* [Distribution](elements-marketplace/distribution-1.md)
 * [Add-on Guidelines](elements-marketplace/add-on-guidelines.md)
 * [Marketplace API](elements-marketplace/marketplace-api.md)
 
