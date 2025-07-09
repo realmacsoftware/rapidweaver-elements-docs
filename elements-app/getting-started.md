@@ -9,6 +9,12 @@ icon: lightbulb
 
 First, you'll need to [Download Elements](https://elementsapp.io/download/). When the download is complete double-click to unzip the file, then move Elements.app to your Applications Folder.
 
+### 5-Minute Quick Start Guide
+
+If you're new to Elements, this 5-minute quick start guide will help you get started building your first page, fast! In the video, we'll show you how to build a page using Templates, and navigate a pre-built marketplace project.
+
+{% embed url="https://youtu.be/19f5r940LbI" %}
+
 ### An Introduction to the Elements Interface
 
 While the following video doesn’t cover every feature available in Elements, it offers a clear, high-level overview of the app’s layout and workflow. You’ll get a feel for how to add components to a page, how the editing interface is organized, and how to start building a website.
