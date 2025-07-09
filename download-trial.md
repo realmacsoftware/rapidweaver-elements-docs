@@ -5,7 +5,7 @@ icon: desktop-arrow-down
 
 # Download Trial
 
-The new trial mode lets you explore the full app and build up to three pages, giving you a feel for the design workflow and features. While export and publishing are disabled in the trial, everything else is fully functional, so you can see exactly how Elements works before committing.
+The new trial mode in Elements lets you explore the full app and build up to three pages, giving you a feel for the design workflow and features. While export and publishing are disabled in the trial, everything else is fully functional, so you can see exactly how Elements works before committing.
 
 It’s the best way to experience the speed and simplicity of modern website building with Elements.
 

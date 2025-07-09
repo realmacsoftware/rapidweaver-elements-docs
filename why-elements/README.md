@@ -11,7 +11,7 @@ Learn more about why RapidWeaver Elements for macOS is the perfect choice for bu
 We listen to our amazing [community of passionate users](https://forums.realmacsoftware.com) and build the features they want.&#x20;
 
 1. Weekly builds along with a video dev diary to keep the community in the loop.
-2. Be part of the Independent Web, don;t rely on social media companies.
+2. Be part of the Independent Web, don't rely on social media companies.
 3. Static Sites are just better (although we do support php if you need it).
 4. Super active and supportive Community
 5. Fast, friendly, top-tier support!
