@@ -1,28 +1,32 @@
 ---
-hidden: true
 icon: box-taped
 ---
 
 # Distribution
 
+This section covers everything you need to know about preparing your components for release. Whether you’re sharing your work with clients or publishing it on the Marketplace, it’s essential to package and protect your components correctly. You’ll learn the difference between Dev Packs and Element Packs, how to compile and encrypt your components, and why only compiled Element Packs should ever be distributed.
 
+### Element Dev Packs
 
-### Dev Packs
+Element Dev Packs are for internal use only. **Do not distribute or sell them.**
 
-⚠️ **Element Dev Packs are for internal use only.**
+An Element Dev Pack (.devpack) is designed strictly for local development. These are uncompiled and unencrypted versions of your components that allow for live editing and testing during development.&#x20;
 
-As the name implies, an Element Dev Pack (.devpack) is intended for local development purposes only, these **must not be sold or distributed publicly**.
+Every file inside a Dev Pack is actively monitored by Elements and the system, which enables real-time updates as you work in third-party editors, a huge benefit while building components.
 
-Dev Element Packs need to be converted and encrypted (this protects your code), before they can be sold and distributed.
+However, this live monitoring comes at a cost. If too many Dev Packs accumulate over time, Elements (and macOS) can run out of file handles, leading to components failing to load or update. **To avoid performance issues and ensure system stability, Dev Packs must never be shared or sold.**
 
-
-
-Dev Packs can take a couple of seconds to load, whereas compiled Cmponents be down at milliseconds,
-
-Every file inside a dev pack is monitored, so if you have a lot of dev packs you could run out of file handlers.\
-
+Before distribution, all Dev Packs must be compiled and encrypted into standard .elementpack files. This process protects your code, improves load times (down from seconds to milliseconds), and ensures the pack is safe and optimised for use by others.
 
 ### Element Packs
 
-✅ **Compiled Element Packs should be used for Distribution**
+Compiled Element Packs are intended for distribution and sale.
+
+An Element Pack is a compiled and encrypted version of your component. It contains only the essential files, optimised for performance and security. These packs are what you’ll use when sharing or selling your work via the Marketplace or elsewhere.
+
+Information on converting your Dev Pack into a distributable Element Pack will be available soon.
+
+***
+
+I you need a help while developing your next great addon for Elements or you have questions about distribution, [Please visit the Support Form](https://forums.realmacsoftware.com/c/rapidweaver-elements/43).
 
