@@ -4,13 +4,28 @@ description: FTP Publishing Issues and how to fix them
 
 # How to fix Publishing Issues
 
-Can't get your website online or updated. Don't worry. 99% of the time the issue is due to incorrect setup of publishing details. This is due to the fact that everything needs to be entered 100% correctly otherwise publishing fails.\
+Can't get your website online or updated. Don't worry. 99% of the time the issue is due to incorrect setup of publishing details. This is due to the fact that everything needs to be entered 100% correctly otherwise publishing fails.
+
+{% hint style="info" %}
+### Mission Critical Publishing Issues: Use a Standalone FTP Client
+
+The following is recommended if you're having issues publishing your site and you need to get an update online as soon as possible. After manually uploading your site we recommend you get in touch with us to help resolve the issue publishing with Elements.
+
+We recommend entering your details into a third-party client to verify they work and are correct. [Transmit](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwiarpPjmtb3AhWEK0QIHSoZDxAQFnoECAUQAQ\&url=https%3A%2F%2Fpanic.com%2Ftransmit%2F\&usg=AOvVaw3fa_bRPF5Z5ggPXHa3-KBK) and Cyberduck are both great FTP clients and can be downloaded freely for this test.\
 \
+If you're still having issues logging into your server with a third-party client it means your login credentials are incorrect. Please contact your hosting company to verify your details.\
+\
+If you successfully log in to your server with a third-party client, you can then export your site to a local folder with RapidWeaver, and then upload it directly using an FTP client as a temporary workaround.\
+
+{% endhint %}
+
+### Check your Credentials
+
 **By far the most common cause of publishing issues is that the credentials entered are not accurate.** It’s incredibly important that you double-check the details you’ve entered.\
 \
 To view your configured publishing details, choose:\
 \
-File > Publishing Settings (Command-K) or choose the Publishing item under Settings in the sidebar.\
+File > Publishing Settings (Command-K).\
 \
 Check that all the fields are entered correctly: Server Address, Username, Password, Path, etc.\
 \
@@ -49,16 +64,6 @@ If you're having issues publishing via FTP, we recommend publishing via SFTP as 
 
 Contact your hosting company to check your SFTP details as they can often be slightly different to your FTP details.
 
-### Use a Standalone FTP Client
-
-If you have no luck publishing inside RapidWeaver, we recommend entering your details into a third-party client to verify they work and are correct. [Transmit](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwiarpPjmtb3AhWEK0QIHSoZDxAQFnoECAUQAQ\&url=https%3A%2F%2Fpanic.com%2Ftransmit%2F\&usg=AOvVaw3fa_bRPF5Z5ggPXHa3-KBK) and Cyberduck are both great FTP clients and can be downloaded freely for this test.\
-\
-If you're still having issues logging into your server with a third-party client it means your login credentials are incorrect. Please contact your hosting company to verify your details.\
-\
-If you successfully log in to your server with a third-party client, you can then export your site to a local folder with RapidWeaver, and then upload it directly using an FTP client as a temporary workaround.\
-\
-Now that's working, let's jump back over to RapidWeaver to try and resolve the upload issue:
-
 ### Re-add your publishing details
 
 If you have verified your publishing credentials are correct in another FTP app and it's still not working inside RapidWeaver please delete your publishing destination, and re-add a new publishing destination. By doing this you ensure all the details are new and verified.\
@@ -95,20 +100,23 @@ Sometimes users create an index.html and index.php file with the latter being th
 
 RapidWeaver can also be configured to produce a more in-depth report about publishing that the Realmac Software support team can use to identify potential problems.\
 \
-First of all open RapidWeaver’s preferences (Cmd,) and select the Publishing preferences pane.\
-Make sure that the Enable Upload Logging option is checked.
+First of all open RapidWeaver’s preferences (Cmd,) and select the Publishing preferences pane. Make sure that the Enable Upload Logging option is checked.
 
-* Quit RapidWeaver.
-* Re-open your project in RapidWeaver.
-* Attempt to republish your RapidWeaver project by choosing File>Re-Publish All Files.
-* If the publishing feature returns an error, hit the “Send Upload Logs” button.
-* It will then attempt to generate an email with the publishing logs, enter some details about your issue, and hit send!
+<figure><img src="../../.gitbook/assets/CleanShot 2025-07-11 at 2 .18.24@2x.png" alt=""><figcaption></figcaption></figure>
+
+Please do the following step to send your publishing logs to us:
+
+1. Quit RapidWeaver.
+2. Re-open your project in RapidWeaver.
+3. Attempt to republish your RapidWeaver project by choosing File>Re-Publish All Files.
+4. If the publishing feature returns an error, hit the “Send Upload Logs” button.
+5. It will then attempt to generate an email with the publishing logs, enter some details about your issue, and hit send!
 
 #### Error Messages
 
 Exporting If you’re seeing an error message when exporting your site, this may mean that there’s a problem with either an addon or a resource in your project. If an error message appears consistently when exporting a particular page, take a look at the page - are there any resources missing, or a particular addon that may be causing a problem?
 
-#### Contacting Realmac Software
+### Contacting Realmac Software
 
 When contacting Realmac Software, please include as much detail as possible. Please also use the Help menu’s Copy Support Logs.\
 \
