@@ -47,8 +47,6 @@ To reset Elements, remove the preferences file by following these steps.
 For an automatica way to remove the Preferences you can do the following. Hold down the option key and go to Help > Clear Applications Preferences.
 {% endhint %}
 
-
-
 {% stepper %}
 {% step %}
 ### Quit Elements
@@ -83,7 +81,11 @@ You can now safely re-launch Elements.
 
 ### Document Repaired Warning Dialog
 
-If you see this dialog when opening a project, Don't panic! This is nothing to be alarmed about. **Your project(s) are safe.**
+If you see the "Document Repaired Warning Dialog" dialog when opening a project, Don't panic! This is nothing to be alarmed about. **Your project(s) are safe.**
 
-Elements is just tidying up the document and putting any orphan nodes it finds at the top of the page. These can safely be deleted, and you can carry on working on your project.
+When Elements detects any orphaned nodes (bits of content that no longer have a proper home), it moves them to the top of the page rather than deleting them outright. That way, nothing important ever gets lost by mistake.
+
+These nodes can be safely deleted, but you might need to unlink them from a Global first.
+
+We’re actively working on reducing the chances of these orphaned nodes appearing in the first place.
 
