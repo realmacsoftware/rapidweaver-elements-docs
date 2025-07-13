@@ -14,6 +14,10 @@ Elements works with almost any host, but if you’re still deciding on a hosting
 
 * [Get Website Hosting with Chillidog](https://billing.chillidoghosting.com/aff.php?aff=113)
 
+### Analytics
+
+* Analytics for your little corner of the web, [https://tinylytics.app](https://tinylytics.app)
+
 ### Commenting Systems
 
 Easy to use commenting systems that you can add to any page on your website.
@@ -21,11 +25,4 @@ Easy to use commenting systems that you can add to any page on your website.
 * [FastComments.com](https://fastcomments.com/)
 * [talk.hyvor.com](https://talk.hyvor.com)
 * [disqus.com](https://disqus.com)
-
-### Blogging
-
-If you don't want to use the blog components that are included with Elements, the following blogging platforms can be easily integrated into a static website:
-
-* [dropinblog.com](https://dropinblog.com)
-* [bloghandy.com](https://bloghandy.com)
 
