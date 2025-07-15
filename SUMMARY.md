@@ -120,6 +120,7 @@
   * [Robots.txt](elements-app/seo/robots.txt.md)
 * [Accessibility](elements-app/accessibility.md)
 * [Advanced](elements-app/advanced/README.md)
+  * [.htaccess Files](elements-app/advanced/.htaccess-files.md)
   * [URL Scheme](elements-app/advanced/url-scheme.md)
 * [Quicklook Document](elements-app/quicklook-document.md)
 
