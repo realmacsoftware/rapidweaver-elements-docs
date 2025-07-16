@@ -13,6 +13,14 @@ Elements automatically generates an XML sitemap for your project, and includes a
 
 For advanced users, Elements also provides direct access to the raw HTML template—perfect for inserting custom SEO tags or scripts not available through the UI.
 
+### SEO Testing Tools
+
+You can test the SEO performance of your website with the following tools:
+
+* [Google Search Console](https://search.google.com/search-console/about) – submit sitemaps, monitor indexing, and spot issues
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) – audit SEO basics from Chrome
+* [Ahrefs Webmaster Tools](https://ahrefs.com/webmaster-tools) – free tools for basic SEO analysis
+
 ### Good SEO Practices in Elements
 
 The following is a list of items that will help your website rank better in search engines:
@@ -22,7 +30,7 @@ The following is a list of items that will help your website rank better in sear
 3. Structuring URLs (so they are human readable)
 4. Use the correct Header Tags
 5. Creating Alt Text for Images
-6. Using a Sitemap (Elements generates this automatically)
+6. Using a [Sitemap](sitemap.xml.md) (Elements generates this automatically)
 
 ### How to set Image Alt text
 
