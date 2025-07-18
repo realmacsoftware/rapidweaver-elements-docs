@@ -1,4 +1,4 @@
-# Fixing Common Design Issues
+# Fix Common Design Issues
 
 This article aims to cover all the common design related questions for newer users int he Elements ecosystem.
 

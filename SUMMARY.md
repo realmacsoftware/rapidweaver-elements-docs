@@ -103,7 +103,7 @@
   * [Border Radius](elements-app/theme-studio/border-radius.md)
   * [Typography](elements-app/theme-studio/typography.md)
 * [How to](elements-app/how-to/README.md)
-  * [Fixing Common Design Issues](elements-app/how-to/fixing-common-design-issues.md)
+  * [Fix Common Design Issues](elements-app/how-to/fix-common-design-issues.md)
   * [Add an Icon Inside a Button](elements-app/how-to/add-an-icon-inside-a-button.md)
   * [Adjust Smooth Scroll Speed](elements-app/how-to/adjust-smooth-scroll-speed.md)
   * [Apply Anchor Scroll Padding](elements-app/how-to/apply-anchor-scroll-padding.md)
