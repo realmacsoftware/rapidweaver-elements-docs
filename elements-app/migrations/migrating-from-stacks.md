@@ -8,6 +8,38 @@ Elements is an excellent alternative to Stacks from YourHead Software because it
 
 It’s perfect for those who want a faster, more cohesive design experience, especially with the added benefit of Tailwind CSS for precise, professional styling.
 
+### Elements VS Stacks&#x20;
+
+Elements is a clean, modern, all-in-one app made for today’s macOS and web standards. It’s built with performance, reusability, and simplicity in mind. Stacks + Foundation + addition stacks can still get the job done, but it’s increasingly complicated, slower, and dependent on a web of tools built years ago.
+
+<table data-full-width="true"><thead><tr><th width="257">Feature</th><th width="354">Elements</th><th>Classic + Stacks Plugin + Foundation + Total CMS</th></tr></thead><tbody><tr><td>WYSIWYG Editor</td><td>✅ What you see is what you get</td><td>❌ Switch between Edit and Preview</td></tr><tr><td>Modern CSS Framework</td><td>✅ Tailwind CSS</td><td>❌ Addons required, like Foundation ($149)</td></tr><tr><td>Dark Mode Support</td><td>✅ Full native support</td><td>❌ Unsupported in Stacks</td></tr><tr><td>Responsive Design</td><td>✅ Built-in with visual breakpoints</td><td>❌ Unsupported in Stacks</td></tr><tr><td>Software Updates</td><td>✅ Weekly with Video Dev Diaries</td><td>⚠️ Infrequent and sporadic</td></tr><tr><td>Custom Components</td><td>✅ Built-in editor</td><td>⚠️ Infrequent and sporadic</td></tr><tr><td>Code Page Support</td><td>✅ Add HTML</td><td>❌ Unsupported in Stacks</td></tr><tr><td>Free Starter Projects</td><td>✅ Growing Collection of Built-in Projects</td><td>❌ No built-in Projects</td></tr><tr><td>Cost </td><td>$129</td><td>$486.90 — Detailed breakdown below</td></tr></tbody></table>
+
+### Pricing Comparison: Elements VS Stacks
+
+When it comes to pricing there is absolutely no comparison, Elements ships with everything you need to build a modern website, Forms, CMS, it has it all built-in. Stacks requires you to purchase a lot of additional add-ons to even try and get anywhere close to the feature set of Elements.
+
+#### RapidWeaver Elements
+
+Includes everything in one app, one price.
+
+RapidWeaver Elements: $149\
+Total Cost: **$149**
+
+#### **Stacks Ecosystem**
+
+Nearly $500, before you even build a page!
+
+RapidWeaver Classic: $89\
+Stacks Plugin: $49\
+Foundation Framework: $149.95\
+TotalCMS : $99.95 (per site)\
+Photo Gallery Stack: $49 \
+Forms Stack: $49
+
+Total Cost: **$486.90**
+
+
+
 ### Why Choose Elements over Stacks?
 
 Elements is a modern, all-in-one website builder built exclusively for macOS, no plugins, no patchwork. Unlike Classic + Stacks + Foundation + Additional stacks, which can quickly become expensive and fragmented, Elements gives you everything you need in one beautifully integrated app. It’s faster, cleaner, and easier to use, while still giving you full control over your design and code. Plus, Elements gets weekly updates, built in the open with direct feedback from users like you.
