@@ -14,7 +14,7 @@ The Form Component in Elements **requires PHP 8.1 or newer**.
 
 We recommend PHP 8.4 or later for best performance, but the minimum supported version is 8.1.
 
-To check which PHP version your server is using, simply append `?apicheck` to the URL of any page containing a Form. For example:
+To check is the Elements API is running as expected on your server, simply append ?apicheck to the URL of any page containing a Form.
 
 `my-website.com/contact/?apicheck`&#x20;
 
