@@ -5,7 +5,9 @@ icon: lightbulb
 
 # Getting Started
 
-Every Elements Cloud account comes with 1GB of free cloud storage. An active license is required for continued use of Elements Cloud. You can sign-up in-app.&#x20;
+Every Elements Cloud account comes with **1GB of free cloud storage**. An active license is required for continued use of Elements Cloud. You can sign-up in-app.&#x20;
+
+Below are  instructions on [how to sign-up](account-sign-up.md#how-to-sign-up-for-an-elements-cloud-account) for a free account, and [share/backup your project](account-sign-up.md#backup-and-share-a-file).
 
 {% hint style="info" %}
 An active subscription is required to use Elements Cloud.
@@ -27,11 +29,18 @@ Once logged in you can share your open project from the Cloud icon in the Elemen
 
 Every Elements Cloud account comes with 1GB of free cloud storage. This is the perfect place to make backups and upload files for sharing.
 
-### Backup and Share a File
+### Backup and Share a Project Files with Elements Cloud
 
-Once [logged into you Account](account-sign-up.md) you can share your open project from the Cloud icon in the Elements Toolbar.
+Once [logged into you Elements Cloud Account](account-sign-up.md) you can share your open project from the Cloud icon in the Elements Toolbar.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-09-10 at 1 .43.00@2x.png" alt=""><figcaption><p>Work-in-progress secreenshot from Elements Beta. UI may differ in newer builds.</p></figcaption></figure>
+To upload your project to Elements Cloud, just follow these steps:
+
+1. Open your project in Elements.
+2. Click the "Cloud" share button in the top-left corner.
+3. Press the "Upload Project" button in the pop-over window.
+4. Once it's finished uploading you'll be able to share the link to your project.
+
+<figure><img src="../.gitbook/assets/CleanShot 2025-07-22 at 9 .44.45@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Converting an Elements App link to a direct download
 
