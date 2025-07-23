@@ -6,39 +6,39 @@ description: Learn more about switching from Stacks to Elements
 
 Elements is an excellent alternative to Stacks from YourHead Software because it simplifies the web design process while giving you powerful, modern tools to create beautiful, responsive websites. Unlike Stacks, which relies on a collection of costly third-party addons to extend functionality, Elements is built from the ground up with a streamlined, all-in-one approach.
 
-It’s perfect for those who want a faster, more cohesive design experience, especially with the added benefit of Tailwind CSS for precise, professional styling.
+It’s perfect for those who want a modern, more cohesive design experience, especially with the added benefit of Tailwind CSS for precise, professional styling.
 
 ### Elements VS Stacks App&#x20;
 
-Elements is a clean, modern, all-in-one app made for today’s macOS and web standards. It’s built with performance, reusability, and simplicity in mind. Stacks + Foundation + addition stacks can still get the job done, but it’s complicated, slower, requires dozens of third-party stacks that need to be purchased.
+Elements is a modern, all-in-one app designed specifically for today’s macOS and web standards, with a focus on performance, reusability, and simplicity. While Stacks combined with Foundation and additional stacks can get the job done, it often involves a more complex setup with multiple third-party add-ons and extra costs.
 
-<table data-full-width="true"><thead><tr><th width="257">Feature</th><th width="354">Elements</th><th>Stacks App</th></tr></thead><tbody><tr><td>WYSIWYG Editor</td><td>✅ What you see is what you get</td><td>❌ Switch between Edit and Preview</td></tr><tr><td>Project Backup</td><td>✅  1GB of free cloud storage</td><td>❌ Unsupported</td></tr><tr><td>Modern CSS Framework</td><td>✅ Tailwind CSS</td><td>❌ Requires third-party stack e.g. Foundation $149</td></tr><tr><td>Forms</td><td>✅ Built-in Form Components</td><td>❌ Requires third-party stack</td></tr><tr><td>Modern Flex and Grid Layout</td><td>✅ WYSIWYG Flex and Grid layout</td><td>❌ Requires third-party stack</td></tr><tr><td>Photo and Video Gallery</td><td>✅ Built-in Gallery with Lightbox</td><td>❌ Requires third-party stack</td></tr><tr><td>Accordion</td><td>✅ Built-in with live filter support</td><td>❌ Requires third-party stack</td></tr><tr><td>Editable Code areas</td><td>✅ Built-in access to all code areas</td><td>❌ Requires third-party stacks</td></tr><tr><td>CMS</td><td>✅ Built-in local Markdown CMS</td><td>❌ Requires third-party stack e.g. TotalCMS $99 per site</td></tr><tr><td>Unified Theming System</td><td>✅ Theme Studio (used by all components)</td><td>❌ Unsupported</td></tr><tr><td>Smart Publishing</td><td>✅ Only publishes the changed files</td><td>❌ Uploads all files every time</td></tr><tr><td>Dark Mode Support</td><td>✅ Full native support</td><td>❌ Unsupported</td></tr><tr><td>Responsive Design</td><td>✅ Built-in with six visual breakpoints</td><td>❌ Unsupported</td></tr><tr><td>Software Updates</td><td>✅ Weekly with Video Dev Diaries</td><td>⚠️ Infrequent beta releases</td></tr><tr><td>Custom Components</td><td>✅ Built-in with live code editor</td><td>⚠️  External editor required</td></tr><tr><td>Code Page Support</td><td>✅  Built-in editor for md, txt, html, etc.</td><td>❌ Unsupported in Stacks</td></tr><tr><td>Publishing Destinations</td><td>✅  FTP, SFTP, FTPS, Amazon</td><td>⚠️  Only SFTP</td></tr><tr><td>Free Starter Projects</td><td>✅ Growing Collection of Built-in Projects</td><td>❌ No built-in Projects</td></tr><tr><td>Globals</td><td>✅ Fully customisable shared content</td><td>⚠️ Partials, limited</td></tr><tr><td>Node Browser</td><td>✅ Fully customisable shared content</td><td>❌ Unsupported</td></tr><tr><td>Customisable Workspace</td><td>✅ Fully customisable shared content</td><td>❌ Unsupported</td></tr><tr><td>Elementris</td><td>👾 Hidden game!</td><td>☹️ No hidden games.</td></tr><tr><td><strong>Cost</strong> </td><td><strong>$129</strong></td><td><strong>$486.90</strong> — Detailed breakdown below</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="257">Feature</th><th width="354">Elements</th><th>Stacks App</th></tr></thead><tbody><tr><td>WYSIWYG Editor</td><td>✅ What you see is what you get</td><td>❌ Switch between Edit and Preview</td></tr><tr><td>Project Backup</td><td>✅  1GB of free cloud storage</td><td>❌ Unsupported</td></tr><tr><td>Modern CSS Framework</td><td>✅ Tailwind CSS</td><td>❌ Requires third-party stack e.g. Foundation $149</td></tr><tr><td>Forms</td><td>✅ Built-in Powerful Form Component</td><td>❌ Requires third-party stack</td></tr><tr><td>Modern Flex and Grid Layout</td><td>✅ WYSIWYG Flex and Grid layout</td><td>❌ Requires third-party stack</td></tr><tr><td>Photo and Video Gallery</td><td>✅ Built-in Gallery with Lightbox</td><td>❌ Requires third-party stack</td></tr><tr><td>Accordion</td><td>✅ Built-in with live filter support</td><td>❌ Requires third-party stack</td></tr><tr><td>Modal </td><td>✅ Built-in flexible modals</td><td>❌ Requires third-party stack</td></tr><tr><td>Editable Code areas</td><td>✅ Built-in access to all code areas</td><td>❌ Requires third-party stacks</td></tr><tr><td>Native SVG Support</td><td>✅ Full SVG support</td><td>❌ Requires third-party stacks</td></tr><tr><td>CMS</td><td>✅ Built-in local Markdown CMS</td><td>❌ Requires third-party stack e.g. TotalCMS $99 per site</td></tr><tr><td>Templates</td><td>✅ Collection of layout Templates</td><td>❌ None</td></tr><tr><td>Unified Theming System</td><td>✅ Theme Studio (used by all components)</td><td>❌ Unsupported</td></tr><tr><td>Smart Publishing</td><td>✅ Only publishes the changed files</td><td>❌ Uploads all files every time</td></tr><tr><td>Dark Mode Support</td><td>✅ Full native support</td><td>❌ Unsupported</td></tr><tr><td>Responsive Design</td><td>✅ Built-in with six visual breakpoints</td><td>❌ Unsupported</td></tr><tr><td>Web Icon Support</td><td>✅ iOS, Pinned Tab, and Favicons</td><td>❌ Unsupported</td></tr><tr><td>SEO Sitemap Support</td><td>✅ Automatic Sitemap Generation</td><td>❌ Unsupported</td></tr><tr><td>Custom Components</td><td>✅ Built-in with live code editor</td><td>⚠️  External editor required</td></tr><tr><td>Code Page Support</td><td>✅  Built-in editor for md, txt, html, etc.</td><td>❌ Unsupported</td></tr><tr><td>Publishing Destinations</td><td>✅  FTP, SFTP, FTPS, Amazon S3</td><td>⚠️  Only SFTP</td></tr><tr><td>Free Starter Projects</td><td>✅ Growing Collection of Built-in Projects</td><td>❌ No built-in Projects</td></tr><tr><td>Globals</td><td>✅ Fully customisable shared content</td><td>⚠️ Partials, limited</td></tr><tr><td>Node Browser</td><td>✅ Editable Node tree</td><td>❌ Unsupported</td></tr><tr><td>Customisable Workspace</td><td>✅ Fully customisable palette system</td><td>❌ Unsupported</td></tr><tr><td>Software Updates</td><td>✅ Weekly with Video Dev Diaries</td><td>⚠️ Infrequent beta releases</td></tr><tr><td>Elementris</td><td>👾 Hidden game!</td><td>☹️ No hidden game.</td></tr><tr><td><strong>Cost</strong> </td><td><strong>$149</strong></td><td><strong>$528.65</strong> — Detailed breakdown below</td></tr></tbody></table>
 
 ### Pricing Comparison: Elements VS Stacks APP
 
-When it comes to pricing there is absolutely no comparison, Elements ships with everything you need to build a modern website, Forms, CMS, it has it all built-in. Stacks requires you to purchase a lot of additional add-ons to even try and get anywhere close to the feature set of Elements.
+Elements includes everything you need out of the box: Forms, CMS, Animation, Gallery, and more with no extra purchases required. In contrast, building a similar setup with Stacks typically involves buying multiple third-party add-ons to match the same level of functionality.
 
-#### RapidWeaver Elements
+#### RapidWeaver Elements $149
 
-Includes everything in one app, for a single price.
+Includes everything in one app, for a single price. Elements pricing ranges from $99 to $250. The majority of users purchase our Plus plan for $149. All plans include everything mention in our comparision chart above.
 
-RapidWeaver Elements: $149\
+RapidWeaver Elements: $99 - $249\
 Total Cost: **$149**
 
-#### **Stacks Ecosystem**
+#### **Stacks Ecosystem \~$500**
 
-Stacks App is not available to purchase or use in production, so the pricing quoted below is based on the current working solution,it's **nearly $500, but even with final pricing we expect to still to be around this level.**
+The Stacks App is not currently available for purchase or production use, so the pricing shown below reflects the typical setup using the current stable tools. Even with multiple third-party add-ons included, this setup still falls short of the all-in-one feature set that comes standard with Elements.
 
-RapidWeaver Classic: $89\
-Stacks Plugin: $49\
-Foundation Framework: $149.95\
-TotalCMS : $99.95 (per site)\
-Photo Gallery Stack: $49 \
-Forms Stack: $49
+Stacks App: $49+ (Pricing not announced)\
+Foundation Framework: $99.95 - $149.95 (CSS Framework)\
+VideoWall stack: $59.95 (Video Gallery)\
+Photo Pro stack: $79.95 (Photo Gallery)\
+TotalCMS : $99.95 (CMS, per site)\
+FormSnap 4: $49.95 (Forms)\
+Squeezebox: $39.95 (Accordions)\
+Bento: $49.95 (Grids)
 
-Total Cost: **$486.90**
-
-
+Total Cost: **$528.65+**
 
 ### Why Choose Elements over Stacks?
 
