@@ -8,9 +8,31 @@ The Form Component is a flexible and powerful solution for sending form submissi
 
 ### Server Requirements
 
-The Form Component in Elements **requires PHP 8.1 or newer**.
+The Form Component in Elements **requires PHP 8.1 or newer**. You can run the built-in [PHP Server check](form.md#php-server-check) to ensure your server meets this requirment.
 
-#### PHP Server Check&#x20;
+### ✅ Form Compatibility Checklist
+
+Before going live with your form, make sure you’ve covered the following essentials. These common issues can prevent form submissions from working correctly, so it’s worth double-checking everything below:
+
+* [ ] **Forms must be published to a live server.** They won’t function when previewed locally.
+* [ ] **Your web server must be running PHP 8.1 or newer.** We recommend PHP 8.4 or later where possible. Ensure you have run the built-in [PHP Server check](form.md#php-server-check).
+* [ ] **Sending multiple attachments?** Be sure to enable the “**multiple**” toggle in the Attachment Component settings.
+* [ ] **Using the reply-to feature?** The field name for your email input must be exactly email (all lowercase) for Elements to set the reply-to address properly.
+* [ ] **Avoid special characters in field names.** Stick to letters, numbers, and hyphens. Avoid spaces, symbols, or punctuation in form field names as they may not be parsed correctly on the server.
+* [ ] **Use the Error and Success components.** These components are optional. However, without them, users won’t see feedback after submitting the form. Include both for a complete user experience.
+
+### ⚠️ Troubleshooting Email Sending Issues
+
+If you've published your form, and are still having issues, please run through this troubleshooting guide to help resolve common issues:
+
+1. Run the [PHP Server check ](form.md#php-server-check)to ensure version on your server meets the minimum requirements.
+2. Check your hosting provider’s documentation to ensure outbound SMTP is supported.
+3. Ensure you have entered the correct details for the Form Setup, this is worth triple checking as this is the most common cause of why a form is not delivering email.
+4. In some cases, your email provider will block sending if the From address doesn’t match your SMTP account. Make sure: The From Email matches the SMTP Username. The To Email is valid and not blacklisted or blocked by spam filters.
+5. Review your form logs to see detailed error messages, this can be found at the following location on your server: `rw/elements/com.realmac.corepack/api/logs` the file name will look something like this `form_rw904107B7_1234_4FDC_9B97_1D9A663C1B17-2025-07-24.log` — Note the date on the end of the file, this is helpful for ensure you're checking the correct log file.
+6. If you are sure all your details are correct, and you have verifed them with your email hosting provider, please [post your issue on our forum ](https://forums.realmacsoftware.com/)and we'll help you troubleshoot further.
+
+### ✅ PHP Server Check&#x20;
 
 We recommend PHP 8.4 or later for best performance, but the minimum supported version is 8.1.
 
@@ -18,16 +40,23 @@ To check is the Elements API is running as expected on your server, simply appen
 
 `my-website.com/contact/?apicheck`&#x20;
 
-### ✅ Form Compatibility & Gotchas Checklist
+### 📄 Form Logs
 
-Before going live with your form, make sure you’ve covered the following essentials. These common issues can prevent form submissions from working correctly, so it’s worth double-checking everything below:
+To help diagnose issues with your Form, Elements generates detailed log files on your server.
 
-* [ ] **Forms must be published to a live server.** They won’t function when previewed locally.
-* [ ] **Your web server must be running PHP 8.1 or newer.** We recommend PHP 8.4 or later where possible.
-* [ ] **Sending multiple attachments?** Be sure to enable the “**multiple**” toggle in the Attachment Component settings.
-* [ ] **Using the reply-to feature?** The field name for your email input must be exactly email (all lowercase) for Elements to set the reply-to address properly.
-* [ ] **Avoid special characters in field names.** Stick to letters, numbers, and hyphens. Avoid spaces, symbols, or punctuation in form field names as they may not be parsed correctly on the server.
-* [ ] **Use the Error and Success components.** These components are optional. However, without them, users won’t see feedback after submitting the form. Include both for a complete user experience.
+#### Log Location
+
+The logs folder is located at the root of your web server, alongside other top-level folders like index.html, images, or css.
+
+&#x20;`rw/elements/com.realmac.corepack/api/logs`&#x20;
+
+#### Example Log Name
+
+The date at the end of the filename makes it easy to identify the most recent log. Make sure you’re checking the correct file based on when the issue occurred.
+
+&#x20;`form_rw904107B7_1234_4FDC_9B97_1D9A663C1B17-2025-07-24.log`&#x20;
+
+
 
 ### Form Components
 
