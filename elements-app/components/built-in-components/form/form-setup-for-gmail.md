@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Form Setup for Gmail
 
 Here’s how to correctly set up the Form component in Elements to send email using a Gmail account.

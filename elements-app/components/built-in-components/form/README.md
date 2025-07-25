@@ -6,6 +6,10 @@ description: Send form data via email or webhooks
 
 The Form Component is a flexible and powerful solution for sending form submissions either to your own email server or via a webhook.
 
+### 💡 Recommendation
+
+We recommend using a Webhook to handle email delivery or data collection. It’s significantly more reliable and easier to set up than configuring SMTP manually, which can often lead to issues with authentication, server compatability, spam filters, or SSL mismatches.
+
 ### Server Requirements
 
 The Form Component in Elements **requires PHP 8.1 or newer**. You can run the built-in [PHP Server check](./#php-server-check) to ensure your server meets this requirment.
@@ -16,6 +20,7 @@ Before going live with your form, make sure you’ve covered the following essen
 
 * [ ] **Forms must be published to a live server.** They won’t function when previewed locally.
 * [ ] **Your web server must be running PHP 8.1 or newer.** We recommend PHP 8.4 or later where possible. Ensure you have run the built-in [PHP Server check](./#php-server-check).
+* [ ] **Make sure your SMTP Settings Match Your Domain**. It’s important that your SMTP settings match your domain configuration.
 * [ ] **Sending multiple attachments?** Be sure to enable the “**multiple**” toggle in the Attachment Component settings.
 * [ ] **Using the reply-to feature?** The field name for your email input must be exactly email (all lowercase) for Elements to set the reply-to address properly.
 * [ ] **Avoid special characters in field names.** Stick to letters, numbers, and hyphens. Avoid spaces, symbols, or punctuation in form field names as they may not be parsed correctly on the server.
@@ -32,6 +37,17 @@ If you've published your form, and are still having issues, please run through t
 5. Review your form logs to see detailed error messages, this can be found at the following location on your server: `rw/elements/com.realmac.corepack/api/logs` the file name will look something like this `form_rw904107B7_1234_4FDC_9B97_1D9A663C1B17-2025-07-24.log` — Note the date on the end of the file, this is helpful for ensure you're checking the correct log file.
 6. If you are sure all your details are correct, and you have verifed them with your email hosting provider, please [post your issue on our forum ](https://forums.realmacsoftware.com/)and we'll help you troubleshoot further.
 
+### ✅ Match Your SMTP Settings to Your Domain
+
+When using a custom SMTP server to send form submissions, it’s important that your SMTP settings match your domain configuration.&#x20;
+
+Here’s what to check:
+
+* **Email Address:** Make sure the “From” address you’re using belongs to the same domain your site is hosted on (e.g. form@yourdomain.com if your site is hosted at yourdomain.com).
+* **SMTP Server:** Use the correct hostname for your mail server. This should match the SSL certificate used by the server (e.g. mail.yourdomain.com, not just localhost or an IP).
+* **TLS/SSL Certificate:** Your mail server must have a valid certificate that matches the SMTP server hostname. If there’s a mismatch, some providers (especially Gmail) will reject the connection.
+* **Authentication:** Use the correct username and password for your SMTP account.
+
 ### ✅ PHP Server Check&#x20;
 
 We recommend PHP 8.4 or later for best performance, but the minimum supported version is 8.1.
@@ -40,7 +56,7 @@ To check is the Elements API is running as expected on your server, simply appen
 
 `my-website.com/contact/?apicheck`&#x20;
 
-### 📄 Form Logs
+### ⚠️  Form Logs
 
 To help diagnose issues with your Form, Elements generates detailed log files on your server.
 
