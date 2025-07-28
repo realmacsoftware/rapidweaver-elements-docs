@@ -143,7 +143,7 @@
   * [Components](elements-language/bundle-structure/components/README.md)
     * [info.json](elements-language/bundle-structure/components/info.json.md)
     * [Icons](elements-language/bundle-structure/components/icons.md)
-    * [Properties.json](elements-language/bundle-structure/components/properties.json/README.md)
+    * [Properties](elements-language/bundle-structure/components/properties.json/README.md)
       * [Grouping Controls](elements-language/bundle-structure/components/properties.json/grouping-controls.md)
       * [Default Values](elements-language/bundle-structure/components/properties.json/default-values.md)
       * [General Structure](elements-language/bundle-structure/components/properties.json/general-structure/README.md)
