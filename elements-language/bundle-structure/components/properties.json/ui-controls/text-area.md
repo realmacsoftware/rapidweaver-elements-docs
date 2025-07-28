@@ -10,8 +10,7 @@ Displays a multiline text area in the inspector.
     "id": "myTextArea",
     "textArea": {
         "size": 5,
-        "default": "Hello World",
-        "subtitle": "a multi-line text input"
+        "default": "Hello World"
     }
 }
 ```
@@ -27,8 +26,7 @@ Displays a multiline text area in the inspector.
             "id": "myTextArea",
             "textArea": {
                 "size": 5,
-                "default": "Hello World",
-                "subtitle": "a multi-line text input"
+                "default": "Hello World"
             }
         }]
     }]
