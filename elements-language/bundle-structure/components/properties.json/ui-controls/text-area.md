@@ -9,6 +9,7 @@ Displays a multiline text area in the inspector.
     "title": "TextArea",
     "id": "myTextArea",
     "textArea": {
+        "size": 5,
         "default": "Hello World",
         "subtitle": "a multi-line text input"
     }
@@ -25,6 +26,7 @@ Displays a multiline text area in the inspector.
             "title": "TextArea",
             "id": "myTextArea",
             "textArea": {
+                "size": 5,
                 "default": "Hello World",
                 "subtitle": "a multi-line text input"
             }
