@@ -1,6 +1,6 @@
 ---
-icon: wreath
 description: A brief introduction to the Elements templating language
+icon: wreath
 ---
 
 # Introduction
@@ -22,6 +22,16 @@ The following is a list of suggested tools to make developing Elements easier.
 ### Sample Code on GitHub
 
 A public [repository on GitHub](https://github.com/realmacsoftware/RWElementDevPacks/tree/main) with a growing collection of Element Dev Packs is now available.
+
+### Distributing Elements Packs
+
+&#x20;Dev Packs (.devpack) are for development only. They’re uncompiled and unencrypted, allowing live editing and real-time updates during development.
+
+**⚠️ Do not share or sell Dev Packs:** They’re not optimised for distribution and can cause performance issues if misused.
+
+✅ Before sharing or selling your work, **you must compile it into an Element Pack** (.elementpack). These are encrypted, optimised, and safe for distribution.
+
+You can learn more about [distributing Element Packs here](../../elements-marketplace/pack-distribution.md).
 
 ### Developer Community
 
