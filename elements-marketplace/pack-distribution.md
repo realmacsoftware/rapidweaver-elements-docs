@@ -1,10 +1,13 @@
 ---
+description: Compile and encrypt your components for distribution
 icon: box-taped
 ---
 
 # Pack Distribution
 
-This section covers everything you need to know about preparing your components for release. Whether you’re sharing your work with clients or publishing it on the Marketplace, it’s essential to package and protect your components correctly. You’ll learn the difference between Dev Packs and Element Packs, how to compile and encrypt your components, and why only compiled Element Packs should ever be distributed.
+This section covers everything you need to know about preparing your components for release. Whether you’re sharing your work with clients or publishing it on the Marketplace, it’s essential to package and protect your components correctly.&#x20;
+
+You’ll **learn the difference** between **Dev Packs** and **Element Packs**, how to compile and encrypt your components, and why only compiled Element Packs should ever be distributed.
 
 ### Element Dev Packs
 
@@ -20,17 +23,26 @@ That said, **Dev Packs are fine for internal use**. If you’re collaborating wi
 
 Before distribution, all Dev Packs must be compiled and encrypted into standard .elementpack files. This process protects your code, improves load times (down from seconds to milliseconds), and ensures the pack is safe and optimised for use by others.
 
-### Element Packs
+#### 🚫 What Dev Packs Are Not For:
 
-Compiled Element Packs are intended for distribution and sale.
+* 🛒 Selling or distributing – Never share Dev Packs via the Marketplace or with paying customers.
+* 🌍 Public release – They’re not suitable for general distribution or production use.
+* 🔐 Protecting your code – They are unencrypted and expose all your source files.
+* ⚠️ Performance-sensitive – Too many Dev Packs can degrade performance or cause Elements to fail.
+* 📦 Final deliverables – Always compile and export an .elementpack for finished work.
 
-An Element Pack is a compiled and encrypted version of your component. It contains only the essential files, optimised for performance and security. These packs are what you’ll use when sharing or selling your work via the Marketplace or elsewhere.
+#### ✅ What Dev Packs Are For:
 
-Information on converting your Dev Pack into a distributable Element Pack will be available soon.
+* 🔧 Local development – Build and test your components live inside Elements.
+* ✏️ Live editing – Make changes in your code editor and see instant updates without restarting Elements.
+* 🧪 Internal testing – Use Dev Packs to test components within your team before compiling.
+* 🧍‍♂️ Client work – Develop custom components for client projects during the build phase.
+* 🧑‍💻 Closed beta testing – Share with a small group of testers for feedback before final release.
+* 🔄 Rapid iteration – Quickly make and preview updates without going through the compile/export step.
 
-### ⚠️ Do not distribute Dev Packs to Customers
+#### ⚠️ Do not distribute Dev Packs to Customers:
 
-As stated above, you first need to comppile your dev pack into an Element Pack before it's distributed. Here's a list of the high-level reasons why this is important:
+As stated above, you first need to compile your dev pack into an Element Pack before it's distributed. Here's a list of the high-level reasons why this is important:
 
 * 🔓 **Unencrypted & Uncompiled** – Dev Packs contain raw, human-readable code that exposes your component logic and assets.
 * 📉 **Performance impact** – Every file in a Dev Pack is actively monitored by the system, which can slow down Elements and cause issues if too many are installed.
@@ -39,7 +51,20 @@ As stated above, you first need to comppile your dev pack into an Element Pack b
 * 🔐 **Security risk** – Distributing uncompiled packs could inadvertently leak sensitive or proprietary code.
 * 💥 **Unsupported usage** – Distributing Dev Packs outside of local development is explicitly not supported.
 
-That said, Dev Packs are fine for internal use. If you’re collaborating with a small team, doing client work, or running a closed beta, it’s okay to share Dev Packs privately for testing and feedback. Just be mindful that these packs aren’t encrypted or optimised, and should never be used as a final delivery format.&#x20;
+### Element Packs
+
+Compiled Element Packs are intended for distribution and sale.
+
+An Element Pack is a compiled and encrypted version of your component. It contains only the essential files, optimised for performance and security. These packs are what you’ll use when sharing or selling your work via the Marketplace or elsewhere.
+
+Information on converting your Dev Pack into a distributable Element Pack will be available soon.
+
+#### ✅ What Element Packs Are  For:
+
+* 🛒 Selling your work – Use Element Packs to distribute components on the Marketplace
+* 🔐 Protecting your code – Element Packs are compiled and encrypted to prevent reverse engineering.
+* 🚀 Fast performance – Optimised for speed, they load instantly inside Elements.
+* 🧑‍💻 Final production use – Only compiled Element Packs should be installed by end users.
 
 ***
 
