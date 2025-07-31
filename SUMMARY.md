@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Welcome](README.md)
 * [Early Access](early-access.md)
 * [Download Trial](download-trial.md)
 * [System Requirements](download-and-installation.md)
