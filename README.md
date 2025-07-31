@@ -7,9 +7,7 @@ icon: hand-wave
 
 # Welcome
 
-
-
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>Getting Started</h3></td><td>If you're new to Elements, this quick-start guide will help you get started building your first website.</td><td><a href="elements-app/getting-started.md">getting-started.md</a></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h3>Getting Started</h3></td><td>If you're new to Elements, this quick-start guide will help you get started building your first website.</td><td><a href="elements-app/getting-started.md">getting-started.md</a></td><td><a href=".gitbook/assets/getting-started.png">getting-started.png</a></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 ## Welcome to Elements
 
