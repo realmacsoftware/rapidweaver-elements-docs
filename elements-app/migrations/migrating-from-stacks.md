@@ -50,6 +50,8 @@ In this video, we edit a very similar website using both Stacks with the Foundat
 
 If you’ve been using Stacks and Foundation for a while, you’ll probably recognise the pain points. In Elements, everything’s more streamlined. Components are smart and reusable, editing is instant, and you can focus on design without constantly fighting the tool.
 
+{% embed url="https://www.youtube.com/watch?v=KAcfDUZ5zHc" %}
+
 ### Testimonials from Stacks users switching to Elements
 
 > I used RapidWeaver Classic for years, invested a lot (!) of money in frameworks, cms solutions and 3rd party stacks which all had a different way to name or sort their settings. That already drove me nuts.
@@ -78,6 +80,8 @@ If you’ve been using Stacks and Foundation for a while, you’ll probably reco
 Foundry from Elixir Graphics, Foundation from Weavers Space, and other stack-based frameworks were great in their time, they gave a lot of people the tools to build websites without touching code. But as things stand today, most of those frameworks are outdated or haven;t seen any significant updates in years.
 
 The big challenge is that these stacks rely on a fragile web of dependencies: Stacks itself, RapidWeaver Classic, and the individual stack libraries. If any one part breaks, you’re left without support, and without a clear path forward. That’s not ideal when you’re managing client sites or trying to future-proof your own projects.
+
+{% embed url="https://www.youtube.com/watch?v=RPaaUTpU0lw" %}
 
 That’s exactly why we built [Elements](https://www.realmacsoftware.com/elements/). It gives you a better WYSIWYG visual building experience and with a modern engine underneath, powered by Tailwind CSS and Alpine.js. No more worrying about stacks, frameworks, or broken dependencies. Just clean, fast websites built with native Mac software that’s actively developed and supported.
 

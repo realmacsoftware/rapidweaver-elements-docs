@@ -4,7 +4,9 @@ description: Learn more about switching from Classic to Elements
 
 # Migrating from Classic
 
-Migrating from RapidWeaver Classic to RapidWeaver Elements is a fantastic move if you’re looking to modernize your web design workflow and unlock new creative possibilities.&#x20;
+Migrating from RapidWeaver Classic to RapidWeaver Elements is a fantastic move if you’re looking to modernise your web design workflow and unlock new creative possibilities.
+
+{% embed url="https://www.youtube.com/watch?v=RPaaUTpU0lw" %}
 
 Elements introduces a fresh approach, offering unmatched flexibility and precision for designing responsive, professional-grade websites.&#x20;
 
@@ -43,3 +45,4 @@ A: No, both versions of RapidWeaver will coexist as they cater to slightly diffe
 RapidWeaver Classic continues to serve thousands of customers who maintain and build existing websites using a variety of legacy plugins and addons. We will continue to develop and update RapidWeaver Classic to support this "classic" workflow. RapidWeaver Classic requires macOS 10.14 (Mojave) or a newer version.
 
 RapidWeaver Elements represents our vision for reimagining web design on the Mac, it's easier and more powerful than ever before to build no-code websites.
+
