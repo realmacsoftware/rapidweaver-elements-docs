@@ -53,3 +53,24 @@ Image description is useful for users, search engines, and accessibility tools. 
 Elements offers a dedicated Metadata panel for setting per-page titles, descriptions, and common Open Graph tags for social sharing.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2025-05-09 at 8 .42.25@2x.png" alt=""><figcaption><p>Setting Metadata in Elements</p></figcaption></figure>
+
+### Website SEO Checklist
+
+If you want to level-up your new Elements project for SEO, run through this checklist before you officially launch your new website:
+
+* [ ] **Set Your Browser Titles & Meta Descriptions**\
+  Use the metadata panel for each page (Project > Page > Metadata) to add unique, descriptive titles and summaries. Search engines love this stuff, and so do users!
+* [ ] **Use Proper Headings (H1, H2, H3…)**\
+  Structure your content with headings, one H1 per page, then nest H2s and H3s sensibly. You can set these using the Heading component.
+* [ ] **Image ALT Text**\
+  Don’t forget to set alt text for every image via the Image component’s “Description” field. It helps accessibility & image SEO.
+* [ ] **Clean, Human-Friendly URLs**\
+  Keep filenames and paths tidy: /about, /contact, /services/web-desing, etc. Makes things easier for humans _and_ robots!
+* [ ] **Sitemap & robots.txt**\
+  Elements automatically generates a sitemap.xml, and you can [create a robots.txt](robots.txt.md) by adding a plain text file (right-click in the page list, choose “New File”, rename it robots.txt, fill it in).
+* [ ] **Optimise Images & Media**\
+  Before importing, compress images (with Squash, ImageOptim, etc.). Fast loads = happy visitors _and_ rankings!
+* [ ] **Descriptive Anchor Text**\
+  When linking, use meaningful text (“Contact Us” > “Click here”).
+* [ ] **Preview Often**\
+  Use Elements’ live preview and built-in accessibility audit (and maybe even toss your site’s URL into Google’s [Lighthouse tool](https://pagespeed.web.dev/)) to spot issues early.
