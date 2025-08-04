@@ -55,7 +55,7 @@ You can [purchase Elements via our website](https://elementsapp.io/#buy-elements
 
 With Elements’ three license options: Base, Plus, and Pro, you can choose the plan that best fits your needs, whether you're a casual user, hobbyist, professional web designer, or multi-member team.
 
-Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences. Please take a look at our [License Types document](purchasing-and-licensing-faq/license-types.md) for more details.
+Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences. Please take a look at our [License Types document](getting-started/license-types.md) for more details.
 
 </details>
 

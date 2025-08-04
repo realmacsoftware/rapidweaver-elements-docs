@@ -6,13 +6,11 @@
 ## Getting Started
 
 * [Download](getting-started/download.md)
-* [Requirements](getting-started/download-and-installation.md)
-* [Quickstart Guide](getting-started/quickstart.md)
+* [License](getting-started/license-types.md)
+* [Quickstart](getting-started/quickstart.md)
 
 ***
 
-* [Purchasing & Licensing FAQ](purchasing-and-licensing-faq/README.md)
-  * [License Types](purchasing-and-licensing-faq/license-types.md)
 * [Why Elements?](why-elements/README.md)
   * [Static Website Benefits](why-elements/static-website-benefits.md)
   * [Build a Digital Garden](why-elements/build-a-digital-garden.md)
