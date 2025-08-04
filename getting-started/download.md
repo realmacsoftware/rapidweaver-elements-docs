@@ -3,11 +3,13 @@ description: Try Elements for free, no purchase required.
 icon: desktop-arrow-down
 ---
 
-# Download Trial
+# Download
 
 The new trial mode in Elements lets you explore the full app and build up to three pages, giving you a feel for the design workflow and features. While export and publishing are disabled in the trial, everything else is fully functional, so you can see exactly how Elements works before committing.
 
 It’s the best way to experience the speed and simplicity of modern website building with Elements.
+
+<a href="https://realmacsoftware.com/download/elements/" class="button primary" data-icon="circle-arrow-down">Download Elements</a>
 
 ### Trial Mode Limitations & Requirements
 
@@ -17,7 +19,7 @@ To help you explore Elements, the trial mode includes the following limitations:
 * 📁 No export – Exporting project files is disabled.
 * 📄 Maximum of 3 pages – You can only add up to three pages per project.
 * 💾 No saving if over the limit – If you go beyond three pages, saving will be disabled until you remove extra pages.
-* 🧑‍💻 Sign-up required – A free [Elements Cloud](elements-cloud/account-sign-up.md) account is needed to activate the trial.
+* 🧑‍💻 Sign-up required – A free [Elements Cloud](../elements-cloud/account-sign-up.md) account is needed to activate the trial.
 
 ### Download Elements
 

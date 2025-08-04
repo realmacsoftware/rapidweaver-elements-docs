@@ -17,4 +17,4 @@ Elements has everything you need built-in to build a beautiful modern website, a
 
 After years of hard-work, testing, and community feedback, Elements is now a fully released 1.0 product, ready for real-world projects.&#x20;
 
-You can now choose to [try it for free](download-trial.md) with the new trial mode, or [purchase a license](https://elementsapp.io/) to unlock the full experience. Whether you’re building a personal site or launching client projects, Elements is ready when you are.
+You can now choose to [try it for free](getting-started/download.md) with the new trial mode, or [purchase a license](https://elementsapp.io/) to unlock the full experience. Whether you’re building a personal site or launching client projects, Elements is ready when you are.

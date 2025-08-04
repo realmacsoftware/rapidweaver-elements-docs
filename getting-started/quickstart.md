@@ -1,13 +1,15 @@
 ---
-description: Advice to help you get started with Elements
+description: Step-by-step guide to building your first website in Elements.
 icon: bolt
 ---
 
-# Quickstart
+# Quickstart Guide
 
-### Download Elements
+Follow our step-by-step guide to building your first website in Elements.
 
-First, you'll need to [Download Elements](https://elementsapp.io/download/). When the download is complete double-click to unzip the file, then move Elements.app to your Applications Folder.
+If you've not yet installed Elements, you can click them download button below to get started.
+
+&#x20;<a href="https://realmacsoftware.com/download/elements/" class="button primary" data-icon="circle-arrow-down">Download Elements</a>
 
 ### 5-Minute Quick Start Guide
 

@@ -1,23 +1,21 @@
 # Table of contents
 
+* [Welcome](README.md)
+* [FAQ](elements-faq.md)
+
 ## Getting Started
 
-* [Welcome](README.md)
-* [Quickstart](getting-started/quickstart.md)
+* [Download](getting-started/download.md)
+* [Requirements](getting-started/download-and-installation.md)
+* [Quickstart Guide](getting-started/quickstart.md)
 
 ***
 
-* [Early Access](early-access.md)
-* [Download Trial](download-trial.md)
-* [System Requirements](download-and-installation.md)
-* [Elements FAQ](elements-faq.md)
 * [Purchasing & Licensing FAQ](purchasing-and-licensing-faq/README.md)
   * [License Types](purchasing-and-licensing-faq/license-types.md)
 * [Why Elements?](why-elements/README.md)
   * [Static Website Benefits](why-elements/static-website-benefits.md)
   * [Build a Digital Garden](why-elements/build-a-digital-garden.md)
-* [Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43)
-* [Marketplace](http://marketplace.realmacsoftware.com/elements/)
 
 ## Elements App
 
