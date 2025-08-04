@@ -3,13 +3,9 @@ description: Step-by-step guide to building your first website in Elements.
 icon: bolt
 ---
 
-# Quickstart Guide
+# Quickstart
 
 Follow our step-by-step guide to building your first website in Elements.
-
-If you've not yet installed Elements, you can click them download button below to get started.
-
-&#x20;<a href="https://realmacsoftware.com/download/elements/" class="button primary" data-icon="circle-arrow-down">Download Elements</a>
 
 ### 5-Minute Quick Start Guide
 
