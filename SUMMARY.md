@@ -1,6 +1,12 @@
 # Table of contents
 
+## Getting Started
+
 * [Welcome](README.md)
+* [Quickstart](getting-started/quickstart.md)
+
+***
+
 * [Early Access](early-access.md)
 * [Download Trial](download-trial.md)
 * [System Requirements](download-and-installation.md)
@@ -15,7 +21,6 @@
 
 ## Elements App
 
-* [Getting Started](elements-app/getting-started.md)
 * [Keyboard Shortcuts](elements-app/keyboard-shortcuts.md)
 * [Migrations](elements-app/migrations/README.md)
   * [Migrating from Blocs](elements-app/migrations/migrating-from-blocs.md)

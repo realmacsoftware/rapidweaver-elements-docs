@@ -1,9 +1,9 @@
 ---
 description: Advice to help you get started with Elements
-icon: lightbulb
+icon: bolt
 ---
 
-# Getting Started
+# Quickstart
 
 ### Download Elements
 
