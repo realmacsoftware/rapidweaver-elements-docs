@@ -5,9 +5,7 @@ icon: rocket-launch
 
 # Early Access
 
-### Elements has officially launched – 1.0 is now Available!
 
-After years of hard-work, testing, and community feedback, Elements is now a fully released 1.0 product, ready for real-world projects. You can now choose to [try it for free](download-trial.md) with the new trial mode, or [purchase a license](https://elementsapp.io/) to unlock the full experience. Whether you’re building a personal site or launching client projects, Elements is ready when you are 🎉
 
 ### 1.0 is just the beginning!
 
