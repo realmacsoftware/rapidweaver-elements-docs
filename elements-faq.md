@@ -21,6 +21,29 @@ RapidWeaver Elements requires macOS Ventura (13.x) or newer.
 
 <details>
 
+<summary>Where can I purchase Elements?</summary>
+
+You can [purchase Elements via our website](https://elementsapp.io/#buy-elements).&#x20;
+
+</details>
+
+<details>
+
+<summary>I didn't receive a license email. Where is it?!</summary>
+
+When you purchase Elements you will receive an order confirmation email within 5 minutes confirming your order along with your license number. The email will be sent from "[mailer@fastspring.com](mailto:mailer@fastspring.com)" which is our payment provider. If you can't find the email it's usually because of one of the following reasons:
+
+* The email from us ended up in your Spam Folder.
+* You entered your email address incorrectly when purchasing (no shame, we've all done it!).
+
+The first step is to check your spam folder for anything from Realmac Software or [mailer@fastspring.com](mailto:mailer@fastspring.com).
+
+If you still can't find your order email, you can contact us directly: [support@realmacsoftware.com](mailto:support@realmacsoftware.com). Please include your name, email address, and when you purchased Elements — this will help speed up the search!
+
+</details>
+
+<details>
+
 <summary>I've lost my license, where can I find it?</summary>
 
 If you've lost your license, visit our [License Manager](https://realmac.onfastspring.com/account?_ga=2.10544500.1105777797.1626726782-1957467528.1625162309) and use the automated system to help find your previous purchases.
@@ -41,9 +64,9 @@ If you question wasn't answered above or you need clarification, please [post on
 
 <details>
 
-<summary>Where can I purchase Elements?</summary>
+<summary>How many Macs can I install Elements on?</summary>
 
-You can [purchase Elements via our website](https://elementsapp.io/#buy-elements).&#x20;
+Ever license allows installation on up to **3 Macs simultaneously per user**.
 
 </details>
 
@@ -51,7 +74,7 @@ You can [purchase Elements via our website](https://elementsapp.io/#buy-elements
 
 <details>
 
-<summary>What are the differences between the different plans?</summary>
+<summary>What is the difference between the plans?</summary>
 
 With Elements’ three license options: Base, Plus, and Pro, you can choose the plan that best fits your needs, whether you're a casual user, hobbyist, professional web designer, or multi-member team.
 
@@ -59,32 +82,23 @@ Every Elements license includes all you need to build the website you've always 
 
 </details>
 
-
-
-### Licensing Questions
-
 <details>
 
-<summary>Can I switch to a different license?</summary>
+<summary>Is Elements subscription based?</summary>
 
-Yes, you can upgrade or downgrade at any time in app. Look in the Preferences under License.
+**No, not in the traditional sense.** When you [purchase a Elements license from our website](https://www.elementsapp.io/purchase/?utm_source=elements-manual), you are automatically subscribed to one year of app updates. The license itself will not expire (**you can use it forever**), however the one year period of app updates will renew on an annual basis.
+
+Please note the following:
+
+* Subscriptions automatically renew **unless you cancel them**.
+* If you cancel, your one year period of app updates will remain active until the next renewal date.
+* You can [manage your subscription here](https://realmac.onfastspring.com/account/).
 
 </details>
 
+<details>
 
-
-### Q: I didn't receive a license email. Where is it?!
-
-When you purchase Elements you will receive an order confirmation email within 5 minutes confirming your order along with your license number. The email will be sent from "[mailer@fastspring.com](mailto:mailer@fastspring.com)" which is our payment provider. If you can't find the email it's usually because of one of the following reasons:
-
-* The email from us ended up in your Spam Folder.
-* You entered your email address incorrectly when purchasing (no shame, we've all done it!).
-
-The first step is to check your spam folder for anything from Realmac Software or [mailer@fastspring.com](mailto:mailer@fastspring.com).
-
-If you still can't find your order email, you can contact us directly: [support@realmacsoftware.com](mailto:support@realmacsoftware.com). Please include your name, email address, and when you purchased Elements — this will help speed up the search!
-
-### Q: Do you offer refunds?
+<summary>Do you offer refunds?</summary>
 
 **Yes!** We offer a 7 day money-back guarantee.
 
@@ -100,25 +114,29 @@ We generally issue refunds within 48 hours (often quicker).
 You don’t need to include a reason, but we really appreciate your feedback to help us improve Elements.
 {% endhint %}
 
-## Subscription FAQ
+</details>
 
-### Q: Is Elements subscription based?
+### Subscription Questions
 
-Not in the traditional sense. When you [purchase a Elements license from our website](https://www.elementsapp.io/purchase/?utm_source=elements-manual), you are automatically subscribed to one year of app updates. The license itself will not expire (you can use it forever), however the one year period of app updates will renew on an annual basis.
+<details>
 
-Please note the following:
+<summary>Can I switch to a different license?</summary>
 
-* Subscriptions automatically renew **unless you cancel them**.
-* If you cancel, your one year period of app updates will remain active until the next renewal date.
-* You can [manage your subscription here](https://realmac.onfastspring.com/account/).
+Yes, you can upgrade or downgrade at any time in app. Look in the Preferences under License.
 
-### Q: What is your subscription cancellation policy?
+</details>
+
+<details>
+
+<summary>What is your subscription cancellation policy?</summary>
 
 You can cancel your subscription anytime via your [Billing Manager](https://realmac.onfastspring.com/account/).
 
 We offer a 7 day money-back guarantee from the date you **initially purchase** a license for our software. During those initial 7 days you can cancel your subscription and request a refund with no questions asked.
 
 Subsequent automatic subscription renewals **are not refundable under our 7 day money-back guarantee.**
+
+</details>
 
 ### Q: What happens if I cancel my subscription?
 
@@ -142,13 +160,7 @@ If you no longer have access to the email address, contact [support@realmacsoftw
 
 ## Licensing FAQ
 
-### Q: Help, I've lost my license?
 
-If you've lost your license, visit our [License Manager](https://realmac.onfastspring.com/account?_ga=2.10544500.1105777797.1626726782-1957467528.1625162309) and use the automated system to help find your previous purchases.
-
-If you’ve tried using our license manager and are still having issues, please email [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we’ll get you back up and running.
-
-Be sure to check your Spam folder. Just in case!
 
 ### Q: How do I deactivate my license? <a href="#manage-your-subscription" id="manage-your-subscription"></a>
 
