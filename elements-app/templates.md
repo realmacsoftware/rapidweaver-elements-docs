@@ -48,7 +48,7 @@ You can right-click on a Template to re-name it, or create a new folder for orga
 
 To build a Template Pack that is available in all projects and distributable on the Elements Store you'll need to create a new Dev Pack. This can be done from the Addons tab in the app Settings window.
 
-You can learn more about creating [Template Packs in the Elements Language](../elements-language/bundle-structure/templates.md) section of the manual.
+You can learn more about creating [Template Packs in the Elements Language](../elements-language-org/bundle-structure/templates.md) section of the manual.
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-06-25 at 9 .40.13@2x.png" alt=""><figcaption><p>Use the Create Pack button in the Addons tab in the App Settings Window.</p></figcaption></figure>
 

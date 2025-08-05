@@ -10,13 +10,13 @@ If you know a bit of HTML you can create your own custom Components for use in y
 
 1. No external code editor is required, you can build everything inside of RapidWeaver  Elements.
 2. Custom Components are stored in the project they were created in.
-3. Custom Components have full access to the [Elements Language](../../elements-language/api-introduction/) (although they cannot include extra files like an external [Element Pack](../../elements-language/bundle-structure/) can).
+3. Custom Components have full access to the [Elements Language](../../elements-language-org/api-introduction/) (although they cannot include extra files like an external [Element Pack](../../elements-language-org/bundle-structure/) can).
 4. To ensure compatibility with Elements you should use Tailwind CSS classes when writting your Template HTML.
 5. Custom Components can easily be converted into an encrpyted third-party component that can be [distributed and sold via the Elements platform](../../elements-marketplace/distribution.md).
 
 ### Creating a Custom Component
 
-Creating a Custom Component in Elements is the easiest and fastest way to get started with exploring the Elements API. Custom Components can eaily be migrated to distributable [Element Packs](../../elements-language/api-introduction/getting-started.md) at a later date.
+Creating a Custom Component in Elements is the easiest and fastest way to get started with exploring the Elements API. Custom Components can eaily be migrated to distributable [Element Packs](../../elements-language-org/api-introduction/getting-started.md) at a later date.
 
 {% stepper %}
 {% step %}
@@ -91,9 +91,9 @@ You can also add a title for the Dropzone, this will be shown in the Node Browse
 
 ### Going Further with the Elements API
 
-Using the above tags inside of Custom Components only scratch the surface of what's possible, you can also use the [Elements API](../../elements-language/api-introduction/) inside of your Custom Components.
+Using the above tags inside of Custom Components only scratch the surface of what's possible, you can also use the [Elements API](../../elements-language-org/api-introduction/) inside of your Custom Components.
 
-If you're a developer you can take things even further by creating distributable (and sellable) Element Packs for RapidWeaver Elements. You can learn more about Element Packs in the [Elements Pack section](../../elements-language/api-introduction/getting-started.md) of this manual.
+If you're a developer you can take things even further by creating distributable (and sellable) Element Packs for RapidWeaver Elements. You can learn more about Element Packs in the [Elements Pack section](../../elements-language-org/api-introduction/getting-started.md) of this manual.
 
 ### Dev Diary Videos for Custom Elements
 
