@@ -2,9 +2,9 @@
 title: Accessing Properties
 ---
 
-[UI Control Properties](../../elements-language-org/bundle-structure/components/properties.json/ui-controls/) can be placed inside of any Template files, including HTML, CSS, and Javascript files.
+[UI Control Properties](broken-reference) can be placed inside of any Template files, including HTML, CSS, and Javascript files.
 
-For example in your [Properties.json](../../elements-language/bundle-structure/components/properties.json) file you can add the a [text field](../../elements-language-org/bundle-structure/components/properties.json/ui-controls/text.md), and then reference that value in your [Template files](../../elements-language-org/bundle-structure/components/templates/), including HTML, CSS, and Javascript.
+For example in your [Properties.json](../../elements-language/bundle-structure/components/properties.json) file you can add the a [text field](broken-reference), and then reference that value in your [Template files](broken-reference), including HTML, CSS, and Javascript.
 
 ```json
 {
@@ -29,5 +29,5 @@ In your Template file you can reference the text field by using double brackets 
 ```
 
 {% hint style="info" %}
-Anything set in [rw.setProps](../../elements-language-org/bundle-structure/components/hooks.js/available-data/rw.props.md) is also available to all Templates files in your component.
+Anything set in [rw.setProps](broken-reference) is also available to all Templates files in your component.
 {% endhint %}

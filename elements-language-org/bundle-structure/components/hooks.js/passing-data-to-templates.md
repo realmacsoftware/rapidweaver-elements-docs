@@ -1,2 +1,0 @@
-# Passing data to templates
-

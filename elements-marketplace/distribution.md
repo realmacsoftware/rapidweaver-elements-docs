@@ -24,7 +24,7 @@ The URL for the service is [https://marketplace.realmacsoftware.com](https://mar
 
 **Create and launch the next must-have Component. Build your reputation, generate income, and help shape the future of Elements.**
 
-The [Elements API](../elements-language-org/api-introduction/) allows you to build powerful products that can be used by the rapidly growing Elements user base. Now is an excellent time to establish yourself as one of the key players in this flourishing community.&#x20;
+The [Elements API](broken-reference) allows you to build powerful products that can be used by the rapidly growing Elements user base. Now is an excellent time to establish yourself as one of the key players in this flourishing community.&#x20;
 
 ### How it works (Subject to change)
 
