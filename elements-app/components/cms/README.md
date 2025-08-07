@@ -1,5 +1,6 @@
 ---
 description: Markdown based Content Management System in Elements
+hidden: true
 ---
 
 # CMS
