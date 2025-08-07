@@ -18,6 +18,7 @@
 ## Elements App
 
 * [Keyboard Shortcuts](elements-app/keyboard-shortcuts.md)
+* [Syncing Projects](elements-app/syncing-projects.md)
 * [Migrations](elements-app/migrations/README.md)
   * [Migrating from Blocs](elements-app/migrations/migrating-from-blocs.md)
   * [Migrating from Classic](elements-app/migrations/migrating-from-classic.md)
