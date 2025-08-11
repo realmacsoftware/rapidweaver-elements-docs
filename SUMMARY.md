@@ -118,7 +118,7 @@
 * [Troubleshooting](elements-app/troubleshooting/README.md)
   * [How to fix Publishing Issues](elements-app/troubleshooting/how-to-fix-publishing-issues.md)
 * [SEO](elements-app/seo/README.md)
-  * [Google Analytics](elements-app/seo/google-analytics.md)
+  * [Analytics](elements-app/seo/analytics.md)
   * [sitemap.xml](elements-app/seo/sitemap.xml.md)
   * [Robots.txt](elements-app/seo/robots.txt.md)
 * [Accessibility](elements-app/accessibility.md)

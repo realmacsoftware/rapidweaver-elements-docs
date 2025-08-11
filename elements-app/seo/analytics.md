@@ -1,10 +1,14 @@
 ---
-description: Adding Google Analytics or Tag Manager Code
+description: Adding Analytics code to your website.
 ---
 
-# Google Analytics
+# Analytics
 
 If you’d like to track traffic or integrate services like Google Analytics or Google Tag Manager, you’ll need to add their code snippets to your project. Where you add the code depends on whether you want it to apply to all pages or just one.
+
+{% hint style="success" %}
+We recommend [Tinylitics](https://tinylytics.app/) over Google Analytics, as it's an easy to use, privacy focused analytics service.
+{% endhint %}
 
 ### For all pages (site-wide tracking)
 
@@ -13,7 +17,7 @@ To include your tracking code on every page of your site:
 1. Open the Site Settings window.
 2. Select the Template section.
 3. Paste your code into either:
-   * Between the `<head>` tags for anything that belongs in the \<head>, such as Google Analytics.
+   * Between the `<head>` tags for anything that belongs in the \<head>, such as Google Analytics or similar.
    * Between the after the opening `<body>` tag for things like Google Tag Manager’s \<noscript> block.
 
 This ensures your tracking code is included automatically across every page.
