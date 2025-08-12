@@ -6,9 +6,16 @@ description: Setup fonts for use in your website
 
 Choose between font name, font resources, and Google fonts.
 
+### Using System Fonts
 
+Webfonts were great when most computers only had a handful of good fonts pre-installed. Thanks to font creation and buying by Apple, Microsoft, Google, and other folks, most computers have good—no, great—fonts installed, and they're a great option if you want to _not_ load a separate font.
 
-### Custom Fonts
+Learn more about what fonts are supported by popular operating systems on the following sites:
+
+* [https://systemfontstack.com](https://systemfontstack.com)
+* [https://modernfontstacks.com](https://modernfontstacks.com)
+
+### Using Custom Fonts
 
 Elements includes a built-in Font Manager that lets you add your own local web fonts. It supports common formats like .woff, .woff2, and .ttf, making it easy to use custom typography in your designs.
 
