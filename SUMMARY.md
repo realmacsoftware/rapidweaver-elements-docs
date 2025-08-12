@@ -12,7 +12,7 @@
 ***
 
 * [Why Elements?](why-elements/README.md)
-  * [user Personas](why-elements/user-personas.md)
+  * [User Personas](why-elements/user-personas.md)
   * [Static Website Benefits](why-elements/static-website-benefits.md)
   * [Build a Digital Garden](why-elements/build-a-digital-garden.md)
 
