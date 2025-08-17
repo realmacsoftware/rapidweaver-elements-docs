@@ -21,6 +21,18 @@ RapidWeaver Elements requires macOS Ventura (13.x) or newer.
 
 <details>
 
+<summary>What are the trial limitations?</summary>
+
+The trial mode in Elements has the following limitations:
+
+* No publishing: You can’t upload or publish sites in trial mode.
+* No export: Exporting project files is disabled.
+* Maximum of 3 pages: You can only add up to three pages per project.
+
+</details>
+
+<details>
+
 <summary>Where can I purchase Elements?</summary>
 
 You can [purchase Elements via our website](https://elementsapp.io/#buy-elements).&#x20;
@@ -74,7 +86,7 @@ Ever license allows installation on up to **3 Macs simultaneously per user**.
 
 <details>
 
-<summary>What is the difference between the plans?</summary>
+<summary>What's the difference between the license?</summary>
 
 With Elements’ three license options: Base, Plus, and Pro, you can choose the plan that best fits your needs, whether you're a casual user, hobbyist, professional web designer, or multi-member team.
 
