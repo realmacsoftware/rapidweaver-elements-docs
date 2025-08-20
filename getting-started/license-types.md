@@ -37,7 +37,7 @@ The Base license for Elements only allows the creation of 2 global components pe
 
 #### Elements Branding
 
-The Base license for Elements will place a small floating badge in the corner of your website showing it was built with Elements. The branding is in place to subsidise the low cost of the license. **Plus, Pro, Studio, and Site licenses have no visible Elements branding**.
+The Base license for Elements will place a small floating badge in the corner of your website showing it was built with Elements. The branding is in place to subsidise the low cost of the license. **Plus and Pro have no visible Elements branding**.
 
 #### Resell Websites (Pro, Studio, and Site)
 
