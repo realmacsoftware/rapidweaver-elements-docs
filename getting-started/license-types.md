@@ -39,9 +39,9 @@ The Base license for Elements only allows the creation of 2 global components pe
 
 The Base license for Elements will place a small floating badge in the corner of your website showing it was built with Elements. The branding is in place to subsidise the low cost of the license. **Plus and Pro have no visible Elements branding**.
 
-#### Resell Websites (Pro, Studio, and Site)
+#### Resell Websites (Pro Only)
 
-An active Pro, Studio, or Site license is required for developing and selling websites to third-party clients.
+An active Pro license is required for developing and selling websites to third-party clients.
 
 ### Why Choose a Plus License over a Base License?
 
