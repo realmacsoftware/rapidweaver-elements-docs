@@ -6,14 +6,6 @@ Website resources include anything from image files to PDFs and folders. All of 
 All resources added to a project will be included when publishing or exporting your website.
 {% endhint %}
 
-### Resource Naming
-
-Elements will lowercase all resource filenames when publishing. It will also ensure filenames are websafe by swapping out non-safe characters or spaces with an underscore. For example:
-
-* `my~file.png` would become `my_file.png`.
-* `my file has spaces.png` would become `my_file_has_spaces.png`.
-* `myFile.png` would become `myfile.png`.
-
 ### Adding Resources
 
 Open the resources list in the left-hand sidebar, and drag and drop in files (and folders), from the Finder. The structure and naming of your files will be the same in-app and when it's exported to the finder.
@@ -28,6 +20,14 @@ Elements supports adding all files types (including Folders) to the resources br
 * Fonts - WOFF, WOFF2, TTF
 * YouTube URL - Single video's and playlists
 * Vimeo URL - Single video's and playlists
+
+#### Websafe Resource Naming
+
+When Publishing, Elements will lowercase all resource filenames and ensure they are websafe by swapping out foreign characters and spaces with an underscore. For example:
+
+* `my~file.png` would become `my_file.png`.
+* `my file has spaces.png` would become `my_file_has_spaces.png`.
+* `myFile.png` would become `myfile.png`.
 
 ### Adding YouTube and Vimeo Videos
 
