@@ -2,6 +2,19 @@
 
 Please carefully read and understand the following terms and conditions "Terms" before subscribing to RapidWeaver Elements. These Terms constitute a legally binding agreement between you, the "Subscriber" and Realmac Software the "Provider".
 
+### Agreement Summary (the tldr version)
+
+* Subscription: You’re signing up for a monthly or annual plan.
+* Billing: Payments are taken automatically unless you cancel. We’ll send you a reminder 3 days before renewal.
+* Cancellation: You can cancel anytime. There are no refunds for unused time.
+* Updates: You’ll get all updates and new features while your subscription is active.
+* License: Your subscription gives you a personal, non-transferable license to use Elements.
+* No Resale: You can’t sell, transfer, or share your license with others.
+* Usage Rules: Don’t copy, hack, reverse-engineer, or misuse the software.
+* Account Security: You’re responsible for keeping your login details safe.
+* Privacy: We respect your data and handle it according to our privacy policy.
+* Legal: This agreement is governed by the laws of England and Wales.
+
 ### User Agreement for RapidWeaver Elements
 
 **1. Subscription Plan**\
@@ -42,5 +55,26 @@ Realmac Softwarwe shall not be liable for any direct, indirect, incidental, cons
 
 **13. Modification of Terms**\
 Realmac Software reserves the right to modify or update these Terms at any time. Subscribers will be notified of material changes to these Terms via email or through other means deemed appropriate by Realmac Software.
+
+**14. Non-Transferability and Resale**\
+The subscription and license granted under these Terms are personal to the Subscriber and are strictly non-transferable. The Subscriber may not sell, resell, transfer, assign, rent, lease, or otherwise provide access to RapidWeaver Elements to any third party. Any attempt to do so will be considered a violation of this Agreement and may result in immediate termination of the subscription without refund.
+
+**15. Intellectual Property**\
+All rights, title, and interest in RapidWeaver Elements, including but not limited to software, trademarks, logos, content, and related intellectual property, remain the exclusive property of Realmac Software. No ownership rights are transferred to the Subscriber under this Agreement.
+
+**16. Restrictions on Use**\
+The Subscriber shall not attempt to reverse engineer, decompile, disassemble, modify, or create derivative works of RapidWeaver Elements. The Subscriber further agrees not to use the software for unlawful purposes or in a manner that could damage, disable, or impair the service.
+
+**17. Account Responsibility**\
+The Subscriber is responsible for maintaining the confidentiality of their account credentials and is liable for all activity that occurs under their account.
+
+**18. Governing Law and Jurisdiction**\
+This Agreement shall be governed by and construed in accordance with the laws of England and Wales. Any disputes arising under this Agreement shall be subject to the exclusive jurisdiction of the courts of England and Wales.
+
+**19. Force Majeure**\
+Realmac Software shall not be held liable for any failure or delay in performing its obligations due to circumstances beyond its reasonable control, including but not limited to natural disasters, acts of government, internet or telecommunications failures, or other force majeure events.
+
+**20. Entire Agreement and Severability**\
+This Agreement constitutes the entire understanding between Realmac Software and the Subscriber with respect to RapidWeaver Elements. If any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
 
 By subscribing to RapidWeaver Elements, Subscriber indicates their understanding and acceptance of these Terms and agrees to be bound by them. It is recommended to review these Terms periodically for any updates or changes.
