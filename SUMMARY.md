@@ -16,6 +16,16 @@
   * [Static Website Benefits](why-elements/static-website-benefits.md)
   * [Build a Digital Garden](why-elements/build-a-digital-garden.md)
 
+## Editor
+
+* [Workspaces](editor/workspaces.md)
+* [Pages](editor/page-manager.md)
+* [Resources](editor/resources.md)
+* [Node Browser](editor/node-browser.md)
+* [Inspector](editor/component-inspector.md)
+* [Templates](editor/templates.md)
+* [Globals](editor/global-templates.md)
+
 ## Elements App
 
 * [Migrations](elements-app/migrations/README.md)
@@ -26,14 +36,9 @@
 * [Design System](elements-app/design-system.md)
 * [Editor](elements-app/editor.md)
   * [Apple Intelligence](elements-app/editor/apple-intelligence.md)
-  * [Component Inspector](elements-app/editor/component-inspector.md)
   * [Dark Mode](elements-app/dark-mode.md)
-  * [Node Browser](elements-app/node-browser.md)
-  * [Page Manager](elements-app/page-manager.md)
   * [Preview](elements-app/previewing-your-website.md)
-  * [Resources](elements-app/resources.md)
   * [Responsive Breakpoints](elements-app/responsive-breakpoints.md)
-  * [Workspaces](elements-app/editor/workspaces.md)
 * [Components](elements-app/components/README.md)
   * [Built-in Components](elements-app/components/built-in-components/README.md)
     * [Accordion](elements-app/components/built-in-components/accordion.md)
@@ -84,8 +89,6 @@
     * [Pretty URLs](elements-app/components/cms/pretty-urls.md)
     * [Template Data](elements-app/components/cms/template-data.md)
   * [Data Components](elements-app/components/data-components.md)
-* [Globals](elements-app/global-templates.md)
-* [Templates](elements-app/templates.md)
 * [Project Settings](elements-app/site-settings/README.md)
   * [General](elements-app/site-settings/general.md)
   * [Web Icons](elements-app/site-settings/web-icons.md)

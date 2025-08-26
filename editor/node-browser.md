@@ -1,3 +1,7 @@
+---
+icon: list-tree
+---
+
 # Node Browser
 
 The Node Browser allows you to see and manage the entire structure of your page, this is esecially useful for intricate designs, and larger more complex pages.

@@ -1,6 +1,6 @@
 ---
 description: Start quickly, control deeply.
-icon: draw-square
+icon: objects-column
 ---
 
 # Templates

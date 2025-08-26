@@ -1,4 +1,8 @@
-# Component Inspector
+---
+icon: sidebar-flip
+---
+
+# Inspector
 
 
 
