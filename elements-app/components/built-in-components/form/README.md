@@ -6,7 +6,7 @@ description: Send form data via email or webhooks
 
 The Form Component is a flexible and powerful solution for sending form submissions either to your own email server or via a webhook.
 
-### 💡 Recommendation
+### Recommendation
 
 We recommend using a Webhook to handle email delivery or data collection. It’s significantly more reliable and easier to set up than configuring SMTP manually, which can often lead to issues with authentication, server compatability, spam filters, or SSL mismatches.
 
@@ -39,7 +39,7 @@ If you've published your form, and are still having issues, please run through t
 
 ### ✅ Match Your SMTP Settings to Your Domain
 
-When using a custom SMTP server to send form submissions, it’s important that your SMTP settings match your domain configuration.&#x20;
+When using a custom SMTP server to send form submissions, it’s important that your SMTP settings match your domain configuration.
 
 Here’s what to check:
 
@@ -47,6 +47,14 @@ Here’s what to check:
 * **SMTP Server:** Use the correct hostname for your mail server. This should match the SSL certificate used by the server (e.g. mail.yourdomain.com, not just localhost or an IP).
 * **TLS/SSL Certificate:** Your mail server must have a valid certificate that matches the SMTP server hostname. If there’s a mismatch, some providers (especially Gmail) will reject the connection.
 * **Authentication:** Use the correct username and password for your SMTP account.
+
+### ⚠️ A note on sending and receiving email
+
+&#x20;You need to use your own email address as the “From” address because the mail server will only send messages that come from an address it recognises.
+
+If we used the visitor’s email there, the message might get blocked. The usual way around this is to keep your own address as the sender, and then set the visitor’s email as the **Reply-To**.
+
+That way the form email always gets delivered, and when you hit reply it goes straight back to them — this is how Forms work in Elements.
 
 ### ✅ PHP Server Check&#x20;
 
