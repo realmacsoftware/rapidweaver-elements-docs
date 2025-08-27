@@ -75,7 +75,13 @@ If you’ve been using Stacks and Foundation for a while, you’ll probably reco
 
 > _This is the web design tool I have been dreaming of for over 20 years! Finally it appears my dream is becoming a reality! I am currently building a large website for a client using Rapid Weaver classic and the stacks plug in and it is a daily struggle with these antiquated tools! Sometimes it is so incredibly frustrating when I am trying to accomplish what I thought was a simple task which becomes a three day ordeal just to try and get the stack to perform what I have envisioned. The constant back and forth between edit and preview is enough to make you want to pull your hair out! **I am genuinely excited to leave Stacks behind and begin designing professional sites in Elements!**_ — @RockNRollSoul69 via YouTube
 
-## How to move from Stack Frameworks like Foundry and Foundation to Elements
+## Moving Your Website from Stacks to Elements
+
+If you've been using Stacks for many years, the following video will help you feel a little more at home and confident to start re-building your site in Elements.
+
+{% embed url="https://www.youtube.com/watch?v=28KsND9e6EQ" %}
+
+## How to move from a Stacks Framework like Foundry and Foundation to Elements
 
 Foundry from Elixir Graphics, Foundation from Weavers Space, and other stack-based frameworks were great in their time, they gave a lot of people the tools to build websites without touching code. But as things stand today, most of those frameworks are outdated or haven;t seen any significant updates in years.
 
@@ -98,10 +104,10 @@ Making the switch can feel daunting, but the Power of Elements makes the transit
 
 * **No-code or Low-code:** Elements is incredibly friendly for non-coders, offering drag-and-drop Components and visual design controls. Most things you did with Foundry or Foundation stacks can be recreated with built-in Components or included Templates, no need for custom code (unless you want to!).
 
-### 3. Rebuild, Don’t “Import”
+### 3. Rebuild or Import?
 
-* There’s no direct “import” from Stack based Sites to Elements (they use completely different architectures), but the upside is Elements outputs beautifully clean, modern HTML, and you avoid dragging over any old or bloated code.
-* Manually recreate pages section by section: set up your navigation, then build out hero sections, content, forms, galleries, etc., using Elements’ Components.
+* Elements ships with a Classic Project Importer, this will help you get up and running faster as it import your page structure and resources. You'll just have to do the fun part, the design!
+* Alternatively you can manually recreate pages section by section: set up your navigation, then build out hero sections, content, forms, galleries, etc., using Elements’ Components.
 * You’ll quickly notice the live, WYSIWYG design is a massive step up from the old Stacks preview system.
 
 ### 4. Leverage Powerful Components and Themes <a href="#p-208092-h-4-leverage-powerful-components-and-themes-4" id="p-208092-h-4-leverage-powerful-components-and-themes-4"></a>
