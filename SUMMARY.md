@@ -8,6 +8,7 @@
 * [Download](getting-started/download.md)
 * [License](getting-started/license-types.md)
 * [Quickstart](getting-started/quickstart.md)
+* [Importing Projects](getting-started/importing-projects.md)
 
 ***
 
