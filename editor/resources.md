@@ -39,6 +39,10 @@ When Publishing, Elements will lowercase all resource filenames and ensure they 
 * `my file has spaces.png` would become `my_file_has_spaces.png`.
 * `myFile.png` would become `myfile.png`.
 
+Many web servers (Linux/Unix based) treat File.jpg and file.jpg as two different files. However, on Windows or macOS (i.e. Elements), the filesystem often isn’t case-sensitive, so it _looks_ fine locally, but when uploaded, it can cause broken links and 404 errors.
+
+By using lowercase files, you’ll ensure they will ALWAYS work on different environments (Windows, Linux, macOS), this could be very important depending on the hosting platform you have chosen.
+
 ### Adding YouTube and Vimeo Videos
 
 You can add YouTube or Vimeo videos by dragging and dropping the URL from your web browser to the Resources area in RapidWeaver Elements. A playlist URL can also be dropped into the resources area.
