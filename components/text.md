@@ -52,7 +52,7 @@ Under the General settings in the inspector you'll find options to style the ent
 
 The Tag helps create a semantic structure so search engines understand the hierarchy and relationship of your content. For example, the main heading on the page choose would be "Heading 1", your body text would be set "Paragraph".
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-11-08 at 5 .49.35@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-11-08 at 5 .49.35@2x.png" alt=""><figcaption></figcaption></figure>
 
 #### Text Align
 
@@ -60,11 +60,11 @@ Align your text, left, center and right. You may need to also set the aligment o
 
 #### Font
 
-Choose a font family, these are managed by the [Theme Studio](../../theme-studio/).
+Choose a font family, these are managed by the [Theme Studio](../elements-app/theme-studio/).
 
 #### Size:
 
-Choose a text size, these are managed by the [Theme Studio](../../theme-studio/).
+Choose a text size, these are managed by the [Theme Studio](../elements-app/theme-studio/).
 
 Text styles include size, line height, letter spacing, and weight. You can override some of these settings inline by choosing the "Override" option.
 
@@ -86,11 +86,11 @@ Make the text italic.
 
 #### Text Shadow:
 
-Choose a shadow for yoru text, these are managed by the [Theme Studio](../../theme-studio/).
+Choose a shadow for yoru text, these are managed by the [Theme Studio](../elements-app/theme-studio/).
 
 #### Case:
 
-Choose a shadow for yoru text, these are managed by the [Theme Studio](../../theme-studio/).
+Choose a shadow for yoru text, these are managed by the [Theme Studio](../elements-app/theme-studio/).
 
 #### Transform:
 
@@ -104,7 +104,7 @@ Choose from None, Underline, Overline, and Line Through.
 
 Choose between colour, background image, and gradient for your text. Each different type of style has a set of sub options.
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-05-24 at 4 .51.55@2x.png" alt="" width="367"><figcaption><p>Color Section</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-05-24 at 4 .51.55@2x.png" alt="" width="367"><figcaption><p>Color Section</p></figcaption></figure>
 
 * Color: Choose a solid colour from the theme studio, also supports opacity.
 * Image: Choose an image, along with positioning, sizing, and repeat.

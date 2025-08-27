@@ -10,7 +10,7 @@ The “Reveal” animation component in Elements allows you to add visually enga
 
 ### Advanced Usage
 
-By using the `data-reveal-*` attributes in your [Custom Components](../custom-components.md), you can take advantage of the Animation framework built into Elements.
+By using the `data-reveal-*` attributes in your [Custom Components](../elements-app/components/custom-components.md), you can take advantage of the Animation framework built into Elements.
 
 As a minimum you can add `data-reveal` to any DOM element to apply a default animation as the element enters the viewport. If you would like to customise the animation, the following data attributes are available.
 
@@ -43,7 +43,7 @@ Elements allows you to define when the animation should be triggered. You can us
 
 ### Animations
 
-Animations in [Custom Components](../custom-components.md) can be set independently on enter and exit, as shown in the sample code.
+Animations in [Custom Components](../elements-app/components/custom-components.md) can be set independently on enter and exit, as shown in the sample code.
 
 <pre class="language-textile"><code class="lang-textile">&#x3C;div
     data-reveal
