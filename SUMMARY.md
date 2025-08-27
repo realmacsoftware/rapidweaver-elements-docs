@@ -32,6 +32,7 @@
 * [Audio Playlist](components/audio-playlist.md)
 * [Background](components/background.md)
 * [Button](components/button.md)
+* [CMS](components/cms.md)
 * [Container](components/container.md)
 * [Divider](components/divider.md)
 * [Dropdown](components/dropdown.md)
