@@ -85,7 +85,7 @@ Elements will attempt to import content from the following stacks. Unknown stack
 
 * Container > Container
 * Columns Grid
-* Col > Grid
+* Col > Container
 * Header > Text
 * Paragraph > Typography
 * Image > Image
