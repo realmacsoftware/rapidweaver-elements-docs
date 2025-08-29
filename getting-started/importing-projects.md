@@ -93,8 +93,12 @@ Elements will attempt to import content from the following stacks. Unknown stack
 #### Foundation 6
 
 * Container > Container
-* 1col > Grid
+* Column stacks > Grid
+* Grid stacks > Grid
 * Header > Text
 * Header Pro > Text
 * Text > Text
+* Quote > Text
+* Label > Text
+* Code > Text
 * Picture > Image\
