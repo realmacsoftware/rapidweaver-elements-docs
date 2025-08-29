@@ -5,11 +5,13 @@ icon: arrow-down-to-bracket
 
 # Importing Projects
 
-
-
-{% hint style="danger" %}
-Please note this documentation is a work-in-progress…
+{% hint style="warning" %}
+Please note this feature and documentation is currently in **Beta!**
 {% endhint %}
+
+## Importing a Classic Project
+
+To import a RapidWeaver Classic Project, launch Elements and choose `File > [Beta] Import Classic Project…` from the menu.
 
 ## Project Structure
 
