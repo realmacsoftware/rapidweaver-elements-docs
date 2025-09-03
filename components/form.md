@@ -33,9 +33,10 @@ If you've published your form, and are still having issues, please run through t
 1. Run the [PHP Server check ](form.md#php-server-check)to ensure version on your server meets the minimum requirements.
 2. Check your hosting provider’s documentation to ensure outbound SMTP is supported.
 3. Ensure you have entered the correct details for the Form Setup, this is worth triple checking as this is the most common cause of why a form is not delivering email.
-4. In some cases, your email provider will block sending if the From address doesn’t match your SMTP account. Make sure: The From Email matches the SMTP Username. The To Email is valid and not blacklisted or blocked by spam filters.
-5. Review your form logs to see detailed error messages, this can be found at the following location on your server: `rw/elements/com.realmac.corepack/api/logs` the file name will look something like this `form_rw904107B7_1234_4FDC_9B97_1D9A663C1B17-2025-07-24.log` — Note the date on the end of the file, this is helpful for ensure you're checking the correct log file.
-6. If you are sure all your details are correct, and you have verifed them with your email hosting provider, please [post your issue on our forum ](https://forums.realmacsoftware.com/)and we'll help you troubleshoot further.
+4. Check the email password you entered for the form is correct correct, and doesn't contain any trailing spaces (this is more common than you'd imagine).
+5. In some cases, your email provider will block sending if the From address doesn’t match your SMTP account. Make sure: The From Email matches the SMTP Username. The To Email is valid and not blacklisted or blocked by spam filters.
+6. Review your form logs to see detailed error messages, this can be found at the following location on your server: `rw/elements/com.realmac.corepack/api/logs` the file name will look something like this `form_rw904107B7_1234_4FDC_9B97_1D9A663C1B17-2025-07-24.log` — Note the date on the end of the file, this is helpful for ensure you're checking the correct log file.
+7. If you are sure all your details are correct, and you have verifed them with your email hosting provider, please [post your issue on our forum ](https://forums.realmacsoftware.com/)and we'll help you troubleshoot further.
 
 ### ✅ Match Your SMTP Settings to Your Domain
 
