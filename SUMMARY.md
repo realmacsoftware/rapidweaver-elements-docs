@@ -142,8 +142,6 @@
 ## Elements Marketplace
 
 * [Getting Started](elements-marketplace/distribution.md)
-* [Pack Distribution](elements-marketplace/pack-distribution.md)
-* [Add-on Guidelines](elements-marketplace/add-on-guidelines.md)
 * [Marketplace API](elements-marketplace/marketplace-api.md)
 
 ## Branding
