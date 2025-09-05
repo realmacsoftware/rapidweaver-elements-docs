@@ -5,15 +5,15 @@ icon: arrow-down-to-bracket
 
 # Importing Projects
 
+The Classic Project Importer is an experimental feature. It can bring over the page structure and settings from your Classic project, but content import is less reliable because many page types cannot be mapped directly to Elements components.
+
+Watch the video's below to learn more about importing Classic Projects to Elements.
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Dev Daiary 96</strong></td><td>How to  Import Classic Projects into Elements.</td><td><a href="../.gitbook/assets/maxresdefault-1.jpg">maxresdefault-1.jpg</a></td><td><a href="https://youtu.be/-Eu-o9zRSmE">https://youtu.be/-Eu-o9zRSmE</a></td></tr><tr><td><strong>Dev Diary 97</strong></td><td>Import Stacks, Foundry, and Foundation based Projects.</td><td><a href="../.gitbook/assets/maxresdefault.jpg">maxresdefault.jpg</a></td><td><a href="https://youtu.be/JFymG65pDTw">https://youtu.be/JFymG65pDTw</a></td></tr><tr><td><strong>Stacks to Elements</strong></td><td>Learn the key differences when migrating Projects.</td><td><a href="../.gitbook/assets/maxresdefault-2.jpg">maxresdefault-2.jpg</a></td><td><a href="https://youtu.be/28KsND9e6EQ">https://youtu.be/28KsND9e6EQ</a></td></tr></tbody></table>
+
 {% hint style="warning" %}
 Please note this feature experimental and currently in **Beta!**
 {% endhint %}
-
-The Classic Project Importer is an experimental feature. It can bring over the page structure and settings from your Classic project, but content import is less reliable because many page types cannot be mapped directly to Elements components.
-
-Watch the video's below to learn more about importing Projects.
-
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Dev Daiary 96</strong></td><td>How to  Import Classic Projects into Elements.</td><td><a href="../.gitbook/assets/maxresdefault-1.jpg">maxresdefault-1.jpg</a></td><td><a href="https://youtu.be/-Eu-o9zRSmE">https://youtu.be/-Eu-o9zRSmE</a></td></tr><tr><td><strong>Dev Diary 97</strong></td><td>Import Stacks, Foundry, and Foundation based Projects.</td><td><a href="../.gitbook/assets/maxresdefault.jpg">maxresdefault.jpg</a></td><td><a href="https://youtu.be/JFymG65pDTw">https://youtu.be/JFymG65pDTw</a></td></tr><tr><td><strong>Stacks to Elements</strong></td><td>Learn the key differences when migrating Projects.</td><td><a href="../.gitbook/assets/maxresdefault-2.jpg">maxresdefault-2.jpg</a></td><td><a href="https://youtu.be/28KsND9e6EQ">https://youtu.be/28KsND9e6EQ</a></td></tr></tbody></table>
 
 ## Importing a Classic Project
 
