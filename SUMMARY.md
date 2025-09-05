@@ -133,16 +133,12 @@
 * [Keyboard Shortcuts](elements-app/keyboard-shortcuts.md)
 * [Syncing Projects](elements-app/syncing-projects.md)
 * [Quicklook Document](elements-app/quicklook-document.md)
+* [Marketplace API](elements-app/marketplace-api.md)
 
 ## Elements Cloud
 
 * [Getting Started](elements-cloud/account-sign-up.md)
 * [Troubleshooting](elements-cloud/troubleshooting.md)
-
-## Elements Marketplace
-
-* [Getting Started](elements-marketplace/distribution.md)
-* [Marketplace API](elements-marketplace/marketplace-api.md)
 
 ## Branding
 

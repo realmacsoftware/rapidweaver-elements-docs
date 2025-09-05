@@ -1,5 +1,6 @@
 ---
 description: Access the latest Elements Addons, directly from the source.
+hidden: true
 icon: rss
 ---
 

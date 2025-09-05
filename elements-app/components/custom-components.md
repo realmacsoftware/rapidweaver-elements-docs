@@ -12,7 +12,7 @@ If you know a bit of HTML you can create your own custom Components for use in y
 2. Custom Components are stored in the project they were created in.
 3. Custom Components have full access to the [Elements Language](broken-reference) (although they cannot include extra files like an external [Element Pack](broken-reference) can).
 4. To ensure compatibility with Elements you should use Tailwind CSS classes when writting your Template HTML.
-5. Custom Components can easily be converted into an encrpyted third-party component that can be [distributed and sold via the Elements platform](../../elements-marketplace/distribution.md).
+5. Custom Components can easily be converted into an encrpyted third-party component that can be [distributed and sold via the Elements platform](broken-reference).
 
 ### Creating a Custom Component
 

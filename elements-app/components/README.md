@@ -20,5 +20,5 @@ Custom Components can only be shared via projects, the code is open and visible 
 
 Third-party developers can use the [Elements API](broken-reference) to create full-blown Components that are on a par with the built-in Components — Yes, we use exactly the same API that is available to all users.
 
-Third-party components will be [distributed via the RapidWeaver Elements Distribution Platform](../../elements-marketplace/distribution.md) as Element Packs (.elementspack). These packs are shipped as highly optimized, encrypted bundles. The code cannot be modified or edited by users or third parties (exactly like the built-in Components).
+Third-party components will be [distributed via the RapidWeaver Elements Distribution Platform](broken-reference) as Element Packs (.elementspack). These packs are shipped as highly optimized, encrypted bundles. The code cannot be modified or edited by users or third parties (exactly like the built-in Components).
 
