@@ -14,8 +14,10 @@ We recommend using a Webhook to handle email delivery or data collection. It’s
 
 The Form Component in Elements **requires PHP 8.1 or newer**. You can run the built-in [PHP Server check](form.md#php-server-check) to ensure your server meets this requirement.
 
-{% hint style="danger" %}
-Becuase every server is different, we cannot guarantee the form will work. If you have trouble sending email via the form we recommend switching sending your form via a Webhook.
+Behind the scenes the Elements Form uses the very popular and robust [PHPMailer framework](https://github.com/PHPMailer/PHPMailer).
+
+{% hint style="warning" %}
+Because every server is different, we cannot guarantee the form will work. If you have trouble sending email via the form we recommend switching sending your form via a Webhook.
 {% endhint %}
 
 ### ✅ Form Compatibility Checklist
