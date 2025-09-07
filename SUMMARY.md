@@ -150,4 +150,5 @@
 
 * [Subscription Terms of Service](legal/subscription-terms-of-service.md)
 * [Cloud Terms of Service](legal/cloud-terms-of-service.md)
+* [Privacy Policy](legal/privacy-policy.md)
 * [Frameworks](legal/frameworks.md)
