@@ -5,7 +5,9 @@ icon: table-layout
 
 # Workspaces
 
+{% embed url="https://youtu.be/3aSqM63AGig" %}
 
+###
 
 ### Related Dev Diary Videos
 
