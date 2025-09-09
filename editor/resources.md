@@ -6,6 +6,8 @@ icon: folder
 
 Website resources include anything from image files to PDFs and folders. All of your resources can be managed right inside RapidWeaver Elements.
 
+{% embed url="https://www.youtube.com/watch?v=yDEEhLlVUuU" %}
+
 {% hint style="success" %}
 All resources added to a project will be included when publishing or exporting your website.
 {% endhint %}
