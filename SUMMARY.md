@@ -26,7 +26,7 @@
 * [Inspector](editor/component-inspector.md)
 * [Templates](editor/templates.md)
 * [Globals](editor/global-templates.md)
-* [Preview](editor/previewing-your-website.md)
+* [Browser Preview](editor/previewing-your-website.md)
 * [Dark Mode](editor/dark-mode.md)
 
 ## Components

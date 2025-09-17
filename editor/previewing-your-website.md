@@ -1,4 +1,9 @@
-# Preview
+---
+description: Preview your website in any browser on your Mac
+icon: compass
+---
+
+# Browser Preview
 
 While the WYSIWYG editor allows you to view your design, you'll sometimes want to check how it looks in a browser.
 
