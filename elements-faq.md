@@ -1,5 +1,5 @@
 ---
-description: The Definitive RapidWeaver Elements FAQ
+description: Frequently Asked RapidWeaver Elements Questions
 icon: message-question
 ---
 
@@ -8,6 +8,10 @@ icon: message-question
 Welcome to the official FAQ for RapidWeaver Elements. This resource is designed to provide you with clear and concise answers to the most common questions.
 
 Whether you’re just getting started or you’re an experienced user, our goal is to make sure you have all the information you need to build stunning websites with confidence.
+
+{% hint style="success" %}
+If your question is not answered below, please [post our Community Support Forum](./). We'll get back to you within 48 hours. Don't worry, it's usually within a few hours or even quicker!
+{% endhint %}
 
 ### General Questions
 
@@ -74,7 +78,7 @@ If you question wasn't answered above or you need clarification, please [post on
 
 </details>
 
-### Pre Sales Questions
+### Pre-Sales Questions
 
 <details>
 
@@ -124,9 +128,11 @@ You don’t need to include a reason, but we really appreciate your feedback to 
 
 <details>
 
-<summary>Can I switch to a different license?</summary>
+<summary>Can I switch to a different plan?</summary>
 
-Yes, you can upgrade or downgrade at any time in app. Look in the Preferences under License.
+Yes, you can upgrade or downgrade at any time in app. Go to the  Settings/Preferences window in Elements and look under the License tab.
+
+<figure><img src=".gitbook/assets/CleanShot 2025-09-17 at 2 .43.41@2x.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -176,7 +182,7 @@ If you no longer have access to the email address, contact [support@realmacsoftw
 
 </details>
 
-### Licensing FAQ
+### Licensing Questions
 
 <details>
 
