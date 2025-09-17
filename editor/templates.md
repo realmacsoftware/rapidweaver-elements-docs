@@ -9,6 +9,10 @@ Templates are groups of Components that have been put togther to create a design
 
 The Core pack inside of Elements includes a selection of useful layouts for everyday web design, including menus, hero banners, layouts, forms, and more.
 
+{% hint style="warning" %}
+Globals are similar, but very different to Templates. Templates are single use and not linked. Where's Globals remain linked and are perfect for making changes across your entire site, perfect for shared menus and footers. [Learn more about Globals here](global-templates.md).
+{% endhint %}
+
 {% embed url="https://youtu.be/Z8n3WPB_AFI" %}
 
 ### **Templates vs Globals in Elements**
@@ -24,10 +28,6 @@ The Core pack inside of Elements includes a selection of useful layouts for ever
 
 * [Globals](global-templates.md) are like master elements: place them on multiple pages and update in one place—the change is mirrored everywhere. Perfect for headers, footers, banners, and other repeat content.
 * You can even override certain aspects of a [Global](global-templates.md) on a single page if you want a little variation.
-
-{% hint style="info" %}
-Globals are similar, but very different to Templates. Templates are single use and not linked. Where's Globals remain linked and are perfect for making changes across your entire site, perfect for shared menus and footers. [Learn more about Globals here](global-templates.md).
-{% endhint %}
 
 ### Supported Components
 
