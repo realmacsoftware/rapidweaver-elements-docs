@@ -27,6 +27,7 @@
 * [Templates](editor/templates.md)
 * [Globals](editor/global-templates.md)
 * [Browser Preview](editor/previewing-your-website.md)
+* [Breakpoints](editor/responsive-breakpoints.md)
 * [Dark Mode](editor/dark-mode.md)
 
 ## Components
@@ -66,7 +67,6 @@
 * [Design System](elements-app/design-system.md)
 * [Editor](elements-app/editor.md)
   * [Apple Intelligence](elements-app/editor/apple-intelligence.md)
-  * [Responsive Breakpoints](elements-app/responsive-breakpoints.md)
 * [Components](elements-app/components/README.md)
   * [Common Controls](elements-app/components/common-controls/README.md)
     * [Link](elements-app/components/common-controls/link.md)
