@@ -1,5 +1,5 @@
 ---
-description: Change your design based on device width
+description: Change your design based on responsive breakpoints
 icon: laptop-mobile
 ---
 

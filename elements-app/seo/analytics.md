@@ -1,14 +1,13 @@
 ---
 description: Adding Analytics code to your website.
+icon: chart-simple
 ---
 
 # Analytics
 
 If you’d like to track traffic or integrate services like Google Analytics or Google Tag Manager, you’ll need to add their code snippets to your project. Where you add the code depends on whether you want it to apply to all pages or just one.
 
-{% hint style="success" %}
-We recommend [Tinylitics](https://tinylytics.app/) over Google Analytics, as it's an easy to use, privacy focused analytics service.
-{% endhint %}
+{% embed url="https://www.youtube.com/watch?v=sfzIONiv2zY&feature=youtu.be" %}
 
 ### For all pages (site-wide tracking)
 
