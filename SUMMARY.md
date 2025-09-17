@@ -20,12 +20,13 @@
 ## Editor
 
 * [Workspaces](editor/workspaces.md)
-* [Pages](editor/page-manager.md)
+* [Page Manager](editor/page-manager.md)
 * [Resources](editor/resources.md)
 * [Node Browser](editor/node-browser.md)
 * [Inspector](editor/component-inspector.md)
 * [Templates](editor/templates.md)
 * [Globals](editor/global-templates.md)
+* [Preview](editor/previewing-your-website.md)
 * [Dark Mode](editor/dark-mode.md)
 
 ## Components
@@ -65,7 +66,6 @@
 * [Design System](elements-app/design-system.md)
 * [Editor](elements-app/editor.md)
   * [Apple Intelligence](elements-app/editor/apple-intelligence.md)
-  * [Preview](elements-app/previewing-your-website.md)
   * [Responsive Breakpoints](elements-app/responsive-breakpoints.md)
 * [Components](elements-app/components/README.md)
   * [Common Controls](elements-app/components/common-controls/README.md)
