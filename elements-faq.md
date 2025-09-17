@@ -74,14 +74,6 @@ If you question wasn't answered above or you need clarification, please [post on
 
 </details>
 
-<details>
-
-<summary>How many Macs can I install Elements on?</summary>
-
-Ever license allows installation on up to **3 Macs simultaneously per user**.
-
-</details>
-
 ### Pre Sales Questions
 
 <details>
@@ -150,31 +142,45 @@ Subsequent automatic subscription renewals **are not refundable under our 7 day 
 
 </details>
 
-### Q: What happens if I cancel my subscription?
+<details>
+
+<summary>What happens if I cancel my subscription?</summary>
 
 Your one year period of app updates will remain active. You will continue to receive updates until the next renewal date. If you wish to receive further updates after that renewal date, you will need to manually re-subscribe.
 
-### Q: How do I cancel my subscription? <a href="#cancel-your-subscription" id="cancel-your-subscription"></a>
+</details>
+
+<details>
+
+<summary>How do I cancel my subscription?</summary>
 
 Hopefully this day will never come, but if you need to cancel your subscription for one of our apps, visit the [Billing Manager](https://realmac.onfastspring.com/account/) page.
 
-In the event you cancel your subscription, any apps registered will continue providing all of its updates till the end of the current subscription period (the one you’ve already paid for).
+</details>
 
-### Q: What happens if my subscription expires?
+<details>
+
+<summary>What happens if my subscription expires?</summary>
 
 You get to keep the version of Elements you're currently using, you just won't receive any further updates to it. You'll need to re-subscribe to start receiving updates again.
 
-### Q: How do I manage my subscription? <a href="#manage-your-subscription" id="manage-your-subscription"></a>
+</details>
+
+<details>
+
+<summary>How do I manage my subscription?</summary>
 
 Our [Billing Manager](https://realmac.onfastspring.com/account/) can help you check a subscription status, change payment details, and cancel your subscription. All you need is access to the email address you used to purchase our software.
 
 If you no longer have access to the email address, contact [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we'll be able to help you directly.
 
-## Licensing FAQ
+</details>
 
+### Licensing FAQ
 
+<details>
 
-### Q: How do I deactivate my license? <a href="#manage-your-subscription" id="manage-your-subscription"></a>
+<summary>How do I deactivate my license?</summary>
 
 If you have access to the activated version of our Elements, do this:
 
@@ -187,7 +193,11 @@ That's it. You can now use the same license to register the app on another Mac.
 
 If you don't have access to your old Mac, you can still manage your license activations in the "Register…" window. This includes seeing what machines are licensed and deactivating any machines you no longer require. `Elements > Registration…`
 
-### **Q: I'm** seeing **an "Activation failure (404)" Error when I try to register. What should I do?**
+</details>
+
+<details>
+
+<summary>I'm seeing an "Activation failure (404)" Error when I try to register. What should I do?</summary>
 
 First, make sure you are running the latest version of Elements.
 
@@ -204,7 +214,11 @@ If you've triple-checked and made sure you're license code is correct, try the f
 
 If you're still having issues, you can email [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we'll be able to help you out.
 
-### **Q: Help, my license won't activate!**
+</details>
+
+<details>
+
+<summary>Help, my license won't activate!</summary>
 
 If you see the following "Unable to Activate" message, it may mean your license was entered incorrectly, or Elements is having trouble validating it over the internet.
 
@@ -219,7 +233,11 @@ You can email [support@realmacsoftware.com](mailto:support@realmacsoftware.com) 
 
 Trying out the above will help you narrow down the problem and determine if your Mac or network is causing the issue.
 
-### Q: Why am I seeing an "Update Period Expired" message when trying to register Elements? <a href="#update-period-expired" id="update-period-expired"></a>
+</details>
+
+<details>
+
+<summary>Why am I seeing an "Update Period Expired" message when trying to register Elements?</summary>
 
 You'll see this message if you're trying to activate a newer version of Elements that was released after your subscription period ended.
 
@@ -227,9 +245,5 @@ If your subscription has expired and you're trying to use a new version of Eleme
 
 Elements will show you what version you can still use underneath the "Renew License" button. Clicking the button will take you to the release notes page where you can download this version.
 
-***
-
-### Q: I still have a question, where can I go for help?
-
-If you question wasn't answered above or you need clarification, please [post on the Elements forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43), and we'll get back to you as soon as possible.
+</details>
 
