@@ -23,7 +23,9 @@ Think of this video as a quick tour to help you get comfortable with the basics.
 
 ### Ready-Made Projects to Explore and Use
 
-The [Elements Marketplace](https://marketplace.realmacsoftware.com/elements) offers a selection of [free pre-built Projects](https://marketplace.realmacsoftware.com/elements) that are perfect for getting your website up and running quickly. Whether you want to launch something fast or learn by exploring how others have built their pages, these Projects are a great way to dive in and get inspired.
+Elements has a large selection of free ready-made projects to choose from that are perfect for getting your website up and running quickly. Whether you want to launch something fast or learn by exploring how others have built their pages, these Projects are a great way to dive in and get inspired.
+
+<figure><img src="../.gitbook/assets/CleanShot 2025-09-17 at 2 .50.18@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Optimise Media before import into Elements
 
