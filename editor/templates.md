@@ -1,5 +1,5 @@
 ---
-description: Start quickly, control deeply.
+description: Use templates to build your website in minutes
 icon: objects-column
 ---
 
@@ -7,15 +7,18 @@ icon: objects-column
 
 Templates are groups of Components that have been put togther to create a design or layout. Once a template is dropped into your page you can customise it however you like and it won't affect the original.
 
-The core pack inside of Elements includes a selection of useful layouts for everyday web design, including menus, hero banners, layouts, forms, and more.
+The Core pack inside of Elements includes a selection of useful layouts for everyday web design, including menus, hero banners, layouts, forms, and more.
 
-**Templates vs Globals in Elements:**
+{% embed url="https://youtu.be/Z8n3WPB_AFI" %}
 
-* **Templates** are like blueprints: a quick way to drop in a ready-made layout or design made of Components.
-  * As soon as you add a Template to your page, it becomes a standalone set of components, completely independent from the original template.
-  * No matter how much (or how little) you customise it, it’s _not_ linked to the original anymore.
-  * Changing the original template (from a Template Pack) will _not_ affect anything you’ve already added to your site.
-  * You’re free to modify it as much or as little as you want, once the template is dropped into your site think of it as a copy, not a link!
+### **Templates vs Globals in Elements**
+
+**Templates** are like blueprints: a quick way to drop in a ready-made layout or design made of Components.
+
+* As soon as you add a Template to your page, it becomes a standalone set of components, completely independent from the original template.
+* No matter how much (or how little) you customise it, it’s _not_ linked to the original anymore.
+* Changing the original template (from a Template Pack) will _not_ affect anything you’ve already added to your site.
+* You’re free to modify it as much or as little as you want, once the template is dropped into your site think of it as a copy, not a link!
 
 **Want content to stay in sync across pages?** That’s where [Globals](global-templates.md) come in!
 
@@ -48,14 +51,7 @@ You can right-click on a Template to re-name it, or create a new folder for orga
 
 To build a Template Pack that is available in all projects and distributable on the Elements Store you'll need to create a new Dev Pack. This can be done from the Addons tab in the app Settings window.
 
-You can learn more about creating [Template Packs in the Elements Language](broken-reference) section of the manual.
+You can learn more about creating [Template Packs in the Elements Language](https://docs.realmacsoftware.com/elements-docs/elements-language/element-pack/what-is-an-element-pack) section of the manual.
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-06-25 at 9 .40.13@2x.png" alt=""><figcaption><p>Use the Create Pack button in the Addons tab in the App Settings Window.</p></figcaption></figure>
 
-### Dev Diary Video's covering Templates
-
-In Dev Diary 86, and 88, we take a closer look at the new **Template** features in Elements.
-
-{% embed url="https://www.youtube.com/watch?v=7rifEgC6xVk" %}
-
-{% embed url="https://www.youtube.com/watch?v=HW6ZW2CnLfo" %}
