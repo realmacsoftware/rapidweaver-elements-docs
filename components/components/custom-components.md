@@ -1,10 +1,17 @@
 ---
 description: Extend RapidWeaver by creating your very own custom Components
+icon: bolt
 ---
 
 # Custom Components
 
 If you know a bit of HTML you can create your own custom Components for use in your projects. These can be anything from a simple html snippet to a fully blown Component with custom UI controls. **The possibilities of what you can create are endless!**
+
+### **Adding HTML Snippets**
+
+One od the easiest ways get started using Custom Components is by adding a custom HTML snippet to your page.
+
+{% embed url="https://www.youtube.com/watch?v=rHDCpYrg-j4" %}
 
 ### A few things to note before you get started:
 
@@ -95,18 +102,3 @@ Using the above tags inside of Custom Components only scratch the surface of wha
 
 If you're a developer you can take things even further by creating distributable (and sellable) Element Packs for RapidWeaver Elements. You can learn more about Element Packs in the [Elements Pack section](broken-reference) of this manual.
 
-### Dev Diary Videos for Custom Elements
-
-The following videos will show you how to create Custom Elements. The following videos were recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video. View the [Tutorial playlist on YouTube](https://www.youtube.com/playlist?list=PLlqV01jBZsjAODafdmCOpU7dYxqiB6y02) for more videos.
-
-{% embed url="https://www.youtube.com/watch?v=FeNoKUzd_fg" %}
-
-{% embed url="https://youtu.be/COzwMMJDr5U?si=7ey-mtI0eJvh7BjQ" %}
-
-{% embed url="https://www.youtube.com/watch?v=ekiHAQDWsMg" %}
-
-{% embed url="https://www.youtube.com/watch?v=c3hejkIlloQ&list=PLlqV01jBZsjAODafdmCOpU7dYxqiB6y02&index=4&t=1106s&pp=gAQBiAQB" %}
-
-{% embed url="https://www.youtube.com/watch?v=oYEIdQUKXTY&list=PLlqV01jBZsjAODafdmCOpU7dYxqiB6y02&index=2&pp=gAQBiAQB" %}
-
-{% embed url="https://www.youtube.com/watch?v=kbIQjRuteY4&list=PLlqV01jBZsjAODafdmCOpU7dYxqiB6y02&index=1&pp=gAQBiAQB" %}
