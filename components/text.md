@@ -60,11 +60,11 @@ Align your text, left, center and right. You may need to also set the aligment o
 
 #### Font
 
-Choose a font family, these are managed by the [Theme Studio](../elements-app/theme-studio/).
+Choose a font family, these are managed by the [Theme Studio](../editor/theme-studio/).
 
 #### Size:
 
-Choose a text size, these are managed by the [Theme Studio](../elements-app/theme-studio/).
+Choose a text size, these are managed by the [Theme Studio](../editor/theme-studio/).
 
 Text styles include size, line height, letter spacing, and weight. You can override some of these settings inline by choosing the "Override" option.
 
@@ -86,11 +86,11 @@ Make the text italic.
 
 #### Text Shadow:
 
-Choose a shadow for yoru text, these are managed by the [Theme Studio](../elements-app/theme-studio/).
+Choose a shadow for yoru text, these are managed by the [Theme Studio](../editor/theme-studio/).
 
 #### Case:
 
-Choose a shadow for yoru text, these are managed by the [Theme Studio](../elements-app/theme-studio/).
+Choose a shadow for yoru text, these are managed by the [Theme Studio](../editor/theme-studio/).
 
 #### Transform:
 

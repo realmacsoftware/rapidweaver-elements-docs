@@ -53,7 +53,7 @@ YouTube and Vimeo videos are not downloaded and store in Elements, the URL to vi
 
 ### Adding Custom Fonts
 
-Add your font files to the resources area in Elements, and use the media inspector to define a weight (and width if required) for each of the font files. These fonts work in conjunction with [Font Family in the Theme Studio](../elements-app/theme-studio/font-family.md).
+Add your font files to the resources area in Elements, and use the media inspector to define a weight (and width if required) for each of the font files. These fonts work in conjunction with [Font Family in the Theme Studio](theme-studio/font-family.md).
 
 ### Editing Metadata
 
