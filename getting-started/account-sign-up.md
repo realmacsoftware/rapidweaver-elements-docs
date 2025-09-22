@@ -1,9 +1,9 @@
 ---
 description: Sign-up for a free Elements Cloud Account
-icon: lightbulb
+icon: cloud-check
 ---
 
-# Getting Started
+# Elements Cloud
 
 Every Elements Cloud account comes with **1GB of free cloud storage**. An active license is required for continued use of Elements Cloud. You can sign-up in-app.&#x20;
 
@@ -52,8 +52,39 @@ To generate a direct download link from an Elements App link, simply append the 
 
 • Direct Download Link: [https://dl.elementsapp.cloud/g/M1l5heNgT81r](https://dl.elementsapp.cloud/g/M1l5heNgT81r)
 
-### Dev Diary Video for Elements Cloud
 
-The following video will show you how to sign-up for an Elements Cloud account and upload and share documents . The videos were recorded with a development version of Elements so the feature(s) available now may differ slightly to those in the video.
 
-{% embed url="https://youtu.be/LTRz8eZudHg" %}
+### Troubleshooting Guide
+
+A troubleshooting guide for Elements Cloud Issues.
+
+<details>
+
+<summary>I'm unable to Upload to Elements Cloud</summary>
+
+This is often due to an issue on the network, it could be down to the network administrators blocking traffic to AWS. You may see an error message, like the following:
+
+```
+The operation could not be completed, Amplify…
+```
+
+In Terminal.app try running the following command. If there’s no response or high packet loss, your network might be blocking AWS services.
+
+```
+ping amplify.aws
+```
+
+You can also try opening [https://aws.amazon.com/amplify/](https://aws.amazon.com/amplify/) in your browser. If it doesn’t load or is slow, your network might be restricting access.
+
+If possible connect to another network and try to re-upload your files.&#x20;
+
+If issues persist, try these steps:
+
+1. Log out and back into Elements Cloud.
+2. Attempt to send the project to Elements Cloud again.
+3. Go to the Help Menu and select **Copy Support Logs**. Send the file to [support@realmacsoftware.com](mailto:support@realmacsoftware.com).
+
+You can also post about any issues you might be having on the [Elements Forum](https://forums.realmacsoftware.com/).
+
+</details>
+

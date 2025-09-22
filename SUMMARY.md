@@ -8,8 +8,9 @@
 * [Download](getting-started/download.md)
 * [License](getting-started/license-types.md)
 * [Quickstart](getting-started/quickstart.md)
-* [Support Guide](getting-started/troubleshooting.md)
 * [Importing Projects](getting-started/importing-projects.md)
+* [Elements Cloud](getting-started/account-sign-up.md)
+* [Support Guide](getting-started/troubleshooting.md)
 
 ***
 
@@ -18,37 +19,38 @@
   * [Static Website Benefits](why-elements/static-website-benefits.md)
   * [Build a Digital Garden](why-elements/build-a-digital-garden.md)
 
-## Editor
+## Elements
 
-* [Workspaces](editor/workspaces.md)
-* [Page Manager](editor/page-manager.md)
-* [Resources](editor/resources.md)
-* [Node Browser](editor/node-browser.md)
-* [Inspector](editor/component-inspector.md)
-* [Templates](editor/templates.md)
-* [Globals](editor/global-templates.md)
-* [Browser Preview](editor/previewing-your-website.md)
-* [Breakpoints](editor/responsive-breakpoints.md)
-* [Dark Mode](editor/dark-mode.md)
-* [Publishing](editor/publishing.md)
-* [Theme Studio](editor/theme-studio/README.md)
-  * [Theme](editor/theme-studio/theme.md)
-  * [Screens](editor/theme-studio/screens.md)
-  * [Page](editor/theme-studio/page.md)
-  * [Colors](editor/theme-studio/colors.md)
-  * [Font Family](editor/theme-studio/font-family.md)
-  * [Font Size](editor/theme-studio/font-style.md)
-  * [Spacing](editor/theme-studio/spacing.md)
-  * [Shadows](editor/theme-studio/shadows.md)
-  * [Border Width](editor/theme-studio/border-width.md)
-  * [Border Radius](editor/theme-studio/border-radius.md)
-  * [Typography](editor/theme-studio/typography.md)
-* [Project Settings](editor/site-settings/README.md)
-  * [General](editor/site-settings/general.md)
-  * [Web Icons](editor/site-settings/web-icons.md)
-  * [Advanced](editor/site-settings/advanced.md)
-  * [Template](editor/site-settings/template.md)
-  * [Publishing](editor/site-settings/publishing.md)
+* [Editor](elements/editor.md)
+* [Workspaces](elements/workspaces.md)
+* [Page Manager](elements/page-manager.md)
+* [Resources](elements/resources.md)
+* [Node Browser](elements/node-browser.md)
+* [Inspector](elements/component-inspector.md)
+* [Templates](elements/templates.md)
+* [Globals](elements/global-templates.md)
+* [Browser Preview](elements/previewing-your-website.md)
+* [Breakpoints](elements/responsive-breakpoints.md)
+* [Dark Mode](elements/dark-mode.md)
+* [Publishing](elements/publishing.md)
+* [Theme Studio](elements/theme-studio/README.md)
+  * [Theme](elements/theme-studio/theme.md)
+  * [Screens](elements/theme-studio/screens.md)
+  * [Page](elements/theme-studio/page.md)
+  * [Colors](elements/theme-studio/colors.md)
+  * [Font Family](elements/theme-studio/font-family.md)
+  * [Font Size](elements/theme-studio/font-style.md)
+  * [Spacing](elements/theme-studio/spacing.md)
+  * [Shadows](elements/theme-studio/shadows.md)
+  * [Border Width](elements/theme-studio/border-width.md)
+  * [Border Radius](elements/theme-studio/border-radius.md)
+  * [Typography](elements/theme-studio/typography.md)
+* [Project Settings](elements/site-settings/README.md)
+  * [General](elements/site-settings/general.md)
+  * [Web Icons](elements/site-settings/web-icons.md)
+  * [Advanced](elements/site-settings/advanced.md)
+  * [Template](elements/site-settings/template.md)
+  * [Publishing](elements/site-settings/publishing.md)
 
 ## Components
 
@@ -134,11 +136,6 @@
 * [Syncing Projects](elements-app/syncing-projects.md)
 * [Quicklook Document](elements-app/quicklook-document.md)
 * [Marketplace API](elements-app/marketplace-api.md)
-
-## Elements Cloud
-
-* [Getting Started](elements-cloud/account-sign-up.md)
-* [Troubleshooting](elements-cloud/troubleshooting.md)
 
 ## Branding
 

@@ -25,7 +25,7 @@ Templates are groups of Components that have been put togther to create a design
 
 The core pack inside of Elements includes a selection of useful layouts for everyday web design, including menus, hero banners, layouts, forms, and more.
 
-You can learn more about [Templates and how they differ to Global Templates here](../editor/templates.md).
+You can learn more about [Templates and how they differ to Global Templates here](../elements/templates.md).
 
 ### Global Templates
 

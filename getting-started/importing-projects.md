@@ -56,7 +56,7 @@ Elements will import Stack pages, and will do it's best to preserve the content 
 {% hint style="warning" %}
 **The Classic Project Importer does not yet read Partials.** To work around this, you may want to unpack any partials and save a copy of your Classic project before you import it into Elements.&#x20;
 
-In Elements [we use Globals](../editor/global-templates.md) instead, these are a highly modern and customisable way to include global content throughtout your website.
+In Elements [we use Globals](../elements/global-templates.md) instead, these are a highly modern and customisable way to include global content throughtout your website.
 {% endhint %}
 
 ### Stack Resources
