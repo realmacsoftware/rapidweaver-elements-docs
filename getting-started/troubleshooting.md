@@ -1,0 +1,106 @@
+---
+description: Follow our guide on getting your issue resolved FAST!
+icon: hand-heart
+---
+
+# Support Guide
+
+If you run into a bug or something doesn’t seem to be working quite right in Elements, we’d love to hear about it.  You can check out our [FAQ guide](../elements-faq.md) for general support issues, but the **best place to get support** is on the [Elements Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), where our team and other users can offer help and advice!
+
+{% hint style="danger" %}
+Make sure to **search the forum first**, your question or bug might already have been resolved.
+{% endhint %}
+
+### How to get help
+
+When [posting on the forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), you should follow the guidelines below to help us locate and fix your issue much faster.
+
+#### 1. Be as detailed as possible:
+
+Tell us exactly what you were doing when the issue occurred. The more information you can provide, the better. Try to include:
+
+* What you expected to happen
+* What actually happened
+* Any error messages or unusual behavior you noticed
+
+#### 2. Steps to reproduce the issue:
+
+If you can reliably trigger the problem, let us know how. Write down the exact steps you took leading up to the issue. This is incredibly helpful when we’re trying to track down bugs.
+
+#### 3. Share your Project via Elements Cloud (highly recommended!)
+
+Please upload your project to your Elements Cloud account and share the link with us on the forum.&#x20;
+
+**This is one of the most reliable and fastest ways to get your issue fixed!**
+
+#### 4. Include a short video or screenshot:
+
+A video is often the quickest way to show what’s going wrong. You can use QuickTime Player.app (included with macOS) to record your screen.
+
+To create a simple recording, **choose File › New Screen Recording** from the menu. Click the red record button, then follow the instructions on the screen. To save, choose **File › Export** and select the quality.
+
+Alternatively, you can use the keyboard shortcut command-shift-5 to bring up the onscreen Screen Recording controls.
+
+Once you’ve made the recording, upload it to a cloud service like Dropbox or Google Drive, or share it via YouTube, and [post the link in your forum thread](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57).
+
+If you can’t share a video, screenshots can still be very helpful. **Try to capture the whole Elements window so we can see your workspace and any visible settings.** A partial screenshot is not very helpful, we need to see the entire context.
+
+Use the keyboard shortcut Command-Shift-3 to take a screenshot, or Command-Shift-4 to select just a portion of the screen.
+
+### Custom HTML Issues
+
+Sometimes using custom HTML on your page can be the source of the problem. Even small mistakes like a missing closing tag, an extra quotation mark, or incorrect nesting can cause layout or publishing errors. Because Elements is built on clean, structured code, any invalid or broken HTML you add manually can disrupt how components render or how the browser interprets the page.
+
+This is often one of the hardest issues to track down, because errors in custom HTML don’t always show up where you expect them. A broken tag in one part of the page might affect the layout or functionality of a completely different section.
+
+If you’re experiencing issues, it’s worth reviewing any custom HTML you’ve added. A good step is to remove it temporarily and check if the issue goes away. That way you’ll know whether the custom code is the root cause or if you should look elsewhere.
+
+### Document Repaired Warning Dialog
+
+If you see the "Document Repaired Warning Dialog" dialog when opening a project, Don't panic! This is nothing to be alarmed about. **Your project(s) are safe.**
+
+When Elements detects any orphaned nodes (bits of content that no longer have a proper home), it moves them to the top of the page rather than deleting them outright. That way, nothing important ever gets lost by mistake.
+
+These nodes can be safely deleted, but you might need to unlink them from a Global first.
+
+We’re actively working on reducing the chances of these orphaned nodes appearing in the first place.
+
+### How to Reset Elements
+
+To reset Elements, remove the preferences file by following these steps.
+
+{% hint style="warning" %}
+For an automatica way to remove the Preferences you can do the following. Hold down the option key and go to Help > Clear Applications Preferences.
+{% endhint %}
+
+{% stepper %}
+{% step %}
+#### Quit Elements
+
+Ensure Elements is not running.
+{% endstep %}
+
+{% step %}
+#### Locate Preferences File
+
+In the finder press press “Command-Shift-G” to bring up the "Go To Folder" Window and paste in the following path:
+
+{% code overflow="wrap" %}
+```
+~/Library/Containers/com.realmacsoftware.rapidweaverelements/Data/Library/Preferences/com.realmacsoftware.rapidweaverelements.plist
+```
+{% endcode %}
+{% endstep %}
+
+{% step %}
+#### Delete Preferences Plist
+
+Delete the file: `com.realmacsoftware.rapidweaverelements.plist`
+{% endstep %}
+
+{% step %}
+#### Re-launch Elements
+
+You can now safely re-launch Elements.
+{% endstep %}
+{% endstepper %}

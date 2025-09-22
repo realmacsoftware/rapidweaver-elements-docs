@@ -8,6 +8,7 @@
 * [Download](getting-started/download.md)
 * [License](getting-started/license-types.md)
 * [Quickstart](getting-started/quickstart.md)
+* [Support Guide](getting-started/troubleshooting.md)
 * [Importing Projects](getting-started/importing-projects.md)
 
 ***
@@ -29,6 +30,7 @@
 * [Browser Preview](editor/previewing-your-website.md)
 * [Breakpoints](editor/responsive-breakpoints.md)
 * [Dark Mode](editor/dark-mode.md)
+* [Publishing](editor/publishing.md)
 
 ## Components
 
@@ -120,8 +122,6 @@
   * [Create a Card](elements-app/how-to/create-a-card.md)
   * [Site Banner with Text](elements-app/how-to/site-banner-with-text.md)
 * [Resources](<elements-app/resources (1).md>)
-* [Troubleshooting](elements-app/troubleshooting/README.md)
-  * [How to fix Publishing Issues](elements-app/troubleshooting/how-to-fix-publishing-issues.md)
 * [SEO](elements-app/seo/README.md)
   * [Analytics](elements-app/seo/analytics.md)
   * [sitemap.xml](elements-app/seo/sitemap.xml.md)

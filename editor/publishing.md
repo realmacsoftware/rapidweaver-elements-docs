@@ -1,17 +1,28 @@
 ---
 description: FTP Publishing Issues and how to fix them
+icon: truck
 ---
 
-# How to fix Publishing Issues
+# Publishing
 
-Can't get your website online or updated. Don't worry. 99% of the time the issue is due to incorrect setup of publishing details. This is due to the fact that everything needs to be entered 100% correctly otherwise publishing fails.
 
-{% hint style="info" %}
-### Mission Critical Publishing Issues: Use a Standalone FTP Client
+
+
+
+
+
+
+
+### How to fix Publishing Issues
+
+Can't get your website online or updated? Don't worry. 99% of the time the issue is due to incorrect setup of publishing details. Everything needs to be entered 100% correctly otherwise publishing fails.
+
+{% hint style="danger" %}
+### Mission Critical Publishing Issue? Use a Standalone FTP Client
 
 The following is recommended if you're having issues publishing your site and you need to get an update online as soon as possible. After manually uploading your site we recommend you get in touch with us to help resolve the issue publishing with Elements.
 
-We recommend entering your details into a third-party client to verify they work and are correct. [Transmit](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwiarpPjmtb3AhWEK0QIHSoZDxAQFnoECAUQAQ\&url=https%3A%2F%2Fpanic.com%2Ftransmit%2F\&usg=AOvVaw3fa_bRPF5Z5ggPXHa3-KBK) and Cyberduck are both great FTP clients and can be downloaded freely for this test.\
+We recommend entering your details into a third-party client to verify they work and are correct. [Transmit](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwiarpPjmtb3AhWEK0QIHSoZDxAQFnoECAUQAQ\&url=https%3A%2F%2Fpanic.com%2Ftransmit%2F\&usg=AOvVaw3fa_bRPF5Z5ggPXHa3-KBK) and [Cyberduck](https://cyberduck.io/) are both great FTP clients and can be downloaded freely for this test.\
 \
 If you're still having issues logging into your server with a third-party client it means your login credentials are incorrect. Please contact your hosting company to verify your details.\
 \
@@ -38,9 +49,9 @@ Entering an incorrect Path is the most common cause of publishing problems in Ra
 
 You can always use the “Browse” button inside the publishing settings to pick the correct path on your server.
 
-The list above is by no means an exhaustive list as paths vary greatly between different hosts, so if you’re still experiencing issues, please consult your web host’s online help to determine the Path required to upload to the correct folder. Sometimes, the Path may be known as the “Upload Folder”. You may also want to contact your web host directly and ensure that they have not made any recent changes to the server which may affect your settings and that you’ve not run out of webspace.\
-\
-**Done that and still no luck? try this next:**
+The list above is by no means an exhaustive list as paths vary greatly between different hosts, so if you’re still experiencing issues, please consult your web host’s online help to determine the Path required to upload to the correct folder. Sometimes, the Path may be known as the “Upload Folder”. You may also want to contact your web host directly and ensure that they have not made any recent changes to the server which may affect your settings and that you’ve not run out of webspace.
+
+### Done that and still no luck? try this next:
 
 ### Tweak Server Configurations
 
@@ -96,13 +107,13 @@ Some hosts may require you to use a path that begins with a forward slash (which
 Sometimes users create an index.html and index.php file with the latter being the most recent. Browsers will ALWAYS use the index.html file as primary. If you want the index.php file to be seen, you can either rename or remove that index.html file in that directory.&#x20;
 {% endhint %}
 
-### Still need help publishing?
+### I've tried everything, but still need help
 
 RapidWeaver can also be configured to produce a more in-depth report about publishing that the Realmac Software support team can use to identify potential problems.\
 \
 First of all open RapidWeaver’s preferences (Cmd,) and select the Publishing preferences pane. Make sure that the Enable Upload Logging option is checked.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-07-11 at 2 .18.24@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-07-11 at 2 .18.24@2x.png" alt=""><figcaption></figcaption></figure>
 
 Please do the following step to send your publishing logs to us:
 
