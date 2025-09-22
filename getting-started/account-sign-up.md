@@ -13,7 +13,9 @@ Below are  instructions on [how to sign-up](account-sign-up.md#how-to-sign-up-fo
 An active subscription is required to use Elements Cloud.
 {% endhint %}
 
-### How to Sign-Up for an Elements Cloud Account
+Elements Cloud allows you to backup and share your projects, it is not a hosting service to publish your website too (yet).
+
+### Account Sign-Up&#x20;
 
 You can sign-up (or sign-in) to your account in the Account Preferences within Elements. Simply enter your email address and click the "Send Sign-in Link" button. An account will be created for you, or you will be logged in (if you already have an account).
 
@@ -29,7 +31,7 @@ Once logged in you can share your open project from the Cloud icon in the Elemen
 
 Every Elements Cloud account comes with 1GB of free cloud storage. This is the perfect place to make backups and upload files for sharing.
 
-### Backup and Share a Project Files with Elements Cloud
+### Share a Project
 
 Once [logged into you Elements Cloud Account](account-sign-up.md) you can share your open project from the Cloud icon in the Elements Toolbar.
 
@@ -42,11 +44,9 @@ To upload your project to Elements Cloud, just follow these steps:
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-07-22 at 9 .44.45@2x.png" alt=""><figcaption></figcaption></figure>
 
-### Converting an Elements App link to a direct download
+#### Converting an Elements App link to a direct download
 
 To generate a direct download link from an Elements App link, simply append the unique identifier from the original link to the elementsapp.cloud URL.
-
-#### Example:
 
 • Elements App Link: [elementsapp://downloadDocument/M1l5heNgT81r](elementsapp://downloadDocument/M1l5heNgT81r)
 
@@ -54,7 +54,7 @@ To generate a direct download link from an Elements App link, simply append the 
 
 
 
-### Troubleshooting Guide
+### Troubleshooting
 
 A troubleshooting guide for Elements Cloud Issues.
 

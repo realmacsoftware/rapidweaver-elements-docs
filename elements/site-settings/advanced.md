@@ -1,3 +1,7 @@
+---
+icon: screwdriver-wrench
+---
+
 # Advanced
 
 The Advanced section lets you fine-tune your project’s output and local preview behavior. These options are entirely optional, but great if you want a bit more control.

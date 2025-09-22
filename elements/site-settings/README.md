@@ -1,5 +1,5 @@
 ---
-icon: gear
+icon: square-sliders
 ---
 
 # Project Settings

@@ -3,7 +3,7 @@ description: Manage the structure of your website.
 icon: files
 ---
 
-# Pages
+# Page Manager
 
 Easily manage the structure of your website. Create pages and folders and drag to re-arrange them just like you would in the Finder.
 
@@ -34,7 +34,3 @@ To create a new Markdown File with option front matter, right click inside of th
 Folders are a great way to organize site content when you don't need a top level page. Folders can contain any number of pages or additional folders.
 
 To Create a folder, right-click  in the Pages area and select "New Folder" from the menu.
-
-
-
-{% embed url="https://youtu.be/AfeTYHFP5i0?si=tzXgeUg5nahr6vX7" %}

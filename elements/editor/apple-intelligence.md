@@ -1,5 +1,6 @@
 ---
 description: How to use Apple Intelligence Writing Tools in RapidWeaver Elements.
+icon: head-side-gear
 ---
 
 # Apple Intelligence

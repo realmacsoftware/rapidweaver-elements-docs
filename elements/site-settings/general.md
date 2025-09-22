@@ -1,3 +1,7 @@
+---
+icon: gear-complex
+---
+
 # General
 
 Set the title of your website, along with the web address.

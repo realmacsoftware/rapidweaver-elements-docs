@@ -1,5 +1,6 @@
 ---
 description: Fully Customizable Site Template
+icon: code
 ---
 
 # Template

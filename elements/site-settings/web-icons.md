@@ -1,3 +1,7 @@
+---
+icon: image-landscape
+---
+
 # Web Icons
 
 Elements supports the following Favicons:

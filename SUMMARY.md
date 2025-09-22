@@ -21,7 +21,8 @@
 
 ## Elements
 
-* [Editor](elements/editor.md)
+* [Editor](elements/editor/README.md)
+  * [Apple Intelligence](elements/editor/apple-intelligence.md)
 * [Workspaces](elements/workspaces.md)
 * [Page Manager](elements/page-manager.md)
 * [Resources](elements/resources.md)
@@ -32,7 +33,6 @@
 * [Browser Preview](elements/previewing-your-website.md)
 * [Breakpoints](elements/responsive-breakpoints.md)
 * [Dark Mode](elements/dark-mode.md)
-* [Publishing](elements/publishing.md)
 * [Theme Studio](elements/theme-studio/README.md)
   * [Theme](elements/theme-studio/theme.md)
   * [Screens](elements/theme-studio/screens.md)
@@ -88,7 +88,6 @@
   * [Migrating from Wordpress](elements-app/migrations/migrating-from-wordpress.md)
 * [Design System](elements-app/design-system.md)
 * [Editor](elements-app/editor.md)
-  * [Apple Intelligence](elements-app/editor/apple-intelligence.md)
 * [Components](elements-app/components/README.md)
   * [Common Controls](elements-app/components/common-controls/README.md)
     * [Link](elements-app/components/common-controls/link.md)
