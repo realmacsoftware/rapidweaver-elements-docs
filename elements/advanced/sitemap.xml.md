@@ -1,5 +1,6 @@
 ---
 description: A sitemap provides search engines with a clear map of your website’s structure
+icon: map
 ---
 
 # sitemap.xml

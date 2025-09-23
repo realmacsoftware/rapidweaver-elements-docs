@@ -1,5 +1,6 @@
 ---
 description: How to add a robots.txt file to your Elewments Project
+icon: robot
 ---
 
 # Robots.txt

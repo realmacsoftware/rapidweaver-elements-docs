@@ -7,7 +7,7 @@ icon: globe
 
 When you’re ready to publish your website, you'll need to go to your Site Settings and select the "publishing" tab in the sidebar to set up a publishing destination.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-05-21 at 10 .54.04@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-05-21 at 10 .54.04@2x.png" alt=""><figcaption></figcaption></figure>
 
 Elements can publish to the following locations and services:
 
@@ -124,7 +124,7 @@ RapidWeaver can also be configured to produce a more in-depth report about publi
 \
 First of all open RapidWeaver’s preferences (Cmd,) and select the Publishing preferences pane. Make sure that the Enable Upload Logging option is checked.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-07-11 at 2 .18.24@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-07-11 at 2 .18.24@2x.png" alt=""><figcaption></figcaption></figure>
 
 Please do the following step to send your publishing logs to us:
 
