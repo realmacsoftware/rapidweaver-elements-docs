@@ -51,6 +51,7 @@
   * [Advanced](elements/site-settings/advanced.md)
   * [Template](elements/site-settings/template.md)
   * [Publishing](elements/site-settings/publishing/README.md)
+    * [Fixing Issues](elements/site-settings/publishing/fixing-issues.md)
     * [URL Scheme](elements/site-settings/publishing/url-scheme.md)
 * [Analytics](elements/analytics.md)
 * [Advanced](elements/advanced/README.md)

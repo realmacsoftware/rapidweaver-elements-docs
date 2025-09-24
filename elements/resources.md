@@ -81,7 +81,8 @@ Resources are always manually sorted. However, you can run a one-time sort actio
 
 #### Folder Sorting Options:
 
-* Alphabetical
+* A-Z (Ascending)
+* Z-A (Descending)
 * Newest First
 * Oldest First
 

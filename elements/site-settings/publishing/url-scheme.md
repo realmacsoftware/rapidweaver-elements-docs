@@ -1,8 +1,8 @@
+---
+description: Setup your publishing destinations via a URL scheme
+---
+
 # URL Scheme
-
-RapidWeaver Elements supports the following URL Schemes:
-
-### Magic Publishing Link
 
 Magic publishing links provide a quick way to automatically configure a publishing destination within a Elements Project. Most of the settings can be configured, reducing user error and making setup a simple one click solution.
 
@@ -30,3 +30,5 @@ The available options are as follows
 * path: Publishing path
 * username: Username
 * website: Website address of published content
+
+Please note that Password is not supported for security reasons.
