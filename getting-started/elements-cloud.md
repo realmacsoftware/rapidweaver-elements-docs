@@ -11,7 +11,7 @@ Elements Cloud gives every user an easy way to **backup and share projects**.
 
 {% embed url="https://youtu.be/dBj6pkVy2-4" %}
 
-Below are  instructions on [how to sign-up](account-sign-up.md#how-to-sign-up-for-an-elements-cloud-account) for a free account, and [share/backup your project](account-sign-up.md#backup-and-share-a-file).
+Below are  instructions on [how to sign-up](elements-cloud.md#how-to-sign-up-for-an-elements-cloud-account) for a free account, and [share/backup your project](elements-cloud.md#backup-and-share-a-file).
 
 {% hint style="warning" %}
 An active subscription is required to use Elements Cloud.
@@ -35,7 +35,7 @@ Every Elements Cloud account comes with 1GB of free cloud storage. This is the p
 
 ### Sharing Projects
 
-Once [logged into you Elements Cloud Account](account-sign-up.md) you can share your open project from the Cloud icon in the Elements Toolbar.
+Once [logged into you Elements Cloud Account](elements-cloud.md) you can share your open project from the Cloud icon in the Elements Toolbar.
 
 To upload your project to Elements Cloud, just follow these steps:
 

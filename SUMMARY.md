@@ -9,7 +9,7 @@
 * [License](getting-started/license-types.md)
 * [Quickstart](getting-started/quickstart.md)
 * [Importing Projects](getting-started/importing-projects.md)
-* [Elements Cloud](getting-started/account-sign-up.md)
+* [Elements Cloud](getting-started/elements-cloud.md)
 * [Support Guide](getting-started/troubleshooting.md)
 
 ***
