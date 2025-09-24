@@ -7,13 +7,13 @@ icon: cloud-check
 
 Every Elements Cloud account comes with **1GB of free cloud storage**. An active license is required for continued use of Elements Cloud. You can sign-up in-app.&#x20;
 
-Elements Cloud allows you to backup and share your projects, it is not a hosting service to publish your website too (yet).
+Elements Cloud gives every user an easy way to **backup and share projects**.
 
 {% embed url="https://youtu.be/dBj6pkVy2-4" %}
 
 Below are  instructions on [how to sign-up](account-sign-up.md#how-to-sign-up-for-an-elements-cloud-account) for a free account, and [share/backup your project](account-sign-up.md#backup-and-share-a-file).
 
-{% hint style="info" %}
+{% hint style="warning" %}
 An active subscription is required to use Elements Cloud.
 {% endhint %}
 
@@ -33,7 +33,7 @@ Once logged in you can share your open project from the Cloud icon in the Elemen
 
 Every Elements Cloud account comes with 1GB of free cloud storage. This is the perfect place to make backups and upload files for sharing.
 
-### Share a Project
+### Sharing Projects
 
 Once [logged into you Elements Cloud Account](account-sign-up.md) you can share your open project from the Cloud icon in the Elements Toolbar.
 
