@@ -3,31 +3,41 @@ description: Learn more about how the Elements design system works.
 icon: pen-ruler
 ---
 
-# Design System
+# Core Concepts
 
-If you're just starting out with Elements it's important to take the time to learn the difference between Components, Templates, and Global Templates.
+Before diving into building your first site, it helps to understand the core concepts that make up Elements. These ideas form the foundation of how the app works and give you a shared language when reading this manual.
 
-It's also worth noting that Elements is a Mobile first design system, based on Tailwind CSS. You can learn about all of this and more below.&#x20;
+You’ll learn about Projects, [Templates](../elements/templates.md), [Themes](../elements/theme-studio/theme.md), [Components](../components/components/), and [Globals](design-system.md#globals), what each one does, how they fit together, and why they matter. Once you’re familiar with these terms, you’ll be able to navigate Elements more confidently and build sites that are consistent, flexible, and easy to maintain.
 
-{% hint style="info" %}
-If you have any questions, please [visit the forum](https://forums.realmacsoftware.com), we're always around to help!
-{% endhint %}
+### Terminology
 
-### Components
+Elements uses a consistent design system to keep everything predictable and easy to work with. Whether you’re building a single landing page or a large multi-page site, the same set of terms and tools apply throughout the app.
 
-The core components inside elements represent the basic building blocks of a webpage; they are at the foundation of your page design. They include things like containers, grids, headings, text, and buttons. They are singular items, like Lego bricks.
+This section introduces the key concepts you’ll come across: Projects, Templates, Themes, Components, and Globals. Each plays a specific role in how your site is structured, styled, and maintained. Once you understand the difference, you’ll be able to work faster and keep your designs consistent.
+
+#### Projects
+
+A Project is your entire website bundled into one file. It can include multiple pages and all the assets needed for a site. Projects are a great way to kick-start a new build, as they provide a complete setup rather than just a single page layout.
+
+#### Themes
+
+Themes control the overall look and feel of your site. Fonts, colors, and general styling are all defined here. Switching themes can instantly give your site a completely new appearance, while your content stays the same.
+
+#### Components
+
+The core Components inside elements represent the basic building blocks of a webpage; they are at the foundation of your page design. They include things like containers, grids, headings, text, and buttons. They are singular items, like Lego bricks.
 
 Some of the more advanced components go beyond the basics; these include things like menus and galleries.
 
-### Templates
+#### Templates
 
-Templates are groups of Components that have been put togther to create a design or layout. Once a template is dropped into your page you can customise it however you like and it won't affect the original.
+[Templates](../elements/templates.md) are groups of Components that have been put togther to create a design or layout. Once a template is dropped into your page you can customise it however you like and it won't affect the original.
 
 The core pack inside of Elements includes a selection of useful layouts for everyday web design, including menus, hero banners, layouts, forms, and more.
 
 You can learn more about [Templates and how they differ to Global Templates here](../elements/templates.md).
 
-### Global Templates
+#### Globals
 
 [Global Templates](design-system.md#global-templates) (or Globals as they are often called) are user created groups of components. Globals can help maintain a consistent design language across your entire site.
 
@@ -37,7 +47,15 @@ You can take Globals even further by overriding content and design aspects on an
 
 You can [learn more about Global Templates here](design-system.md#global-templates).
 
-### Mobile First Design
+#### In short:
+
+* Use **Projects** when you want a full website starter.
+* Use **Themes** when you want to change the overall design style.
+* Use **Components** as the reusable building blocks of your pages.
+* Use **Templates** when you want a pre-built sections.
+* Use **Globals** to control site-wide, linked components or layouts (perfect for Navigation and Footer)
+
+### Design System
 
 Elements takes a mobile-first design approach. Mobile has now surpassed desktop in global internet usage. Google has switched to mobile-first indexing. That’s why Elements takes a mobile-first approach to website design to ensure your sites work better and rank higher in search results.
 
