@@ -30,13 +30,13 @@ The following is a list of items that will help your website rank better in sear
 3. Structuring URLs (so they are human readable)
 4. Use the correct Header Tags
 5. Creating Alt Text for Images
-6. Using a [Sitemap](../elements/advanced/sitemap.xml.md) (Elements generates this automatically)
+6. Using a [Sitemap](sitemap.xml.md) (Elements generates this automatically)
 
 ### How to set Image Alt text
 
 Image description is useful for users, search engines, and accessibility tools. It can be set for each image under the "Description" setting in the Image Component settings.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-03-06 at 10 .22.37@2x.png" alt=""><figcaption><p>Setting an Image Description in Elements</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-06 at 10 .22.37@2x.png" alt=""><figcaption><p>Setting an Image Description in Elements</p></figcaption></figure>
 
 #### Setting image alt text is important for SEO because it:
 
@@ -52,7 +52,7 @@ Image description is useful for users, search engines, and accessibility tools. 
 
 Elements offers a dedicated Metadata panel for setting per-page titles, descriptions, and common Open Graph tags for social sharing.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-05-09 at 8 .42.25@2x.png" alt=""><figcaption><p>Setting Metadata in Elements</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-09 at 8 .42.25@2x.png" alt=""><figcaption><p>Setting Metadata in Elements</p></figcaption></figure>
 
 ### Website SEO Checklist
 
@@ -67,7 +67,7 @@ If you want to level-up your new Elements project for SEO, run through this chec
 * [ ] **Clean, Human-Friendly URLs**\
   Keep filenames and paths tidy: /about, /contact, /services/web-desing, etc. Makes things easier for humans _and_ robots!
 * [ ] **Sitemap & robots.txt**\
-  Elements automatically generates a sitemap.xml, and you can [create a robots.txt](../elements/advanced/robots.txt.md) by adding a plain text file (right-click in the page list, choose “New File”, rename it robots.txt, fill it in).
+  Elements automatically generates a sitemap.xml, and you can [create a robots.txt](robots.txt.md) by adding a plain text file (right-click in the page list, choose “New File”, rename it robots.txt, fill it in).
 * [ ] **Optimise Images & Media**\
   Before importing, compress images (with Squash, ImageOptim, etc.). Fast loads = happy visitors _and_ rankings!
 * [ ] **Descriptive Anchor Text**\

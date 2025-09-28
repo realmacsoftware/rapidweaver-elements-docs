@@ -3,31 +3,38 @@ description: Extend RapidWeaver by creating your very own custom Components
 icon: bolt
 ---
 
-# Custom Components
+# Custom
 
-If you know a bit of HTML you can create your own custom Components for use in your projects. These can be anything from a simple html snippet to a fully blown Component with custom UI controls. **The possibilities of what you can create are endless!**
+If you know a bit of HTML you can create your own custom Components for use in your projects. These can be anything from a simple html snippet to a fully blown Component with custom UI controls taking full advantage of  the[ Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language).
 
-### **Adding HTML Snippets**
+{% hint style="warning" %}
+**The possibilities of what you can create are endless.**\
+Learn more about using the [Elements API here](https://docs.realmacsoftware.com/elements-docs/elements-language).
+{% endhint %}
 
-One od the easiest ways get started using Custom Components is by adding a custom HTML snippet to your page.
+### **Adding a simple HTML snippet**
+
+One of the easiest ways get started using Custom Components is by adding a custom HTML snippet to your page.
 
 {% embed url="https://www.youtube.com/watch?v=rHDCpYrg-j4" %}
 
-### A few things to note before you get started:
+### Creating a Custom Component
+
+Creating a Custom Component in Elements is the easiest and fastest way to get started with exploring the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language). Custom Components can eaily be migrated to distributable Element Pack at a later date.
+
+#### A few things to note before you get started:
 
 1. No external code editor is required, you can build everything inside of RapidWeaver  Elements.
 2. Custom Components are stored in the project they were created in.
-3. Custom Components have full access to the [Elements Language](broken-reference) (although they cannot include extra files like an external [Element Pack](broken-reference) can).
-4. To ensure compatibility with Elements you should use Tailwind CSS classes when writting your Template HTML.
-5. Custom Components can easily be converted into an encrpyted third-party component that can be [distributed and sold via the Elements platform](broken-reference).
+3. Custom Components have full access to the Elements Language (although they cannot include extra files like an external Element Pack can).
+4. To ensure compatibility with Elements you should use Tailwind CSS classes when writing your Template HTML.
+5. Custom Components can easily be converted into an encrypted component and shared or sold on the Elements Marketplace.
 
-### Creating a Custom Component
-
-Creating a Custom Component in Elements is the easiest and fastest way to get started with exploring the Elements API. Custom Components can eaily be migrated to distributable [Element Packs](broken-reference) at a later date.
+#### Let's get Started:
 
 {% stepper %}
 {% step %}
-### Open the Components area in the sidebar of your project
+#### Open the Components area in the sidebar of your project
 
 Press the "+" button next to the "Custom" heading, and choose HTML. You should now see the component appear in the list.
 
@@ -35,7 +42,7 @@ Press the "+" button next to the "Custom" heading, and choose HTML. You should n
 {% endstep %}
 
 {% step %}
-### Drag your newly created component onto the Page
+#### Drag your newly created component onto the Page
 
 Drag your HTML component into the page, you're now ready to start customizing it.
 
@@ -43,7 +50,7 @@ Drag your HTML component into the page, you're now ready to start customizing it
 {% endstep %}
 
 {% step %}
-### Edit your Custom Component
+#### Edit your Custom Component
 
 Next, open the Component Editor so we can view and edit the code. All changes made to the code update in realtime. Go ahead, change the text and watch the preview update.
 
@@ -98,7 +105,7 @@ You can also add a title for the Dropzone, this will be shown in the Node Browse
 
 ### Going Further with the Elements API
 
-Using the above tags inside of Custom Components only scratch the surface of what's possible, you can also use the [Elements API](broken-reference) inside of your Custom Components.
+Using the above tags inside of Custom Components only scratch the surface of what's possible, you can also use the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language) inside of your Custom Components.
 
-If you're a developer you can take things even further by creating distributable (and sellable) Element Packs for RapidWeaver Elements. You can learn more about Element Packs in the [Elements Pack section](broken-reference) of this manual.
+If you're a developer you can take things even further by creating distributable (and sellable) Element Packs for RapidWeaver Elements.
 

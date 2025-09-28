@@ -7,7 +7,7 @@ icon: atom-simple
 
 Before diving into building your first site, it helps to understand the core concepts that make up Elements. These ideas form the foundation of how the app works and give you a shared language when reading this manual.
 
-You’ll learn about Projects, [Templates](../elements/templates.md), [Themes](../elements/theme-studio/theme.md), [Components](../components/components/), and [Globals](design-system.md#globals), what each one does, how they fit together, and why they matter. Once you’re familiar with these terms, you’ll be able to navigate Elements more confidently and build sites that are consistent, flexible, and easy to maintain.
+You’ll learn about Projects, [Templates](../elements/templates.md), [Themes](../elements/theme-studio/theme.md), [Components](../elements/components/), and [Globals](design-system.md#globals), what each one does, how they fit together, and why they matter. Once you’re familiar with these terms, you’ll be able to navigate Elements more confidently and build sites that are consistent, flexible, and easy to maintain.
 
 ### Terminology
 
