@@ -11,7 +11,15 @@ If you run into a bug or something doesn’t seem to be working quite right in E
 Make sure to **search the forum first**, your question or bug might already have been resolved.
 {% endhint %}
 
-### How to get help
+### How to get design help
+
+If you’d like some design help with your Elements website, we’re more than happy to jump in. The best way to get feedback is to [post your request on the forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/how-do-i/62) so the whole community can see it and share ideas.
+
+When posting, **please include an Elements Cloud link to your project**. That way we can open it up directly in Elements and give you accurate, practical suggestions rather than guessing from a text description or partial screenshot.
+
+The more context you can provide (what you’re aiming for, where you’re stuck, or examples of sites you like), the better the feedback you’ll get.
+
+### How to get help for a bug
 
 When [posting on the forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), you should follow the guidelines below to help us locate and fix your issue much faster.
 
