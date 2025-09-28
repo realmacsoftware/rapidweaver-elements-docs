@@ -134,9 +134,7 @@
 
 ## Branding
 
-* [Logotype](branding/logotype.md)
-* [Logotype Animated](branding/logotype-animated.md)
-* [Icon](branding/icon.md)
+* [Logotype & Icon](branding/logotype.md)
 
 ## Legal
 
