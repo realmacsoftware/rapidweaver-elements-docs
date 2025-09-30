@@ -75,10 +75,33 @@ These nodes can be safely removed using the built-in recovery option.
 
 #### Follow these steps to Repair your Project:
 
-1. With the project open, go to the `Help > Recovery > Remove Recovered Nodes` option from the menu.
-2. Then, use the `File > Save As…` command to save your project as a new file.
-3. Close the project and Elements.
-4. re-launch and open the Newley saved )and repaired) project.
+{% stepper %}
+{% step %}
+With the project open, select the  `Help > Recovery > Remove Recovered Nodes` option.
+
+
+{% endstep %}
+
+{% step %}
+Then, select the `File > Save As…` command to save your project as a new file.
+
+
+{% endstep %}
+
+{% step %}
+Close the project and Quit Elements.
+
+
+{% endstep %}
+
+{% step %}
+Re-launch Elements and open the newly saved (and repaired) project.
+
+
+{% endstep %}
+{% endstepper %}
+
+You can now continue working on your project, right where you left off.
 
 We’re actively working on reducing the chances of these orphaned nodes appearing in the first place.
 
