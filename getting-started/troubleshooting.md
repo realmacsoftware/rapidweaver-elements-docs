@@ -13,7 +13,9 @@ Make sure to [**search the forum first**](https://forums.realmacsoftware.com/), 
 
 ## How to Get Help (and get it faster)
 
-To save everyone time, here’s the **best way to ask for help on the forum:**
+We’ve seen quite a few posts on the [forum](https://forums.realmacsoftware.com/) where users are asking for help but not giving enough details for anyone to actually solve the problem.&#x20;
+
+To save everyone time, here’s the **best way to** [**ask for help on the forum**](https://forums.realmacsoftware.com/)**:**
 
 1. **Create a Clear Post Title**\
    Something like _“Need help styling the navigation component”_ works much better than _“Help. It’s broken!”_.
@@ -28,21 +30,15 @@ To save everyone time, here’s the **best way to ask for help on the forum:**
 6. **Be Specific**\
    The more detail you include, the quicker you’ll get accurate help.
 
+Follow the above guide, and you’ll not only get better answers, you’ll get them much faster.
+
 #### Why Details Matter
 
-Asking for help without sharing the Elements Project or live URL is a bit like rolling up to a garage and saying, _“My car’s making a funny noise, can you fix it?”_ but then not showing the mechanic the actually car.
+Asking for [help on the forum](https://forums.realmacsoftware.com/) without sharing the Elements Project or live URL is a bit like rolling up to a garage and saying, _“My car’s making a funny noise, can you fix it?”_ but then not showing the mechanic the actually car.
 
 Sure, they could take a wild guess. They might suggest topping up the oil, tightening a belt, or just turning the radio up so you can’t hear it anymore. But without looking under the bonnet, they’re working blind.
 
 That’s exactly what it’s like when asking for website help without sharing the details. We don’t need the keys, but we do usually need to see the engine.
-
-### How to get design help
-
-If you’d like some design help with your Elements website, we’re more than happy to jump in. The best way to get feedback is to [post your request on the forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/how-do-i/62) so the whole community can see it and share ideas.
-
-When posting, **please include an Elements Cloud link to your project**. That way we can open it up directly in Elements and give you accurate, practical suggestions rather than guessing from a text description or partial screenshot.
-
-The more context you can provide (what you’re aiming for, where you’re stuck, or examples of sites you like), the better the feedback you’ll get.
 
 ### How to report a bug
 
