@@ -19,7 +19,7 @@ When posting, **please include an Elements Cloud link to your project**. That wa
 
 The more context you can provide (what you’re aiming for, where you’re stuck, or examples of sites you like), the better the feedback you’ll get.
 
-### How to get help for a bug
+### How to report a bug
 
 When [posting on the forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), you should follow the guidelines below to help us locate and fix your issue much faster.
 
@@ -69,7 +69,16 @@ If you see the "Document Repaired Warning Dialog" dialog when opening a project,
 
 When Elements detects any orphaned nodes (bits of content that no longer have a proper home), it moves them to the top of the page rather than deleting them outright. That way, nothing important ever gets lost by mistake.
 
-These nodes can be safely deleted, but you might need to unlink them from a Global first.
+These nodes can be safely removed using the built-in recovery option.
+
+<figure><img src="../.gitbook/assets/CleanShot 2025-09-30 at 6 .24.07@2x.png" alt=""><figcaption></figcaption></figure>
+
+#### Follow these steps to Repair your Project:
+
+1. With the project open, go to the `Help > Recovery > Remove Recovered Nodes` option from the menu.
+2. Then, use the `File > Save As…` command to save your project as a new file.
+3. Close the project and Elements.
+4. re-launch and open the Newley saved )and repaired) project.
 
 We’re actively working on reducing the chances of these orphaned nodes appearing in the first place.
 
