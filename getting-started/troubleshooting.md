@@ -8,8 +8,33 @@ icon: hand-heart
 If you run into a bug or something doesn’t seem to be working quite right in Elements, we’d love to hear about it.  You can check out our [FAQ guide](../elements-faq.md) for general support issues, but the **best place to get support** is on the [Elements Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), where our team and other users can offer help and advice!
 
 {% hint style="danger" %}
-Make sure to **search the forum first**, your question or bug might already have been resolved.
+Make sure to [**search the forum first**](https://forums.realmacsoftware.com/), your question or bug might already have been resolved.
 {% endhint %}
+
+## How to Get Help (and get it faster)
+
+To save everyone time, here’s the **best way to ask for help on the forum:**
+
+1. **Create a Clear Post Title**\
+   Something like _“Need help styling the navigation component”_ works much better than _“Help. It’s broken!”_.
+2. **Explain the Issue**\
+   Tell us what you’re trying to do, what you expected, and what actually happened.
+3. **Share Your Project**\
+   Add an [Elements Cloud link](https://docs.realmacsoftware.com/elements-docs/getting-started/elements-cloud) so others can open your project and see what’s going on.
+4. **Share a Live URL (if applicable)**\
+   If the site is published, include the link. Sometimes issues only show up on a live site.
+5. **Add Screenshots or Recordings**\
+   A quick screenshot or short video can be a huge help.
+6. **Be Specific**\
+   The more detail you include, the quicker you’ll get accurate help.
+
+#### Why Details Matter
+
+Asking for help without sharing the Elements Project or live URL is a bit like rolling up to a garage and saying, _“My car’s making a funny noise, can you fix it?”_ but then not showing the mechanic the actually car.
+
+Sure, they could take a wild guess. They might suggest topping up the oil, tightening a belt, or just turning the radio up so you can’t hear it anymore. But without looking under the bonnet, they’re working blind.
+
+That’s exactly what it’s like when asking for website help without sharing the details. We don’t need the keys, but we do usually need to see the engine.
 
 ### How to get design help
 
