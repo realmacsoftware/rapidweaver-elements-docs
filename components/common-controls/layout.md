@@ -30,7 +30,7 @@ The Inset property is used to control the positioning of an element relative to 
 
 {% embed url="https://youtu.be/2WZ0zacUgTI" %}
 
-<table><thead><tr><th width="218">Z-Index Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No uniform or individual spacing properties are set on the container.</td></tr><tr><td>Uniform</td><td>Uniform combines the top, right, bottom, and left offset properties into a single option, allowing you to quickly set all four sides at once.</td></tr><tr><td>Individual</td><td>Individual set the top, right, bottom, and left offset properties.</td></tr></tbody></table>
+<table><thead><tr><th width="218">Type (Inset) Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No uniform or individual spacing properties are set on the container.</td></tr><tr><td>Uniform</td><td>Uniform combines the top, right, bottom, and left offset properties into a single option, allowing you to quickly set all four sides at once.</td></tr><tr><td>Individual</td><td>Individual set the top, right, bottom, and left offset properties.</td></tr></tbody></table>
 
 ## Advanced
 
@@ -61,5 +61,5 @@ Controls the visibility of an element on the page. See [Tailwind CSS Visibility]
 
 ## Layout UI in Elements
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-19 at 8 .02.46@2x.png" alt=""><figcaption><p>Component Layout Controls (October 2024)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-10-19 at 8 .02.46@2x.png" alt=""><figcaption><p>Component Layout Controls (October 2024)</p></figcaption></figure>
 
