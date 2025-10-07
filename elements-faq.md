@@ -108,9 +108,9 @@ Please note the following:
 
 <summary>Do you offer refunds?</summary>
 
-**Yes!** We offer a 7 day money-back guarantee.
+**Yes!** We offer a 30 day money-back guarantee.
 
-If you've purchased Elements from us and are not happy, let us know within 7 days, and we'll issue a refund for you.
+If you've purchased Elements from us and are not happy, let us know within 30 days, and we'll issue a refund for you.
 
 Please forward your original email receipt from your purchase to obtain your refund. While you don't have to do this, it does make it much quicker for us to find and process.
 
