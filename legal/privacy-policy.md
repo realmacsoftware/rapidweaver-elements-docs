@@ -4,66 +4,105 @@ description: We value your privacy.
 
 # Privacy Policy
 
-At Realmac, we have always been committed to maintaining the trust and confidence of our visitors to our web site. In particular, we want you to know that Realmac Software is not in the business of selling, renting or trading email lists with other companies and businesses for marketing purposes. We just don’t do that sort of thing.&#x20;
+At Realmac Software Ltd, we’ve always been committed to maintaining the trust and confidence of our customers and visitors. We’re not in the business of selling, renting, or trading email lists with other companies for marketing purposes — and we never will be.
 
-In this Privacy Policy, we’ve provided lots of detailed information on when and why we collect your personal information, how we use it, along with how we keep it secure.
+This policy explains when and why we collect personal information, how we use it, and how we keep it secure.
 
-By using our Website and/or Software, you are accepting the terms of this Privacy Policy.
+By using our website or software, you agree to the terms of this Privacy Policy.
 
-### Your Personal Data
+### 1. Who We Are
 
-You will be asked to provide us with Personal Data which may include your name, email address and other contact details when you:
+Realmac Software Ltd\
+Registered in England and Wales\
+Email: support@realmacsoftware.com\
+ICO Registration Number:
 
-* Use our Website
-* Purchase our Software
+We design and sell software for macOS, including _Squash_, _RapidWeaver_ Classic and RapidWeaver _Elements_.
+
+### 2. The Information We Collect
+
+We may collect personal data such as your name, email address, and contact details when you:
+
+* Use our website
+* Purchase our software
 * Send us support requests
-* Signup for our mailing lists
-* Signup and participate in the forums
+* Sign up for our mailing list
+* Participate in our forums
 
-We will only use information held about you for the following purposes:
+We only collect the information necessary to provide our services and support.
 
-* To understand usage patterns and improve our Website.
-* To allow us to troubleshoot, and improve our Software and Website.
-* To communicate with you by responding to your requests through emails and the forum.
-* To inform you of news and updates with regards to our Software through email.
-* To notify you about changes to our Software.
+### 3. How We Use Your Information
 
-### Anonymous App Usage Information
+We use your personal information for the following purposes:
 
-RapidWeaver includes an option to send anonymous usage information to Realmac Software. This information is used solely to help us improve RapidWeaver. The information collected is not personally identifiable. You can opt out of sending this information at any time via the Preferences in RapidWeaver.
+* To process software purchases and deliver license details
+* To respond to support requests and communicate with you
+* To send newsletters and updates (only if you’ve opted in)
+* To understand how our website and products are used
+* To notify you of software changes or improvements
 
-We do not collect any personally-identifiable information, and we do not collect any information stored on your websites. Should you have any questions about the anonymous usage information that we collect, please contact us and we’ll be happy to answer any questions you might have. Please note, due to the fact that none of the usage data we collect can be personally-identified, we are unable to process any requests to remove information which may have previously been submitted as we cannot identify any individual user data.
+We do not sell, rent, or share personal information with other organisations for marketing.
 
-### HTTPS — Secure Website Traffic
+### 4. Our Data Processors
 
-All of our website traffic is served over https, this includes the Realmac Website, our Online Store, the Realmac Forum, and the RapidWeaver Community website.
+#### FastSpring – Online Store
 
-### Google Analytics - Website Tracking
+We use FastSpring to securely handle all software sales. They collect and process your billing details to complete purchases. FastSpring is the Merchant of Record, and they handle payment processing, refunds, and related support.
 
-We use Google Analytics software to collect information about how you use our website. This can include IP addresses. The data is anonymised before being used for analytics processing.
+[FastSpring Privacy Policy](https://fastspring.com/privacy/)
 
-Google Analytics processes anonymised information about:
+#### Google Analytics – Website Tracking
 
-the pages you visit on realmacsoftware.com how long you spend on each page how you got to the site what you click on while you’re visiting the site We do not store your personal information through Google Analytics (for example your name or address).
+We use Google Analytics to understand how visitors use our website. Analytics data may include anonymised IP addresses, device type, and pages visited. We never use this data to personally identify you, and we do not merge it with other information.
 
-We do not try to identify you through analytics information, and we will not combine analytics information with other data sets in a way that would identify who you are.
+[Google Privacy Policy](https://policies.google.com/privacy)
 
-### Fastspring — Online Store
+#### Buttondown – Newsletter
 
-Paddle and Fastspring are our online payment processors, they collect your information at checkout to process your purchase. Upon checkout there is also an optional check-box to allow us to contact you for marketing purposes. This is opt-in and is compliant with GDPR. If you would like your purchase history deleted please contact us.
+We use Buttondown to manage our mailing list. When you sign up, we collect your name and email address so we can send you news, updates, and promotions about our software. You can unsubscribe at any time using the “Unsubscribe” link in any of our emails.
 
-Our order process is conducted by our online reseller Paddle and Fastspring, they are the Merchant of Record for all our orders. Paddle and Fastspring provides all customer service inquiries and handles returns.
+[Buttondown Privacy Policy](https://buttondown.email/privacy)
 
-### Buttondown — Promotional Newsletter
+### 5. Legal Bases for Processing
 
-We use Buttondown for sending occasional newsletters and promotions for our software. You would have signed up for this newsletter via our online store, website, or in-app. We use this information for a couple of reasons: to tell you about stuff you’ve asked us to tell you about; to contact you if we need to obtain or provide additional information; to check our records are right and to check every now and then that you’re happy and satisfied. We don't rent or trade email lists with other organisations and businesses.
+We only process personal data when we have a valid legal reason to do so:
 
-We also gather statistics around email opening and clicks using industry-standard technologies to help us monitor and improve our e-newsletter. You can unsubscribe from this list at any time by clicking the "Unsubscribe" link at the bottom of all emails from us. Alternatively, you can contact us and we'll do it manually for you.
+| Processing purchases           | Contractual necessity |
+| ------------------------------ | --------------------- |
+| Sending newsletters            | Consent               |
+| Responding to support requests | Legitimate interest   |
+| Website analytics              | Consent               |
 
-### Access to your personal information
+### 7. How We Store and Protect Your Data
 
-You are entitled to view, amend, or delete the personal information that we hold. Email your request us at support@realmacsoftware.com and we'll do out best to locate all the information we have on you. This will likely be a list of purchases along with any forum posts, or support requests you may have made.
+All traffic to our websites (including the store, forum, and community) uses HTTPS for secure communication. We store minimal data and ensure it’s protected using appropriate technical and organisational measures.
 
-### Policy Modifications
+### 8. Data Retention
 
-We reserve the right to change this Privacy Policy at any time and any amended Privacy Policy will be posted on our Website and notified to you by email, where appropriate. This Privacy Policy was last updated on September 12th 2018 and replaces any other Privacy Policy previously applicable from this date.
+We only keep your data for as long as necessary:
+
+* Purchase and billing data: up to 6 years (for accounting and tax purposes)
+* Newsletter data: until you unsubscribe
+* Analytics data: typically 26 months (Google’s standard retention period)
+
+### 9. Your Rights
+
+You have the right to:
+
+* Request a copy of your personal data
+* Ask us to correct or delete it
+* Withdraw consent for newsletters or analytics
+* Object to certain processing
+* Complain to the ICO if you believe your data isn’t handled properly
+
+To make a request, email support@realmacsoftware.com.
+
+### 10. Changes to This Policy
+
+We may update this policy from time to time. Any changes will be posted here, and where appropriate, you’ll be notified by email.&#x20;
+
+This Privacy Policy was **last updated in October 2025** and replaces all previous versions.
+
+### 11. Contact Us
+
+If you have questions about this Privacy Policy or how we handle your data, email us at support@realmacsoftware.com.
