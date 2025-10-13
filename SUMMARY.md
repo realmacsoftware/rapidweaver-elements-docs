@@ -134,7 +134,9 @@
 
 ## Presskit
 
-* [Logotype & Icon](presskit/logotype.md)
+* [Promo Guide](presskit/promo-guide.md)
+* [Logo](presskit/logotype.md)
+* [Icon](presskit/icon.md)
 
 ## Legal
 

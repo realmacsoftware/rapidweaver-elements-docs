@@ -1,15 +1,22 @@
 ---
 description: RapidWeaver Elements Branding Artwork
-icon: icons
 ---
 
-# Logotype & Icon
+# Logo
 
 Feel free to use the provided artwork to help promote Elements in blogs, articles, or to your clients, customers, and friends.
 
-### Logotype
+### Elements Logotype
 
 The Logotype and Icon Mark for Elements was designed by [Paul von Excite](https://paulvonexcite.com).
+
+<figure><img src="../.gitbook/assets/elements-black.png" alt="" width="563"><figcaption><p>Elements Isolated Logotype - Preview</p></figcaption></figure>
+
+{% file src="../.gitbook/assets/elements-logo.svg" %}
+
+{% file src="../.gitbook/assets/elements-black.png" %}
+
+### Full Logotype
 
 <figure><img src="../.gitbook/assets/elements-logo.jpg" alt="RapidWeaver Elements Logotype"><figcaption><p>RapidWeaver Elements Logotype - preview</p></figcaption></figure>
 
@@ -20,14 +27,6 @@ RapidWeaver Elements Logotype - Transparent PNG file
 {% file src="../.gitbook/assets/rapidweaver-elements.svg" %}
 RapidWeaver Elements Logotype - SVG
 {% endfile %}
-
-### Logotype Isolated
-
-<figure><img src="../.gitbook/assets/elements-black.png" alt="" width="563"><figcaption><p>Elements Isolated Logotype - Preview</p></figcaption></figure>
-
-{% file src="../.gitbook/assets/elements-logo.svg" %}
-
-{% file src="../.gitbook/assets/elements-black.png" %}
 
 ### Icon Mark
 
@@ -57,42 +56,3 @@ Animated Elements logo in SVG / Lottie format.
 Animated Elements logo in mp4 format.
 {% endfile %}
 
-### macOS Icon
-
-The main app icon for [RapidWeaver Elements](https://elementsapp.io/), designed by [David Lanham](https://www.dlanham.com).
-
-<figure><img src="../.gitbook/assets/Icon-macOS-512x512@2x.png" alt="" width="188"><figcaption><p>Elements for macOS - Preview</p></figcaption></figure>
-
-{% file src="../.gitbook/assets/Elements-macOS-512x512@2x.png" %}
-Elements Icon @ 1024x1024 - Transparent PNG file
-{% endfile %}
-
-### Component Icon
-
-The single Component icon is not currently used within Elements, but can be used for marketing purposes. Designed by [Matthew Skiles](https://matthewskiles.com/).
-
-<figure><img src="../.gitbook/assets/Element Display.jpg" alt=""><figcaption><p>Single Element - Preview</p></figcaption></figure>
-
-{% file src="../.gitbook/assets/element.png" %}
-Single Element @ 1024x1024 - Transparent PNG file
-{% endfile %}
-
-### Element Pack Icon
-
-The Element Pack icon is used for encrypted Element packs for distribution to customers via the Elements marketplace. Designed by [Matthew Skiles](https://matthewskiles.com/).
-
-<figure><img src="../.gitbook/assets/Element Pack Display.jpg" alt=""><figcaption><p>Element Pack Icon - preview</p></figcaption></figure>
-
-{% file src="../.gitbook/assets/element-pack.png" %}
-Element Pack (.rwelementpack) @ 1024x1024 - Transparent PNG file
-{% endfile %}
-
-### DevElement Pack Icon
-
-The DevElement is used for unencrypted Element packs while they are in development. Designed by [Matthew Skiles](https://matthewskiles.com/).
-
-<figure><img src="../.gitbook/assets/Element Dev Pack Display.jpg" alt=""><figcaption><p>DevElement Pack Icon - preview</p></figcaption></figure>
-
-{% file src="../.gitbook/assets/element-dev-pack.png" %}
-DevElement Pack (.rwdevpack) @ 1024x1024 - Transparent PNG file
-{% endfile %}
