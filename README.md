@@ -1,13 +1,13 @@
 ---
-description: Elements is a no-code website builder for macOS.
+description: RapidWeaver Elements is a no-code website builder for macOS.
 icon: hand-wave
 ---
 
 # Welcome
 
-Elements is designed to cater to all skill levels, whether you’re a beginner looking for simplicity or an experienced web developer needing advanced customisation, Elements offers the perfect balance. With its user-friendly interface and powerful features, you can create fast, efficient, and beautiful websites with ease.
+RapidWeaver Elements  (aka Elements) is designed to cater to all skill levels, whether you’re a beginner looking for simplicity or an experienced web developer needing advanced customisation, Elements offers the perfect balance. With its user-friendly interface and powerful features, you can create fast, efficient, and beautiful websites with ease.
 
-Elements has everything you need built-in to build a beautiful modern website, and it's getting better all the time thanks to our passionate user base.
+RapidWeaver Elements has everything you need built-in to build a beautiful modern website, and it's getting better all the time thanks to our passionate user base.
 
 ### New to Elements?
 
