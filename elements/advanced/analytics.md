@@ -10,7 +10,7 @@ If you’d like to track traffic or integrate services like Google Analytics or 
 {% hint style="success" %}
 ### **Privacy-First Analytics**
 
-We recommend using [Fathom Analytics](https://usefathom.com/ref/81P61Z), it's what we use, and is trusted by thousands of businesses to power their **privacy-first website analytics** like Github, Buffer, IBM, and more.
+We recommend using [Fathom Analytics](https://usefathom.com/ref/81P61Z), it's much easier to understand and use compared to Google Analytics.
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=sfzIONiv2zY&feature=youtu.be" %}
