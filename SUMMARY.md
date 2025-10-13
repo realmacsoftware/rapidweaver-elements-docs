@@ -132,9 +132,9 @@
 * [Quicklook Document](elements-app/quicklook-document.md)
 * [Marketplace API](elements-app/marketplace-api.md)
 
-## Branding
+## Presskit
 
-* [Logotype & Icon](branding/logotype.md)
+* [Logotype & Icon](presskit/logotype.md)
 
 ## Legal
 

@@ -5,7 +5,7 @@ icon: icons
 
 # Logotype & Icon
 
-Feel free to use the provided artwork to help promote Elements to your clients and customers.&#x20;
+Feel free to use the provided artwork to help promote Elements in blogs, articles, or to your clients, customers, and friends.
 
 ### Logotype
 
