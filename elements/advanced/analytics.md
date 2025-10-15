@@ -8,9 +8,9 @@ icon: chart-simple
 If you’d like to track traffic or integrate services like Google Analytics or Google Tag Manager, you’ll need to add their code snippets to your project. Where you add the code depends on whether you want it to apply to all pages or just one.
 
 {% hint style="success" %}
-### **Recommended Analytics Service**
+### **Recommended Analytics Service (GDPR Compliant)**
 
-We recommend using [Fathom Analytics](https://usefathom.com/ref/81P61Z), it's much easier to understand and use compared to Google Analytics.
+We recommend using [Fathom Analytics](https://usefathom.com/ref/81P61Z), it's much easier to understand and use compared to Google Analytics. **Fathom is GDPR compliant and doesn’t require cookie notices**.
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=sfzIONiv2zY&feature=youtu.be" %}
