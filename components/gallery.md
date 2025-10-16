@@ -263,10 +263,26 @@ Customise the appearance of the button used to close the Lightbox.
 {% columns %}
 {% column %}
 #### Advanced
+
+The [Advanced Section](common-controls/advanced.md) provides options for users who want finer control over styling or need to link directly to the Gallery component.&#x20;
+
+These settings are ideal for developers and advanced users comfortable with custom CSS or Tailwind utilities.
+
+**CSS Classes**
+
+Add one or more Tailwind CSS classes to the Gallery component for custom styling.
+
+This allows you to extend or override default styles without editing your theme or component code.
+
+You can use any valid Tailwind utility class to adjust spacing, colours, borders, or animations.
+
+**ID**
+
+Assign a unique ID to the component. This is useful for creating in-page anchor links or targeting the component with custom scripts and CSS selectors.
 {% endcolumn %}
 
 {% column %}
-
+<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 1 .14.19@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
