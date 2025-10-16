@@ -1,11 +1,15 @@
+---
+description: Build beautiful image and video galleries
+---
+
 # Gallery
 
-To add a collection of images to your gallery, drag and drop a folder of images from the resources area into the drop-zone.
+The Gallery component in Elements allows you to build beautiful Galleries in a matter of seconds. Simple place the Gallery component into your site and drop on a folder images (or video).
 
 {% embed url="https://youtu.be/LwmA-IZNQIs" %}
 
-{% hint style="info" %}
-You can add YouTube or Vimeo videos by dragging and dropping the URL from your web browser to the Resources area in RapidWeaver Elements. A playlist URL can also be dropped into the resources area.
+{% hint style="success" %}
+You can **add YouTube or Vimeo videos** by dragging and dropping the URL from your web browser to the Resources area in RapidWeaver Elements. A playlist URL can also be dropped into the resources area.
 {% endhint %}
 
 ### Supported File Types
@@ -18,7 +22,7 @@ Galleries can contain a mixture of file types, including:
 * Vimeo
 * .mp4
 
-### What is best size to make Gallery images?
+### Resize and Compress Images for Best Results
 
 Elements is designed to be flexible with image sizes, but for best results in galleries, we recommend using images that are at least 1200px wide for modern displays. This ensures your gallery looks sharp on all devices.
 
