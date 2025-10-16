@@ -211,6 +211,8 @@ Adds a soft blur to the background content beneath the overlay.
 {% endcolumn %}
 {% endcolumns %}
 
+
+
 {% columns %}
 {% column %}
 #### Navigation
@@ -229,16 +231,34 @@ Adjust the overall design and sizing of navigation buttons.
     Sets the inner spacing around each icon, determining how much space appears between the button edge and the icon.
 *   **Size**
 
-    Adjusts the overall button size. Larger buttons are easier to tap on touch devices, while smaller ones maintain a minimal design.
+    Adjusts the icon size inside the navigation buttons.
 *   **State**
 
     Switch between Default and Hover to style how buttons look in each interaction state.
+
+Customise the appearance of the button used to close the Lightbox.
+
+*   Background
+
+    Sets the background color on the button
+*   Icon
+
+    Choose the color of the icon for better contrast against the background.
+*   Opacity
+
+    Adjusts the transparency of both the button and icon.
+
+{% hint style="success" %}
+**Tip:** For best results, use semi-transparent backgrounds with high-contrast icons. This keeps navigation controls visible without distracting from the main image.
+{% endhint %}
 {% endcolumn %}
 
 {% column %}
 <figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 1 .07.09@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
+
+
 
 {% columns %}
 {% column %}
@@ -249,3 +269,4 @@ Adjust the overall design and sizing of navigation buttons.
 
 {% endcolumn %}
 {% endcolumns %}
+
