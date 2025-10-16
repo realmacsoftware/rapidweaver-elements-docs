@@ -278,7 +278,7 @@ You can use any valid Tailwind utility class to adjust spacing, colours, borders
 
 **ID**
 
-Assign a unique ID to the component. This is useful for creating in-page anchor links or targeting the component with custom scripts and CSS selectors.
+Assign a unique ID to the component. This is useful for creating in-page [anchor links](common-controls/advanced.md#id) or targeting the component with custom scripts and CSS selectors.
 {% endcolumn %}
 
 {% column %}
