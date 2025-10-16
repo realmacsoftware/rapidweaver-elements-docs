@@ -77,6 +77,61 @@ Set the spacing between gallery items.
 {% column %}
 #### Thumbnails
 
+The Thumbnails section controls how images are displayed within the Gallery component. You can adjust the size, shape, and appearance of the thumbnails, along with metadata such as captions and authors.
+
+**Media**
+
+These settings define the overall appearance of your thumbnails.
+
+*   **Aspect**
+
+    Choose between Square, Wide, or Tall to control the image aspect ratio.
+*   **Radius**
+
+    Adjust the corner rounding of your images.
+*   **Shadow**
+
+    Adds a soft drop shadow to thumbnails.
+
+**Meta Data**
+
+Use these options to control how meta information (such as captions or authors) is positioned and spaced around the thumbnail.
+
+*   **Alignment**
+
+    Align metadata text to the Left, Center, or Right of each thumbnail.
+*   **Margin**
+
+    Adds spacing around the metadata area and the thumbnail.
+*   **Spacing**
+
+    Controls the space between individual metadata items (for example, between a caption and author line).
+
+**Caption & Author**
+
+Controls the appearance of the image caption and author
+
+*   **Show**
+
+    Toggle captions on or off.
+*   **Color**
+
+    Sets the text color.
+*   **Font**
+
+    Select a font style (such as heading or body) from your project’s theme.
+*   **Size**
+
+    Define the text size.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 11 .52.29@2x.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
 
 {% endcolumn %}
 
@@ -84,6 +139,8 @@ Set the spacing between gallery items.
 
 {% endcolumn %}
 {% endcolumns %}
+
+
 
 
 
