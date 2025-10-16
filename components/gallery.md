@@ -46,6 +46,8 @@ The Gallery does not support single images. They must be in a Folder.
 {% endcolumn %}
 {% endcolumns %}
 
+
+
 {% columns %}
 {% column %}
 ### Layout
@@ -73,11 +75,17 @@ Set the spacing between gallery items.
 {% endcolumn %}
 {% endcolumns %}
 
+
+
 {% columns %}
 {% column %}
 #### Thumbnails
 
 The Thumbnails section controls how images are displayed within the Gallery component. You can adjust the size, shape, and appearance of the thumbnails, along with metadata such as captions and authors.
+
+{% hint style="warning" %}
+The Aspect ratio will apply to all images to give the grid an ascetically pleasing and conistant look. If you wish to mix and match aspect ratios, we recommend building a custom Gallery with the Grid Component.
+{% endhint %}
 
 **Media**
 
@@ -130,17 +138,37 @@ Controls the appearance of the image caption and author
 {% endcolumn %}
 {% endcolumns %}
 
+
+
 {% columns %}
 {% column %}
+#### Lightbox
 
+The Lightbox section controls how images are displayed when clicked. Enabling the Lightbox allows visitors to view larger versions of your images in a clean, focused overlay without leaving the page.
+
+**Preview**
+
+Toggle the Preview option to enable or disable viewing the lightbox in the Elements Editor.
+
+**Media**\
+Fine-tune the appearance of images displayed inside the lightbox.
+
+*   **Radius**
+
+    Adjust the corner rounding of lightbox images. Use Default to follow your project’s theme styling.
+*   **Shadow**
+
+    Apply a drop shadow around images in the lightbox to give them depth and contrast. Use Default to follow your project’s theme styling.
+
+{% hint style="success" %}
+**Tip:** Use consistent radius and shadow settings between your Thumbnails and Lightbox sections for a unified visual style.
+{% endhint %}
 {% endcolumn %}
 
 {% column %}
-
+<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 12 .01.49@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 
 
