@@ -27,3 +27,21 @@ Galleries can contain a mixture of file types, including:
 Elements is designed to be flexible with image sizes, but for best results in galleries, we recommend using images that are at least 1200px wide for modern displays. This ensures your gallery looks sharp on all devices.
 
 For batch resizing and compressing images we recommend [Squash for macOS](https://www.realmacsoftware.com/squash/).
+
+### Component Settings
+
+{% columns %}
+{% column %}
+#### Media
+
+Drop a folder of images, videos, YouTube link, or Vimeo links into the dropzone to build your gallery.
+
+{% hint style="danger" %}
+The Gallery does not support single images. They must be in a Folder.
+{% endhint %}
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 11 .45.57@2x.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
