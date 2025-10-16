@@ -48,6 +48,35 @@ The Gallery does not support single images. They must be in a Folder.
 
 {% columns %}
 {% column %}
+### Layout
+
+The Layout section controls how your images are arranged within the Gallery component. Use these settings to define the number of columns and the spacing between each thumbnail.
+
+**Columns**
+
+Adjust the number of columns displayed in your gallery.
+
+* Use the slider to set how many columns of thumbnails appear across your layout.
+* The gallery automatically adapts to different screen sizes, ensuring images remain evenly spaced and visually balanced.
+
+**Gap**
+
+Set the spacing between gallery items.
+
+* The Gap value defines the amount of space between thumbnails.
+* Use smaller values for a tighter grid or larger ones to give each image more breathing room.
+* The value corresponds to Tailwind’s spacing scale, so it remains consistent with your theme settings.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 11 .50.41@2x.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+#### Thumbnails
+
 
 {% endcolumn %}
 
@@ -55,8 +84,6 @@ The Gallery does not support single images. They must be in a Folder.
 
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 
 
