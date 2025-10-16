@@ -84,7 +84,7 @@ Set the spacing between gallery items.
 The Thumbnails section controls how images are displayed within the Gallery component. You can adjust the size, shape, and appearance of the thumbnails, along with metadata such as captions and authors.
 
 {% hint style="warning" %}
-The Aspect ratio will apply to all images to give the grid an ascetically pleasing and conistant look. If you wish to mix and match aspect ratios, we recommend building a custom Gallery with the Grid Component.
+The Aspect ratio will apply to all images to give the grid an ascetically pleasing and consistent look. If you wish to mix and match aspect ratios, we recommend building a custom Gallery with the Grid Component.
 {% endhint %}
 
 **Media**
@@ -208,5 +208,44 @@ Adds a soft blur to the background content beneath the overlay.
 
 {% column %}
 <figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 12 .05.07@2x.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+#### Navigation
+
+The Navigation section controls the appearance of the navigation buttons within the Lightbox view. These settings let you customise the look of the Close, Next, and Previous buttons to suit your project’s theme.
+
+**General**
+
+Adjust the overall design and sizing of navigation buttons.
+
+*   **Border Radius**
+
+    Controls the corner rounding of all navigation buttons. You can set independent values for horizontal and vertical radius, or leave as Default for theme consistency.
+*   **Padding**
+
+    Sets the inner spacing around each icon, determining how much space appears between the button edge and the icon.
+*   **Size**
+
+    Adjusts the overall button size. Larger buttons are easier to tap on touch devices, while smaller ones maintain a minimal design.
+*   **State**
+
+    Switch between Default and Hover to style how buttons look in each interaction state.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 1 .07.09@2x.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+#### Advanced
+{% endcolumn %}
+
+{% column %}
+
 {% endcolumn %}
 {% endcolumns %}
