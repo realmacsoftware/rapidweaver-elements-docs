@@ -1,6 +1,8 @@
 # Gallery
 
-To add a collection of images to your gallery, drag an drop a folder of images from the resources area into the drop-zone.
+To add a collection of images to your gallery, drag and drop a folder of images from the resources area into the drop-zone.
+
+{% embed url="https://youtu.be/LwmA-IZNQIs" %}
 
 {% hint style="info" %}
 You can add YouTube or Vimeo videos by dragging and dropping the URL from your web browser to the Resources area in RapidWeaver Elements. A playlist URL can also be dropped into the resources area.
@@ -15,8 +17,6 @@ Galleries can contain a mixture of file types, including:
 * YouTube
 * Vimeo
 * .mp4
-
-
 
 ### What is best size to make Gallery images?
 
