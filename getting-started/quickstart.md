@@ -27,7 +27,7 @@ Elements has a large selection of free ready-made projects to choose from that a
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-09-17 at 2 .50.18@2x.png" alt=""><figcaption></figcaption></figure>
 
-### Optimise Media before import into Elements
+### Optimize Media before import into Elements
 
 It’s always a good idea to **prepare and optimize your media for the web** before importing it, especially large files like videos, audio, and high-res images. Uncompressed or oversized files can quickly inflate your project size and slow things down, both in the app and for your site visitors.
 
