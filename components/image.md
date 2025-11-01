@@ -65,8 +65,7 @@ Improves page performance by deferring image loading until it’s visible in the
 
     Adds the loading="lazy" attribute to the image tag.
 
-**Fetch Priority**
-
+**Fetch Priority**\
 Controls how the browser prioritises loading this image.
 
 * **Auto**\
@@ -107,8 +106,7 @@ These controls define how the Lightbox behaves and how its backdrop looks.
 
     Turns the Lightbox feature on or off. When enabled, clicking the image will open it in a fullscreen overlay.
 
-**Backdrop**
-
+**Backdrop**\
 These options adjust the appearance of the overlay that appears behind the image.
 
 *   **Color**
@@ -187,3 +185,7 @@ Controls where the image is anchored within its container. Choose from positions
 <figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .19.01@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
+
+
+
+{% include "../.gitbook/includes/common-controls (1).md" %}
