@@ -88,6 +88,8 @@ It’s a common request: protect images on a website from being downloaded or co
 
 Instead of relying on “image protection,” consider watermarking your images or ensuring they’re resized and optimised for the web. This approach makes them less valuable for unauthorised use while still serving their purpose on your site.
 
+
+
 {% columns %}
 {% column %}
 #### Lightbox
@@ -98,8 +100,7 @@ The Lightbox section lets you display an image in a pop-up overlay when clicked.
 **Tip:** For a fully customised Lightbox use the Modal Component and manually build it to your exact specifications.
 {% endhint %}
 
-**Settings**
-
+**Settings**\
 These controls define how the Lightbox behaves and how its backdrop looks.
 
 *   Enable
@@ -126,6 +127,8 @@ These options adjust the appearance of the overlay that appears behind the image
 {% endcolumn %}
 {% endcolumns %}
 
+
+
 {% columns %}
 {% column %}
 #### Link
@@ -142,5 +145,45 @@ Use the Clear (×) button to remove the link.
 
 {% column %}
 <figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .16.10@2x.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+
+
+{% columns %}
+{% column %}
+#### Aspect Ratio
+
+The Aspect Ratio section controls the shape and framing of images and other visual content. You can use predefined ratios for quick layouts or set a custom ratio for more precise control.&#x20;
+
+Additional options let you control how the image fits and where it’s positioned within its frame.
+
+**Aspect Ratio**\
+These settings define the overall shape of your image container. Choose from Auto, Wide, or Tall presets to control how the image is displayed.
+
+* Auto: Adapts to the image’s original dimensions.
+* Wide: Creates a landscape-style frame.
+* Tall: Creates a portrait-style frame.
+* Custom: More control over cropping.
+
+The **Custom Ratio** allows you to define a specific aspect ratio manually. Enter a ratio in the format x/y, such as 1/1 for a square or 5/7 for portrait-style content.
+
+**Object Fit**\
+Determines how the image is scaled within its container.
+
+* **Fill**: Stretches the image to fill the container, possibly distorting it.
+* **Contain**: Ensures the full image is visible within the container.
+* **Cover**: Crops edges if necessary to fill the container without distortion.
+* **None**: Keeps the image at its original size.
+* **Scale Down**: Reduces the image size only if it’s larger than the container.
+
+**Position**\
+Controls where the image is anchored within its container. Choose from positions like: Top, Center, Bottom, Left, Right, or combinations like Top Center, Bottom Right, etc.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .20.38@2x.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .19.01@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
