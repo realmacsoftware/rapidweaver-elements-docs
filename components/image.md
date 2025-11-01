@@ -4,7 +4,7 @@ description: Add Images to your webpage
 
 # Image
 
-The Image component in Elements allows you to easily add and display images (in JPG or PNG formats) on your website. This versatile component supports a wide range of customisation options, making it ideal for showcasing visuals in a clean, responsive, and accessible way.
+The Image component in Elements allows you to easily add and display images (in JPG or PNG formats) on your website. This versatile component supports a wide range of customisation options, making it ideal for showcasing images in a clean, responsive, and accessible way.
 
 ### Supported Image Types
 
@@ -46,6 +46,10 @@ These options control how the image is scaled.
 *   **File Size**
 
     Enter a pixel value to define the physical image width when Custom sizing is active.
+
+{% hint style="warning" %}
+Resized images are exported at 2x to ensure they look crisp on retina displays. So if you set File size to 400px, it will actually be exported at 800px.&#x20;
+{% endhint %}
 
 **Image Protection**\
 Prevents visitors from easily downloading the image. However, this is not foolproof, [see note below](image.md#a-short-note-about-why-image-protection-isnt-foolproof-on-the-web).
