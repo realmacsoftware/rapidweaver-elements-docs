@@ -87,3 +87,60 @@ Controls how the browser prioritises loading this image.
 It’s a common request: protect images on a website from being downloaded or copied. While blocking right-click can deter casual users, it’s important to understand that it doesn’t truly secure your images. Web browsers inherently download all page assets—including images—so they can display them. This means anyone with basic knowledge of developer tools or access to the browser’s cache can still retrieve your images.
 
 Instead of relying on “image protection,” consider watermarking your images or ensuring they’re resized and optimised for the web. This approach makes them less valuable for unauthorised use while still serving their purpose on your site.
+
+{% columns %}
+{% column %}
+#### Lightbox
+
+The Lightbox section lets you display an image in a pop-up overlay when clicked. This creates an immersive, distraction-free viewing experience without leaving the page. You can enable or disable the Lightbox and adjust the appearance of its backdrop for a polished presentation.
+
+{% hint style="success" %}
+**Tip:** For a fully customised Lightbox use the Modal Component and manually build it to your exact specifications.
+{% endhint %}
+
+**Settings**
+
+These controls define how the Lightbox behaves and how its backdrop looks.
+
+*   Enable
+
+    Turns the Lightbox feature on or off. When enabled, clicking the image will open it in a fullscreen overlay.
+
+**Backdrop**
+
+These options adjust the appearance of the overlay that appears behind the image.
+
+*   **Color**
+
+    Sets the backdrop colour displayed behind the image. Typically a dark colour (such as black) provides the best contrast.
+*   **Opacity**
+
+    Controls the transparency of the backdrop colour, expressed as a percentage. Lower values create a lighter overlay, while higher values make it more opaque.
+*   **Blur**
+
+    Adds a background blur effect (in pixels) to soften the content behind the image and draw more focus to the Lightbox image itself.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .10.27@2x.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+#### Link
+
+These settings define where image will be linked to. Click `Choose Link…` to select a destination. You can link to:
+
+* Any page within your project
+* An external URL
+* An email address (mailto:)
+* A file resource
+
+Use the Clear (×) button to remove the link.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .16.10@2x.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
