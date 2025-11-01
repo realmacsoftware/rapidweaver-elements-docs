@@ -10,11 +10,30 @@ The link property allows you to link to a page, resource or extrenal website. El
 
 ### Link Panel
 
-You can envoke the link panel on most components and inline text areas. Add a link click the "Choose Link…" button in the inspector. To clear a link click the "x" icon to the right hand side of the link button.
+You can apply the link panel on most components and inline text areas. Add a link click the "Choose Link…" button in the inspector. To clear a link click the "x" icon to the right hand side of the link button.
 
-<table><thead><tr><th width="136">Link Types</th><th>Description</th></tr></thead><tbody><tr><td>URL</td><td>Link to an external website, a mailto link will automatically be created if an email address is entered.</td></tr><tr><td>Page</td><td>Link to a  page within your project.</td></tr><tr><td>Anchor</td><td>Link to an Anchor on the page. Anchor ID's can be set in the Advanced settings on all built-in Components.</td></tr><tr><td>Resource</td><td>Link to a  resource within your project.</td></tr></tbody></table>
+{% columns %}
+{% column width="50%" %}
+#### Link
 
-{% hint style="info" %}
+These settings define where image will be linked to. Click `Choose Link…` to select a destination. You can link to:
+
+* Any page within your project
+* An external URL
+* An email address (mailto:)
+* A file resource
+
+Use the Clear (×) button to remove the link.
+{% endcolumn %}
+
+{% column width="50%" %}
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .16.10@2x.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+<table><thead><tr><th width="136">Link Types</th><th>Description</th></tr></thead><tbody><tr><td>URL</td><td>Link to an external website, a mailto link will automatically be created if an email address is entered.</td></tr><tr><td>Plain</td><td>Usful for adding custom code, like PHP.</td></tr><tr><td>Page</td><td>Link to a  page within your project.</td></tr><tr><td>Anchor</td><td>Link to an Anchor on the page. Anchor ID's can be set in the Advanced settings on all built-in Components.</td></tr><tr><td>Resource</td><td>Link to a  resource within your project.</td></tr></tbody></table>
+
+{% hint style="warning" %}
 #### Disabling Smooth Scroll for Anchors
 
 Element websites are configured to smooth scroll when navigating to an anchor. Smooth scroll can be disabled by removing the class="scroll-smooth" on the html tag in the site Template code.

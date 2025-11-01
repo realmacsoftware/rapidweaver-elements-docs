@@ -1,3 +1,7 @@
+---
+description: Add Tailwind Classes, Custom ID's and HTML Tags.
+---
+
 # Advanced
 
 The Advanced section provides options for users who want finer control over styling or need to link directly to sections. These settings are ideal for developers and advanced users comfortable with custom CSS or Tailwind utilities.

@@ -129,27 +129,6 @@ These options adjust the appearance of the overlay that appears behind the image
 
 {% columns %}
 {% column %}
-#### Link
-
-These settings define where image will be linked to. Click `Choose Link…` to select a destination. You can link to:
-
-* Any page within your project
-* An external URL
-* An email address (mailto:)
-* A file resource
-
-Use the Clear (×) button to remove the link.
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .16.10@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-{% columns %}
-{% column %}
 #### Aspect Ratio
 
 The Aspect Ratio section controls the shape and framing of images and other visual content. You can use predefined ratios for quick layouts or set a custom ratio for more precise control.&#x20;

@@ -1,3 +1,7 @@
+---
+description: Set a radius, colour, width and more.
+---
+
 # Borders
 
 In Elements, borders are easy to add, customize, and control, allowing you to create clean and consistent boundaries around components with minimal effort. Elements provides a range of options for setting border width, border color, border style, and even border radius (for rounded corners). This flexibility makes it simple to define borders that suit your design, from subtle outlines to bold accents.
@@ -30,4 +34,4 @@ The Radius property controls the roundness of the border. Radius can be set for 
 
 ## Border UI in Elements
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-28 at 12 .03.54@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-10-28 at 12 .03.54@2x.png" alt=""><figcaption></figcaption></figure>
