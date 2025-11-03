@@ -7,7 +7,7 @@ icon: file-certificate
 
 With Elements’ flexible licensing options; Base, Plus, and Pro you can choose the plan that best fits you or your teams needs, whether you're a casual user, hobbyist, or professional web designer.
 
-<a href="https://elementsapp.io/#buy-elements" class="button primary" data-icon="file-certificate">Purchase a License</a>
+<a href="https://www.realmacsoftware.com/pricing/" class="button primary" data-icon="file-certificate">Purchase a License</a>
 
 **Each license includes:**
 
