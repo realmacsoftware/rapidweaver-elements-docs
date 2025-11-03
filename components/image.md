@@ -1,10 +1,12 @@
 ---
-description: Add Images to your webpage
+description: Add images to your webpage
 ---
 
 # Image
 
 The Image component in Elements allows you to easily add and display images (in JPG or PNG formats) on your website. This versatile component supports a wide range of customisation options, making it ideal for showcasing images in a clean, responsive, and accessible way.
+
+{% embed url="https://youtu.be/tB5oOctRItM" %}
 
 ### Supported Image Types
 
