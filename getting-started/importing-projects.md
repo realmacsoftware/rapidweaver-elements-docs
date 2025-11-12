@@ -7,8 +7,8 @@ icon: arrow-down-to-bracket
 
 The Classic Project Importer is an experimental feature. It can bring over the page structure and settings from your Classic project, but content import is less reliable because many page types cannot be mapped directly to Elements components.
 
-{% hint style="warning" %}
-This is an experimental feature, please read the full document before importing a project.
+{% hint style="danger" %}
+**This is an experimental feature!** Please read the full document before importing a project.
 {% endhint %}
 
 Keep in mind this tool is designed to **help you move content across, not to recreate your site’s design**. You will need to rebuild the layout and styling using Elements components. Think of it as a way to save time copying text, images, and page structures rather than a one-click migration.
