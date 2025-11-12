@@ -1,6 +1,10 @@
+---
+description: Add a google map to your website.
+---
+
 # Map
 
-The Map is available as a free download via the Element Store.
+The Map component is available as a free download via the Element Store.
 
 ### Google Maps API (Required)
 
