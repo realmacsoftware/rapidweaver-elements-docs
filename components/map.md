@@ -8,13 +8,13 @@ The Map component is available as a free download via the Element Store.
 
 ### Google Maps API (Required)
 
-To use the Maps component in Elements you need an API key from Google. It only takes a few minutes to set up. The quickest way to get setup is to watch the video and follow the instcutions below.
+To use the Maps component in Elements you need a [Maps API key from Google](https://developers.google.com/maps). It only takes a few minutes to set up. The quickest way to get setup is to watch the video and follow the instructions below.
 
 {% embed url="https://youtu.be/hsNlz7-abd0?si=GdUJB8TqHNtGwXkm" %}
 
 #### 1. Create or sign in to your Google account
 
-Visit the Google Cloud Console and sign in. If you have not used Google Cloud before, it will prompt you to create a new project.
+[Visit the Google Cloud Console](https://developers.google.com/maps) and sign in. If you have not used Google Cloud before, it will prompt you to create a new project.
 
 #### 2. Create a new project
 
