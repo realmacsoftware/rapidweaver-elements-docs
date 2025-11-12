@@ -88,6 +88,7 @@
 * [Gallery](components/gallery.md)
 * [Grid](components/grid.md)
 * [Image](components/image.md)
+* [Map](components/map.md)
 * [Menu](components/navigation-standard.md)
 * [Modal](components/modal.md)
 * [Reveal](components/reveal.md)
