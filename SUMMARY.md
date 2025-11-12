@@ -11,6 +11,7 @@
 * [Core Concepts](getting-started/design-system.md)
 * [Importing Projects](getting-started/importing-projects.md)
 * [Elements Cloud](getting-started/elements-cloud.md)
+* [Elements Store](getting-started/elements-store.md)
 * [Support Guide](getting-started/troubleshooting.md)
 
 ## Elements
