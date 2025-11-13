@@ -4,7 +4,7 @@ description: Add a google map to your website.
 
 # Map
 
-The Map component is available as a free download via the Element Store.
+The Map component is available as a free download via the Element Store, it requires a free Google Maps API key to function.
 
 ### Google Maps API (Required)
 
@@ -49,3 +49,21 @@ For security, set restrictions so the key can only be used from your website.
 #### 6. Add the key to Elements
 
 Open the Google Map component in Elements and paste the key into the API Key field. Once added, your map will load correctly during preview and when published.
+
+### Testing locally on Your Mac
+
+When working locally, you need to add referrers so your Google Maps API key works in both Elements preview and on your published site.
+
+Add your live domain with two referrers:
+
+https://www.mydomain.com/\
+https://www.mydomain.com/\*
+
+To support local preview, first open the Elements Advanced settings and set a fixed preview port so it stays consistent.
+
+<figure><img src="../.gitbook/assets/CleanShot 2025-11-13 at 8 .25.51@2x.png" alt=""><figcaption></figcaption></figure>
+
+Add that URL as another two referrers in the Google console. For example:
+
+http://127.0.0.1:61109\
+http://127.0.0.1:61109/\*
