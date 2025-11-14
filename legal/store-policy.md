@@ -40,7 +40,7 @@ If you supply Assets to the Store, you agree to the following:
 * You agree to comply with our submission guidelines, quality standards, review processes, and accept our right to reject or remove any Asset at our discretion.
 * You will indemnify us against any claims arising from your breach of these warranties.
 * Upon termination of this Agreement, your rights and our rights with respect to already-approved Assets sold remain as specified in this Agreement.
-  * If your contributor account is terminated, we will stop selling or distributing your Assets immediately. Existing customers will retain the licenses they already purchased, but no further sales of your Assets will be offered.
+  * If your contributor account is terminated, we will stop selling your Assets immediately. Existing customers will retain the licenses they already purchased, but no further sales of your Assets will be offered.
 
 #### 4. Pricing, Payment & Revenue Share
 
