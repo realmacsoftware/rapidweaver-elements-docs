@@ -22,13 +22,15 @@ To use the Maps component in Elements you need a [Maps API key from Google](http
 2. Click New Project
 3. Give it a name, then create it
 
-#### 3. Enable the Maps JavaScript API
+#### 3. Enable the Maps JavaScript API & Geocoding API
 
 1. With your new project selected, open the left sidebar
 2. Go to APIs and Services
 3. Click Enable APIs and Services
-4. Search for Maps JavaScript API
-5. Open it and click Enable
+4. Search for Maps JavaScript API & Geocoding API
+5. Open them and click Enable for both
+
+<figure><img src="../.gitbook/assets/enable-maps-javascript-api-and-geocoding-api.png" alt=""><figcaption><p>This screenshot shows the expected appearance after enabling both the Maps JavaScript API and the Geocoding API.</p></figcaption></figure>
 
 #### 4. Generate your API key
 
@@ -42,7 +44,7 @@ To use the Maps component in Elements you need a [Maps API key from Google](http
 For security, set restrictions so the key can only be used from your website.
 
 1. In the Credentials list, click your new key
-2. Under Application Restrictions select HTTP referrers
+2. Under Application Restrictions select Websites
 3. Add the domains where your site will run
 4. Save your changes
 
@@ -56,8 +58,8 @@ When working locally, you need to add referrers so your Google Maps API key work
 
 Add your live domain with two referrers:
 
-https://www.mydomain.com/\
-https://www.mydomain.com/\*
+`https://www.mydomain.com/`\
+`https://www.mydomain.com/*`
 
 To support local preview, first open the Elements Advanced settings and set a fixed preview port so it stays consistent.
 
@@ -65,5 +67,9 @@ To support local preview, first open the Elements Advanced settings and set a fi
 
 Add that URL as another two referrers in the Google console. For example:
 
-http://127.0.0.1:61109\
-http://127.0.0.1:61109/\*
+`http://127.0.0.1:61109`\
+`http://127.0.0.1:61109/*`
+
+Below are example settings for the API Key:
+
+<figure><img src="../.gitbook/assets/google-maps-api-key-credentials-settings.png" alt=""><figcaption><p>This screenshot shows the API Key's settings.</p></figcaption></figure>
