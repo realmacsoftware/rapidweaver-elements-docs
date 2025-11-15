@@ -90,3 +90,22 @@ You can also post about any issues you might be having on the [Elements Forum](h
 
 </details>
 
+<details>
+
+<summary>"Elements Cloud service has encountered an error…" message</summary>
+
+This is often due to an issue on the network, it could be down to an app or network administrators blocking traffic to AWS. You may see an error message, like the following:
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-14 at 11.48.35 AM.png" alt=""><figcaption></figcaption></figure>
+
+```
+Elements Cloud service has encountered an error.
+```
+
+It’s worth checking whether you have anything installed on your Mac that filters or blocks traffic, tools like Little Snitch, Radio Silence, or certain antivirus packages can quietly block app requests and cause odd behaviour like this.
+
+If you’re running any of those, try temporarily disabling them or adding Elements to the allow list. If possible connect to another network and try to log-in again.
+
+If issues persist, please contact [support@realmacsoftware.com](mailto:support@realmacsoftware.com).
+
+</details>
