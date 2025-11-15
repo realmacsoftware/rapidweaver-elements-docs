@@ -49,6 +49,10 @@ If you’re running any of those, try temporarily disabling them or adding Eleme
 * .amplifyapp.com
 * .elementsapp.cloud
 
+<figure><img src="../.gitbook/assets/CleanShot 2025-11-15 at 10.02.42@2x (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
 </details>
 
 #### Sell and distribute your products on the Store
