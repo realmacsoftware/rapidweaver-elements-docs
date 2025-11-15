@@ -7,7 +7,7 @@ icon: cloud-check
 
 Every Elements Cloud account comes with **1GB of free cloud storage**. An active license is required for continued use of Elements Cloud. You can sign-up in-app.&#x20;
 
-Elements Cloud gives every user an easy way to **backup and share projects**.
+Elements Cloud gives every user a simple, reliable place to **store purchased products**, **back up their projects, and share** them when needed.
 
 {% embed url="https://youtu.be/dBj6pkVy2-4" %}
 
