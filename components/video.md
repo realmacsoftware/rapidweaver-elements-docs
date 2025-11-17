@@ -12,6 +12,11 @@ The Video Element lets you drop a single video into any part of your site with n
 
 You can add a video in a few different ways. For YouTube or Vimeo, drag the video URL from your browser straight into the Resources area. If you have a local video file, drag it in from the Finder and Elements will add a copy to your project. You can also import a video from any remote URL.
 
+{% hint style="success" %}
+Video can be added to the **background of your site** by using the Container Component.\
+Watch this video to learn more: [How to add a background video header to your webpage](https://youtu.be/x59UfuZvMwM)
+{% endhint %}
+
 #### Supported Video Types
 
 The video component supports the following file types:
@@ -19,8 +24,6 @@ The video component supports the following file types:
 * YouTube
 * Vimeo
 * .mp4
-
-
 
 #### Dropzone
 
