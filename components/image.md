@@ -15,7 +15,7 @@ The Image component in Elements allows you to easily add and display images (in 
 
 The Image Component does not support SVG's, instead you should use the [SVG Component](svg.md).
 
-### Component Settings
+### Image Component Settings
 
 {% columns %}
 {% column width="50%" %}
