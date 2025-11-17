@@ -1,16 +1,18 @@
 ---
-description: Add a video to your website
+description: Add video to your webpage
 ---
 
 # Video
 
-The Video Element is a simple way to add a single video to your website.
+The Video Element lets you drop a single video into any part of your site with no fuss. It handles YouTube, Vimeo, and standard video files, giving you a clean, reliable way to showcase clips whether they’re hosted online or stored locally. This makes it ideal for product demos, hero sections, tutorials, and anything else where a focused video presentation matters.
 
-### How to add Video
+{% embed url="https://youtu.be/avzBCXIJFU0" %}
 
-You can add YouTube or Vimeo videos by dragging and dropping the URL from your web browser to the Resources area in RapidWeaver Elements.
+### Adding Video to your Projects
 
-### Supported Video Types
+You can add a video in a few different ways. For YouTube or Vimeo, drag the video URL from your browser straight into the Resources area. If you have a local video file, drag it in from the Finder and Elements will add a copy to your project. You can also import a video from any remote URL.
+
+#### Supported Video Types
 
 The video component supports the following file types:
 
@@ -18,9 +20,11 @@ The video component supports the following file types:
 * Vimeo
 * .mp4
 
-### Dropzone
 
-The Video component has a dropzone in the center of it to allow for custom play buttons, text, graphics, and more.
+
+#### Dropzone
+
+The Video component has a drop-zone in the center of it to allow for custom play buttons, text, graphics, and more.
 
 ### Video Component Settings
 
