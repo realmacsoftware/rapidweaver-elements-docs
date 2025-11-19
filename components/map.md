@@ -4,7 +4,9 @@ description: Add a google map to your website.
 
 # Map
 
-The Map component is available as a free download via the Element Store, it requires a free Google Maps API key to function.
+{% hint style="success" %}
+The Map component is available as a **free download via the Element Store**, it requires a free Google Maps API key to function.
+{% endhint %}
 
 ### Google Maps API (Required)
 

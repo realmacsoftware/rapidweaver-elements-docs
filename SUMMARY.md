@@ -76,6 +76,7 @@
 * [Accordion](components/accordion.md)
 * [Audio Playlist](components/audio-playlist.md)
 * [Background](components/background.md)
+* [Before After](components/before-after.md)
 * [Button](components/button.md)
 * [CMS](components/cms.md)
 * [Container](components/container.md)
