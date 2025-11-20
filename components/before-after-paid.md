@@ -10,6 +10,8 @@ The Before After component is only available as a **paid product via the Element
 
 The Before After Component is a premium comparison tool. It gives you a clean, responsive slider that lets visitors drag to compare two images, or any other content. It’s perfect for agencies, photographers, designers, architects, and anyone who needs a clear visual before-and-after effect.
 
+{% embed url="https://youtu.be/J0eU66LRuro" %}
+
 It’s more flexible than a basic image comparison component. You can use any content for the before and after, customise the handle, switch between vertical or horizontal layouts, and it includes full touch support.
 
 ### Before After Component Settings
