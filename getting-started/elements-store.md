@@ -39,7 +39,7 @@ A troubleshooting guide for the Elements Store.
 
 <summary>The operation couldn't be completed. (Amplify.APlError error 5.)</summary>
 
-This error is often caused by an issue with your network connection.
+This error is often caused by an issue with your network connection. Sometimes just restarting Elements and re-opening the store will resolve the issue.
 
 It’s worth checking whether you have anything installed that filters or blocks traffic, tools like Little Snitch, Radio Silence, or certain antivirus packages can quietly block app requests and cause odd behaviour like this.
 
@@ -48,6 +48,8 @@ If you’re running any of those, try temporarily disabling them or adding Eleme
 * .amazonaws.com
 * .amplifyapp.com
 * .elementsapp.cloud
+
+If you've experienced a network interruption, or are still having issues connecting to the store, please restart Elements and try again.
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-11-15 at 10.02.42@2x (1).png" alt=""><figcaption></figcaption></figure>
 
