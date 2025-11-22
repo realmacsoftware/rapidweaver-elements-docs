@@ -95,6 +95,7 @@
 * [Reveal](components/reveal.md)
 * [Image Slider](components/image-slider.md)
 * [SVG](components/svg.md)
+* [Tree](components/tree.md)
 * [Text](components/text.md)
 * [Top Pages](components/top-pages.md)
 * [Typography](components/typography.md)
