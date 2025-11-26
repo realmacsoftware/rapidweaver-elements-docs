@@ -15,8 +15,7 @@ When building your site, we recommend sticking to the core theme colours: **Bran
 * Global control: Update your colour palette in the Theme Studio once, and the changes flow throughout your entire site. You don’t need to hunt down individual elements to update their styles.
 * Consistency: Components, layouts, and templates are all built with these theme colours in mind. That means your site will look balanced and professional without you needing to fine-tune every detail.
 * Flexibility: If you decide to refresh your design later, simply adjust your theme colours. The update will apply instantly, making it quick to rebrand or experiment with new looks.
-* Compatibility: When you add new templates or components, they’ll automatically inherit your theme colours, so everything feels cohesive from the start.\
-
+* Compatibility: When you add new templates or components, they’ll automatically inherit your theme colours, so everything feels cohesive from the start.<br>
 
 For best results, avoid using custom colours. Instead, use **Brand**, **Accent**, **Surface**, and **Text** where possible. This way, your design remains easy to manage, flexible to update, and consistent across the entire project.
 

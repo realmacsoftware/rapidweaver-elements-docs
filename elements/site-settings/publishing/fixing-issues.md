@@ -15,8 +15,7 @@ We recommend entering your details into a third-party client to verify they work
 \
 If you're still having issues logging into your server with a third-party client it means your login credentials are incorrect. Please contact your hosting company to verify your details.\
 \
-If you successfully log in to your server with a third-party client, you can then export your site to a local folder with RapidWeaver, and then upload it directly using an FTP client as a temporary workaround.\
-
+If you successfully log in to your server with a third-party client, you can then export your site to a local folder with RapidWeaver, and then upload it directly using an FTP client as a temporary workaround.<br>
 {% endhint %}
 
 ### Check your Credentials

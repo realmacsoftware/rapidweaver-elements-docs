@@ -89,4 +89,4 @@ The design system in Elements allows the app, third-party developers, and end us
 * [Tailwind CSS: Utility-First Fundamentals](https://tailwindcss.com/docs/utility-first)
 * [Tailwind UI](https://tailwindui.com)
 * [Why Tailwind is the Future of CSS Frameworks: A Comparison with Bootstrap](https://b-benjithomas.medium.com/why-tailwind-is-the-future-of-css-frameworks-a-comparison-with-bootstrap-aabe9a9c2166)
-* [Why Is TailWind CSS So Great?](https://medium.com/codex/why-is-tailwind-css-so-great-20c407108ae1)\
+* [Why Is TailWind CSS So Great?](https://medium.com/codex/why-is-tailwind-css-so-great-20c407108ae1)<br>

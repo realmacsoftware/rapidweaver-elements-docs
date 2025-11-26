@@ -113,4 +113,4 @@ Elements will attempt to import content from the following stacks. Unknown stack
 * Quote > Text
 * Label > Text
 * Code > Text
-* Picture > Image\
+* Picture > Image<br>

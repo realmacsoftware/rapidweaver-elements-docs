@@ -54,6 +54,7 @@
   * [Accessibility](elements/advanced/accessibility.md)
   * [Analytics](elements/advanced/analytics.md)
   * [SEO](elements/advanced/seo.md)
+  * [favicon](elements/advanced/favicon.md)
   * [sitemap.xml](elements/advanced/sitemap.xml.md)
   * [.htaccess file](elements/advanced/.htaccess-file.md)
   * [Robots.txt](elements/advanced/robots.txt.md)
