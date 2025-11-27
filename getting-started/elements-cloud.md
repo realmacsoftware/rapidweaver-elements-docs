@@ -102,7 +102,13 @@ This is often due to an issue on the network, it could be down to an app or netw
 Elements Cloud service has encountered an error.
 ```
 
-It’s worth checking whether you have anything installed on your Mac that filters or blocks traffic, tools like Little Snitch, Radio Silence, or certain antivirus packages can quietly block app requests and cause odd behaviour like this.
+It’s worth checking whether you have anything installed on your Mac that filters or blocks traffic, tools like **Little Snitch**, **NetBarrier**, **Radio Silence**, or certain antivirus packages can quietly block app requests and cause odd behavior like this.
+
+{% hint style="danger" %}
+**NetBarrier** constantly monitors network activity whether the application is running or not, which means its network extension can persist even when the main app is disabled.
+
+**Ensure the NetBarrier network extension is fully disabled,** before trying again.
+{% endhint %}
 
 If you’re running any of those, try temporarily disabling them or adding Elements to the allow list. If possible connect to another network and try to log-in again.
 
