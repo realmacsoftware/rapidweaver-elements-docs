@@ -93,3 +93,6 @@ This Agreement constitutes the entire understanding between Realmac Software and
 RapidWeaver Elements may provide access to third-party add-ons, templates, or components. These are developed and sold by independent creators. Realmac Software is not responsible for the content, functionality, or security of third-party add-ons. All purchases are processed through FastSpring and subject to the relevant seller’s own terms where applicable.
 
 By subscribing to RapidWeaver Elements, Subscriber indicates their understanding and acceptance of these Terms and agrees to be bound by them. It is recommended to review these Terms periodically for any updates or changes.
+
+**22. Dev Pack Restriction**\
+Subscribers and third-party creators are not permitted to sell or otherwise monetise Dev Packs. These dev packs are provided solely for building, testing, and developing add-ons or templates for the Elements ecosystem and must not be packaged, resold, or included as part of any commercial product. Dev Components need to be compiled and distributed via the Elements Platform Store, they can then be sold directly to Element Users. Any attempt to sell unencrypted Dev Components will result in termination of the subscribers license.
