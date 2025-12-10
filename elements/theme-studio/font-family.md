@@ -19,7 +19,11 @@ Learn more about what fonts are supported by popular operating systems on the fo
 
 Elements includes a built-in Font Manager that lets you add your own local web fonts. It supports common formats like .woff, .woff2, and .ttf, making it easy to use custom typography in your designs.
 
-For best browser support and performance, custom fonts should be provided in WOFF2 format. **WOFF** (the **Web Open Font Format**) is a web font format developed by Mozilla, Type Supply, LettError, and other organizations.
+For best browser support and performance, custom fonts should be provided in WOFF2 format. **WOFF** (the **Web Open Font Format**) is a web font format developed by Mozilla, Type Supply, LettError, and other organisations.
+
+Watch the video below to learn more about adding custom fonts to your website:
+
+{% embed url="https://youtu.be/KdEVDwbr4JU" %}
 
 #### Recommended formats (in order of preference):
 
