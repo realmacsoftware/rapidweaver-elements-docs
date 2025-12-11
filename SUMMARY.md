@@ -78,6 +78,7 @@
 * [Background](components/background.md)
 * [Before After (Paid)](components/before-after-paid.md)
 * [Button](components/button.md)
+* [Card Flip (Paid)](components/card-flip-paid.md)
 * [CMS](components/cms.md)
 * [Container](components/container.md)
 * [Divider](components/divider.md)
