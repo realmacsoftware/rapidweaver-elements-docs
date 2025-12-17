@@ -15,6 +15,8 @@ The Inspector is context-aware, meaning the options change depending on which co
 
 When you change any value within a group, the group title highlights using the system accent colour. This makes it easy to spot which settings have been modified on a component at a glance.
 
+You can reset an individual control by right-clicking it and choosing **Reset to Default**.
+
 To reset everything in a group back to its defaults, right-click the group heading and choose **Reset Group to Defaults**.
 
 ### Inspector Group Modes
