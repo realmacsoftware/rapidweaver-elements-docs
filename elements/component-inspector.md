@@ -11,14 +11,20 @@ The Inspector is context-aware, meaning the options change depending on which co
 
 {% embed url="https://youtu.be/e3SSIyd9H8U" %}
 
-### Inspector Modes
+### Group Defaults
+
+When you change any value within a group, the group title highlights using the system accent colour. This makes it easy to spot which settings have been modified on a component at a glance.
+
+To reset everything in a group back to its defaults, right-click the group heading and choose **Reset Group to Defaults**.
+
+### Inspector Group Modes
 
 To change the display modes in the Component Inspector, right-click on a heading and choose from the following options:
 
-* Expand All - Will expand all settings.
-* Collapse All - Will collapse all open settings.
-* Single Group Mode - Switching to the single group mode only allows one setting area to be open at a time.
+* **Expand All** - Will expand all settings.
+* **Collapse All** - Will collapse all open settings.
+* **Single Group Mode** - Switching to the single group mode only allows one setting area to be open at a time.
 
 When in Single Group mode the only option available in the right-click menu is switch back to default mode:
 
-* Single Group Mode (ticked) - Untick to switch back to the default mode, this will then allow you to view multiple setting at the same time again.
+* **Single Group Mode** (ticked) - Untick to switch back to the default mode, this will then allow you to view multiple setting at the same time again.
