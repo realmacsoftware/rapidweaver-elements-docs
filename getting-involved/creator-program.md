@@ -95,4 +95,4 @@ This isn’t a one-off campaign. Over time we’ll:
 
 If that sounds like your kind of thing, we’d love to hear from you.
 
-<a href="mailto:dan@realmacsoftware.com" class="button primary" data-icon="envelope-open-text">Contact Us to Get Started</a>
+<a href="mailto:dan@realmacsoftware.com" class="button primary" data-icon="envelope-open-text">Email Us to Join Creator Program</a>
