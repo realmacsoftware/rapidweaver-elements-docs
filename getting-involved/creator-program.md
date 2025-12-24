@@ -1,13 +1,11 @@
 ---
-description: How We’re Working With YouTube Creators and Bloggers to Share Elements
+description: A Program for YouTube Creators and Bloggers
 icon: star
 ---
 
 # Creator Program
 
-One of the things we care deeply about with Elements is how it’s talked about. Just clearly and honestly, by people who actually build websites.
-
-So instead of chasing influencers or running paid promotions, we’re doing something simpler and far more sustainable.
+One of the things we care deeply about with Elements is how it’s talked about. We're after clear and honest coverage from people who actually build websites.
 
 We’re inviting YouTube creators and bloggers to spend real time with Elements, create thoughtful coverage, and share it with your audience. In return, you'll get a year of Elements Pro valued at $250, and $100 per video/post, with an opportunity for a lifetime license.
 
