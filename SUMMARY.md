@@ -13,6 +13,11 @@
 * [Importing Projects](getting-started/importing-projects.md)
 * [Support Guide](getting-started/troubleshooting.md)
 
+## Getting Involved
+
+* [Creator Program](getting-involved/creator-program.md)
+* [Building Extensions](getting-involved/building-extensions.md)
+
 ## Elements
 
 * [Editor](elements/editor/README.md)
