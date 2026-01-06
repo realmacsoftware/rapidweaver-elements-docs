@@ -7,6 +7,8 @@ icon: image-landscape
 
 Elements makes adding favicons and web icons straightforward. Simply drop a PNG or JPG image into the iPhone Retina, iPad Retina, or iPad drop zone and Elements will automatically generate a favicon.ico file in the root of your website. There’s no need to create this file manually or worry about image sizes.
 
+{% embed url="https://youtu.be/eqdnF-w8KBQ" %}
+
 Once your icons are added, Elements automatically generates all the required header code for your site. This ensures each icon is correctly referenced and displayed across supported browsers and platforms, without any additional setup.
 
 Here's an example of the code Elements will add to the header of your website:
@@ -22,26 +24,6 @@ Here's an example of the code Elements will add to the header of your website:
 {% endcode %}
 
 This approach keeps your project tidy while making sure your website looks polished when bookmarked, pinned, or added to a home screen.
-
-#### Supported favicon formats
-
-Elements currently supports the following favicon and web icon types:
-
-*   **iPhone Retina (JPG or PNG)**
-
-    Used when a site is saved to the Home Screen on iPhones with Retina displays.
-*   **iPad Retina (JPG or PNG)**
-
-    Optimised for iPads with Retina displays.
-*   **iPad (JPG or PNG)**
-
-    Used on older or non-Retina iPad models.
-*   **Safari Pinned Tab (SVG)**
-
-    An SVG icon used for pinned tabs in Safari, with support for a custom colour.
-*   **Classic Favicon (JPG or PNG)**
-
-    Automatically generated in 48×48, 32×32, and 16×16 sizes for broad browser compatibility, exported as favicon.ico to the root of the website.
 
 ### Adding Favicons
 
@@ -65,6 +47,60 @@ Once an image is added, Elements automatically processes it, generates any requi
 You can replace or update icons at any time by dropping in a new image. Elements will regenerate the necessary assets the next time your site is published, keeping everything in sync.
 
 This setup ensures your site displays the correct icon across browsers, devices, and platforms with minimal effort.
+
+#### Supported favicon formats
+
+Elements currently supports the following favicon and web icon types:
+
+*   **iPhone Retina (JPG or PNG)**
+
+    Used when a site is saved to the Home Screen on iPhones with Retina displays.
+*   **iPad Retina (JPG or PNG)**
+
+    Optimised for iPads with Retina displays.
+*   **iPad (JPG or PNG)**
+
+    Used on older or non-Retina iPad models.
+*   **Safari Pinned Tab (SVG)**
+
+    An SVG icon used for pinned tabs in Safari, with support for a custom colour.
+*   **Classic Favicon (JPG or PNG)**
+
+    Automatically generated in 48×48, 32×32, and 16×16 sizes for broad browser compatibility, exported as favicon.ico to the root of the website.
+
+### Favicon Design guidelines
+
+Keep the following tips in mind when designing favicons and web icons:
+
+*   **Keep it simple**
+
+    Favicons are displayed at very small sizes. Simple shapes and bold forms work best.
+*   **Use a solid background for iOS icons**
+
+    Although PNG transparency is supported, iOS applies its own background when icons appear on the Home Screen. Designing with a solid background gives more predictable results.
+*   **Avoid fine detail**
+
+    Small text, thin lines, and subtle gradients often disappear at smaller sizes.
+*   **Leave some padding**
+
+    Icons may be masked or rounded by the system. Keeping key details away from the edges prevents clipping.
+*   **Safari Pinned Tabs should be single-colour**
+
+    Safari applies the colour you set in Elements. Design your SVG as a solid shape without embedded colours or gradients.
+
+#### Favicon Transparency support
+
+iPad and iPhone web icons technically support PNG transparency, but iOS applies its own background styling when icons are displayed on the Home Screen.
+
+What this means in practice:
+
+* Transparent PNGs are allowed
+* iOS will fill transparent areas with a system background
+* Fully transparent icons are not preserved as transparent on the Home Screen
+
+For best results, design iPhone and iPad icons on a solid background.
+
+Safari Pinned Tabs behave differently. These use an SVG and fully respect transparency, with colour applied by Safari using the value set in Elements.
 
 ### Further Reading
 
