@@ -1,6 +1,6 @@
 ---
 description: Automatic favicon generation
-icon: image-landscape
+icon: circle-heart
 ---
 
 # Web Icons
