@@ -2,17 +2,19 @@
 description: Learn more about switching from Blocs to Elements
 ---
 
-# Migrating from Blocs
+# RapidWeaver Elements vs Blocs
 
-Elements is a fantastic alternative to Blocs because it offers an incredibly flexible and intuitive design experience, especially for users who want to harness the power of Tailwind CSS.&#x20;
+[RapidWeaver Elements](https://realmacsoftware.com/rapidweaver/) is a fantastic alternative to [Blocs](https://blocsapp.com/) because it offers an incredibly flexible and intuitive design experience, especially for users who want to harness the power of Tailwind CSS.&#x20;
 
-With its modular approach and extensive customization options, Elements allows you to craft stunning, responsive websites with ease, while giving you precise control over every design detail. Plus, the supportive community and frequent updates ensure you’re always equipped with the latest web design features and trends.
+With its modular approach and extensive customisation options, Elements allows you to craft stunning, responsive websites with ease, while giving you precise control over every design detail. Plus, the supportive community and frequent updates ensure you’re always equipped with the latest web design features and trends.
 
-### Testimonials from Blocs users switching to Elements
+### Testimonial from Blocs User moving to Elements
 
-> I could’ve stayed with Classic, but being forced into the terrible UI/UX from Stacks to create a website… no way. And even more so if you switch back from Elements (or blocs, where I now come from) to RW classic and stacks. I can’t imagine that for the life of it.
+> I have bought Sandvox, Dreamweaver, **Blocs** 4, Sparkle (now Spritely), Rapid Weaver Classic (with Stacks and Foundry 2). I didn’t like ANY of them. All I wanted to do was easily redo my existing website using a recent and modern piece of software so that I could easily maintain and update it. I was not able to easily (or at all) do that with ANY of them. Until Elements…
 >
-> Give it a try. You won’t be disappointed, and the forums and especially the developers offer a ton of help if you get stuck. — [Fynn via the Forums](https://forums.realmacsoftware.com/t/dev-diary-85-we-hit-1-000-subscribers-whats-next/47893/3).
+> I **like** Elements. I like working in Elements. I joined the beta almost exactly one year ago and have seen the massive improvements to it during that time period.
+>
+> I can build stuff with Elements and enjoy it at the same time. That is why I am using Elements, and hope to use it for many years!!
 
 ### Tips from Ex-Blocs Users
 
@@ -22,7 +24,7 @@ With its modular approach and extensive customization options, Elements allows y
 
 ## How to Switch from Blocs to Elements
 
-Migrating from Blocs to Elements is a fantastic move if you’re looking for a modern, flexible, and genuinely fun web design experience. Elements was built from the ground up for rapid, future-proof site building—with a fully WYSIWYG editor and the power of Tailwind CSS at your fingertips.
+Migrating from Blocs to Elements is a fantastic move if you’re looking for a modern, flexible, and genuinely fun web design experience. Elements was built from the ground up for rapid, future-proof site building with a fully WYSIWYG editor and the power of Tailwind CSS at your fingertips.
 
 Here’s a detailed, step-by-step guide to help you make the switch:
 

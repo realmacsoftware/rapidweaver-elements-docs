@@ -1,8 +1,8 @@
 ---
-description: Learn more about switching from Stacks to Elements
+description: Learn more about switching from difference between Stacks and Elements
 ---
 
-# Migrating from Stacks
+# RapidWeaver Elements vs Stacks
 
 Elements is an excellent alternative to Stacks from YourHead Software because it simplifies the web design process while giving you powerful, modern tools to create beautiful, responsive websites. Unlike Stacks, which relies on a collection of costly third-party addons to extend functionality, Elements is built from the ground up with a streamlined, all-in-one approach.
 

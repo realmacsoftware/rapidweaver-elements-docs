@@ -10,7 +10,12 @@
 * [Quickstart](getting-started/quickstart.md)
 * [Core Concepts](getting-started/design-system.md)
 * [Elements Cloud](getting-started/elements-cloud.md)
-* [Importing Projects](getting-started/importing-projects.md)
+* [Comparisons](getting-started/migrations/README.md)
+  * [RapidWeaver Elements vs Blocs](getting-started/migrations/migrating-from-blocs.md)
+  * [RapidWeaver Elements vs Stacks](getting-started/migrations/migrating-from-stacks.md)
+  * [Elements vs Classic](getting-started/migrations/migrating-from-classic/README.md)
+    * [Import Classic Projects](getting-started/migrations/migrating-from-classic/import-classic-projects.md)
+  * [RapidWeaver Elements vs Wordpress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
 * [Support Guide](getting-started/troubleshooting.md)
 
 ## Getting Involved
@@ -110,11 +115,6 @@
 
 ## Elements App
 
-* [Migrations](elements-app/migrations/README.md)
-  * [Blocs Compared to Elements](elements-app/migrations/migrating-from-blocs.md)
-  * [Migrating from Classic](elements-app/migrations/migrating-from-classic.md)
-  * [Migrating from Stacks](elements-app/migrations/migrating-from-stacks.md)
-  * [Migrating from Wordpress](elements-app/migrations/migrating-from-wordpress.md)
 * [How to](elements-app/how-to/README.md)
   * [Fix Common Design Issues](elements-app/how-to/fix-common-design-issues.md)
   * [Add an Icon Inside a Button](elements-app/how-to/add-an-icon-inside-a-button.md)
