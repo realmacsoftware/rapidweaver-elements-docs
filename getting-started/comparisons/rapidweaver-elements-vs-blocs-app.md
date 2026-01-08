@@ -1,12 +1,48 @@
 ---
-description: Learn more about switching from Blocs to Elements
+description: >-
+  A practical comparison for choosing the right Mac-native visual website
+  builder.
 ---
 
 # RapidWeaver Elements vs Blocs
 
-[RapidWeaver Elements](https://realmacsoftware.com/rapidweaver/) is a fantastic alternative to [Blocs](https://blocsapp.com/) because it offers an incredibly flexible and intuitive design experience, especially for users who want to harness the power of Tailwind CSS.&#x20;
+Both [RapidWeaver Elements](https://realmacsoftware.com/rapidweaver/) and [Blocs](https://blocsapp.com/) are Mac-native visual website builders that export real website files. They share a similar goal, but they’re built on different foundations and tend to suit different workflows.
 
-With its modular approach and extensive customisation options, Elements allows you to craft stunning, responsive websites with ease, while giving you precise control over every design detail. Plus, the supportive community and frequent updates ensure you’re always equipped with the latest web design features and trends.
+This comparison focuses on the day-to-day differences that matter when you’re building, maintaining, and scaling websites over time.
+
+#### Quick take
+
+**Choose RapidWeaver Elements if you want:**
+
+* A modern workflow with a built-in design system (Theme Studio).
+* A Node Browser to manage complex page structures cleanly.
+* A built-in Markdown CMS for blogs and content-driven sites.
+* Modern publishing targets (including Amazon S3), plus classic FTP/SFTP.
+* An extensible platform with Custom Components and a Developer API.
+
+**Choose Blocs if you want:**
+
+* A Bootstrap-based workflow and the CSS Class Editor for visual class management.
+* Custom interactions and WordPress theme building (Blocs Plus).
+
+### Why people switch to RapidWeaver Elements (including former Blocs users)
+
+Common themes from people who move to Elements:
+
+* **A simpler workflow for building and maintaining sites:** especially compared to setups that required lots of add-ons or became complex over time.
+* **Clearer structure management via the Node Browser:** which helps a lot on larger pages.
+* **More consistent styling using Tailwind** plus a built-in theming system, reducing the need to manage lots of custom classes.
+* **Content workflows without a heavy CMS:** Markdown files plus a built-in CMS are a good fit for blogs, portfolios, directories, and “update often” sites.
+* **Modern publishing options:** including static hosting targets, with fewer steps between “done” and “live”.
+* **An active roadmap:** frequent releases and responsive community support.
+
+#### Where Blocs might be a better fit
+
+Blocs is a strong choice when you specifically want:
+
+* **Bootstrap-first layout:** especially if you already think in Bootstrap’s grid and patterns.
+* **The Class Editor workflow for quick:** visual class-based styling and layout tweaks.
+* **WordPress theme export:** (Blocs Plus) as part of your delivery workflow.
 
 ### Testimonial from Blocs User moving to Elements
 
