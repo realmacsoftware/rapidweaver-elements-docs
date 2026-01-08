@@ -6,9 +6,13 @@ description: Moving from Wordpress to Elements
 
 While WordPress is a popular option for building websites, Elements offers a faster, cleaner, and more focused experience, especially if you care about design quality, performance, and control.
 
+### Forum Threads
+
+* [Elements vs Wordpress discussion thread](https://forums.realmacsoftware.com/t/elements-vs-wordpress-creating-a-blog/53532)
+
 ### Why switch to Elements?
 
-Here's just somne of the high-level reasons moving your Wordpress site to Elements is a smart move.
+Here's a high-level overview of why moving your Wordpress site to Elements is a smart move.
 
 #### ⚡ Blazing-Fast Performance
 
