@@ -2,7 +2,7 @@
 description: Learn more about switching from Classic to Elements
 ---
 
-# Migrating from Classic
+# Elements vs Classic
 
 Migrating from RapidWeaver Classic to RapidWeaver Elements is a fantastic move if you’re looking to modernise your web design workflow and unlock new creative possibilities.
 

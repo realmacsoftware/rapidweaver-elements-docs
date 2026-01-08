@@ -10,12 +10,12 @@
 * [Quickstart](getting-started/quickstart.md)
 * [Core Concepts](getting-started/design-system.md)
 * [Elements Cloud](getting-started/elements-cloud.md)
-* [Comparisons](getting-started/comparisons/README.md)
-  * [RapidWeaver Elements vs Blocs](getting-started/comparisons/migrating-from-blocs.md)
-  * [RapidWeaver Elements vs Stacks](getting-started/comparisons/migrating-from-stacks.md)
-  * [Elements vs Classic](getting-started/comparisons/migrating-from-classic/README.md)
-    * [Import Classic Projects](getting-started/comparisons/migrating-from-classic/import-classic-projects.md)
-  * [RapidWeaver Elements vs Wordpress](getting-started/comparisons/rapidweaver-elements-vs-wordpress.md)
+* [Comparisons](getting-started/migrations/README.md)
+  * [RapidWeaver Elements vs Blocs](getting-started/comparisons/rapidweaver-elements-vs-blocs-app.md)
+  * [RapidWeaver Elements vs Stacks](getting-started/comparisons/rapidweaver-elements-vs-stacks.md)
+  * [Elements vs Classic](getting-started/comparisons/rapidweaver-elements-vs-classic/README.md)
+    * [Import Classic Projects](getting-started/comparisons/rapidweaver-elements-vs-classic/import-classic-projects.md)
+  * [RapidWeaver Elements vs Wordpress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
 * [Support Guide](getting-started/troubleshooting.md)
 
 ## Getting Involved

@@ -13,16 +13,16 @@ From familiar layout patterns to modern web standards, you’ll find smarter, cl
 
 Let’s get started.
 
-{% content-ref url="migrating-from-blocs.md" %}
-[migrating-from-blocs.md](migrating-from-blocs.md)
+{% content-ref url="../comparisons/rapidweaver-elements-vs-blocs-app.md" %}
+[rapidweaver-elements-vs-blocs-app.md](../comparisons/rapidweaver-elements-vs-blocs-app.md)
 {% endcontent-ref %}
 
-{% content-ref url="migrating-from-classic/" %}
-[migrating-from-classic](migrating-from-classic/)
+{% content-ref url="../comparisons/rapidweaver-elements-vs-classic/" %}
+[rapidweaver-elements-vs-classic](../comparisons/rapidweaver-elements-vs-classic/)
 {% endcontent-ref %}
 
-{% content-ref url="migrating-from-stacks.md" %}
-[migrating-from-stacks.md](migrating-from-stacks.md)
+{% content-ref url="../comparisons/rapidweaver-elements-vs-stacks.md" %}
+[rapidweaver-elements-vs-stacks.md](../comparisons/rapidweaver-elements-vs-stacks.md)
 {% endcontent-ref %}
 
 {% content-ref url="rapidweaver-elements-vs-wordpress.md" %}
