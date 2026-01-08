@@ -111,7 +111,7 @@
 ## Elements App
 
 * [Migrations](elements-app/migrations/README.md)
-  * [Migrating from Blocs](elements-app/migrations/migrating-from-blocs.md)
+  * [Blocs Compared to Elements](elements-app/migrations/migrating-from-blocs.md)
   * [Migrating from Classic](elements-app/migrations/migrating-from-classic.md)
   * [Migrating from Stacks](elements-app/migrations/migrating-from-stacks.md)
   * [Migrating from Wordpress](elements-app/migrations/migrating-from-wordpress.md)
