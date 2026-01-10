@@ -85,6 +85,7 @@ All of the following icon libraries work well Elements, if you require them to b
 * [https://svgl.app](https://svgl.app), a beautiful library of company SVG logos.
 * [https://heroicons.com](https://heroicons.com/outline), hand-crafted SVG icons, by the makers of Tailwind CSS (you'll need to copy and paste the code into a file and save it with a .svg extension before adding to Elements).
 * [Google Material Symbol Icons](https://fonts.google.com/icons).
+* [Logoipsum](https://logoipsum.com/), a collection of svg placeholder logos.
 
 ### Further Reading
 
