@@ -101,6 +101,7 @@
 * [Grid](components/grid.md)
 * [Image](components/image.md)
 * [Map (Free)](components/map-free.md)
+* [Markdown](components/markdown.md)
 * [Menu](components/navigation-standard.md)
 * [Modal](components/modal.md)
 * [Password Protect (Paid)](components/password-protect-paid.md)
