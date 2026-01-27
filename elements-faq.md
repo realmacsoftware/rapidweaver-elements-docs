@@ -1,6 +1,6 @@
 ---
 description: Frequently Asked RapidWeaver Elements Questions
-icon: message-question
+icon: circle-question
 ---
 
 # FAQ
