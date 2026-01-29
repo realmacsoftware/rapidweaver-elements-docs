@@ -73,7 +73,7 @@ This is another paragraph.
 ![Alt text](/photos/image-name.jpg)
 ```
 
-Images should reference files already added to your Elements project.
+You can automatically insert image paths into your Markdown by dragging and dropping the image from the resources window into the Markdown Editor. Elements will workout the correct path and ensure it displays correctly in the Editor and when Published.
 
 **Blockquotes**
 
