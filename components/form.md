@@ -6,13 +6,17 @@ description: Send form data via email or webhooks
 
 The Form Component is a flexible and powerful solution for sending form submissions either to your own email server or via a webhook.
 
+{% hint style="danger" %}
+The Form Component **requires PHP 8.4** to be installed on your server.
+{% endhint %}
+
 ### Recommendation
 
 We recommend using a Webhook to handle email delivery or data collection. It’s significantly more reliable and easier to set up than configuring SMTP manually, which can often lead to issues with authentication, server compatability, spam filters, or SSL mismatches.
 
 ### Server Requirements
 
-The Form Component in Elements **requires PHP 8.2 or newer**. You can run the built-in [PHP Server check](form.md#php-server-check) to ensure your server meets this requirement.
+The Form Component in Elements **requires PHP 8.4 or newer**. You can run the built-in [PHP Server check](form.md#php-server-check) to ensure your server meets this requirement.
 
 Behind the scenes the Elements Form uses the very popular and robust [PHPMailer framework](https://github.com/PHPMailer/PHPMailer).
 
@@ -25,7 +29,7 @@ Because every server is different, we cannot guarantee the form will work. If yo
 Before going live with your form, make sure you’ve covered the following essentials. These common issues can prevent form submissions from working correctly, so it’s worth double-checking everything below:
 
 * [ ] **Forms must be published to a live server.** They won’t function when previewed locally.
-* [ ] **Your web server must be running PHP 8.2 or newer.** We recommend PHP 8.4 or later where possible. Ensure you have run the built-in [PHP Server check](form.md#php-server-check).
+* [ ] **Your web server must be running PHP 8.4 or newer.** Ensure you have run the built-in [PHP Server check](form.md#php-server-check).
 * [ ] **Make sure your SMTP Settings Match Your Domain**. It’s important that your SMTP settings match your domain configuration.
 * [ ] **Sending multiple attachments?** Be sure to enable the “**multiple**” toggle in the Attachment Component settings.
 * [ ] **Using the reply-to feature?** The field name for your email input must be exactly email (all lowercase) for Elements to set the reply-to address properly.
