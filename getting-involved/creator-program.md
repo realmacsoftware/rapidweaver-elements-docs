@@ -23,8 +23,8 @@ The people we want talking about Elements are the ones who:
 
 Creators accepted into the program receive:
 
-* **One full year of Elements Pro with $249 (USD)**
-* $100 per video and blog articles (up to $500 in total).
+* **One full year of Elements Pro worth $249 (USD)**
+* $100 per video or blog article (up to $500 in total).
 * Promotion of your content through Elements channels
 
 If your video and articles are of a high-quality, and you plan to cover Elements again or on an ongoing basis, we will award lifetime licenses.
