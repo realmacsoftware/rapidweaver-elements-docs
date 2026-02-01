@@ -21,7 +21,7 @@
 ## Getting Involved
 
 * [Creator Program](getting-involved/creator-program.md)
-* [Building Extensions](getting-involved/building-extensions.md)
+* [Building Addons](getting-involved/building-extensions.md)
 
 ## Elements
 
