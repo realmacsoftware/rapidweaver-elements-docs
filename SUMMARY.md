@@ -92,6 +92,7 @@
 * [Card Flip (Paid)](components/card-flip-paid.md)
 * [CMS](components/cms.md)
 * [Container](components/container.md)
+* [Content Slider](components/content-slider.md)
 * [Divider](components/divider.md)
 * [Dropdown](components/dropdown.md)
 * [Flex](components/flex.md)
