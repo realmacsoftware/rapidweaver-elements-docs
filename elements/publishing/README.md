@@ -22,9 +22,7 @@ Depending on who your hosting provider is, you may need to tweak a few options i
 
 Most importantly, you’ll need to remember that the details you enter into Elements are supplied by your hosting provider, not Realmac Software. Many hosting providers will require you to use publishing details that differ from any details you may use to access their control panel in a web browser. While this may be frustrating, it’s designed to keep your private information safe. If you are at all unsure about what to enter into Elements, drop your hosting provider an email, and they’ll be able to advise you.
 
-#### Elements Website Hosting
-
-We also run a dedicated hosting service built specifically for Elements websites. No unnecessary complexity. Just fast, reliable hosting that works flawlessly and gets out of your way. [Learn more about Element Hosting](https://docs.realmacsoftware.com/elements-docs/hosting).
+{% include "../../.gitbook/includes/elements-website-hosting.md" %}
 
 ## How to fix Publishing Issues
 

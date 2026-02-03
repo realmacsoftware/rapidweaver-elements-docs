@@ -37,3 +37,4 @@ In general, we'd recommend:
 * **Optimizing videos** for the web using formats like MP4 (H.264) and reducing resolution/bitrate where possible.
 * **Hosting larger files externally** (videos, audio, PDFs, etc.) and linking to them using URLs. That keeps your project lightweight and more manageable in the long run.
 
+{% include "../.gitbook/includes/elements-website-hosting.md" %}
