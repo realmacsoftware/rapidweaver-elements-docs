@@ -7,7 +7,8 @@
 
 * [Download](getting-started/download.md)
 * [License](getting-started/license-types.md)
-* [Quickstart](getting-started/quickstart.md)
+* [Quickstart](getting-started/quickstart/README.md)
+  * [Common Design Questions](getting-started/quickstart/fix-common-design-issues.md)
 * [Core Concepts](getting-started/design-system.md)
 * [Elements Cloud](getting-started/elements-cloud.md)
 * [Comparisons](getting-started/migrations/README.md)
@@ -119,7 +120,6 @@
 ## Elements App
 
 * [How to](elements-app/how-to/README.md)
-  * [Fix Common Design Issues](elements-app/how-to/fix-common-design-issues.md)
   * [Add an Icon Inside a Button](elements-app/how-to/add-an-icon-inside-a-button.md)
   * [Adjust Smooth Scroll Speed](elements-app/how-to/adjust-smooth-scroll-speed.md)
   * [Apply Anchor Scroll Padding](elements-app/how-to/apply-anchor-scroll-padding.md)

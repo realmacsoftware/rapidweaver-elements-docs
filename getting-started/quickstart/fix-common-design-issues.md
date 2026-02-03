@@ -1,20 +1,12 @@
-# Fix Common Design Issues
+# Common Design Questions
 
-This article aims to cover all the common design related questions for newer users int he Elements ecosystem.
-
-### How to ensure page content appears under a "sticky" menu or component
-
-Select your menu component and set the z-index to 31.
+This article aims to cover all the common design related questions for newer users in the Elements ecosystem.
 
 ### How to center an image
 
 To change the alignment of the built-in Components, use the Margin setting under the [Spacing Control](../../components/common-controls/spacing.md). Watch the video below to learn more about setting the alignment of an object, including how to center an object.
 
 {% embed url="https://youtu.be/spmpYAMEr-U" %}
-
-### How to hide the mobile Menu in edit mode
-
-Menu Component > Mobile & Sub Menus > Preview (toggle)
 
 ### How to change how things look on mobile? (Responsive Design)
 
@@ -25,6 +17,18 @@ On the first “mobile” screen size you do not have any blue dots. As you move
 Watch the video below to see how this works in practice.
 
 {% embed url="https://youtu.be/gnlaK4LrhRY" %}
+
+### How to add HTML Code Snippets
+
+You can use a [Custom Component](../../elements/components/custom-components.md) to add html code snippet anywhere on your website or page.
+
+{% embed url="https://www.youtube.com/watch?v=rHDCpYrg-j4&feature=youtu.be" %}
+
+### How to add Google Analytics
+
+If you’d like to track traffic or integrate services like Google Analytics or Google Tag Manager, you’ll need to add their code snippets to your project. Where you add the code depends on whether you want it to apply to all pages or just one. You can [learn more in the Analytics section](../../elements/advanced/analytics.md) of this manual.
+
+{% embed url="https://www.youtube.com/watch?v=sfzIONiv2zY&feature=youtu.be" %}
 
 ### How to hide components at different breakpoints
 

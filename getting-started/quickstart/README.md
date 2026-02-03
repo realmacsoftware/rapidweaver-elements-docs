@@ -25,7 +25,7 @@ Think of this video as a quick tour to help you get comfortable with the basics.
 
 Elements has a large selection of free ready-made projects to choose from that are perfect for getting your website up and running quickly. Whether you want to launch something fast or learn by exploring how others have built their pages, these Projects are a great way to dive in and get inspired.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-09-17 at 2 .50.18@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-09-17 at 2 .50.18@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Optimize Media before import into Elements
 
