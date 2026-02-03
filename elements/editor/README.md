@@ -78,6 +78,6 @@ You can learn more about how responsive design works in Elements on the [Breakpo
 
 If you’re just getting started, these pages pair well with the Editor:
 
-* [Quickstart](../../getting-started/quickstart/) – build your first site in a few minutes.
+* [Quickstart](../../getting-started/quickstart.md) – build your first site in a few minutes.
 * [Core Concepts](../../getting-started/design-system.md) – understand Projects, Themes, Components, Templates, and Globals.
 * [Workspaces](../workspaces.md) – customise the layout of the Elements interface to match how you like to work.
