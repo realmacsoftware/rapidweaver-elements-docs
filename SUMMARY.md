@@ -104,6 +104,7 @@
 * [Image](components/image.md)
 * [Map (Free)](components/map-free.md)
 * [Markdown](components/markdown.md)
+* [Marquee Pro (Paid)](components/marquee-pro-paid.md)
 * [Menu](components/navigation-standard.md)
 * [Modal](components/modal.md)
 * [Password Protect (Paid)](components/password-protect-paid.md)
