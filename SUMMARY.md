@@ -112,6 +112,7 @@
 * [Image Slider](components/image-slider.md)
 * [SVG](components/svg.md)
 * [Tabs](components/tabs.md)
+* [Table](components/table.md)
 * [Tree](components/tree.md)
 * [Text](components/text.md)
 * [Top Pages](components/top-pages.md)
