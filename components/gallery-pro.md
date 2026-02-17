@@ -4,7 +4,9 @@ description: A Professional-grade Gallery for Photographers and Creatives
 
 # Gallery Pro
 
-Gallery Pro is a powerful, professional-grade photo gallery component for Elements, built for photographers, designers, and creators who want their work to shine.&#x20;
+Gallery Pro is a powerful, professional-grade photo gallery component for Elements, built for photographers, designers, and creators who want their work to shine.
+
+{% embed url="https://youtu.be/qO-t9FZ5IQo" %}
 
 Effortlessly organise images into beautiful, responsive layouts, create sub-galleries for larger collections, and present your photos in an immersive slideshow experience. With support for EXIF data and flexible title, author, and caption displays, Gallery Pro keeps your images informative as well as stunning.
 
@@ -43,7 +45,7 @@ For batch resizing and compressing images we recommend [Squash for macOS](https:
 
 {% columns %}
 {% column width="50%" %}
-#### Media
+**Media**
 
 Drop a folder of images, videos, YouTube links, or Vimeo links into the dropzone to build your gallery.
 
@@ -57,15 +59,13 @@ You can **add YouTube or Vimeo videos** by dragging and dropping the URL from yo
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../.gitbook/assets/gallery-pro-media@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-### Layout
+#### Layout
 
 The Layout section controls how your images are arranged within the Gallery Pro component. Choose a layout mode, set the number of columns, and define the spacing between each thumbnail.
 
@@ -104,15 +104,13 @@ Set the spacing between gallery items.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/gallery-pro-layout@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-#### Thumbnails
+**Thumbnails**
 
 The Thumbnails section controls the appearance of image thumbnails within your gallery. You can adjust the aspect ratio, shape, shadow, and hover behaviour to suit your project's style.
 
@@ -161,15 +159,13 @@ Choose how thumbnails respond when a visitor hovers over them.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/gallery-pro-thumbnails@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-#### Thumbnail Meta Data
+**Thumbnail Meta Data**
 
 Control how metadata (captions, author names, and EXIF data) is displayed on your gallery thumbnails. You can show metadata below the image, as an overlay on top of it, or hide it entirely.
 
@@ -283,15 +279,13 @@ Choose which EXIF fields to display. Each can be individually toggled on or off:
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/gallery-pro-thumbnail-metadata@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-#### Lightbox
+**Lightbox**
 
 The Lightbox section controls the full-screen image viewing experience. When a visitor clicks a thumbnail, the lightbox opens with a range of controls, transitions, and behaviours that you can customise here.
 
@@ -399,15 +393,13 @@ Enable or disable the fullscreen button in the lightbox toolbar. When activated,
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/gallery-pro-lightbox@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-#### Lightbox Style
+**Lightbox Style**
 
 The Lightbox Style section lets you customise the colours of the lightbox interface elements to match your project's theme.
 
@@ -449,15 +441,13 @@ Style the previous/next navigation arrows displayed in the lightbox.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/gallery-pro-lightbox-style@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-#### Lightbox Thumbnails
+**Lightbox Thumbnails**
 
 The Lightbox Thumbnails section controls the thumbnail strip displayed at the bottom of the lightbox. This strip provides quick navigation between images.
 
@@ -504,15 +494,13 @@ Style the border around lightbox thumbnails.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/gallery-pro-lightbox-thumbnails@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-#### Lightbox Media
+**Lightbox Media**
 
 Fine-tune the appearance of images displayed inside the lightbox.
 
@@ -530,15 +518,13 @@ Apply a drop shadow around images in the lightbox to give them depth and contras
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/gallery-pro-lightbox-media@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-#### Lightbox Meta Data
+**Lightbox Meta Data**
 
 Control how metadata is displayed within the lightbox when viewing full-size images. This section mirrors many of the Thumbnail Meta Data options, allowing you to show different levels of detail in the lightbox.
 
@@ -621,15 +607,13 @@ Choose which EXIF fields to display in the lightbox. Each can be individually to
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/gallery-pro-lightbox-metadata@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-#### Videos
+**Videos**
 
 The Videos section controls the playback behaviour of video content within your gallery. These settings apply to local .mp4 videos as well as YouTube and Vimeo embeds.
 
@@ -673,15 +657,13 @@ When enabled, videos play inline on mobile devices rather than entering the devi
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/gallery-pro-videos@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column %}
-#### Advanced
+**Advanced**
 
 The [Advanced Section](common-controls/advanced.md) provides options for users who want finer control over styling or need to link directly to the Gallery Pro component.
 
@@ -709,6 +691,6 @@ Assign a unique ID to the component. This is useful for creating in-page [anchor
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/gallery-pro-advanced@2x.png" alt=""><figcaption></figcaption></figure>
+
 {% endcolumn %}
 {% endcolumns %}
