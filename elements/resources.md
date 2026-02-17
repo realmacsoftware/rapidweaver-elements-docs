@@ -12,7 +12,7 @@ Website resources include anything from image files to PDFs and folders. All of 
 All resources added to a project will be included when publishing or exporting your website.
 {% endhint %}
 
-### Adding Resources
+### Adding Local Resources
 
 Open the resources list in the left-hand sidebar, and drag and drop in files (and folders), from the Finder. The structure and naming of your files will be the same in-app and when it's exported to the finder.
 
@@ -60,6 +60,7 @@ Add your font files to the resources area in Elements, and use the media inspect
 To inspect a file, the Resource Info panel needs to be visible. This panel (or window) can be left open while you browse through files in the Resources area.
 
 * Filename (All file types)
+* Link URL (All file types)
 * Caption (images)
 * Author (images)
 
@@ -71,7 +72,7 @@ Right-click in the Resources area and select the "New Folder" option from the co
 
 Right-click in the Resources area and select "Add Remote Resource" from the contextual menu.
 
-You can add single or multiple remote url's at a time, just ensure each remote resource is on a new line.
+You can add single or multiple remote url's at a time, just ensure each remote resource is on a new line. The Remote Resources window also supports multiple Vimeo and YouTube URL's.
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-08-26 at 9 .36.58@2x.png" alt=""><figcaption></figcaption></figure>
 
