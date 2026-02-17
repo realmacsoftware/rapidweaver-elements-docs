@@ -99,6 +99,7 @@
 * [Filter Tags](components/filter-tags.md)
 * [Form](components/form.md)
 * [Gallery](components/gallery.md)
+* [Gallery Pro](components/gallery-pro.md)
 * [Grid](components/grid.md)
 * [List](components/list.md)
 * [Image](components/image.md)
