@@ -30,3 +30,7 @@ If you cannot see the Preview in Safari, you might be blocking http traffic. Eit
 This setting can be found in `Settings.app > Apps > Safari`.
 
 <figure><img src="../.gitbook/assets/File.png" alt=""><figcaption></figcaption></figure>
+
+**Still having local network preview issues?**
+
+* [Follow the advice on this Forum thread](https://forums.realmacsoftware.com/t/need-help-with-network-preview-in-elements-2-0-beta-6/54453).

@@ -1,8 +1,8 @@
 ---
-description: A Professional-grade Gallery for Photographers and Creatives
+description: A Powerful, Professional Gallery for Photographers and Creators
 ---
 
-# Gallery Pro
+# Gallery Pro (Paid)
 
 Gallery Pro is a powerful, professional-grade photo gallery component for Elements, built for photographers, designers, and creators who want their work to shine.
 
@@ -12,18 +12,23 @@ Effortlessly organise images into beautiful, responsive layouts, create sub-gall
 
 Gallery Pro gives you the control and polish needed to present your photography at its absolute best.
 
+<a href="elementsapp://storeProduct/com.elementsplatform.gallerypropack" class="button primary" data-icon="store">Purchase Gallery Pro</a>
+
+Gallery Pro is **available via the Elements Store** and requires **Elements 2.0 or newer**.
+
 ### Features
 
-* Grid and Masonry Layout Options
-* Image and Video (YouTube, Vimeo, Local, and Remote) Support.
-* Automatic Sub-Gallery Support
-* EXIF Data Support
-* Title/Author, Caption Display on Thumbnails and Slideshow
-* Thumbnail Hover Effects (Zoom or Lift)
-* Over 10 slideshow transition effects
-* Full-screen lightbox controls
-* Panning and zoom controls
-* Rotate and flip controls
+* Beautiful **Grid** and **Masonry** layout options for flexible, responsive galleries
+* Support for **images and video** including YouTube, Vimeo, local, and remote sources
+* **Automatic sub-galleries** to organise large collections with ease
+* **EXIF data support** to display detailed photo information
+* Flexible **title, author, and caption** display on thumbnails and in the slideshow
+* Stylish **thumbnail hover effects** such as Zoom and Lift
+* **10+ professional slideshow transitions** for polished presentations
+* Immersive **full-screen lightbox** viewing with intuitive controls
+* Interactive **pan and zoom** controls for detailed image viewing
+* Built-in **rotate and flip** controls for perfect orientation
+* And so much more…
 
 #### Supported File Types
 
