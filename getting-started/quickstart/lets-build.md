@@ -10,6 +10,8 @@ Whether you’re looking to sharpen your design skills, learn new layout techniq
 
 If there’s a specific website, layout, or design trend you’d like to see us cover in a future tutorial, visit the [Elements Forum](https://forums.realmacsoftware.com/) and share your ideas. We’re always open to community suggestions!
 
+{% embed url="https://www.youtube.com/watch?v=QHS2BbeF2ns" %}
+
 {% embed url="https://www.youtube.com/watch?v=jCqnJmvTkgk&feature=youtu.be" %}
 
 {% embed url="https://www.youtube.com/watch?v=kJprijDUKmY&feature=youtu.be" %}
