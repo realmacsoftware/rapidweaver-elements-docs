@@ -16,6 +16,8 @@ If there’s a specific website, layout, or design trend you’d like to see us 
 
 {% embed url="https://www.youtube.com/watch?v=GgO8j34y62E&feature=youtu.be" %}
 
+{% embed url="https://www.youtube.com/watch?v=qWJCRQFpqRo&list=PLlqV01jBZsjAODafdmCOpU7dYxqiB6y02&index=12&pp=iAQBsAgC" %}
+
 {% embed url="https://www.youtube.com/watch?v=6i7-Cgojc18&feature=youtu.be" %}
 
 {% embed url="https://www.youtube.com/watch?v=OTiA9Udw5ko&feature=youtu.be" %}
