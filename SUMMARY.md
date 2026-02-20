@@ -9,6 +9,7 @@
 * [License](getting-started/license-types.md)
 * [Quickstart](getting-started/quickstart.md)
   * [How to Tutorials](elements-app/how-to/fix-common-design-issues.md)
+  * [Let's Build](getting-started/quickstart/lets-build.md)
 * [Core Concepts](getting-started/design-system.md)
 * [Elements Cloud](getting-started/elements-cloud.md)
 * [Comparisons](getting-started/migrations/README.md)
