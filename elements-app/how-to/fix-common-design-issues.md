@@ -58,6 +58,12 @@ Anchor tags let you create links that jump directly to a specific part of a page
 
 {% embed url="https://www.youtube.com/watch?v=VEqrlcXydTs" %}
 
+### How to use Scaffolding Templates
+
+Quickly create and design a profile card using the built-in Scaffolding Templates.
+
+{% embed url="https://www.youtube.com/watch?v=tcJupyKLbAI" %}
+
 ### How to hide components at different breakpoints
 
 To hide and show components at different breakpoints you'll need to use the responsive design system built-in to Elements.
