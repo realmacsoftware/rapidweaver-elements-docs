@@ -16,7 +16,7 @@ We recommend using a Webhook to handle email delivery or data collection. It’s
 
 ### Server Requirements
 
-The Form Component in Elements **requires PHP 8.4 or newer**. You can run the built-in [PHP Server check](form.md#php-server-check) to ensure your server meets this requirement.
+The Form Component in Elements **requires PHP 8.4 or newer**. You can run the built-in [PHP Server check](./#php-server-check) to ensure your server meets this requirement.
 
 Behind the scenes the Elements Form uses the very popular and robust [PHPMailer framework](https://github.com/PHPMailer/PHPMailer).
 
@@ -29,7 +29,7 @@ Because every server is different, we cannot guarantee the form will work. If yo
 Before going live with your form, make sure you’ve covered the following essentials. These common issues can prevent form submissions from working correctly, so it’s worth double-checking everything below:
 
 * [ ] **Forms must be published to a live server.** They won’t function when previewed locally.
-* [ ] **Your web server must be running PHP 8.4 or newer.** Ensure you have run the built-in [PHP Server check](form.md#php-server-check).
+* [ ] **Your web server must be running PHP 8.4 or newer.** Ensure you have run the built-in [PHP Server check](./#php-server-check).
 * [ ] **Make sure your SMTP Settings Match Your Domain**. It’s important that your SMTP settings match your domain configuration.
 * [ ] **Sending multiple attachments?** Be sure to enable the “**multiple**” toggle in the Attachment Component settings.
 * [ ] **Using the reply-to feature?** The field name for your email input must be exactly email (all lowercase) for Elements to set the reply-to address properly.
@@ -40,7 +40,7 @@ Before going live with your form, make sure you’ve covered the following essen
 
 If you've published your form, and are still having issues, please run through this troubleshooting guide to help resolve common issues:
 
-1. Run the [PHP Server check ](form.md#php-server-check)to ensure version on your server meets the minimum requirements.
+1. Run the [PHP Server check ](./#php-server-check)to ensure version on your server meets the minimum requirements.
 2. Check your hosting provider’s documentation to ensure outbound SMTP is supported.
 3. Ensure you have entered the correct details for the Form Setup, this is worth triple checking as this is the most common cause of why a form is not delivering email.
 4. Check the email password you entered for the form is correct correct, and doesn't contain any trailing spaces (this is more common than you'd imagine).
