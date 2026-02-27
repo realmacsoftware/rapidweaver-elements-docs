@@ -4,7 +4,11 @@ description: Setting up a Fastmail email address with the Elements Form Componen
 
 # Using Fastmail
 
-If you're using FAstmail, you’ll need to use an App Specific Password in your Elements Form Settings.&#x20;
+If you're using Fastmail, you’ll need to use an App Specific Password in your Elements Form Settings.
+
+{% hint style="info" %}
+[Sign-up for a Fastmail account](https://join.fastmail.com/elements)
+{% endhint %}
 
 Steps on how to set that up in Fastmail are below:
 
