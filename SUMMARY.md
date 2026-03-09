@@ -19,6 +19,7 @@
     * [Import Classic Projects](getting-started/comparisons/rapidweaver-elements-vs-classic/import-classic-projects.md)
   * [RapidWeaver Elements vs Wordpress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
 * [Support Guide](getting-started/troubleshooting.md)
+* [Deep Linking](getting-started/url-scheme.md)
 
 ## Getting Involved
 
@@ -60,7 +61,6 @@
   * [Template](elements/site-settings/template.md)
 * [Publishing](elements/publishing/README.md)
   * [Fixing Issues](elements/publishing/fixing-issues.md)
-  * [URL Scheme](elements/publishing/url-scheme.md)
 * [Advanced](elements/advanced/README.md)
   * [Accessibility](elements/advanced/accessibility.md)
   * [Analytics](elements/advanced/analytics.md)
