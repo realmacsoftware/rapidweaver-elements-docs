@@ -4,13 +4,11 @@ description: Perfect for headings and titles.
 
 # Text
 
-The Text Component is an ideal choice for a wide range of text elements, from headings and taglines to smaller text areas. It provides flexibility for styling text to suit various design needs, making it perfect for creating visually impactful headings, standout taglines, and highlighted phrases.
+The Text Component is ideal for headings, taglines, labels, and short text blocks. It gives you precise control over styling, so you can create anything from subtle accents to bold hero text.
 
-With the Text Component, you can easily create **bold, eye-catching** headings enhanced by background images, gradients, or color overlays, adding depth and style to your design. The component’s versatility means it works seamlessly in both minimal and complex layouts, allowing you to design text elements that grab attention without overpowering your overall look.&#x20;
+You can combine text with background images, gradients, overlays, and utility classes to create more expressive designs. It works well in both simple and complex layouts.
 
-Whether you’re looking to create subtle text accents or prominent, styled headers, the Text Component has you covered.
-
-### Gettings Started with Text Compotnent
+### Getting Started with the Text Component
 
 The following video will teach you the basics on using the Text Component.
 
@@ -18,31 +16,71 @@ The following video will teach you the basics on using the Text Component.
 
 ### How to Make Your Text Responsive
 
-The following video will show you how to make your text resposive.
+The following video shows how to make your text responsive.
 
 {% embed url="https://youtu.be/Vn6saO3ylGg" %}
 
 ### Applying Tailwind CSS Classes to Text
 
-This is an advanced feature that allows you to apply Tailwind CSS Classes to any of your text in the Text Component.
+This advanced feature lets you apply Tailwind CSS classes to text inside the Text Component.
 
 {% embed url="https://youtu.be/Ql428j-FJ5Y" %}
 
 #### Example Tailwind Classes for Text
 
-Below we have included a few sample classes that were featured int he video. To learn more you can [browse the Tailwind CSS Docs](https://tailwindcss.com/docs/installation).
+Below are a few sample classes featured in the video. To learn more, see the [Tailwind CSS documentation](https://tailwindcss.com/docs/installation).
 
 ```css
 blur-sm 
-
 hover:blur-sm transition
-
 hover:line-through
-
 inline-block rotate-[2deg]
-
 underline decoration-wavy underline-offset-[10px]
 ```
+
+### How to Protect Text Content
+
+This is not foolproof. It only discourages casual copying.
+
+Here’s how to add basic text protection to your site:
+
+{% stepper %}
+{% step %}
+### Add Class to Text Component
+
+Add a `no-copy` class to any Text components you want to protect.
+
+<figure><img src="../.gitbook/assets/CleanShot 2026-03-14 at 3 .15.38@2x.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add the CSS Class to the Page
+
+Add the following CSS to the **Edit Page Code** area of the relevant page:
+
+```css
+.no-copy {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+```
+
+<figure><img src="../.gitbook/assets/CleanShot 2026-03-14 at 3 .16.23@2x (1).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Optionally Add JavaScript
+
+You can also add the following JavaScript to the **JS** tab in **Edit Page Code**. This disables right-click on the page.
+
+```javascript
+document.addEventListener("contextmenu", e => e.preventDefault());
+```
+
+<figure><img src="../.gitbook/assets/CleanShot 2026-03-14 at 3 .17.54@2x.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
 
 ### Component Settings
 
@@ -54,21 +92,20 @@ The General section contains the core controls for styling your text. Use these 
 
 **Tag**
 
-* The Tag helps create a semantic structure so search engines understand the hierarchy and relationship of your content. For example, the main heading on the page choose would be "Heading 1", your body text would be set "Paragraph".
+* The Tag helps create a semantic structure, so search engines understand the hierarchy of your content. For example, the main page heading would usually be **Heading 1**, while body text would be **Paragraph**.
 
 **Text Align**
 
-* Align your text, left, center and right. You may need to also set the alignment of the parent item to get the desired alignment.
+* Align your text left, center, or right. You may also need to set the alignment of the parent item.
 
 **Font**
 
-* Choose a font family, these are managed by the [Theme Studio](../elements/theme-studio/).
+* Choose a font family. These are managed in [Theme Studio](../elements/theme-studio/).
 
 **Size**
 
-Choose a text size, these are managed by the [Theme Studio](../elements/theme-studio/).
-
-* Text styles include size, line height, letter spacing, and weight. You can override some of these settings inline by choosing the "Override" option.
+* Choose a text size. These are managed in [Theme Studio](../elements/theme-studio/).
+* Text styles include size, line height, letter spacing, and weight. You can override some values inline by choosing **Override**.
 
 **Weight**
 
@@ -84,16 +121,15 @@ Choose a text size, these are managed by the [Theme Studio](../elements/theme-st
 
 **Italic**
 
-* Make the entire text black italic.
+* Make the entire text block italic.
 
 **Text Shadow**
 
-Choose a shadow for your text, these are managed by the [Theme Studio](../elements/theme-studio/).
+* Choose a shadow for your text. These are managed in [Theme Studio](../elements/theme-studio/).
 
 **Case**
 
-You can set the case for the entire block of text. by default this is set to None.
-
+* Set the case for the entire text block. The default is **None**.
 * None
 * Uppercase
 * Lowercase
@@ -102,41 +138,41 @@ You can set the case for the entire block of text. by default this is set to Non
 
 **White Space**
 
-white-space: normal
+`white-space: normal`
 
 * Collapses multiple spaces into one.
 * Collapses newlines.
 * Allows wrapping.
 * This is the default browser behaviour.
 
-white-space: nowrap
+`white-space: nowrap`
 
 * Collapses spaces.
 * Collapses newlines.
 * Prevents wrapping (text stays on one line).
 
-white-space: pre
+`white-space: pre`
 
 * Preserves spaces exactly as typed.
 * Preserves newlines.
 * Does not wrap (long lines overflow).
-* Behaves like the tag.
+* Behaves like preformatted text.
 
-white-space: pre-wrap
+`white-space: pre-wrap`
 
 * Preserves spaces.
 * Preserves newlines.
 * Allows wrapping.
 * Useful when you want formatting preserved but still fit container width.
 
-white-space: pre-line
+`white-space: pre-line`
 
 * Collapses spaces.
 * Preserves newlines.
 * Allows wrapping.
 * Good when line breaks matter but extra spacing should not.
 
-white-space: break-spaces
+`white-space: break-spaces`
 
 * Preserves spaces.
 * Preserves newlines.
@@ -147,8 +183,7 @@ white-space: break-spaces
 
 **Underline**
 
-Apply an underline to the entire text block.
-
+* Apply a text decoration to the entire block.
 * No Underline
 * Underline
 * Overline
@@ -159,4 +194,3 @@ Apply an underline to the entire text block.
 <figure><img src="../.gitbook/assets/CleanShot 2025-12-12 at 11 .29.53@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
