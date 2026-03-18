@@ -12,6 +12,7 @@
   * [Let's Build](getting-started/quickstart/lets-build.md)
 * [Core Concepts](getting-started/design-system.md)
 * [Elements Cloud](getting-started/elements-cloud.md)
+* [Elements AI](getting-started/elements-ai.md)
 * [Comparisons](getting-started/migrations/README.md)
   * [RapidWeaver Elements vs Blocs](getting-started/comparisons/rapidweaver-elements-vs-blocs-app.md)
   * [RapidWeaver Elements vs Stacks](getting-started/comparisons/rapidweaver-elements-vs-stacks.md)
