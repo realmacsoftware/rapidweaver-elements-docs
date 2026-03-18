@@ -25,7 +25,15 @@ While we strive to keep elementsapp.cloud available at all times, we cannot guar
 **7. Termination**\
 You may terminate your account at any time. We reserve the right to terminate or suspend your account if you violate any of these terms or for any other reason deemed necessary.
 
-**8. Changes to Terms**\
+**8. AI Features and Data Processing**
+
+Elements Cloud may include optional AI-powered features to assist with content creation and editing. These features are entirely optional and can be used at your discretion.
+
+To provide these features, certain data from your projects, including page listings, site details, and page content, may be securely transmitted to our servers and AI service providers, including OpenAI. This data is processed for the purpose of generating relevant outputs within Elements.
+
+Any data shared with OpenAI is handled in accordance with their applicable terms and privacy policies. By using AI features within Elements Cloud, you acknowledge and consent to this data processing.
+
+**9. Changes to Terms**\
 We may update these terms from time to time. Your continued use of the service constitutes acceptance of the updated terms.
 
 By using or subscribing to the RapidWeaver Elements Cloud Service, the Subscriber indicates their understanding and acceptance of these Terms and agrees to be bound by them. It is recommended to review these Terms periodically for any updates or changes.
