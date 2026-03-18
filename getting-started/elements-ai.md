@@ -1,5 +1,5 @@
 ---
-description: Powerful AI tools  to help you build better websites
+description: Powerful AI tools to help you build better websites, faster.
 hidden: true
 icon: hexagon-nodes-bolt
 ---
@@ -12,13 +12,17 @@ Elements uses state-of-the-art models, combined with a custom layer that refines
 
 We’re just getting started, and the features already in development represent an exciting step forward for what Elements can do.
 
-{% hint style="info" %}
-**AI features in Elements are entirely optional**. If you prefer to work without AI, you can simply hide the AI Panel and continue building as usual.
+{% hint style="warning" %}
+**AI features in Elements are entirely optional.** You remain in full control of when and how it’s used.
+
+Elements AI requires you to be logged into your Elements Cloud account and to agree to the [Terms of Service](https://docs.realmacsoftware.com/elements-docs/legal/cloud-terms-of-service). We’ve designed these AI features with a strong focus on privacy and transparency. Your content is only used to power the AI features you choose to use, and we do not sell your data or use it for advertising.
+
+If you prefer to work without AI, you can simply hide the AI Panel and continue building as usual.
 {% endhint %}
 
 ### AI: Writing Assistant
 
-The Elements Writing Assistant can generate and refine text text content in selected Component(s), or entire webpages.
+The Elements Writing Assistant can generate and refine text content in selected Component(s), or entire webpages.
 
 The inovative UI in Elements allows you to toggle individual text changes, making it easier than ever to approve or reject slected text changes within your page.
 
@@ -35,3 +39,4 @@ Currently in Development.
 ### AI: SEO Optimiser
 
 Currently in Development.
+
