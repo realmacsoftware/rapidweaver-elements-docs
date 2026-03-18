@@ -15,16 +15,29 @@ We’re just getting started, and the features already in development represent 
 {% hint style="warning" %}
 **AI features in Elements are entirely optional.** You remain in full control of when and how it’s used.
 
-Elements AI requires you to be logged into your Elements Cloud account and to agree to the [Terms of Service](https://docs.realmacsoftware.com/elements-docs/legal/cloud-terms-of-service). We’ve designed these AI features with a strong focus on privacy and transparency. Your content is only used to power the AI features you choose to use, and we do not sell your data or use it for advertising.
+Elements AI requires you to be logged into your [Elements Cloud account](elements-cloud.md) and to agree to the [Terms of Service](https://docs.realmacsoftware.com/elements-docs/legal/cloud-terms-of-service). We’ve designed these AI features with a strong focus on privacy and transparency. Your content is only used to power the AI features you choose to use, and we do not sell your data or use it for advertising.
 
 If you prefer to work without AI, you can simply hide the AI Panel and continue building as usual.
 {% endhint %}
 
+### Requirements
+
+* An active RapidWeaver Elements Subscription
+* Logged into your Elements Cloud Account
+
+### A note about AI Credits
+
+Every active Elements subscription includes a fixed number of credits per month. Credits automatically reset on the 1st of each month (server time), giving you a fresh allowance to use across your projects.
+
+You can check available allownce in your Elements Cloud Account Dashboard.
+
 ### AI: Writing Assistant
 
-The Elements Writing Assistant can generate and refine text content in selected Component(s), or entire webpages.
+The Elements Writing Assistant helps you generate and refine text across selected Components or entire pages.
 
-The inovative UI in Elements allows you to toggle individual text changes, making it easier than ever to approve or reject slected text changes within your page.
+Its intuitive interface lets you review suggested changes individually, so you can easily approve or reject edits with full control over your content.
+
+To provide relevant and context-aware suggestions, the Writing Assistant uses information from your project, including page listings, site details, and the content of the page you’re currently editing. For example, when refining a headline, it takes the page content into account to ensure the result fits naturally within the page.
 
 #### Supported Components
 
@@ -32,11 +45,7 @@ The Writing Assistant supports all text based Components that contain an editabl
 
 The Writing Assistant doesn't currently support Collections, this includes Tables, Sliders, Radio, and Select Components. The writing Assistant will also not edit page names, file names, or meta data for resources. The Writting Assistant is laser focused on improving written content.
 
-### AI: Image Creator
+### AI: More Features Coming Soon
 
-Currently in Development.
-
-### AI: SEO Optimiser
-
-Currently in Development.
+More AI tools are currently in development.
 
