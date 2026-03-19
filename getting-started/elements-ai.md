@@ -42,7 +42,7 @@ The Elements Writing Assistant helps you generate and refine text across selecte
 
 Its intuitive interface lets you review suggested changes individually, so you can easily approve or reject edits with full control over your content.
 
-{% embed url="https://youtu.be/-m5wrDRG6d8" %}
+{% embed url="https://youtu.be/1OrNbFZo2GU" %}
 
 To provide relevant and context-aware suggestions, the Writing Assistant uses information from your project, including page listings, site details, and the content of the page you’re currently editing. For example, when refining a headline, it takes the page content into account to ensure the result fits naturally within the page. This works really well when dropping new text components onto the page to quickly generate content in keeping with the page.
 
