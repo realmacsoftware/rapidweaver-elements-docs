@@ -1,6 +1,5 @@
 ---
 description: Powerful AI tools to help you build better websites, faster.
-hidden: true
 icon: hexagon-nodes-bolt
 ---
 
@@ -29,7 +28,13 @@ If you prefer to work without AI, you can simply hide the AI Panel and continue 
 
 Every active Elements subscription includes a fixed number of credits per month. Credits automatically reset on the 1st of each month (server time), giving you a fresh allowance to use across your projects.
 
-You can check available allownce in your Elements Cloud Account Dashboard.
+You can check available allowance in your Elements Cloud Account Dashboard.
+
+<figure><img src="../.gitbook/assets/CleanShot 2026-03-19 at 10 .24.32@2x.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The Elements Cloud Account Dashboard can be found within the Elements Store Window.
+{% endhint %}
 
 ### AI: Writing Assistant
 
@@ -37,7 +42,9 @@ The Elements Writing Assistant helps you generate and refine text across selecte
 
 Its intuitive interface lets you review suggested changes individually, so you can easily approve or reject edits with full control over your content.
 
-To provide relevant and context-aware suggestions, the Writing Assistant uses information from your project, including page listings, site details, and the content of the page you’re currently editing. For example, when refining a headline, it takes the page content into account to ensure the result fits naturally within the page.
+{% embed url="https://youtu.be/-m5wrDRG6d8" %}
+
+To provide relevant and context-aware suggestions, the Writing Assistant uses information from your project, including page listings, site details, and the content of the page you’re currently editing. For example, when refining a headline, it takes the page content into account to ensure the result fits naturally within the page. This works really well when dropping new text components onto the page to quickly generate content in keeping with the page.
 
 #### Supported Components
 
