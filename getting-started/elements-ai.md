@@ -24,18 +24,6 @@ If you prefer to work without AI, you can simply hide the AI Panel and continue 
 * An active RapidWeaver Elements Subscription
 * Logged into your Elements Cloud Account
 
-### A note about AI Credits
-
-Every active Elements subscription includes a fixed number of credits per month. Credits automatically reset on the 1st of each month (server time), giving you a fresh allowance to use across your projects.
-
-You can check available allowance in your Elements Cloud Account Dashboard.
-
-<figure><img src="../.gitbook/assets/CleanShot 2026-03-19 at 10 .24.32@2x.png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-The Elements Cloud Account Dashboard can be found within the Elements Store Window.
-{% endhint %}
-
 ### AI: Writing Assistant
 
 The Elements Writing Assistant helps you generate and refine text across selected Components or entire pages.
@@ -55,4 +43,24 @@ The Writing Assistant supports all text based Components that contain an editabl
 ### AI: More Features Coming Soon
 
 More AI tools are currently in development.
+
+***
+
+#### A note about AI Credits
+
+Every active Elements subscription includes a fixed number of credits per month. Credits automatically reset on the 1st of each month (server time), giving you a fresh allowance to use across your projects.
+
+You can check available allowance in your Elements Cloud Account Dashboard.
+
+<figure><img src="../.gitbook/assets/CleanShot 2026-03-19 at 10 .24.32@2x.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The Elements Cloud Account Dashboard can be found within the Elements Store Window.
+{% endhint %}
+
+#### Can I use my own AI API key?
+
+Elements AI runs via our own servers and is not processed locally on your machine. This allows us to provide a consistent, integrated experience and apply our own layer on top of the underlying models to improve the quality and relevance of the results within Elements.
+
+This means it isn’t possible to use your own API key. We’ve designed the system to be tightly integrated so we can manage performance, reliability, and the overall user experience.
 
