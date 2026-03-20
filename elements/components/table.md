@@ -32,8 +32,6 @@ When any column has a custom width set, the table switches to a fixed layout so 
 
     Set the number of body rows displayed in the table. The minimum value is 1 and the default is 3.
 
-
-
 #### Header Cells
 
 The Header Cells section controls the appearance of the table header row. These settings are only visible when the header is enabled.
@@ -64,8 +62,6 @@ Customise the borders around each header cell.
 
     Choose the border colour for header cells.
 
-
-
 #### Header Text
 
 The Header Text section controls the typography and appearance of text within header cells. These settings are only visible when the header is enabled.
@@ -88,8 +84,6 @@ The Header Text section controls the typography and appearance of text within he
 *   **Spacing**
 
     Control the letter spacing. Options range from Tighter to Widest, with Normal as the default.
-
-
 
 #### Body Cells
 
@@ -124,8 +118,6 @@ Set the inner spacing for body cells. You can adjust the top, right, bottom, and
 
     Choose the border colour for body cells.
 
-
-
 #### Body Text
 
 The Body Text section controls the typography and appearance of text within body cells.
@@ -149,4 +141,4 @@ The Body Text section controls the typography and appearance of text within body
 
     Control the letter spacing. Options range from Tighter to Widest, with Normal as the default.
 
-{% include "../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls (1).md" %}

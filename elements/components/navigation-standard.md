@@ -6,8 +6,6 @@ description: Automatically build and display your website navigation
 
 
 
-
-
 ### How to create a traditional "Sticky" menu
 
 The “Sticky” option under **Layout > Position** applies the CSS property `position: sticky`. However, it might not behave as intuitively as expected.
@@ -20,7 +18,7 @@ Simply setting Position to “Sticky” won’t automatically make your navbar s
 2. Choose **Type** as “Individual”
 3. Set **Top** to 0
 
-<figure><img src="../.gitbook/assets/f768f80862bc8232fce5877245e6b6c840718cab.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/f768f80862bc8232fce5877245e6b6c840718cab.png" alt=""><figcaption></figcaption></figure>
 
 ### **Option 2: Fixed Positioning**
 

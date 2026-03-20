@@ -79,7 +79,7 @@ Controls how the browser prioritises loading this image.
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 11 .41.03@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 11 .41.03@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -123,7 +123,7 @@ These options adjust the appearance of the overlay that appears behind the image
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .10.27@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .10.27@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -161,12 +161,12 @@ Controls where the image is anchored within its container. Choose from positions
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .20.38@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .20.38@2x.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .19.01@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .19.01@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 
 
-{% include "../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls (1).md" %}

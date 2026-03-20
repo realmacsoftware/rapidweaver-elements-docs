@@ -50,7 +50,7 @@ Here’s how to add basic text protection to your site:
 
 Add a `no-copy` class to any Text components you want to protect.
 
-<figure><img src="../.gitbook/assets/CleanShot 2026-03-14 at 3 .15.38@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .15.38@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -66,7 +66,7 @@ Add the following CSS to the **Edit Page Code** area of the relevant page:
 }
 ```
 
-<figure><img src="../.gitbook/assets/CleanShot 2026-03-14 at 3 .16.23@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .16.23@2x (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -78,7 +78,7 @@ You can also add the following JavaScript to the **JS** tab in **Edit Page Code*
 document.addEventListener("contextmenu", e => e.preventDefault());
 ```
 
-<figure><img src="../.gitbook/assets/CleanShot 2026-03-14 at 3 .17.54@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .17.54@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -100,11 +100,11 @@ The General section contains the core controls for styling your text. Use these 
 
 **Font**
 
-* Choose a font family. These are managed in [Theme Studio](../elements/theme-studio/).
+* Choose a font family. These are managed in [Theme Studio](../theme-studio/).
 
 **Size**
 
-* Choose a text size. These are managed in [Theme Studio](../elements/theme-studio/).
+* Choose a text size. These are managed in [Theme Studio](../theme-studio/).
 * Text styles include size, line height, letter spacing, and weight. You can override some values inline by choosing **Override**.
 
 **Weight**
@@ -125,7 +125,7 @@ The General section contains the core controls for styling your text. Use these 
 
 **Text Shadow**
 
-* Choose a shadow for your text. These are managed in [Theme Studio](../elements/theme-studio/).
+* Choose a shadow for your text. These are managed in [Theme Studio](../theme-studio/).
 
 **Case**
 
@@ -191,6 +191,6 @@ The General section contains the core controls for styling your text. Use these 
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-12-12 at 11 .29.53@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-12-12 at 11 .29.53@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}

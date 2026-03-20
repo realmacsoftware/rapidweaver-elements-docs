@@ -36,7 +36,7 @@ To provide relevant and context-aware suggestions, the Writing Assistant uses in
 
 #### Supported Components
 
-The Writing Assistant supports all text based Components that contain an editable text area; [Text](../components/text.md), [Typography](../components/typography.md), and [Buttons](../elements/components/button.md). We've found this covers the majority of page based text content.&#x20;
+The Writing Assistant supports all text based Components that contain an editable text area; [Text](../elements/components/text.md), [Typography](../elements/components/typography.md), and [Buttons](../elements/components/button.md). We've found this covers the majority of page based text content.&#x20;
 
 **Not Supported:** The Writing Assistant does not support inline styles, links in text blocks, or the Markdown Component. It also does not handle Collections such as Tables, Sliders, Radio, and Select components. Additionally, it does not edit page names, file names, or metadata for resources. The primary focus is to enhance written content on the page.
 

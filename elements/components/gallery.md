@@ -42,7 +42,7 @@ The Gallery does not support single images. They must be in a Folder.
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 11 .45.57@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 11 .45.57@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -71,7 +71,7 @@ Set the spacing between gallery items.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 11 .50.41@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 11 .50.41@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -134,7 +134,7 @@ Controls the appearance of the image caption and author
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 11 .52.29@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 11 .52.29@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -166,7 +166,7 @@ Fine-tune the appearance of images displayed inside the lightbox.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 12 .01.49@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 12 .01.49@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -207,7 +207,7 @@ Adds a soft blur to the background content beneath the overlay.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 12 .05.07@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 12 .05.07@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -254,7 +254,7 @@ Customise the appearance of the button used to close the Lightbox.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 1 .07.09@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 1 .07.09@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -264,7 +264,7 @@ Customise the appearance of the button used to close the Lightbox.
 {% column %}
 #### Advanced
 
-The [Advanced Section](../elements/components/common-controls/advanced.md) provides options for users who want finer control over styling or need to link directly to the Gallery component.&#x20;
+The [Advanced Section](common-controls/advanced.md) provides options for users who want finer control over styling or need to link directly to the Gallery component.&#x20;
 
 These settings are ideal for developers and advanced users comfortable with custom CSS or Tailwind utilities.
 
@@ -278,11 +278,11 @@ You can use any valid Tailwind utility class to adjust spacing, colours, borders
 
 **ID**
 
-Assign a unique ID to the component. This is useful for creating in-page [anchor links](../elements/components/common-controls/advanced.md#id) or targeting the component with custom scripts and CSS selectors.
+Assign a unique ID to the component. This is useful for creating in-page [anchor links](common-controls/advanced.md#id) or targeting the component with custom scripts and CSS selectors.
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-10-16 at 1 .14.19@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 1 .14.19@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

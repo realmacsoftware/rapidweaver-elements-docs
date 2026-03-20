@@ -56,7 +56,7 @@ Set when (or if) the video should play automatically.
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-11-17 at 10 .40.54 2@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .40.54 2@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -83,7 +83,7 @@ These settings control how the lightbox appears behind the video.
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-11-17 at 10 .45.09@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .45.09@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -114,7 +114,7 @@ If you’re using a YouTube link, Elements automatically pulls in the video’s 
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-11-17 at 10 .48.49@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .48.49@2x (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -156,13 +156,13 @@ Controls where the image is anchored within its container. Choose from positions
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .20.38@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .20.38@2x.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-11-01 at 4 .19.01@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .19.01@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 
 
-{% include "../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls (1).md" %}
 
