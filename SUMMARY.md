@@ -8,6 +8,7 @@
 * [Download](getting-started/download.md)
 * [License](getting-started/license-types.md)
 * [Quickstart](getting-started/quickstart.md)
+  * [Registration Walkthrough](getting-started/quickstart/registration-walkthrough.md)
   * [How to Tutorials](elements-app/how-to/fix-common-design-issues.md)
   * [Let's Build](getting-started/quickstart/lets-build.md)
 * [Core Concepts](getting-started/design-system.md)
