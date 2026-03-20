@@ -61,5 +61,5 @@ Controls the visibility of an element on the page. See [Tailwind CSS Visibility]
 
 ## Layout UI in Elements
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-10-19 at 8 .02.46@2x.png" alt=""><figcaption><p>Component Layout Controls (October 2024)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-19 at 8 .02.46@2x.png" alt=""><figcaption><p>Component Layout Controls (October 2024)</p></figcaption></figure>
 

@@ -1,6 +1,5 @@
 ---
 description: Extend RapidWeaver by creating your very own custom Components
-icon: bolt
 ---
 
 # Custom

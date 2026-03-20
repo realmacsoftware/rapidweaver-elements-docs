@@ -21,7 +21,10 @@
     * [Import Classic Projects](getting-started/comparisons/rapidweaver-elements-vs-classic/import-classic-projects.md)
   * [RapidWeaver Elements vs Wordpress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
 * [Support Guide](getting-started/troubleshooting.md)
-* [Deep Linking](getting-started/url-scheme.md)
+
+## Advanced
+
+* [Deep Linking](advanced/url-scheme.md)
 
 ## Getting Involved
 
@@ -40,6 +43,18 @@
 * [Templates](elements/templates.md)
 * [Components](elements/components/README.md)
   * [Custom](elements/components/custom-components.md)
+  * [Common Controls](elements/components/common-controls/README.md)
+    * [Link](elements/components/common-controls/link.md)
+    * [Layout](elements/components/common-controls/layout.md)
+    * [Sizing](elements/components/common-controls/sizing.md)
+    * [Spacing](elements/components/common-controls/spacing.md)
+    * [Transitions](elements/components/common-controls/transitions.md)
+    * [Effects](elements/components/common-controls/effects.md)
+    * [Filters](elements/components/common-controls/filters.md)
+    * [Transforms](elements/components/common-controls/transforms.md)
+    * [Borders](elements/components/common-controls/borders.md)
+    * [Advanced](elements/components/common-controls/advanced.md)
+  * [Accordion](elements/components/accordion.md)
 * [Globals](elements/global-templates.md)
 * [Browser Preview](elements/previewing-your-website.md)
 * [Breakpoints](elements/responsive-breakpoints.md)
@@ -75,18 +90,6 @@
 
 ## Components
 
-* [Common Controls](components/common-controls/README.md)
-  * [Link](components/common-controls/link.md)
-  * [Layout](components/common-controls/layout.md)
-  * [Sizing](components/common-controls/sizing.md)
-  * [Spacing](components/common-controls/spacing.md)
-  * [Transitions](components/common-controls/transitions.md)
-  * [Effects](components/common-controls/effects.md)
-  * [Filters](components/common-controls/filters.md)
-  * [Transforms](components/common-controls/transforms.md)
-  * [Borders](components/common-controls/borders.md)
-  * [Advanced](components/common-controls/advanced.md)
-* [Accordion](components/accordion.md)
 * [Audio Playlist](components/audio-playlist.md)
 * [Background](components/background.md)
 * [Before After (Paid)](components/before-after-paid.md)
@@ -134,12 +137,13 @@
   * [Apply Anchor Scroll Padding](elements-app/how-to/apply-anchor-scroll-padding.md)
   * [Add Snow to your Website](elements-app/how-to/add-snow-to-your-website.md)
   * [Build a Sticky Menu](elements-app/how-to/build-a-sticky-menu.md)
-  * [Create a Card](elements-app/how-to/create-a-card.md)
   * [Site Banner with Text](elements-app/how-to/site-banner-with-text.md)
+  * [Page 1](elements-app/how-to/page-1.md)
 * [Why Elements?](elements-app/why-elements/README.md)
   * [User Personas](elements-app/why-elements/user-personas.md)
   * [Static Website Benefits](elements-app/why-elements/static-website-benefits.md)
   * [Build a Digital Garden](elements-app/why-elements/build-a-digital-garden.md)
+* [Create a Card](elements-app/create-a-card.md)
 * [CMS](elements-app/cms/README.md)
   * [Helpers](elements-app/cms/helpers.md)
   * [Developing for the CMS](elements-app/cms/developing-for-the-cms/README.md)

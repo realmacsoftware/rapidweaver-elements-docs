@@ -27,7 +27,7 @@ Use the Clear (×) button to remove the link.
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .16.10@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-11-01 at 4 .16.10@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

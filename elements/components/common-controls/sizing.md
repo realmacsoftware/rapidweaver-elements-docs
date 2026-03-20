@@ -49,4 +49,4 @@ Here's some examples:
 
 ## Sizing UI in Elements
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-10-28 at 11 .51.11@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-28 at 11 .51.11@2x.png" alt=""><figcaption></figcaption></figure>

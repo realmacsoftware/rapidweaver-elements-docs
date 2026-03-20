@@ -264,7 +264,7 @@ Customise the appearance of the button used to close the Lightbox.
 {% column %}
 #### Advanced
 
-The [Advanced Section](common-controls/advanced.md) provides options for users who want finer control over styling or need to link directly to the Gallery component.&#x20;
+The [Advanced Section](../elements/components/common-controls/advanced.md) provides options for users who want finer control over styling or need to link directly to the Gallery component.&#x20;
 
 These settings are ideal for developers and advanced users comfortable with custom CSS or Tailwind utilities.
 
@@ -278,7 +278,7 @@ You can use any valid Tailwind utility class to adjust spacing, colours, borders
 
 **ID**
 
-Assign a unique ID to the component. This is useful for creating in-page [anchor links](common-controls/advanced.md#id) or targeting the component with custom scripts and CSS selectors.
+Assign a unique ID to the component. This is useful for creating in-page [anchor links](../elements/components/common-controls/advanced.md#id) or targeting the component with custom scripts and CSS selectors.
 {% endcolumn %}
 
 {% column %}

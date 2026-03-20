@@ -14,7 +14,7 @@ Accordions help improve page flow, reduce scrolling, and enhance the overall use
 
 You’ll find the Accordion component under the Interactive section in the Components list. Each Accordion Item has two separate drop zones: one for the Title and one for the Content. You can add text, images, or other components into these areas to build rich, interactive sections.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-04-27 at 11 .24.50@2x.png" alt=""><figcaption><p>The Accordion Component can be found under Interactive in the component list.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-04-27 at 11 .24.50@2x.png" alt=""><figcaption><p>The Accordion Component can be found under Interactive in the component list.</p></figcaption></figure>
 
 If you group multiple Accordions together, you can enable a setting that allows only one Accordion to be open at a time — perfect for keeping your layouts clean and focused.
 
