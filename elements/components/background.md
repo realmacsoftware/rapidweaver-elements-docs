@@ -20,7 +20,7 @@ You’ll find the Background component under the Layout section in the Component
 
 You can choose a solid colour, add an image, or enable angled backgrounds for more dynamic designs. If needed, you can also fix the background in place for a parallax scrolling effect. Adjust the color, opacity, and style settings to match your site’s design perfectly.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-04-28 at 4 .23.29@2x.png" alt=""><figcaption><p>The Background Component can be found under Layout in the component list.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-04-28 at 4 .23.29@2x.png" alt=""><figcaption><p>The Background Component can be found under Layout in the component list.</p></figcaption></figure>
 
 ### When to Use Background Instead of Container
 

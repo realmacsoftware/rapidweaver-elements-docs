@@ -7,8 +7,8 @@
 
 * [Download](getting-started/download.md)
 * [License](getting-started/license-types.md)
+* [Registration Walkthrough](getting-started/registration-walkthrough.md)
 * [Quickstart](getting-started/quickstart.md)
-  * [Registration Walkthrough](getting-started/quickstart/registration-walkthrough.md)
   * [How to Tutorials](elements-app/how-to/fix-common-design-issues.md)
   * [Let's Build](getting-started/quickstart/lets-build.md)
 * [Core Concepts](getting-started/design-system.md)
@@ -21,15 +21,6 @@
     * [Import Classic Projects](getting-started/comparisons/rapidweaver-elements-vs-classic/import-classic-projects.md)
   * [RapidWeaver Elements vs Wordpress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
 * [Support Guide](getting-started/troubleshooting.md)
-
-## Advanced
-
-* [Deep Linking](advanced/url-scheme.md)
-
-## Getting Involved
-
-* [Creator Program](getting-involved/creator-program.md)
-* [Building Addons](getting-involved/building-extensions.md)
 
 ## Elements
 
@@ -55,6 +46,14 @@
     * [Borders](elements/components/common-controls/borders.md)
     * [Advanced](elements/components/common-controls/advanced.md)
   * [Accordion](elements/components/accordion.md)
+  * [Audio Playlist](elements/components/audio-playlist.md)
+  * [Background](elements/components/background.md)
+  * [Before After (Paid)](elements/components/before-after-paid.md)
+  * [Button](elements/components/button.md)
+  * [Card Flip (Paid)](elements/components/card-flip-paid.md)
+  * [CMS](elements/components/cms.md)
+  * [Container](elements/components/container.md)
+  * [Content Slider](elements/components/content-slider.md)
 * [Globals](elements/global-templates.md)
 * [Browser Preview](elements/previewing-your-website.md)
 * [Breakpoints](elements/responsive-breakpoints.md)
@@ -90,14 +89,6 @@
 
 ## Components
 
-* [Audio Playlist](components/audio-playlist.md)
-* [Background](components/background.md)
-* [Before After (Paid)](components/before-after-paid.md)
-* [Button](components/button.md)
-* [Card Flip (Paid)](components/card-flip-paid.md)
-* [CMS](components/cms.md)
-* [Container](components/container.md)
-* [Content Slider](components/content-slider.md)
 * [Divider](components/divider.md)
 * [Dropdown](components/dropdown.md)
 * [Flex](components/flex.md)
@@ -129,8 +120,14 @@
 * [Typography](components/typography.md)
 * [Video](components/video.md)
 
+## Advanced
+
+* [Elements API](advanced/building-extensions.md)
+* [Deep Linking](advanced/url-scheme.md)
+
 ## Elements App
 
+* [Creator Program](elements-app/creator-program.md)
 * [How to](elements-app/how-to/README.md)
   * [Add an Icon Inside a Button](elements-app/how-to/add-an-icon-inside-a-button.md)
   * [Adjust Smooth Scroll Speed](elements-app/how-to/adjust-smooth-scroll-speed.md)
