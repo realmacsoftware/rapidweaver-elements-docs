@@ -130,7 +130,7 @@
   * [Build a Sticky Menu](elements-app/how-to/build-a-sticky-menu.md)
   * [Site Banner with Text](elements-app/how-to/site-banner-with-text.md)
   * [Page 1](elements-app/how-to/page-1.md)
-  * [Create a Card](elements-app/how-to/create-a-card.md)
+  * [Create a Card](elements-app/create-a-card.md)
 * [Why Elements?](elements-app/why-elements/README.md)
   * [User Personas](elements-app/why-elements/user-personas.md)
   * [Static Website Benefits](elements-app/why-elements/static-website-benefits.md)
