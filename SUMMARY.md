@@ -116,11 +116,10 @@
   * [Robots.txt](elements/advanced/robots.txt.md)
 * [Keyboard Shortcuts](elements/keyboard-shortcuts.md)
 * [Syncing Projects](elements/syncing-projects.md)
+* [Deep Linking](elements/url-scheme.md)
+* [Elements API](elements/building-extensions.md)
 
 ## Advanced
-
-* [Elements API](advanced/building-extensions.md)
-* [Deep Linking](advanced/url-scheme.md)
 
 ## Elements App
 
