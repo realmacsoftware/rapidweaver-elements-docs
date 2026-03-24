@@ -5,7 +5,7 @@ icon: hand-heart
 
 # Support Guide
 
-If you run into a bug or something doesn’t seem to be working quite right in Elements, we’d love to hear about it.  You can check out our [FAQ guide](../elements-faq.md) for general support issues, but the **best place to get support** is on the [Elements Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), where our team and other users can offer help and advice!
+If you run into a bug or something doesn’t seem to be working quite right in Elements, we’d love to hear about it.  You can check out our [FAQ guide](../../elements-faq.md) for general support issues, but the **best place to get support** is on the [Elements Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), where our team and other users can offer help and advice!
 
 {% hint style="danger" %}
 Make sure to [**search the forum first**](https://forums.realmacsoftware.com/), your question or bug might already have been resolved.
@@ -92,7 +92,7 @@ When Elements detects any orphaned nodes (bits of content that no longer have a 
 
 These nodes can be safely removed using the built-in recovery option.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-09-30 at 6 .24.07@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-09-30 at 6 .24.07@2x.png" alt=""><figcaption></figcaption></figure>
 
 #### Follow these steps to Repair your Project:
 
@@ -126,42 +126,3 @@ You can now continue working on your project, right where you left off.
 
 We’re actively working on reducing the chances of these orphaned nodes appearing in the first place.
 
-### How to Reset Elements
-
-To reset Elements, remove the preferences file by following these steps.
-
-{% hint style="warning" %}
-For an automatica way to remove the Preferences you can do the following. Hold down the option key and go to Help > Clear Applications Preferences.
-{% endhint %}
-
-{% stepper %}
-{% step %}
-#### Quit Elements
-
-Ensure Elements is not running.
-{% endstep %}
-
-{% step %}
-#### Locate Preferences File
-
-In the finder press press “Command-Shift-G” to bring up the "Go To Folder" Window and paste in the following path:
-
-{% code overflow="wrap" %}
-```
-~/Library/Containers/com.realmacsoftware.rapidweaverelements/Data/Library/Preferences/com.realmacsoftware.rapidweaverelements.plist
-```
-{% endcode %}
-{% endstep %}
-
-{% step %}
-#### Delete Preferences Plist
-
-Delete the file: `com.realmacsoftware.rapidweaverelements.plist`
-{% endstep %}
-
-{% step %}
-#### Re-launch Elements
-
-You can now safely re-launch Elements.
-{% endstep %}
-{% endstepper %}

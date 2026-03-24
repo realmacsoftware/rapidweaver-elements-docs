@@ -85,7 +85,7 @@ Be sure to check your Spam folder. Just in case!
 
 <summary>I still have a question, where can I go for help?</summary>
 
-If you question wasn't answered above or you need clarification, please [post on the Elements forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43), and we'll get back to you as soon as possible. Don't forget to [follow our Support Guide](getting-started/troubleshooting.md) to get your issue resolved even quicker.
+If you question wasn't answered above or you need clarification, please [post on the Elements forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43), and we'll get back to you as soon as possible. Don't forget to [follow our Support Guide](getting-started/troubleshooting/) to get your issue resolved even quicker.
 
 </details>
 

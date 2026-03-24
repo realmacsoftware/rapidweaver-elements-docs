@@ -2,7 +2,7 @@
 description: A guide fixing your Publishing Issues
 ---
 
-# Fixing Issues
+# Publishing Issues
 
 Can't get your website online or updated? Don't worry. 99% of the time the issue is due to incorrect setup of publishing details. Everything needs to be entered 100% correctly otherwise publishing fails.
 
@@ -99,7 +99,7 @@ RapidWeaver can also be configured to produce a more in-depth report about publi
 \
 First of all open RapidWeaver’s preferences (Cmd,) and select the Publishing preferences pane. Make sure that the Enable Upload Logging option is checked.
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2025-07-11 at 2 .18.24@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-07-11 at 2 .18.24@2x.png" alt=""><figcaption></figcaption></figure>
 
 Please do the following step to send your publishing logs to us:
 
@@ -126,4 +126,6 @@ Please be sure to include the following details in your message:
 * Are you seeing an error message when publishing? Please include the full text of the error or, ideally, a screenshot.
 
 We aim to reply to all messages within 2 business days. We know it's frustrating not being able to publish, but do remember we're only human and we do our best to help in what can be a very complex issue.
+
+{% include "../../.gitbook/includes/elements-website-hosting.md" %}
 

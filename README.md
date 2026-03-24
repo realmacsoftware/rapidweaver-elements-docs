@@ -34,7 +34,7 @@ If you want more detail on how Elements is structured under the hood, see [Core 
 You’re not on your own when using Elements, there’s a friendly community and dedicated support behind the app.
 
 * Browse common questions in the [FAQ](elements-faq.md).
-* Follow the [Support Guide](getting-started/troubleshooting.md) for tips on reporting issues and getting them resolved quickly.
+* Follow the [Support Guide](getting-started/troubleshooting/) for tips on reporting issues and getting them resolved quickly.
 * Join the [Elements Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43) to ask questions, share projects, and learn from other users.
 * Watch behind‑the‑scenes development in the regular Web Dev Talk series and other videos listed below.
 

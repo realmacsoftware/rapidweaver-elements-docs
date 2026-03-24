@@ -20,7 +20,9 @@
   * [Elements vs Classic](getting-started/comparisons/rapidweaver-elements-vs-classic/README.md)
     * [Import Classic Projects](getting-started/comparisons/rapidweaver-elements-vs-classic/import-classic-projects.md)
   * [RapidWeaver Elements vs Wordpress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
-* [Support Guide](getting-started/troubleshooting.md)
+* [Support Guide](getting-started/troubleshooting/README.md)
+  * [Publishing Issues](getting-started/troubleshooting/fixing-issues.md)
+  * [Reset Elements](getting-started/troubleshooting/troubleshooting.md)
 
 ## Elements
 
@@ -105,8 +107,7 @@
   * [Web Icons](elements/site-settings/web-icons.md)
   * [Advanced](elements/site-settings/advanced.md)
   * [Template](elements/site-settings/template.md)
-* [Publishing](elements/publishing/README.md)
-  * [Fixing Issues](elements/publishing/fixing-issues.md)
+* [Publishing](elements/publishing.md)
 * [Advanced](elements/advanced/README.md)
   * [Accessibility](elements/advanced/accessibility.md)
   * [Analytics](elements/advanced/analytics.md)
