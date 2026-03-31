@@ -2,6 +2,7 @@
 description: >-
   The best alternative to Stacks, Blocs, Wordpress, and other online website
   builders.
+hidden: true
 icon: glasses-round
 ---
 
