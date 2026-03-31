@@ -22,7 +22,7 @@
   * [RapidWeaver Elements vs Wordpress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
 * [Support Guide](getting-started/troubleshooting/README.md)
   * [Publishing Issues](getting-started/troubleshooting/fixing-issues.md)
-  * [Reset Elements](getting-started/troubleshooting/troubleshooting.md)
+  * [How to Reset Elements](getting-started/troubleshooting/troubleshooting.md)
 
 ## Elements
 

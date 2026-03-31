@@ -11,6 +11,10 @@ If you run into a bug or something doesn’t seem to be working quite right in E
 Make sure to [**search the forum first**](https://forums.realmacsoftware.com/), your question or bug might already have been resolved.
 {% endhint %}
 
+### Download a Previous Version
+
+To test if an Elements update is causing project issues, downgrade to a previous build via the [release notes page](https://realmacsoftware.com/rapidweaver/releasenotes/). This quickly reveals if the update is the problem or just a coincidence.
+
 ## How to Get Help (and get it faster)
 
 We’ve seen quite a few posts on the [forum](https://forums.realmacsoftware.com/) where users are asking for help but not giving enough details for anyone to actually solve the problem.&#x20;
@@ -29,6 +33,8 @@ To save everyone time, here’s the **best way to** [**ask for help on the forum
    A quick screenshot or short video can be a huge help.
 6. **Be Specific**\
    The more detail you include, the quicker you’ll get accurate help.
+7. **Do NOT post AI-generated content**\
+   AI-generated troubleshooting suggestions can sometimes be a bit off the mark. To help us diagnose things accurately, it’s best to stick to details from your own setup and what you’re seeing directly.
 
 Follow the above guide, and you’ll not only get better answers, you’ll get them much faster.
 
@@ -75,6 +81,8 @@ Once you’ve made the recording, upload it to a cloud service like Dropbox or G
 If you can’t share a video, screenshots can still be very helpful. **Try to capture the whole Elements window so we can see your workspace and any visible settings.** A partial screenshot is not very helpful, we need to see the entire context.
 
 Use the keyboard shortcut Command-Shift-3 to take a screenshot, or Command-Shift-4 to select just a portion of the screen.
+
+***
 
 ### Custom HTML Issues
 
