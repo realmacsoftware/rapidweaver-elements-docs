@@ -41,6 +41,12 @@ If you supply Assets to the Store, you agree to the following:
 * You will indemnify us against any claims arising from your breach of these warranties.
 * Upon termination of this Agreement, your rights and our rights with respect to already-approved Assets sold remain as specified in this Agreement.
   * If your contributor account is terminated, we will stop selling your Assets immediately. Existing customers will retain the licenses they already purchased, but no further sales of your Assets will be offered.
+* By participating in the Elements Store, you agree that Elements Platform Ltd will operate a self-billing arrangement for all payouts. Elements Platform Ltd will generate a monthly earnings statement on your behalf, which will serve as the invoice for your revenue share.&#x20;
+  * These statements will be made available in your dashboard and may also be sent via email.
+  * You agree not to issue separate invoices to Elements Platform Ltd for the same transactions.
+* You are responsible for ensuring that your tax status and reporting obligations are correctly handled in your jurisdiction.
+* Each earnings statement shall be considered accepted unless disputed within 14 days of issue.
+* Both parties agree to keep appropriate records of all transactions and statements for accounting and compliance purposes.
 
 #### 4. Pricing, Payment & Revenue Share
 
