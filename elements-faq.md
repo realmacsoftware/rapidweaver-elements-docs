@@ -89,6 +89,20 @@ If you question wasn't answered above or you need clarification, please [post on
 
 </details>
 
+### Editor Issues
+
+<details>
+
+<summary>Error when trying to preview in Safari</summary>
+
+If you are seeing a "Safari Can't Open the Page" error, you'll need to disable the "Warn before connecting to a Website over HTTP" option in the Safari Security settings.
+
+<figure><img src=".gitbook/assets/4e9813073736bffaf7ffea0a7ad8d2a9c940d46e_2_1380x544.jpeg" alt=""><figcaption></figcaption></figure>
+
+
+
+</details>
+
 ### Pre-Sales Questions
 
 <details>
