@@ -103,6 +103,18 @@ If you are seeing a "Safari Can't Open the Page" error, you'll need to disable t
 
 </details>
 
+<details>
+
+<summary>How can I make a file (pdf, zip, audio, etc…) available for download on my website?</summary>
+
+You can do this easily by adding a link to some text, a button, or whichever element you want. When setting the link, select the file from your resources and add a custom attribute called `download`. This attribute will prompt the browser to download the file, not open it.
+
+<figure><img src=".gitbook/assets/CleanShot 2026-04-15 at 09.55.59@2x.png" alt=""><figcaption></figcaption></figure>
+
+
+
+</details>
+
 ### Pre-Sales Questions
 
 <details>
