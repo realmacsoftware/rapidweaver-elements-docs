@@ -50,6 +50,6 @@ The following is a list of keyboard shortcuts for moving nodes within the Node B
 | Select Parent           | Option+Up arrow             |
 | Select Child            | Option+Down arrow           |
 | Move Up                 | Options+Command+Up arrow    |
-| Move Down               | Options+Command+Up arrow    |
+| Move Down               | Options+Command+Down arrow  |
 | Move to Parent          | Options+Command+Left arrow  |
 | Move to Child           | Options+Command+Right arrow |
