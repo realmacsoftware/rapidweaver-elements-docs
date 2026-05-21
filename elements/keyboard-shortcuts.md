@@ -20,7 +20,7 @@ Elements has a host of available keyboard shortcuts.
 
 ### Editor: Selecting and Moving Components
 
-<table><thead><tr><th>Action</th><th width="269">Keyboard Shortcut</th><th>Details</th></tr></thead><tbody><tr><td>Select Previous Sibling</td><td>Option+Up arrow</td><td></td></tr><tr><td>Select Next Sibling</td><td>Option+Down arrow</td><td></td></tr><tr><td>Select Parent</td><td>Option+Up arrow</td><td></td></tr><tr><td>Select Child</td><td>Option+Down arrow</td><td></td></tr><tr><td>Move Up</td><td>Options+Command+Up arrow</td><td></td></tr><tr><td>Move Down</td><td>Options+Command+Up arrow</td><td></td></tr><tr><td>Move to Parent</td><td>Options+Command+Left arrow</td><td></td></tr><tr><td>Move to Child</td><td>Options+Command+Right arrow</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Action</th><th width="269">Keyboard Shortcut</th><th>Details</th></tr></thead><tbody><tr><td>Select Previous Sibling</td><td>Option+Up arrow</td><td></td></tr><tr><td>Select Next Sibling</td><td>Option+Down arrow</td><td></td></tr><tr><td>Select Parent</td><td>Option+Up arrow</td><td></td></tr><tr><td>Select Child</td><td>Option+Down arrow</td><td></td></tr><tr><td>Move Up</td><td>Options+Command+Up arrow</td><td></td></tr><tr><td>Move Down</td><td>Options+Command+Down arrow</td><td></td></tr><tr><td>Move to Parent</td><td>Options+Command+Left arrow</td><td></td></tr><tr><td>Move to Child</td><td>Options+Command+Right arrow</td><td></td></tr></tbody></table>
 
 {% embed url="https://youtu.be/myHZq5hb8TE" %}
 
