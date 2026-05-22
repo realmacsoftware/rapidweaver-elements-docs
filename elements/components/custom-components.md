@@ -191,7 +191,7 @@ exports.transformHook = transformHook;
 The Template can then use the new value as `{{fullName}}`.
 
 {% hint style="info" %}
-For the full Hooks API — available data (`rw.props`, `rw.collections`, `rw.page`, …) and functions (`rw.setProps()`, `rw.addAnchor()`, …) — see the [Hooks.js reference](https://app.gitbook.com/s/oWVD0W05KiZtfQynqfZo/component/hooks-js).
+For the full Hooks API — available data (`rw.props`, `rw.collections`, `rw.page`, …) and functions (`rw.setProps()`, `rw.addAnchor()`, …) — see the [Hooks.js reference](https://app.gitbook.com/s/oWVD0W05KiZtfQynqfZo/component/hooks.js).
 {% endhint %}
 
 ### Going Further with the Elements API
