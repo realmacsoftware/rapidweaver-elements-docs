@@ -35,7 +35,7 @@ Creating a Custom Component in Elements is the easiest and fastest way to get st
 
 1. No external code editor is required, you can build everything inside of RapidWeaver  Elements.
 2. Custom Components are stored in the project they were created in.
-3. Custom Components have full access to the Elements Language (although they cannot include extra files like an external Element Pack can).
+3. Custom Components have full access to the Elements Language and can define their own Properties (the UI controls shown in the Inspector) right inside the Component Editor — they just can't bundle separate _files_ (such as extra assets, icons, or additional template files) the way an external Element Pack can.
 4. To ensure compatibility with Elements you should use Tailwind CSS classes when writing your Template HTML.
 5. Custom Components can easily be converted into an encrypted component and shared or sold on the Elements Marketplace.
 
@@ -111,6 +111,40 @@ You can also add a title for the Dropzone, this will be shown in the Node Browse
 ```
 @dropzone("zone-1", title: "Zone 1")
 ```
+
+### Adding Custom Properties (UI Controls)
+
+Editable text and dropzones are just the start. Custom Components can also have their own **Properties** — the controls that appear in the Inspector, such as sliders, switches, and color or font pickers. The Component Editor has a **Properties** area alongside the **Template** area, and the configuration you add there uses the same format as an Element Pack's `properties.json`.
+
+Add a control in the **Properties** area, give it an `id`, then reference that `id` in your **Template** with `{{id}}`. For example, a control that lets the user pick the text colour:
+
+Place this in the **Properties:**
+
+```json
+{
+    "groups": [{
+        "title": "Settings",
+        "properties": [{
+            "title": "Text Color",
+            "id": "textColor",
+            "format": "text-{{value}}",
+            "themeColor": {
+                "default": { "name": "red", "brightness": 600 }
+            }
+        }]
+    }]
+}
+```
+
+And reference it in the **Template:**
+
+```html
+<p class="{{textColor}}">Hello World!</p>
+```
+
+{% hint style="info" %}
+For the full list of available controls — text, slider, switch, select, and the theme-aware color, font, and spacing controls — see the [Properties reference](https://docs.realmacsoftware.com/elements-docs/elements-language/component/properties.json). For a complete worked example that drives a snow effect from **Amount** and **Follow Mouse** controls, see [Add Snow to your Website](../../elements-app/how-to/add-snow-to-your-website.md).
+{% endhint %}
 
 ### Going Further with the Elements API
 
