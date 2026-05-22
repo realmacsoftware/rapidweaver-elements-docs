@@ -71,6 +71,18 @@ The Component Editor is a panel so can be placed or added anywhere in the UI. Ri
 {% endstep %}
 {% endstepper %}
 
+### The Component Editor: Five Built-in Areas
+
+Every Custom Component has the same five built-in areas in the Component Editor. You edit each one in place — a Custom Component can't add, rename, or remove these files, and (unlike an external Element Pack) it can't bundle any additional files such as extra assets, icons, or template files.
+
+* **Template** — the component's HTML markup, processed by the Elements Language (this is where `@text`, `@dropzone`, and `{{property}}` references live).
+* **Styles** — custom CSS for the component.
+* **JavaScript** — client-side behaviour for the component.
+* **Hooks** — JavaScript that runs at build time to transform your Properties before the Template is rendered.
+* **Properties** — the UI controls shown in the Inspector.
+
+The sections below cover each area in turn.
+
 ### Adding Editable Content Areas
 
 Using the following tags enable editable areas with the page. No setup of configuration in the properties file is required.
@@ -144,6 +156,42 @@ And reference it in the **Template:**
 
 {% hint style="info" %}
 For the full list of available controls — text, slider, switch, select, and the theme-aware color, font, and spacing controls — see the [Properties reference](https://app.gitbook.com/s/oWVD0W05KiZtfQynqfZo/component/properties-json/general-structure). For a complete worked example that drives a snow effect from **Amount** and **Follow Mouse** controls, see [Add Snow to your Website](../../elements-app/how-to/add-snow-to-your-website.md).
+{% endhint %}
+
+### Adding Styles (CSS)
+
+Elements is built on Tailwind CSS, so most styling is done with utility classes directly in your **Template** HTML. When you need custom CSS that utility classes can't express, add it in the **Styles** area. Styles are processed by the Elements Language too, so you can insert property values and scope rules to the individual component instance with `{{id}}`:
+
+```css
+.component-{{id}} {
+    letter-spacing: 0.05em;
+}
+```
+
+### Adding JavaScript
+
+Use the **JavaScript** area for your component's client-side behaviour. Elements also bundles AlpineJS, so you can drive interactivity straight from your **Template** with Alpine directives — use the `x-on:` form for events, as `@` is reserved by the Elements Language.
+
+### Adding Hooks
+
+The **Hooks** area runs JavaScript at build time, before your Template is rendered. The order is **Properties → Hooks → Template**: a hook reads the values from your Properties via `rw.props`, transforms them (compute derived values, format strings, set defaults), and passes the results to the Template with `rw.setProps()`.
+
+```javascript
+const transformHook = (rw) => {
+    const { firstName, lastName } = rw.props;
+
+    rw.setProps({
+        fullName: `${firstName} ${lastName}`
+    });
+};
+
+exports.transformHook = transformHook;
+```
+
+The Template can then use the new value as `{{fullName}}`.
+
+{% hint style="info" %}
+For the full Hooks API — available data (`rw.props`, `rw.collections`, `rw.page`, …) and functions (`rw.setProps()`, `rw.addAnchor()`, …) — see the [Hooks.js reference](https://app.gitbook.com/s/oWVD0W05KiZtfQynqfZo/component/hooks-js).
 {% endhint %}
 
 ### Going Further with the Elements API
