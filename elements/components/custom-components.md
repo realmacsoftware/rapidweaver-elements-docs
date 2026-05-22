@@ -2,9 +2,9 @@
 description: Extend RapidWeaver by creating your very own custom Components
 ---
 
-# Custom
+# Custom Components
 
-If you know a bit of HTML you can create your own custom Components for use in your projects. These can be anything from a simple html snippet to a fully blown Component with custom UI controls taking full advantage of  the[ Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language).
+If you know a bit of HTML you can create your own custom Components for use in your projects. These can be anything from a simple html snippet to a fully blown Component with custom UI controls taking full advantage of the[ Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language).
 
 {% hint style="success" %}
 **The possibilities of what you can create are endless.**\
@@ -33,7 +33,7 @@ Creating a Custom Component in Elements is the easiest and fastest way to get st
 
 #### A few things to note before you get started:
 
-1. No external code editor is required, you can build everything inside of RapidWeaver  Elements.
+1. No external code editor is required, you can build everything inside of RapidWeaver Elements.
 2. Custom Components are stored in the project they were created in.
 3. Custom Components have full access to the Elements Language and can define their own Properties (the UI controls shown in the Inspector) right inside the Component Editor — they just can't bundle separate _files_ (such as extra assets, icons, or additional template files) the way an external Element Pack can.
 4. To ensure compatibility with Elements you should use Tailwind CSS classes when writing your Template HTML.
@@ -143,7 +143,7 @@ And reference it in the **Template:**
 ```
 
 {% hint style="info" %}
-For the full list of available controls — text, slider, switch, select, and the theme-aware color, font, and spacing controls — see the [Properties reference](https://docs.realmacsoftware.com/elements-docs/elements-language/component/properties.json). For a complete worked example that drives a snow effect from **Amount** and **Follow Mouse** controls, see [Add Snow to your Website](../../elements-app/how-to/add-snow-to-your-website.md).
+For the full list of available controls — text, slider, switch, select, and the theme-aware color, font, and spacing controls — see the [Properties reference](https://app.gitbook.com/s/oWVD0W05KiZtfQynqfZo/component/properties-json/general-structure). For a complete worked example that drives a snow effect from **Amount** and **Follow Mouse** controls, see [Add Snow to your Website](../../elements-app/how-to/add-snow-to-your-website.md).
 {% endhint %}
 
 ### Going Further with the Elements API
@@ -151,4 +151,3 @@ For the full list of available controls — text, slider, switch, select, and th
 Using the above tags inside of Custom Components only scratch the surface of what's possible, you can also use the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language) inside of your Custom Components.
 
 If you're a developer you can take things even further by creating distributable (and sellable) [Element Packs for RapidWeaver Elements](https://docs.realmacsoftware.com/elements-docs/elements-language/getting-started/getting-started).
-

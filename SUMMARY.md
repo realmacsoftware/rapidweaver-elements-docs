@@ -35,7 +35,7 @@
 * [Inspector](elements/component-inspector.md)
 * [Templates](elements/templates.md)
 * [Components](elements/components/README.md)
-  * [Custom](elements/components/custom-components.md)
+  * [Custom Components](elements/components/custom-components.md)
   * [Common Controls](elements/components/common-controls/README.md)
     * [Link](elements/components/common-controls/link.md)
     * [Layout](elements/components/common-controls/layout.md)
