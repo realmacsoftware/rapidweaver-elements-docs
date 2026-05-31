@@ -24,9 +24,9 @@
 
 ## Switch to Elements
 
-* [Overview](switch-to-elements/overview.md)
-* [Elements vs Classic](switch-to-elements/rapidweaver-elements-vs-classic/README.md)
-  * [Import Classic Projects](switch-to-elements/rapidweaver-elements-vs-classic/import-classic-projects.md)
+* [Getting Started](switch-to-elements/getting-started.md)
+* [Elements vs Classic](switch-to-elements/rapidweaver-elements-vs-classic.md)
+* [Import Classic Projects](switch-to-elements/import-classic-projects.md)
 
 ## Elements
 

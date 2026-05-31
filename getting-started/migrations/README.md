@@ -18,8 +18,8 @@ Let’s get started.
 [rapidweaver-elements-vs-blocs-app.md](../comparisons/rapidweaver-elements-vs-blocs-app.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../switch-to-elements/rapidweaver-elements-vs-classic/" %}
-[rapidweaver-elements-vs-classic](../../switch-to-elements/rapidweaver-elements-vs-classic/)
+{% content-ref url="../../switch-to-elements/rapidweaver-elements-vs-classic.md" %}
+[rapidweaver-elements-vs-classic.md](../../switch-to-elements/rapidweaver-elements-vs-classic.md)
 {% endcontent-ref %}
 
 {% content-ref url="../comparisons/rapidweaver-elements-vs-stacks.md" %}
