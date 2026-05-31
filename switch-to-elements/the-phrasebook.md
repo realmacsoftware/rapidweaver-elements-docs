@@ -1,5 +1,6 @@
 ---
 description: New words for things you already know.
+icon: book
 ---
 
 # The Phrasebook

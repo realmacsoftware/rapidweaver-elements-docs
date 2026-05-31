@@ -2,9 +2,14 @@
 description: >-
   Moving from RapidWeaver Classic? We'll walk you through it, one step at a
   time, at your pace.
+icon: hand-wave
 ---
 
 # Getting Started
+
+{% hint style="success" %}
+This guide will  help you successfully migrate from RapidWeaver Classic to RapidWeaver Elements.
+{% endhint %}
 
 Elements is a fresh and modern way to build websites, but you're not starting over. Most of what you already know still applies, it just has new names and a few new tricks. This is everything you need to make the move, in one place.
 
