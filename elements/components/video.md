@@ -60,8 +60,6 @@ Set when (or if) the video should play automatically.
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% columns %}
 {% column width="50%" %}
 #### Lightbox
@@ -78,16 +76,12 @@ These settings control how the lightbox appears behind the video.
   Adjusts how transparent the backdrop is. Higher values create a darker, more solid overlay.
 * **Blur**\
   Adds a subtle blur effect to the page behind the video.
-
-
 {% endcolumn %}
 
 {% column width="50%" %}
 <figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .45.09@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 {% columns %}
 {% column width="50%" %}
@@ -109,22 +103,18 @@ If you’re using a YouTube link, Elements automatically pulls in the video’s 
   Sets the alt text for the thumbnail image. This improves accessibility and helps search engines understand the content.
 * **Overlay**\
   Adds a colour overlay to the thumbnail. Useful for dimming the image and making the play button stand out.
-
-
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .48.49@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .48.49@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
-
-
 
 {% columns %}
 {% column %}
 #### Aspect Ratio
 
-The Aspect Ratio section controls the shape and framing of the video thumbnail. You can use predefined ratios for quick layouts or set a custom ratio for more precise control.&#x20;
+The Aspect Ratio section controls the shape and framing of the video thumbnail. You can use predefined ratios for quick layouts or set a custom ratio for more precise control.
 
 Additional options let you control how the image fits and where it’s positioned within its frame.
 
@@ -162,7 +152,4 @@ Controls where the image is anchored within its container. Choose from positions
 {% endcolumn %}
 {% endcolumns %}
 
-
-
 {% include "../../.gitbook/includes/common-controls (1).md" %}
-

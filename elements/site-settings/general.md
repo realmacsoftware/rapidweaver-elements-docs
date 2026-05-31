@@ -6,7 +6,7 @@ icon: gear-complex
 
 Use the General project settings to set your website’s title and primary web address.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 7 .15.23@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 7 .09.19@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Disabling Dark Mode
 

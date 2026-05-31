@@ -12,7 +12,7 @@ The main app icon for [RapidWeaver Elements](https://elementsapp.io/), designed 
 
 <figure><img src="../.gitbook/assets/Icon-macOS-512x512@2x.png" alt="" width="188"><figcaption><p>Elements for macOS - Preview</p></figcaption></figure>
 
-{% file src="../.gitbook/assets/Elements-macOS-512x512@2x.png" %}
+{% file src="../.gitbook/assets/Icon-macOS-512x512@2x.png" %}
 Elements Icon @ 1024x1024 - Transparent PNG file
 {% endfile %}
 

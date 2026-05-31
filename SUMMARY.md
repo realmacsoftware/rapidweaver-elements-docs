@@ -17,12 +17,16 @@
 * [Comparisons](getting-started/migrations/README.md)
   * [RapidWeaver Elements vs Blocs](getting-started/comparisons/rapidweaver-elements-vs-blocs-app.md)
   * [RapidWeaver Elements vs Stacks](getting-started/comparisons/rapidweaver-elements-vs-stacks.md)
-  * [Elements vs Classic](getting-started/comparisons/rapidweaver-elements-vs-classic/README.md)
-    * [Import Classic Projects](getting-started/comparisons/rapidweaver-elements-vs-classic/import-classic-projects.md)
   * [RapidWeaver Elements vs Wordpress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
 * [Support Guide](getting-started/troubleshooting/README.md)
   * [Publishing Issues](getting-started/troubleshooting/fixing-issues.md)
   * [How to Reset Elements](getting-started/troubleshooting/troubleshooting.md)
+
+## Switch to Elements
+
+* [Overview](switch-to-elements/overview.md)
+* [Elements vs Classic](switch-to-elements/rapidweaver-elements-vs-classic/README.md)
+  * [Import Classic Projects](switch-to-elements/rapidweaver-elements-vs-classic/import-classic-projects.md)
 
 ## Elements
 

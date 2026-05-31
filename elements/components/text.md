@@ -66,7 +66,7 @@ Add the following CSS to the **Edit Page Code** area of the relevant page:
 }
 ```
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .16.23@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .16.23@2x.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
