@@ -11,13 +11,13 @@ icon: hand-wave
 This guide will  help you successfully migrate from RapidWeaver Classic to RapidWeaver Elements.
 {% endhint %}
 
-Elements is a fresh and modern way to build websites, but you're not starting over. Most of what you already know still applies, it just has new names and a few new tricks. This is everything you need to make the move, in one place.
+Elements is a fresh and modern way to build websites, but you're not starting over. Most of what you already know still applies, it'a a just a new more modern way of building websites. This is everything you need to make the move, all in one place.
 
 Best of all Elements comes with a whole host of new features and improvements to the RapidWeaver experience. It makes building and maintaining websites much easier once you get the hang of it.
 
 ### Four things to get you started
 
-Moving from RapidWeaver Classic? We'll walk you through it, one step at a time, at your pace. We've put togther four sections that you can dip in and out of as you learn using Elements.
+Moving from RapidWeaver Classic? We'll walk you through it, one step at a time, at your pace. We've put togther four sections that you can dip in and out of as you start to learn Elements. And don't forget we have an in-depth manual (with videos) that will help you dive deeper into all the new exciting new features of Elements.
 
 #### 01: The Phrasebook&#x20;
 
