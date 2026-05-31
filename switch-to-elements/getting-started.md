@@ -19,6 +19,10 @@ Best of all Elements comes with a whole host of new features and improvements to
 
 Moving from RapidWeaver Classic? We'll walk you through it, one step at a time, at your pace. We've put togther four sections that you can dip in and out of as you start to learn Elements. And don't forget we have an in-depth manual (with videos) that will help you dive deeper into all the new exciting new features of Elements.
 
+{% hint style="warning" %}
+The videos in this guide will be **slower and more in-depth** than our general tutorials for more seasoned users. This is to ensure new users have time to follow along and fully understand what’s going on at all times. If you do get stuck, just [ask over on our forum](https://forums.realmacsoftware.com/) where we're always aroud to help out.
+{% endhint %}
+
 #### 01: The Phrasebook&#x20;
 
 There's an always a learning curve when moving to new software, and the transition for Classic to Elements is no different. But, I can promise you the transition will be worth it.&#x20;
