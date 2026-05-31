@@ -12,7 +12,7 @@ Best of all Elements comes with a whole host of new features and improvements to
 
 ### Four things to get you started
 
-Moving from RapidWeaver Classic? We'll walk you through it, one step at a time, at your pace.
+Moving from RapidWeaver Classic? We'll walk you through it, one step at a time, at your pace. We've put togther four sections that you can dip in and out of as you learn using Elements.
 
 #### 01: The Phrasebook&#x20;
 
@@ -20,7 +20,19 @@ There's an always a learning curve when moving to new software, and the transiti
 
 There's new words for things you probably already know, for example stacks become components, and partials becomes globals, here's the quick translations to make moving to Elements a little easier. _→_ [_Read the Phrasebook_](the-phrasebook.md)
 
-### Remember to take your time
+#### 02: Elements, From Scratch (coming soon)
+
+A slower-paced video series that assumes nothing. Build your first project, style it, make it responsive, and publish, from start to finish. → Watch the series
+
+#### 03: Starter Projects (coming soon)
+
+Five ready-made projects covering the sites people build most. Open the one closest to yours, follow along, then make it your own. → Browse Starter Projects
+
+#### 04: Bring Your Project Over (coming soon)
+
+Move an existing Classic project into Elements. We'll tell you honestly what carries over, what doesn't, and how to handle the bits in between. → Start importing
+
+### Remember to take your time (coming soon)
 
 **RapidWeaver Classic isn't going anywhere.** Your existing sites keep working, and you can keep using Classic while you find your feet in Elements. There's no switch-off date, you can move one project at a time when you're ready.
 
