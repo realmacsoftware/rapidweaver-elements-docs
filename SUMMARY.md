@@ -26,7 +26,7 @@
 
 * [Getting Started](switch-to-elements/getting-started.md)
 * [The Phrasebook](switch-to-elements/the-phrasebook.md)
-* [Elements vs Classic](switch-to-elements/rapidweaver-elements-vs-classic.md)
+* [Switching to Elements](switch-to-elements/rapidweaver-elements-vs-classic.md)
 * [Import Classic Projects](switch-to-elements/import-classic-projects.md)
 
 ## Elements

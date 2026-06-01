@@ -25,17 +25,17 @@ The videos in this guide will be **slower and more in-depth** than our general t
 
 #### 01: The Phrasebook&#x20;
 
-There's an always a learning curve when moving to new software, and the transition for Classic to Elements is no different. But, I can promise you the transition will be worth it.&#x20;
+There's an always a learning curve when moving to new software, and the transition for Classic to Elements is no different. But we promise you, the transition will be worth it!
 
 There's new words for things you probably already know, for example stacks become components, and partials becomes globals, here's the quick translations to make moving to Elements a little easier. _→_ [_Read the Phrasebook_](the-phrasebook.md)
 
-#### 02: Elements, From Scratch (coming soon)
+#### 02: Switching to Elements
 
-A slower-paced video series that assumes nothing. Build your first project, style it, make it responsive, and publish, from start to finish. → Watch the series
+A slower-paced video series that assumes nothing. Build your first project, style it, make it responsive, and publish, from start to finish. → [Watch the videos](rapidweaver-elements-vs-classic.md)
 
 #### 03: Starter Projects (coming soon)
 
-Five ready-made projects covering the sites people build most. Open the one closest to yours, follow along, then make it your own. → Browse Starter Projects
+Ready-made projects covering the sites people build most. Open the one closest to yours, follow along, then make it your own. → Browse Starter Projects
 
 #### 04: Bring Your Project Over (coming soon)
 
