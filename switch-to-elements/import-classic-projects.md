@@ -17,7 +17,7 @@ If you’re planning a move from Classic, we strongly recommend reading the rest
 
 Watch the video's below to learn more about importing Classic Projects to Elements.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Dev Daiary 96</strong></td><td>How to  Import Classic Projects into Elements.</td><td><a href="../../../.gitbook/assets/maxresdefault-1.jpg">maxresdefault-1.jpg</a></td><td><a href="https://youtu.be/-Eu-o9zRSmE">https://youtu.be/-Eu-o9zRSmE</a></td></tr><tr><td><strong>Dev Diary 97</strong></td><td>Import Stacks, Foundry, and Foundation based Projects.</td><td><a href="../../../.gitbook/assets/maxresdefault.jpg">maxresdefault.jpg</a></td><td><a href="https://youtu.be/JFymG65pDTw">https://youtu.be/JFymG65pDTw</a></td></tr><tr><td><strong>Stacks to Elements</strong></td><td>Learn the key differences when migrating Projects.</td><td><a href="../../../.gitbook/assets/maxresdefault-2.jpg">maxresdefault-2.jpg</a></td><td><a href="https://youtu.be/28KsND9e6EQ">https://youtu.be/28KsND9e6EQ</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Dev Daiary 96</strong></td><td>How to Import Classic Projects into Elements.</td><td><a href="../.gitbook/assets/maxresdefault-1.jpg">maxresdefault-1.jpg</a></td><td><a href="https://youtu.be/-Eu-o9zRSmE">https://youtu.be/-Eu-o9zRSmE</a></td></tr><tr><td><strong>Dev Diary 97</strong></td><td>Import Stacks, Foundry, and Foundation based Projects.</td><td><a href="../.gitbook/assets/maxresdefault.jpg">maxresdefault.jpg</a></td><td><a href="https://youtu.be/JFymG65pDTw">https://youtu.be/JFymG65pDTw</a></td></tr></tbody></table>
 
 ## Importing a Classic Project
 
@@ -34,7 +34,7 @@ Elements will import all important site information including:
 * Robot tags
 * Site Settings (Name, site URL, and logo)
 * Fav Icons
-* Resources (Including Stack page resources)&#x20;
+* Resources (Including Stack page resources)
 * Publishing Destinations
 
 ## Styled Text Page
@@ -54,9 +54,9 @@ Elements will import photos from each Photo Album page and place them into a fol
 Elements will import Stack pages, and will do it's best to preserve the content from popular stacks and frameworks. However, please remember the importer is for importing content, it will not style any of the imported content or page.
 
 {% hint style="warning" %}
-**The Classic Project Importer does not yet read Partials.** To work around this, you may want to unpack any partials and save a copy of your Classic project before you import it into Elements.&#x20;
+**The Classic Project Importer does not yet read Partials.** To work around this, you may want to unpack any partials and save a copy of your Classic project before you import it into Elements.
 
-In Elements [we use Globals](../../../elements/global-templates.md) instead, these are a highly modern and customisable way to include global content throughtout your website.
+In Elements [we use Globals](../elements/global-templates.md) instead, these are a highly modern and customisable way to include global content throughtout your website.
 {% endhint %}
 
 ### Stack Resources
