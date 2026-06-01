@@ -5,9 +5,9 @@ icon: book
 
 # The Phrasebook
 
-Elements isn't Classic with the labels swapped, but it's not a blank slate either. A lot of what you learned in Classic still applies, it just goes by a different name now.&#x20;
+Elements is a whole new website builder so some of the common phrases found in RapidWeacer Classic have changed. However, a lot of what you learned in Classic still applies, it just goes by a different name now.
 
-This page is the quick translation. Read it once, and the rest of Elements will start to feel familiar.
+This page is the quick translation, hopefull Elements will start to feel a little more familiar after reading it.
 
 #### Stacks → Components&#x20;
 
@@ -29,14 +29,13 @@ The inspector is still the inspector.&#x20;
 
 ### The full glossary
 
-| In Classic you said… | In Elements you say… | Why it changed                |
-| -------------------- | -------------------- | ----------------------------- |
-| Stack                | Component            | The building blocks of a page |
-| Partial (stacks)     | Global               |                               |
-| Master Style         | Theme Studio         |                               |
-| Resources            | Resources            | Still the same                |
-| Plugin page types    | Page or File         | More flexible pages           |
-|                      |                      |                               |
-|                      |                      |                               |
-|                      |                      |                               |
+| In Classic you said… | In Elements you say… | Why it changed                                       |
+| -------------------- | -------------------- | ---------------------------------------------------- |
+| Stack                | Component            | The building blocks of a page                        |
+| Partial (stacks)     | Global               | Global design elements like headers and footers.     |
+| Master Style         | Theme Studio         | Change colours, fonts and more, throughout the site. |
+| Plugins              | Page or File         | More flexible pages                                  |
+|                      |                      |                                                      |
+|                      |                      |                                                      |
+|                      |                      |                                                      |
 

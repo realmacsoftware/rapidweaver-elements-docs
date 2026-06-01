@@ -41,13 +41,13 @@ Five ready-made projects covering the sites people build most. Open the one clos
 
 Move an existing Classic project into Elements. We'll tell you honestly what carries over, what doesn't, and how to handle the bits in between. → Start importing
 
-### Remember to take your time (coming soon)
+### Remember to take your time
 
-**RapidWeaver Classic isn't going anywhere.** Your existing sites keep working, and you can keep using Classic while you find your feet in Elements. There's no switch-off date, you can move one project at a time when you're ready.
+**RapidWeaver Classic isn't going anywhere.** Your existing sites will keep working, and you can keep using Classic while you find your feet in Elements. You can move at your own pace, one project at a time when you're ready.
 
 ### Are you still feeling stuck?
 
-Don't worry, if you have a specific conversion or layout you’re struggling to recreate, just [ask on the forum](https://forums.realmacsoftware.com/). Share a screenshot or describe what you need and we'll guide you to the best solution in Elements. You’ll be amazed at how much Elements can do right out of the box.
+If you have a specific website conversion or layout you’re struggling to recreate, just [ask on the forum](https://forums.realmacsoftware.com/). Share a screenshot or describe what you need and we'll guide you to the best solution in Elements. You’ll be amazed at how much Elements can do right out of the box.
 
 ### Frequently Asked Questions
 
