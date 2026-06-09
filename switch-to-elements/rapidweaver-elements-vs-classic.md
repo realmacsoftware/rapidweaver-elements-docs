@@ -7,6 +7,12 @@ icon: circles-overlap
 
 Switching from Classic to Elements might feel like a big step, but the improved performance, future-proof tools, and enhanced creative freedom make it well worth the journey. Plus, the supportive [Elements community](https://forums.realmacsoftware.com/) is here to help you every step of the way.&#x20;
 
+{% hint style="info" %}
+## Switch from Classic to Elements <a href="#undefined" id="undefined"></a>
+
+For a limited time, you can [Crossgrade to Elements and Save 45%](https://www.realmacsoftware.com/ads/crossgrade/?coupon=crossgrade\&utm_source=newsletter\&utm_campaign=crossgrade)
+{% endhint %}
+
 ### Moving from Classic to Elements
 
 The video below will give you a good overview of how Classic and Elements differ. We'll walk you through each difference to help you get more comfortable building websites in Elements.
