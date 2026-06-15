@@ -10,6 +10,8 @@ The Form Component is a flexible and powerful solution for sending form submissi
 The Form Component **requires PHP 8.4** to be installed on your server.
 {% endhint %}
 
+{% embed url="https://www.youtube.com/watch?v=FlAvQC5neyA" %}
+
 ### Recommendation
 
 We recommend using a Webhook to handle email delivery or data collection. It’s significantly more reliable and easier to set up than configuring SMTP manually, which can often lead to issues with authentication, server compatability, spam filters, or SSL mismatches.
@@ -61,21 +63,21 @@ Here’s what to check:
 
 ### ⚠️ A note on sending and receiving email
 
-&#x20;You need to use your own email address as the “From” address because the mail server will only send messages that come from an address it recognises.
+You need to use your own email address as the “From” address because the mail server will only send messages that come from an address it recognises.
 
 If we used the visitor’s email there, the message might get blocked. The usual way around this is to keep your own address as the sender, and then set the visitor’s email as the **Reply-To**.
 
 That way the form email always gets delivered, and when you hit reply it goes straight back to them — this is how Forms work in Elements.
 
-### ✅ PHP Server Check&#x20;
+### ✅ PHP Server Check
 
 We recommend PHP 8.4 or later for best performance, but the minimum supported version is 8.2.
 
 To check is the Elements API is running as expected on your server, simply append ?apicheck to the URL of any page containing a Form.
 
-`my-website.com/contact/?apicheck`&#x20;
+`my-website.com/contact/?apicheck`
 
-### ⚠️  Form Logs
+### ⚠️ Form Logs
 
 To help diagnose issues with your Form, Elements generates detailed log files on your server.
 
@@ -83,15 +85,13 @@ To help diagnose issues with your Form, Elements generates detailed log files on
 
 The logs folder is located at the root of your web server, alongside other top-level folders like index.html, images, or css.
 
-&#x20;`rw/elements/com.realmac.corepack/api/logs`&#x20;
+`rw/elements/com.realmac.corepack/api/logs`
 
 #### Example Log Name
 
 The date at the end of the filename makes it easy to identify the most recent log. Make sure you’re checking the correct file based on when the issue occurred.
 
-&#x20;`form_rw904107B7_1234_4FDC_9B97_1D9A663C1B17-2025-07-24.log`&#x20;
-
-
+`form_rw904107B7_1234_4FDC_9B97_1D9A663C1B17-2025-07-24.log`
 
 ### Form Components
 
@@ -103,7 +103,7 @@ To function correctly, the following Components must be placed inside a Form Com
 
 To recive emails via the Form Component you will need to enter your Email server details. Here’s a breakdown of what each field means and what you’ll need to configure to make it work properly.
 
-<table><thead><tr><th width="212">Authentication Settings</th><th>Details</th></tr></thead><tbody><tr><td>Host</td><td>Email host address. e.g. mail.yourdomain.com</td></tr><tr><td>Port</td><td>The port number the email server uses for sending messages.<br>- 587: For TLS encryption (most common) <br>- 465: For SSL encryption.<br>- 25: For non-encrypted emails (not recommended).</td></tr><tr><td>Encryption</td><td>Choose the encryption method required by your email provider. None, TLS, SSL</td></tr><tr><td>Username</td><td>The email address or username for the SMTP account you’re using to send emails. e.g. admin@yourdomain.com.</td></tr><tr><td>Password</td><td>The password for your SMTP account.</td></tr></tbody></table>
+<table><thead><tr><th width="212">Authentication Settings</th><th>Details</th></tr></thead><tbody><tr><td>Host</td><td>Email host address. e.g. mail.yourdomain.com</td></tr><tr><td>Port</td><td>The port number the email server uses for sending messages.<br>- 587: For TLS encryption (most common)<br>- 465: For SSL encryption.<br>- 25: For non-encrypted emails (not recommended).</td></tr><tr><td>Encryption</td><td>Choose the encryption method required by your email provider. None, TLS, SSL</td></tr><tr><td>Username</td><td>The email address or username for the SMTP account you’re using to send emails. e.g. admin@yourdomain.com.</td></tr><tr><td>Password</td><td>The password for your SMTP account.</td></tr></tbody></table>
 
 <table><thead><tr><th width="212">Email Settings</th><th>Details</th></tr></thead><tbody><tr><td>From Name</td><td>Set as needed (e.g. Jonny Appleseed)</td></tr><tr><td>From Address</td><td>Should match the Username for the account. This is usually the main issue if messages don’t send.</td></tr><tr><td>Subject</td><td>The subject of the email you'll receive. e.g. "Website Feedback"</td></tr><tr><td>To Name</td><td>The name the email will be addressed to. e.g. "Team Realmac"</td></tr><tr><td>To Address</td><td>The email address the form submission will be sent to. e.g. "support@realmacsoftware.com"</td></tr></tbody></table>
 
@@ -145,6 +145,3 @@ Here’s a quick guide:
 4. Open the site in your browser through ServBay for full local testing—including Forms and webhooks
 
 {% embed url="https://youtu.be/pR26NPw0Ip8?si=4aJyKiEJp5ntrPiD" %}
-
-
-
