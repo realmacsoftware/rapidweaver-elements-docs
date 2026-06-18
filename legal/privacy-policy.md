@@ -14,8 +14,8 @@ By using our website or software, you agree to the terms of this Privacy Policy.
 
 Realmac Software Ltd\
 Registered in England and Wales\
-Email: support@realmacsoftware.com\
-ICO Registration Number:
+Email: [support@elementsplatform.com](mailto:support@elementsplatform.com)\
+ICO Registration Number: ZC091380
 
 We design and sell software for macOS, including _Squash_, _RapidWeaver_ Classic and RapidWeaver _Elements_.
 
@@ -99,7 +99,7 @@ To make a request, email support@realmacsoftware.com.
 
 ### 10. Changes to This Policy
 
-We may update this policy from time to time. Any changes will be posted here, and where appropriate, you’ll be notified by email.&#x20;
+We may update this policy from time to time. Any changes will be posted here, and where appropriate, you’ll be notified by email.
 
 This Privacy Policy was **last updated in October 2025** and replaces all previous versions.
 
