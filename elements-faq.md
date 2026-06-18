@@ -50,7 +50,7 @@ The trial mode in Elements has the following limitations:
 
 <summary>Where can I purchase Elements?</summary>
 
-You can [purchase Elements via our website](https://realmacsoftware.com/pricing/).&#x20;
+You can [purchase Elements via our website](https://realmacsoftware.com/pricing/).
 
 </details>
 
@@ -65,7 +65,7 @@ When you purchase Elements you will receive an order confirmation email within 5
 
 The first step is to check your spam folder for anything from Realmac Software or [mailer@fastspring.com](mailto:mailer@fastspring.com).
 
-If you still can't find your order email, you can contact us directly: [support@realmacsoftware.com](mailto:support@realmacsoftware.com). Please include your name, email address, and when you purchased Elements — this will help speed up the search!
+If you still can't find your order email, you can contact us directly: [support@elementsplatform.com](mailto:support@elementsplatform.com). Please include your name, email address, and when you purchased Elements — this will help speed up the search!
 
 </details>
 
@@ -75,7 +75,7 @@ If you still can't find your order email, you can contact us directly: [support@
 
 If you've lost your license, visit our [License Manager](https://realmacsoftware.com/support/license-manager/) and use the automated system to help find your previous purchases.
 
-If you’ve tried using our license manager and are still having issues, please email [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we’ll get you back up and running.
+If you’ve tried using our license manager and are still having issues, please email [support@elementsplatform.com](mailto:support@elementsplatform.com), and we’ll get you back up and running.
 
 Be sure to check your Spam folder. Just in case!
 
@@ -99,8 +99,6 @@ If you are seeing a "Safari Can't Open the Page" error, you'll need to disable t
 
 <figure><img src=".gitbook/assets/4e9813073736bffaf7ffea0a7ad8d2a9c940d46e_2_1380x544.jpeg" alt=""><figcaption></figcaption></figure>
 
-
-
 </details>
 
 <details>
@@ -110,8 +108,6 @@ If you are seeing a "Safari Can't Open the Page" error, you'll need to disable t
 You can do this easily by adding a link to some text, a button, or whichever element you want. When setting the link, select the file from your resources and add a custom attribute called `download`. This attribute will prompt the browser to download the file, not open it.
 
 <figure><img src=".gitbook/assets/CleanShot 2026-04-15 at 09.55.59@2x.png" alt=""><figcaption></figcaption></figure>
-
-
 
 </details>
 
@@ -151,7 +147,7 @@ If you've purchased Elements from us and are not happy, let us know within 30 da
 
 Please forward your original email receipt from your purchase to obtain your refund. While you don't have to do this, it does make it much quicker for us to find and process.
 
-Send this email to [support@realmacsoftware.com](mailto:support@realmacsoftware.com)
+Send this email to [support@elementsplatform.com](mailto:support@elementsplatform.com).
 
 We generally issue refunds within 48 hours (often quicker).
 
@@ -222,7 +218,7 @@ If you don't have access to your old Mac, you can still manage your license acti
 
 If you see the following "Unable to Activate" message, it may mean your license was entered incorrectly, or Elements is having trouble validating it over the internet.
 
-You can email [support@realmacsoftware.com](mailto:support@realmacsoftware.com) with your license, we can check if it's valid and working. If it is, and your license is still not activating on your Mac, you should try the following things:
+You can email [support@elementsplatform.com](mailto:support@elementsplatform.com) with your license, we can check if it's valid and working. If it is, and your license is still not activating on your Mac, you should try the following things:
 
 1. Check you don't have iCloud Private Relay or a VPN running.
 2. Check you've not installed anything that blocks or tracks network traffic (i.e. LittleSnitch.app).
@@ -252,7 +248,7 @@ If you've triple-checked and made sure you're license code is correct, try the f
 5. Open the Registration window again and press the "Activate License…" button and enter your new license details.
 6. You should now be up and running.
 
-If you're still having issues, you can email [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we'll be able to help you out.
+If you're still having issues, you can email [support@elementsplatform.com](mailto:support@elementsplatform.com), and we'll be able to help you out.
 
 </details>
 
@@ -286,7 +282,7 @@ Yes, you can upgrade or downgrade at any time in app. Go to the Settings/Prefere
 
 Our [Billing Manager](https://realmac.onfastspring.com/account/) can help you check a subscription status, change payment details, and cancel your subscription. All you need is access to the email address you used to purchase our software.
 
-If you no longer have access to the email address, contact [support@realmacsoftware.com](mailto:support@realmacsoftware.com), and we'll be able to help you directly.
+If you no longer have access to the email address, contact [support@elementsplatform.com](mailto:support@elementsplatform.com), and we'll be able to help you directly.
 
 </details>
 
@@ -343,7 +339,7 @@ In that email, click on the link "**Click here to manage your orders.**"
 Once logged in, navigate to the **Orders** tab to view your order history. Here you can view all your previous orders, as well as your license key(s). You can also view your order invoices, as well as download the most recent versions of our apps.
 
 {% hint style="info" %}
-If you no longer have access to the email address you used when making your purchase, or you can't remember it, please [contact our support team](mailto:support@realmacsoftware.com) so we can help you regain access to the Billing Manager.
+If you no longer have access to the email address you used when making your purchase, or you can't remember it, please [contact our support team](mailto:support@elementsplatform.com) so we can help you regain access to the Billing Manager.
 {% endhint %}
 
 </details>
@@ -361,7 +357,7 @@ In that email, click on the link "**Click here to manage your orders.**"
 Once logged in, navigate to the **Account Details and Payment Methods** tab. Here you can add/remove payment methods, and edit your name and address information.
 
 {% hint style="info" %}
-It is not possible to update your email address information via the Billing Manager. If you need to update your email address, please [contact our support team](mailto:support@realmacsoftware.com) so we can help you with that.
+It is not possible to update your email address information via the Billing Manager. If you need to update your email address, please [contact our support team](mailto:support@elementsplatform.com) so we can help you with that.
 {% endhint %}
 
 </details>
@@ -372,6 +368,6 @@ It is not possible to update your email address information via the Billing Mana
 
 It's not currently possible to update your email address via our [Billing Manager](https://realmac.onfastspring.com/account/).
 
-If you need to update your email address, please email us at [support@realmacsoftware.com](mailto:support@realmacsoftware.com) and we can get that changed for you.
+If you need to update your email address, please email us at [support@elementsplatform.com](mailto:support@elementsplatform.com) and we can get that changed for you.
 
 </details>
