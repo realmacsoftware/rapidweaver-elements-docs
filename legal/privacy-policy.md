@@ -105,4 +105,4 @@ This Privacy Policy was **last updated in October 2025** and replaces all previo
 
 ### 11. Contact Us
 
-If you have questions about this Privacy Policy or how we handle your data, email us at support@realmacsoftware.com.
+If you have questions about this Privacy Policy or how we handle your data, email us at [support@elementsplatform.com](mailto:support@elementsplatform.com).
