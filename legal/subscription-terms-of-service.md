@@ -37,7 +37,7 @@ A subscription renewal reminder will be sent 3 days before the next payment is t
 Subscribers may cancel their subscription at any time. Subscription cancellations may be made through the account settings or by contacting the Realmac Software customer support.
 
 **6. Refunds**\
-All subscriptions are billed in advance and are non-refundable once the subscription period begins. However, if you experience technical issues preventing you from accessing the Software, please contact support@realmacsoftware.com and we’ll review refund requests on a case-by-case basis.
+All subscriptions are billed in advance and are non-refundable once the subscription period begins. However, if you experience technical issues preventing you from accessing the Software, please contact [support@elementsplatform.com](mailto:support@elementsplatform.com) and we’ll review refund requests on a case-by-case basis.
 
 **7. Software Updates and Enhancements**\
 Subscribers are entitled to receive updates, bug fixes, and enhancements to RapidWeaver Elements during the active subscription period.
@@ -54,7 +54,7 @@ The Provider reserves the right to terminate or suspend a subscription or access
 Subscribers will be notified if their access is suspended or terminated, unless doing so would violate the law or risk service integrity.
 
 **11. Disclaimer of Warranty**\
-RapidWeaver Elements is provided "as is" without any warranties or representations, expressed or implied. The Provider disclaims any warranty of merchantability, fitness for a particular purpose, or non-infringement.&#x20;
+RapidWeaver Elements is provided "as is" without any warranties or representations, expressed or implied. The Provider disclaims any warranty of merchantability, fitness for a particular purpose, or non-infringement.
 
 This disclaimer also applies to any third-party content or add-ons made available through the Elements Marketplace.
 
