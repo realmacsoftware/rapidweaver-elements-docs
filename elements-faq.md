@@ -21,7 +21,7 @@ If your question is not answered below, please [post our Community Support Forum
 
 In order to run Elements your Mac will need to meet the below requirements:
 
-* macOS 13 (**Ventura**), macOS 14 (**Sonoma**), macOS 15 (**Sequoia**), or macOS 26 (**Tahoe**).
+* macOS 13.7.8 (**Ventura**), macOS 14 (**Sonoma**), macOS 15 (**Sequoia**), or macOS 26 (**Tahoe**).
 * Apple Silicon (M1, M2, M3, M4, M5) or Intel based processor.
 
 </details>
