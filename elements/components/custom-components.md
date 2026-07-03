@@ -155,7 +155,7 @@ And reference it in the **Template:**
 ```
 
 {% hint style="info" %}
-For the full list of available controls — text, slider, switch, select, and the theme-aware color, font, and spacing controls — see the [Properties reference](https://app.gitbook.com/s/oWVD0W05KiZtfQynqfZo/component/properties-json/general-structure). For a complete worked example that drives a snow effect from **Amount** and **Follow Mouse** controls, see [Add Snow to your Website](../../elements-app/how-to/add-snow-to-your-website.md).
+For the full list of available controls — text, slider, switch, select, and the theme-aware color, font, and spacing controls — see the [Properties reference](https://app.gitbook.com/s/oWVD0W05KiZtfQynqfZo/component/properties-json/general-structure). For a complete worked example that drives a snow effect from **Amount** and **Follow Mouse** controls, see [Add Snow to your Website](../../getting-started/how-to/add-snow-to-your-website.md).
 {% endhint %}
 
 ### Adding Styles (CSS)
