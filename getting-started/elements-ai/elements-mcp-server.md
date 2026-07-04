@@ -1,5 +1,9 @@
 # Elements MCP Server
 
+{% hint style="danger" %}
+This feature is in development and is **not yet available in public builds of Elements.**
+{% endhint %}
+
 Elements has a built-in MCP server with a range of tools that LLM's can use.
 
 
