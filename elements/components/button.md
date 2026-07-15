@@ -34,7 +34,12 @@ To center the buttons as a group inside the Flex:
 
 This centers the button row within the Flex container.
 
-By default Button Component margins are usually set to "Auto", so you may need to adjust each button’s margin settings to ensure they are aligned correctly. For centring buttons in a flex:
+#### Button margins inside a Flex
 
-* Set the button margins to **0** instead of **Auto**.
-* Auto margins can override the Flex alignment and push buttons into unexpected positions.
+By default, a Button's left and right margins are set to **Auto** (with spacing enabled out of the box). Auto margins absorb the free space in a Flex row, so they override the parent's **Justify** setting and compete with the Flex **Gap** — buttons can spread apart or land in unexpected positions.
+
+When placing Buttons inside a Flex (or Grid):
+
+* Set every Button's margins to **0** instead of **Auto**, so the parent's Gap and Justify settings control spacing and alignment.
+* Note that changing a Button's padding does **not** reset its margin — the Auto margins stay active until you explicitly set them to 0.
+* Only keep Auto margins when you deliberately want a button pushed to one side or centered on its own, outside of Flex-managed spacing.
