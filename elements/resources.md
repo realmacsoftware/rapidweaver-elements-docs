@@ -61,10 +61,13 @@ Add your font files to the resources area in Elements, and use the media inspect
 
 To inspect a file, the Resource Info panel needs to be visible. This panel (or window) can be left open while you browse through files in the Resources area.
 
+Yopu can change details such as:
+
 * Filename (All file types)
-* Link URL (All file types)
 * Caption (images)
+* Alt Text (images
 * Author (images)
+* Link URL (All file types)
 
 ### Creating Folders
 
