@@ -49,7 +49,7 @@
 * [Inspector](elements/component-inspector.md)
 * [Templates](elements/templates.md)
 * [Components](elements/components/README.md)
-  * [Component Page Template](elements/components/component-template.md)
+  * [Component Page \[Template\]](elements/components/component-template.md)
   * [Custom Components](elements/components/custom-components.md)
   * [Common Controls](elements/components/common-controls/README.md)
     * [Link](elements/components/common-controls/link.md)
