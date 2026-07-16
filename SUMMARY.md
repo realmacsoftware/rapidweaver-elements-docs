@@ -31,12 +31,12 @@
   * [Publishing Issues](getting-started/troubleshooting/fixing-issues.md)
   * [How to Reset Elements](getting-started/troubleshooting/troubleshooting.md)
 
-## Switch to Elements
+## Classic to Elements
 
-* [Getting Started](switch-to-elements/getting-started.md)
-* [The Phrasebook](switch-to-elements/the-phrasebook.md)
-* [Switching to Elements](switch-to-elements/rapidweaver-elements-vs-classic.md)
-* [Import Classic Projects](switch-to-elements/import-classic-projects.md)
+* [Getting Started](classic-to-elements/getting-started.md)
+* [The Phrasebook](classic-to-elements/the-phrasebook.md)
+* [Switching to Elements](classic-to-elements/rapidweaver-elements-vs-classic.md)
+* [Import Classic Projects](classic-to-elements/import-classic-projects.md)
 
 ## Elements
 

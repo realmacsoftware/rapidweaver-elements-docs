@@ -18,7 +18,7 @@ Open the resources list in the left-hand sidebar, and drag and drop in files (an
 
 The resources you add will be copied and stored inside your project.
 
-#### Supported File Types&#x20;
+#### Supported File Types
 
 Elements supports adding all files types (including Folders) to the resources browser. However, some file types have extra support.
 
@@ -35,10 +35,10 @@ Even if Elements can't generate a thumbail for the file, it will still export it
 
 #### Websafe Resource Naming
 
-When Publishing, Elements will lowercase all resource filenames and ensure they are websafe by swapping out foreign characters and spaces with an underscore. For example:
+When Publishing, Elements will lowercase all resource filenames and ensure they are websafe by swapping out foreign characters and spaces with a dash. For example:
 
-* `my~file.png` would become `my_file.png`.
-* `my file has spaces.png` would become `my_file_has_spaces.png`.
+* `my~file.png` would become `my-file.png`.
+* `my file has spaces.png` would become `my-file-has-spaces.png`.
 * `myFile.png` would become `myfile.png`.
 
 Many web servers (Linux/Unix based) treat File.jpg and file.jpg as two different files. However, on Windows or macOS (i.e. Elements), the filesystem often isn’t case-sensitive, so it _looks_ fine locally, but when uploaded, it can cause broken links and 404 errors.
@@ -50,6 +50,8 @@ By using lowercase files, you’ll ensure they will ALWAYS work on different env
 You can add YouTube or Vimeo videos by dragging and dropping the URL from your web browser to the Resources area in RapidWeaver Elements. A playlist URL can also be dropped into the resources area.
 
 YouTube and Vimeo videos are not downloaded and store in Elements, the URL to video(s) is stored and saved.
+
+You can also add resoiurces by right-clicking on the `Resources` heading and selecting “Add Remote Resources”.
 
 ### Adding Custom Fonts
 
@@ -72,9 +74,11 @@ Right-click in the Resources area and select the "New Folder" option from the co
 
 Right-click in the Resources area and select "Add Remote Resource" from the contextual menu.
 
+<figure><img src="../.gitbook/assets/CleanShot 2025-08-26 at 9 .36.58@2x.png" alt=""><figcaption></figcaption></figure>
+
 You can add single or multiple remote url's at a time, just ensure each remote resource is on a new line. The Remote Resources window also supports multiple Vimeo and YouTube URL's.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-08-26 at 9 .36.58@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2026-07-16 at 3 .15.23@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Sorting Resources
 
@@ -86,4 +90,3 @@ Resources are always manually sorted. However, you can run a one-time sort actio
 * Z-A (Descending)
 * Newest First
 * Oldest First
-
