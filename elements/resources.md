@@ -5,7 +5,7 @@ icon: folder
 
 # Resources
 
-Website resources include anything from image files to PDFs and folders. All of your resources can be managed right inside RapidWeaver Elements.
+Resources include the images, fonts, documents, media and folders used by your website. You can manage them directly in RapidWeaver Elements.
 
 {% embed url="https://www.youtube.com/watch?v=yDEEhLlVUuU" %}
 
@@ -15,80 +15,80 @@ All resources added to a project will be included when publishing or exporting y
 
 ### Adding Local Resources
 
-Open the resources list in the left-hand sidebar, and drag and drop in files (and folders), from the Finder. The structure and naming of your files will be the same in-app and when it's exported to the finder.
+Open Resources in the left sidebar, then drag files or folders from Finder. Elements preserves their structure and names in the project and its exported output.
 
 The resources you add will be copied and stored inside your project.
 
 #### Supported File Types
 
-Elements supports adding all files types (including Folders) to the resources browser. However, some file types have extra support.
+Elements accepts all file types and folders in Resources, with additional support for certain formats:
 
-* Images - png, svg, jpg, etc.
-* Fonts - WOFF, WOFF2, TTF
-* YouTube URL - Single video's and playlists
-* Vimeo URL - Single video's and playlists
+* Images — PNG, SVG, JPG and other web formats
+* Fonts — WOFF, WOFF2 and TTF
+* YouTube URL — Individual videos and playlists
+* Vimeo URL — Individual videos and playlists
 
 {% hint style="danger" %}
-If you see a warning triangle for your resource instead of a thumbnail it means Elements can't generate a thumbnail for that file. This can happen for a variety of reasons, the most common being the resource is not in the correct format.
+If a warning triangle appears instead of a thumbnail, Elements could not generate a preview for that file. The most common cause is an unsupported or invalid format.
 
-Even if Elements can't generate a thumbail for the file, it will still export it when published.
+Elements will still export the file when publishing, even if it cannot generate a thumbnail.
 {% endhint %}
 
-#### Websafe Resource Naming
+#### Web-Safe Resource Naming
 
-When Publishing, Elements will lowercase all resource filenames and ensure they are websafe by swapping out foreign characters and spaces with a dash. For example:
+When publishing, Elements converts resource filenames to lowercase and replaces unsupported characters or spaces with a hyphen. For example:
 
 * `my~file.png` would become `my-file.png`.
 * `my file has spaces.png` would become `my-file-has-spaces.png`.
 * `myFile.png` would become `myfile.png`.
 
-Many web servers (Linux/Unix based) treat File.jpg and file.jpg as two different files. However, on Windows or macOS (i.e. Elements), the filesystem often isn’t case-sensitive, so it _looks_ fine locally, but when uploaded, it can cause broken links and 404 errors.
+Many Linux and Unix web servers treat `File.jpg` and `file.jpg` as different files. Windows and macOS file systems are often case-insensitive, so a mismatch may work locally but produce broken links after publishing.
 
-By using lowercase files, you’ll ensure they will ALWAYS work on different environments (Windows, Linux, macOS), this could be very important depending on the hosting platform you have chosen.
+Using lowercase filenames avoids these differences between hosting environments.
 
 ### Adding YouTube and Vimeo Videos
 
-You can add YouTube or Vimeo videos by dragging and dropping the URL from your web browser to the Resources area in RapidWeaver Elements. A playlist URL can also be dropped into the resources area.
+Add a YouTube or Vimeo video by dragging its URL from your browser into Resources. Playlist URLs are also supported.
 
-YouTube and Vimeo videos are not downloaded and store in Elements, the URL to video(s) is stored and saved.
+Elements stores the video URL rather than downloading the media.
 
-You can also add resoiurces by right-clicking on the `Resources` heading and selecting “Add Remote Resources”.
+You can also right-click the **Resources** heading and select **Add Remote Resources**.
 
 ### Adding Custom Fonts
 
-Add your font files to the resources area in Elements, and use the media inspector to define a weight (and width if required) for each of the font files. These fonts work in conjunction with [Font Family in the Theme Studio](theme-studio/font-family.md).
+Add font files to Resources, then use the Resource Info panel to define the weight and, if required, width of each file. These fonts work with [Font Family in Theme Studio](theme-studio/font-family.md).
 
 ### Editing Metadata
 
-To inspect a file, the Resource Info panel needs to be visible. This panel (or window) can be left open while you browse through files in the Resources area.
+Open the Resource Info panel to inspect a file. You can leave the panel open while browsing Resources.
 
-Yopu can change details such as:
+You can change details such as:
 
-* Filename (All file types)
+* Filename (all file types)
 * Caption (images)
-* Alt Text (images
+* Alt Text (images)
 * Author (images)
-* Link URL (All file types)
+* Link URL (all file types)
 
 ### Creating Folders
 
-Right-click in the Resources area and select the "New Folder" option from the contextual menu.
+Right-click in Resources and select **New Folder**.
 
 ### Adding Remote Resources
 
-Right-click in the Resources area and select "Add Remote Resource" from the contextual menu.
+Right-click in Resources and select **Add Remote Resources**.
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-08-26 at 9 .36.58@2x.png" alt="Resources contextual menu with Add Remote Resources selected"><figcaption></figcaption></figure>
 
-You can add single or multiple remote url's at a time, just ensure each remote resource is on a new line. The Remote Resources window also supports multiple Vimeo and YouTube URL's.
+You can add one or more remote URLs at a time. Place each remote resource on a new line. The Remote Resources window also supports multiple Vimeo and YouTube URLs.
 
 <figure><img src="../.gitbook/assets/CleanShot 2026-07-16 at 3 .15.23@2x.png" alt="Add Remote Resources dialog containing multiple media URLs on separate lines"><figcaption></figcaption></figure>
 
 ### Sorting Resources
 
-Resources are always manually sorted. However, you can run a one-time sort action to quickly arrange them in a chosen order. To do this, right-click on a Folder in the Resources area and choose a Sort option from the contextual menu. The sort will be applied to the current items in that Folder, but any new items you add (or items you move) will not stay automatically sorted.
+Resources use manual ordering. To arrange the current contents of a folder, right-click it and choose a Sort option. New or moved items will not be sorted automatically.
 
-#### Folder Sorting Options:
+#### Folder Sorting Options
 
 * A-Z (Ascending)
 * Z-A (Descending)

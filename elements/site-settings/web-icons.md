@@ -27,7 +27,7 @@ This approach keeps your project tidy while making sure your website looks polis
 
 ### Adding Favicons
 
-Favicons are managed from your project settings. To get started, click the gear icon in the toolbar to open Project Settings, then select Web Icons from the sidebar.&#x20;
+Favicons are managed from Project Settings. To get started, click the gear icon in the toolbar to open Project Settings, then select **Web Icons** from the sidebar.
 
 You’ll see a set of clearly labelled drop wells for each supported icon type, including iPhone, iPad, Safari pinned tabs, and the classic favicon.
 
@@ -107,5 +107,4 @@ Safari Pinned Tabs behave differently. These use an SVG and fully respect transp
 The topic of favicons has proven to be more exhaustive than anyone could have ever wished. The following article shows how to support just the essentials (and keep yourself sane) while doing it.
 
 * [How to Favicon in 2025: Three files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs).
-
 

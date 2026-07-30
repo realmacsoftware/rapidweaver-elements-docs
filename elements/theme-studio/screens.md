@@ -1,5 +1,5 @@
 ---
-description: Manage and modify breakpoints and container widths.
+description: Manage breakpoints and container widths
 ---
 
 # Screens

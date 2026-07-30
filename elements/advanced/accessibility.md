@@ -1,5 +1,5 @@
 ---
-description: Elements and Accessibility
+description: Build more accessible websites with Elements
 icon: thumbs-up
 ---
 
@@ -20,8 +20,8 @@ While not exhaustive, the following checklist covers the most important steps to
 
 ### Text & Contrast
 
-* Ensure sufficient color contrast between text and background
-* Avoid using color as the only way to convey information
+* Ensure sufficient colour contrast between text and its background
+* Avoid using colour as the only way to convey information
 * Use readable font sizes and line heights
 
 ### Images & Media

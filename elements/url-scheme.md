@@ -1,5 +1,5 @@
 ---
-description: Elements supports a growing number of useful url schemes.
+description: Open projects, resources and developer packs with Elements URL schemes
 icon: link-horizontal
 ---
 
@@ -52,7 +52,7 @@ Import Custom Components requires RapidWeaver Elements 2.1.1 or newer on macOS.
 
 ### Create Publishing Destination
 
-Magic publishing links provide a quick way to automatically configure a publishing destination within a Elements Project. Most of the settings can be configured, reducing user error and making setup a simple one click solution.
+Magic publishing links provide a quick way to configure a publishing destination within an Elements project. Most settings can be included in the link, reducing user error and making setup a simple one-click process.
 
 To create a magic link, use the `elementsapp://` url scheme with `createPublishingDestination` followed by query parameters for the settings.
 

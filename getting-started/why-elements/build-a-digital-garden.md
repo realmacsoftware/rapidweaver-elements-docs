@@ -1,10 +1,10 @@
 ---
-description: Build your own space on the web, one you fully own and control.
+description: Build your own space on the web that you fully own and control
 ---
 
 # Build a Digital Garden
 
-A digital garden is a personal online space where individuals cultivate and organize their thoughts, ideas, and knowledge over time. Unlike a traditional blog, a digital garden is more dynamic and non-linear, allowing for continuous growth and evolution of content. It's a space where you can explore interlinked topics, make connections, and develop ideas organically, free from the constraints of typical social media platforms.
+A digital garden is a personal online space where you cultivate and organise your thoughts, ideas and knowledge over time. Unlike a traditional blog, a digital garden is dynamic and non-linear, allowing its content to grow continuously. It gives you space to explore interlinked topics, make connections and develop ideas organically, away from the constraints of typical social media platforms.
 
 [RapidWeaver Elements](https://www.realmacsoftware.com/rapidweaver/elements/) is the perfect tool to build your own Digital Garden.
 
@@ -12,7 +12,7 @@ A digital garden is a personal online space where individuals cultivate and orga
 
 ### A Brief History & Ethos of the Digital Garden
 
-Gardening is about claiming a small patch of the web for yourself, one you fully own and control.&#x20;
+Gardening is about claiming a small patch of the web for yourself, one you fully own and control.
 
 This patch should not live on the servers of Facebook, LinkedIn, Twitter, Instagram (aka. also Facebook), or Medium. None of these platforms are designed to help you slowly build and weave personal knowledge. Most of them actively fight against it.
 

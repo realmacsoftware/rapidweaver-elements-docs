@@ -1,27 +1,27 @@
 ---
-description: Follow our guide on getting your issue resolved FAST!
+description: Learn how to report an issue and get effective support
 icon: hand-heart
 ---
 
 # Support Guide
 
-If you run into a bug or something doesn’t seem to be working quite right in Elements, we’d love to hear about it.  You can check out our [FAQ guide](../../elements-faq.md) for general support issues, but the **best place to get support** is on the [Elements Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), where our team and other users can offer help and advice!
+If you encounter a bug or something doesn’t seem to be working correctly in Elements, we’d love to hear about it. You can check our [FAQ guide](../../elements-faq.md) for common questions, but the **best place to get support** is the [Elements Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), where our team and other users can offer help and advice.
 
 {% hint style="danger" %}
-Make sure to [**search the forum first**](https://forums.realmacsoftware.com/), your question or bug might already have been resolved.
+Make sure you [**search the forum first**](https://forums.realmacsoftware.com/). Your question or bug may already have been resolved.
 {% endhint %}
 
 ### Download a Previous Version
 
 To test if an Elements update is causing project issues, downgrade to a previous build via the [release notes page](https://realmacsoftware.com/rapidweaver/releasenotes/). This quickly reveals if the update is the problem or just a coincidence.
 
-## How to Get Help (and get it faster)
+## How to Get Help Faster
 
-We’ve seen quite a few posts on the [forum](https://forums.realmacsoftware.com/) where users are asking for help but not giving enough details for anyone to actually solve the problem.&#x20;
+We’ve seen quite a few posts on the [forum](https://forums.realmacsoftware.com/) where users ask for help without providing enough detail for anyone to solve the problem.
 
 To save everyone time, here’s the **best way to** [**ask for help on the forum**](https://forums.realmacsoftware.com/)**:**
 
-1. **Create a Clear Post Title**\
+1. **Write a Clear Post Title**\
    Something like _“Need help styling the navigation component”_ works much better than _“Help. It’s broken!”_.
 2. **Explain the Issue**\
    Tell us what you’re trying to do, what you expected, and what actually happened.
@@ -33,52 +33,52 @@ To save everyone time, here’s the **best way to** [**ask for help on the forum
    A quick screenshot or short video can be a huge help.
 6. **Be Specific**\
    The more detail you include, the quicker you’ll get accurate help.
-7. **Do NOT post AI-generated content**\
+7. **Do Not Post AI-generated Content**\
    AI-generated troubleshooting suggestions can sometimes be a bit off the mark. To help us diagnose things accurately, it’s best to stick to details from your own setup and what you’re seeing directly.
 
-Follow the above guide, and you’ll not only get better answers, you’ll get them much faster.
+Following this guide will help you get better answers more quickly.
 
 #### Why Details Matter
 
-Asking for [help on the forum](https://forums.realmacsoftware.com/) without sharing the Elements Project or live URL is a bit like rolling up to a garage and saying, _“My car’s making a funny noise, can you fix it?”_ but then not showing the mechanic the actually car.
+Asking for [help on the forum](https://forums.realmacsoftware.com/) without sharing the Elements project or live URL is like arriving at a garage and saying, _“My car’s making a funny noise. Can you fix it?”_ without showing the mechanic the actual car.
 
 Sure, they could take a wild guess. They might suggest topping up the oil, tightening a belt, or just turning the radio up so you can’t hear it anymore. But without looking under the bonnet, they’re working blind.
 
 That’s exactly what it’s like when asking for website help without sharing the details. We don’t need the keys, but we do usually need to see the engine.
 
-### How to report a bug
+### How to Report a Bug
 
 When [posting on the forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), you should follow the guidelines below to help us locate and fix your issue much faster.
 
-#### 1. Be as detailed as possible:
+#### 1. Be as Detailed as Possible
 
 Tell us exactly what you were doing when the issue occurred. The more information you can provide, the better. Try to include:
 
 * What you expected to happen
 * What actually happened
-* Any error messages or unusual behavior you noticed
+* Any error messages or unusual behaviour you noticed
 
-#### 2. Steps to reproduce the issue:
+#### 2. Provide Steps to Reproduce the Issue
 
 If you can reliably trigger the problem, let us know how. Write down the exact steps you took leading up to the issue. This is incredibly helpful when we’re trying to track down bugs.
 
-#### 3. Share your Project via Elements Cloud (highly recommended!)
+#### 3. Share Your Project via Elements Cloud
 
-Please upload your project to your Elements Cloud account and share the link with us on the forum.&#x20;
+Please upload your project to your Elements Cloud account and share the link with us on the forum.
 
 **This is one of the most reliable and fastest ways to get your issue fixed!**
 
-#### 4. Include a short video or screenshot:
+#### 4. Include a Short Video or Screenshot
 
 A video is often the quickest way to show what’s going wrong. You can use QuickTime Player.app (included with macOS) to record your screen.
 
 To create a simple recording, **choose File › New Screen Recording** from the menu. Click the red record button, then follow the instructions on the screen. To save, choose **File › Export** and select the quality.
 
-Alternatively, you can use the keyboard shortcut command-shift-5 to bring up the onscreen Screen Recording controls.
+Alternatively, press Command-Shift-5 to open the onscreen recording controls.
 
 Once you’ve made the recording, upload it to a cloud service like Dropbox or Google Drive, or share it via YouTube, and [post the link in your forum thread](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57).
 
-If you can’t share a video, screenshots can still be very helpful. **Try to capture the whole Elements window so we can see your workspace and any visible settings.** A partial screenshot is not very helpful, we need to see the entire context.
+If you can’t share a video, screenshots can still be very helpful. **Try to capture the whole Elements window so we can see your workspace and any visible settings.** A partial screenshot is less useful because we need to see the full context.
 
 Use the keyboard shortcut Command-Shift-3 to take a screenshot, or Command-Shift-4 to select just a portion of the screen.
 
@@ -94,39 +94,31 @@ If you’re experiencing issues, it’s worth reviewing any custom HTML you’ve
 
 ### Document Repaired Warning Dialog
 
-If you see the "Document Repaired Warning Dialog" dialog when opening a project, Don't panic! This is nothing to be alarmed about. **Your project(s) are safe.**
+If you see the Document Repaired warning when opening a project, don’t panic. **Your project is safe.**
 
-When Elements detects any orphaned nodes (bits of content that no longer have a proper home), it moves them to the top of the page rather than deleting them outright. That way, nothing important ever gets lost by mistake.
+When Elements detects orphaned nodes—content that no longer has a proper location—it moves them to the top of the page instead of deleting them. This prevents content from being lost accidentally.
 
 These nodes can be safely removed using the built-in recovery option.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2025-09-30 at 6 .24.07@2x.png" alt="Elements Help menu with Recovery and Remove Recovered Nodes selected"><figcaption></figcaption></figure>
 
-#### Follow these steps to Repair your Project:
+#### Repair Your Project
 
 {% stepper %}
 {% step %}
-With the project open, select the  `Help > Recovery > Remove Recovered Nodes` option.
-
-
+With the project open, choose **Help › Recovery › Remove Recovered Nodes**.
 {% endstep %}
 
 {% step %}
-Then, select the `File > Save As…` command to save your project as a new file.
-
-
+Choose **File › Save As…** to save your project as a new file.
 {% endstep %}
 
 {% step %}
-Close the project and Quit Elements.
-
-
+Close the project and quit Elements.
 {% endstep %}
 
 {% step %}
-Re-launch Elements and open the newly saved (and repaired) project.
-
-
+Relaunch Elements and open the newly saved, repaired project.
 {% endstep %}
 {% endstepper %}
 

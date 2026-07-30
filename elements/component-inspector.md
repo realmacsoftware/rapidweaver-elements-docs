@@ -1,5 +1,5 @@
 ---
-description: Modify display properties on the selected Component
+description: Modify the properties of the selected component
 icon: sidebar-flip
 ---
 
@@ -31,4 +31,4 @@ To change the display modes in the Component Inspector, right-click on a heading
 
 When in Single Group mode the only option available in the right-click menu is switch back to default mode:
 
-* **Single Group Mode** (ticked) - Untick to switch back to the default mode, this will then allow you to view multiple setting at the same time again.
+* **Single Group Mode** (ticked) — Untick this option to return to the default mode and view multiple settings at the same time.

@@ -20,7 +20,7 @@ Marquee Pro is **available via the Elements Store** and requires **Elements 2.0 
 
 * **Two Content Modes** - Use a folder of images or add custom items with full dropzone support
 * **Horizontal & Vertical Scrolling** - Choose the scroll direction that fits your design
-* **Configurable Animation** - Control speed, direction, and hover behavior
+* **Configurable Animation** — Control speed, direction and hover behaviour
 * **Gradient Fade Effect** - Optional smooth fade on edges for a polished look
 * **Draggable Scroll** - Allow users to manually drag and explore content
 * **Accessibility Support** - Automatically respects `prefers-reduced-motion` for users who prefer reduced motion
@@ -39,14 +39,14 @@ Marquee Pro automatically respects the user's motion preferences:
 
 ### Tips & Best Practices
 
-1. **Performance**: For best performance, optimize your images before adding them to the marquee, especially when using folder mode with many images.
+1. **Performance**: Optimise images before adding them to the marquee, especially when using folder mode with many images.
 2. **Visible Items**: Adjust the visible items count based on your content. For logos, 4-6 items often works well. For larger images or cards, 2-3 may be more appropriate.
 3. **Duration**: Slower animations (higher duration values) are generally easier on the eyes and feel more professional. Start with the default of 20 seconds and adjust as needed.
-4. **Hover Behavior**: Use "Pause" if users need to interact with content (like clicking links). Use "Slow" for a subtle effect that doesn't completely stop. Use "None" for purely decorative marquees.
+4. **Hover Behaviour:** Use **Pause** when visitors need to interact with content, such as links. Use **Slow** for a subtle effect that does not stop completely. Use **None** for purely decorative marquees.
 5. **Gradient Fade**: The gradient fade helps content feel less abrupt at the edges. Increase the fade size for wider marquees or decrease it for narrower ones.
 6. **Accessibility**: Always ensure your marquee content is not essential for understanding the page, as some users will have animations disabled.
 
-### Availability and Requirements&#x20;
+### Availability and Requirements
 
 Marquee Pro is **available via the Elements Store** and requires **Elements 2.0 or newer**.
 

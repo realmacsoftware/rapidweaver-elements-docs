@@ -1,5 +1,5 @@
 ---
-description: Powerful AI tools to help you build better websites, faster.
+description: AI tools to help you build better websites more quickly
 icon: hexagon-nodes-bolt
 ---
 

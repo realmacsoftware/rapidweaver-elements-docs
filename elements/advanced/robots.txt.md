@@ -1,5 +1,5 @@
 ---
-description: How to add a robots.txt file to your Elewments Project
+description: How to add a robots.txt file to your Elements project
 icon: robot
 ---
 
@@ -31,5 +31,4 @@ Allow: /
 
 Sitemap: https://example.com/sitemap.xml
 ```
-
 

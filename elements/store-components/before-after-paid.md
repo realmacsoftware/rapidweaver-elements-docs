@@ -1,5 +1,5 @@
 ---
-description: Image Comparison Component for Elements
+description: Compare two images with an interactive slider
 ---
 
 # Before After (Paid)

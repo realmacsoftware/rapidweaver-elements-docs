@@ -1,5 +1,5 @@
 ---
-description: A Program for YouTube Creators and Bloggers
+description: A programme for YouTube creators and bloggers
 icon: star
 ---
 
@@ -27,7 +27,7 @@ Creators accepted into the program receive:
 * $100 per video or blog article (up to $500 in total).
 * Promotion of your content through Elements channels
 
-If your video and articles are of a high-quality, and you plan to cover Elements again or on an ongoing basis, we will award lifetime licenses.
+If your videos and articles are high quality and you plan to cover Elements again or on an ongoing basis, we will award lifetime licences.
 
 ### What We Ask in Return
 

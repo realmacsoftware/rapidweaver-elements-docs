@@ -5,7 +5,7 @@ icon: screwdriver-wrench
 
 # Advanced
 
-The Advanced section lets you fine-tune your project’s output and local preview behavior. These options are entirely optional, but great if you want a bit more control.
+The Advanced section lets you fine-tune your project’s output and local preview behaviour. These options are optional but useful when you need more control.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 7 .10.29@2x.png" alt="Advanced Project Settings showing site output and local web server options"><figcaption><p>Advanced Section in the Project Settings Window</p></figcaption></figure>
 
@@ -20,7 +20,7 @@ The Advanced section lets you fine-tune your project’s output and local previe
 *   Generate Cache-Busting Links
 
     Appends unique version strings to assets (like CSS and JS) to ensure browsers always load the latest version.
-*   **Minify CSS and Javascript**
+*   **Minify CSS and JavaScript**
 
     Strips unnecessary whitespace and comments to shrink file sizes and improve performance.
 *   **Anonymize Requests to Third-Party Servers**

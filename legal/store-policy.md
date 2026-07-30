@@ -1,5 +1,5 @@
 ---
-description: Elements Store Policy for Customers and Sellers.
+description: Elements Store policy for customers and sellers
 ---
 
 # Store Policy
@@ -29,7 +29,7 @@ Your permitted use of the Asset is defined by the type of license purchased (e.g
 
 **2.4 No Transfer of Ownership**
 
-Purchase of an Asset is purchase of a license, not of the underlying copyright or intellectual property rights. We retain all rights not expressly granted herein.
+Purchasing an Asset grants a license, not ownership of the underlying copyright or intellectual property rights. We retain all rights not expressly granted herein.
 
 #### 3. Contributor Agreement (for Sellers)
 
@@ -41,7 +41,7 @@ If you supply Assets to the Store, you agree to the following:
 * You will indemnify us against any claims arising from your breach of these warranties.
 * Upon termination of this Agreement, your rights and our rights with respect to already-approved Assets sold remain as specified in this Agreement.
   * If your contributor account is terminated, we will stop selling your Assets immediately. Existing customers will retain the licenses they already purchased, but no further sales of your Assets will be offered.
-* By participating in the Elements Store, you agree that Elements Platform Ltd will operate a self-billing arrangement for all payouts. Elements Platform Ltd will generate a monthly earnings statement on your behalf, which will serve as the invoice for your revenue share.&#x20;
+* By participating in the Elements Store, you agree that Elements Platform Ltd will operate a self-billing arrangement for all payouts. Elements Platform Ltd will generate a monthly earnings statement on your behalf, which will serve as the invoice for your revenue share.
   * These statements will be made available in your dashboard and may also be sent via email.
   * You agree not to issue separate invoices to Elements Platform Ltd for the same transactions.
 * You are responsible for ensuring that your tax status and reporting obligations are correctly handled in your jurisdiction.
@@ -51,12 +51,12 @@ If you supply Assets to the Store, you agree to the following:
 #### 4. Pricing, Payment & Revenue Share
 
 * If you are a contributor/seller, you will receive payment on the basis and schedule we communicate (e.g., revenue share, payout thresholds).
-* We reserve the right to modify revenue share terms or suspend payments with notice for policy or legal reasons.
+* We reserve the right to modify revenue-share terms or suspend payments with notice for policy or legal reasons.
 
 #### 5. Refunds, Returns & Cancellations
 
 * Because Assets are delivered digitally and can be accessed immediately, refunds will be granted only in exceptional circumstances (e.g., faulty file).
-* If you believe you are eligible for a refund, contact us promptly and state the reason. We will evaluate case by case.
+* If you believe you are eligible for a refund, contact us promptly and state the reason. We will evaluate requests case by case.
 * We reserve the right to deny refunds if we determine that the request is driven by misuse or policy violations.
 
 #### 6. Intellectual Property & Rights
@@ -92,7 +92,7 @@ You agree to defend, indemnify, and hold us harmless from and against any third-
 #### 11. Governing Law & Dispute Resolution
 
 * These policies are governed by the laws of the United Kingdom.
-* You and we agree to submit to the exclusive jurisdiction of the courts of United Kingdom for any dispute arising from or related to these policies or your use of the Store.
+* You and we agree to submit to the exclusive jurisdiction of the courts of the United Kingdom for any dispute arising from or related to these policies or your use of the Store.
 
 #### 12. Changes to These Policies
 

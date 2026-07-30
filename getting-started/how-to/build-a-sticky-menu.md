@@ -1,5 +1,5 @@
 ---
-description: How to make a sticky menu and change it's visual properties on scroll
+description: How to make a sticky menu and change its visual properties on scroll
 ---
 
 # Build a Sticky Menu
@@ -18,7 +18,7 @@ Watch the following tutorial to see how to build a Sticky Menu, along with addin
 
 ## Advanced Sticky Menu Tutorial - Part 2
 
-In this advanced tutorial we use some Javascript to adjust the look of the menu when the user scrolls down the page.&#x20;
+In this advanced tutorial, we use JavaScript to adjust the appearance of the menu as the visitor scrolls down the page.
 
 You can [click here to open the Space Demo Project](elementsapp://downloadDocument/sDsH9PgNy9uG) in Elements.
 
@@ -64,4 +64,3 @@ Adding and Removing Tailwind Classes:
 	});
  </script>
 ```
-

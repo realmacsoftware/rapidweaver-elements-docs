@@ -8,46 +8,46 @@ icon: hand-wave
 # Getting Started
 
 {% hint style="success" %}
-This guide will  help you successfully migrate from RapidWeaver Classic to RapidWeaver Elements.
+This guide will help you migrate successfully from RapidWeaver Classic to RapidWeaver Elements.
 {% endhint %}
 
-Elements is a fresh and modern way to build websites, but you're not starting over. Most of what you already know still applies, it'a a just a new more modern way of building websites. This is everything you need to make the move, all in one place.
+Elements is a fresh, modern way to build websites, but you are not starting over. Most of what you already know still applies; Elements simply offers a more modern workflow. This guide brings together everything you need to make the move.
 
-Best of all Elements comes with a whole host of new features and improvements to the RapidWeaver experience. It makes building and maintaining websites much easier once you get the hang of it.
+Elements also includes many new features and improvements to the RapidWeaver experience. Once you become familiar with the workflow, building and maintaining websites becomes much easier.
 
-### Four things to get you started
+### Four Things to Get You Started
 
-Moving from RapidWeaver Classic? We'll walk you through it, one step at a time, at your pace. We've put togther four sections that you can dip in and out of as you start to learn Elements. And don't forget we have an in-depth manual (with videos) that will help you dive deeper into all the new exciting new features of Elements.
+Moving from RapidWeaver Classic? We will guide you through the process one step at a time and at your own pace. The guide contains four sections that you can explore as you learn Elements. Our in-depth manual and videos can then help you discover more of its features.
 
 {% hint style="warning" %}
-The videos in this guide will be **slower and more in-depth** than our general tutorials for more seasoned users. This is to ensure new users have time to follow along and fully understand what’s going on at all times. If you do get stuck, just [ask over on our forum](https://forums.realmacsoftware.com/) where we're always aroud to help out.
+The videos in this guide are **slower and more detailed** than our general tutorials, giving new users time to follow along and understand each step. If you get stuck, [ask on our forum](https://forums.realmacsoftware.com/), where we are always happy to help.
 {% endhint %}
 
-#### 01: The Phrasebook&#x20;
+#### 01: The Phrasebook
 
-There's an always a learning curve when moving to new software, and the transition for Classic to Elements is no different. But we promise you, the transition will be worth it!
+There is always a learning curve when moving to new software, and the transition from Classic to Elements is no different.
 
-There's new words for things you probably already know, for example stacks become components, and partials becomes globals, here's the quick translations to make moving to Elements a little easier. _→_ [_Read the Phrasebook_](the-phrasebook.md)
+Elements uses new names for concepts you probably already know. For example, stacks become components and partials become Globals. [_Read the Phrasebook_](the-phrasebook.md) for a quick translation guide.
 
 #### 02: Switching to Elements
 
-A slower-paced video series that assumes nothing. Build your first project, style it, make it responsive, and publish, from start to finish. → [Watch the videos](rapidweaver-elements-vs-classic.md)
+A slower-paced video series that assumes no prior knowledge. Build your first project, style it, make it responsive and publish it from start to finish. [Watch the videos](rapidweaver-elements-vs-classic.md).
 
 #### 03: Starter Projects (coming soon)
 
-Ready-made projects covering the sites people build most. Open the one closest to yours, follow along, then make it your own. → Browse Starter Projects
+Ready-made projects covering the types of sites people build most often. Open the one closest to yours, follow along and make it your own.
 
 #### 04: Bring Your Project Over (coming soon)
 
-Move an existing Classic project into Elements. We'll tell you honestly what carries over, what doesn't, and how to handle the bits in between. → Start importing
+Move an existing Classic project into Elements. We explain what carries over, what doesn’t and how to handle the remaining work.
 
-### Remember to take your time
+### Take Your Time
 
-**RapidWeaver Classic isn't going anywhere.** Your existing sites will keep working, and you can keep using Classic while you find your feet in Elements. You can move at your own pace, one project at a time when you're ready.
+**RapidWeaver Classic isn’t going anywhere.** Your existing sites will keep working, and you can continue using Classic while you learn Elements. Move at your own pace, one project at a time.
 
-### Are you still feeling stuck?
+### Still Feeling Stuck?
 
-If you have a specific website conversion or layout you’re struggling to recreate, just [ask on the forum](https://forums.realmacsoftware.com/). Share a screenshot or describe what you need and we'll guide you to the best solution in Elements. You’ll be amazed at how much Elements can do right out of the box.
+If you are struggling to recreate a specific website or layout, [ask on the forum](https://forums.realmacsoftware.com/). Share a screenshot or describe what you need, and we’ll guide you towards a suitable solution in Elements.
 
 ### Frequently Asked Questions
 
@@ -55,7 +55,7 @@ If you have a specific website conversion or layout you’re struggling to recre
 
 <summary>Will my existing RapidWeaver Classic themes be compatible?</summary>
 
-Elements doesn't support Classic themes. It’s been a tough decision to make, but ultimately we think Elements is a much better product as we built it for the future of web design.
+Elements doesn’t support Classic themes. This was a difficult decision, but Elements has been built around a new, modern design system.
 
 </details>
 
@@ -71,7 +71,7 @@ Yes, but you'll need to do some work. It can bring over the page structure and s
 
 <summary>Is it possible to use RapidWeaver Classic and RapidWeaver Elements side-by-side?</summary>
 
-Yes, you can install and run both applications simultaneously on your Mac. We anticipate this scenario to be quite popular as it allows users to manage older projects in Classic while simultaneously migrating and developing newer projects in Elements.
+Yes. You can install and run both applications on your Mac, allowing you to maintain older projects in Classic while migrating or developing projects in Elements.
 
 </details>
 
@@ -81,9 +81,9 @@ Yes, you can install and run both applications simultaneously on your Mac. We an
 
 No, both versions of RapidWeaver will coexist as they cater to slightly different customer needs.
 
-RapidWeaver Classic continues to serve thousands of customers who maintain and build existing websites using a variety of legacy plugins and addons. We will continue to develop and update RapidWeaver Classic to support this "classic" workflow. RapidWeaver Classic requires macOS 10.14 (Mojave) or a newer version.
+RapidWeaver Classic continues to serve customers who maintain and build websites using legacy plugins and add-ons. We will continue to develop and update RapidWeaver Classic to support this workflow. RapidWeaver Classic requires macOS 10.14 (Mojave) or later.
 
-RapidWeaver Elements represents our vision for reimagining web design on the Mac, it's easier and more powerful than ever before to build no-code websites.
+RapidWeaver Elements represents our vision for reimagining web design on the Mac. It makes building no-code websites easier and more powerful than ever.
 
 </details>
 
@@ -91,7 +91,7 @@ RapidWeaver Elements represents our vision for reimagining web design on the Mac
 
 <summary>Do I have to switch now?</summary>
 
-No, RapidWeaver Classic isn't going anywhere. You can keep using Classic while you find your feet in Elements. There's no switch-off date, move one project over when you're ready.
+No. RapidWeaver Classic isn’t going anywhere, so you can keep using it while you learn Elements. There is no switch-off date; move each project when you are ready.
 
 </details>
 
@@ -99,6 +99,6 @@ No, RapidWeaver Classic isn't going anywhere. You can keep using Classic while y
 
 <summary>Will my Classic add-ons and stacks work in Elements?</summary>
 
-No, but Elements differs to Classic as it has everything you'd need to build a complete website. If you do need a specific feature that's not built-in, there's now a thriving third-party community of developers building and selling add-ons to enable you to build  just about anything.
+No, but Elements differs from Classic because it includes everything you need to build a complete website. If you need a feature that is not built in, a thriving community of third-party developers now builds and sells add-ons for a wide range of requirements.
 
 </details>

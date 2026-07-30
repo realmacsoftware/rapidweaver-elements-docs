@@ -2,9 +2,9 @@
 description: During the winter you might want to add snow to your website…
 ---
 
-# Add Snow to your Website
+# Add Snow to Your Website
 
-Adding a snow effect to your website is a fun way to bring festive cheer to your projects in December. It creates a cozy seasonal atmosphere, delights visitors, and adds personality to your design, making your site more memorable and shareable. In this tutorial, we’ll show you how to easily implement a lightweight snow animation using JavaScript in Elements, perfect for enhancing your holiday-themed websites.
+Adding a snow effect can bring some festive character to your website. This tutorial shows you how to create a lightweight snow animation using JavaScript in Elements.
 
 {% embed url="https://youtu.be/eI6RlZaKuu8?si=VwooSVpKzTlfkZ0Q" %}
 
@@ -23,7 +23,7 @@ Links to the resources used int he Tutorial:
 
 ### Custom Component Code
 
-If you'd like to create the Custom Component show in the Tutorial, copy and paste the following code into the the Template Properties areas in Elements.
+To create the Custom Component shown in the tutorial, copy and paste the following code into the Template and Properties areas in Elements.
 
 Place the following code in your **Template:**
 
@@ -71,6 +71,4 @@ Place the following code into the **Properties:**
 }
 
 ```
-
-
 

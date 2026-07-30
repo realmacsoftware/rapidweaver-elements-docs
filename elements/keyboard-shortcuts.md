@@ -5,7 +5,7 @@ icon: keyboard
 
 # Keyboard Shortcuts
 
-Elements has a host of available keyboard shortcuts.
+Use these keyboard shortcuts to work more quickly in Elements.
 
 ### Editor: General
 
@@ -15,13 +15,13 @@ Elements has a host of available keyboard shortcuts.
 | Next Workspace      | Command+Option+.       |                      |
 | Previous Workspace  | Command+Option+,       |                      |
 | Show/Hide Titles    | Command+Option+'       |                      |
-| Show/Hide Outlines  | Command+shift+'        |                      |
+| Show/Hide Outlines  | Command+Shift+'        |                      |
 | Show/Hide Selection | Command+'              |                      |
 | Scroll to Selection | Command+Shift+Option+' | Toggle Editor Scroll |
 
 ### Editor: Selecting and Moving Components
 
-<table><thead><tr><th>Action</th><th width="269">Keyboard Shortcut</th><th>Details</th></tr></thead><tbody><tr><td>Select Previous Sibling</td><td>Option+Up arrow</td><td></td></tr><tr><td>Select Next Sibling</td><td>Option+Down arrow</td><td></td></tr><tr><td>Select Parent</td><td>Option+Up arrow</td><td></td></tr><tr><td>Select Child</td><td>Option+Down arrow</td><td></td></tr><tr><td>Move Up</td><td>Options+Command+Up arrow</td><td></td></tr><tr><td>Move Down</td><td>Options+Command+Down arrow</td><td></td></tr><tr><td>Move to Parent</td><td>Options+Command+Left arrow</td><td></td></tr><tr><td>Move to Child</td><td>Options+Command+Right arrow</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Action</th><th width="269">Keyboard Shortcut</th><th>Details</th></tr></thead><tbody><tr><td>Select Previous Sibling</td><td>Option+Up arrow</td><td></td></tr><tr><td>Select Next Sibling</td><td>Option+Down arrow</td><td></td></tr><tr><td>Select Parent</td><td>Option+Up arrow</td><td></td></tr><tr><td>Select Child</td><td>Option+Down arrow</td><td></td></tr><tr><td>Move Up</td><td>Option+Command+Up arrow</td><td></td></tr><tr><td>Move Down</td><td>Option+Command+Down arrow</td><td></td></tr><tr><td>Move to Parent</td><td>Option+Command+Left arrow</td><td></td></tr><tr><td>Move to Child</td><td>Option+Command+Right arrow</td><td></td></tr></tbody></table>
 
 {% embed url="https://youtu.be/myHZq5hb8TE" %}
 
@@ -41,4 +41,4 @@ Elements has a host of available keyboard shortcuts.
 | Action           | Keyboard Shortcut | Details                                                              |
 | ---------------- | ----------------- | -------------------------------------------------------------------- |
 | Preview Page     | Command+P         | Automatically previews website in default browser.                   |
-| Preview Page In… | Command+Option+P  | Choose from all installed browsers on your system before Previewing. |
+| Preview Page In… | Command+Option+P  | Choose from all installed browsers before previewing.                |

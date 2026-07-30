@@ -5,7 +5,7 @@ icon: map
 
 # sitemap.xml
 
-Elements automatically generates a sitemap.xml file in the root of your website. By default, all new pages are included in the sitemap.&#x20;
+Elements automatically generates a `sitemap.xml` file in the root of your website. By default, all new pages are included in the sitemap.
 
 If you want to exclude a page, simply uncheck the Include in sitemap option in the Page Inspector.
 

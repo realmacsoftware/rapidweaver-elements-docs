@@ -5,7 +5,7 @@ icon: list-tree
 
 # Node Browser
 
-The Node Browser allows you to see and manage the entire structure of your page, this is esecially useful for intricate designs, and larger more complex pages.
+The Node Browser lets you view and manage the entire structure of a page. It is especially useful for intricate designs and larger, more complex pages.
 
 {% embed url="https://youtu.be/d8rFsqi0jHA" %}
 
@@ -38,7 +38,7 @@ Right clicking on the Page Title at the top of the Component Tree gives you a li
 
 ### Keyboard Shortcuts
 
-As well as drag and drop, you can also use Keyboard Shortcuts to move Elements in the Node tree. Watch the video below to learn more about this advanced feature:
+As well as dragging and dropping, you can use keyboard shortcuts to move components in the Node Browser. Watch the video below to learn more about this advanced feature:
 
 {% embed url="https://www.youtube.com/watch?v=myHZq5hb8TE" %}
 
@@ -50,7 +50,7 @@ The following is a list of keyboard shortcuts for moving nodes within the Node B
 | Select Next Sibling     | Option+Down arrow           |
 | Select Parent           | Option+Up arrow             |
 | Select Child            | Option+Down arrow           |
-| Move Up                 | Options+Command+Up arrow    |
-| Move Down               | Options+Command+Down arrow  |
-| Move to Parent          | Options+Command+Left arrow  |
-| Move to Child           | Options+Command+Right arrow |
+| Move Up                 | Option+Command+Up arrow     |
+| Move Down               | Option+Command+Down arrow   |
+| Move to Parent          | Option+Command+Left arrow   |
+| Move to Child           | Option+Command+Right arrow  |

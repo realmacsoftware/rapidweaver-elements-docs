@@ -1,5 +1,5 @@
 ---
-description: Manage your websites global colour palette
+description: Manage your website’s global colour palette
 ---
 
 # Colors

@@ -8,13 +8,13 @@
 * [Download](getting-started/download.md)
 * [License](getting-started/license-types.md)
 * [Quickstart](getting-started/quickstart.md)
-  * [How to Tutorials](elements-app/how-to/fix-common-design-issues.md)
+  * [How-to Tutorials](elements-app/how-to/fix-common-design-issues.md)
   * [Let's Build](getting-started/quickstart/lets-build.md)
 * [How to](getting-started/how-to/README.md)
   * [Add an Icon Inside a Button](getting-started/how-to/add-an-icon-inside-a-button.md)
   * [Adjust Smooth Scroll Speed](getting-started/how-to/adjust-smooth-scroll-speed.md)
   * [Apply Anchor Scroll Padding](getting-started/how-to/apply-anchor-scroll-padding.md)
-  * [Add Snow to your Website](getting-started/how-to/add-snow-to-your-website.md)
+  * [Add Snow to Your Website](getting-started/how-to/add-snow-to-your-website.md)
   * [Build a Sticky Menu](getting-started/how-to/build-a-sticky-menu.md)
   * [Site Banner with Text](getting-started/how-to/site-banner-with-text.md)
   * [Create a Card](getting-started/how-to/create-a-card.md)
@@ -28,7 +28,7 @@
 * [Comparisons](getting-started/migrations/README.md)
   * [RapidWeaver Elements vs Blocs](getting-started/comparisons/rapidweaver-elements-vs-blocs-app.md)
   * [RapidWeaver Elements vs Stacks](getting-started/comparisons/rapidweaver-elements-vs-stacks.md)
-  * [RapidWeaver Elements vs Wordpress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
+  * [RapidWeaver Elements vs WordPress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
 * [Support Guide](getting-started/troubleshooting/README.md)
   * [Publishing Issues](getting-started/troubleshooting/fixing-issues.md)
   * [How to Reset Elements](getting-started/troubleshooting/troubleshooting.md)
@@ -156,7 +156,7 @@
 * [Deep Linking](elements/url-scheme.md)
 * [Elements API](elements/building-extensions.md)
 
-## Presskit
+## Press Kit
 
 * [Promo Guide](presskit/promo-guide.md)
 * [Logo](presskit/logotype.md)

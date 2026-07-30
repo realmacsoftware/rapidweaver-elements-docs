@@ -4,11 +4,11 @@ description: All the information you need to help you review or promote Elements
 
 # Promo Guide
 
-If you're reviewing Elements for a publication you'll find all the information you need below.
+If you’re reviewing Elements for a publication, you’ll find the available promotional resources below.
 
-If you have any questions please email dan@realmacsoftware.com
+If you have any questions, email [dan@realmacsoftware.com](mailto:dan@realmacsoftware.com).
 
-### Element Assets
+### Elements Assets
 
 A collection of links to useful resources:
 
@@ -20,7 +20,7 @@ A collection of links to useful resources:
 [icon.md](icon.md)
 {% endcontent-ref %}
 
-### Element Links
+### Elements Links
 
 A collection of useful links:
 
@@ -30,4 +30,3 @@ A collection of useful links:
 * Elements User Guide
 * Elements API Docs
 * Elements CMS Docs
-

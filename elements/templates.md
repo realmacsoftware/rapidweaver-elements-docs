@@ -5,7 +5,7 @@ icon: objects-column
 
 # Templates
 
-Templates are groups of Components that have been put togther to create a design or layout. Once a template is dropped into your page you can customise it however you like and it won't affect the original.
+Templates are groups of components arranged to create a design or layout. Once you add a template to a page, you can customise it without affecting the original.
 
 The Core pack inside of Elements includes a selection of useful layouts for everyday web design, including menus, hero banners, layouts, forms, and more.
 

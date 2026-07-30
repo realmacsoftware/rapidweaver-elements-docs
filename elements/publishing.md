@@ -5,7 +5,7 @@ icon: globe
 
 # Publishing
 
-When you’re ready to publish your website, you'll need to go to your Site Settings and select the "publishing" tab in the sidebar to set up a publishing destination.
+When you are ready to publish, open Project Settings and select **Publishing** in the sidebar to create a publishing destination.
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-05-21 at 10 .54.04@2x.png" alt="Project Settings dialog for creating a new publishing destination"><figcaption></figcaption></figure>
 
@@ -18,12 +18,12 @@ Elements can publish to the following locations and services:
 
 Publishing your site is an exciting moment: you’ll be able to enter a website address into Safari and see the fruits of your work.
 
-Depending on who your hosting provider is, you may need to tweak a few options in Elements before you publish your website. This is entirely normal and is simply due to web hosts having different requirements when publishing your site.
+You may need to adjust a few options before publishing because hosting providers use different server configurations.
 
-Most importantly, you’ll need to remember that the details you enter into Elements are supplied by your hosting provider, not Realmac Software. Many hosting providers will require you to use publishing details that differ from any details you may use to access their control panel in a web browser. While this may be frustrating, it’s designed to keep your private information safe. If you are at all unsure about what to enter into Elements, drop your hosting provider an email, and they’ll be able to advise you.
+Your hosting provider supplies the connection details entered into Elements; Realmac Software does not have access to them. These details may differ from the credentials used to access your hosting control panel. If you are unsure what to enter, contact your hosting provider.
 
 {% include "../.gitbook/includes/elements-website-hosting.md" %}
 
-## How to fix Publishing Issues
+## How to Fix Publishing Issues
 
-If you're having issues publishing your website, please follow our in-depth [guide to fixing publishing issues](../getting-started/troubleshooting/fixing-issues.md), if followed carefully, we often find it fixes 99% of publising issues!
+If you have trouble publishing your website, follow our detailed [publishing troubleshooting guide](../getting-started/troubleshooting/fixing-issues.md).

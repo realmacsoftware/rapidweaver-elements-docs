@@ -1,5 +1,5 @@
 ---
-description: Set the default properties for all pages.
+description: Set the default properties for all pages
 ---
 
 # Page

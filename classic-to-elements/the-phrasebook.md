@@ -1,17 +1,17 @@
 ---
-description: New words for things you already know.
+description: New words for things you already know
 icon: book
 ---
 
 # The Phrasebook
 
-Elements is a whole new website builder so some of the common phrases found in RapidWeacer Classic have changed. However, a lot of what you learned in Classic still applies, it just goes by a different name now.
+Elements is a completely new website builder, so some of the common phrases used in RapidWeaver Classic have changed. Much of what you learned in Classic still applies, but it now goes by a different name.
 
-This page is the quick translation, hopefull Elements will start to feel a little more familiar after reading it.
+This page provides a quick translation to help Elements feel more familiar.
 
-#### Stacks → Components&#x20;
+#### Stacks → Components
 
-In Classic, you dragged stacks into a Stacks page to build it. In Elements, you do the same thing with **components,** drag them in, stack them up, nest them inside each other.&#x20;
+In Classic, you dragged stacks onto a Stacks page to build it. In Elements, you do the same thing with **components**: drag them in, stack them up and nest them inside each other.
 
 The mental model is the one you already have. _What's genuinely new:_ components are built into Elements rather than bought and installed one by one, and they're more consistent with each other because they come from one place.
 
@@ -19,13 +19,13 @@ The mental model is the one you already have. _What's genuinely new:_ components
 
 This is the biggest shift. In Classic, a theme decided how your whole site looked, and you worked within it. In Elements, you're more directly in control of styling.
 
-You can build out your design with the built-in Components and Templates and and then change the overall style in the Theme Studio. It's a lot more flexible than the classic themes.
+You can build your design with the built-in Components and Templates, then change its overall style in Theme Studio. This gives you far more flexibility than Classic themes.
 
-For example, you can global change the colours, or the font type throughout your entire site using the Theme Studio.
+For example, you can change colours or fonts throughout your entire site using Theme Studio.
 
 #### Inspector → Inspector
 
-The inspector is still the inspector.&#x20;
+The Inspector is still the Inspector.
 
 ### The full glossary
 
@@ -38,4 +38,3 @@ The inspector is still the inspector.&#x20;
 |                      |                      |                                                      |
 |                      |                      |                                                      |
 |                      |                      |                                                      |
-

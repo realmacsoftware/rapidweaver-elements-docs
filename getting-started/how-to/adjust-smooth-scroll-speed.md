@@ -1,12 +1,12 @@
 ---
-description: Set the scrolling Anchor speed using Smooth Scroll JS Library.
+description: Adjust anchor scrolling speed with the Smooth Scroll JavaScript library
 ---
 
 # Adjust Smooth Scroll Speed
 
-If you want to control the scroll timing (and other options such as easing) when scrolling to an anchor  then you can use the [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) js library.
+To control the timing and easing when scrolling to an anchor, use the [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) JavaScript library.
 
-To add Smooth Scroll to yoru project, put the following in your project’s Template, just before the closing `</head>` tag.
+To add Smooth Scroll to your project, place the following code in your project's Template, immediately before the closing `</head>` tag.
 
 ```html
   <!-- Load the Smooth Scroll library -->

@@ -1,5 +1,5 @@
 ---
-description: Add a google map to your website.
+description: Add a Google map to your website
 ---
 
 # Map (Free)

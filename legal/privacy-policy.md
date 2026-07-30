@@ -1,5 +1,5 @@
 ---
-description: We value your privacy.
+description: How Realmac Software collects, uses and protects your data
 ---
 
 # Privacy Policy
@@ -73,11 +73,11 @@ We only process personal data when we have a valid legal reason to do so:
 | Responding to support requests | Legitimate interest   |
 | Website analytics              | Consent               |
 
-### 7. How We Store and Protect Your Data
+### 6. How We Store and Protect Your Data
 
 All traffic to our websites (including the store, forum, and community) uses HTTPS for secure communication. We store minimal data and ensure it’s protected using appropriate technical and organisational measures.
 
-### 8. Data Retention
+### 7. Data Retention
 
 We only keep your data for as long as necessary:
 
@@ -85,7 +85,7 @@ We only keep your data for as long as necessary:
 * Newsletter data: until you unsubscribe
 * Analytics data: typically 26 months (Google’s standard retention period)
 
-### 9. Your Rights
+### 8. Your Rights
 
 You have the right to:
 
@@ -97,12 +97,12 @@ You have the right to:
 
 To make a request, email support@realmacsoftware.com.
 
-### 10. Changes to This Policy
+### 9. Changes to This Policy
 
 We may update this policy from time to time. Any changes will be posted here, and where appropriate, you’ll be notified by email.
 
 This Privacy Policy was **last updated in October 2025** and replaces all previous versions.
 
-### 11. Contact Us
+### 10. Contact Us
 
 If you have questions about this Privacy Policy or how we handle your data, email us at [support@elementsplatform.com](mailto:support@elementsplatform.com).

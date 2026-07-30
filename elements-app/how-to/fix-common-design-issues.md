@@ -2,21 +2,21 @@
 description: Quick web design tutorials for Elements
 ---
 
-# How to Tutorials
+# How-to Tutorials
 
-The following tutorials cover a lot of the popular design related questions for newer users in the Elements ecosystem.&#x20;
+The following tutorials answer many common design questions for people who are new to Elements.
 
 👉 [**You can find even more tutorials on our YouTube channel**](https://youtube.com/c/realmacsoftware?sub_confirmation=1)**.**
 
-### Center an image (or component)
+### Centre an Image or Component
 
-To change the alignment of the built-in Components, use the Margin setting under the [Spacing Control](../../elements/components/common-controls/spacing.md). Watch the video below to learn more about setting the alignment of an object, including how to center an object.
+To change the alignment of a built-in component, use the Margin setting under the [Spacing control](../../elements/components/common-controls/spacing.md). Watch the video below to learn how to align an object, including how to centre it.
 
 {% embed url="https://youtu.be/spmpYAMEr-U" %}
 
 ### Create a two column layout
 
-The following tutorial will show you how to make a two coloumn layout in Elements using either the flex or grid components.
+The following tutorial shows you how to make a two-column layout in Elements using either the Flex or Grid component.
 
 {% embed url="https://www.youtube.com/watch?v=e4aFe6uteO0" %}
 

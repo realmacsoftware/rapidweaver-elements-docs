@@ -1,5 +1,5 @@
 ---
-description: RapidWeaver Elements Branding Artwork
+description: Download RapidWeaver Elements branding artwork
 ---
 
 # Logo

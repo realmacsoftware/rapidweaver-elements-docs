@@ -1,5 +1,5 @@
 ---
-description: Elements requires macOS 13 Ventura or newer.
+description: Elements requires macOS 13 Ventura or later
 icon: desktop-arrow-down
 ---
 
@@ -7,7 +7,7 @@ icon: desktop-arrow-down
 
 The demo mode in Elements lets you explore the full app and build up to three pages, giving you a feel for the design workflow and features. While export and publishing are disabled in the trial, everything else is fully functional, so you can see exactly how Elements works before committing.
 
-<a href="https://realmacsoftware.com/download/elements/" class="button primary" data-icon="circle-arrow-down">Download Elements</a>&#x20;
+<a href="https://realmacsoftware.com/download/elements/" class="button primary" data-icon="circle-arrow-down">Download Elements</a>
 
 When the download is complete double-click to unzip the file, then move Elements.app to your Applications Folder.
 

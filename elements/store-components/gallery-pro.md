@@ -1,5 +1,5 @@
 ---
-description: A Powerful, Professional Gallery for Photographers and Creators
+description: A powerful, professional gallery for photographers and creators
 ---
 
 # Gallery Pro (Paid)

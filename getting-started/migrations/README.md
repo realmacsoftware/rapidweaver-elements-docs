@@ -1,17 +1,16 @@
 ---
 description: >-
-  The best alternative to Stacks, Blocs, Wordpress, and other online website
-  builders.
+  Compare Elements with Stacks, Blocs, WordPress and other website builders
 icon: glasses-round
 ---
 
 # Comparisons
 
-Whether you’re coming from Stacks, Blocs, or WordPress, you’ll feel right at home in Elements. We’ve designed it to be both powerful and intuitive, combining the flexibility of code with the simplicity of visual editing. Migrating your projects might feel like a big step, but don’t worry: this guide will walk you through what to expect, how to recreate common setups, and where Elements improves your existing workflow.
+Whether you’re coming from Stacks, Blocs or WordPress, Elements combines the flexibility of code with the simplicity of visual editing. These comparisons explain what to expect, how to recreate common setups and where the Elements workflow differs.
 
-From familiar layout patterns to modern web standards, you’ll find smarter, cleaner ways to build. No plugins. No clutter. Just pure performance, freedom, and creative control.
+From familiar layout patterns to modern web standards, you’ll find cleaner ways to build with fewer dependencies.
 
-Let’s get started.
+Choose a comparison below to get started.
 
 {% content-ref url="../comparisons/rapidweaver-elements-vs-blocs-app.md" %}
 [rapidweaver-elements-vs-blocs-app.md](../comparisons/rapidweaver-elements-vs-blocs-app.md)

@@ -1,12 +1,12 @@
 ---
-description: Your Software Licence Agreement
+description: Terms governing your RapidWeaver Elements subscription and software license
 ---
 
 # Terms of Service
 
-Please carefully read and understand the following terms and conditions "Terms" before purchasing or renewing RapidWeaver Elements. These Terms constitute a legally binding agreement between you, the "Subscriber" and Realmac Software the "Provider".
+Please read and understand the following terms and conditions (the "Terms") before purchasing or renewing RapidWeaver Elements. These Terms constitute a legally binding agreement between you, the "Subscriber", and Realmac Software, the "Provider".
 
-### Agreement Summary (the tldr version)
+### Agreement Summary (the TL;DR Version)
 
 * Subscription: Your Elements plan includes a software license and one year of app updates, which renews annually unless cancelled.
 * Billing: Payments are taken automatically unless you cancel. We’ll send you a reminder 3 days before renewal.
@@ -29,7 +29,7 @@ By purchasing RapidWeaver Elements, the Subscriber selects a license plan and re
 The initial update period begins on the date of purchase and lasts for one year. The software license does not expire: if the update subscription ends, the Subscriber may continue using the latest version released during their active update period, but will not receive later updates until they resubscribe.
 
 **3. Payment and Billing**\
-Subscriber agrees to pay all applicable fees associated with the subscribed plan. Payment details, including billing frequency and method, are provided during the subscription process. The Provider reserves the right to change subscription fees upon providing reasonable notice to the Subscriber.
+The Subscriber agrees to pay all applicable fees associated with the subscribed plan. Payment details, including billing frequency and method, are provided during the subscription process. The Provider reserves the right to change subscription fees upon providing reasonable notice to the Subscriber.
 
 **4. Automatic Renewal**\
 A subscription renewal reminder will be sent 3 days before the next payment is taken. Unless auto-renewal is explicitly disabled by the Subscriber, the update subscription will automatically renew for another year. The Subscriber's payment method will be charged for the renewal fee unless cancelled.
@@ -46,7 +46,7 @@ Subsequent annual renewal payments are not refundable under the 30-day money-bac
 Subscribers are entitled to receive updates, bug fixes, and enhancements to RapidWeaver Elements during the active subscription period.
 
 **8. License and Usage**\
-The purchase grants Subscriber a non-exclusive, non-transferable license to use RapidWeaver Elements solely for personal or business purposes in accordance with the license agreement. Subscriber shall not use, copy, modify, distribute, or exploit the software beyond the scope permitted by applicable law or Realmac Software's guidelines.
+The purchase grants the Subscriber a non-exclusive, non-transferable license to use RapidWeaver Elements solely for personal or business purposes in accordance with the license agreement. The Subscriber shall not use, copy, modify, distribute, or exploit the software beyond the scope permitted by applicable law or Realmac Software's guidelines.
 
 **9. Data and Privacy**\
 Subscriber’s personal information is handled in accordance with Realmac Software’s Privacy Policy. By subscribing, the Subscriber consents to the collection and use of their personal data as described in that policy.
@@ -95,7 +95,7 @@ This Agreement constitutes the entire understanding between Realmac Software and
 **21. Marketplace and Third-Party Add-ons**\
 RapidWeaver Elements may provide access to third-party add-ons, templates, or components. These are developed and sold by independent creators. Realmac Software is not responsible for the content, functionality, or security of third-party add-ons. All purchases are processed through FastSpring and subject to the relevant seller’s own terms where applicable.
 
-By purchasing or renewing RapidWeaver Elements, Subscriber indicates their understanding and acceptance of these Terms and agrees to be bound by them. It is recommended to review these Terms periodically for any updates or changes.
+By purchasing or renewing RapidWeaver Elements, the Subscriber indicates their understanding and acceptance of these Terms and agrees to be bound by them. Subscribers should review these Terms periodically for updates or changes.
 
 **22. Dev Pack Restriction**\
-Subscribers and third-party creators are not permitted to sell or otherwise monetise Dev Packs. These dev packs are provided solely for building, testing, and developing add-ons or templates for the Elements ecosystem and must not be packaged, resold, or included as part of any commercial product. Dev Components need to be compiled and distributed via the Elements Platform Store, they can then be sold directly to Element Users. Any attempt to sell unencrypted Dev Components will result in termination of the subscribers license.
+Subscribers and third-party creators are not permitted to sell or otherwise monetise Dev Packs. These Dev Packs are provided solely for building, testing and developing add-ons or templates for the Elements ecosystem. They must not be packaged, resold or included as part of any commercial product. Dev Components must be compiled and distributed through the Elements Platform Store before they can be sold directly to Elements users. Any attempt to sell unencrypted Dev Components will result in termination of the Subscriber's license.

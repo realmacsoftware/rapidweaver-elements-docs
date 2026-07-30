@@ -1,5 +1,5 @@
 ---
-description: Frequently Asked RapidWeaver Elements Questions
+description: Frequently asked questions about RapidWeaver Elements
 icon: comment-question
 ---
 
@@ -10,7 +10,7 @@ Welcome to the official FAQ for RapidWeaver Elements. This resource is designed 
 Whether you’re just getting started or you’re an experienced user, our goal is to make sure you have all the information you need to build stunning websites with confidence.
 
 {% hint style="success" %}
-If your question is not answered below, please [post our Community Support Forum](https://forums.realmacsoftware.com/). We'll get back to you within 48 hours. Don't worry, it's usually within a few hours or even quicker!
+If your question is not answered below, please [post on our Community Support Forum](https://forums.realmacsoftware.com/). We aim to reply within 48 hours, although it is often much sooner.
 {% endhint %}
 
 ### General Questions
@@ -19,10 +19,10 @@ If your question is not answered below, please [post our Community Support Forum
 
 <summary>What are the system requirements for Elements?</summary>
 
-In order to run Elements your Mac will need to meet the below requirements:
+To run Elements, your Mac must meet the following requirements:
 
 * macOS 13.7.8 (**Ventura**), macOS 14 (**Sonoma**), macOS 15 (**Sequoia**), or macOS 26 (**Tahoe**).
-* Apple Silicon (M1, M2, M3, M4, M5) or Intel based processor.
+* Apple silicon (M1, M2, M3, M4 or M5) or an Intel-based processor.
 
 </details>
 
@@ -58,14 +58,14 @@ You can [purchase Elements via our website](https://realmacsoftware.com/pricing/
 
 <summary>I didn't receive a license email. Where is it?!</summary>
 
-When you purchase Elements you will receive an order confirmation email within 5 minutes confirming your order along with your license number. The email will be sent from "[mailer@fastspring.com](mailto:mailer@fastspring.com)" which is our payment provider. If you can't find the email it's usually because of one of the following reasons:
+When you purchase Elements, you should receive an order confirmation email containing your license number within five minutes. The email is sent by our payment provider from [mailer@fastspring.com](mailto:mailer@fastspring.com). If you cannot find it, one of the following may have happened:
 
-* The email from us ended up in your Spam Folder.
-* You entered your email address incorrectly when purchasing (no shame, we've all done it!).
+* The email went to your spam folder.
+* You entered your email address incorrectly during the purchase.
 
-The first step is to check your spam folder for anything from Realmac Software or [mailer@fastspring.com](mailto:mailer@fastspring.com).
+First, check your spam folder for messages from Realmac Software or [mailer@fastspring.com](mailto:mailer@fastspring.com).
 
-If you still can't find your order email, you can contact us directly: [support@elementsplatform.com](mailto:support@elementsplatform.com). Please include your name, email address, and when you purchased Elements — this will help speed up the search!
+If you still cannot find the email, contact [support@elementsplatform.com](mailto:support@elementsplatform.com). Include your name, email address and approximate purchase date to help us find the order.
 
 </details>
 
@@ -77,7 +77,7 @@ If you've lost your license, visit our [License Manager](https://realmacsoftware
 
 If you’ve tried using our license manager and are still having issues, please email [support@elementsplatform.com](mailto:support@elementsplatform.com), and we’ll get you back up and running.
 
-Be sure to check your Spam folder. Just in case!
+Be sure to check your spam folder too.
 
 </details>
 
@@ -85,7 +85,7 @@ Be sure to check your Spam folder. Just in case!
 
 <summary>I still have a question, where can I go for help?</summary>
 
-If you question wasn't answered above or you need clarification, please [post on the Elements forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43), and we'll get back to you as soon as possible. Don't forget to [follow our Support Guide](getting-started/troubleshooting/) to get your issue resolved even quicker.
+If your question was not answered above or you need clarification, [post on the Elements forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/43). Following our [Support Guide](getting-started/troubleshooting/) will help the community resolve your issue more quickly.
 
 </details>
 
@@ -103,7 +103,7 @@ If you are seeing a "Safari Can't Open the Page" error, you'll need to disable t
 
 <details>
 
-<summary>How can I make a file (pdf, zip, audio, etc…) available for download on my website?</summary>
+<summary>How can I make a file (PDF, ZIP, audio, etc.) available for download on my website?</summary>
 
 You can do this easily by adding a link to some text, a button, or whichever element you want. When setting the link, select the file from your resources and add a custom attribute called `download`. This attribute will prompt the browser to download the file, not open it.
 
@@ -117,9 +117,9 @@ You can do this easily by adding a link to some text, a button, or whichever ele
 
 <summary>What are the differences between the Base, Plus, and Pro licenses?</summary>
 
-With Elements’ three license options: Base, Plus, and Pro, you can choose the plan that best fits your needs, whether you're a casual user, hobbyist, professional web designer, or multi-member team.
+Elements offers three license options: Base, Plus and Pro. Choose the plan that best fits your needs, whether you are a casual user, hobbyist, professional web designer or part of a team.
 
-Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences. Please take a look at our [License Types document](getting-started/license-types.md) for more details.
+Every Elements license includes everything you need to build a website, but there are a few key differences. See [License Types](getting-started/license-types.md) for details.
 
 </details>
 
@@ -141,11 +141,11 @@ Please note the following:
 
 <summary>Do you offer refunds?</summary>
 
-**Yes!** We offer a 30 day money-back guarantee.
+**Yes!** We offer a 30-day money-back guarantee.
 
 If you've purchased Elements from us and are not happy, let us know within 30 days, and we'll issue a refund for you.
 
-Please forward your original email receipt from your purchase to obtain your refund. While you don't have to do this, it does make it much quicker for us to find and process.
+Forwarding your original email receipt will help us find and process the purchase more quickly, although it is not required.
 
 Send this email to [support@elementsplatform.com](mailto:support@elementsplatform.com).
 
@@ -171,25 +171,25 @@ Each Elements license allows activation on a maximum of three Macs simultaneousl
 
 <summary>How do I activate my license?</summary>
 
-When opening Elements for the first time, you will be greeted with a welcome screen. Click **Continue**.
+When you open Elements for the first time, a welcome screen appears. Click **Continue**.
 
-Next you will need to create an Elements Cloud account. Enter your email address and click the "**Send Sign-in Link**" button.
+Next, create an Elements Cloud account. Enter your email address and click **Send Sign-in Link**.
 
 <figure><img src=".gitbook/assets/elements-activation-1 (1).png" alt="Elements Cloud sign-in screen with an email field and Send Sign-In Link button"><figcaption></figcaption></figure>
 
-You will receive a sign-in link from **noreply@elementsapp.cloud** via email. If you don't see it in your Inbox, please check your Spam folder as sometimes it can land there. Click the green "**Verify Account**" button in that email, or you can enter the code manually.
+You will receive a sign-in link from **noreply@elementsapp.cloud**. If it is not in your inbox, check your spam folder. Click **Verify Account** in the email, or enter the code manually.
 
 <figure><img src=".gitbook/assets/elements-activation-2.png" alt="Elements sign-in screen prompting the user to check their email or enter a code manually"><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/elements-activation-2.5.png" alt="Elements account verification email with a Verify Account button and manual code"><figcaption></figcaption></figure>
 
-Next, you will activate your Elements license. Your license key can be located in the email you received when you completed your Elements purchase.
+Next, activate your Elements license. The license key is in the email you received after completing your purchase.
 
-Enter your email address (the one you used to make your purchase), and your Elements license key on this screen and click "**Activate**".
+Enter the email address used for the purchase and your Elements license key, then click **Activate**.
 
 <figure><img src=".gitbook/assets/elements-activation-3.png" alt="Elements activation screen with fields for the purchase email and licence key"><figcaption></figcaption></figure>
 
-Elements should now be activated and you can start building out of this world websites!
+Elements is now activated and ready to use.
 
 <figure><img src=".gitbook/assets/elements-activation-4.png" alt="Elements screen confirming that activation was successful"><figcaption></figcaption></figure>
 
@@ -199,16 +199,16 @@ Elements should now be activated and you can start building out of this world we
 
 <summary>How do I deactivate my license?</summary>
 
-If you have access to the activated version of our Elements, do this:
+If you have access to the activated copy of Elements:
 
-1. Open your registered version of the App.
-2. Go to the App menu → Registration…
-3. Click "Deactivate" under the "Activations (1 of X)" button.
+1. Open your registered copy of Elements.
+2. Choose **Elements → Registration…**
+3. Click **Deactivate** under **Activations (1 of X)**.
 4. Confirm your decision.
 
-That's it. You can now use the same license to register the app on another Mac.
+You can now use the same license to register the app on another Mac.
 
-If you don't have access to your old Mac, you can still manage your license activations in the "Register…" window. This includes seeing what machines are licensed and deactivating any machines you no longer require. `Elements > Registration…`
+If you do not have access to your old Mac, you can still manage activations in the **Registration** window. Choose **Elements → Registration…** to view and deactivate registered Macs.
 
 </details>
 
@@ -218,14 +218,14 @@ If you don't have access to your old Mac, you can still manage your license acti
 
 If you see the following "Unable to Activate" message, it may mean your license was entered incorrectly, or Elements is having trouble validating it over the internet.
 
-You can email [support@elementsplatform.com](mailto:support@elementsplatform.com) with your license, we can check if it's valid and working. If it is, and your license is still not activating on your Mac, you should try the following things:
+Email your license details to [support@elementsplatform.com](mailto:support@elementsplatform.com) and we can check whether they are valid. If the license is valid but still will not activate, try the following:
 
 1. Check you don't have iCloud Private Relay or a VPN running.
-2. Check you've not installed anything that blocks or tracks network traffic (i.e. LittleSnitch.app).
+2. Check that you have not installed anything that blocks or tracks network traffic, such as Little Snitch.
 3. Reboot your Mac.
 4. Try activating your license on another Mac.
-5. Try activating your license on another network (3G/4G from your Phone).
-6. Try starting your Mac in Safe Mode. A [guide can be found here](https://www.macworld.com/article/671817/how-to-start-a-mac-in-safe-mode.html) on how to do this.
+5. Try activating your license on another network, such as a mobile hotspot.
+6. Try starting your Mac in Safe Mode. Follow this [guide to starting a Mac in Safe Mode](https://www.macworld.com/article/671817/how-to-start-a-mac-in-safe-mode.html).
 
 Trying out the above will help you narrow down the problem and determine if your Mac or network is causing the issue.
 
@@ -233,19 +233,19 @@ Trying out the above will help you narrow down the problem and determine if your
 
 <details>
 
-<summary>I'm seeing an "Activation failure (404)" Error when I try to register. What should I do?</summary>
+<summary>I'm seeing an "Activation failure (404)" error when I try to register. What should I do?</summary>
 
 First, make sure you are running the latest version of Elements.
 
 The **first thing to check** is that **your license number is correct**. You'll often see this error if the code is slightly wrong or missing a digit.
 
-If you've triple-checked and made sure you're license code is correct, try the following steps:
+If you have confirmed that your license code is correct, try the following steps:
 
 1. Launch Elements and choose "Registration…" from the "Elements" menu.
-2. Deactivate your Mac using the "Activations (1 of 2)" button, and Elements should become Unregistered. (if required)
+2. If required, deactivate your Mac using **Activations (1 of 2)**. Elements should become unregistered.
 3. Restart your Mac.
 4. Launch Elements.
-5. Open the Registration window again and press the "Activate License…" button and enter your new license details.
+5. Open the Registration window again, click **Activate License…** and enter your license details.
 6. You should now be up and running.
 
 If you're still having issues, you can email [support@elementsplatform.com](mailto:support@elementsplatform.com), and we'll be able to help you out.
@@ -258,9 +258,9 @@ If you're still having issues, you can email [support@elementsplatform.com](mail
 
 You'll see this message if you're trying to activate a newer version of Elements that was released after your subscription period ended.
 
-If your subscription has expired and you're trying to use a new version of Elements that was released after your subscription period you'll see the "Update Period Expired" window. You now have a couple of options. You can choose to purchase a new subscription to get access to the new version or get an older version of Elements that was covered during your active subscription period.
+If your subscription has expired and you try to use a version released after your update period, the **Update Period Expired** window appears. You can renew to use the newer version or download an older version covered by your previous update period.
 
-Elements will show you what version you can still use underneath the "Renew License" button. Clicking the button will take you to the release notes page where you can download this version.
+Elements shows the latest version you can use beneath **Renew License**. Click the version to open the release notes and download it.
 
 </details>
 
@@ -270,7 +270,7 @@ Elements will show you what version you can still use underneath the "Renew Lice
 
 <summary>Can I switch to a different plan?</summary>
 
-Yes, you can upgrade or downgrade at any time in app. Go to the Settings/Preferences window in Elements and look under the Subscription tab.
+Yes. You can upgrade or downgrade at any time from the **Subscription** tab in Elements Settings.
 
 <figure><img src=".gitbook/assets/CleanShot 2025-09-17 at 2 .43.41@2x.png" alt="Subscription preferences showing the current plan and upgrade or downgrade options"><figcaption></figcaption></figure>
 
@@ -280,7 +280,7 @@ Yes, you can upgrade or downgrade at any time in app. Go to the Settings/Prefere
 
 <summary>How do I manage my subscription?</summary>
 
-Our [Billing Manager](https://realmac.onfastspring.com/account/) can help you check a subscription status, change payment details, and cancel your subscription. All you need is access to the email address you used to purchase our software.
+Our [Billing Manager](https://realmac.onfastspring.com/account/) lets you check your subscription status, change payment details and cancel your subscription. You need access to the email address used for the purchase.
 
 If you no longer have access to the email address, contact [support@elementsplatform.com](mailto:support@elementsplatform.com), and we'll be able to help you directly.
 
@@ -290,12 +290,12 @@ If you no longer have access to the email address, contact [support@elementsplat
 
 <summary>What is your subscription cancellation policy?</summary>
 
-You can cancel your subscription anytime via your [Billing Manager](https://realmac.onfastspring.com/account/).
+You can cancel your subscription at any time through the [Billing Manager](https://realmac.onfastspring.com/account/).
 
-We offer a 30 day money-back guarantee from the date you **initially purchase** a license for our software. During those initial 30 days you can cancel your subscription and request a refund with no questions asked.
+We offer a 30-day money-back guarantee from the date you **initially purchase** a license for our software. During those initial 30 days, you can cancel your subscription and request a refund with no questions asked.
 
 {% hint style="warning" %}
-Subsequent annual subscription renewals **are not refundable under our 30 day money-back guarantee**, and cancelling does not refund unused time in the current update period.
+Subsequent annual subscription renewals **are not refundable under our 30-day money-back guarantee**, and cancelling does not refund unused time in the current update period.
 {% endhint %}
 
 </details>
@@ -304,7 +304,7 @@ Subsequent annual subscription renewals **are not refundable under our 30 day mo
 
 <summary>What happens if I cancel my subscription?</summary>
 
-Your one year period of app updates will remain active. You will continue to receive updates until the next renewal date. If you wish to receive further updates after that renewal date, you will need to manually re-subscribe.
+Your one-year update period remains active until the next renewal date. To receive updates after that date, you will need to resubscribe.
 
 </details>
 
@@ -320,7 +320,7 @@ Hopefully this day will never come, but if you need to cancel your subscription 
 
 <summary>What happens if my subscription expires?</summary>
 
-You get to keep the version of Elements you're currently using, you just won't receive any further updates to it. You'll need to re-subscribe to start receiving updates again.
+You can continue using the version of Elements covered by your update period, but you will not receive later updates. Resubscribe to begin receiving updates again.
 
 </details>
 
@@ -332,11 +332,11 @@ You get to keep the version of Elements you're currently using, you just won't r
 
 You can view your order history in our [Billing Manager](https://realmac.onfastspring.com/account/).
 
-On the Billing Manager login page, enter the email address you used when purchasing Elements and then click the Continue button. You will receive a login link via email. If you don't see that email in your Inbox, please check your Spam folder as sometimes it can land there.
+On the Billing Manager sign-in page, enter the email address used to purchase Elements and click **Continue**. If the sign-in email does not appear in your inbox, check your spam folder.
 
 In that email, click on the link "**Click here to manage your orders.**"
 
-Once logged in, navigate to the **Orders** tab to view your order history. Here you can view all your previous orders, as well as your license key(s). You can also view your order invoices, as well as download the most recent versions of our apps.
+Once signed in, open the **Orders** tab to view previous orders, license keys and invoices, or download the latest versions of our apps.
 
 {% hint style="info" %}
 If you no longer have access to the email address you used when making your purchase, or you can't remember it, please [contact our support team](mailto:support@elementsplatform.com) so we can help you regain access to the Billing Manager.
@@ -350,11 +350,11 @@ If you no longer have access to the email address you used when making your purc
 
 You can update your payment method and/or address information by logging into our [Billing Manager](https://realmac.onfastspring.com/account/).
 
-On the Billing Manager login page, enter the email address you used when purchasing Elements and then click the Continue button. You will receive a login link via email. If you don't see that email in your Inbox, please check your Spam folder as sometimes it can land there.
+On the Billing Manager sign-in page, enter the email address used to purchase Elements and click **Continue**. If the sign-in email does not appear in your inbox, check your spam folder.
 
 In that email, click on the link "**Click here to manage your orders.**"
 
-Once logged in, navigate to the **Account Details and Payment Methods** tab. Here you can add/remove payment methods, and edit your name and address information.
+Once signed in, open **Account Details and Payment Methods**. Here you can add or remove payment methods and edit your name or address.
 
 {% hint style="info" %}
 It is not possible to update your email address information via the Billing Manager. If you need to update your email address, please [contact our support team](mailto:support@elementsplatform.com) so we can help you with that.

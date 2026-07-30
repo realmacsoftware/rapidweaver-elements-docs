@@ -1,5 +1,5 @@
 ---
-description: RapidWeaver Elements Icons
+description: Download RapidWeaver Elements icons
 ---
 
 # Icon

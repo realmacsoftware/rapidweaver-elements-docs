@@ -1,8 +1,8 @@
 ---
-description: Moving from Wordpress to Elements
+description: Move from WordPress to Elements
 ---
 
-# RapidWeaver Elements vs Wordpress
+# RapidWeaver Elements vs WordPress
 
 While WordPress is a popular option for building websites, Elements offers a faster, cleaner, and more focused experience, especially if you care about design quality, performance, and control.
 

@@ -23,22 +23,22 @@ You can test the SEO performance of your website with the following tools:
 
 ### Good SEO Practices in Elements
 
-The following is a list of items that will help your website rank better in search engines:
+The following practices can help search engines understand and index your website:
 
-1. Setting Browser Titles
-2. Add Meta Descriptions
-3. Structuring URLs (so they are human readable)
-4. Use the correct Header Tags
-5. Creating Alt Text for Images
-6. Using a [Sitemap](sitemap.xml.md) (Elements generates this automatically)
+1. Set browser titles
+2. Add meta descriptions
+3. Structure URLs so they are easy to read
+4. Use the correct heading tags
+5. Add alt text to images
+6. Use a [sitemap](sitemap.xml.md), which Elements generates automatically
 
-### How to set Image Alt text
+### How to Set Image Alt Text
 
-Image description is useful for users, search engines, and accessibility tools. It can be set for each image under the "Description" setting in the Image Component settings.
+Image descriptions help users, search engines and accessibility tools understand your content. Set them using the **Description** control in the Image component.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2025-03-06 at 10 .22.37@2x.png" alt="Image resource selected with its Description field highlighted in the Inspector"><figcaption><p>Setting an Image Description in Elements</p></figcaption></figure>
 
-#### Setting image alt text is important for SEO because it:
+#### Why Image Alt Text Matters
 
 1\. **Improves Accessibility** – Alt text helps visually impaired users who rely on screen readers understand the content of an image.
 
@@ -56,21 +56,21 @@ Elements offers a dedicated Metadata panel for setting per-page titles, descript
 
 ### Website SEO Checklist
 
-If you want to level-up your new Elements project for SEO, run through this checklist before you officially launch your new website:
+Use this checklist before launching your website:
 
 * [ ] **Set Your Browser Titles & Meta Descriptions**\
-  Use the metadata panel for each page (Project > Page > Metadata) to add unique, descriptive titles and summaries. Search engines love this stuff, and so do users!
+  Use the metadata panel for each page (**Project › Page › Metadata**) to add unique, descriptive titles and summaries.
 * [ ] **Use Proper Headings (H1, H2, H3…)**\
-  Structure your content with headings, one H1 per page, then nest H2s and H3s sensibly. You can set these using the Heading component.
+  Use one H1 per page, then nest H2 and H3 headings in a logical order. Set these using the Heading component.
 * [ ] **Image ALT Text**\
-  Don’t forget to set alt text for every image via the Image component’s “Description” field. It helps accessibility & image SEO.
+  Set alt text for every meaningful image using the Image component’s **Description** field. This improves accessibility and image SEO.
 * [ ] **Clean, Human-Friendly URLs**\
-  Keep filenames and paths tidy: /about, /contact, /services/web-desing, etc. Makes things easier for humans _and_ robots!
+  Keep filenames and paths tidy: `/about`, `/contact`, `/services/web-design`, etc. This makes navigation easier for humans _and_ robots.
 * [ ] **Sitemap & robots.txt**\
-  Elements automatically generates a sitemap.xml, and you can [create a robots.txt](robots.txt.md) by adding a plain text file (right-click in the page list, choose “New File”, rename it robots.txt, fill it in).
+  Elements automatically generates `sitemap.xml`. You can [create a `robots.txt` file](robots.txt.md) by adding a plain-text file to the Page Manager.
 * [ ] **Optimise Images & Media**\
-  Before importing, compress images (with Squash, ImageOptim, etc.). Fast loads = happy visitors _and_ rankings!
+  Compress images before importing them using an app such as Squash or ImageOptim. Faster pages provide a better experience for visitors.
 * [ ] **Descriptive Anchor Text**\
-  When linking, use meaningful text (“Contact Us” > “Click here”).
+  Use meaningful link text such as “Contact Us” instead of “Click here”.
 * [ ] **Preview Often**\
-  Use Elements’ live preview and built-in accessibility audit (and maybe even toss your site’s URL into Google’s [Lighthouse tool](https://pagespeed.web.dev/)) to spot issues early.
+  Use Elements’ live preview and built-in accessibility audit. You can also test the published URL with Google’s [Lighthouse tool](https://pagespeed.web.dev/).

@@ -1,5 +1,5 @@
 ---
-description: Manage the structure of your website.
+description: Manage the structure of your website
 icon: files
 ---
 
@@ -14,12 +14,12 @@ Easily manage the structure of your website. Create pages and folders and drag t
 To create a new page, press Command-N or use the "+" symbol to the right of the Pages title.
 
 {% hint style="info" %}
-To add add other file types or folders, right-click inside the page list.
+To add other file types or folders, right-click inside the page list.
 {% endhint %}
 
 ### Code Files (html, css, js, etc)
 
-To create a new file inside of your project, right click inside of the Page Manager and choose "New File".
+To create a file in your project, right-click in the Page Manager and choose **New File**.
 
 ### Links
 
@@ -27,10 +27,10 @@ Add links to your site structure. To Create a link page, right-click in the Page
 
 ### Markdown Files
 
-To create a new Markdown File with option front matter, right click inside of the Page Manager and choose "New Markdown File".
+To create a Markdown file with optional front matter, right-click in the Page Manager and choose **New Markdown File**.
 
 ### Folders
 
-Folders are a great way to organize site content when you don't need a top level page. Folders can contain any number of pages or additional folders.
+Folders are a useful way to organise site content when you don’t need a top-level page. They can contain any number of pages or additional folders.
 
-To Create a folder, right-click  in the Pages area and select "New Folder" from the menu.
+To create a folder, right-click in the Pages area and select **New Folder** from the menu.

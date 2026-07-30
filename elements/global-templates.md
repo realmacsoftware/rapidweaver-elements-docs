@@ -7,10 +7,10 @@ icon: globe
 
 Globals give you the power to create reusable linked (and customisable) groups of components to maintain a consistent design language across your entire site.
 
-You can reuse global template blocks across your site so you only need update the content in one place and have it automagically mirrored in all other instances of that global. For example, this can be very  useful for global header and footer sections.
+You can reuse Global blocks throughout your site, updating the content in one place and automatically applying the change to every instance. This is particularly useful for shared headers and footers.
 
 {% hint style="warning" %}
-Templates are very similar to Globals, but there's one important difference: **Templates are single use and not linked**. Where's Globals remain linked and are perfect for making changes across your entire site, perfect for shared menus and footers. [Learn more about Templates here](templates.md).
+Templates are similar to Globals, but there is one important difference: **Templates are single-use and are not linked**. Globals remain linked, making them ideal for shared menus and footers that need to update throughout your site. [Learn more about Templates](templates.md).
 {% endhint %}
 
 {% embed url="https://youtu.be/wMl2M8YstkE" %}
@@ -21,7 +21,7 @@ You can take Globals even further by overriding content and design aspects on an
 Global Templates help ensure the design for you website is modular, reusable, and consistent.
 {% endhint %}
 
-Once you learn how to use the power of globals you'll wonder how you ever built wesbites without them.
+Once you learn how to use the power of Globals, you’ll wonder how you ever built websites without them.
 
 ### Creating a Global
 

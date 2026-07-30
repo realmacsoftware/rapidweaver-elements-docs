@@ -1,5 +1,5 @@
 ---
-description: Learn more about how the Elements design system works.
+description: Learn how the Elements design system works
 icon: atom-simple
 ---
 
@@ -21,7 +21,7 @@ A Project is your entire website bundled into one file. It can include multiple 
 
 #### Themes
 
-Themes control the overall look and feel of your site. Fonts, colors, and general styling are all defined here. Switching themes can instantly give your site a completely new appearance, while your content stays the same.
+Themes control the overall look and feel of your site. Fonts, colours and general styling are all defined here. Switching themes can instantly give your site a new appearance while leaving the content unchanged.
 
 #### Components
 
@@ -31,7 +31,7 @@ Some of the more advanced components go beyond the basics; these include things 
 
 #### Templates
 
-[Templates](../elements/templates.md) are groups of Components that have been put togther to create a design or layout. Once a template is dropped into your page you can customise it however you like and it won't affect the original.
+[Templates](../elements/templates.md) are groups of components arranged to create a design or layout. Once you add a template to a page, you can customise it without affecting the original.
 
 The core pack inside of Elements includes a selection of useful layouts for everyday web design, including menus, hero banners, layouts, forms, and more.
 
@@ -41,7 +41,7 @@ You can learn more about [Templates and how they differ to Global Templates here
 
 [Global Templates](../elements/global-templates.md) (or Globals as they are often called) are user created groups of components. Globals can help maintain a consistent design language across your entire site.
 
-You can reuse global blocks across your site so you only need to update the content in one place and have it automagically mirrored to all other instances of that global. For example, this can be very useful for header and footer sections.
+You can reuse global blocks across your site, update the content in one place and have it automatically mirrored to every other instance. This is particularly useful for header and footer sections.
 
 You can take Globals even further by overriding content and design aspects on an individual instance. For example, you might have a banner that you want to use on every page of your site, and you'd like the design to be consistent. You can use the override feature to customise the text and background image on each instance. You can even override the design settings on individual instances.
 
@@ -67,11 +67,11 @@ We recommend designing at the mobile breakpoint first, and working your way up t
 
 ### Built on Tailwind and AlpineJS
 
-Elements is built upon the popular [Tailwind CSS framework](https://tailwindcss.com/), along with [AlpineJS](https://alpinejs.dev), which makes it a piece of cake to build modern responsive websites. By standardising on the framework used inside Elements, we ensure third-party components work great with every website you build.
+Elements uses the popular [Tailwind CSS framework](https://tailwindcss.com/) alongside [Alpine.js](https://alpinejs.dev), making it easier to build modern, responsive websites. Standardising on the frameworks used by Elements helps third-party components work consistently across your projects.
 
 ### Real-time CSS Generation
 
-Elements builds a custom version of Tailwind CSS in real-time.&#x20;
+Elements builds a custom version of Tailwind CSS in real time.
 
 As you add, remove, or modify any components and content in your project, Elements generates the required CSS, and **only the required CSS**. Elements **does not** load Tailwind from a CDN. Doing so would have severely limited what we are able to do from a design and theming perspective.
 

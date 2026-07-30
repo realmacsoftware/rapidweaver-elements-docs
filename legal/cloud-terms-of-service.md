@@ -4,7 +4,7 @@ description: Terms governing the use of the Elements Cloud service
 
 # Cloud Terms of Service
 
-Please carefully read and understand the following terms and conditions before using or subscribing to the RapidWeaver Elements Cloud Service. These Terms constitute a legally binding agreement between you, the "Subscriber" and Realmac Software the "Provider".
+Please read and understand the following terms and conditions before using or subscribing to the RapidWeaver Elements Cloud Service. These Terms constitute a legally binding agreement between you, the "Subscriber", and Realmac Software, the "Provider".
 
 ### User Agreement for Elements Cloud
 
@@ -12,10 +12,10 @@ Please carefully read and understand the following terms and conditions before u
 elementsapp.cloud is a cloud storage service specifically designed for use with RapidWeaver Elements. By using this service, you agree to the terms outlined below.
 
 **2. Data Storage**\
-You can upload, store, and manage your RapidWeaver Element projects on elementsapp.cloud. We recommend regularly backing up your projects locally as we are not responsible for any data loss. Your data is stored securly on Amazon S3 servers.
+You can upload, store and manage your RapidWeaver Elements projects on elementsapp.cloud. We recommend regularly backing up your projects locally, as we are not responsible for any data loss. Your data is stored securely on Amazon S3 servers.
 
 **3. Fair Usage Limits**\
-We ask that you use the service reasonably and within the typical range for RapidWeaver Element projects. If your usage significantly exceeds the average for your plan, we may contact you to discuss appropriate adjustments or offer a plan upgrade. In cases of extreme overuse, we may temporarily restrict your ability to upload new files until the issue is resolved.
+We ask that you use the service reasonably and within the typical range for RapidWeaver Elements projects. If your usage significantly exceeds the average for your plan, we may contact you to discuss appropriate adjustments or offer a plan upgrade. In cases of extreme overuse, we may temporarily restrict your ability to upload new files until the issue is resolved.
 
 **4. Content Ownership**\
 You retain ownership of all projects and content you upload to elementsapp.cloud. By storing content on elementsapp.cloud, you grant us the right to view, store, display, and manage your files as necessary to provide the service and support.
@@ -40,4 +40,4 @@ Any data shared with OpenAI is handled in accordance with their applicable terms
 **9. Changes to Terms**\
 We may update these terms from time to time. Your continued use of the service constitutes acceptance of the updated terms.
 
-By using or subscribing to the RapidWeaver Elements Cloud Service, the Subscriber indicates their understanding and acceptance of these Terms and agrees to be bound by them. It is recommended to review these Terms periodically for any updates or changes.
+By using or subscribing to the RapidWeaver Elements Cloud Service, the Subscriber indicates their understanding and acceptance of these Terms and agrees to be bound by them. Subscribers should review these Terms periodically for updates or changes.

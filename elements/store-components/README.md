@@ -1,5 +1,5 @@
 ---
-description: Discover additional free and paid components from the Element Store
+description: Discover additional free and paid components from the Elements Store
 icon: store
 ---
 

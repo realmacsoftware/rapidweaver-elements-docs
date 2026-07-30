@@ -1,5 +1,5 @@
 ---
-description: Syncing Projects Across Multiple Macs
+description: Sync Elements projects across multiple Macs
 icon: cloud-binary
 ---
 
@@ -22,4 +22,3 @@ While some users have reported success using services like Google Drive, we’ve
 * ❌ Dropbox
 
 Avoid opening the same project on both Macs at the same time. Always allow iCloud to finish syncing before making changes.
-

@@ -1,5 +1,5 @@
 ---
-description: Adding Analytics code to your website.
+description: Add analytics and tracking code to your website
 icon: chart-simple
 ---
 
@@ -10,12 +10,12 @@ If you’d like to track traffic or integrate services like Google Analytics or 
 {% hint style="success" %}
 ### **Recommended Analytics Service (GDPR Compliant)**
 
-We recommend using [Fathom Analytics](https://usefathom.com/ref/81P61Z), it's much easier to understand and use compared to Google Analytics. **Fathom is GDPR compliant and doesn’t require cookie notices**.
+We recommend [Fathom Analytics](https://usefathom.com/ref/81P61Z), which is easier to understand and use than Google Analytics. **Fathom is GDPR compliant and doesn’t require cookie notices**.
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=sfzIONiv2zY&feature=youtu.be" %}
 
-### For all pages (site-wide tracking)
+### Add Tracking to Every Page
 
 To include your tracking code on every page of your site:
 
@@ -23,21 +23,21 @@ To include your tracking code on every page of your site:
 2. Select the Template section.
 3. Paste your code into either:
    * Between the `<head>` tags for anything that belongs in the \<head>, such as Google Analytics or similar.
-   * Between the after the opening `<body>` tag for things like Google Tag Manager’s \<noscript> block.
+   * After the opening `<body>` tag for content such as Google Tag Manager’s \<noscript> block.
 
 This ensures your tracking code is included automatically across every page.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-07-02 at 12 .33.37@2x (1).png" alt="Site template editor with analytics code added before the closing body tag"><figcaption><p>Adding site wide code into the Templates area.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-07-02 at 12 .33.37@2x (1).png" alt="Site template editor with analytics code added before the closing body tag"><figcaption><p>Adding site-wide code to the Template area.</p></figcaption></figure>
 
-### For individual pages
+### Add Tracking to an Individual Page
 
 If you only want to add tracking code to a specific page:
 
 1. Select the page in the sidebar.
-2. Click the Edit Extra Code button in the page Inspector
+2. Click the Edit Extra Code button in the Page Inspector.
 3. Choose the correct code area from the list on the left (e.g. Head Start, Body Start).
 4. Paste your code snippet in the appropriate section.
 
 The code will only be included on that specific page when you publish or preview your site.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-07-02 at 12 .40.12@2x.png" alt="Page code editor with the page-specific Body End section selected"><figcaption><p>Adding code into a specific page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-07-02 at 12 .40.12@2x.png" alt="Page code editor with the page-specific Body End section selected"><figcaption><p>Adding code to a specific page.</p></figcaption></figure>

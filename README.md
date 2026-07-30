@@ -5,13 +5,13 @@ icon: hand-wave
 
 # Welcome
 
-RapidWeaver Elements (aka Elements) is designed for all skill levels. Whether you’re a beginner looking for simplicity or an experienced web developer needing advanced customisation, Elements offers the perfect balance. With its user‑friendly interface and powerful features, you can create fast, efficient, and beautiful websites with ease.
+RapidWeaver Elements (also called Elements) is designed for all skill levels. Whether you’re a beginner looking for simplicity or an experienced web developer who needs advanced customisation, Elements balances ease of use with powerful features.
 
-RapidWeaver Elements has everything you need built in to create a beautiful, modern website and it's getting better all the time thanks to our passionate user base.
+RapidWeaver Elements includes everything you need to create a beautiful, modern website, with regular improvements shaped by our community.
 
 ### New to Elements?
 
-If you're new to Elements, our [Quickstart Guide](getting-started/quickstart.md) will help you get started building your first website!
+If you’re new to Elements, the [Quickstart Guide](getting-started/quickstart.md) will help you build your first website.
 
 ### What is RapidWeaver Elements?
 
@@ -31,7 +31,7 @@ If you want more detail on how Elements is structured under the hood, see [Core 
 
 ### Get help
 
-You’re not on your own when using Elements, there’s a friendly community and dedicated support behind the app.
+You’re not on your own when using Elements. A friendly community and dedicated support team are here to help.
 
 * Browse common questions in the [FAQ](elements-faq.md).
 * Follow the [Support Guide](getting-started/troubleshooting/) for tips on reporting issues and getting them resolved quickly.

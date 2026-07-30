@@ -5,20 +5,20 @@ icon: object-ungroup
 
 # Components
 
-Components are the raw building blocks for page design in Elements. Let's take a look at the different types of Components available.
+Components are the building blocks used to design pages in Elements. They fall into three main categories.
 
 ### Built-in Components
 
-Elements ships with a comprehensive range of Components that allow you to put together an entire website. They include everything from Headings, Images, Galleries, and layout tools, like Grid and Flex.
+Elements includes a comprehensive range of components for building an entire website. These cover text, images, galleries and layout tools such as Grid and Flex.
 
 ### Custom Components
 
-If you know a bit of HTML you can create your own custom Components for use in your projects. These can be anything from a simple html snippet to a fully blown Component using the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language), with custom UI controls. [Learn more about Custom Components](custom-components.md).
+If you know some HTML, you can create Custom Components for your projects. These can range from a simple HTML snippet to a complete component with custom Inspector controls built using the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language). [Learn more about Custom Components](custom-components.md).
 
-Custom Components can only be shared via projects, the code is open and visible to anyone with that project. They are perfect for creating bespoke solutions for your project(s), or getting familiar with the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language) before you migrate to building components like those built into Elements.
+Custom Components are shared through projects, and their code is visible to anyone who has the project. They are useful for creating bespoke solutions or learning the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language) before building distributable components.
 
 ### Third-party Components
 
-Third-party developers can use the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language) to create full-blown Components that are on a par with the built-in Components — Yes, we use exactly the same API that is available to all users.
+Third-party developers can use the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language) to create components with the same capabilities as the built-in collection. Elements itself uses the same API that is available to developers.
 
-Third-party components will be distributed via the RapidWeaver [Elements Distribution Platform](https://docs.realmacsoftware.com/elements-docs/store/creators/addon-distribution) as Element Packs (.elementspack). These packs are shipped as highly optimised, encrypted bundles. The code cannot be modified or edited by users or third parties (exactly like the built-in Components).
+Third-party components are distributed through the [Elements Distribution Platform](https://docs.realmacsoftware.com/elements-docs/store/creators/addon-distribution) as Element Packs (`.elementspack`). These packs are optimised, encrypted bundles whose code cannot be modified by users or other third parties.

@@ -92,11 +92,11 @@ For each page from your Blocs site:
 
 * **Drag and drop** Components into your page(s) to match your old layouts.
 * Elements has built-in Components and pre-built Templates for common needs (navigation bars, galleries, buttons, etc.).
-* Arrange and customise each using the Inspector, change text, swap images, adjust colors, all visually.
+* Arrange and customise each component using the Inspector. Change text, swap images and adjust colours visually.
 
 ### Step 5: Style Your Site
 
-* Use the **Theme Studio** to adjust site-wide color palettes, fonts, and spacing.
+* Use **Theme Studio** to adjust site-wide colour palettes, fonts and spacing.
 * If you want extra flair, take advantage of Tailwind utility classes directly in the advanced settings (but you never need to touch code if you don’t want to).
 
 ### Step 6: Rebuild Forms & Integrations
@@ -108,7 +108,7 @@ For each page from your Blocs site:
 ### Step 7: Preview and Publish!
 
 * Preview your site in the browser by pressing `Cmd + P` or the browser icon in the toolbar.
-* If you're site looks good, feploy to your host via the built-in publishing engine.
+* If your site looks good, deploy it to your host using the built-in publishing engine.
 
 ***
 

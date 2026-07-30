@@ -72,7 +72,7 @@ For modern browser support and smaller downloads, use WOFF2 where possible.
 4. Set Kind to Font Resource.
 5. Drag your font files from Resources into the drop area.
    * For a single-face font, drag in the one file.
-   * For multi-weight fonts, add each weight file.&#x20;
+   * For fonts with multiple weights, add each weight file.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2025-05-05 at 7 .18.20@2x.png" alt="A custom Font Resource entry in Theme Studio"><figcaption><p>Set the custom font Kind to Font Resource.</p></figcaption></figure>
 
@@ -95,7 +95,7 @@ Elements usually detects weights correctly, but it depends on how the font is pa
 #### Apply the Custom Font to Elements in Your Project
 
 1. Select a text component.
-2. Change its Font to your new custom font. The change appears immediately.&#x20;
+2. Change its Font to your new custom font. The change appears immediately.
 {% endstep %}
 {% endstepper %}
 

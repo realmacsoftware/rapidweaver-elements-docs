@@ -5,7 +5,7 @@ icon: file-certificate
 
 # License
 
-With Elements’ flexible licensing options, you can choose the plan that best fits you or your teams needs, whether you're a casual user, hobbyist, or professional web designer.
+Elements offers flexible licensing options for casual users, hobbyists, professional web designers and teams.
 
 <a href="https://www.realmacsoftware.com/pricing/" class="button primary" data-icon="file-certificate">Purchase a License</a>
 
@@ -13,13 +13,13 @@ With Elements’ flexible licensing options, you can choose the plan that best f
 
 * Unlimited websites
 * Templates, Themes, and Components
-* 1 year of free updates
-* Installation on up to **3 Macs simultaneously per user** license
-* 1GB of Cloud Storage for Projects (An active license is required)
-* Unlimited Support via Email and Forum
-* If your subscription expires, Elements can still be used, you just won't receive future updates until you resubscribe.
+* One year of updates
+* Installation on up to **three Macs simultaneously per user license**
+* 1 GB of cloud storage for projects while the license is active
+* Unlimited support by email and through the forum
+* Continued use of the latest eligible version if the subscription expires; resubscribe to receive later updates
 
-Every Elements license includes all you need to build the website you've always wanted, however, there are a few key differences highlighted in the table below.
+Every Elements license includes everything you need to build a website, with a few key differences between plans.
 
 [Visit the Elements website for a feature comparison chart](https://realmacsoftware.com/pricing/).
 
@@ -29,15 +29,15 @@ The **Plus license** is designed for users who need or want more than the Base l
 
 #### Custom Components
 
-The Base license for Elements only allows the creation of 3 custom components per project. **Plus and Pro licenses can create an unlimited number of Custom Components per project.**
+The Base license allows three Custom Components per project. **Plus and Pro allow an unlimited number of Custom Components per project.**
 
 #### Global Components
 
-The Base license for Elements only allows the creation of 2 global components per project. **Plus and Pro licenses can create an unlimited number of Global Components per project.**
+The Base license allows two Globals per project. **Plus and Pro allow an unlimited number of Globals per project.**
 
 #### Elements Branding
 
-The Base license for Elements will place a small floating badge in the corner of your website showing it was built with Elements. The branding is in place to subsidise the low cost of the license. **Plus and Pro have no visible Elements branding**.
+The Base license places a small floating badge in the corner of the published website. **Plus and Pro do not add visible Elements branding.**
 
 #### Resell Websites (Pro Only)
 
@@ -57,13 +57,12 @@ An active Pro license is required for those using Elements as a professional too
 
 The Pro license pricing reflects the added value, flexibility, and commercial rights that the **Pro license** provides compared to the **Base license**.
 
-The Pro License includes extra Developers Tools for building Dev Packs.
+The Pro license includes additional developer tools for building Dev Packs.
 
-**Resell Websites and Client Projects** - An active Pro license is required for users to develop and sell websites to third-party clients, making it the ideal choice for freelancers, agencies, or anyone building websites as part of their business. With this license, users have the freedom to fully leverage Elements’ powerful tools and customizations to create and deliver high-quality websites for clients, turning Elements into a valuable asset for generating revenue.
+**Resell Websites and Client Projects** — An active Pro license is required to develop and sell websites to third-party clients. It is intended for freelancers, agencies and anyone who builds websites as part of a business.
 
 The **Base license** is meant for personal projects or hobbyists, while the **Pro license** is designed for **freelancers, agencies, and businesses** who are making money from reselling websites.
 
-**Priority Support** - The Pro license is specifically aimed at professionals working on client projects, where timely support is crucial. Elements’ priority support helps Pro users troubleshoot issues, get answers to complex questions, and keep projects moving forward without delay—making it a reliable tool for maintaining client satisfaction and meeting project deadlines.
+**Priority Support** — Pro users receive priority assistance to help keep client projects moving.
 
-If you have any further questions about licensing please email [support@elementsplatform.com](mailto:support@elementsplatform.com).
-
+If you have further questions about licensing, email [support@elementsplatform.com](mailto:support@elementsplatform.com).

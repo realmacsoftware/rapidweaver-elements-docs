@@ -11,7 +11,7 @@ To preview your website in your default browser, you can click the Safari Browse
 
 {% embed url="https://youtu.be/gDg3POK920s" %}
 
-### Preview Troubleshooting&#x20;
+### Preview Troubleshooting
 
 For the local network web preview to be available you need to have already Previewed your site locally in the Browser. You can also press the "Restart Web Server" button to start the local preview and generate a new QR Code to scan.
 

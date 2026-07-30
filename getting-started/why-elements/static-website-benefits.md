@@ -6,11 +6,11 @@ description: Benefits of using a static site generator like Elements
 
 RapidWeaver **Elements is a powerful static website builder** (local CMS system) that perfectly balances simplicity with professional-grade capabilities. Its intuitive drag-and-drop interface eliminates the need for coding knowledge, while still providing users with complete control over their design choices. With a rich selection of professionally designed templates and a streamlined publishing process, RapidWeaver Elements makes it possible for anyone to create stunning websites.
 
-What truly sets RapidWeaver Elements apart is its commitment to generating optimized, clean HTML code that ensures **fast loading times** and **excellent search engine rankings**.&#x20;
+What truly sets RapidWeaver Elements apart is its commitment to generating optimised, clean HTML that delivers **fast loading times** and supports **strong search engine rankings**.
 
 By using Elements, you maintain **full ownership of your content and hosting choices, free from platform lock-in.** This combination of user-friendly features, professional output, and creative freedom makes Elements an excellent choice for anyone looking to build a modern, efficient static website.
 
-Contine reading to learn more about why [RapidWeaver Elements](https://www.realmacsoftware.com/rapidweaver/elements/) is a better choice than using an [un-secure online cms, like Wordpress](https://wpscan.com/wordpresses/).
+Continue reading to learn why [RapidWeaver Elements](https://www.realmacsoftware.com/rapidweaver/elements/) can be a better choice than an [online CMS such as WordPress](https://wpscan.com/wordpresses/).
 
 ### Static Site Generator (SSG) vs Data-Driven Websites
 
