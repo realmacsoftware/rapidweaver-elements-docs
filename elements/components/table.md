@@ -136,4 +136,4 @@ Reorder the Columns collection so its first item maps to the first CSV column, t
 * [Grid](grid.md) — Builds visual card layouts rather than semantic tabular data.
 * [Filter](filter.md) — Filters tagged components outside a Table.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

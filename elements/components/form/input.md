@@ -82,4 +82,4 @@ Use the most specific Type, add a visible Label, and do not use Placeholder as t
 * [Date Picker](date-picker.md) — Adds a calendar interface.
 * [Select](select.md) — Presents a fixed list of choices.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

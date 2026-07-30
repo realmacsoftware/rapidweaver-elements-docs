@@ -73,4 +73,4 @@ Use labels that make sense when read independently. Keep a visible keyboard-focu
 * [Label](label.md) — Labels individual fields.
 * [Form](README.md) — Configures delivery and validation.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

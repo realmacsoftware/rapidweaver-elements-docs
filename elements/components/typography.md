@@ -59,4 +59,4 @@ Keep heading levels in a logical order and choose a semantic wrapper that matche
 * [Markdown](markdown.md) — Writes and renders long-form content using Markdown syntax.
 * [Text](text.md) — Gives precise styling control over individual headings and short text blocks.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

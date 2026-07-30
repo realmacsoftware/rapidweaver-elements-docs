@@ -68,4 +68,4 @@ The Link group can make the whole Grid clickable. Avoid using it when the Grid c
 * [Flex](flex.md) — Better suited to a single row or column.
 * [Container](container.md) — Can be configured as a Grid Item and span multiple tracks.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

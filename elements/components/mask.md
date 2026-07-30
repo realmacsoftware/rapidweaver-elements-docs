@@ -66,4 +66,4 @@ Masking should be decorative. Do not hide text or controls that visitors need to
 * [Image](image.md) — Includes a simpler SVG mask option for a single image.
 * [SVG](svg.md) — Displays and styles vector artwork directly.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

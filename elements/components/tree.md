@@ -87,4 +87,4 @@ Keep page names concise and make expanded, collapsed, active, hover, and keyboar
 * [Breadcrumbs](breadcrumbs.md) — Shows the path to the current page.
 * [Top Pages](top-pages.md) — Displays a flat list of top-level pages or folder contents.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

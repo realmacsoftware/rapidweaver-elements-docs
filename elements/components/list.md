@@ -53,4 +53,4 @@ Choose Ordered when sequence matters and Unordered when it does not. Do not imit
 * [Text](text.md) — Creates headings, paragraphs, labels, and short text blocks.
 * [Typography](typography.md) — Styles longer structured content as one block.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

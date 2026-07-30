@@ -39,4 +39,4 @@ Use clear confirmation language and explain the next step. Do not rely on a chec
 * [Submit](submit.md) — Provides the clickable submission control.
 * [Form](README.md) — Controls Success Content, Redirect, and Reset.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

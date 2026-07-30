@@ -54,4 +54,4 @@ The current page is identified to assistive technologies automatically. Keep sep
 * [Tree](tree.md) — Shows expandable navigation across multiple levels.
 * [Top Pages](top-pages.md) — Lists top-level pages or a folder’s contents.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

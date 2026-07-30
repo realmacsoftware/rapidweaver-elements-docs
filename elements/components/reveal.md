@@ -68,4 +68,4 @@ A Reveal animation can temporarily extend beyond the viewport. Select the parent
 * [3D Transform](3d-transform.md) — Creates hover and pointer-driven depth effects.
 * [Container](container.md) — Wraps and clips Reveal animations.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

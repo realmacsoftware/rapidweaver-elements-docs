@@ -67,4 +67,4 @@ The Link group can make the whole Flex clickable. Avoid wrapping multiple intera
 * [Grid](grid.md) — Creates two-dimensional row-and-column layouts.
 * [Container](container.md) — Groups content and can act as a Flex item.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

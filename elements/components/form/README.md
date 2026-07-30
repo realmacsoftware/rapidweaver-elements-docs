@@ -224,4 +224,4 @@ The published Forms API stores logs inside its `api/logs` directory. Files use a
 
 Use a visible Label for each field, preserve keyboard focus outlines, identify required fields in visible text, and make Error and Success messages understandable without relying on colour alone.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

@@ -32,4 +32,4 @@ Write a specific message and explain what the visitor can do next. Do not rely o
 * [Form](README.md) — Controls invalid-field colours and delivery.
 * [Submit](submit.md) — Provides the clickable submission control.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

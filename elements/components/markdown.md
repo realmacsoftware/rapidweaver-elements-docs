@@ -92,4 +92,4 @@ Use one clear page heading, keep heading levels in order, describe images with u
 * [Text](text.md) — Gives detailed control over individual headings and short text.
 * [Image](image.md) — Provides responsive image, alt text, and lightbox controls.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

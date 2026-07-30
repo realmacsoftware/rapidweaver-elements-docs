@@ -104,4 +104,4 @@ You’ll find \[Component Name] under **\[category]** in the Components list.
 * [Related Component](\[relative-page].md) — \[Explain when to use it or how it works with this component.]
 * [Related Component](\[relative-page].md) — \[Explain the important difference.]
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

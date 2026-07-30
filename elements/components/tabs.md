@@ -95,4 +95,4 @@ Use short, descriptive titles and keep the active, hover, and keyboard focus sta
 * [Accordion](accordion.md) — Better for vertically stacked questions or sections.
 * [Content Slider](content-slider.md) — Adds sequential or automatic playback.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

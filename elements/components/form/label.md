@@ -54,4 +54,4 @@ Make sure For and the field Name are identical, with no spaces added before or a
 * [Date Picker](date-picker.md) — Collects a date and optional time.
 * [Select](select.md) — Presents a list of choices.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

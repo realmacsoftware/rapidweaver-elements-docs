@@ -133,4 +133,4 @@ Choose semantic tags for meaning, preserve a logical heading hierarchy, and keep
 * [Markdown](markdown.md) — Writes formatted content using Markdown syntax.
 * [Button](button.md) — Creates a prominent linked action.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

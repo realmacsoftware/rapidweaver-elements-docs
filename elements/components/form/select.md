@@ -67,4 +67,4 @@ Add a visible Label and make every option understandable without surrounding con
 * [Input](input.md) — Collects a free-form value.
 * [Label](label.md) — Associates visible text with Select.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

@@ -79,4 +79,4 @@ Decorative backgrounds should not contain essential text. Maintain sufficient co
 * [Container](container.md) — Provides richer content layout and background video controls.
 * [Divider](divider.md) — Adds a simple visual break between sections.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

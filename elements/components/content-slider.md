@@ -70,4 +70,4 @@ Do not place essential information in only one automatically advancing slide. Ma
 * [Image Slider](image-slider.md) — A slider designed specifically for images.
 * [Tabs](tabs.md) — Lets visitors choose content directly without automatic playback.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

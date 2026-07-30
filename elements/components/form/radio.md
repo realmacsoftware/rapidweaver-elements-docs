@@ -71,4 +71,4 @@ Use a clear question or group description before the options and concise labels 
 * [Select](select.md) — Presents one choice in a compact drop-down.
 * [Form](README.md) — Configures delivery and validation.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

@@ -56,4 +56,4 @@ Confirm that each target component has filtering enabled and contains matching t
 * [Filter Tags](filter-tags.md) — Provides selectable tag buttons instead of a text search field.
 * [Container](container.md) — A common wrapper for filterable content.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

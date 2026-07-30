@@ -108,4 +108,4 @@ Describe informative images with concise alternative text. Leave alt text empty 
 * [SVG](svg.md) — Displays and recolours vector artwork.
 * [Mask](mask.md) — Provides more advanced masking options for wrapped content.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

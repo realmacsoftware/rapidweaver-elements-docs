@@ -101,4 +101,4 @@ Use concise page titles, maintain visible active and focus states, and ensure th
 * [Tree](tree.md) — Builds expandable multi-level navigation.
 * [Top Pages](top-pages.md) — Creates a simpler automatic list of pages.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

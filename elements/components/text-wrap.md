@@ -61,4 +61,4 @@ Add useful alternative text when the image conveys information. Keep line length
 * [Image](image.md) — Displays a standalone image with lightbox and sizing controls.
 * [Typography](typography.md) — Provides a styled long-form content block to wrap around the image.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

@@ -82,4 +82,4 @@ Provide meaningful track titles and artist names. Keep playback controls visible
 * [Video](video.md) — Plays YouTube, Vimeo, and MP4 video.
 * [Image](image.md) — Provides guidance on optimising artwork and alternative text.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

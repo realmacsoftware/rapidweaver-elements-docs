@@ -88,4 +88,4 @@ The **Custom Attributes** collection adds Attribute and Value pairs to the Conta
 * [Background](background.md) — Adds angled or fixed backgrounds.
 * [Filter](filter.md) — Searches tagged Containers.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

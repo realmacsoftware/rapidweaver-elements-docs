@@ -106,4 +106,4 @@ Enable **Remove Attributes → Size** or remove fixed width and height attribute
 * [Image](image.md) — Displays bitmap images with responsive source and lightbox controls.
 * [Mask](mask.md) — Uses an SVG to reveal wrapped content.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

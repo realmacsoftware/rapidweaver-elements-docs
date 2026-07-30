@@ -62,4 +62,4 @@ Check that the target components have filtering enabled. For Custom grouping, al
 * [Filter](filter.md) — Filters the same tagged content through a text search field.
 * [Container](container.md) — A common wrapper for filterable cards and sections.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

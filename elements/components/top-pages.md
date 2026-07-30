@@ -54,4 +54,4 @@ Use descriptive page titles and preserve a visible active state. Page icons shou
 * [Tree](tree.md) — Displays expandable multi-level navigation.
 * [Breadcrumbs](breadcrumbs.md) — Shows the current page’s position in the site.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

@@ -61,4 +61,4 @@ Add a Label, preserve a visible focus state, and choose a date format familiar t
 * [Label](label.md) — Associates visible text with the Date Picker.
 * [Form](README.md) — Configures delivery and validation.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

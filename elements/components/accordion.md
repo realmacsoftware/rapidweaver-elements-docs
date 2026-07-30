@@ -85,4 +85,4 @@ Use concise, descriptive titles that explain the hidden content. Do not place es
 * [Dropdown](dropdown.md) — Reveals a compact panel from a trigger.
 * [Filter Tags](filter-tags.md) — Can show and hide tagged Accordions.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

@@ -64,4 +64,4 @@ Clear the child Button’s Link. Submit supplies the action; the Button does not
 * [Success](success.md) — Shows successful-submission content.
 * [Error](error.md) — Shows failure content.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

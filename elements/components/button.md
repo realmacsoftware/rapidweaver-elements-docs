@@ -75,4 +75,4 @@ Use action-oriented labels that describe the result, such as “Download Guide�
 * [Modal](modal.md) — Can be opened from a Button.
 * [SVG](svg.md) — Adds a custom icon through the Button drop zone.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

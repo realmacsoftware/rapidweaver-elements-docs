@@ -103,4 +103,4 @@ Provide captions or a transcript for spoken content. Avoid unexpected audio, ret
 * [Gallery](gallery.md) — Combines several videos and images in one lightbox.
 * [Container](container.md) — Supports background video.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

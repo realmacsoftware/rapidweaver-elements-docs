@@ -89,4 +89,4 @@ Enable Multiple and use Email delivery when every selected file must be sent.
 * [Error](error.md) — Displays form-level failure feedback.
 * [Submit](submit.md) — Provides the clickable submission control.
 
-{% include "../../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../../.gitbook/includes/common-controls.md" %}

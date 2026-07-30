@@ -46,4 +46,4 @@ Use a Divider for presentation rather than as the only indication that content h
 * [Container](container.md) — Groups a section and can apply backgrounds, borders, and spacing.
 * [Background](background.md) — Creates larger decorative background areas with optional angled edges.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}

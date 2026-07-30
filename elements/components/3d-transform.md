@@ -80,4 +80,4 @@ Keep important content readable without the effect. Avoid large or rapid pointer
 * [Reveal](reveal.md) — Animates content as it enters the viewport.
 * [Container](container.md) — Groups and styles the content placed inside a 3D Transform.
 
-{% include "../../.gitbook/includes/common-controls (1).md" %}
+{% include "../../.gitbook/includes/common-controls.md" %}
