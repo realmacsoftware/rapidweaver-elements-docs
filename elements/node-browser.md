@@ -1,4 +1,5 @@
 ---
+description: View, search and manage the component structure of a page
 icon: list-tree
 ---
 

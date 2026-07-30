@@ -97,7 +97,7 @@ If you question wasn't answered above or you need clarification, please [post on
 
 If you are seeing a "Safari Can't Open the Page" error, you'll need to disable the "Warn before connecting to a Website over HTTP" option in the Safari Security settings.
 
-<figure><img src=".gitbook/assets/4e9813073736bffaf7ffea0a7ad8d2a9c940d46e_2_1380x544.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/4e9813073736bffaf7ffea0a7ad8d2a9c940d46e_2_1380x544.jpeg" alt="Safari Security settings with Warn before visiting a fraudulent website enabled"><figcaption></figcaption></figure>
 
 </details>
 
@@ -107,7 +107,7 @@ If you are seeing a "Safari Can't Open the Page" error, you'll need to disable t
 
 You can do this easily by adding a link to some text, a button, or whichever element you want. When setting the link, select the file from your resources and add a custom attribute called `download`. This attribute will prompt the browser to download the file, not open it.
 
-<figure><img src=".gitbook/assets/CleanShot 2026-04-15 at 09.55.59@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CleanShot 2026-04-15 at 09.55.59@2x.png" alt="Elements link editor with a resource selected and a download custom attribute"><figcaption></figcaption></figure>
 
 </details>
 
@@ -175,23 +175,23 @@ When opening Elements for the first time, you will be greeted with a welcome scr
 
 Next you will need to create an Elements Cloud account. Enter your email address and click the "**Send Sign-in Link**" button.
 
-<figure><img src=".gitbook/assets/elements-activation-1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/elements-activation-1 (1).png" alt="Elements Cloud sign-in screen with an email field and Send Sign-In Link button"><figcaption></figcaption></figure>
 
 You will receive a sign-in link from **noreply@elementsapp.cloud** via email. If you don't see it in your Inbox, please check your Spam folder as sometimes it can land there. Click the green "**Verify Account**" button in that email, or you can enter the code manually.
 
-<figure><img src=".gitbook/assets/elements-activation-2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/elements-activation-2.png" alt="Elements sign-in screen prompting the user to check their email or enter a code manually"><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/elements-activation-2.5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/elements-activation-2.5.png" alt="Elements account verification email with a Verify Account button and manual code"><figcaption></figcaption></figure>
 
 Next, you will activate your Elements license. Your license key can be located in the email you received when you completed your Elements purchase.
 
 Enter your email address (the one you used to make your purchase), and your Elements license key on this screen and click "**Activate**".
 
-<figure><img src=".gitbook/assets/elements-activation-3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/elements-activation-3.png" alt="Elements activation screen with fields for the purchase email and licence key"><figcaption></figcaption></figure>
 
 Elements should now be activated and you can start building out of this world websites!
 
-<figure><img src=".gitbook/assets/elements-activation-4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/elements-activation-4.png" alt="Elements screen confirming that activation was successful"><figcaption></figcaption></figure>
 
 </details>
 
@@ -272,7 +272,7 @@ Elements will show you what version you can still use underneath the "Renew Lice
 
 Yes, you can upgrade or downgrade at any time in app. Go to the Settings/Preferences window in Elements and look under the Subscription tab.
 
-<figure><img src=".gitbook/assets/CleanShot 2025-09-17 at 2 .43.41@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CleanShot 2025-09-17 at 2 .43.41@2x.png" alt="Subscription preferences showing the current plan and upgrade or downgrade options"><figcaption></figcaption></figure>
 
 </details>
 

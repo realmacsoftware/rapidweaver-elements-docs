@@ -1,4 +1,5 @@
 ---
+description: Control generated files and local preview behaviour for your project
 icon: screwdriver-wrench
 ---
 
@@ -6,7 +7,7 @@ icon: screwdriver-wrench
 
 The Advanced section lets you fine-tune your project’s output and local preview behavior. These options are entirely optional, but great if you want a bit more control.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 7 .10.29@2x.png" alt=""><figcaption><p>Advanced Section in the Project Settings Window</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 7 .10.29@2x.png" alt="Advanced Project Settings showing site output and local web server options"><figcaption><p>Advanced Section in the Project Settings Window</p></figcaption></figure>
 
 ### Site Options
 

@@ -52,7 +52,7 @@ Every active Elements subscription includes a fixed number of credits per month.
 
 You can check available allowance in your Elements Cloud Account Dashboard.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-03-19 at 10 .24.32@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2026-03-19 at 10 .24.32@2x.png" alt="Elements Cloud Account dashboard showing the remaining monthly AI credits"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The Elements Cloud Account Dashboard can be found within the Elements Store Window.

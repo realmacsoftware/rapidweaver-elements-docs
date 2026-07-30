@@ -1,3 +1,7 @@
+---
+description: Connect compatible AI clients to the in-development Elements MCP server
+---
+
 # Elements MCP Server
 
 {% hint style="danger" %}
@@ -20,7 +24,7 @@ As the time of writing (July 2026), the following Mac applications have MCP supp
 
 To enbale the MCP server in Elements, open the Elements Preferences panel and select the MCP Server tab. Switch on the MCP server, and connect your preferred client.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-07-04 at 9 .07.55@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2026-07-04 at 9 .07.55@2x.png" alt="Elements MCP Server preferences with the server enabled and its local connection URL"><figcaption></figcaption></figure>
 
 ### How to connect LM Studio to the Elements MCP server
 
@@ -45,4 +49,3 @@ LM Studio requires you to configure the MCP connection manually. The JSON config
 As this is fairly new and evolving technology, we’re not entirely sure why Claude is doing this. However, in our testing connecting Cursor, Codex or any other client to the Elements MCP is rock solid with no dropout issues.
 
 </details>
-

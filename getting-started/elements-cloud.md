@@ -21,15 +21,15 @@ An active subscription is required to use Elements Cloud.
 
 You can sign-up (or sign-in) to your account in the Account Preferences within Elements. Simply enter your email address and click the "Send Sign-in Link" button. An account will be created for you, or you will be logged in (if you already have an account).
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-09-10 at 1 .34.01@2x.png" alt=""><figcaption><p>Elements Account Sign-up</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-09-10 at 1 .34.01@2x.png" alt="Elements Account preferences with an email field and Send Sign-In Link button"><figcaption><p>Elements Account Sign-up</p></figcaption></figure>
 
 A link will be sent to the email address you entered, click this email link within 3 minutes to register or log in to your account.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-09-10 at 1 .35.27@2x.png" alt=""><figcaption><p>Elements Account Sign-up</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-09-10 at 1 .35.27@2x.png" alt="Elements Account preferences waiting for the emailed sign-in link"><figcaption><p>Elements Account Sign-up</p></figcaption></figure>
 
 Once logged in you can share your open project from the Cloud icon in the Elements Toolbar. You can always manage uploaded files and storage from the Account Preferecnes window.
 
-<figure><img src="../.gitbook/assets/CleanShot 2024-09-10 at 2 .09.44@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2024-09-10 at 2 .09.44@2x.png" alt="Elements Account preferences showing uploaded documents and storage usage"><figcaption></figcaption></figure>
 
 Every Elements Cloud account comes with 1GB of free cloud storage. This is the perfect place to make backups and upload files for sharing.
 
@@ -44,7 +44,7 @@ To upload your project to Elements Cloud, just follow these steps:
 3. Press the "Upload Project" button in the pop-over window.
 4. Once it's finished uploading you'll be able to share the link to your project.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-07-22 at 9 .44.45@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-07-22 at 9 .44.45@2x.png" alt="Elements Cloud toolbar menu with controls to copy, download, open or delete a project"><figcaption></figcaption></figure>
 
 #### Converting an Elements App link to a direct download
 
@@ -96,7 +96,7 @@ You can also post about any issues you might be having on the [Elements Forum](h
 
 This is often due to an issue on the network, it could be down to an app or network administrators blocking traffic to AWS. You may see an error message, like the following:
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-11-14 at 11.48.35 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-11-14 at 11.48.35 AM.png" alt="Elements Cloud window displaying a service error message"><figcaption></figcaption></figure>
 
 ```
 Elements Cloud service has encountered an error.

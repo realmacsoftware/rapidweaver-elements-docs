@@ -30,10 +30,10 @@ By default when you set a colour it's set for Light Mode. To set an alternative 
 
 The colour for your website background can be set for both Light and Dark mode in the Theme Studio under Page. You can also override the colour on a per page basis by using the page inspector in the main  editor.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-09-17 at 11 .50.33@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-09-17 at 11 .50.33@2x.png" alt="Theme Studio Page settings with separate light and dark background colours"><figcaption></figcaption></figure>
 
 ### Disabling Dark Mode
 
 If you don't want dark mode on your website, you can switch this off in the Project Settings. Please note, this will hide the UI option to toggle between dark and light mode, and only preview and export the light mode version of your website.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-09-17 at 11 .58.02@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-09-17 at 11 .58.02@2x.png" alt="General Project Settings with the Allow Dark Mode switch highlighted"><figcaption></figcaption></figure>

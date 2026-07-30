@@ -45,7 +45,7 @@ To create a Template, drag a collection of Components from the Editor or Node Br
 
 You can right-click on a Template to re-name it, or create a new folder for organisation.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-06-25 at 9 .28.54@2x.png" alt=""><figcaption><p>Elements ships with a core set of Templates.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-06-25 at 9 .28.54@2x.png" alt="Elements editor with the built-in Templates library open beside the page"><figcaption><p>Elements ships with a core set of Templates.</p></figcaption></figure>
 
 ### How to create Templates to share across Projects
 
@@ -53,5 +53,4 @@ To build a Template Pack that is available in all projects and distributable on 
 
 You can learn more about creating [Template Packs in the Elements Language](https://docs.realmacsoftware.com/elements-docs/elements-language/element-pack/what-is-an-element-pack) section of the manual.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-06-25 at 9 .40.13@2x.png" alt=""><figcaption><p>Use the Create Pack button in the Addons tab in the App Settings Window.</p></figcaption></figure>
-
+<figure><img src="../.gitbook/assets/CleanShot 2025-06-25 at 9 .40.13@2x.png" alt="Addons preferences with the Create Pack button highlighted"><figcaption><p>Use the Create Pack button in the Addons tab in the App Settings Window.</p></figcaption></figure>

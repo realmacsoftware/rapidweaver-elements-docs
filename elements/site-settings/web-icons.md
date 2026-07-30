@@ -31,7 +31,7 @@ Favicons are managed from your project settings. To get started, click the gear 
 
 You’ll see a set of clearly labelled drop wells for each supported icon type, including iPhone, iPad, Safari pinned tabs, and the classic favicon.
 
-<figure><img src="../../.gitbook/assets/webicons.png" alt=""><figcaption><p>Web Icons in Project Settings Window</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/webicons.png" alt="Web Icons Project Settings with image slots for browser and device icons"><figcaption><p>Web Icons in Project Settings Window</p></figcaption></figure>
 
 #### Adding icon files
 
@@ -107,6 +107,5 @@ Safari Pinned Tabs behave differently. These use an SVG and fully respect transp
 The topic of favicons has proven to be more exhaustive than anyone could have ever wished. The following article shows how to support just the essentials (and keep yourself sane) while doing it.
 
 * [How to Favicon in 2025: Three files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs).
-
 
 

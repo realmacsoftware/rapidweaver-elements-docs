@@ -1,3 +1,7 @@
+---
+description: Terms governing the use of the Elements Cloud service
+---
+
 # Cloud Terms of Service
 
 Please carefully read and understand the following terms and conditions before using or subscribing to the RapidWeaver Elements Cloud Service. These Terms constitute a legally binding agreement between you, the "Subscriber" and Realmac Software the "Provider".

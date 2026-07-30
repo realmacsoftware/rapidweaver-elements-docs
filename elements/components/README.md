@@ -1,4 +1,5 @@
 ---
+description: Explore the built-in, custom and store components available in Elements
 icon: object-ungroup
 ---
 

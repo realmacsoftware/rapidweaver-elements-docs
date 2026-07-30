@@ -1,3 +1,7 @@
+---
+description: Show one randomly selected piece of content each time a page loads
+---
+
 # Random Content (Paid)
 
 [Random Content](elementsapp://storeProduct/com.elementsplatform.randomcontentpack) allows you to add as many pieces of content as you like and display one at random on page load. You can choose to power it JavaScript or PHP depending on how you want it to behave.

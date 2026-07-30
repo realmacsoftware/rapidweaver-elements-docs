@@ -10,7 +10,7 @@ Feel free to use the provided artwork to help promote Elements in blogs, article
 
 The Logotype and Icon Mark for Elements was designed by [Paul von Excite](https://paulvonexcite.com).
 
-<figure><img src="../.gitbook/assets/elements-black.png" alt="" width="563"><figcaption><p>Elements Isolated Logotype - Preview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/elements-black.png" alt="Elements name rendered as a black handwritten wordmark" width="563"><figcaption><p>Elements Isolated Logotype - Preview</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/elements-logo.svg" %}
 
@@ -30,7 +30,7 @@ RapidWeaver Elements Logotype - SVG
 
 ### Icon Mark
 
-<figure><img src="../.gitbook/assets/RWe.jpg" alt=""><figcaption><p>RWe Icon Mark - preview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/RWe.jpg" alt="Black RWe icon mark on a white background"><figcaption><p>RWe Icon Mark - preview</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/RWe-512.png" %}
 RapidWeaver Elements Icon Mark - transparent PNG file
@@ -46,7 +46,7 @@ The animated Elements logo was produced by [Yup Nguyen](https://www.instagram.co
 
 
 
-<figure><img src="../.gitbook/assets/Elements-LogoAnim-Black-WhiteBG(loop).gif" alt=""><figcaption><p>Animated Elements Logo in gif format.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Elements-LogoAnim-Black-WhiteBG(loop).gif" alt="Animation drawing the Elements wordmark in black on a white background"><figcaption><p>Animated Elements Logo in gif format.</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/Elements-SVG-animation.zip" %}
 Animated Elements logo in SVG / Lottie format.
@@ -55,4 +55,3 @@ Animated Elements logo in SVG / Lottie format.
 {% file src="../.gitbook/assets/Elements-LogoAnim-Black-WhiteBG.mp4" %}
 Animated Elements logo in mp4 format.
 {% endfile %}
-

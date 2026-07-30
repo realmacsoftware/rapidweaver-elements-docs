@@ -13,7 +13,7 @@ The site template give you the ability to modify the underlying template code fo
 
 The site template is used on every page of your website. If you need to insert a script just on specific pages, you should use the page level code areas instead.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 7 .11.12@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 7 .11.12@2x.png" alt="Template Project Settings displaying the editable site HTML template"><figcaption></figcaption></figure>
 
 ### Properties
 

@@ -1,3 +1,7 @@
+---
+description: Create a website banner with a background image and overlaid text
+---
+
 # Site Banner with Text
 
 The following tutorial will show you how to quickly create a website banner with background image and overlayed text.

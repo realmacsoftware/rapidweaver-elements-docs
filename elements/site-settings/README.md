@@ -1,4 +1,5 @@
 ---
+description: Configure site-wide details, code, icons and publishing destinations
 icon: square-sliders
 ---
 
@@ -8,5 +9,4 @@ Manage the overall settings for your Website, this includes things like; site ti
 
 Project Settings can be accessed by pressing the cog icon in the toolbar.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 7 .16.00@2x.png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 7 .16.00@2x.png" alt="Elements project window with the Project Settings toolbar button highlighted"><figcaption></figcaption></figure>

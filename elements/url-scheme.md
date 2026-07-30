@@ -33,7 +33,7 @@ A profile card
 
 HTML
 <div class="profile-card">
-  <img src="{{avatar}}" />
+  <img src="{{avatar}}" alt="{{name}}" />
   <h2>{{name}}</h2>
   <p>{{bio}}</p>
 </div>

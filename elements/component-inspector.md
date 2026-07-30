@@ -15,7 +15,7 @@ The Inspector is context-aware, meaning the options change depending on which co
 
 When you change any value within a group, the group title highlights using the system accent colour. This makes it easy to spot which settings have been modified on a component at a glance.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-12-17 at 1 .38.00@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-12-17 at 1 .38.00@2x.png" alt="Image component selected with modified Inspector groups highlighted"><figcaption></figcaption></figure>
 
 You can reset an individual control by right-clicking it and choosing **Reset to Default**.
 

@@ -1,3 +1,7 @@
+---
+description: Reset Elements by clearing its application preferences
+---
+
 # Reset Elements
 
 To reset Elements, remove the preferences file by following these steps.

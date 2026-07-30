@@ -36,7 +36,7 @@ The following is a list of items that will help your website rank better in sear
 
 Image description is useful for users, search engines, and accessibility tools. It can be set for each image under the "Description" setting in the Image Component settings.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-03-06 at 10 .22.37@2x.png" alt=""><figcaption><p>Setting an Image Description in Elements</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-03-06 at 10 .22.37@2x.png" alt="Image resource selected with its Description field highlighted in the Inspector"><figcaption><p>Setting an Image Description in Elements</p></figcaption></figure>
 
 #### Setting image alt text is important for SEO because it:
 
@@ -52,7 +52,7 @@ Image description is useful for users, search engines, and accessibility tools. 
 
 Elements offers a dedicated Metadata panel for setting per-page titles, descriptions, and common Open Graph tags for social sharing.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-05-09 at 8 .42.25@2x.png" alt=""><figcaption><p>Setting Metadata in Elements</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-09 at 8 .42.25@2x.png" alt="Page Inspector showing editable SEO title, description and social image metadata"><figcaption><p>Setting Metadata in Elements</p></figcaption></figure>
 
 ### Website SEO Checklist
 

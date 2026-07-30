@@ -1,4 +1,5 @@
 ---
+description: Discover why Elements is a modern way to build websites on your Mac
 icon: seal-question
 ---
 

@@ -99,7 +99,7 @@ RapidWeaver can also be configured to produce a more in-depth report about publi
 \
 First of all open RapidWeaver’s preferences (Cmd,) and select the Publishing preferences pane. Make sure that the Enable Upload Logging option is checked.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-07-11 at 2 .18.24@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-07-11 at 2 .18.24@2x.png" alt="Publishing preferences with Enable upload logging switched on"><figcaption></figcaption></figure>
 
 Please do the following step to send your publishing logs to us:
 
@@ -128,4 +128,3 @@ Please be sure to include the following details in your message:
 We aim to reply to all messages within 2 business days. We know it's frustrating not being able to publish, but do remember we're only human and we do our best to help in what can be a very complex issue.
 
 {% include "../../.gitbook/includes/elements-website-hosting.md" %}
-

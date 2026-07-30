@@ -1,4 +1,5 @@
 ---
+description: Find the developer guides for creating products for Elements
 icon: puzzle-piece-simple
 ---
 

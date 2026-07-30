@@ -1,4 +1,5 @@
 ---
+description: Work faster in Elements with keyboard shortcuts
 icon: keyboard
 ---
 
@@ -41,4 +42,3 @@ Elements has a host of available keyboard shortcuts.
 | ---------------- | ----------------- | -------------------------------------------------------------------- |
 | Preview Page     | Command+P         | Automatically previews website in default browser.                   |
 | Preview Page In… | Command+Option+P  | Choose from all installed browsers on your system before Previewing. |
-

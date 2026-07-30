@@ -1,4 +1,5 @@
 ---
+description: Create linked groups of components that update throughout your website
 icon: globe
 ---
 

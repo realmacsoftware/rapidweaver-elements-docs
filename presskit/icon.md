@@ -10,7 +10,7 @@ Feel free to use the provided icons to help promote Elements in blogs, articles,
 
 The main app icon for [RapidWeaver Elements](https://elementsapp.io/), designed by [David Lanham](https://www.dlanham.com).
 
-<figure><img src="../.gitbook/assets/Icon-macOS-512x512@2x.png" alt="" width="188"><figcaption><p>Elements for macOS - Preview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Icon-macOS-512x512@2x.png" alt="Elements for macOS app icon with three rounded purple shapes" width="188"><figcaption><p>Elements for macOS - Preview</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/Icon-macOS-512x512@2x.png" %}
 Elements Icon @ 1024x1024 - Transparent PNG file
@@ -20,7 +20,7 @@ Elements Icon @ 1024x1024 - Transparent PNG file
 
 The single Component icon is not currently used within Elements, but can be used for marketing purposes. Designed by [Matthew Skiles](https://matthewskiles.com/).
 
-<figure><img src="../.gitbook/assets/Element Display.jpg" alt=""><figcaption><p>Single Element - Preview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Element Display.jpg" alt="Single Element icon shown as a blue cube with the Elements mark"><figcaption><p>Single Element - Preview</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/element.png" %}
 Single Element @ 1024x1024 - Transparent PNG file
@@ -30,7 +30,7 @@ Single Element @ 1024x1024 - Transparent PNG file
 
 The Element Pack icon is used for encrypted Element packs for distribution to customers via the Elements marketplace. Designed by [Matthew Skiles](https://matthewskiles.com/).
 
-<figure><img src="../.gitbook/assets/Element Pack Display.jpg" alt=""><figcaption><p>Element Pack Icon - preview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Element Pack Display.jpg" alt="Element Pack icon showing several blue cubes in a container"><figcaption><p>Element Pack Icon - preview</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/element-pack.png" %}
 Element Pack (.rwelementpack) @ 1024x1024 - Transparent PNG file
@@ -40,7 +40,7 @@ Element Pack (.rwelementpack) @ 1024x1024 - Transparent PNG file
 
 The DevElement is used for unencrypted Element packs while they are in development. Designed by [Matthew Skiles](https://matthewskiles.com/).
 
-<figure><img src="../.gitbook/assets/Element Dev Pack Display.jpg" alt=""><figcaption><p>DevElement Pack Icon - preview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Element Dev Pack Display.jpg" alt="Development Element Pack icon with a blue cube on a grey base"><figcaption><p>DevElement Pack Icon - preview</p></figcaption></figure>
 
 {% file src="../.gitbook/assets/element-dev-pack.png" %}
 DevElement Pack (.rwdevpack) @ 1024x1024 - Transparent PNG file

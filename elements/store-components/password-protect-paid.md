@@ -1,3 +1,7 @@
+---
+description: Protect an entire page or a section of content with a password
+---
+
 # Password Protect (Paid)
 
 {% hint style="success" %}

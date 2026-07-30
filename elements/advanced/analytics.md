@@ -27,7 +27,7 @@ To include your tracking code on every page of your site:
 
 This ensures your tracking code is included automatically across every page.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-07-02 at 12 .33.37@2x (1).png" alt=""><figcaption><p>Adding site wide code into the Templates area.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-07-02 at 12 .33.37@2x (1).png" alt="Site template editor with analytics code added before the closing body tag"><figcaption><p>Adding site wide code into the Templates area.</p></figcaption></figure>
 
 ### For individual pages
 
@@ -40,4 +40,4 @@ If you only want to add tracking code to a specific page:
 
 The code will only be included on that specific page when you publish or preview your site.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-07-02 at 12 .40.12@2x.png" alt=""><figcaption><p>Adding code into a specific page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-07-02 at 12 .40.12@2x.png" alt="Page code editor with the page-specific Body End section selected"><figcaption><p>Adding code into a specific page.</p></figcaption></figure>

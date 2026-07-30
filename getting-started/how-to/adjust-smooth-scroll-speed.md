@@ -26,4 +26,4 @@ Note the **speed** option in the docs say this:
 
 > \[speed] is a number representing the amount of time in milliseconds that it should take to scroll 1000px. Scroll distances shorter than that will take less time, and scroll distances longer than that will take more time. The default is 300ms.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-11-27 at 10 .46.50@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-11-27 at 10 .46.50@2x.png" alt="Smooth Scroll JavaScript added to the site template editor"><figcaption></figcaption></figure>

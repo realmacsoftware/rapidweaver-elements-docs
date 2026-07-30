@@ -100,7 +100,7 @@ When Elements detects any orphaned nodes (bits of content that no longer have a 
 
 These nodes can be safely removed using the built-in recovery option.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-09-30 at 6 .24.07@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-09-30 at 6 .24.07@2x.png" alt="Elements Help menu with Recovery and Remove Recovered Nodes selected"><figcaption></figcaption></figure>
 
 #### Follow these steps to Repair your Project:
 
@@ -133,4 +133,3 @@ Re-launch Elements and open the newly saved (and repaired) project.
 You can now continue working on your project, right where you left off.
 
 We’re actively working on reducing the chances of these orphaned nodes appearing in the first place.
-

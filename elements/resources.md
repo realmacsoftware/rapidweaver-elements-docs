@@ -1,4 +1,5 @@
 ---
+description: Add, organise and manage the files used by your website
 icon: folder
 ---
 
@@ -77,11 +78,11 @@ Right-click in the Resources area and select the "New Folder" option from the co
 
 Right-click in the Resources area and select "Add Remote Resource" from the contextual menu.
 
-<figure><img src="../.gitbook/assets/CleanShot 2025-08-26 at 9 .36.58@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2025-08-26 at 9 .36.58@2x.png" alt="Resources contextual menu with Add Remote Resources selected"><figcaption></figcaption></figure>
 
 You can add single or multiple remote url's at a time, just ensure each remote resource is on a new line. The Remote Resources window also supports multiple Vimeo and YouTube URL's.
 
-<figure><img src="../.gitbook/assets/CleanShot 2026-07-16 at 3 .15.23@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2026-07-16 at 3 .15.23@2x.png" alt="Add Remote Resources dialog containing multiple media URLs on separate lines"><figcaption></figcaption></figure>
 
 ### Sorting Resources
 

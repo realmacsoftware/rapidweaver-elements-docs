@@ -19,7 +19,7 @@ A robots.txt file is a _request_, not a guarantee. Well-behaved bots obey it, bu
 
 This file will be published to the root of your website, making it accessible to search engines at https://yourdomain.com/robots.txt.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-05-09 at 12 .58.24@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-05-09 at 12 .58.24@2x.png" alt="A robots.txt file open in the Elements code editor at the project root"><figcaption></figcaption></figure>
 
 ### Example robots.txt file:
 
@@ -31,6 +31,5 @@ Allow: /
 
 Sitemap: https://example.com/sitemap.xml
 ```
-
 
 
