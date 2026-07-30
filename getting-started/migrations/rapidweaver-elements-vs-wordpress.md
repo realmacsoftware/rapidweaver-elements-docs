@@ -16,7 +16,7 @@ Here's a high-level overview of why moving your Wordpress site to Elements is a 
 
 #### ⚡ Blazing-Fast Performance
 
-Elements outputs static HTML, CSS, and JS, no database or server-side processing required. That means your site loads faster, uses fewer resources, and is easier to optimise for performance and SEO.
+Elements outputs static HTML, CSS, and JavaScript for standard pages, with no database or server-side processing required. Dynamic features such as Forms and Elements CMS require compatible PHP hosting.
 
 #### 🧼 No Bloat.
 
@@ -24,7 +24,7 @@ Say goodbye to plugin clutter, complex dashboards, and security patches. Element
 
 #### 🔒 More Secure
 
-Because Elements sites are static and don’t rely on a backend like PHP or MySQL, there’s far less surface area for attacks or vulnerabilities. You don’t need to worry about plugin exploits or keeping a CMS up to date.
+Standard Elements pages do not rely on PHP, MySQL, or a continuously running CMS backend, so they have a smaller attack surface. Forms and Elements CMS use PHP when published, but the CMS stores content in portable Markdown files rather than a database.
 
 #### 🎨 Design First
 
@@ -32,7 +32,7 @@ Elements was built with designers in mind. The UI stays out of your way, giving 
 
 #### 🧘‍♂️ No Server Headaches
 
-No need to configure databases, worry about hosting environments, or deal with WordPress updates breaking your theme. Just publish your site to any static host or server and you’re done.
+Standard sites do not need a database or a specialised hosting environment. If you use Forms or Elements CMS, choose hosting that meets their PHP requirements.
 
 #### 🌍 Works Anywhere
 
@@ -84,7 +84,7 @@ Many features handled by WordPress plugins (like contact forms, SEO tags, or soc
 
 Once you're happy with the rebuild:
 
-* Choose a hosting provider that supports static sites (Netlify, Vercel, GitHub Pages, or your own server)
+* Choose a static host or your own server for standard sites. Forms and Elements CMS require compatible PHP hosting.
 * Use the built-in publishing tools in Elements to upload your site
 * Double-check everything’s working, especially links and forms
 

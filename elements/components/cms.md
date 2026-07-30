@@ -14,6 +14,14 @@ This page is an overview. For installation, system requirements, Markdown format
 
 <a href="https://docs.realmacsoftware.com/elements-docs/cms" class="button primary" data-icon="database">Read the Full CMS Documentation</a>
 
+### Requirements
+
+Elements CMS requires a web server running **PHP 8.4 or newer** with the `mbstring` extension enabled. Pages that use CMS data must have their page extension set to `.php`.
+
+{% hint style="warning" %}
+Confirm that your hosting meets the current [CMS system requirements](https://docs.realmacsoftware.com/elements-docs/cms/getting-started/system-requirements) before building or publishing a CMS-powered site.
+{% endhint %}
+
 ### How Elements CMS Works
 
 1. Add the CMS components you need to an Elements page.

@@ -127,7 +127,7 @@ Every Elements license includes all you need to build the website you've always 
 
 <summary>Is Elements subscription based?</summary>
 
-**No, not in the traditional sense.** When you [purchase a Elements license from our website](https://realmacsoftware.com/pricing/), you are automatically subscribed to one year of app updates. The license itself will not expire (**you can use it forever**), however the one year period of app updates will renew on an annual basis.
+**Elements uses a yearly subscription for app updates.** When you [purchase an Elements license from our website](https://realmacsoftware.com/pricing/), you receive the Mac app and one year of updates. The license itself does not expire, so you can continue using the latest version covered by your update period even if you cancel.
 
 Please note the following:
 
@@ -295,7 +295,7 @@ You can cancel your subscription anytime via your [Billing Manager](https://real
 We offer a 30 day money-back guarantee from the date you **initially purchase** a license for our software. During those initial 30 days you can cancel your subscription and request a refund with no questions asked.
 
 {% hint style="warning" %}
-Subsequent annual subscription renewals **are not refundable under our 30 day money-back guarantee.**
+Subsequent annual subscription renewals **are not refundable under our 30 day money-back guarantee**, and cancelling does not refund unused time in the current update period.
 {% endhint %}
 
 </details>
