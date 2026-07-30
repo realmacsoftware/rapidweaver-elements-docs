@@ -4,21 +4,50 @@ description: Change the style of your website in a single click
 
 # Theme
 
+Themes provide the starting design system for a project. A theme supplies coordinated colours, font families, font sizes, spacing, shadows, border values, typography, and page colours.
 
+Open **Theme Studio → Theme** and select a theme card to apply it to the project.
+
+<figure><img src="../../.gitbook/assets/theme-studio-themes.png" alt="Theme Studio showing the available Architect, Atlas, Blush, Build, Elegant, Neon, Solar, System, Typesetter, and Yarrow themes"><figcaption><p>Select a theme to change the project-wide design foundation.</p></figcaption></figure>
+
+### Choosing a Theme
+
+1. Open **Theme Studio → Theme**.
+2. Select a theme card.
+3. Review representative pages at mobile and desktop sizes.
+4. Check both light and dark appearance.
+5. Refine the shared values in the remaining Theme Studio sections.
+
+Components that use theme values update with the new design system. Direct custom values remain deliberate exceptions, so review them when switching to a visually different theme.
+
+{% hint style="info" %}
+Choose a theme for its overall structure and character, then customise its Brand, Accent, Surface, Text, fonts, and defaults for the project.
+{% endhint %}
 
 ### Creating a Custom Theme
 
-You can  create fully custom themes using the built-in Element DevTools. Define your colour system, typography scale, spacing, and build a proper design foundation that can be reused across projects.
+You can create reusable themes using the built-in Elements DevTools. A custom theme can define its own colour system, typography scale, spacing, shadows, borders, and other shared values.
 
 {% hint style="warning" %}
 **Theme creation is only available on the Pro plan**. Base and Plus users can still override theme values, and customise styling on a per project basis.
 {% endhint %}
 
-Click the plus button in the theme list to create a new theme, and enter in the required details for your theme. A icon is not required and can be added later via the Finder.
+Before creating a theme, create or open a Dev Pack to hold it. Then:
 
-**Please Note:** Before you can create a Theme, you'll need to first create a Dev Pack to save it into.
+1. Open **Theme Studio → Theme**.
+2. Select the plus card at the end of the theme list.
+3. Choose the Dev Pack and enter the theme details.
+4. Configure the theme values in Theme Studio.
+5. Add an icon later if one was not supplied during creation.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-02-11 at 11 .00.45@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2026-02-11 at 11 .00.45@2x.png" alt="The new custom theme sheet in Elements DevTools"><figcaption><p>Choose a Dev Pack and enter the custom theme details.</p></figcaption></figure>
+
+### Before Switching Themes
+
+* Save a copy of the project if you want an easy comparison point.
+* Check every page background and text contrast after switching.
+* Review custom colours and component-level overrides.
+* Confirm that typography and spacing still fit the content.
 
 ### Dev Diary Videos for Themes
 
