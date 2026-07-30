@@ -1,5 +1,4 @@
 ---
-hidden: true
 icon: seal-question
 ---
 
@@ -9,7 +8,7 @@ Learn more about why RapidWeaver Elements for macOS is the perfect choice for bu
 
 ### Elements is Community Driven
 
-We listen to our amazing [community of passionate users](https://forums.realmacsoftware.com) and build the features they want.&#x20;
+We listen to our amazing [community of passionate users](https://forums.realmacsoftware.com) and build the features they want.
 
 1. Weekly builds along with a video dev diary to keep the community in the loop.
 2. Be part of the Independent Web, don't rely on social media companies.

@@ -23,7 +23,7 @@ Elements works great for:
 
 * Personal and portfolio sites
 * Small business and client sites
-* Blogs and content‑heavy sites using the built‑in [CMS](elements-app/cms/)
+* Blogs and content‑heavy sites using the built‑in [CMS](/broken/pages/my9VstnAdHLESoEPakEc)
 * Long‑form content, digital gardens, and knowledge bases
 * Landing pages and marketing sites
 

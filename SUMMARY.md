@@ -7,7 +7,6 @@
 
 * [Download](getting-started/download.md)
 * [License](getting-started/license-types.md)
-* [Registration Walkthrough](getting-started/registration-walkthrough.md)
 * [Quickstart](getting-started/quickstart.md)
   * [How to Tutorials](elements-app/how-to/fix-common-design-issues.md)
   * [Let's Build](getting-started/quickstart/lets-build.md)
@@ -19,6 +18,9 @@
   * [Build a Sticky Menu](getting-started/how-to/build-a-sticky-menu.md)
   * [Site Banner with Text](getting-started/how-to/site-banner-with-text.md)
   * [Create a Card](getting-started/how-to/create-a-card.md)
+* [Why Elements?](getting-started/why-elements/README.md)
+  * [Static Website Benefits](getting-started/why-elements/static-website-benefits.md)
+  * [Build a Digital Garden](getting-started/why-elements/build-a-digital-garden.md)
 * [Core Concepts](getting-started/design-system.md)
 * [Elements Cloud](getting-started/elements-cloud.md)
 * [Elements AI](getting-started/elements-ai/README.md)
@@ -30,6 +32,7 @@
 * [Support Guide](getting-started/troubleshooting/README.md)
   * [Publishing Issues](getting-started/troubleshooting/fixing-issues.md)
   * [How to Reset Elements](getting-started/troubleshooting/troubleshooting.md)
+* [Creator Program](getting-started/creator-program.md)
 
 ## Classic to Elements
 
@@ -152,28 +155,6 @@
 * [Syncing Projects](elements/syncing-projects.md)
 * [Deep Linking](elements/url-scheme.md)
 * [Elements API](elements/building-extensions.md)
-
-## Elements App
-
-* [Creator Program](elements-app/creator-program.md)
-* [Why Elements?](elements-app/why-elements/README.md)
-  * [User Personas](elements-app/why-elements/user-personas.md)
-  * [Static Website Benefits](elements-app/why-elements/static-website-benefits.md)
-  * [Build a Digital Garden](elements-app/why-elements/build-a-digital-garden.md)
-* [CMS](elements-app/cms/README.md)
-  * [Helpers](elements-app/cms/helpers.md)
-  * [Developing for the CMS](elements-app/cms/developing-for-the-cms/README.md)
-    * [ElementsCMS.php](elements-app/cms/developing-for-the-cms/elementscms.php.md)
-    * [ElementsCMSCollection](elements-app/cms/developing-for-the-cms/elementscmscollection.md)
-    * [ElementsCMSItem.php](elements-app/cms/developing-for-the-cms/elementscmsitem.php.md)
-  * [Frontmatter](elements-app/cms/frontmatter.md)
-  * [Markdown](elements-app/cms/markdown.md)
-  * [Online Editor](elements-app/cms/online-editor.md)
-  * [Pretty URLs](elements-app/cms/pretty-urls.md)
-  * [Template Data](elements-app/cms/template-data.md)
-* [Data Components](elements-app/data-components.md)
-* [Quicklook Document](elements-app/quicklook-document.md)
-* [Marketplace API](elements-app/marketplace-api.md)
 
 ## Presskit
 
