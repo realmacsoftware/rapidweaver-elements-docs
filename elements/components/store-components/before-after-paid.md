@@ -16,8 +16,6 @@ It’s more flexible than a basic image comparison component. You can use any co
 
 ### Before After Component Settings
 
-
-
 {% columns %}
 {% column width="50%" %}
 #### Before After
@@ -67,8 +65,6 @@ Choose what type of content you want to compare:
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-20 at 3 .13.53@2x.png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-11-20 at 3 .13.53@2x.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}

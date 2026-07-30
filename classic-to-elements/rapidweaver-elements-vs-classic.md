@@ -34,7 +34,7 @@ Over 1,000 Classic users have already made the switch to Elements, here's just a
 > _"I have been on the beta for some time and I must say that going back to RapidWeaver Classic and Stacks every now and then to do updates etc on sites developed there, seems as if one is going back in time somehow._
 >
 > \
-> &#xNAN;_&#x45;lements is truly forming to be an incredible web design app and I am excited for what is still coming! Keep up the great work Team Realmac!"_ — Gunther Schenk
+> _&#x45;lements is truly forming to be an incredible web design app and I am excited for what is still coming! Keep up the great work Team Realmac!"_ — Gunther Schenk
 
 > I used RapidWeaver Classic for years, invested a lot (!) of money in frameworks, cms solutions and 3rd party stacks which all had a different way to name or sort their settings. That already drove me nuts.
 >

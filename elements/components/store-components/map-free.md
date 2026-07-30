@@ -32,7 +32,7 @@ To use the Maps component in Elements you need a [Maps API key from Google](http
 4. Search for Maps JavaScript API & Geocoding API
 5. Open them and click Enable for both
 
-<figure><img src="../../.gitbook/assets/enable-maps-javascript-api-and-geocoding-api.png" alt=""><figcaption><p>This screenshot shows the expected appearance after enabling both the Maps JavaScript API and the Geocoding API.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/enable-maps-javascript-api-and-geocoding-api.png" alt=""><figcaption><p>This screenshot shows the expected appearance after enabling both the Maps JavaScript API and the Geocoding API.</p></figcaption></figure>
 
 #### 4. Generate your API key
 
@@ -65,7 +65,7 @@ Add your live domain with two referrers:
 
 To support local preview, first open the Elements Advanced settings and set a fixed preview port so it stays consistent.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-13 at 8 .25.51@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-11-13 at 8 .25.51@2x.png" alt=""><figcaption></figcaption></figure>
 
 Add that URL as another two referrers in the Google console. For example:
 
@@ -74,4 +74,4 @@ Add that URL as another two referrers in the Google console. For example:
 
 Below are example settings for the API Key:
 
-<figure><img src="../../.gitbook/assets/google-maps-api-key-credentials-settings.png" alt=""><figcaption><p>This screenshot shows the API Key's settings.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/google-maps-api-key-credentials-settings.png" alt=""><figcaption><p>This screenshot shows the API Key's settings.</p></figcaption></figure>
