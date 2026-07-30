@@ -2,9 +2,9 @@
 title: Accessing Properties
 ---
 
-[UI Control Properties](/broken/pages/PewtjXwfnnSpAd2IZIqt) can be placed inside of any Template files, including HTML, CSS, and Javascript files.
+[UI Control Properties](https://docs.realmacsoftware.com/elements-docs/elements-language/component/properties-json) can be placed inside any template file, including HTML, CSS, and JavaScript files.
 
-For example in your [Properties.json](https://github.com/realmacsoftware/rapidweaver-elements-docs/blob/initial-commit/elements-language/bundle-structure/components/properties.json) file you can add the a [text field](/broken/pages/HwnBVCwrx5m0o0yae5X9), and then reference that value in your [Template files](/broken/pages/oFVCpg2OrjI36oAjJjFj), including HTML, CSS, and Javascript.
+For example, in your [properties.json](https://docs.realmacsoftware.com/elements-docs/elements-language/component/properties-json) file you can add a text field, then reference that value in your [template files](https://docs.realmacsoftware.com/elements-docs/elements-language/component/templates), including HTML, CSS, and JavaScript.
 
 ```json
 {
@@ -29,5 +29,5 @@ In your Template file you can reference the text field by using double brackets 
 ```
 
 {% hint style="info" %}
-Anything set in [rw.setProps](/broken/pages/tUNgAS6yExBEJshL4Onm) is also available to all Templates files in your component.
+Anything set with [rw.setProps](https://docs.realmacsoftware.com/elements-docs/elements-language/component/hooks.js/passing-data-to-templates) is also available to every template file in your component.
 {% endhint %}

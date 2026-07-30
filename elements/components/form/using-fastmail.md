@@ -7,7 +7,7 @@ description: Configure a Fastmail app password for Form email delivery
 Fastmail requires an [app-specific password](https://www.fastmail.help/hc/en-us/articles/360058752854) when the Form component connects to its SMTP service. Do not enter the password used to sign in to Fastmail.
 
 {% hint style="info" %}
-[Sign up for a Fastmail account](https://join.fastmail.com/elements).
+[Sign up for a Fastmail account](https://app.fastmail.com/signup/).
 {% endhint %}
 
 {% hint style="warning" %}

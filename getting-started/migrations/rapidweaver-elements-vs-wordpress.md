@@ -78,7 +78,7 @@ Many features handled by WordPress plugins (like contact forms, SEO tags, or soc
 * **Forms** → Use the built-in Form Component
 * **SEO** → Add custom meta tags in the Page Settings
 * **Analytics** → Add Google Analytics or Tag Manager using the Template or Page Code areas
-* **Comments** → Consider using a service like [Commento](https://commento.io) or [Disqus](https://disqus.com)
+* **Comments** → Consider using a service like [Disqus](https://disqus.com)
 
 #### 5. **Publish Your Site**
 

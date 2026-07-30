@@ -24,6 +24,6 @@ If any of those services go under, your writing and creations sink with it (craz
 
 You deserve a home on the World Wide Web that’s built to keep you safe; a magical place for virtual living that‘s yours for life, existing in a sociable web. [Read the full article over on Muni Blog](https://blog.muni.town/digital-homeownership/).
 
-### What is a Digital Garden?
+### Chris Biscardi's Digital Garden
 
-A Digital Garden is lowercase b blogging. It's writing without worrying about what people will think. [Read the full article over on christopherbiscardi.com](https://www.christopherbiscardi.com/what-is-a-digital-garden)
+Chris Biscardi describes his site as a digital garden where some posts are sketches or works in progress while others are complete. [Explore the garden on christopherbiscardi.com](https://www.christopherbiscardi.com/garden).

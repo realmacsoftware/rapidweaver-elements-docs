@@ -1,6 +1,5 @@
 ---
 description: '[Describe what the component does in one short sentence]'
-hidden: true
 ---
 
 # Component Page \[Template]

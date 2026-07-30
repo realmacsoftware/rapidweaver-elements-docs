@@ -61,7 +61,7 @@ We use Google Analytics to understand how visitors use our website. Analytics da
 
 We use Buttondown to manage our mailing list. When you sign up, we collect your name and email address so we can send you news, updates, and promotions about our software. You can unsubscribe at any time using the “Unsubscribe” link in any of our emails.
 
-[Buttondown Privacy Policy](https://buttondown.email/privacy)
+[Buttondown Privacy Policy](https://buttondown.com/legal/privacy)
 
 ### 5. Legal Bases for Processing
 

@@ -27,7 +27,7 @@ The Editor is the main place you’ll spend time in Elements. From here you can:
 * **Design responsively** by adjusting settings at different [breakpoints](../responsive-breakpoints.md).
 * **Reuse layouts** with [Templates](../templates.md) and [Globals](../global-templates.md) so you don’t repeat work.
 * **Navigate and manage your site structure** alongside the canvas using the [Page Manager](../page-manager.md).
-* **Preview your site in a real browser** with [Browser Preview](/broken/spaces/Ny6AECEVH2p4eFDicpM1/pages/hJzEqAIU2L3bSZGjVG4N).
+* **Preview your site in a real browser** with [Browser Preview](../previewing-your-website.md).
 
 In short, the Elements editor strikes a balance between simplicity and power, making it an essential tool for building beautiful, fast websites efficiently.
 

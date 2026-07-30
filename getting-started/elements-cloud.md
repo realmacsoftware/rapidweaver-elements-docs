@@ -11,7 +11,7 @@ Elements Cloud gives every user a simple, reliable place to **store purchased pr
 
 {% embed url="https://youtu.be/dBj6pkVy2-4" %}
 
-Below are  instructions on [how to sign-up](elements-cloud.md#how-to-sign-up-for-an-elements-cloud-account) for a free account, and [share/backup your project](elements-cloud.md#backup-and-share-a-file).
+Below are instructions on [how to sign up](elements-cloud.md#account-sign-up) for a free account and [share or back up your project](elements-cloud.md#sharing-projects).
 
 {% hint style="warning" %}
 An active subscription is required to use Elements Cloud.
@@ -50,9 +50,9 @@ To upload your project to Elements Cloud, just follow these steps:
 
 To generate a direct download link from an Elements App link, simply append the unique identifier from the original link to the elementsapp.cloud URL.
 
-• Elements App Link: [elementsapp://downloadDocument/M1l5heNgT81r](elementsapp://downloadDocument/M1l5heNgT81r)
+* Elements App link: `elementsapp://downloadDocument/UNIQUE-ID`
 
-• Direct Download Link: [https://dl.elementsapp.cloud/g/M1l5heNgT81r](https://dl.elementsapp.cloud/g/M1l5heNgT81r)
+* Direct download link: `https://dl.elementsapp.cloud/g/UNIQUE-ID`
 
 
 
