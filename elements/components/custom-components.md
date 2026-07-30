@@ -1,166 +1,155 @@
 ---
-description: Extend RapidWeaver by creating your very own custom Components
+description: Build project-specific components with HTML, CSS, JavaScript, and the Elements Language
 ---
 
 # Custom Components
 
-If you know a bit of HTML you can create your own custom Components for use in your projects. These can be anything from a simple html snippet to a fully blown Component with custom UI controls taking full advantage of the[ Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language).
+Custom Components let you extend RapidWeaver Elements with your own reusable building blocks. Start with a simple HTML snippet, or create a complete component with editable content, drop zones, Inspector controls, custom styles, client-side JavaScript, and build-time hooks.
 
-{% hint style="success" %}
-**The possibilities of what you can create are endless.**\
-Learn more about using the [Elements API here](https://docs.realmacsoftware.com/elements-docs/elements-language).
+Everything can be created and edited inside Elements, with changes appearing on the canvas as you work. A basic understanding of HTML is helpful, but you can begin with a small snippet and add more advanced features when you need them.
+
+{% hint style="info" %}
+Custom Components use the same [Elements Language](https://docs.realmacsoftware.com/elements-docs/elements-language) that powers Element Packs. They are a practical way to learn the API before moving a component into a distributable pack.
 {% endhint %}
 
-### **Adding a simple HTML snippet**
+### What You Can Create
 
-One of the easiest ways get started using Custom Components is by adding an HTML snippet to your page.
+* Reusable HTML sections for a project.
+* Components with editable text and child-component drop zones.
+* Inspector controls for colours, fonts, spacing, switches, selections, and other values.
+* Interactive components using JavaScript or Alpine.js.
+* Components whose properties are processed with build-time hooks.
+
+### Requirements and Limitations
+
+* Custom Components are stored inside the project in which they were created.
+* An external code editor is not required.
+* A Base licence can create up to three Custom Components per project. Plus and Pro licences allow unlimited Custom Components.
+* The built-in editor provides five fixed code areas: Template, Styles, JavaScript, Hooks, and Properties.
+* Custom Components cannot bundle extra assets, icons, or additional template files.
+
+When a component needs bundled files, collections, custom icons, several templates, or distribution through the Elements Store, move it into an Element Dev Pack.
+
+{% hint style="warning" %}
+Custom HTML, CSS, and JavaScript become part of the published website. Preview the component at every breakpoint and test keyboard use, accessibility, and browser behaviour before publishing.
+{% endhint %}
+
+### Start with an HTML Snippet
+
+One of the easiest ways to begin is to add a small HTML component and edit its Template.
 
 {% embed url="https://www.youtube.com/watch?v=rHDCpYrg-j4" %}
 
-### A Guide to Creating Custom Components
-
-In this laid-back conversation, Dan and Ben discuss the intricacies of building custom components in RapidWeaver Elements, focusing on the integration of properties, resources, and advanced features like drop zones and hooks.
-
-{% embed url="https://youtu.be/aqOOChtClwI?si=sKpgkAruLBAROR7P" %}
-
-{% hint style="success" %}
-Learn more about using the [Elements API here](https://docs.realmacsoftware.com/elements-docs/elements-language).
-{% endhint %}
-
-### Creating a Custom Component
-
-Creating a Custom Component in Elements is the easiest and fastest way to get started with exploring the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language). Custom Components can easily be migrated to distributable Element Pack at a later date.
-
-#### A few things to note before you get started:
-
-1. No external code editor is required, you can build everything inside of RapidWeaver Elements.
-2. Custom Components are stored in the project they were created in.
-3. Custom Components have full access to the Elements Language and can define their own Properties (the UI controls shown in the Inspector) right inside the Component Editor — they just can't bundle separate _files_ (such as extra assets, icons, or additional template files) the way an external Element Pack can.
-4. To ensure compatibility with Elements you should use Tailwind CSS classes when writing your Template HTML.
-5. Custom Components can easily be converted into an encrypted component and shared or sold on the Elements Marketplace.
-
-#### Let's get Started:
+### How to Create a Custom Component
 
 {% stepper %}
 {% step %}
-#### Open the Components area in the sidebar of your project
+#### Open the Components Area
 
-Press the "+" button next to the "Custom" heading, and choose HTML. You should now see the component appear in the list.
+In the Components area of the project sidebar, select the **+** button beside **Custom**, then choose **HTML**. The new component appears in the Custom list.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .02.15@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .02.15@2x.png" alt="The add button beside the Custom heading in the Components area"><figcaption><p>Create an HTML component from the Custom section.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
-#### Drag your newly created component onto the Page
+#### Add the Component to a Page
 
-Drag your HTML component into the page, you're now ready to start customizing it.
+Drag the new component from the Components area onto the page.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .03.57@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .03.57@2x.png" alt="A newly created HTML component added to an Elements page"><figcaption><p>Add the Custom Component to the page before editing it.</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
-#### Edit your Custom Component
+#### Open the Component Editor
 
-Next, open the Component Editor so we can view and edit the code. All changes made to the code update in realtime. Go ahead, change the text and watch the preview update.
+Open the Component Editor and select the Template area. Edit the starter markup and watch the component update on the canvas.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .04.38@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .04.38@2x.png" alt="Template code open in the Component Editor"><figcaption><p>Template changes appear on the canvas as you work.</p></figcaption></figure>
 
-The Component Editor is a panel so can be placed or added anywhere in the UI. Right-click an icon in the inspector to select it from the drop down menu.
+The Component Editor is a workspace panel, so it can be placed wherever it suits your layout. Right-click a workspace icon to choose the panel from the menu.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .08.23@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2025-06-01 at 12 .08.23@2x.png" alt="Selecting the Component Editor from a workspace panel menu"><figcaption><p>Add the Component Editor to a convenient part of the workspace.</p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-### The Component Editor: Five Built-in Areas
+### The Component Editor
 
-Every Custom Component has the same five built-in areas in the Component Editor. You edit each one in place — a Custom Component can't add, rename, or remove these files, and (unlike an external Element Pack) it can't bundle any additional files such as extra assets, icons, or template files.
+Every Custom Component contains five built-in areas:
 
-* **Template** — the component's HTML markup, processed by the Elements Language (this is where `@text`, `@dropzone`, and `{{property}}` references live).
-* **Styles** — custom CSS for the component.
-* **JavaScript** — client-side behaviour for the component.
-* **Hooks** — JavaScript that runs at build time to transform your Properties before the Template is rendered.
-* **Properties** — the UI controls shown in the Inspector.
+* **Template** — HTML processed by the Elements Language. Add markup, editable content areas, drop zones, and property references here.
+* **Styles** — CSS used by the component.
+* **JavaScript** — Client-side behaviour that runs in the published page.
+* **Hooks** — Build-time JavaScript that reads and transforms component properties before the Template is rendered.
+* **Properties** — Configuration for the controls shown in the Inspector.
 
-The sections below cover each area in turn.
+These areas cannot be renamed, removed, or expanded with extra files inside a Custom Component.
 
-### Adding Editable Content Areas
+### Add Editable Content
 
-Using the following tags enable editable areas with the page. No setup of configuration in the properties file is required.
-
-Replace any text in the html template to make it editable within the page.
-
-```
-@text("heading")
-```
-
-Here's a real world example of using the code to make the a heading editable.
+Use `@text` in the Template to create text that can be edited directly on the page:
 
 ```html
-<h1 class="text-lg text-gray-300 font-heading">@text("heading")</h1>
-<p class="text-sm text-slate-300/70">Build the website of your dreams.</p>
+<h1 class="font-heading text-lg text-gray-300">
+    @text("heading", default: "Hello World!")
+</h1>
 ```
 
-You can also set a default value for an editable text areas, so that when your custom component is dropped into a page it will be populated with a defulat value. In the example below, it would be "Hello World!".
+The first value is a unique name for the editable area. The optional `default` value is shown when a new instance of the component is added.
 
-```
-@text("heading", default: "Hello World!")
-```
+Use `@dropzone` when the component should accept other Elements components:
 
-A dropzones is an area within an HTML template where existing component can be added.
-
-```
-@dropzone("extraItems")
+```html
+@dropzone("content", title: "Content")
 ```
 
-Can also be written like this.
+Each editable area and drop zone should have a unique, descriptive name within the component.
 
-```
-@dropzone(name: "content")
-```
+### Add Inspector Controls
 
-You can also add a title for the Dropzone, this will be shown in the Node Browser.
+The Properties area defines the controls shown in the Inspector. Give each control an `id`, then insert its formatted value into the Template using `{{id}}`.
 
-```
-@dropzone("zone-1", title: "Zone 1")
-```
-
-### Adding Custom Properties (UI Controls)
-
-Editable text and dropzones are just the start. Custom Components can also have their own **Properties** — the controls that appear in the Inspector, such as sliders, switches, and color or font pickers. The Component Editor has a **Properties** area alongside the **Template** area, and the configuration you add there uses the same format as an Element Pack's `properties.json`.
-
-Add a control in the **Properties** area, give it an `id`, then reference that `id` in your **Template** with `{{id}}`. For example, a control that lets the user pick the text colour:
-
-Place this in the **Properties:**
+This example adds a theme-aware text-colour control:
 
 ```json
 {
-    "groups": [{
-        "title": "Settings",
-        "properties": [{
-            "title": "Text Color",
-            "id": "textColor",
-            "format": "text-{{value}}",
-            "themeColor": {
-                "default": { "name": "red", "brightness": 600 }
-            }
-        }]
-    }]
+    "groups": [
+        {
+            "title": "Settings",
+            "properties": [
+                {
+                    "title": "Text Color",
+                    "id": "textColor",
+                    "format": "text-{{value}}",
+                    "themeColor": {
+                        "default": {
+                            "name": "red",
+                            "brightness": 600
+                        }
+                    }
+                }
+            ]
+        }
+    ]
 }
 ```
 
-And reference it in the **Template:**
+Use the property in the Template:
 
 ```html
 <p class="{{textColor}}">Hello World!</p>
 ```
 
+See the [Properties reference](https://docs.realmacsoftware.com/elements-docs/elements-language/component/properties-json) for the available controls and configuration options.
+
 {% hint style="info" %}
-For the full list of available controls — text, slider, switch, select, and the theme-aware color, font, and spacing controls — see the [Properties reference](https://app.gitbook.com/s/oWVD0W05KiZtfQynqfZo/component/properties-json/general-structure). For a complete worked example that drives a snow effect from **Amount** and **Follow Mouse** controls, see [Add Snow to your Website](../../getting-started/how-to/add-snow-to-your-website.md).
+The [Add Snow to Your Website](../../getting-started/how-to/add-snow-to-your-website.md) tutorial is a complete example driven by Amount and Follow Mouse properties.
 {% endhint %}
 
-### Adding Styles (CSS)
+### Add Styles
 
-Elements is built on Tailwind CSS, so most styling is done with utility classes directly in your **Template** HTML. When you need custom CSS that utility classes can't express, add it in the **Styles** area. Styles are processed by the Elements Language too, so you can insert property values and scope rules to the individual component instance with `{{id}}`:
+Elements is built around Tailwind CSS, so utility classes in the Template are the best starting point. Use the Styles area when the design needs CSS that is clearer or more practical as a custom rule.
+
+Include the component instance ID when a rule must not affect other instances:
 
 ```css
 .component-{{id}} {
@@ -168,13 +157,29 @@ Elements is built on Tailwind CSS, so most styling is done with utility classes 
 }
 ```
 
-### Adding JavaScript
+Apply the same class in the Template:
 
-Use the **JavaScript** area for your component's client-side behaviour. Elements also bundles AlpineJS, so you can drive interactivity straight from your **Template** with Alpine directives — use the `x-on:` form for events, as `@` is reserved by the Elements Language.
+```html
+<div class="component-{{id}}">
+    @dropzone("content", title: "Content")
+</div>
+```
 
-### Adding Hooks
+### Add JavaScript
 
-The **Hooks** area runs JavaScript at build time, before your Template is rendered. The order is **Properties → Hooks → Template**: a hook reads the values from your Properties via `rw.props`, transforms them (compute derived values, format strings, set defaults), and passes the results to the Template with `rw.setProps()`.
+Use the JavaScript area for behaviour that runs in the visitor’s browser. Elements also includes Alpine.js for lightweight interactions.
+
+When using Alpine directives in the Template, write event handlers with `x-on:` because the `@` prefix is reserved by the Elements Language:
+
+```html
+<button x-on:click="open = !open">Toggle content</button>
+```
+
+Keep controls keyboard accessible and avoid adding the same global event listener more than once when several instances appear on a page.
+
+### Transform Values with Hooks
+
+Hooks run at build time in the order **Properties → Hooks → Template**. Read Inspector values from `rw.props`, prepare the values the Template needs, then pass them to the Template with `rw.setProps()`.
 
 ```javascript
 const transformHook = (rw) => {
@@ -188,14 +193,39 @@ const transformHook = (rw) => {
 exports.transformHook = transformHook;
 ```
 
-The Template can then use the new value as `{{fullName}}`.
+The Template can then use the derived value:
 
-{% hint style="info" %}
-For the full Hooks API — available data (`rw.props`, `rw.collections`, `rw.page`, …) and functions (`rw.setProps()`, `rw.addAnchor()`, …) — see the [Hooks.js reference](https://app.gitbook.com/s/oWVD0W05KiZtfQynqfZo/component/hooks.js).
-{% endhint %}
+```html
+<p>{{fullName}}</p>
+```
 
-### Going Further with the Elements API
+See the [Hooks reference](https://docs.realmacsoftware.com/elements-docs/elements-language/component/hooks.js) for the complete build-time API.
 
-Using the above tags inside of Custom Components only scratch the surface of what's possible, you can also use the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language) inside of your Custom Components.
+### Tips and Best Practices
 
-If you're a developer you can take things even further by creating distributable (and sellable) [Element Packs for RapidWeaver Elements](https://docs.realmacsoftware.com/elements-docs/elements-language/getting-started/getting-started).
+* **Start small:** Get the HTML structure working before adding Properties, JavaScript, or Hooks.
+* **Use meaningful names:** Names such as `headingColor` and `content` are easier to maintain than generic identifiers.
+* **Prefer theme controls:** Theme-aware colour, font, and spacing properties help the component remain consistent with the project.
+* **Scope custom code:** Use `{{id}}` when styles or selectors must apply to one component instance.
+* **Design accessibly:** Use semantic HTML, visible focus states, labelled controls, alternative text, and reduced-motion behaviour where appropriate.
+* **Test several instances:** Confirm that IDs, scripts, styles, and interactions still work when the component appears more than once.
+
+### Custom Component Workshop
+
+Dan and Ben discuss how Custom Components use properties, resources, drop zones, and hooks, and when to move from a project component to a complete pack.
+
+{% embed url="https://youtu.be/aqOOChtClwI?si=sKpgkAruLBAROR7P" %}
+
+### Move to an Element Pack
+
+Custom Components are ideal for project-specific work and learning the Elements Language. A distributable Element Pack is the next step when a component needs its own files, icons, assets, collections, or release process.
+
+Dev Packs are editable development bundles and should not be sold or distributed directly. Compile finished work into an Element Pack through the Elements Platform before sharing or selling it.
+
+Use the [Element Pack getting-started guide](https://docs.realmacsoftware.com/elements-docs/elements-language/api-introduction/getting-started) to create a pack, then explore the [open-source Core Components](https://docs.realmacsoftware.com/elements-docs/elements-language/dev-resources/open-source-components) for production examples.
+
+### Related Documentation
+
+* [Elements Language](https://docs.realmacsoftware.com/elements-docs/elements-language) — Complete API and template-language documentation.
+* [Deep Linking](../url-scheme.md) — Create links that import Custom Components into Elements.
+* [Licence Types](../../getting-started/license-types.md) — Compare Custom Component limits and commercial permissions.
