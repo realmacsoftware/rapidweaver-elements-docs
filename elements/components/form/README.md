@@ -1,147 +1,227 @@
 ---
-description: Send form data via email or webhooks
+description: Build forms that submit to email or a webhook
 ---
 
 # Form
 
-The Form Component is a flexible and powerful solution for sending form submissions either to your own email server or via a webhook.
+The Form component is the wrapper for fields, attachments, feedback, and submission controls. It validates its fields, then sends the submission through an SMTP email account or to a webhook.
 
 {% hint style="danger" %}
-The Form Component **requires PHP 8.4** to be installed on your server.
+Forms require a published server with **PHP 8.1 or newer**. They do not submit in the normal local preview.
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=FlAvQC5neyA" %}
 
-### Recommendation
+### How to Build a Form
 
-We recommend using a Webhook to handle email delivery or data collection. It’s significantly more reliable and easier to set up than configuring SMTP manually, which can often lead to issues with authentication, server compatability, spam filters, or SSL mismatches.
+You’ll find Form and its related components under **Forms** in the Components list.
 
-### Server Requirements
-
-The Form Component in Elements **requires PHP 8.4 or newer**. You can run the built-in [PHP Server check](./#php-server-check) to ensure your server meets this requirement.
-
-Behind the scenes the Elements Form uses the very popular and robust [PHPMailer framework](https://github.com/PHPMailer/PHPMailer).
+1. Drag **Form** onto the page.
+2. Add Input, Date Picker, Select, Checkbox, Radio, Attachment, and Label components inside the Form.
+3. Add a **Submit** component inside the Form.
+4. Drag a clickable component—normally a **Button**—into the Submit component’s drop zone.
+5. Add Success and Error components, then place the feedback content you want to show inside them.
+6. Choose Email or Webhook delivery and enter the required connection details.
+7. Configure spam protection if needed.
+8. Publish to a PHP-enabled server and test a complete submission.
 
 {% hint style="warning" %}
-Because every server is different, we cannot guarantee the form will work. If you have trouble sending email via the form we recommend switching sending your form via a Webhook.
+The **Submit component does not display a button and cannot be clicked on its own**. It supplies submission behaviour to its drop zone. Add a Button, Image, or another clearly clickable component inside Submit so visitors have something to click.
 {% endhint %}
-
-### ✅ Form Compatibility Checklist
-
-Before going live with your form, make sure you’ve covered the following essentials. These common issues can prevent form submissions from working correctly, so it’s worth double-checking everything below:
-
-* [ ] **Forms must be published to a live server.** They won’t function when previewed locally.
-* [ ] **Your web server must be running PHP 8.4 or newer.** Ensure you have run the built-in [PHP Server check](./#php-server-check).
-* [ ] **Make sure your SMTP Settings Match Your Domain**. It’s important that your SMTP settings match your domain configuration.
-* [ ] **Sending multiple attachments?** Be sure to enable the “**multiple**” toggle in the Attachment Component settings.
-* [ ] **Using the reply-to feature?** The field name for your email input must be exactly email (all lowercase) for Elements to set the reply-to address properly.
-* [ ] **Avoid special characters in field names.** Stick to letters, numbers, and hyphens. Avoid spaces, symbols, or punctuation in form field names as they may not be parsed correctly on the server.
-* [ ] **Use the Error and Success components.** These components are optional. However, without them, users won’t see feedback after submitting the form. Include both for a complete user experience.
-
-### ⚠️ Troubleshooting Email Sending Issues
-
-If you've published your form, and are still having issues, please run through this troubleshooting guide to help resolve common issues:
-
-1. Run the [PHP Server check ](./#php-server-check)to ensure version on your server meets the minimum requirements.
-2. Check your hosting provider’s documentation to ensure outbound SMTP is supported.
-3. Ensure you have entered the correct details for the Form Setup, this is worth triple checking as this is the most common cause of why a form is not delivering email.
-4. Check the email password you entered for the form is correct correct, and doesn't contain any trailing spaces (this is more common than you'd imagine).
-5. In some cases, your email provider will block sending if the From address doesn’t match your SMTP account. Make sure: The From Email matches the SMTP Username. The To Email is valid and not blacklisted or blocked by spam filters.
-6. Review your form logs to see detailed error messages, this can be found at the following location on your server: `rw/elements/com.realmac.corepack/api/logs` the file name will look something like this `form_rw904107B7_1234_4FDC_9B97_1D9A663C1B17-2025-07-24.log` — Note the date on the end of the file, this is helpful for ensure you're checking the correct log file.
-7. If you are sure all your details are correct, and you have verifed them with your email hosting provider, please [post your issue on our forum ](https://forums.realmacsoftware.com/)and we'll help you troubleshoot further.
-
-### ✅ Match Your SMTP Settings to Your Domain
-
-When using a custom SMTP server to send form submissions, it’s important that your SMTP settings match your domain configuration.
-
-Here’s what to check:
-
-* **Email Address:** Make sure the “From” address you’re using belongs to the same domain your site is hosted on (e.g. form@yourdomain.com if your site is hosted at yourdomain.com).
-* **SMTP Server:** Use the correct hostname for your mail server. This should match the SSL certificate used by the server (e.g. mail.yourdomain.com, not just localhost or an IP).
-* **TLS/SSL Certificate:** Your mail server must have a valid certificate that matches the SMTP server hostname. If there’s a mismatch, some providers (especially Gmail) will reject the connection.
-* **Authentication:** Use the correct username and password for your SMTP account.
-
-### ⚠️ A note on sending and receiving email
-
-You need to use your own email address as the “From” address because the mail server will only send messages that come from an address it recognises.
-
-If we used the visitor’s email there, the message might get blocked. The usual way around this is to keep your own address as the sender, and then set the visitor’s email as the **Reply-To**.
-
-That way the form email always gets delivered, and when you hit reply it goes straight back to them — this is how Forms work in Elements.
-
-### ✅ PHP Server Check
-
-We recommend PHP 8.4 or later for best performance, but the minimum supported version is 8.2.
-
-To check is the Elements API is running as expected on your server, simply append ?apicheck to the URL of any page containing a Form.
-
-`my-website.com/contact/?apicheck`
-
-### ⚠️ Form Logs
-
-To help diagnose issues with your Form, Elements generates detailed log files on your server.
-
-#### Log Location
-
-The logs folder is located at the root of your web server, alongside other top-level folders like index.html, images, or css.
-
-`rw/elements/com.realmac.corepack/api/logs`
-
-#### Example Log Name
-
-The date at the end of the filename makes it easy to identify the most recent log. Make sure you’re checking the correct file based on when the issue occurred.
-
-`form_rw904107B7_1234_4FDC_9B97_1D9A663C1B17-2025-07-24.log`
 
 ### Form Components
 
-To function correctly, the following Components must be placed inside a Form Component wrapper.
+All form controls must be inside the Form wrapper.
 
-<table><thead><tr><th width="212">Form Component</th><th>Details</th></tr></thead><tbody><tr><td>Attachment</td><td>Allows users to attach files to a form submission. You can limit attachments by file type or size. Multiple files are supported when sending forms via email, though Webhooks are limited to a single file.</td></tr><tr><td>Checkbox</td><td>Collects one or more yes/no values. Commonly used for terms and conditions, opt-ins, or preferences. Often paired with a Label for clarity and accessibility.</td></tr><tr><td>Error</td><td>Displays an error message when the form fails to submit. Useful for alerting users to missing fields or validation issues.</td></tr><tr><td>Input</td><td>A single-line text field for collecting user input such as names, email addresses, or numbers. Supports placeholder text and validation options.</td></tr><tr><td>Label</td><td>Describes the purpose of a form field. Helps improve accessibility and is typically used alongside Input, Checkbox, or Radio components.</td></tr><tr><td>Radio</td><td>Lets users choose a single option from a predefined list.</td></tr><tr><td>Submit</td><td>Triggers the form submission. You can place a Button, Image, or other interactive element inside this component to send the form.</td></tr><tr><td>Success</td><td>Displays a success message when the form has been submitted successfully.</td></tr></tbody></table>
+| Component | Purpose |
+| --- | --- |
+| [Attachment](attachment.md) | Accepts one or more uploaded files. |
+| [Checkbox](checkbox.md) | Collects zero, one, or several choices. |
+| [Date Picker](date-picker.md) | Collects a date and optional time. |
+| [Error](error.md) | Displays custom content when form submission fails. |
+| [Input](input.md) | Collects text, email, numbers, passwords, search terms, telephone numbers, URLs, or multi-line text. |
+| [Label](label.md) | Associates visible descriptive text with a field. |
+| [Radio](radio.md) | Lets visitors choose one option from a group. |
+| [Select](select.md) | Presents a drop-down list of options. |
+| [Submit](submit.md) | Turns a child Button or similar component into the form’s submission control. |
+| [Success](success.md) | Displays custom content after a successful submission. |
 
-### Form Setup
+### Compatibility Checklist
 
-To recive emails via the Form Component you will need to enter your Email server details. Here’s a breakdown of what each field means and what you’ll need to configure to make it work properly.
+Before publishing:
 
-<table><thead><tr><th width="212">Authentication Settings</th><th>Details</th></tr></thead><tbody><tr><td>Host</td><td>Email host address. e.g. mail.yourdomain.com</td></tr><tr><td>Port</td><td>The port number the email server uses for sending messages.<br>- 587: For TLS encryption (most common)<br>- 465: For SSL encryption.<br>- 25: For non-encrypted emails (not recommended).</td></tr><tr><td>Encryption</td><td>Choose the encryption method required by your email provider. None, TLS, SSL</td></tr><tr><td>Username</td><td>The email address or username for the SMTP account you’re using to send emails. e.g. admin@yourdomain.com.</td></tr><tr><td>Password</td><td>The password for your SMTP account.</td></tr></tbody></table>
+* [ ] The Form and every field are on a page published through PHP.
+* [ ] The server runs PHP 8.1 or newer.
+* [ ] Every form field is nested inside the Form wrapper.
+* [ ] Every field has a short, unique Name containing letters, numbers, hyphens, or underscores.
+* [ ] The visitor email field is named exactly `email` when it should become the Reply-To address.
+* [ ] Submit contains a Button or another visible, clickable child component.
+* [ ] Success and Error contain useful feedback.
+* [ ] Multiple is enabled when Attachment should accept several files.
+* [ ] The SMTP or webhook configuration has been tested on the published server.
 
-<table><thead><tr><th width="212">Email Settings</th><th>Details</th></tr></thead><tbody><tr><td>From Name</td><td>Set as needed (e.g. Jonny Appleseed)</td></tr><tr><td>From Address</td><td>Should match the Username for the account. This is usually the main issue if messages don’t send.</td></tr><tr><td>Subject</td><td>The subject of the email you'll receive. e.g. "Website Feedback"</td></tr><tr><td>To Name</td><td>The name the email will be addressed to. e.g. "Team Realmac"</td></tr><tr><td>To Address</td><td>The email address the form submission will be sent to. e.g. "support@realmacsoftware.com"</td></tr></tbody></table>
+### Component Settings
 
-### Reply-to Address
+#### Settings
 
-In order for Elements to correctly set the “reply-to” header in the outgoing email, the form field name must be set to email, all lowercase.
+**Type** is not responsive and defaults to Email.
 
-## Form Webhooks
+* **Email** — Sends through the configured SMTP account.
+* **Webhook** — Sends to the URL entered under Webhook URL.
 
-A webhook allows your form submissions to be sent directly to another service, like a database, CRM, or automation tool without needing to check emails or manually process the data. By sending form data to a webhook, you can trigger workflows in [Zapier](https://zapier.com/), [Make](https://www.make.com/en), or [Pipedream](https://pipedream.com), making it easy to do the following (and so much more):
+Webhook reveals **Webhook URL**, which is blank until configured.
 
-• Add a new lead to Airtable or Google Sheets
+#### Email Authentication
 
-• Send a follow-up email through Mailchimp or ConvertKit
+Email delivery reveals:
 
-• Notify your team in Slack or Discord
+* **Host** — SMTP hostname. The placeholder is `smtp.example.com`.
+* **Port** — Defaults to `587`.
+* **Encryption** — None, TLS, or SSL. TLS is the default.
+* **Username** — SMTP account username, commonly the full email address.
+* **Password** — SMTP account password or provider-specific app password.
 
-• Create support tickets in Zendesk or Trello
+Replace every example value before publishing.
 
-There's really no limit to what you can do with the new webhooks feature. Whether you’re building a customer support system, a lead capture form, or a dynamic survey that feeds into a database, webhooks unlock powerful automation and customization that email simply can’t match.
+Email delivery is powered by [PHPMailer](https://github.com/PHPMailer/PHPMailer).
 
-### Webhooks and Attachments
+{% hint style="info" %}
+We recommend a webhook when you do not need direct SMTP delivery. Webhook services often provide clearer logs, retries, and integrations with databases, spreadsheets, CRMs, and automation tools.
+{% endhint %}
 
-If you are using an attachment in your form, only the first attached file will be sent via the WebHook. Multiple files are supported when sending forms via email.
+#### Email Settings
 
-Most webhook endpoints expect a single file attachment, typically for straightforward processing, like saving it to cloud storage or forwarding it via email. Supporting multiple files would require a more complex multipart or array-based structure, which many webhook endpoints don’t handle out of the box.
+* **From Name** — Name shown as the sender.
+* **From Address** — Sender address. It should normally match the SMTP account and its domain.
+* **Subject** — Defaults to “New Form Submission”.
+* **To Name** — Recipient name.
+* **To Address** — Address that receives the submission.
+
+Use an authenticated address as From. Do not use the visitor’s address as From; use the `email` field for Reply-To.
+
+#### Email Template
+
+**Template Style** defaults to Default. Options are Default, Table, Simple, and Modern.
+
+**Email Title** defaults to “New Form Submission”.
+
+**Email Footer** is blank by default.
+
+#### SSL Configuration
+
+* **Verify Peer** — Enabled by default.
+* **Verify Peer Name** — Enabled by default.
+* **Allow Self-Signed** — Disabled by default.
+
+{% hint style="warning" %}
+Keep peer verification enabled and self-signed certificates disabled for production. Change these only when your hosting provider has confirmed that the SMTP server requires it and you understand the security trade-off.
+{% endhint %}
+
+#### Spam Protection
+
+**Service** is not responsive and defaults to None.
+
+* **None**
+* **reCAPTCHA**
+* **Turnstile**
+* **hCaptcha**
+* **Honey Pot**
+
+Honey Pot adds hidden fields that help identify automated submissions and needs no external keys.
+
+reCAPTCHA, Turnstile, and hCaptcha reveal:
+
+* **Style** — Visible or Invisible. Invisible is the default.
+* **Site Key**
+* **Secret Key**
+
+Obtain the keys from the selected provider and make sure they are authorised for the published domain.
+
+#### Errors
+
+Invalid fields default to Red 500 Background and Border colours. Their validation message defaults to Red 50 text.
+
+These colours style invalid controls. Add the [Error component](error.md) when you also want a custom form-level error message.
+
+#### Success
+
+**On Success** is not responsive and defaults to Success Content.
+
+* **Success Content** — Shows the content inside a Success component.
+* **Redirect** — Reveals Link and sends the visitor to that destination.
+
+**Reset** is enabled by default and clears the form fields after a successful submission.
+
+### Reply-To Address
+
+Name the visitor’s email Input exactly:
+
+```text
+email
+```
+
+The name is case-sensitive. Keep the authenticated account in From Address; the submitted `email` value becomes Reply-To.
+
+### Webhooks
+
+A webhook sends the submission to another service, such as a database, CRM, automation tool, or server endpoint. Services such as [Zapier](https://zapier.com/), [Make](https://www.make.com/en), and [Pipedream](https://pipedream.com) can use it to:
+
+* Add leads to a database or spreadsheet.
+* Send follow-up email.
+* Notify a team.
+* Create tickets or tasks.
+
+Webhook attachments are limited to the first attached file. Email delivery supports multiple files when Attachment has Multiple enabled.
+
+### PHP Server Check
+
+Append `?apicheck` to the published URL of a page containing the Form:
+
+```text
+https://example.com/contact/?apicheck
+```
+
+The page reports whether the Forms API is reachable and shows the server’s PHP version.
 
 ### Testing Webhooks Locally
 
-Webhook submissions require a server environment, so once you **publish the page to a server**—either a remote server or a local one—you should find the submission works as expected.
+The normal Elements preview is not a PHP server. To test against a local server:
 
-If you want to test everything **locally**, you’ll need to set up a local web server on your Mac. We recommend [ServBay](https://www.servbay.com/) for this.
-
-Here’s a quick guide:
-
-1. **Install ServBay**
-2. **Publish your Elements site** to a local folder
-3. In ServBay, **create a new site** and point the root directory to your published folder
-4. Open the site in your browser through ServBay for full local testing—including Forms and webhooks
+1. Install a local PHP environment such as [ServBay](https://www.servbay.com/).
+2. Publish the Elements site to a local folder.
+3. Point the local server at that folder.
+4. Open the server URL in a browser and submit the form.
 
 {% embed url="https://youtu.be/pR26NPw0Ip8?si=4aJyKiEJp5ntrPiD" %}
+
+### Troubleshooting
+
+#### The form does nothing when clicked
+
+Confirm that a Button or other clickable component is inside Submit, and that Submit itself is inside Form. The empty Submit wrapper cannot be clicked.
+
+#### The form works visually but sends nothing
+
+Publish to a PHP-enabled server, run the PHP Server Check, and confirm that the server supports outbound SMTP or can reach the webhook URL.
+
+#### SMTP authentication fails
+
+Check Host, Port, Encryption, Username, and Password with the email provider. Remove accidental spaces. Make sure From Address is permitted by the authenticated account and that the SMTP certificate matches the Host.
+
+Providers such as Fastmail may require an app password. See [Using Fastmail](using-fastmail.md).
+
+If the settings look correct but delivery still fails, search the [Elements Forum](https://forums.realmacsoftware.com/) for advice about your email provider or hosting setup.
+
+#### Required fields are not accepted
+
+Make sure each field has a valid Name and that Checkbox, Radio, and Select options have non-empty values. Test the published form using the same path a visitor will follow.
+
+#### Finding form logs
+
+The published Forms API stores logs inside its `api/logs` directory. Files use a form-specific name and date; check the newest file created after the failed test.
+
+### Accessibility
+
+Use a visible Label for each field, preserve keyboard focus outlines, identify required fields in visible text, and make Error and Success messages understandable without relying on colour alone.
+
+{% include "../../../.gitbook/includes/common-controls (1).md" %}
