@@ -15,3 +15,9 @@ Breakpoints for a project be defined in the [Screens](theme-studio/screens.md) a
 
 {% embed url="https://youtu.be/gnlaK4LrhRY" %}
 
+### Responsive Text
+
+Text size and many other controls can change by breakpoint, the following video shows how to change text size by breakpoint, but this technique can be applied to most other controls in Elements.
+
+{% embed url="https://www.youtube.com/watch?v=Vn6saO3ylGg" %}
+
