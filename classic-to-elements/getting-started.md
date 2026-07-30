@@ -5,7 +5,7 @@ description: >-
 icon: hand-wave
 ---
 
-# Getting Started
+# Moving from RapidWeaver Classic
 
 {% hint style="success" %}
 This guide will help you migrate successfully from RapidWeaver Classic to RapidWeaver Elements.
@@ -37,9 +37,9 @@ A slower-paced video series that assumes no prior knowledge. Build your first pr
 
 Ready-made projects covering the types of sites people build most often. Open the one closest to yours, follow along and make it your own.
 
-#### 04: Bring Your Project Over (coming soon)
+#### 04: Import a Classic Project
 
-Move an existing Classic project into Elements. We explain what carries over, what doesn’t and how to handle the remaining work.
+Move an existing Classic project into Elements. The [Import Classic Projects](import-classic-projects.md) guide explains what carries over, what doesn’t and how to handle the remaining work.
 
 ### Take Your Time
 

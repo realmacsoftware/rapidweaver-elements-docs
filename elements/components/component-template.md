@@ -2,7 +2,7 @@
 description: '[Describe what the component does in one short sentence]'
 ---
 
-# Component Page \[Template]
+# Component Documentation Template
 
 
 

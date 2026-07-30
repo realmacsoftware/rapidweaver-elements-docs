@@ -7,6 +7,11 @@ icon: hand-heart
 
 If you encounter a bug or something doesn’t seem to be working correctly in Elements, we’d love to hear about it. You can check our [FAQ guide](../../elements-faq.md) for common questions, but the **best place to get support** is the [Elements Community Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/beta-feedback/57), where our team and other users can offer help and advice.
 
+### Common Support Guides
+
+* [Publishing Issues](fixing-issues.md) — Diagnose common publishing and upload problems.
+* [Reset Elements](troubleshooting.md) — Reset application settings when the app is not behaving as expected.
+
 {% hint style="danger" %}
 Make sure you [**search the forum first**](https://forums.realmacsoftware.com/). Your question or bug may already have been resolved.
 {% endhint %}

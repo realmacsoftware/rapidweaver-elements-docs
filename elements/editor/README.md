@@ -3,7 +3,7 @@ description: Learn more about the Elements WYSIWYG Editor
 icon: pen-to-square
 ---
 
-# Editor
+# Editor and Workspace
 
 RapidWeaver Elements includes a powerful built-in WYSIWYG (What You See Is What You Get) editor, so you can design your site visually in real time. Whether you’re an experienced web designer or just getting started, you’ll feel at home with its intuitive, Mac-like interface.
 
@@ -81,3 +81,9 @@ If you’re just getting started, these pages pair well with the Editor:
 * [Quickstart](../../getting-started/quickstart.md) – build your first site in a few minutes.
 * [Core Concepts](../../getting-started/design-system.md) – understand Projects, Themes, Components, Templates, and Globals.
 * [Workspaces](../workspaces.md) – customise the layout of the Elements interface to match how you like to work.
+* [Page Manager](../page-manager.md) – create and organise the site’s pages.
+* [Resources](../resources.md) – manage images, files, links, and folders used by the project.
+* [Node Browser](../node-browser.md) – inspect and select components in the page hierarchy.
+* [Inspector](../component-inspector.md) – configure the selected page or component.
+* [Keyboard Shortcuts](../keyboard-shortcuts.md) – work more quickly without leaving the keyboard.
+* [Apple Intelligence](apple-intelligence.md) – use macOS Writing Tools in supported text components.

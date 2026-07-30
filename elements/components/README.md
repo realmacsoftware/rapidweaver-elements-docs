@@ -1,24 +1,43 @@
 ---
-description: Explore the built-in, custom and store components available in Elements
-icon: object-ungroup
+description: Browse the components available for building pages in Elements
+icon: box-open-full
 ---
 
 # Components
 
-Components are the building blocks used to design pages in Elements. They fall into three main categories.
+Components are the building blocks used to create pages in Elements. Drag them onto the canvas, add content, and customise their appearance and behaviour in the Inspector.
 
-### Built-in Components
+The included collection is organised by purpose below. Store Components are installed separately, while Custom Components and the Elements API let developers create their own building blocks.
 
-Elements includes a comprehensive range of components for building an entire website. These cover text, images, galleries and layout tools such as Grid and Flex.
+### Included Components
+
+| Category | Includes |
+| --- | --- |
+| [Layout Components](layout-components.md) | Container, Divider, Flex, Grid, and Text Wrap |
+| [Content and Media](content-and-media.md) | Audio, Gallery, Image, Image Slider, Markdown, SVG, Text, Typography, and Video |
+| [Navigation and Interaction](navigation-and-interaction.md) | Accordion, Breadcrumbs, Button, Content Slider, Dropdown, Menu, Modal, Reveal, and Tabs |
+| [Data and Organisation](data-and-organisation.md) | CMS, Filter, Filter Tags, List, Table, Top Pages, and Tree |
+| [Styling and Effects](styling-and-effects.md) | 3D Transform, Background, Elements Badge, and Mask |
+| [Form](form/README.md) | Form structure, fields, submission, success, error, and email delivery |
+
+### Common Controls
+
+Many components share controls for layout, sizing, spacing, typography, backgrounds, transitions, effects, filters, transforms, borders, and advanced settings.
+
+[Browse the Common Controls reference](common-controls/README.md).
+
+### Store Components
+
+The Elements Store provides additional free and paid components that install into Elements.
+
+[Browse Store Components](../store-components/README.md).
 
 ### Custom Components
 
-If you know some HTML, you can create Custom Components for your projects. These can range from a simple HTML snippet to a complete component with custom Inspector controls built using the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language). [Learn more about Custom Components](custom-components.md).
+If you know some HTML, you can create project-specific components with editable content, dropzones, Inspector controls, styles, JavaScript, and build-time hooks.
 
-Custom Components are shared through projects, and their code is visible to anyone who has the project. They are useful for creating bespoke solutions or learning the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language) before building distributable components.
+[Learn about Custom Components](custom-components.md) or open the [Elements API overview](../building-extensions.md).
 
-### Third-party Components
-
-Third-party developers can use the [Elements API](https://docs.realmacsoftware.com/elements-docs/elements-language) to create components with the same capabilities as the built-in collection. Elements itself uses the same API that is available to developers.
-
-Third-party components are distributed through the [Elements Distribution Platform](https://docs.realmacsoftware.com/elements-docs/store/creators/addon-distribution) as Element Packs (`.elementspack`). These packs are optimised, encrypted bundles whose code cannot be modified by users or other third parties.
+{% hint style="info" %}
+The components supplied with Elements use the same API available to third-party developers. Their source is a useful reference when you are ready to build complete Element Packs.
+{% endhint %}

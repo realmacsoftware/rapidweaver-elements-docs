@@ -3,7 +3,7 @@ description: Customise the HTML template used by every page of your website
 icon: code
 ---
 
-# Template
+# Site Template
 
 {% hint style="info" %}
 The site template is **only used during preview and export**. It is not used in Edit mode.

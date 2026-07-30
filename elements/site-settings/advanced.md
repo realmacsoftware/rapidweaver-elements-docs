@@ -3,7 +3,7 @@ description: Control generated files and local preview behaviour for your projec
 icon: screwdriver-wrench
 ---
 
-# Advanced
+# Advanced Settings
 
 The Advanced section lets you fine-tune your project’s output and local preview behaviour. These options are optional but useful when you need more control.
 

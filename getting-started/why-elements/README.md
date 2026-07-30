@@ -7,6 +7,11 @@ icon: seal-question
 
 RapidWeaver Elements is a modern, Mac-native way to design, build and publish websites.
 
+### Explore the Approach
+
+* [Static Website Benefits](static-website-benefits.md) — Learn why static sites can be fast, secure, portable, and straightforward to host.
+* [Build a Digital Garden](build-a-digital-garden.md) — Create a personal space for connected ideas and evolving content.
+
 ### Elements Is Community-driven
 
 We listen to our [community of passionate users](https://forums.realmacsoftware.com) and use their feedback to help shape Elements.

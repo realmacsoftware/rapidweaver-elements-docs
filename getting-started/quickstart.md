@@ -7,6 +7,10 @@ icon: bolt
 
 Follow our step-by-step guide to building your first website in Elements.
 
+{% hint style="info" %}
+New to the terminology? Read [Core Concepts](design-system.md) alongside this guide. When you are ready for a more detailed walkthrough, continue with [Let's Build](quickstart/lets-build.md).
+{% endhint %}
+
 ### 5-Minute Quick Start Guide
 
 If you’re new to Elements, this five-minute video shows you how to build a page using Templates and explore a ready-made project.
