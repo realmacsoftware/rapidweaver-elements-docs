@@ -1,5 +1,8 @@
 ---
-description: Build project-specific components with HTML, CSS, JavaScript, and the Elements Language
+description: >-
+  Build project-specific components with HTML, CSS, JavaScript, and the Elements
+  Language
+icon: box-open
 ---
 
 # Custom Components

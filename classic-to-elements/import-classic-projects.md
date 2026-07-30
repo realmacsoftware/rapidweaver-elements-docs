@@ -1,6 +1,5 @@
 ---
 description: Import your RapidWeaver Classic project into Elements
-icon: arrow-down-to-bracket
 ---
 
 # Import Classic Projects
@@ -21,7 +20,7 @@ Watch the videos below to learn more about importing Classic projects into Eleme
 
 ## Importing a Classic Project
 
-To import a RapidWeaver Classic project, launch Elements and choose **File › [Beta] Import Classic Project…**.
+To import a RapidWeaver Classic project, launch Elements and choose **File › \[Beta] Import Classic Project…**.
 
 ## Project Structure
 

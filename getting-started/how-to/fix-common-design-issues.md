@@ -44,7 +44,7 @@ You can use a [Custom Component](../../elements/components/custom-components.md)
 
 ### How to add Google Analytics
 
-If you’d like to track traffic or integrate services like Google Analytics or Google Tag Manager, you’ll need to add their code snippets to your project. Where you add the code depends on whether you want it to apply to all pages or just one. You can [learn more in the Analytics section](../../elements/advanced/analytics.md) of this manual.
+If you’d like to track traffic or integrate services like Google Analytics or Google Tag Manager, you’ll need to add their code snippets to your project. Where you add the code depends on whether you want it to apply to all pages or just one. You can [learn more in the Analytics section](../../site-quality/analytics.md) of this manual.
 
 {% embed url="https://www.youtube.com/watch?v=sfzIONiv2zY&feature=youtu.be" %}
 

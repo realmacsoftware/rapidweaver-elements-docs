@@ -1,6 +1,8 @@
 ---
-description: An overview of the Elements API and the ways you can build components and add-ons
-icon: puzzle-piece-simple
+description: >-
+  An overview of the Elements API and the ways you can build components and
+  add-ons
+icon: square-code
 ---
 
 # Elements API
@@ -29,11 +31,11 @@ The API can be used to create:
 
 ### Choose a Development Path
 
-| Approach | Best for | Where it lives |
-| --- | --- | --- |
-| [Custom Component](components/custom-components.md) | Learning the API, project-specific HTML, and prototypes | Inside an Elements project |
-| Element Dev Pack | Reusable components, multiple files, custom icons, collections, and local development | An editable `.elementsdevpack` folder on your Mac |
-| Compiled Element Pack | Sharing or selling a finished pack | A compiled package produced through the Elements Platform |
+| Approach                                            | Best for                                                                              | Where it lives                                            |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| [Custom Component](components/custom-components.md) | Learning the API, project-specific HTML, and prototypes                               | Inside an Elements project                                |
+| Element Dev Pack                                    | Reusable components, multiple files, custom icons, collections, and local development | An editable `.elementsdevpack` folder on your Mac         |
+| Compiled Element Pack                               | Sharing or selling a finished pack                                                    | A compiled package produced through the Elements Platform |
 
 Custom Components provide Template, Styles, JavaScript, Hooks, and Properties editors directly inside Elements. They are the quickest way to learn how properties, dropzones, templates, and hooks work together.
 

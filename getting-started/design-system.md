@@ -1,6 +1,5 @@
 ---
 description: Learn how the Elements design system works
-icon: atom-simple
 ---
 
 # Core Concepts

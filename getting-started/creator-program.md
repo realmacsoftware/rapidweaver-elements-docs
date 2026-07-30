@@ -1,6 +1,5 @@
 ---
 description: A programme for YouTube creators and bloggers
-icon: star
 ---
 
 # Creator Program

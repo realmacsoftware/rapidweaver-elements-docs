@@ -1,6 +1,5 @@
 ---
 description: Learn more about switching from Classic to Elements
-icon: circles-overlap
 ---
 
 # Switching to Elements

@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [FAQ](elements-faq.md)
 
 ## Getting Started
 
@@ -9,11 +10,8 @@
 * [Quickstart](getting-started/quickstart.md)
   * [Core Concepts](getting-started/design-system.md)
   * [Let's Build](getting-started/quickstart/lets-build.md)
-
-## Learn and How-to
-
 * [How-to Guides](getting-started/how-to/README.md)
-  * [How-to Tutorials](elements-app/how-to/fix-common-design-issues.md)
+  * [How-to Tutorials](getting-started/how-to/fix-common-design-issues.md)
   * [Add an Icon Inside a Button](getting-started/how-to/add-an-icon-inside-a-button.md)
   * [Adjust Smooth Scroll Speed](getting-started/how-to/adjust-smooth-scroll-speed.md)
   * [Apply Anchor Scroll Padding](getting-started/how-to/apply-anchor-scroll-padding.md)
@@ -21,6 +19,9 @@
   * [Build a Sticky Menu](getting-started/how-to/build-a-sticky-menu.md)
   * [Site Banner with Text](getting-started/how-to/site-banner-with-text.md)
   * [Create a Card](getting-started/how-to/create-a-card.md)
+* [Support Guide](getting-started/troubleshooting/README.md)
+  * [Publishing Issues](getting-started/troubleshooting/fixing-issues.md)
+  * [Reset Elements](getting-started/troubleshooting/troubleshooting.md)
 
 ## Choosing and Switching
 
@@ -147,36 +148,24 @@
   * [Browser Preview](elements/previewing-your-website.md)
   * [Publishing](elements/publishing.md)
   * [Syncing Projects](elements/syncing-projects.md)
-
-## Services
-
-* [Elements Cloud](getting-started/elements-cloud.md)
-* [Elements AI](getting-started/elements-ai/README.md)
-  * [Elements MCP Server](getting-started/elements-ai/elements-mcp-server.md)
+* [Elements AI](using-elements/elements-ai/README.md)
+  * [Elements MCP Server](using-elements/elements-ai/elements-mcp-server.md)
+* [Elements Cloud](using-elements/elements-cloud.md)
 
 ## Site Quality
 
-* [Site Quality and Advanced](elements/advanced/README.md)
-  * [Accessibility](elements/advanced/accessibility.md)
-  * [Analytics](elements/advanced/analytics.md)
-  * [SEO](elements/advanced/seo.md)
-    * [sitemap.xml](elements/advanced/sitemap.xml.md)
-    * [Robots.txt](elements/advanced/robots.txt.md)
-  * [.htaccess file](elements/advanced/.htaccess-file.md)
+* [Accessibility](site-quality/accessibility.md)
+* [Analytics](site-quality/analytics.md)
+* [SEO](site-quality/seo.md)
+* [Robots.txt](site-quality/robots.txt.md)
+* [sitemap.xml](site-quality/sitemap.xml.md)
+* [.htaccess file](site-quality/.htaccess-file.md)
 
 ## Developers
 
-* [Custom Components](elements/components/custom-components.md)
 * [Elements API](elements/building-extensions.md)
+* [Custom Components](elements/components/custom-components.md)
 * [Deep Linking](elements/url-scheme.md)
-* [Component Documentation Template](elements/components/component-template.md)
-
-## Help and Support
-
-* [FAQ](elements-faq.md)
-* [Support Guide](getting-started/troubleshooting/README.md)
-  * [Publishing Issues](getting-started/troubleshooting/fixing-issues.md)
-  * [Reset Elements](getting-started/troubleshooting/troubleshooting.md)
 
 ## Press and Creators
 
