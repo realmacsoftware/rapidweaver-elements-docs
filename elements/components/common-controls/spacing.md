@@ -1,88 +1,63 @@
 ---
-description: Add Margin and Padding to Components.
+description: Add responsive margin and padding to components
 ---
 
 # Spacing
 
-The Spacing controls allow you to add Margin and Padding to an object. By default this control is disabled, this is to ensure the pading and margin classes are not applied to the object.
+Spacing controls the space outside and inside a component:
 
-To set Padding and Margin you need to switch the "Enable" toggle to on.
-
-Padding creates space **inside** the element. Margin creates space **outside** the element.
-
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-16 at 3 .05.02@2x.png" alt=""><figcaption><p>RapidWeaver Elements Component Spacing (October 2024)</p></figcaption></figure>
-
-The "Mask & Paintbrush" icon will toggle the control between selecting from a Theme Preset and setting an arbitrary/manual value. To change the arbitrary value by 5px increments, click and drag the mouse up and down. To change the value by increments of 1px hold down the `shift` key while dragging.
-
-To link the opposite value, click the dashed line so the highlight is set to blue. This can be done independently for vertical and horizontal values.
+* **Margin** creates space outside the component’s border.
+* **Padding** creates space between its content and border.
 
 {% embed url="https://youtu.be/8xS_OMqpw4U" %}
 
+### Enable
+
+The general Spacing control is disabled by default. Enabling **Margin & Padding** reveals both diagrams, with every side set to 0.
+
+Some controls use specialised defaults:
+
+| Variant | Enabled | Margin | Padding |
+| --- | --- | --- | --- |
+| General | No | 0 on every side | 0 on every side |
+| Container | Yes | Top 0, Right Auto, Bottom 0, Left Auto | 0 on every side |
+| Button | Yes | Top 0, Right Auto, Bottom 0, Left Auto | 2 vertically and 3.5 horizontally |
+| Input | Yes | 0 on every side | 2 vertically and 3.5 horizontally |
+
+Disabling Spacing removes its margin and padding classes rather than setting them to 0.
+
+### Using the Spacing Control
+
+The Theme/Manual button switches between Theme Spacing values and arbitrary CSS values. Drag a manual value to adjust it; hold Shift while dragging for finer increments.
+
+The links between opposite sides control whether vertical or horizontal values change together.
+
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-16 at 3 .05.02@2x.png" alt="Spacing controls with margin and padding diagrams"><figcaption><p>Margin surrounds the component; padding sits inside it.</p></figcaption></figure>
+
 ### Margin
 
-The Margin property controls the space around an element, outside of its border. It creates space between the element and its neighboring elements. Use them to separate a section, card, image, button, or text block from the content around it.
+Set Top, Right, Bottom, and Left independently or link opposite sides. Manual values can be negative when an intentional overlap is required.
 
-Margins can be set for all four sides of an element—top, right, bottom, and left—or individually for each side.
+**Auto** tells the browser to absorb available space on that side. Common horizontal combinations are:
 
-Enable **Spacing → Margin & Padding**, then set a value for each side of the margin diagram:
-
-* **Top** adds space above the element.
-* **Right** adds space to its right.
-* **Bottom** adds space below it.
-* **Left** adds space to its left.
-
-The left and right Margin can be linked together by clicking the dotted line between them, the top and bottom Margin can be linked together by clicking the dotted line between them also.
-
-The Mask icon switches between Theme Preset values, and full manual control. Manual control is useful if you want to set negative values.
-
-Choose **auto** when the browser should calculate the margin for you. The most common use is horizontal centring:
-
-* Set the **left** and **right** margins to `auto`.
-* Give the element a width or maximum width.
-
-`auto` is generally most useful on the left and right sides. For top and bottom margins, use a numeric spacing value unless you have a specific layout reason to use automatic margins.
-
-{% hint style="info" %}
-When you set a margin-right on a component, it creates space to the right of it. However, if there’s nothing positioned immediately to the right — like another component or a container edge — you might not see any visible change. This is a common CSS quirk that can feel a bit confusing at first, especially when you’re expecting the element itself to shift.
-{% endhint %}
-
-#### Auto margins and self-alignment
-
-Setting a horizontal margin to **Auto** makes the element absorb the available free space on that side, which is how a component positions _itself_ within its parent:
-
-* **Left Auto + Right Auto** — centres the element.
-* **Left 0 + Right Auto** — pushes the element to the left.
-* **Left Auto + Right 0** — pushes the element to the right.
-
-Some components ship with Auto horizontal margins **enabled by default** so they align sensibly on their own. The **Button** component is the main example: its default margin is Top `0`, Right `Auto`, Bottom `0`, Left `Auto`, so a standalone button centres itself.
+* **Left Auto + Right Auto** — Centres a component with a constrained width.
+* **Left 0 + Right Auto** — Keeps it at the start.
+* **Left Auto + Right 0** — Pushes it to the end.
 
 {% hint style="warning" %}
-**Auto margins fight with Flex and Grid layouts.** When a component sits inside a [Flex](../flex.md) or [Grid](../grid.md) container, the parent already controls alignment and spacing (via its Justify, Align, and Gap settings). A child's Auto horizontal margins override that logic — each child absorbs the free space and the parent's centring/gap is ignored, producing uneven spacing.
-
-If you place **Buttons** (or any component with default Auto margins) inside a Flex row or Grid, set all four margins to `0` so the parent controls the layout. Keep the Auto margins only when you want a single child to align itself (for example, one button pushed to the right with Left Auto + Right 0).
+Auto margins can override the alignment and gap set by a Flex or Grid parent. For children inside Flex or Grid, set all margins to 0 unless the Auto margin is an intentional item-level override.
 {% endhint %}
 
 ### Padding
 
-The Padding property controls the space inside an element, between its content and the element’s border. Unlike margin, which affects the space outside an element, padding pushes the content inward, creating internal spacing within the element itself.
+Set Top, Right, Bottom, and Left independently or link opposite sides. Padding expands the area occupied by a background, border, or rounded corner and keeps content away from those edges.
 
-Padding can be set for all four sides of an element—top, right, bottom, and left—or individually for each side.
+Useful starting points include:
 
-Enable **Spacing → Margin & Padding**, then choose a padding value for each side of the diagram:
+* Equal padding on every side for cards and panels.
+* Larger vertical than horizontal padding for banners.
+* Compact vertical and horizontal padding for buttons and inputs.
 
-* **Top** adds space above the content.
-* **Right** adds space to the right of the content.
-* **Bottom** adds space below the content.
-* **Left** adds space to the left of the content.
+### Responsive Spacing
 
-You can set each side independently, which is helpful for layouts such as a banner with more space above and below its text than at the sides.
-
-#### Padding and backgrounds
-
-Padding is particularly important when an element has a background colour, border, or rounded corners. It expands the area inside those visual boundaries, so the content does not sit against the edge.
-
-For example, a card may use:
-
-* `6` padding on every side for comfortable internal spacing.
-* A larger top and bottom value for a promotional panel or callout.
-* Smaller horizontal padding on a compact button.
+Margin and padding values can change by breakpoint. Start with the smallest/Base layout, then override only the sides that need to change at larger breakpoints.

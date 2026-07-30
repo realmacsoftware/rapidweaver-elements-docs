@@ -1,65 +1,107 @@
 ---
-description: Set advanced properties for Position, Z-index, Visibility, and more.
+description: Control component positioning, stacking, visibility, overflow, and isolation
 ---
 
 # Layout
 
-The Layout controls help you manage the overall layout and positioning of elements within a webpage. These controls include controls for handling display properties, positioning, z-index, overflow, visibility, and more.
-
-## General
-
-General layout settings for Position, Z-index, and Inset.
+Layout controls how a component participates in the page layout. Use them to change positioning, offsets, stacking order, visibility, overflow, and stacking-context isolation.
 
 ### Position
 
-The Position controls how an element is placed in the document and how it interacts with its surrounding elements. These utilities correspond to standard CSS positioning properties like static, relative, absolute, fixed, and sticky. See [Tailwind CSS Position](https://tailwindcss.com/docs/position) for more details.
+**Position** defaults to None.
 
-<table><thead><tr><th width="194">Position Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No position properties are set on the container.</td></tr><tr><td>Static</td><td>The element is positioned according to the normal document flow.</td></tr><tr><td>Relative</td><td>The element is positioned relative to its normal position in the document. You can adjust its position using top, right, bottom, or left properties. The space it originally occupied remains reserved.</td></tr><tr><td>Absolute</td><td>The element is positioned relative to its nearest positioned ancestor (an ancestor that has relative, absolute, or fixed positioning). If no such ancestor exists, the element is positioned relative to the initial containing block (usually the viewport). It is removed from the normal document flow, meaning it does not affect the layout of other elements.</td></tr><tr><td>Fixed</td><td>The element is positioned relative to the viewport, meaning it stays in the same position even when the page is scrolled. Like absolute, it is removed from the document flow and does not affect the positioning of other elements.</td></tr><tr><td>Sticky</td><td>The element is positioned relative until a scroll point is reached, after which it becomes “fixed” and sticks to that position until the scrolling container is out of view. It’s a mix of relative and fixed positioning. You must specify at least one of the top, right, bottom, or left properties for it to stick (e.g. Type > Individual > Top = 5px)</td></tr></tbody></table>
+| Option | Behaviour |
+| --- | --- |
+| None | Adds no positioning rule. |
+| Static | Keeps the component in normal document flow and ignores offsets. |
+| Relative | Keeps its original space while allowing offsets and positioned descendants. |
+| Absolute | Removes it from normal flow and positions it against the nearest positioned ancestor. |
+| Fixed | Removes it from normal flow and positions it against the viewport. |
+| Sticky | Behaves normally until it reaches an offset, then remains pinned within its scrolling ancestor. |
+
+See [Tailwind CSS Position](https://tailwindcss.com/docs/position) for the equivalent CSS behaviour.
+
+{% hint style="info" %}
+Sticky positioning needs at least one non-Auto offset, usually **Top**. It can also be prevented by an ancestor’s overflow or insufficient scrollable height.
+{% endhint %}
 
 ### Z-Index
 
-The z-index controls the stack order of elements on the page and is an important CSS property in web design. When multiple elements overlap, the z-index determines which element appears on top of the others. See [Tailwind CSS Z-Index](https://tailwindcss.com/docs/z-index) for more details.
+**Z-Index** controls stacking order and is not responsive.
+
+* **None** — Adds no z-index value. This is the default.
+* **Auto** — Lets the browser determine the stack order.
+* **Custom** — Reveals a number field, which defaults to 0 and accepts positive or negative values.
+
+See [Tailwind CSS Z-Index](https://tailwindcss.com/docs/z-index) for the equivalent CSS behaviour.
 
 {% embed url="https://youtu.be/tW5AMT6l6CY" %}
 
-<table><thead><tr><th width="218">Z-Index Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No Z-Index properties are set on the container.</td></tr><tr><td>Auto</td><td>Lets the browser automatically determine the Z-index of the container.</td></tr><tr><td>Custom</td><td>Set the Z-index manual for the container,can be a positive or negatiev value (e.g. -50, or 50).</td></tr></tbody></table>
+### Top, Right, Bottom, and Left
 
-### Type (Inset)
+**Type** defaults to None.
 
-The Inset property is used to control the positioning of an element relative to its nearest positioned ancestor. [See Tailwind CSS Top / Right / Bottom / Left](https://tailwindcss.com/docs/top-right-bottom-left) for more details.
+* **None** — Adds no offsets.
+* **Uniform** — Reveals one **Inset** value for all four sides. It defaults to 0.
+* **Individual** — Reveals separate **Top**, **Right**, **Bottom**, and **Left** values. Each defaults to 0.
+
+Offsets support responsive Theme Spacing or custom CSS values. They affect Relative, Absolute, Fixed, and Sticky positioning; Static ignores them.
+
+See [Tailwind CSS Top, Right, Bottom, and Left](https://tailwindcss.com/docs/top-right-bottom-left).
 
 {% embed url="https://youtu.be/2WZ0zacUgTI" %}
 
-<table><thead><tr><th width="218">Type (Inset) Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No uniform or individual spacing properties are set on the container.</td></tr><tr><td>Uniform</td><td>Uniform combines the top, right, bottom, and left offset properties into a single option, allowing you to quickly set all four sides at once.</td></tr><tr><td>Individual</td><td>Individual set the top, right, bottom, and left offset properties.</td></tr></tbody></table>
+### Display
 
-## Advanced
+**Hidden** is off by default. Enable it at a breakpoint to remove the component from the rendered layout at that breakpoint and above until another responsive override changes it.
 
-Advanced layout settings for Overflow, Isolation, and Visibility.
+**Visibility** defaults to Auto.
 
-### Overflow
+* **Auto** — Adds no visibility rule.
+* **Visible** — Shows the component.
+* **Invisible** — Hides the component while preserving its layout space.
 
-Controls how an element handles content that is too large for the container. See [Tailwind CSS Overflow](https://tailwindcss.com/docs/overflow) for more details.
+See [Tailwind CSS Visibility](https://tailwindcss.com/docs/visibility).
 
-{% embed url="https://youtu.be/rOHL-KScsqc" %}
-
-<table><thead><tr><th width="218">Overflow Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No overflow properties are set on the container.</td></tr><tr><td>Visible</td><td>Content that overflows the container will still be visible outside of its bounds.</td></tr><tr><td>Hidden</td><td>Content that exceeds the dimensions of the container is completely hidden (no scrollbars are displayed, and you can’t scroll to see the overflowed content).</td></tr><tr><td>Scroll</td><td>A scrollbar is always shown, regardless of whether the content overflows the container or not. The user can scroll to view the overflowing content.</td></tr><tr><td>Auto</td><td>Scrollbars will automatically appear only if the content overflows the container.</td></tr></tbody></table>
-
-### Isolation
-
-In complex layouts, different elements may interact with each other in ways that are not always predictable, especially when dealing with z-index. Using isolate helps create a new stacking context for an element, effectively “isolating” it from the outside world, preventing unexpected overlaps or stacking behavior. See [Tailwind CSS Isolation](https://tailwindcss.com/docs/isolation) for more details.
-
-<table><thead><tr><th width="203">Isolation Properties</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No Isolation properties are set on the container.</td></tr><tr><td>Visible</td><td>Forces an element to create a new stacking context. This isolates the element’s stacking order from the rest of the page, meaning its child elements won’t interfere with other elements on the page, even if they have z-index values.</td></tr><tr><td>Auto</td><td>This is the default setting that lets the browser determine the stacking context without forcing isolation.</td></tr></tbody></table>
-
-### Visibility
-
-Controls the visibility of an element on the page. See [Tailwind CSS Visibility](https://tailwindcss.com/docs/visibility) for more details. \
-**Please note:** The Visibility control was updated Janury 2025, so the video is slightly out of date.
+{% hint style="warning" %}
+Hidden and Invisible are different: Hidden removes the component from layout; Invisible leaves an empty space where it would have appeared.
+{% endhint %}
 
 {% embed url="https://youtu.be/Lt9ZGrEG21M" %}
 
-<table><thead><tr><th width="206">Visibility Properties</th><th>Description</th></tr></thead><tbody><tr><td>Auto</td><td>This is the default setting that lets the browser determine the visibility of an element.</td></tr><tr><td>Visible</td><td>When set to visible, the element is fully visible on the page and takes up space in the layout as usual.</td></tr><tr><td>Invisible</td><td>When set to invisible, the element is not visible on the page and takes up space in the layout as usual.</td></tr></tbody></table>
+### Overflow
+
+**Overflow** defaults to None.
+
+* **None** — Adds no overflow rule.
+* **Visible** — Allows content to extend beyond the component.
+* **Hidden** — Clips overflowing content without scrollbars.
+* **Scroll** — Always provides scrolling for overflowing content.
+* **Auto** — Adds scrollbars only when content overflows.
+
+See [Tailwind CSS Overflow](https://tailwindcss.com/docs/overflow).
+
+{% embed url="https://youtu.be/rOHL-KScsqc" %}
+
+### Isolation
+
+**Isolation** defaults to None.
+
+* **None** — Adds no isolation rule.
+* **Isolate** — Creates a new stacking context so child z-index values remain within the component.
+* **Auto** — Lets the browser decide whether a stacking context is needed.
+
+See [Tailwind CSS Isolation](https://tailwindcss.com/docs/isolation).
+
+### Flex and Grid Items
+
+Some components also provide **Flexbox and Grid** item controls. These settings apply only when the component is inside the matching parent:
+
+* **Grid Item** controls column, row, span, and placement.
+* **Flex Item** controls order, growth, shrink, basis, and self-alignment.
+
+Use the parent [Flex](../flex.md) or [Grid](../grid.md) controls for the overall layout, then use item controls only for exceptions.
 
 ## Layout UI in Elements
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-19 at 8 .02.46@2x.png" alt=""><figcaption><p>Component Layout Controls (October 2024)</p></figcaption></figure>
-
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-19 at 8 .02.46@2x.png" alt="Layout controls for position, z-index, offsets, visibility, overflow, and isolation"><figcaption><p>The appearance may have changed since this screenshot, but the underlying controls remain the same.</p></figcaption></figure>

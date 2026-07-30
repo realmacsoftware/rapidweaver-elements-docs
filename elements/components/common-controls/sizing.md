@@ -1,52 +1,76 @@
 ---
-description: Set the Width and Height for elements.
+description: Set component width, height, and responsive size constraints
 ---
 
 # Sizing
 
-The sizing option provides options for setting fixed widths, percentage-based widths, viewport-based widths, and even fractional widths to ensure flexibility and precision in responsive design.
+Sizing controls the displayed width and height of a component. Values can come from Theme Spacing or use custom CSS units and functions.
 
 {% embed url="https://youtu.be/cCSxBM194SQ" %}
 
-### Width
+### Width and Height
 
-The width setting offers a comprehensive range of options that make it easy to control the width of elements in your design.
+The general Sizing control defaults to **Auto** width and **Auto** height.
 
-<table><thead><tr><th width="194">Position Properties</th><th>Description</th></tr></thead><tbody><tr><td>Auto</td><td>No position properties are set on the element, the parent element and browser handles the width of the element.</td></tr><tr><td>Full</td><td>The element will take up the full width of the parent element.</td></tr><tr><td>Screen</td><td>The element will take up the full width of the viewport, e.g. 100vw (full viewport width).</td></tr><tr><td>Breakpoint</td><td>The element width will be to set to the Breakpoint classes setup in the Theme Studio.</td></tr><tr><td>Theme Spacing</td><td>Choose from the pre-defined size classes set in the Theme Studio. You can also override the pre-defined classes and use <a href="/broken/pages/ocNrfx1gyJHmVYZMYP0k">Custom CSS Values</a>.</td></tr></tbody></table>
+Container-style components use selection menus:
 
-### Height
+| Option | Behaviour |
+| --- | --- |
+| Auto | Lets content, the parent, and the browser determine the size. |
+| Full | Uses the full size of the parent: 100% width or height. |
+| Screen | Uses the viewport: 100vw width or 100vh height. |
+| Breakpoint | Uses the configured Theme Studio breakpoint width. Available for container width. |
+| Theme Spacing | Reveals a responsive Theme Spacing or custom value. |
 
-The height setting offers a comprehensive range of options that make it easy to control the height of elements in your design.
+Container-style Sizing defaults to **Full** width and **Auto** height. [Theme Studio → Screens](../../theme-studio/screens.md) controls Breakpoint widths.
 
-<table><thead><tr><th width="194">Position Properties</th><th>Description</th></tr></thead><tbody><tr><td>Auto</td><td>No position properties are set on the element, the parent element and browser handles the height of the element.</td></tr><tr><td>Full</td><td>The element will take up the full height of the parent element.</td></tr><tr><td>Screen</td><td>The element will take up the full hight of the viewport, e.g. 100vh (full viewport height).</td></tr><tr><td>Theme Spacing</td><td>Choose from the pre-defined size classes set in the Theme Studio. You can also override the pre-defined classes and use <a href="/broken/pages/ocNrfx1gyJHmVYZMYP0k">Custom CSS Values</a>.</td></tr></tbody></table>
+Specialised defaults include:
+
+* **Image and Video** — Width `100%`, Height Auto.
+* **SVG** — Width theme spacing 20, Height Auto.
 
 ### Min & Max Settings
 
-In Elements the min-width and max-width settings provide control over the minimum and maximum width of elements, allowing you to set constraints on how wide an element can grow or shrink. These settings are especially useful for responsive design, as they help maintain readability and layout consistency across different screen sizes.
+**Enable** is off by default. Enabling it reveals:
 
-#### Why Use Min-Width and Max-Width?
+* **Width → Min** — Defaults to 0.
+* **Width → Max** — Defaults to Auto.
+* **Height → Min** — Defaults to 0.
+* **Height → Max** — Defaults to Auto.
 
-1\. Content Readability: Setting maximum widths prevents text from stretching too wide, which enhances readability, especially on larger screens.
+Min values prevent a component shrinking below a limit. Max values prevent it growing beyond a limit. These settings are responsive.
 
-2\. Responsive Design: Min and max-widths help maintain an adaptable layout by controlling how elements respond to different screen sizes.
+{% hint style="info" %}
+A maximum width improves readability for long text and prevents large screens stretching content too far. A minimum width should be used carefully because it can cause horizontal scrolling on small screens.
+{% endhint %}
 
-3\. Layout Constraints: Min-widths prevent elements from collapsing too small, while max-widths keep elements from overflowing their containers, ensuring a balanced and visually consistent design.
+### Aspect Ratio
 
-Use min-width and max-width settings when you need control over element sizes to ensure responsive, readable, and user-friendly layouts across various screen sizes.
+Image and Video share an Aspect Ratio control:
+
+* **Auto** — Uses the source media’s natural ratio. This is the default.
+* **Wide** — Uses 16:9.
+* **Tall** — Uses 4:5.
+* **Custom** — Reveals a ratio field, which defaults to `7/5`.
+
+For a fixed ratio, **Object Fit** offers Fill, Contain, Cover, None, and Scale Down, defaulting to Cover.
+
+**Position** sets the focal point inside the frame and defaults to Centre.
 
 ### Using Custom CSS Values
 
-A lot of Components support a “custom sizing” option for you to specify the exact size of an element, this can be things like width, height, and placement.
+Switch a supported size control to manual mode to enter a valid CSS value. Common examples:
 
-When adding a value into the custom size box, it’s useful to remember that anything native css supports, Elements supports! So values like vh, px, rem, %, and [css maths 2](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions/Using_CSS_math_functions) should all work as expected.
+* `250px` — A fixed pixel size.
+* `20rem` — A size relative to the root text size.
+* `75%` — A percentage of the containing block.
+* `100vw` — The full viewport width.
+* `80vh` — 80% of the viewport height.
+* `calc(100vw - 20px)` — The viewport width minus 20 pixels.
+* `clamp(18rem, 50vw, 48rem)` — A responsive size with minimum and maximum limits.
 
-Here's some examples:
-
-* 250px - Make the width (or hight) 250px wide.
-* calc(100vw-20px) - 100% viewport width - 20px.
-* 100vw - 100% of the viewport width.
-* 80vh - 80% of the viewport height.
+See [CSS math functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions/Using_CSS_math_functions) for `calc()`, `min()`, `max()`, and `clamp()`.
 
 ## Sizing UI in Elements
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-28 at 11 .51.11@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-28 at 11 .51.11@2x.png" alt="Sizing controls for width, height, and minimum and maximum values"><figcaption><p>Sizing values can use Theme Spacing or custom CSS values.</p></figcaption></figure>

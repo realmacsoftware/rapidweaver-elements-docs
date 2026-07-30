@@ -56,6 +56,8 @@
     * [Layout](elements/components/common-controls/layout.md)
     * [Sizing](elements/components/common-controls/sizing.md)
     * [Spacing](elements/components/common-controls/spacing.md)
+    * [Typography & Text Styles](elements/components/common-controls/typography-and-text-styles.md)
+    * [Backgrounds](elements/components/common-controls/backgrounds.md)
     * [Transitions](elements/components/common-controls/transitions.md)
     * [Effects](elements/components/common-controls/effects.md)
     * [Filters](elements/components/common-controls/filters.md)

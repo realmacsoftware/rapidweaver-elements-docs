@@ -1,34 +1,55 @@
 ---
-description: A quick and flexible way to apply common visual effects
+description: Apply blur, brightness, saturation, shadow, and backdrop effects
 ---
 
 # Filters
 
-Filters allow you to apply various visual effects to elements, such as blurring, adjusting brightness,  or adding drop shadows. These filters are applied via the filter settings on most elements and enable quick visual enhancements.
+Filters change how a component and its contents are rendered. Use them for blur, brightness, saturation, drop shadows, and backdrop blur.
 
 {% embed url="https://www.youtube.com/watch?v=wFKU85vhOEQ&list=PLlqV01jBZsjA6LyBb9uY-H7EtHjgO1HcR&index=1&pp=iAQB" %}
 
 ### Type
 
-Specify if the component has effects enabled or disabled. The Hover effect works in conjuction with [Transitions](transitions.md).
+**Type** is not responsive and defaults to None.
 
-| Type Properties | Description                                         |
-| --------------- | --------------------------------------------------- |
-| None            | No effect classes will be applied to the component. |
-| Static          | Enable effects.                                     |
-| Hover           | Enable Start and End state hover effects.           |
+* **None** — Applies no filter classes.
+* **Static** — Applies one set of filter values.
+* **Hover** — Reveals Over and Start/End state controls.
+
+### Hover Over and State
+
+For Hover, **Over** defaults to Self. It can respond to Self, Parent, Container, Grid, Flex, or Custom ID.
+
+Custom ID reveals a blank **ID** field. Enter the raw ancestor ID without `#` or `group/`.
+
+**State** defaults to Start:
+
+* **Start** — The resting filters.
+* **End** — The filters applied while the chosen target is hovered.
 
 ### Filters
 
-* Blur - Applies a blur to the contents of the object. Vvalue is set in pixels.
-* Brightness - Darken or lighten the image, value is set in percent, 100 is the default value.
-* Sturate - Asjust the colour saturation, 0 is greyscale, 100 is the default.
-* Drop Shadow - Apply a drop shadow from the theme studio.
+Static and each Hover state provide:
 
-#### Backdrop Filters
+* **Blur** — Defaults to 0 pixels.
+* **Brightness** — Defaults to 100%. Lower values darken; higher values brighten.
+* **Saturate** — Defaults to 100%. `0` removes colour; values above 100 increase saturation.
+* **Drop Shadow** — Defaults to None and uses Theme Studio shadow values.
 
-* Blur - Applies a blur effect to the content behind the element, rather than the element itself. It creates a frosted glass-like effect, which is commonly used in modern web design to maintain focus on the content in the foreground while still giving a glimpse of what’s behind. To see this effect, ensure your component has a completely transparent background or semi-transparent background colour.
+### Backdrop Filters
+
+**Backdrop Blur** defaults to 0 pixels. It blurs content behind the component rather than the component itself.
+
+Backdrop blur is easiest to see when the component has a transparent or semi-transparent [Background](backgrounds.md). A fully opaque background hides the content being blurred.
+
+{% hint style="info" %}
+Add a [Transition](transitions.md) for smooth Hover filters. Large blur and backdrop-blur values can be expensive to render, especially over video or animated content.
+{% endhint %}
+
+### Custom ID Hover Groups
+
+Container, Grid, and Flex automatically create the required hover group when an Advanced ID is set. Other parents must render the matching `group/your-id` class.
 
 ## Filters UI in Elements
 
-<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-23 at 5 .30.10@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2024-10-23 at 5 .30.10@2x.png" alt="Filter controls for blur, brightness, saturation, drop shadow, and backdrop blur"><figcaption><p>Filters can remain static or animate between hover states.</p></figcaption></figure>

@@ -1,60 +1,66 @@
 ---
-description: Link to a page, resource or website.
+description: Link a component to a page, resource, anchor, email address, or website
 ---
 
 # Link
 
-The link property allows you to link to a page, resource or extrenal website. Elements will keep track and update all internally linked pages and resources.
+The Link control makes a supported component clickable. Elements tracks internal pages, anchors, and resources so their published destinations stay current when the project changes.
 
 {% embed url="https://youtu.be/mt-5Zhk3M7E" %}
 
 ### Link Panel
 
-You can apply the link panel on most components and inline text areas. Add a link click the "Choose Link…" button in the inspector. To clear a link click the "x" icon to the right hand side of the link button.
+Choose **To** or **Choose Link…** to open the Link panel. An unset link is the default. Use the Clear button to remove an existing destination.
 
 {% columns %}
 {% column width="50%" %}
-#### Link
+Available link types include:
 
-These settings define where image will be linked to. Click `Choose Link…` to select a destination. You can link to:
-
-* Any page within your project
-* An external URL
-* An email address (mailto:)
-* A file resource
-
-Use the Clear (×) button to remove the link.
+* **URL** — Links to an external URL. Entering an email address creates a `mailto:` link.
+* **Plain** — Uses the entered destination without Elements resolving it; useful for specialised or generated URLs.
+* **Page** — Links to a page in the project.
+* **Anchor** — Links to a component ID on a selected page.
+* **Resource** — Links to a file stored in Resources.
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src="../../../.gitbook/assets/CleanShot 2025-11-01 at 4 .16.10@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CleanShot 2025-11-01 at 4 .16.10@2x.png" alt="The Elements Link panel with destination options"><figcaption><p>The Link panel selects and manages destinations.</p></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
-<table><thead><tr><th width="136">Link Types</th><th>Description</th></tr></thead><tbody><tr><td>URL</td><td>Link to an external website, a mailto link will automatically be created if an email address is entered.</td></tr><tr><td>Plain</td><td>Usful for adding custom code, like PHP.</td></tr><tr><td>Page</td><td>Link to a  page within your project.</td></tr><tr><td>Anchor</td><td>Link to an Anchor on the page. Anchor ID's can be set in the Advanced settings on all built-in Components.</td></tr><tr><td>Resource</td><td>Link to a  resource within your project.</td></tr></tbody></table>
+### Email Links
 
-{% hint style="warning" %}
-#### Disabling Smooth Scroll for Anchors
-
-Element websites are configured to smooth scroll when navigating to an anchor. Smooth scroll can be disabled by removing the class="scroll-smooth" on the html tag in the site Template code.
-{% endhint %}
+Entering an email address creates a `mailto:` destination. Test it in a browser because the visitor must have an email application configured.
 
 ### Custom Attributes
 
-Custom attributes in an link (anchor tag) provide additional information about how the link behaves, where it directs, and how it interacts with other elements or the browser. Here's a selection of example custom attributes.
+Where the Link panel provides Custom Attributes, add a Name and Value for attributes such as:
 
-<table><thead><tr><th width="106">Name</th><th width="210">Value</th><th>Description</th></tr></thead><tbody><tr><td>title</td><td>Go to Example Website</td><td>Provides additional information about the link, usually displayed as a tooltip when the user hovers over the link.</td></tr><tr><td>rel</td><td>noreferrer</td><td>Ensures that no referrer information (the URL of the current page) is sent to the destination.</td></tr><tr><td>rel</td><td>nofollow</td><td>Tells search engines not to follow this link for SEO purposes.</td></tr><tr><td>type</td><td>application/pdf</td><td>Specifies the MIME type of the linked resource. This is typically used when linking to downloadable files or specific content types. This example is for a pdf document.</td></tr></tbody></table>
+| Name | Example value | Purpose |
+| --- | --- | --- |
+| `title` | `Go to Example Website` | Supplies additional advisory text. |
+| `rel` | `noreferrer` | Prevents the destination receiving referrer information. |
+| `rel` | `nofollow` | Asks search engines not to follow the link. |
+| `type` | `application/pdf` | Identifies the linked resource’s MIME type. |
+
+Use one `rel` attribute with space-separated values when more than one relationship is required, for example `nofollow noreferrer`.
 
 ### Linking to an Anchor
 
-1. You first need to add an ID to the component that will serve as your anchor. The ID can be found in the Advanced section in the settings for the selected component.
-2. Then where you want to create your link in the text. Select the text, which will display the inline text&#x20;
-   * Click the LINK button in the inline text editor to open the link dialog.
-   * If your anchor is on the same page, choose the page from the dropdown next to the link field.
-   * This will display all available anchors in the Anchor popup.
-   * Select the desired anchor, and you're done.
+1. Select the destination component.
+2. Enter a unique value under **Advanced → ID**.
+3. Open the Link panel on the source component or selected inline text.
+4. Choose the destination page.
+5. Choose the component ID from the Anchor list.
+
+On the same page, the published destination uses a fragment such as `#about-section`.
 
 {% embed url="https://youtu.be/VEqrlcXydTs" %}
 
+{% hint style="warning" %}
+Elements sites use smooth anchor scrolling by default. To disable it site-wide, remove `class="scroll-smooth"` from the `html` tag in the site Template code.
+{% endhint %}
 
+### Accessibility
 
+Use link text that describes the destination. Avoid making a Container clickable when it contains Buttons, links, form fields, or other interactive controls.
