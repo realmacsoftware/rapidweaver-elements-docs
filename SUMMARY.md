@@ -31,7 +31,7 @@
   * [RapidWeaver Elements vs Blocs](getting-started/comparisons/rapidweaver-elements-vs-blocs-app.md)
   * [RapidWeaver Elements vs Stacks](getting-started/comparisons/rapidweaver-elements-vs-stacks.md)
   * [RapidWeaver Elements vs WordPress](getting-started/migrations/rapidweaver-elements-vs-wordpress.md)
-* [Moving from RapidWeaver Classic](classic-to-elements/getting-started.md)
+* [Moving from Classic](classic-to-elements/getting-started.md)
   * [The Phrasebook](classic-to-elements/the-phrasebook.md)
   * [Switching to Elements](classic-to-elements/rapidweaver-elements-vs-classic.md)
   * [Import Classic Projects](classic-to-elements/import-classic-projects.md)
