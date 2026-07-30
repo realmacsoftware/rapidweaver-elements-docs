@@ -1,172 +1,111 @@
 ---
-description: Add images to your webpage
+description: Display responsive resource, custom, or CMS images
 ---
 
 # Image
 
-The Image component in Elements allows you to easily add and display images (in JPG or PNG formats) on your website. This versatile component supports a wide range of customisation options, making it ideal for showcasing images in a clean, responsive, and accessible way.
+The Image component displays a project resource, custom URL, or CMS image. It supports separate light and dark images, responsive framing, lazy loading, fetch priority, an SVG mask, links, and an optional full-screen lightbox.
 
 {% embed url="https://youtu.be/tB5oOctRItM" %}
 
-### Supported Image Types
+### Supported Content and File Types
 
-* JPG
-* PNG
+Use Image for bitmap resources such as JPG and PNG. Use the [SVG component](svg.md) when the vector artwork itself needs fill or stroke styling.
 
-The Image Component does not support SVG's, instead you should use the [SVG Component](svg.md).
+### How to Use Image
 
-### Image Component Settings
+You’ll find Image under **Media** in the Components list.
 
-{% columns %}
-{% column width="50%" %}
+1. Drag **Image** onto the page.
+2. Choose Resource, Custom, or CMS.
+3. Select or enter both Light and Dark sources if needed.
+4. Add alternative text or complete the image metadata in Resources.
+5. Configure file sizing, loading, aspect ratio, and optional lightbox or mask.
+
+### Component Settings
+
 #### Image
 
-The Image control lets you add and manage images within your Project. You can select an image from project resources, link a custom URL, or connect a CMS image.
+**Type**
 
-{% hint style="success" %}
-**Tip:** Using optimised image sizes and lazy loading can significantly improve page performance without sacrificing visual quality.
-{% endhint %}
+* **Resource** — Uses an image stored in the project. This is the default.
+* **Custom** — Uses an absolute URL or site-relative path.
+* **CMS** — Uses a CMS field expression.
 
-**Resource**\
-These settings define the source and accessibility details for your image.
+**Mode** switches between Light and Dark while choosing the source. Light is selected by default.
 
-* **Type**\
-  Choose between Resource, Custom, or CMS to determine how the image is loaded.
-* **Mode**\
-  Switch between Light and Dark mode images to display different visuals depending on the users system setting.
-* **Image**\
-  Use Choose… to select an image from the Finder or Clear to remove the current one. You can also drag and drop in images from the Resources panel or the Finder.
-* **Alt**\
-  Defines the alternative text used for SEO and accessibility purposes.
+Custom mode displays **Source**. CMS mode displays **Field**, which defaults to `{{item.image.src}}`. Both modes provide **Alt** text.
 
-**Sizing**\
-These options control how the image is scaled.
+For Custom and CMS sources, **Width** and **Height** define the intrinsic image size and default to 1280 × 720. Display size is controlled separately under Sizing.
 
-*   **Type**
+For Resource images:
 
-    Select Original to display the image at full resolution, or Custom to set a specific width.
-*   **File Size**
-
-    Enter a pixel value to define the physical image width when Custom sizing is active.
+* **Original** — Exports the original resource size.
+* **Custom** — Exports a resized file. File Size defaults to 400 pixels.
 
 {% hint style="warning" %}
-Resized images are exported at 2x to ensure they look crisp on retina displays. So if you set File size to 400px, it will actually be exported at 800px.&#x20;
+Custom-sized resources are exported at twice the entered width for Retina displays. A File Size of 400 pixels creates an 800-pixel export.
 {% endhint %}
 
-**Image Protection**\
-Prevents visitors from easily downloading the image. However, this is not foolproof, [see note below](image.md#a-short-note-about-why-image-protection-isnt-foolproof-on-the-web).
+**Image Protection** discourages simple right-click downloading and is off by default. It cannot prevent visitors from retrieving an image already delivered to their browser.
 
-*   **Enable**
+**Lazy Loading** adds the browser’s `loading="lazy"` attribute and is off by default. Avoid lazy loading a prominent image near the top of the page.
 
-    Disables right-click saving and other common download actions.
-
-**Lazy Loading**\
-Improves page performance by deferring image loading until it’s visible in the viewport.
-
-*   **Enable**
-
-    Adds the loading="lazy" attribute to the image tag.
-
-**Fetch Priority**\
-Controls how the browser prioritises loading this image.
-
-* **Auto**\
-  Uses the browser’s default priority.
-* **High**\
-  Prioritises loading this image sooner.
-* **Low**\
-  Defers loading until other elements have finished.
-{% endcolumn %}
-
-{% column width="50%" %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 11 .41.03@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-#### A short note about Why “Image Protection” Isn’t Foolproof on the Web
-
-It’s a common request: protect images on a website from being downloaded or copied. While blocking right-click can deter casual users, it’s important to understand that it doesn’t truly secure your images. Web browsers inherently download all page assets—including images—so they can display them. This means anyone with basic knowledge of developer tools or access to the browser’s cache can still retrieve your images.
-
-Instead of relying on “image protection,” consider watermarking your images or ensuring they’re resized and optimised for the web. This approach makes them less valuable for unauthorised use while still serving their purpose on your site.
-
-
-
-{% columns %}
-{% column %}
-#### Lightbox
-
-The Lightbox section lets you display an image in a pop-up overlay when clicked. This creates an immersive, distraction-free viewing experience without leaving the page. You can enable or disable the Lightbox and adjust the appearance of its backdrop for a polished presentation.
+**Fetch Priority** offers Auto, High, or Low and defaults to Auto.
 
 {% hint style="success" %}
-**Tip:** For a fully customised Lightbox use the Modal Component and manually build it to your exact specifications.
+Optimised image dimensions and appropriate lazy loading can improve page performance without reducing visible quality.
 {% endhint %}
 
-**Settings**\
-These controls define how the Lightbox behaves and how its backdrop looks.
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 11 .41.03@2x.png" alt="Image Inspector controls for source, sizing, protection, lazy loading, and fetch priority"><figcaption><p>The Image group controls the source file and loading behaviour.</p></figcaption></figure>
 
-*   Enable
+#### Mask
 
-    Turns the Lightbox feature on or off. When enabled, clicking the image will open it in a fullscreen overlay.
+**SVG** selects the mask resource. Black or opaque areas reveal the image.
 
-**Backdrop**\
-These options adjust the appearance of the overlay that appears behind the image.
+**Size** offers Contain, Cover, or Fill and defaults to Contain.
 
-*   **Color**
+#### Lightbox
 
-    Sets the backdrop colour displayed behind the image. Typically a dark colour (such as black) provides the best contrast.
-*   **Opacity**
+**Enable** opens the image full-screen when clicked and is off by default.
 
-    Controls the transparency of the backdrop colour, expressed as a percentage. Lower values create a lighter overlay, while higher values make it more opaque.
-*   **Blur**
+When enabled, **Color** defaults to Black, **Opacity** to 50%, and **Blur** to 0 pixels.
 
-    Adds a background blur effect (in pixels) to soften the content behind the image and draw more focus to the Lightbox image itself.
-{% endcolumn %}
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .10.27@2x.png" alt="Image Lightbox controls for backdrop colour, opacity, and blur"><figcaption><p>Lightbox backdrop controls.</p></figcaption></figure>
 
-{% column %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .10.27@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+#### Link
 
+Set **To** to link the image. Avoid enabling both a Link and Lightbox because visitors need one clear click action.
 
-
-{% columns %}
-{% column %}
 #### Aspect Ratio
 
-The Aspect Ratio section controls the shape and framing of images and other visual content. You can use predefined ratios for quick layouts or set a custom ratio for more precise control.&#x20;
+**Aspect Ratio**
 
-Additional options let you control how the image fits and where it’s positioned within its frame.
+* **Auto** — Uses the image’s natural ratio. This is the default.
+* **Wide** — Uses 16:9.
+* **Tall** — Uses 4:5.
+* **Custom** — Uses an `x/y` value; the default is `7/5`.
 
-**Aspect Ratio**\
-These settings define the overall shape of your image container. Choose from Auto, Wide, or Tall presets to control how the image is displayed.
+When the ratio is not Auto, **Object Fit** offers Fill, Contain, Cover, None, or Scale Down and defaults to Cover.
 
-* Auto: Adapts to the image’s original dimensions.
-* Wide: Creates a landscape-style frame.
-* Tall: Creates a portrait-style frame.
-* Custom: More control over cropping.
+**Position** chooses the focal point from the centre, edges, or corners and defaults to Centre.
 
-The **Custom Ratio** allows you to define a specific aspect ratio manually. Enter a ratio in the format x/y, such as 1/1 for a square or 5/7 for portrait-style content.
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .20.38@2x.png" alt="Image Aspect Ratio controls with object fit and position options"><figcaption><p>Aspect Ratio controls the image frame and crop.</p></figcaption></figure>
 
-**Object Fit**\
-Determines how the image is scaled within its container.
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .19.01@2x.png" alt="Image Inspector showing custom aspect-ratio settings"><figcaption><p>A custom aspect ratio can use any valid x/y value.</p></figcaption></figure>
 
-* **Fill**: Stretches the image to fill the container, possibly distorting it.
-* **Contain**: Ensures the full image is visible within the container.
-* **Cover**: Crops edges if necessary to fill the container without distortion.
-* **None**: Keeps the image at its original size.
-* **Scale Down**: Reduces the image size only if it’s larger than the container.
+### A Note About Image Protection
 
-**Position**\
-Controls where the image is anchored within its container. Choose from positions like: Top, Center, Bottom, Left, Right, or combinations like Top Center, Bottom Right, etc.
-{% endcolumn %}
+Browsers must download images before displaying them, so no front-end setting can make an image impossible to retrieve. Image Protection only discourages casual saving. Watermark valuable images and export them at an appropriate web resolution.
 
-{% column %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .20.38@2x.png" alt=""><figcaption></figcaption></figure>
+### Accessibility
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .19.01@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+Describe informative images with concise alternative text. Leave alt text empty only for purely decorative images, and avoid repeating an adjacent caption word for word.
 
+### Related Components
 
+* [Gallery](gallery.md) — Displays a folder of media in a grid and lightbox.
+* [SVG](svg.md) — Displays and recolours vector artwork.
+* [Mask](mask.md) — Provides more advanced masking options for wrapped content.
 
 {% include "../../.gitbook/includes/common-controls (1).md" %}

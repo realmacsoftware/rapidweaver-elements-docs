@@ -1,45 +1,78 @@
 ---
-description: A fundamental user interface element in web design
+description: Create a styled action or navigation control
 ---
 
 # Button
 
-Buttons are fundamental user interface elements in web design that enable users to interact with your website. They serve as clickable elements that trigger actions, such as navigating to a new page, or triggering a specific function, like showing a modal window.
+The Button component creates a prominent clickable control for navigation or actions such as opening a Modal. It supports editable text, optional content drop zones, responsive sizing, and separate normal and hover styles.
 
 {% embed url="https://youtu.be/4zXtboiY8nY" %}
 
+### How to Use Button
+
+You’ll find Button under **Content** in the Components list.
+
+1. Drag **Button** onto the page.
+2. Edit its label directly on the page.
+3. Set the destination in **Link → To**.
+4. Configure text, background, border, and hover styles.
+5. Optionally enable a Left or Right drop zone for an SVG, Image, or other small component.
+
+### Component Settings
+
+#### Link
+
+**To** sets the destination. Choose a page, resource, website, email address, phone number, anchor, or other supported link type.
+
+#### Font and Text Styles
+
+**Show** displays the button label and is enabled by default.
+
+Use **State** to style Normal and Hover text independently:
+
+* **Color** and **Opacity** — Default to Surface 50 at 100%.
+* **Text Shadow** — Defaults to None.
+
+General controls include Align, Family, Size, Weight, Spacing, Line Height, Case, Italic, and Underline. Alignment defaults to Centre, font to Body, size to Base, weight to 400, spacing and line height to Normal, and other styles to off.
+
+#### Dropzone
+
+**Dropzone**
+
+* **None** — Uses text only. This is the default.
+* **Left** — Adds a drop zone before the label.
+* **Right** — Adds a drop zone after the label.
+
+**Spacing** appears when a drop zone is enabled and defaults to theme spacing 2.
+
+#### Background
+
+Choose None, Static, or Hover. Hover is the default and provides separate Start and End styles. Background Style can be Color, Image, or Gradient. Image controls include position, size, repeat, and fetch priority; Gradient controls include type, direction, interpolation, colour stops, opacity, and stop positions.
+
 ### Common Layout Structure for Buttons
 
-Use a **Flex** component when you want to control how buttons sit next to each other and where they appear inside a layout. The typical structure for this would be:
+Use a **Flex** component when you want to control a group of buttons:
 
-1. **Container**
-2. **Flex** inside the Container
-3. **Two or more Buttons** inside the Flex
+1. Add a **Container**.
+2. Add a **Flex** inside the Container.
+3. Add two or more **Buttons** inside the Flex.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-07-15 at 11 .07.37@2x.png" alt=""><figcaption><p>Center aligned Buttons inside a Flex Component</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2026-07-15 at 11 .07.37@2x.png" alt="Two centre-aligned Button components inside a Flex component"><figcaption><p>Centre-aligned Buttons inside a Flex component.</p></figcaption></figure>
 
-#### Horizontal button alignment
+Set Flex Direction to Row, Justify to Centre, and Align Items to Centre.
 
-To place buttons side by side:
+{% hint style="info" %}
+Buttons use Auto left and right margins by default. When a Flex or Grid should control alignment and gaps, set each Button’s margins to 0. Changing Button padding does not reset its margins.
+{% endhint %}
 
-* Set the **Flex direction** to **Row**.
-* Add your **Button** components inside the Flex.
+### Accessibility
 
-This makes the buttons flow horizontally.
+Use action-oriented labels that describe the result, such as “Download Guide” rather than “Click Here”. Keep visible hover and keyboard focus states, and do not place interactive components inside a linked Button.
 
-To center the buttons as a group inside the Flex:
+### Related Components
 
-* Set **Justify** to **Center**.
-* Set **Align Items** to **Center**.
+* [Flex](flex.md) — Aligns and spaces groups of Buttons.
+* [Modal](modal.md) — Can be opened from a Button.
+* [SVG](svg.md) — Adds a custom icon through the Button drop zone.
 
-This centers the button row within the Flex container.
-
-#### Button margins inside a Flex
-
-By default, a Button's left and right margins are set to **Auto** (with spacing enabled out of the box). Auto margins absorb the free space in a Flex row, so they override the parent's **Justify** setting and compete with the Flex **Gap** — buttons can spread apart or land in unexpected positions.
-
-When placing Buttons inside a Flex (or Grid):
-
-* Set every Button's margins to **0** instead of **Auto**, so the parent's Gap and Justify settings control spacing and alignment.
-* Note that changing a Button's padding does **not** reset its margin — the Auto margins stay active until you explicitly set them to 0.
-* Only keep Auto margins when you deliberately want a button pushed to one side or centered on its own, outside of Flex-managed spacing.
+{% include "../../.gitbook/includes/common-controls (1).md" %}

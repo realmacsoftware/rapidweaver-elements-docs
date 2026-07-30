@@ -1,144 +1,139 @@
 ---
-description: Display structured data in rows and columns
+description: Display, search, sort, and paginate structured data
 ---
 
 # Table
 
-The Table component allows you to present structured data in a clean, organised format using rows and columns. It renders a standard HTML table with full control over layout, styling, and content.
+The Table component presents structured data in rows and columns. Data can be entered manually, loaded from a CSV resource, or fetched from a CSV or Google Sheets URL. Tables can include headers, footers, sorting, search, pagination, striped rows, and custom cell content.
 
-You can configure the number of columns and rows, toggle a header row, enable striped row backgrounds, and set per-column widths. Header and body cells have independent styling controls for text, padding, borders, and backgrounds, making it easy to create tables that match your design.
+### Requirements
+
+{% hint style="warning" %}
+Pages containing the Table component must be published as PHP.
+{% endhint %}
+
+Remote CSV data must be publicly accessible to the published site.
+
+### Supported Content and File Types
+
+* Manual columns and rows
+* CSV files stored in Resources
+* Public CSV URLs
+* Published Google Sheets data
+
+### How to Use Table
+
+You’ll find Table under **Content** in the Components list.
+
+1. Drag **Table** onto the page.
+2. Choose Manual, CSV File, or CSV URL.
+3. Add and configure the Columns collection.
+4. For Manual data, set the row count and edit the cells.
+5. Optionally enable sorting, search, pagination, header, and footer.
+6. Style cells, text, search, and pagination, then test the published PHP page.
 
 ### Component Settings
 
 #### Settings
 
-The Settings section contains the core controls for defining the structure of your table.
+**Data Source**
 
-**Columns**
+* **Manual** — Uses editable cells and a Rows setting. This is the default.
+* **CSV File** — Loads a CSV resource.
+* **CSV URL** — Loads a public CSV or Google Sheets URL.
 
-Use the Columns collection to add, remove, and reorder the columns in your table. Each column can have an optional custom width.
+CSV File reveals **CSV File**. CSV URL reveals **CSV URL**.
 
-*   **Width**
+For CSV sources, **First Row is Header** is enabled by default. The Columns collection maps to CSV columns by position.
 
-    Set the width of an individual column. Leave as auto to distribute space evenly, or enter a custom value to control the exact width.
+For Manual data, **Rows** sets the number of body rows and defaults to 3.
 
-{% hint style="info" %}
-When any column has a custom width set, the table switches to a fixed layout so that column widths are respected exactly as defined.
-{% endhint %}
+**Columns Collection**
 
-**Table Settings**
+Each column provides:
 
-*   **Rows**
+* **Cell Mode** — Text or Dropzone for Manual data. Text is the default.
+* **Width** — Defaults to Auto.
+* **Alignment** — Default, Left, Centre, or Right.
+* **Sortable** — Enables sorting for that column and is off by default.
+* **Hidden** — Hides the column and is off by default.
+* **Classes** and **ID** — Advanced values for the column.
 
-    Set the number of body rows displayed in the table. The minimum value is 1 and the default is 3.
+#### Interactive
+
+Sorting is enabled per column in the Columns collection.
+
+**Search** is off by default. Enabling it reveals **Placeholder**, which defaults to “Search…”.
+
+**Pagination** is off by default. Enabling it reveals **Rows Per Page**, which defaults to 10.
 
 #### Header Cells
 
-The Header Cells section controls the appearance of the table header row. These settings are only visible when the header is enabled.
+**Show** is enabled by default.
 
-*   **Show**
+**Padding** defaults to theme spacing 2 on every side. **Align** offers Top, Middle, or Bottom and defaults to Top. **Background** defaults to Surface 50.
 
-    Toggle the header row on or off. When disabled, the table will display only body rows.
-
-**Padding**
-
-Set the inner spacing for header cells. You can adjust the top, right, bottom, and left padding independently.
-
-**Background**
-
-Choose the background colour for the header row.
-
-**Borders**
-
-Customise the borders around each header cell.
-
-*   **Style**
-
-    Choose between Solid, Dashed, or Dotted border styles.
-*   **Width**
-
-    Set the border width on each side of the header cells independently.
-*   **Color**
-
-    Choose the border colour for header cells.
+Borders provide Solid, Dashed, or Dotted Style, plus Width and Color. Style defaults to Solid and Color to Surface 200.
 
 #### Header Text
 
-The Header Text section controls the typography and appearance of text within header cells. These settings are only visible when the header is enabled.
-
-*   **Alignment**
-
-    Align header text to the Left, Center, Right, or Justify.
-*   **Font**
-
-    Choose a font family from your project's theme. The default is the heading font.
-*   **Color**
-
-    Set the text colour for header cells.
-*   **Size**
-
-    Choose a text size from your project's theme.
-*   **Weight**
-
-    Adjust the font weight from Thin (100) to Black (900). The default is Semi Bold (600).
-*   **Spacing**
-
-    Control the letter spacing. Options range from Tighter to Widest, with Normal as the default.
+Set Alignment, Font, Color, Size, Weight, and Spacing. Defaults include Heading font, Text 50, Base size, and weight 600.
 
 #### Body Cells
 
-The Body Cells section controls the appearance of cells in the table body, including padding, backgrounds, and borders.
-
-**Padding**
-
-Set the inner spacing for body cells. You can adjust the top, right, bottom, and left padding independently.
+Padding defaults to theme spacing 2 and vertical Align to Top.
 
 **Background**
 
-*   **Color**
+* **Color** — Sets the base row colour and defaults to Surface 50.
+* **Striped** — Enables alternating rows and is off by default.
+* **Even** — Appears for striped rows and defaults to Surface 100.
 
-    Set the background colour for body rows. By default this applies uniformly to all rows.
-*   **Striped**
+**Hover** is off by default. Enabling it reveals Hover Color, which defaults to Surface 200.
 
-    Enable alternating row backgrounds for improved readability. When enabled, an additional colour picker appears for even rows.
-*   **Even**
-
-    Set the background colour for even-numbered rows. This setting is only visible when Striped is enabled.
-
-{% hint style="success" %}
-**Tip:** Striped rows make it easier for users to follow data across wide tables. Use subtle colour differences between odd and even rows for the best result.
-{% endhint %}
-
-**Borders**
-
-*   **Width**
-
-    Set the border width on each side of the body cells independently.
-*   **Color**
-
-    Choose the border colour for body cells.
+Body borders provide Style, Width, and Color. Style defaults to Solid and Color to Surface 200.
 
 #### Body Text
 
-The Body Text section controls the typography and appearance of text within body cells.
+Set Alignment, Font, Color, Size, Weight, and Spacing. Defaults include Body font, Text 50, Base size, and weight 400.
 
-*   **Alignment**
+#### Footer Cells and Footer Text
 
-    Align body text to the Left, Center, Right, or Justify.
-*   **Font**
+**Show Footer** is off by default. When enabled, Footer Cells provide Padding, Align, Background, and border controls. Defaults include theme spacing 2, Top alignment, Surface 100 background, Solid borders, and Surface 200 border colour.
 
-    Choose a font family from your project's theme. The default is the body font.
-*   **Color**
+Footer Text provides Alignment, Font, Color, Size, Weight, and Spacing. Defaults include Body font, Text 50, Base size, and weight 600.
 
-    Set the text colour for body cells.
-*   **Size**
+#### Search Bar
 
-    Choose a text size from your project's theme.
-*   **Weight**
+Set Padding, Margin Bottom, Font, Text Color, Size, Placeholder Color, Background, border Style, Width, Color, and Radius.
 
-    Adjust the font weight from Thin (100) to Black (900). The default is Normal (400).
-*   **Spacing**
+Defaults include padding 2 vertically and 3 horizontally, margin 4, Body font, Text 50, Base size, Text 300 placeholder, Surface 50 background, Solid border, Surface 200 border colour, and Medium radius.
 
-    Control the letter spacing. Options range from Tighter to Widest, with Normal as the default.
+#### Pagination Bar
+
+**Margin Top** defaults to theme spacing 4.
+
+**Alignment** offers Between, Centre, or End and defaults to Between.
+
+Button controls set Font, Size, Text Color, and Disabled Color. Defaults are Body, Small, Text 50, and Text 300.
+
+### Accessibility
+
+Use a header row for column names and keep labels concise. Do not hide information required to understand the data. Check search, sorting, pagination, and Dropzone controls with a keyboard.
+
+### Troubleshooting
+
+#### Remote data does not load
+
+Confirm that the page is PHP, the CSV URL is public, and the server can reach it. For Google Sheets, use a published CSV-compatible URL rather than an editor-only link.
+
+#### CSV columns are mismatched
+
+Reorder the Columns collection so its first item maps to the first CSV column, the second item to the second column, and so on.
+
+### Related Components
+
+* [Grid](grid.md) — Builds visual card layouts rather than semantic tabular data.
+* [Filter](filter.md) — Filters tagged components outside a Table.
 
 {% include "../../.gitbook/includes/common-controls (1).md" %}

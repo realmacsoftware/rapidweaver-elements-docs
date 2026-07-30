@@ -1,288 +1,124 @@
 ---
-description: Build beautiful image and video galleries
+description: Build a responsive image and video gallery with a lightbox
 ---
 
 # Gallery
 
-The Gallery component in Elements allows you to build beautiful Galleries in a matter of seconds. Simple place the Gallery component into your site and drop on a folder images (or video).
+The Gallery component turns a Resources folder into a responsive media grid with optional captions, author information, and a full-screen lightbox. It can combine images, YouTube and Vimeo links, and MP4 video.
 
 {% embed url="https://youtu.be/LwmA-IZNQIs" %}
 
 {% hint style="success" %}
-You can **add YouTube or Vimeo videos** by dragging and dropping the URL from your web browser to the Resources area in RapidWeaver Elements. A playlist URL can also be dropped into the resources area.
+Add a YouTube or Vimeo video by dragging its URL from your browser into Resources. Playlist URLs can also be added.
 {% endhint %}
 
-### Supported File Types
-
-Galleries can contain a mixture of file types, including:
+### Supported Content and File Types
 
 * JPG
 * PNG
 * YouTube
 * Vimeo
-* .mp4
+* MP4
 
-### Resize and Compress Images for Best Results
+The Gallery expects a folder rather than a single image.
 
-Elements is designed to be flexible with image sizes, but for best results in galleries, we recommend using images that are at least 1200px wide for modern displays. This ensures your gallery looks sharp on all devices.
+### How to Use Gallery
 
-For batch resizing and compressing images we recommend [Squash for macOS](https://www.realmacsoftware.com/squash/).
+You’ll find Gallery under **Media** in the Components list.
+
+1. Create a folder in Resources and add the images or videos.
+2. Drag **Gallery** onto the page.
+3. Drop the Resources folder into **Media → Resources**.
+4. Set the column count, gap, and thumbnail ratio.
+5. Configure thumbnail metadata and lightbox styling.
+6. Preview images and videos in a browser.
+
+{% hint style="info" %}
+For sharp modern displays, use gallery images at least 1200 pixels wide. [Squash for macOS](https://www.realmacsoftware.com/squash/) can batch resize and compress them.
+{% endhint %}
 
 ### Component Settings
 
-{% columns %}
-{% column width="50%" %}
 #### Media
 
-Drop a folder of images, videos, YouTube link, or Vimeo links into the dropzone to build your gallery.
+**Resources** selects the folder containing gallery media.
 
-{% hint style="danger" %}
-The Gallery does not support single images. They must be in a Folder.
-{% endhint %}
-{% endcolumn %}
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 11 .45.57@2x.png" alt="The Gallery Media settings with a Resources folder selected"><figcaption><p>The Gallery is built from a folder in Resources.</p></figcaption></figure>
 
-{% column width="50%" %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 11 .45.57@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+#### Layout
 
+**Columns** sets between 1 and 12 columns and defaults to 3.
 
+**Gap** sets spacing between thumbnails and defaults to theme spacing 3.
 
-{% columns %}
-{% column %}
-### Layout
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 11 .50.41@2x.png" alt="Gallery Layout settings showing Columns and Gap controls"><figcaption><p>Layout controls the number and spacing of gallery columns.</p></figcaption></figure>
 
-The Layout section controls how your images are arranged within the Gallery component. Use these settings to define the number of columns and the spacing between each thumbnail.
-
-**Columns**
-
-Adjust the number of columns displayed in your gallery.
-
-* Use the slider to set how many columns of thumbnails appear across your layout.
-* The gallery automatically adapts to different screen sizes, ensuring images remain evenly spaced and visually balanced.
-
-**Gap**
-
-Set the spacing between gallery items.
-
-* The Gap value defines the amount of space between thumbnails.
-* Use smaller values for a tighter grid or larger ones to give each image more breathing room.
-* The value corresponds to Tailwind’s spacing scale, so it remains consistent with your theme settings.
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 11 .50.41@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-{% columns %}
-{% column %}
 #### Thumbnails
-
-The Thumbnails section controls how images are displayed within the Gallery component. You can adjust the size, shape, and appearance of the thumbnails, along with metadata such as captions and authors.
-
-{% hint style="warning" %}
-The Aspect ratio will apply to all images to give the grid an ascetically pleasing and consistent look. If you wish to mix and match aspect ratios, we recommend building a custom Gallery with the Grid Component.
-{% endhint %}
 
 **Media**
 
-These settings define the overall appearance of your thumbnails.
-
-*   **Aspect**
-
-    Choose between Square, Wide, or Tall to control the image aspect ratio.
-*   **Radius**
-
-    Adjust the corner rounding of your images.
-*   **Shadow**
-
-    Adds a soft drop shadow to thumbnails.
+* **Aspect** — Square, Wide, or Tall. Square is the default and applies to every thumbnail.
+* **Radius** — Sets thumbnail corner rounding.
+* **Shadow** — Applies a theme shadow.
 
 **Meta Data**
 
-Use these options to control how meta information (such as captions or authors) is positioned and spaced around the thumbnail.
+* **Alignment** — Left, Centre, or Right. Left is the default.
+* **Margin** — Space above metadata; defaults to 0.
+* **Spacing** — Space between metadata items; defaults to 0.
 
-*   **Alignment**
+**Caption** and **Author** are hidden by default. Enabling either reveals Color, Font, and Size. Both default to Text 50, the Heading font, and Small size.
 
-    Align metadata text to the Left, Center, or Right of each thumbnail.
-*   **Margin**
+{% hint style="warning" %}
+One Aspect applies to the complete gallery. Use a custom Grid layout when mixed thumbnail ratios must remain visible.
+{% endhint %}
 
-    Adds spacing around the metadata area and the thumbnail.
-*   **Spacing**
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 11 .52.29@2x.png" alt="Gallery Thumbnails settings for aspect, metadata, caption, and author styling"><figcaption><p>Thumbnail media and metadata can be styled independently.</p></figcaption></figure>
 
-    Controls the space between individual metadata items (for example, between a caption and author line).
-
-**Caption & Author**
-
-Controls the appearance of the image caption and author
-
-*   **Show**
-
-    Toggle captions on or off.
-*   **Color**
-
-    Sets the text color.
-*   **Font**
-
-    Select a font style (such as heading or body) from your project’s theme.
-*   **Size**
-
-    Define the text size.
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 11 .52.29@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-{% columns %}
-{% column %}
 #### Lightbox
 
-The Lightbox section controls how images are displayed when clicked. Enabling the Lightbox allows visitors to view larger versions of your images in a clean, focused overlay without leaving the page.
+**Preview** opens the lightbox in Edit mode and is off by default.
 
-**Preview**
+**Media** has separate Radius and Shadow controls for the enlarged media.
 
-Toggle the Preview option to enable or disable viewing the lightbox in the Elements Editor.
+**Meta Data** controls Alignment, Margin, and Spacing below the lightbox media. Alignment defaults to Centre, Margin to theme spacing 3, and Spacing to 0.
 
-**Media**\
-Fine-tune the appearance of images displayed inside the lightbox.
+Caption and Author are hidden by default and each provides Color, Font, and Size when enabled.
 
-*   **Radius**
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 12 .01.49@2x.png" alt="Gallery Lightbox settings for media and metadata"><figcaption><p>The lightbox can use different media and metadata styling from the grid.</p></figcaption></figure>
 
-    Adjust the corner rounding of lightbox images. Use Default to follow your project’s theme styling.
-*   **Shadow**
-
-    Apply a drop shadow around images in the lightbox to give them depth and contrast. Use Default to follow your project’s theme styling.
-
-{% hint style="success" %}
-**Tip:** Use consistent radius and shadow settings between your Thumbnails and Lightbox sections for a unified visual style.
-{% endhint %}
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 12 .01.49@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-{% columns %}
-{% column %}
 #### Overlay
 
-The Overlay section controls the background appearance behind images when the Lightbox is active. These settings let you adjust the overlay’s color, opacity, and blur to achieve the desired visual focus when viewing enlarged images.
+**Color** sets the page backdrop and defaults to Surface 50.
 
-**Color**
+**Opacity** defaults to 20%.
 
-Choose the background color of the overlay.
+**Blur** defaults to 3 pixels.
 
-* This determines the tone of the area behind the image when opened in the Lightbox.&#x20;
-* Darker overlays help the image stand out, while lighter tones can create a softer presentation.
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 12 .05.07@2x.png" alt="Gallery Overlay controls for colour, opacity, and blur"><figcaption><p>Overlay settings draw attention to the selected media.</p></figcaption></figure>
 
-**Opacity**
-
-Adjust the transparency of the overlay.
-
-* Lower values make the background more visible through the overlay.
-*   Higher values create a stronger contrast between the image and background.
-
-    The default setting provides a subtle darkening effect suitable for most themes.
-
-**Blur**
-
-Adds a soft blur to the background content beneath the overlay.
-
-* This helps draw attention to the image while maintaining a sense of depth and polish.&#x20;
-* Increase the blur amount for a more diffused background effect.
-
-{% hint style="success" %}
-**Tip:** Combine a slightly dark overlay color with moderate blur for a clean, modern Lightbox appearance that complements most gallery styles.
-{% endhint %}
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 12 .05.07@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-{% columns %}
-{% column %}
 #### Navigation
 
-The Navigation section controls the appearance of the navigation buttons within the Lightbox view. These settings let you customise the look of the Close, Next, and Previous buttons to suit your project’s theme.
+General controls set **Border Radius**, **Padding**, and icon **Size** for navigation buttons. Defaults are Full radius, theme spacing 2, and 24 pixels.
 
-**General**
+Use **State** to switch between Default and Hover styling.
 
-Adjust the overall design and sizing of navigation buttons.
+**Close Button** and **Next & Previous Buttons** each provide Background, Icon, and Opacity for both states. Default opacity is 100%.
 
-*   **Border Radius**
+<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 1 .07.09@2x.png" alt="Gallery Navigation controls for close, next, and previous buttons"><figcaption><p>Navigation buttons have independent Default and Hover styles.</p></figcaption></figure>
 
-    Controls the corner rounding of all navigation buttons. You can set independent values for horizontal and vertical radius, or leave as Default for theme consistency.
-*   **Padding**
+### Accessibility
 
-    Sets the inner spacing around each icon, determining how much space appears between the button edge and the icon.
-*   **Size**
+Add meaningful captions or image metadata when media conveys information. Keep lightbox controls high contrast, and make sure videos remain usable with keyboard controls.
 
-    Adjusts the icon size inside the navigation buttons.
-*   **State**
+### Tips and Best Practices
 
-    Switch between Default and Hover to style how buttons look in each interaction state.
+* **Optimise before importing:** Smaller files improve loading and lightbox performance.
+* **Use consistent crops:** A shared thumbnail ratio makes the grid feel intentional.
+* **Keep controls visible:** Test navigation colours over both light and dark media.
 
-Customise the appearance of the button used to close the Lightbox.
+### Related Components
 
-*   Background
-
-    Sets the background color on the button
-*   Icon
-
-    Choose the color of the icon for better contrast against the background.
-*   Opacity
-
-    Adjusts the transparency of both the button and icon.
-
-{% hint style="success" %}
-**Tip:** For best results, use semi-transparent backgrounds with high-contrast icons. This keeps navigation controls visible without distracting from the main image.
-{% endhint %}
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 1 .07.09@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-
-
-{% columns %}
-{% column %}
-#### Advanced
-
-The [Advanced Section](common-controls/advanced.md) provides options for users who want finer control over styling or need to link directly to the Gallery component.&#x20;
-
-These settings are ideal for developers and advanced users comfortable with custom CSS or Tailwind utilities.
-
-**CSS Classes**
-
-Add one or more Tailwind CSS classes to the Gallery component for custom styling.
-
-This allows you to extend or override default styles without editing your theme or component code.
-
-You can use any valid Tailwind utility class to adjust spacing, colours, borders, or animations.
-
-**ID**
-
-Assign a unique ID to the component. This is useful for creating in-page [anchor links](common-controls/advanced.md#id) or targeting the component with custom scripts and CSS selectors.
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 1 .14.19@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
+* [Image](image.md) — Displays one image with optional lightbox.
+* [Image Slider](image-slider.md) — Presents images in a swipeable carousel.
+* [Grid](grid.md) — Builds a fully custom media layout.

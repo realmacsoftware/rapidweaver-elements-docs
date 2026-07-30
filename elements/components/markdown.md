@@ -1,109 +1,95 @@
+---
+description: Write and render structured content using Markdown syntax
+---
+
 # Markdown
 
-The Markdown component lets you write content using standard Markdown syntax and render it directly inside your Elements layout. It’s ideal for longer blocks of text, technical documentation, blog-style content, or anywhere you want fast, readable formatting without manually styling individual text elements.
+The Markdown component renders standard Markdown inside an Elements layout. It is useful for documentation, articles, technical content, and text written outside Elements.
 
-Markdown is widely used, easy to read, and quick to write. If you’re already familiar with it, you’ll feel right at home.
+Markdown content inherits a Theme Studio Typography style, keeping headings, paragraphs, lists, links, and code visually consistent.
 
-#### Adding a Markdown Component
+### How to Use Markdown
 
-To add a Markdown component to your page:
+You’ll find Markdown under **Content** in the Components list.
 
-1. Open the **Components** panel
-2. Drag **Markdown** onto your page
-3. **Right-click** on the Markdown Component in the page and choose the "Edit Markdown" option.
+1. Drag **Markdown** onto the page.
+2. Right-click the component and choose **Edit Markdown**.
+3. Enter or paste Markdown in the editor.
+4. Choose a Typography Style and semantic Tag in the Inspector.
+5. Preview links, images, lists, and code on the page.
 
-The content is rendered live as you type, so you can immediately see how your Markdown will appear on the page.
+The content renders live as you type. You can also drag an image from Resources into the Markdown editor to insert its correct path.
 
-#### Supported Markdown Syntax
-
-The Markdown component supports standard, [official Markdown syntax](https://daringfireball.net/projects/markdown/syntax), including:
+### Supported Markdown Syntax
 
 **Headings**
 
-```
+```markdown
 # Heading 1
 ## Heading 2
 ### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-```
-
-**Paragraphs and Line Breaks**
-
-```
-This is a paragraph.
-
-This is another paragraph.
 ```
 
 **Emphasis**
 
-```
+```markdown
 *Italic text*
 **Bold text**
 ***Bold and italic***
 ```
 
-**Unordered lists:**
+**Lists**
 
-```
-- Item one
-- Item two
-- Item three
-```
+```markdown
+- Unordered item
+- Another item
 
-**Ordered lists:**
-
-```
 1. First item
 2. Second item
-3. Third item
 ```
 
-**Links**
+**Links and images**
 
-```
+```markdown
 [Visit Realmac Software](https://realmacsoftware.com)
+![Alternative text](https://example.com/photos/image-name.jpg)
 ```
 
-**Images**
+**Quotes and code**
 
-```
-![Alt text](/photos/image-name.jpg)
-```
+```markdown
+> This is a blockquote.
 
-You can automatically insert image paths into your Markdown by dragging and dropping the image from the resources window into the Markdown Editor. Elements will workout the correct path and ensure it displays correctly in the Editor and when Published.
-
-**Blockquotes**
-
-```
-> This is a blockquote
-```
-
-**Inline code:**
-
-```
 `inline code`
 ```
 
-#### Styling and Appearance
+Paragraphs are separated by a blank line. The component supports standard [Markdown syntax](https://daringfireball.net/projects/markdown/syntax).
 
-Markdown content inherits its styling from your project’s **Typography** **Settings** in the **Theme Studio**. This keeps your Markdown visually consistent with the rest of your site without needing extra configuration. If you want more granular visual control, consider using the **Text** component instead.
+### Component Settings
 
-#### When to Use Markdown&#x20;
+#### General
 
-The Markdown component is a great choice when:&#x20;
+**Style** chooses a Theme Studio Typography style and defaults to Article. It styles all nested Markdown elements.
 
-* Writing documentation or help pages
-* Creating blog-style or editorial content
-* Displaying formatted text quickly
-* Working with content written outside of Elements&#x20;
+**Tag** sets the semantic wrapper and defaults to Article. Options are Article, Section, Aside, Main Content, Header, Footer, Div, and Span.
 
-For highly visual layouts or fine-grained typographic control, standard Elements components may be a better fit.&#x20;
+The tag changes document meaning rather than visual styling. Use Main Content only once per page.
 
-#### Notes and Limitations
+### Notes and Limitations
 
-* Markdown is rendered as static content
-* Interactive Elements components cannot be embedded inside Markdown
-* Styling is controlled globally rather than per element Markdown keeps things simple, readable, and fast.
+* Markdown renders as static content.
+* Elements components cannot be embedded inside Markdown.
+* Visual styling is controlled at block level through Theme Studio.
+* Use separate Elements components when you need fine-grained layout or interaction.
+
+### Accessibility
+
+Use one clear page heading, keep heading levels in order, describe images with useful alternative text, and write link text that makes sense out of context.
+
+### Related Components
+
+* [Typography](typography.md) — Styles long-form content as a structured block.
+* [Text](text.md) — Gives detailed control over individual headings and short text.
+* [Image](image.md) — Provides responsive image, alt text, and lightbox controls.
+
+{% include "../../.gitbook/includes/common-controls (1).md" %}

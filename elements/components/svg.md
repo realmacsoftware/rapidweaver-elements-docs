@@ -1,93 +1,109 @@
 ---
-description: Add Scalable Vector Graphics to your website
+description: Display and style scalable vector graphics
 ---
 
 # SVG
 
-SVGs (Scalable Vector Graphics) have become a go-to choice for web design because they offer incredible flexibility and quality. Unlike traditional image formats like JPEG or PNG, SVGs are vector-based, meaning they’re made up of lines and shapes rather than pixels. This makes them infinitely scalable without losing quality, so they look sharp on any screen size or resolution, from small mobile devices to large desktop monitors.
+The SVG component displays scalable vector artwork such as icons, logos, and illustrations. SVGs remain sharp at every size and can often be recoloured directly from Elements.
 
 {% hint style="info" %}
-**Important Note:** The SVG Component will attempt to do a basic "cleanup" of the SVG file before it is displayed. This "cleanup" includes removing fill, width, height, stroke-width, and style attributes from the SVG — This is done at runtime and does not alter the code of the SVG stored in Elements.
+By default, the component removes size, fill, stroke, and style attributes from the rendered SVG so its appearance can be controlled in the Inspector. The original resource stored in Elements is not changed.
 {% endhint %}
 
-### Here are a few reasons why SVGs are especially useful on websites:
+### Supported Content and File Types
 
-1\. Crisp at Any Size: SVGs maintain perfect clarity when resized, ensuring icons, logos, and illustrations always appear sharp and professional.
+The component accepts SVG resources. Use the [Image](image.md) component for JPG, PNG, and other bitmap images.
 
-2\. Small File Size: SVGs are typically smaller than high-resolution images, which helps websites load faster. Their code-based structure allows them to be easily optimized, minimizing file size and improving performance.
+### How to Use SVG
 
-3\. Easy to Style: SVGs can be styled directly with CSS, making them easy to fit in with the colours and style of your website.
+You’ll find SVG under **Media** in the Components list.
 
-## SVG Controls
+1. Drag **SVG** onto the page.
+2. Drop an SVG from Finder or Resources into the SVG field.
+3. Decide which embedded attributes Elements should remove.
+4. Configure Fill, Stroke, Link, and Sizing.
+5. Preview hover states in a browser.
 
-### SVG
+### Component Settings
 
-To add an SVG, drop it from the Finder (or Resources) area into the Dropwell.
+#### SVG
 
-### Fill
+**SVG** selects the resource.
 
-To set a fill colour on an SVG it needs to be setup correctly to support fill colours.
+Under **Remove Attributes**, each switch controls whether Elements strips that attribute while rendering:
 
-<table><thead><tr><th width="136">Link Types</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No colour or classes will be applied to the SVG.</td></tr><tr><td>Static</td><td>Set a single fill colour on the SVG.</td></tr><tr><td>Hover</td><td>Set a Start and End colour for the SVG. The Hover colour is displayed when the mouse cursor is over the SVG.</td></tr></tbody></table>
+* **Size** — Removes embedded width and height. Enabled by default.
+* **Fill** — Removes embedded fill attributes. Enabled by default.
+* **Stroke** — Removes embedded stroke attributes. Enabled by default.
+* **Styles** — Removes embedded style attributes. Enabled by default.
 
-### Stroke
+Disable a switch when the original SVG must retain that attribute.
 
-To set a stroke colour on an SVG it needs to be setup correctly to support stroke colours.
+#### Fill
 
-<table><thead><tr><th width="136">Link Types</th><th>Description</th></tr></thead><tbody><tr><td>None</td><td>No colour or classes will be applied to the SVG.</td></tr><tr><td>Static</td><td>Set a single fill colour on the SVG.</td></tr><tr><td>Hover</td><td>Set a Start and End colour for the SVG. The Hover colour is displayed when the mouse cursor is over the SVG.</td></tr><tr><td>Width</td><td>Set a stroke width for the SVG in pixels.</td></tr></tbody></table>
+**Type** can be None, Static, or Hover.
 
-### How to "cleanup" SVG's with Sketch
+For Hover, **Over** chooses Self or Parent and **State** switches between Start and End.
 
-[SVG Cleanup with Sketch App ](https://forums.realmacsoftware.com/t/svg-cleanup-with-sketch-app/46751)on the Elements Forum provides a good overview and discussion on the best way to get your SVG's ready for use in Elements.&#x20;
+Each visible state provides **Color** and **Opacity**. Both Start and End default to Surface 50 at 100% opacity.
 
-You can download [Sketch App here](https://www.sketch.com), and the [SVGO plugin here](https://sketchelements.com/plugins/svgo-compressor/).
+#### Stroke
 
-### Q\&A on fixing SVG's for display on a website.
+**Type** can be None, Static, or Hover. Hover provides Start and End states and can be triggered by Self or Parent.
 
-Getting SVG's to display correctly is a bit of a dark art, but with a bit of tinkering you'll be able to modify them to work and look great on the web and in Elements.
+Each state provides **Color**, **Opacity**, and **Width**. Colours default to Surface 50, opacity to 100%, and width to 1.
 
-#### Q: Why doesn't the Fill or Stroke colour work as expected?
+#### Link
 
-A: SVG images don’t always respond as expected to CSS styles for a few reasons, and it’s a common stumbling block. Here’s a quick rundown on why this happens and how to get more reliable control over your SVGs in RapidWeaver Elements…
+Set **To** to make the SVG link to a page, resource, website, email address, phone number, anchor, or another supported destination.
 
-SVG elements have their own styling properties, like fill and stroke, which can sometimes conflict with CSS styles. If these attributes are set within the SVG code itself, they can override Colours and Styles from Elements.
+### Preparing SVG Files
 
-For scalable, theme-compatible SVGs, you can set the fill and stroke attributes to currentColor within the SVG file. This approach allows Elements to set SVG color for the stroke or Fill.
+Elements can remove common attributes at render time, but the SVG’s internal structure still determines whether fills and strokes respond correctly.
 
-Set `fill="currentColor"` within your SVGs if you want Elements to set the colour of the stroke or fill. Depending on how the SVG is coded, this might not work, if that is the case, you should try removing `fill="currentColor"` from yoru SVG.
+* Remove fixed `width` and `height` values when the SVG does not resize as expected.
+* Use `currentColor` for fill or stroke when the artwork is designed to inherit a colour.
+* If `currentColor` prevents the Inspector from controlling the artwork, remove it and test again.
+* Complex inline styles or multiple hard-coded fills may require editing in an SVG tool.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-11-12 at 10 .34.54@2x.png" alt=""><figcaption><p>Set fill to currentColor or remove it, to allow Elements to set the fill colour of your SVG.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2024-11-12 at 10 .34.54@2x.png" alt="SVG code showing a fill attribute set to currentColor"><figcaption><p>Use currentColor—or remove a fixed fill—when the SVG should inherit its colour.</p></figcaption></figure>
 
-#### Q: How do I change the size of an SVG?
+<figure><img src="../../.gitbook/assets/CleanShot 2024-10-23 at 11 .32.29@2x.png" alt="SVG code with fixed width and height attributes highlighted for removal"><figcaption><p>Remove fixed width and height values when they prevent responsive sizing.</p></figcaption></figure>
 
-A: Use the Sizing settings in the component inspector, by default this is set to use a Theme Studio value. [Custom CSS values](/broken/pages/ocNrfx1gyJHmVYZMYP0k) can also be used to size the SVG.
-
-#### Q: Why doesn't the SVG change size when I adjust the sizing in Elements?
-
-A: Remove the height and width values in the SVG file, see screenshot below for an example.
-
-<figure><img src="../../.gitbook/assets/CleanShot 2024-10-23 at 11 .32.29@2x.png" alt=""><figcaption><p>Remove width and height to let Elements set the scale of your SVG</p></figcaption></figure>
-
-#### Q: Where can I find SVG Icons for use in Elements?
-
-A: [Tabler Icons](https://tabler.io/icons) has over 5,650 free SVG icons, they are all perfect for use on your Elements websites. Download any of the icons from there and remove the width and height code (as above), and they are ready to use in your project. The icons from Tabler are setup to use the stroke attribute. See the video below for a quick overview of how this works in practice. Also, [see our list above](svg.md#free-svg-icon-libraries).
+For a practical workflow, see [SVG Cleanup with Sketch](https://forums.realmacsoftware.com/t/svg-cleanup-with-sketch-app/46751). You can use [Sketch](https://www.sketch.com) with the [SVGO Compressor plugin](https://sketchelements.com/plugins/svgo-compressor/).
 
 {% embed url="https://share.cleanshot.com/TsQRDhMX" %}
 
 ### Free SVG Icon Libraries
 
-All of the following icon libraries work well Elements, if you require them to be resiable in Elements you'll need to remove the Height and Width values from the code before importing.
+* [Lucide](https://lucide.dev)
+* [Tabler Icons](https://tabler.io/icons)
+* [Feather Icons](https://feathericons.com)
+* [Phosphor Icons](https://phosphoricons.com/)
+* [SVGL](https://svgl.app)
+* [Heroicons](https://heroicons.com/outline)
+* [Google Material Symbols](https://fonts.google.com/icons)
+* [Logoipsum](https://logoipsum.com/)
 
-* [https://lucide.dev](https://lucide.dev), open-source library, over 1000+ svg icons.
-* [https://tabler.io/icons](https://tabler.io/icons), over 5,650 free SVG icons.
-* [https://feathericons.com](https://feathericons.com), simply beautiful open source icons
-* [https://phosphoricons.com](https://phosphoricons.com/?size=64\&weight=%22duotone%22), outline, filled, duotone and more.
-* [https://svgl.app](https://svgl.app), a beautiful library of company SVG logos.
-* [https://heroicons.com](https://heroicons.com/outline), hand-crafted SVG icons, by the makers of Tailwind CSS (you'll need to copy and paste the code into a file and save it with a .svg extension before adding to Elements).
-* [Google Material Symbol Icons](https://fonts.google.com/icons).
-* [Logoipsum](https://logoipsum.com/), a collection of svg placeholder logos.
+For a deeper introduction to working with SVG, see [Practical SVG](https://practical-svg.chriscoyier.net).
 
-### Further Reading
+### Accessibility
 
-* [Practical SVG](https://practical-svg.chriscoyier.net) by Chris Coyier
+Decorative SVGs should not duplicate nearby text. When an SVG conveys meaning, provide an accessible text label through the surrounding link, button, caption, or content structure.
 
+### Troubleshooting
+
+#### Fill or stroke does not change
+
+Check for hard-coded fill, stroke, class, or style values inside the SVG. Enable the relevant Remove Attributes switches, or clean the file in an SVG editor.
+
+#### The SVG does not resize
+
+Enable **Remove Attributes → Size** or remove fixed width and height attributes from the source SVG, then use the component’s Sizing controls.
+
+### Related Components
+
+* [Image](image.md) — Displays bitmap images with responsive source and lightbox controls.
+* [Mask](mask.md) — Uses an SVG to reveal wrapped content.
+
+{% include "../../.gitbook/includes/common-controls (1).md" %}

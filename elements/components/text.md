@@ -1,62 +1,109 @@
 ---
-description: Perfect for headings and titles.
+description: Create headings, paragraphs, labels, and short text blocks
 ---
 
 # Text
 
-The Text Component is ideal for headings, taglines, labels, and short text blocks. It gives you precise control over styling, so you can create anything from subtle accents to bold hero text.
+The Text component creates editable headings, paragraphs, taglines, labels, and other short text. It provides responsive typography, solid or gradient text colour, link states, decoration, effects, and semantic HTML tags.
 
-You can combine text with background images, gradients, overlays, and utility classes to create more expressive designs. It works well in both simple and complex layouts.
+### How to Use Text
 
-### Getting Started with the Text Component
+You’ll find Text under **Content** in the Components list.
 
-The following video will teach you the basics on using the Text Component.
+1. Drag **Text** onto the page.
+2. Edit the text directly on the page.
+3. Choose the correct semantic Tag.
+4. Set alignment, font, size, weight, spacing, line height, and colour.
+5. Configure link or hover states where required.
 
 {% embed url="https://youtu.be/EVInkOnWHjc" %}
 
-### How to Make Your Text Responsive
+### Responsive Text
 
-The following video shows how to make your text responsive.
+Text size and many other controls can change by breakpoint.
 
 {% embed url="https://youtu.be/Vn6saO3ylGg" %}
 
-### Applying Tailwind CSS Classes to Text
+### Component Settings
 
-This advanced feature lets you apply Tailwind CSS classes to text inside the Text Component.
+#### General
+
+**Tag** controls the rendered HTML and defaults to Paragraph. Options are Paragraph, Heading 1–6, Span, Div, or Custom. Custom reveals a Custom Tag field that defaults to `div`.
+
+The tag affects semantics and SEO rather than visual appearance. Use one Heading 1 for the page’s main subject, then maintain a logical heading order.
+
+**Text Align** offers Left, Centre, Right, or Justify and defaults to Left.
+
+**Font** defaults to Body and **Size** to Base.
+
+**Weight** ranges from Thin 100 to Black 900 and defaults to 400.
+
+**Spacing** offers Tighter through Widest and defaults to Normal.
+
+**Line Height** offers None, Tight, Snug, Normal, Relaxed, or Loose and defaults to Normal.
+
+**Italic** is off and **Text Shadow** defaults to None.
+
+**Case** offers None, Uppercase, Lowercase, Capitalise, or Small Caps and defaults to None.
+
+**Whitespace**
+
+* **None** — Applies no extra whitespace class. This is the default.
+* **Normal** — Collapses spaces and allows wrapping.
+* **Nowrap** — Prevents wrapping.
+* **Pre** — Preserves spaces and line breaks without wrapping.
+* **Pre Line** — Collapses spaces but preserves line breaks.
+* **Pre Wrap** — Preserves spaces and line breaks while allowing wrapping.
+* **Break Spaces** — Preserves spaces and lets them become wrapping opportunities.
+
+**Underline** offers No Underline, Underline, Overline, or Line Through. When enabled, Style offers Solid, Double, Dotted, Dashed, or Wavy. Underline also reveals Offset, which defaults to 1 pixel. Decoration Color defaults to Text 100 at 100% opacity.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-12-12 at 11 .29.53@2x.png" alt="Text General settings for semantic tag, alignment, font, size, weight, spacing, line height, and decoration"><figcaption><p>General settings control the Text component’s semantics and typography.</p></figcaption></figure>
+
+#### Color
+
+**Type** can be Static or Hover and defaults to Static. Hover lets Self, Parent, Container, Grid, Flex, or a Custom ID trigger the colour change, then provides Start and End states.
+
+**Style** can be Color, Image, or Gradient and defaults to Color.
+
+Solid text defaults to Text 50 at 100% opacity. The hover End colour defaults to Text 200.
+
+Gradient text can be Linear, Radial, or Conic. Set direction or position, interpolation, From and To colours, opacity, and stop positions. **Add Via** inserts an optional middle colour.
+
+Image text uses a resource with Position, Size, Repeat, and Fetch Priority controls.
+
+#### Links
+
+Use **State** to style Default, Hover, and Visited links independently.
+
+Each state provides Color, Font Weight, and Underline. Default links use Brand 500; Hover and Visited use Brand 800. Weight defaults to 400.
+
+### Applying Tailwind CSS Classes
+
+Advanced classes can create one-off effects inside a Text component.
 
 {% embed url="https://youtu.be/Ql428j-FJ5Y" %}
 
-#### Example Tailwind Classes for Text
-
-Below are a few sample classes featured in the video. To learn more, see the [Tailwind CSS documentation](https://tailwindcss.com/docs/installation).
+Examples from the video:
 
 ```css
-blur-sm 
+blur-sm
 hover:blur-sm transition
 hover:line-through
 inline-block rotate-[2deg]
 underline decoration-wavy underline-offset-[10px]
 ```
 
-### How to Protect Text Content
+See the [Tailwind CSS documentation](https://tailwindcss.com/docs/) for available utilities.
 
-This is not foolproof. It only discourages casual copying.
+### Discouraging Casual Text Copying
 
-Here’s how to add basic text protection to your site:
+This does not securely protect published text; it only discourages casual selection.
 
-{% stepper %}
-{% step %}
-### Add Class to Text Component
+1. Add a `no-copy` class to the Text component.
+2. Add this CSS in **Edit Page Code → CSS**:
 
-Add a `no-copy` class to any Text components you want to protect.
-
-<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .15.38@2x.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Add the CSS Class to the Page
-
-Add the following CSS to the **Edit Page Code** area of the relevant page:
+<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .15.38@2x.png" alt="A Text component with no-copy entered in its Classes field"><figcaption><p>Add the no-copy class to each Text component you want to affect.</p></figcaption></figure>
 
 ```css
 .no-copy {
@@ -66,131 +113,24 @@ Add the following CSS to the **Edit Page Code** area of the relevant page:
 }
 ```
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .16.23@2x.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
+<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .16.23@2x.png" alt="Page CSS containing a no-copy class that disables text selection"><figcaption><p>The no-copy class added to the page CSS.</p></figcaption></figure>
 
-{% step %}
-### Optionally Add JavaScript
-
-You can also add the following JavaScript to the **JS** tab in **Edit Page Code**. This disables right-click on the page.
+Optionally add this in **Edit Page Code → JavaScript** to disable the page’s context menu:
 
 ```javascript
 document.addEventListener("contextmenu", e => e.preventDefault());
 ```
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .17.54@2x.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-{% endstepper %}
+<figure><img src="../../.gitbook/assets/CleanShot 2026-03-14 at 3 .17.54@2x.png" alt="Page JavaScript that prevents the browser context menu from opening"><figcaption><p>Optional JavaScript that disables right-click on the page.</p></figcaption></figure>
 
-### Component Settings
+### Accessibility
 
-{% columns %}
-{% column width="50%" %}
-#### General
+Choose semantic tags for meaning, preserve a logical heading hierarchy, and keep text readable when responsive sizes, gradients, effects, or whitespace settings are applied.
 
-The General section contains the core controls for styling your text. Use these settings to adjust alignment, font, size, weight, spacing, and other properties that apply to the entire text block.
+### Related Components
 
-**Tag**
+* [Typography](typography.md) — Styles long-form structured content.
+* [Markdown](markdown.md) — Writes formatted content using Markdown syntax.
+* [Button](button.md) — Creates a prominent linked action.
 
-* The Tag helps create a semantic structure, so search engines understand the hierarchy of your content. For example, the main page heading would usually be **Heading 1**, while body text would be **Paragraph**.
-
-**Text Align**
-
-* Align your text left, center, or right. You may also need to set the alignment of the parent item.
-
-**Font**
-
-* Choose a font family. These are managed in [Theme Studio](../theme-studio/).
-
-**Size**
-
-* Choose a text size. These are managed in [Theme Studio](../theme-studio/).
-* Text styles include size, line height, letter spacing, and weight. You can override some values inline by choosing **Override**.
-
-**Weight**
-
-* Set the weight of your text.
-
-**Spacing**
-
-* Set the spacing between letters.
-
-**Line Height**
-
-* Set the line height of the text.
-
-**Italic**
-
-* Make the entire text block italic.
-
-**Text Shadow**
-
-* Choose a shadow for your text. These are managed in [Theme Studio](../theme-studio/).
-
-**Case**
-
-* Set the case for the entire text block. The default is **None**.
-* None
-* Uppercase
-* Lowercase
-* Capitalise
-* Small Caps
-
-**White Space**
-
-`white-space: normal`
-
-* Collapses multiple spaces into one.
-* Collapses newlines.
-* Allows wrapping.
-* This is the default browser behaviour.
-
-`white-space: nowrap`
-
-* Collapses spaces.
-* Collapses newlines.
-* Prevents wrapping (text stays on one line).
-
-`white-space: pre`
-
-* Preserves spaces exactly as typed.
-* Preserves newlines.
-* Does not wrap (long lines overflow).
-* Behaves like preformatted text.
-
-`white-space: pre-wrap`
-
-* Preserves spaces.
-* Preserves newlines.
-* Allows wrapping.
-* Useful when you want formatting preserved but still fit container width.
-
-`white-space: pre-line`
-
-* Collapses spaces.
-* Preserves newlines.
-* Allows wrapping.
-* Good when line breaks matter but extra spacing should not.
-
-`white-space: break-spaces`
-
-* Preserves spaces.
-* Preserves newlines.
-* Allows wrapping.
-* Spaces can cause line breaks (they become wrap opportunities).
-* Trailing spaces are kept and do not collapse.
-* Useful for chat UIs or copy/paste content where exact spacing matters.
-
-**Underline**
-
-* Apply a text decoration to the entire block.
-* No Underline
-* Underline
-* Overline
-* Line Through
-{% endcolumn %}
-
-{% column width="50%" %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-12-12 at 11 .29.53@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+{% include "../../.gitbook/includes/common-controls (1).md" %}

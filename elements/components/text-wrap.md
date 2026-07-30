@@ -1,34 +1,64 @@
 ---
-description: Effortlessly flow text around images
+description: Flow text around a transparent or rectangular image
 ---
 
 # Text Wrap
 
-**Text Wrap** lets you place images so surrounding copy flows around it, instead of stacking everything in a simple vertical column. Images can be placed to the left or right of the text.
+Text Wrap places an image to the left or right of its child content so text flows around it. With a transparent PNG, WebP, or SVG, the text can follow the visible shape instead of the image’s rectangular bounds.
 
 {% hint style="info" %}
-The text wrap component supports PNG, WebP, JPG, and SVG image types.
+Text Wrap supports image resources, custom image URLs, and CMS image fields.
 {% endhint %}
 
-### How text wrapping works
+### How to Use Text Wrap
 
-Text Wrap uses CSS to float the selected image beside the content. Text flows into the available space around the image.
+You’ll find Text Wrap under **Layout** in the Components list.
 
-Use a PNG or WebP with a transparent background. The transparent areas let text follow the visible shape. A solid rectangular image wraps text around its full rectangle.
+1. Drag **Text Wrap** onto the page.
+2. Place one or more Text or Typography components inside it.
+3. In **Media**, choose Resource, Custom, or CMS and provide the image.
+4. Add alternative text.
+5. Choose Left or Right under Float, then adjust Width, Margin, and Threshold.
 
-The component works best with longer text and a modest image width.
+<figure><img src="../../.gitbook/assets/CleanShot 2026-07-15 at 10 .43.06@2x.png" alt="A Text Wrap component containing text with an image floated beside it"><figcaption><p>A basic Text Wrap setup in Elements.</p></figcaption></figure>
 
-### How to use the Text Wrap Component
+### Component Settings
 
-Start with a **Container** to define the section, add padding to the top, bottom, and sides to give the Text Wrap component a clean section with some breathing room.
+#### Media
 
-Text or Typography Components should be dropped into the Text Wrap component in the Editor, the image for the text to wrap around should be added to the Resource dropzone in the Text Wrap Component settings (not inside the component where the text is)
+**Type**
 
-You can add multiple Text components inside the Text Wrap component, This is useful if you want to break up the text with headings or subheadings.
+* **Resource** — Uses an image from the project. This is the default.
+* **Custom** — Uses a URL or path entered in Source.
+* **CMS** — Uses a CMS field. The default field is `{{item.image.src}}`.
 
-1. Add the **Text Wrap Component** to the page
-2. Place a **Text Component** inside the **Text Wrap Component**
-3. Add a png or webp image with a transparent background from the site resources area into the **Text Wrap Component's** Resource dropzone.
-4. Adjust the **Margin** until the wrap feels natural, for most cases this is usually between 3 and 5.
+**Alt Text** describes the image for search engines and assistive technologies. Leave it empty only when the image is purely decorative.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-07-15 at 10 .43.06@2x.png" alt=""><figcaption><p>Basic Text Wrap setup in Elements</p></figcaption></figure>
+**Float**
+
+* **None** — Displays the image without floating text around it.
+* **Left** — Floats the image to the left. This is the default.
+* **Right** — Floats the image to the right.
+
+**Width** sets the image width and defaults to 40%.
+
+**Margin** controls the space between the image and text and defaults to theme spacing 4.
+
+**Threshold** controls how opaque a pixel must be before text stops wrapping. It defaults to 50%. Lower values keep text farther from soft or translucent edges.
+
+### Accessibility
+
+Add useful alternative text when the image conveys information. Keep line lengths readable around the shape and check that narrow screens do not leave an uncomfortably small text column.
+
+### Tips and Best Practices
+
+* **Use transparent assets for shaped wrapping:** A solid image wraps text around its full rectangle.
+* **Use longer copy:** The effect is most useful when there is enough text to flow below the image.
+* **Check mobile widths:** Reduce the image width or disable Float when the remaining text column becomes too narrow.
+
+### Related Components
+
+* [Image](image.md) — Displays a standalone image with lightbox and sizing controls.
+* [Typography](typography.md) — Provides a styled long-form content block to wrap around the image.
+
+{% include "../../.gitbook/includes/common-controls (1).md" %}

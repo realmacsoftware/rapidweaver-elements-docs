@@ -1,40 +1,91 @@
+---
+description: Group, lay out, style, and link other components
+---
+
 # Container
 
-The Container Element serves as a wrapper or holder for other elements. It is commonly used to group and organise related content. The Container Element can be used to apply spacing or create space around elements.
+The Container component is the primary wrapper for grouping related components. It controls content width and alignment, backgrounds, overlays, spacing, borders, links, filtering, and how the Container behaves inside Flex and Grid layouts.
 
 {% hint style="info" %}
-A project-wide container width can be set for each breakpoint in the [Screens area](../theme-studio/screens.md) of the Theme Studio.
+Project-wide container widths can be set for each breakpoint in [Theme Studio → Screens](../theme-studio/screens.md).
 {% endhint %}
 
-### Layout Group
+### How to Use Container
 
-#### Margin
+You’ll find Container under **Layout** in the Components list.
 
-The Margin allows you to set the margin on all sides of the container. You can adjust the left and right margins to set the spacing as follows:
+1. Drag **Container** onto the page.
+2. Add components to its drop zone.
+3. Set the content width, height, alignment, and gap.
+4. Add padding to create space inside the section and margin to position it externally.
+5. Apply a background, overlay, border, or link if required.
 
-* **Align Center**, set the let and right margin to "Auto"
-* **Align Left**, set the left and right margin to "0"
-* **Align Right**, set the left margin to "0" and the right margin to "auto"
+### Component Settings
 
-#### Padding
+#### Tags and Filter
 
-Apply padding independently to each side of the element.
+The **Tags** collection adds tag titles used by Filter and Filter Tags.
 
-### Advanced Group
+Enable **Filter** to make the Container a filterable item. Choose Parent or Custom grouping; Custom reveals a Group ID. The transition can be Dim, Zoom Out, or Slide.
 
-#### Visible
+#### Link
 
-Visually show and hide the element. Please note the element will still be visible in the html, but not visible on the page.
+**To** can make the whole Container clickable. Do not use a Container link when it contains Buttons, links, form controls, or other interactive components.
 
-#### CSS Classes
+#### Flexbox and Grid
 
-Add custom (and Tailwind) classes directly to this element. For example, we can apply a blur to everything within the container by writing `blur-sm` into the CSS Classes field. See the [Tailwind blur docs](https://tailwindcss.com/docs/blur) for available classes.
+**Type**
 
-You can browse all the available Tailwind classes over in the [Tailwind CSS documentation](https://tailwindcss.com/docs/).
+* **Default** — Uses normal layout behaviour.
+* **Grid Item** — Exposes grid column, row, span, and placement controls.
+* **Flex Item** — Exposes flex order, growth, shrink, basis, and self-alignment controls.
 
-#### Clip Content
+Standard and Advanced modes reveal the appropriate level of placement control. These settings apply only when the Container is inside the matching Grid or Flex parent.
 
-Clip content that overflows this Element.
+#### Content Layout
 
+**Width** offers Auto, Full, Screen, Breakpoint, or Theme Spacing. Breakpoint is the default. Theme Spacing reveals a value that defaults to 36.
 
+**Height** offers the same modes and defaults to Auto. Its Theme Spacing value also defaults to 36.
 
+**Align** controls the cross-axis position and **Justify** controls the main-axis position. Both offer Auto, Start, End, Centre, or Stretch and default to Centre.
+
+**Gap** controls spacing between child components and defaults to 0.
+
+#### Effects, Filters, and Transforms
+
+Each group has a **To** setting:
+
+* **Everything** — Applies to content and background. This is the default.
+* **Background** — Applies only to the background layer.
+* **Content** — Applies only to child content.
+
+The remaining controls configure the selected effect, filter, or transform.
+
+#### Background and Background Overlay
+
+Background supports colour, image, gradient, SVG, and video styles where shown. Configure resources, colours, opacity, image positioning, gradient stops, or video options for the selected type.
+
+Background Overlay adds a separate colour, gradient, image, or effect layer above the background and behind the content.
+
+#### Advanced
+
+**HTML Tag** changes the Container’s semantic wrapper. Choose an appropriate standard tag or enter a custom one.
+
+The **Custom Attributes** collection adds Attribute and Value pairs to the Container’s HTML. Use valid attributes and avoid duplicating built-in controls such as ID and class.
+
+### Tips and Best Practices
+
+* **Use padding for internal space:** Margin separates the Container from surrounding components.
+* **Use Auto margins deliberately:** Equal left and right Auto margins centre a fixed-width Container.
+* **Keep structure meaningful:** Prefer semantic HTML tags when the Container represents a section, header, footer, or main region.
+* **Apply one-off utility styles carefully:** For example, adding `blur-sm` under Advanced → CSS Classes blurs the Container and its contents. See the [Tailwind blur utilities](https://tailwindcss.com/docs/blur) and [Tailwind CSS documentation](https://tailwindcss.com/docs/).
+
+### Related Components
+
+* [Flex](flex.md) — Arranges children in a row or column.
+* [Grid](grid.md) — Creates two-dimensional layouts.
+* [Background](background.md) — Adds angled or fixed backgrounds.
+* [Filter](filter.md) — Searches tagged Containers.
+
+{% include "../../.gitbook/includes/common-controls (1).md" %}

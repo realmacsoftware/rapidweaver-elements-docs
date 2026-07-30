@@ -1,155 +1,106 @@
 ---
-description: Add video to your webpage
+description: Add YouTube, Vimeo, or MP4 video to a page
 ---
 
 # Video
 
-The Video Element lets you drop a single video into any part of your site with no fuss. It handles YouTube, Vimeo, and standard video files, giving you a clean, reliable way to showcase clips whether they’re hosted online or stored locally. This makes it ideal for product demos, hero sections, tutorials, and anything else where a focused video presentation matters.
+The Video component displays one YouTube, Vimeo, or MP4 video. It supports autoplay rules, start time, looping, player controls, a custom thumbnail, responsive framing, and an optional lightbox.
 
 {% embed url="https://youtu.be/avzBCXIJFU0" %}
 
-### Adding Video to your Projects
-
-You can add a video in a few different ways. For YouTube or Vimeo, drag the video URL from your browser straight into the Resources area. If you have a local video file, drag it in from the Finder and Elements will add a copy to your project. You can also import a video from any remote URL.
-
-{% hint style="success" %}
-Video can be added to the **background of your site** by using the Container Component.\
-Watch this video to learn more: [How to add a background video header to your webpage](https://youtu.be/x59UfuZvMwM)
-{% endhint %}
-
-#### Supported Video Types
-
-The video component supports the following file types:
+### Supported Content and File Types
 
 * YouTube
 * Vimeo
-* .mp4
+* MP4
 
-#### Dropzone
-
-The Video component has a drop-zone in the center of it to allow for custom play buttons, text, graphics, and more.
-
-### Video Component Settings
-
-{% columns %}
-{% column width="50%" %}
-#### Video
-
-You can add video in several ways. Drag a YouTube or Vimeo URL straight into Resources, drag in a local file from the Finder, or import a video from any remote URL.
-
-**Resource**\
-These settings define the source and play details for your video.
-
-**Options**\
-Set when (or if) the video should play automatically.
-
-*   **Autoplay**
-
-    The following options are available: Immediately, When in Viewport, or Never.
-*   **Muted**
-
-    Set the video to muted by default.
-* **Controls**\
-  Hide or show the video player controls. This setting only works with .mp4 files.
-* **Loop**\
-  Specify if the video should loop. This setting only works with .mp4 files.
-{% endcolumn %}
-
-{% column width="50%" %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .40.54 2@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column width="50%" %}
-#### Lightbox
-
-The Lightbox allows the video to open in an overlay when clicked, giving it full focus without leaving the page.
-
-**Enable**\
-These settings control how the lightbox appears behind the video.
-
-*   **Color**
-
-    Sets the backdrop colour shown behind the video while the lightbox is open.
-* **Opacity**\
-  Adjusts how transparent the backdrop is. Higher values create a darker, more solid overlay.
-* **Blur**\
-  Adds a subtle blur effect to the page behind the video.
-{% endcolumn %}
-
-{% column width="50%" %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .45.09@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column width="50%" %}
-#### Thumbnail
-
-Thumbnail lets you set the image shown before the video plays. It’s ideal for controlling the look of the video before it loads and helps create a clean, intentional layout.
+Add a YouTube or Vimeo URL to Resources by dragging it from your browser. Add a local MP4 from Finder or import a remote URL.
 
 {% hint style="success" %}
-If you’re using a YouTube link, Elements automatically pulls in the video’s thumbnail and uses it as the default image.
+To use a video as a section background, choose Video in a [Container](container.md) background. [Watch the background video tutorial](https://youtu.be/x59UfuZvMwM).
 {% endhint %}
 
-* **Type**\
-  Choose between Resource, Custom, or CMS to determine how the image is loaded.
-* **Mode**\
-  Choose separate thumbnail images for Light Mode and Dark Mode so the design looks correct in both themes.
-* **Image**\
-  Select the image that appears as the thumbnail. Use a jpg file for best performance and visual quality.
-* **Alt**\
-  Sets the alt text for the thumbnail image. This improves accessibility and helps search engines understand the content.
-* **Overlay**\
-  Adds a colour overlay to the thumbnail. Useful for dimming the image and making the play button stand out.
-{% endcolumn %}
+### How to Use Video
 
-{% column width="50%" %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .48.49@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+You’ll find Video under **Media** in the Components list.
 
-{% columns %}
-{% column %}
+1. Add the video to Resources.
+2. Drag **Video** onto the page.
+3. Select the video under **Video → Resource**.
+4. Choose autoplay, sound, controls, looping, and start time.
+5. Configure the thumbnail, aspect ratio, and optional lightbox.
+6. Preview playback in a browser.
+
+The Video component also has a drop zone for a custom play button, text, or graphic.
+
+### Component Settings
+
+#### Video
+
+**Autoplay**
+
+* **Immediately** — Attempts to play when the page loads.
+* **When in Viewport** — Plays when the video enters the viewport.
+* **Never** — Waits for the visitor. This is the default.
+
+**Muted** is enabled by default. Most browsers require muted audio for autoplay.
+
+**Controls** shows or hides native player controls. **Loop** restarts the video when it finishes. These controls apply where supported by the selected video type.
+
+**Time (seconds)** sets the playback start point and defaults to 0.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .40.54 2@2x.png" alt="Video Inspector controls for resource, autoplay, sound, controls, loop, and start time"><figcaption><p>The Video group controls the source and playback behaviour.</p></figcaption></figure>
+
+#### Lightbox
+
+**Enable** opens the video in an overlay and is off by default.
+
+When enabled, **Color** defaults to Black, **Opacity** to 50%, and **Blur** to 0 pixels.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .45.09@2x.png" alt="Video Lightbox controls for backdrop colour, opacity, and blur"><figcaption><p>Lightbox backdrop controls.</p></figcaption></figure>
+
+#### Thumbnail
+
+**Type** can be Resource, Custom, or CMS. Resource is the default.
+
+**Mode** switches between Light and Dark thumbnail sources. Custom uses a URL or path; CMS uses a field expression defaulting to `{{item.image.src}}`.
+
+Custom and CMS thumbnails provide **Alt** text.
+
+**Overlay Color** defaults to Surface 50 and **Opacity** to 50%.
+
+{% hint style="info" %}
+YouTube resources automatically provide a default thumbnail. Add your own when you need consistent branding or a different crop.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-17 at 10 .48.49@2x.png" alt="Video Thumbnail controls for source, mode, image, alt text, and overlay"><figcaption><p>Thumbnail settings control the image shown before playback.</p></figcaption></figure>
+
 #### Aspect Ratio
 
-The Aspect Ratio section controls the shape and framing of the video thumbnail. You can use predefined ratios for quick layouts or set a custom ratio for more precise control.
+**Aspect Ratio** offers Auto, Wide 16:9, Tall 4:5, or Custom. Auto is the default; Custom defaults to `7/5`.
 
-Additional options let you control how the image fits and where it’s positioned within its frame.
+For a fixed ratio, **Object Fit** offers Fill, Contain, Cover, None, or Scale Down and defaults to Cover. **Position** sets the thumbnail focal point and defaults to Centre.
 
-{% hint style="warning" %}
-The aspect ratio applies to the Thumbnail and not the video.
-{% endhint %}
+The aspect ratio controls the thumbnail frame rather than changing the source video’s dimensions.
 
-**Aspect Ratio**\
-These settings define the overall shape of your image container. Choose from Auto, Wide, or Tall presets to control how the image is displayed.
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .20.38@2x.png" alt="Video thumbnail Aspect Ratio controls with object fit and position options"><figcaption><p>Aspect Ratio controls the thumbnail frame and crop.</p></figcaption></figure>
 
-* Auto: Adapts to the image’s original dimensions.
-* Wide: Creates a landscape-style frame.
-* Tall: Creates a portrait-style frame.
-* Custom: More control over cropping.
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .19.01@2x.png" alt="Video thumbnail Inspector showing custom aspect-ratio settings"><figcaption><p>A custom thumbnail ratio can use any valid x/y value.</p></figcaption></figure>
 
-The **Custom Ratio** allows you to define a specific aspect ratio manually. Enter a ratio in the format x/y, such as 1/1 for a square or 5/7 for portrait-style content.
+### Accessibility
 
-**Object Fit**\
-Determines how the image is scaled within its container.
+Provide captions or a transcript for spoken content. Avoid unexpected audio, retain usable player controls, and describe custom thumbnails when they convey information.
 
-* **Fill**: Stretches the image to fill the container, possibly distorting it.
-* **Contain**: Ensures the full image is visible within the container.
-* **Cover**: Crops edges if necessary to fill the container without distortion.
-* **None**: Keeps the image at its original size.
-* **Scale Down**: Reduces the image size only if it’s larger than the container.
+### Tips and Best Practices
 
-**Position**\
-Controls where the image is anchored within its container. Choose from positions like: Top, Center, Bottom, Left, Right, or combinations like Top Center, Bottom Right, etc.
-{% endcolumn %}
+* **Mute autoplay:** It is required by most browsers and avoids surprising visitors.
+* **Use an intentional thumbnail:** A compressed JPG usually offers good quality and performance.
+* **Avoid autoplay for essential content:** Give visitors direct control over important videos.
 
-{% column %}
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .20.38@2x.png" alt=""><figcaption></figcaption></figure>
+### Related Components
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .19.01@2x.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+* [Image](image.md) — Shares thumbnail source and aspect-ratio controls.
+* [Gallery](gallery.md) — Combines several videos and images in one lightbox.
+* [Container](container.md) — Supports background video.
 
 {% include "../../.gitbook/includes/common-controls (1).md" %}
