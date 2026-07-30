@@ -1,10 +1,12 @@
 ---
-description: Style paragraphs, headings, lists, quotes, code, and links as a reusable system
+description: >-
+  Style paragraphs, headings, lists, quotes, code, and links as a reusable
+  system
 ---
 
 # Typography
 
-Typography combines the project’s fonts, sizes, colours, alignment, spacing, and link treatments into reusable presets. A preset can style all the common text elements in long-form content as one coordinated system.
+Typography combines the project’s fonts, sizes, colours, alignment, spacing, and link treatments into reusable presets. A preset can style all the common text elements in long-form content when using the Typography Component.
 
 <figure><img src="../../.gitbook/assets/theme-studio-typography.png" alt="Theme Studio Typography panel showing Paragraph, H1 to H6, Code, Quote, and List settings"><figcaption><p>Each tab controls one type of content within the selected typography preset.</p></figcaption></figure>
 
