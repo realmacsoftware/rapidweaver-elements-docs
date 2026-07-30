@@ -1,77 +1,185 @@
 ---
-description: Add a Google map to your website
+description: Add a configurable Google map to a page
 ---
 
 # Map (Free)
 
 {% hint style="success" %}
-The Map component is available as a **free download via the Element Store**, it requires a free Google Maps API key to function.
+Map is available as a **free download via the Elements Store**. Install the current version of Elements before adding it to a project.
 {% endhint %}
 
-### Google Maps API (Required)
+Map embeds a Google map for a street address or a pair of coordinates. You can choose the map style, zoom level, height, and which visitor controls are available.
 
-To use the Maps component in Elements you need a [Maps API key from Google](https://developers.google.com/maps). It only takes a few minutes to set up. The quickest way to get setup is to watch the video and follow the instructions below.
+The component requires a Google Maps Platform API key. The key is added to the page in the browser, so it should be restricted to your websites and to the APIs the component needs.
+
+<a href="elementsapp://storeProduct/com.elementsplatform.mappack" class="button primary" data-icon="store">Get Map</a>
 
 {% embed url="https://youtu.be/hsNlz7-abd0?si=GdUJB8TqHNtGwXkm" %}
 
-#### 1. Create or sign in to your Google account
+### Features
 
-[Visit the Google Cloud Console](https://developers.google.com/maps) and sign in. If you have not used Google Cloud before, it will prompt you to create a new project.
+* **Address or coordinates** — Centre the map using a postal address or latitude and longitude.
+* **Four map types** — Choose Roadmap, Satellite, Hybrid, or Terrain.
+* **Responsive height** — Size the map with theme spacing controls.
+* **Adjustable zoom** — Set the initial zoom from 1 to 20.
+* **Optional visitor controls** — Enable or disable Zoom, Map Type, Street View, and Fullscreen controls.
 
-#### 2. Create a new project
+### Requirements
 
-1. Open the project selector at the top of the page
-2. Click New Project
-3. Give it a name, then create it
+Before using Map, make sure you have:
 
-#### 3. Enable the Maps JavaScript API & Geocoding API
+* The Map pack installed from the Elements Store.
+* A Google Cloud project and Google Maps Platform API key.
+* Maps JavaScript API enabled.
+* Geocoding API enabled when using a street address.
+* Website referrer restrictions that include both your published domain and any local preview address you use.
 
-1. With your new project selected, open the left sidebar
-2. Go to APIs and Services
-3. Click Enable APIs and Services
-4. Search for Maps JavaScript API & Geocoding API
-5. Open them and click Enable for both
+{% hint style="warning" %}
+Google controls account, billing, quota, and usage requirements for Maps Platform. Restrict your API key before publishing and review the current terms in your Google Cloud account.
+{% endhint %}
 
-<figure><img src="../../.gitbook/assets/enable-maps-javascript-api-and-geocoding-api.png" alt="Google Cloud API Library with Maps JavaScript API and Geocoding API enabled"><figcaption><p>This screenshot shows the expected appearance after enabling both the Maps JavaScript API and the Geocoding API.</p></figcaption></figure>
+### Supported Content and File Types
 
-#### 4. Generate your API key
+Map supports:
 
-1. In APIs and Services, go to Credentials
-2. Click Create Credentials
-3. Choose API key
-4. Copy the key that appears
+* Street addresses.
+* Coordinates in `latitude, longitude` format.
+* Roadmap, Satellite, Hybrid, and Terrain views.
 
-#### 5. Restrict your key
+### How to Use Map
 
-For security, set restrictions so the key can only be used from your website.
+You’ll find Map under **Media** in the Components list.
 
-1. In the Credentials list, click your new key
-2. Under Application Restrictions select Websites
-3. Add the domains where your site will run
-4. Save your changes
+1. Create or select a project in the [Google Cloud Console](https://console.cloud.google.com/).
+2. Enable Maps JavaScript API and, for street addresses, Geocoding API.
+3. Create an API key and restrict it to your websites and the required APIs.
+4. Drag **Map** onto the page and paste the key into **API Key**.
+5. Choose Street Address or Coordinates and enter the location.
+6. Set the map type, zoom, height, and available controls.
+7. Preview locally and test the published site.
 
-#### 6. Add the key to Elements
+### Create and Configure the Google Maps API Key
 
-Open the Google Map component in Elements and paste the key into the API Key field. Once added, your map will load correctly during preview and when published.
+#### 1. Create or select a Google Cloud project
 
-### Testing locally on Your Mac
+Sign in to the [Google Cloud Console](https://console.cloud.google.com/), open the project selector, and create a project if you do not already have one for the site.
 
-When working locally, you need to add referrers so your Google Maps API key works in both Elements preview and on your published site.
+#### 2. Enable the required APIs
 
-Add your live domain with two referrers:
+1. Open **APIs & Services**.
+2. Choose **Enable APIs and Services**.
+3. Find and enable **Maps JavaScript API**.
+4. Find and enable **Geocoding API** if the component will use a street address.
 
-`https://www.mydomain.com/`\
+<figure><img src="../../.gitbook/assets/enable-maps-javascript-api-and-geocoding-api.png" alt="Google Cloud API Library showing Maps JavaScript API and Geocoding API enabled"><figcaption><p>Enable Maps JavaScript API and Geocoding API for address-based maps.</p></figcaption></figure>
+
+#### 3. Create and restrict the key
+
+1. Open **APIs & Services → Credentials**.
+2. Choose **Create Credentials → API key**.
+3. Open the new key and set **Application restrictions** to **Websites**.
+4. Add your live domains as HTTP referrers.
+5. Under **API restrictions**, limit the key to Maps JavaScript API and Geocoding API when used.
+6. Save the changes.
+
+For a site at `www.mydomain.com`, add both:
+
+`https://www.mydomain.com/`
+
 `https://www.mydomain.com/*`
 
-To support local preview, first open the Elements Advanced settings and set a fixed preview port so it stays consistent.
+#### 4. Allow local preview
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-11-13 at 8 .25.51@2x.png" alt="Advanced Project Settings with a fixed local web server port highlighted"><figcaption></figcaption></figure>
+Set a fixed preview port in Elements so the local address does not keep changing.
 
-Add that URL as another two referrers in the Google console. For example:
+<figure><img src="../../.gitbook/assets/CleanShot 2025-11-13 at 8 .25.51@2x.png" alt="Advanced Project Settings with a fixed local web server port highlighted"><figcaption><p>A fixed preview port gives you a stable local referrer.</p></figcaption></figure>
 
-`http://127.0.0.1:61109`\
+Add the preview address and its wildcard form to the key. For example:
+
+`http://127.0.0.1:61109/`
+
 `http://127.0.0.1:61109/*`
 
-Below are example settings for the API Key:
+<figure><img src="../../.gitbook/assets/google-maps-api-key-credentials-settings.png" alt="Google Maps API key settings with website and API restrictions configured"><figcaption><p>Example website and API restrictions for a Google Maps key.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/google-maps-api-key-credentials-settings.png" alt="Google Maps API key settings with application and API restrictions configured"><figcaption><p>This screenshot shows the API Key's settings.</p></figcaption></figure>
+### Component Settings
+
+#### Map Settings
+
+**API Key**
+
+Paste the restricted Google Maps Platform API key.
+
+**Type**
+
+* **Street Address** — Enter a complete address. This is the default and requires Geocoding API.
+* **Coordinates** — Enter latitude followed by longitude, separated by a comma, such as `37.33182, -122.03118`.
+
+**Map Type**
+
+* **Roadmap** — Standard road and place view. This is the default.
+* **Satellite** — Satellite imagery.
+* **Hybrid** — Satellite imagery with roads and labels.
+* **Terrain** — Physical terrain and elevation details.
+
+**Zoom Level**
+
+Sets the initial zoom from 1 to 20. The default is 15. Lower values show a wider area.
+
+**Height**
+
+Sets the responsive height using the theme spacing scale. The default is 96.
+
+#### Map Controls
+
+Enable or disable the controls visitors can use:
+
+* **Zoom** — Shows zoom buttons.
+* **Map Type** — Lets visitors switch map views.
+* **Street View** — Provides access to Street View where Google supports it.
+* **Fullscreen** — Lets the map fill the screen.
+
+All four controls are enabled by default.
+
+#### Advanced
+
+Use **Classes** to add custom CSS classes and **ID** to assign a unique HTML identifier.
+
+### Accessibility
+
+* Include the address and a normal text link to directions near the map. Do not make the map the only way to find the location.
+* Keep useful controls enabled and test keyboard navigation in the published map.
+* Give the surrounding section a clear heading so visitors understand what the map represents.
+* Check that the component’s height leaves enough room for controls and labels at small breakpoints.
+
+### Tips and Best Practices
+
+* **Prefer coordinates for exact placement:** They avoid ambiguity when an address covers a large site or is formatted differently by region.
+* **Restrict the key twice:** Apply both website referrer and API restrictions.
+* **Use separate keys when appropriate:** Development and production keys can have different referrer lists and quotas.
+* **Test the live domain:** A key that works locally can still fail after publishing if the live referrer is missing.
+
+### Troubleshooting
+
+#### The map says it cannot load correctly
+
+Check that the API key is valid, Maps JavaScript API is enabled, the Google Cloud project is active, and the current domain matches an allowed website referrer.
+
+#### A street address does not resolve
+
+Enable Geocoding API, confirm the key is allowed to use it, and enter a complete address. Alternatively, switch Type to Coordinates.
+
+#### The map works after publishing but not in preview
+
+Set a fixed preview port in Elements and add both the local address and wildcard address to the key’s website restrictions.
+
+#### The map works in preview but not on the live site
+
+Add the published domain to the allowed referrers, including the correct `http` or `https` scheme and any `www` variant used by the site.
+
+### Related Components
+
+* [Container](../components/container.md) — Place the map inside a structured location or contact section.
+* [Text](../components/text.md) — Add an accessible address, opening details, and directions link alongside the map.
+
+{% include "../../.gitbook/includes/common-controls.md" %}

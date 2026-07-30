@@ -1,701 +1,332 @@
 ---
-description: A powerful, professional gallery for photographers and creators
+description: Build responsive image and video galleries with albums, metadata, and a lightbox
 ---
 
 # Gallery Pro (Paid)
 
-Gallery Pro is a powerful, professional-grade photo gallery component for Elements, built for photographers, designers, and creators who want their work to shine.
+{% hint style="success" %}
+Gallery Pro is available as a **paid product via the Elements Store** and requires **Elements 2.0 or newer**.
+{% endhint %}
 
-{% embed url="https://youtu.be/qO-t9FZ5IQo" %}
+Gallery Pro is a flexible gallery for photographers, designers, and creators who need more than a basic image grid. It combines responsive Grid and Masonry layouts with image and video support, automatic albums, detailed metadata, and a configurable full-screen lightbox.
 
-Effortlessly organise images into beautiful, responsive layouts, create sub-galleries for larger collections, and present your photos in an immersive slideshow experience. With support for EXIF data and flexible title, author, and caption displays, Gallery Pro keeps your images informative as well as stunning.
-
-Gallery Pro gives you the control and polish needed to present your photography at its absolute best.
+Use it for a focused portfolio, a large collection organised into subfolders, or a mixed-media gallery containing photographs, YouTube and Vimeo links, and MP4 video.
 
 <a href="elementsapp://storeProduct/com.elementsplatform.gallerypropack" class="button primary" data-icon="store">Purchase Gallery Pro</a>
 
-Gallery Pro is **available via the Elements Store** and requires **Elements 2.0 or newer**.
+{% embed url="https://youtu.be/qO-t9FZ5IQo" %}
 
 ### Features
 
-* Beautiful **Grid** and **Masonry** layout options for flexible, responsive galleries
-* Support for **images and video** including YouTube, Vimeo, local, and remote sources
-* **Automatic sub-galleries** to organise large collections with ease
-* **EXIF data support** to display detailed photo information
-* Flexible **title, author, and caption** display on thumbnails and in the slideshow
-* Stylish **thumbnail hover effects** such as Zoom and Lift
-* **10+ professional slideshow transitions** for polished presentations
-* Immersive **full-screen lightbox** viewing with intuitive controls
-* Interactive **pan and zoom** controls for detailed image viewing
-* Built-in **rotate and flip** controls for perfect orientation
-* And so much more…
+* **Grid and two Masonry layouts** — Choose uniform crops, CSS columns, or a JavaScript-balanced arrangement.
+* **Images and video** — Combine JPG, PNG, MP4, YouTube, and Vimeo resources.
+* **Automatic albums** — Turn Resources subfolders into browsable sub-galleries.
+* **Thumbnail metadata** — Display captions, authors, and selected EXIF fields below or over images.
+* **Configurable lightbox** — Control transitions, navigation, zoom, fullscreen, autoplay, thumbnails, and media sizing.
+* **Lightbox metadata** — Show a separate caption, author, and EXIF presentation in the expanded view.
+* **Video playback options** — Set autoplay, mute, loop, controls, preload, and mobile inline playback.
+* **Responsive image sizing** — Generate appropriate thumbnail and lightbox image widths.
+* **Casual image protection** — Discourage right-clicking and dragging when needed.
 
-#### Supported File Types
+### Requirements
 
-Gallery Pro supports the following media:
+Before using Gallery Pro, make sure you have:
 
-* JPG
-* PNG
-* YouTube
-* Vimeo
-* .mp4
+* Elements 2.0 or newer.
+* The Gallery Pro pack installed from the Elements Store.
+* A Resources folder containing supported images, videos, or video links.
+* Captions, authors, alternative text, and EXIF data added to the relevant resources when those fields should appear.
 
-### Resize and Compress Images for Best Results
+{% hint style="warning" %}
+Image Protection can discourage casual downloading, but it cannot prevent a determined visitor from retrieving files delivered to their browser. Do not use it as a substitute for suitable publishing permissions, watermarking, or appropriately sized source images.
+{% endhint %}
 
-Elements is designed to be flexible with image sizes, but for best results in galleries, we recommend using images that are at least 1200px wide for modern displays. This ensures your gallery looks sharp on all devices.
+### Supported Content and File Types
 
-For batch resizing and compressing images we recommend [Squash for macOS](https://www.realmacsoftware.com/squash/).
+Gallery Pro supports:
+
+* JPG and PNG image resources.
+* MP4 video resources.
+* YouTube and Vimeo links added to Resources.
+* Subfolders used as automatic albums.
+
+{% hint style="success" %}
+To add YouTube or Vimeo media, drag the video or playlist URL from a browser into the Resources area in Elements.
+{% endhint %}
+
+### How to Use Gallery Pro
+
+You’ll find Gallery Pro under **Media** in the Components list.
+
+1. Create a folder in Resources and add the images, videos, and video links for the gallery.
+2. Add captions, author details, descriptions, and EXIF metadata to the resources where needed.
+3. Drag **Gallery Pro** onto the page and choose the folder under **Resources**.
+4. Select Grid, CSS Masonry, or JS Masonry and set responsive Columns and Gap.
+5. Configure thumbnail appearance and metadata.
+6. Enable and style the lightbox, then choose its controls, transitions, media size, and metadata.
+7. Preview the lightbox in an external browser at desktop and mobile widths.
+
+### Organise Galleries and Albums
+
+Gallery Pro reads the contents of the selected Resources folder. If that folder contains subfolders, each subfolder becomes an album and its first image is used as the album cover. Selecting the cover opens the album’s contents in the lightbox.
+
+Keep related media together, put the preferred cover first, and avoid deeply nested or inconsistently named folders.
+
+### Prepare Images for Publishing
+
+For a sharp result on modern displays, use source images that are at least as wide as the largest lightbox size you intend to serve. The default Lightbox Max Width is 1200px, while the responsive thumbnail defaults rise to 1200px at the LG breakpoint.
+
+Large originals increase upload size and page weight. Resize and compress them before publishing; [Squash for macOS](https://www.realmacsoftware.com/squash/) can process a folder in one batch.
 
 ### Component Settings
 
-{% columns %}
-{% column width="50%" %}
-**Media**
+#### Media
 
-Drop a folder of images, videos, YouTube links, or Vimeo links into the dropzone to build your gallery.
+**Resources**
 
-{% hint style="success" %}
-You can **add YouTube or Vimeo videos** by dragging and dropping the URL from your web browser to the Resources area in RapidWeaver Elements. A playlist URL can also be dropped into the resources area.
-{% endhint %}
+Selects the folder used to build the gallery and its albums.
 
-{% hint style="info" %}
-**Album Mode:** If your folder contains sub-folders, Gallery Pro will automatically create albums. Each sub-folder becomes its own album, with the first image used as the album cover. Clicking an album opens its contents in the lightbox.
-{% endhint %}
-{% endcolumn %}
+**Image Protection**
 
-{% column width="50%" %}
+When enabled, Gallery Pro disables casual right-clicking and dragging and places protective overlays over images. The files still reach the browser and remain accessible to determined visitors.
 
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
 #### Layout
-
-The Layout section controls how your images are arranged within the Gallery Pro component. Choose a layout mode, set the number of columns, and define the spacing between each thumbnail.
 
 **Mode**
 
-Select how images are laid out across the gallery.
-
-*   **Grid**
-
-    A uniform grid layout where all thumbnails share the same aspect ratio, giving a clean, structured appearance.
-*   **CSS Masonry**
-
-    A CSS-based masonry layout that preserves each image's natural aspect ratio. Images are arranged in columns with varying heights, creating a Pinterest-style layout.
-*   **JS Masonry**
-
-    A JavaScript-based balanced masonry layout that intelligently distributes images across columns to minimise uneven column heights. This produces a tighter, more balanced result than CSS Masonry.
-
-{% hint style="success" %}
-**Tip:** Use Grid mode for a polished, uniform look. Choose CSS Masonry or JS Masonry when you want to preserve each image's original proportions. JS Masonry generally produces a more balanced layout than CSS Masonry.
-{% endhint %}
+* **Grid** — Displays uniform rows and enables the thumbnail Ratio setting.
+* **CSS Masonry** — Uses CSS columns and preserves natural image proportions.
+* **JS Masonry** — Uses JavaScript in the browser to balance items across columns.
 
 **Columns**
 
-Adjust the number of columns displayed in your gallery.
-
-* Use the slider to set between 1 and 8 columns of thumbnails across your layout.
-* The gallery automatically adapts to different screen sizes, ensuring images remain evenly spaced and visually balanced.
+Sets a responsive column count from 1 to 8. The default is 3.
 
 **Gap**
 
-Set the spacing between gallery items.
+Sets responsive spacing between gallery items using the theme spacing scale.
 
-* The Gap value defines the amount of space between thumbnails.
-* Use smaller values for a tighter grid or larger ones to give each image more breathing room.
-* The value corresponds to the theme spacing scale, so it remains consistent with your theme settings.
-{% endcolumn %}
-
-{% column %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Thumbnails**
-
-The Thumbnails section controls the appearance of image thumbnails within your gallery. You can adjust the aspect ratio, shape, shadow, and hover behaviour to suit your project's style.
-
-{% hint style="warning" %}
-The Aspect Ratio setting is only available in Grid mode. In Masonry modes, each image retains its natural proportions.
+{% hint style="info" %}
+CSS Masonry and JS Masonry can produce different image orders and lower edges. Check Masonry layouts in an external browser rather than relying only on the editor.
 {% endhint %}
+
+#### Thumbnails
 
 **Ratio**
 
-Choose the aspect ratio for your thumbnails (Grid mode only).
+Available in Grid mode:
 
-*   **Square (1/1)**
+* **Square** — Crops thumbnails to `1/1`. This is the default.
+* **Wide** — Uses a `7/5` landscape crop.
+* **Tall** — Uses a `4/5` portrait crop.
+* **Auto** — Preserves the source proportions.
 
-    Crops all thumbnails to a square shape.
-*   **Wide (7/5)**
+**Radius and Shadow**
 
-    A landscape-oriented crop, great for scenic or panoramic images.
-*   **Tall (4/5)**
+Apply theme border-radius and shadow values to every thumbnail.
 
-    A portrait-oriented crop, ideal for headshots or vertical compositions.
-*   **Auto**
+**Width**
 
-    Preserves each image's original aspect ratio within the grid.
-
-**Radius**
-
-Adjust the corner rounding of your thumbnail images. Use Default to follow your project's theme styling, or set a custom value.
-
-**Shadow**
-
-Adds a soft drop shadow to thumbnails. Use Default to follow your project's theme styling, or choose a custom shadow level for more depth.
+Controls generated thumbnail width at each responsive breakpoint. The defaults are 400px at Base, 600px at SM, 800px at MD, and 1200px at LG.
 
 **Hover Effect**
 
-Choose how thumbnails respond when a visitor hovers over them.
+* **None** — No thumbnail movement.
+* **Zoom** — Enlarges the image within its frame. Zoom Level ranges from 100% to 200% and defaults to 110%.
+* **Lift** — Raises the thumbnail and adds visual depth.
 
-*   **None**
+#### Thumbnails Meta Data
 
-    No hover animation.
-*   **Zoom**
+**Type**
 
-    The image scales up slightly on hover, drawing attention to it. Use the **Zoom Level** slider (100–200%) to control how much the image enlarges.
-*   **Lift**
+* **Hidden** — Hides thumbnail metadata. This is the default.
+* **Below** — Places metadata after the image. Below is not supported by Masonry layouts.
+* **Overlay** — Places metadata over the image.
 
-    The thumbnail shifts upward slightly and gains a subtle shadow, creating a raised, interactive feel.
-{% endcolumn %}
+**Margin and Alignment**
 
-{% column %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Thumbnail Meta Data**
-
-Control how metadata (captions, author names, and EXIF data) is displayed on your gallery thumbnails. You can show metadata below the image, as an overlay on top of it, or hide it entirely.
-
-**Display Type**
-
-Choose where metadata appears in relation to the thumbnail.
-
-*   **Hidden**
-
-    No metadata is shown on thumbnails.
-*   **Below**
-
-    Metadata appears directly beneath each thumbnail image.
-*   **Overlay**
-
-    Metadata is displayed on top of the thumbnail. When Overlay is selected, additional options become available to control the trigger animation and background styling.
-
-**Alignment**
-
-Align metadata text to the Left, Center, or Right of each thumbnail.
-
-**Overlay Trigger**
-
-When Display Type is set to Overlay, choose how the metadata overlay appears.
-
-*   **Always**
-
-    The overlay is always visible on the thumbnail.
-*   **Slide In**
-
-    The overlay slides up from the bottom on hover.
-*   **Fade In**
-
-    The overlay fades in on hover.
-
-**Overlay Background**
-
-Style the background behind the overlay text for improved readability.
-
-*   **Color**
-
-    Set the overlay background colour.
-*   **Opacity**
-
-    Control the transparency of the overlay background (0–100%).
-*   **Padding**
-
-    Adjust the inner spacing around the overlay text.
-
-**Caption**
-
-Controls the appearance of the image caption on thumbnails.
-
-*   **Show**
-
-    Toggle captions on or off.
-*   **Color**
-
-    Sets the text colour.
-*   **Font**
-
-    Select a font style from your project's theme.
-*   **Size**
-
-    Define the text size.
-*   **Weight**
-
-    Set the font weight (e.g. light, regular, bold).
-
-**Author**
-
-Controls the appearance of the author name on thumbnails. Offers the same settings as Caption: Show, Color, Font, Size, and Weight.
-
-**EXIF**
-
-Display photographic metadata (shooting information) on your thumbnails.
-
-*   **Show**
-
-    Toggle EXIF data display on or off.
-*   **Direction**
-
-    Display EXIF items in a Row (horizontal) or Column (vertical) layout.
-*   **Alignment**
-
-    Align EXIF data to the left, centre, or right.
-*   **Gap**
-
-    Set the spacing between individual EXIF items.
-*   **Icons**
-
-    Toggle EXIF icons on or off for a cleaner or more visual presentation.
-*   **Color, Font, Size, Weight**
-
-    Customise the typography of EXIF text.
-
-**EXIF Properties**
-
-Choose which EXIF fields to display. Each can be individually toggled on or off:
-
-* Aperture
-* Shutter Speed
-* ISO
-* Focal Length
-* Lens
-* Date
-
-{% hint style="success" %}
-**Tip:** EXIF data is read directly from your image files. Make sure your images retain their EXIF metadata for these fields to appear.
-{% endhint %}
-{% endcolumn %}
-
-{% column %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Lightbox**
-
-The Lightbox section controls the full-screen image viewing experience. When a visitor clicks a thumbnail, the lightbox opens with a range of controls, transitions, and behaviours that you can customise here.
+Below metadata has a theme spacing margin. Text can align Left, Center, or Right; Center is the default.
 
 **Overlay**
 
-Style the background behind the lightbox.
+Choose **Always**, **Slide In**, or **Fade In**, then set the background colour, opacity, and padding. Overlay opacity defaults to 80%.
 
-*   **Color**
+**Caption and Author**
 
-    Choose the background colour of the lightbox overlay. Darker colours help images stand out, while lighter tones create a softer presentation.
-*   **Opacity**
-
-    Adjust the transparency of the overlay (0–100%). Higher values create stronger contrast between the image and the page behind it.
-
-**Animated Thumbnails**
-
-When enabled, the lightbox thumbnail smoothly animates into the full-size view when opened.
-
-*   **Enabled**
-
-    Toggle the opening animation on or off.
-*   **Duration**
-
-    Set the animation speed in milliseconds (default: 400ms).
-
-**Transition**
-
-Control how images transition when navigating between them in the lightbox.
-
-*   **Mode**
-
-    Choose from over 10 transition effects, including Slide, Fade, Zoom In, Zoom Out, Rotate, Tube, and more.
-*   **Speed**
-
-    Set the transition duration in milliseconds (default: 400ms).
-*   **Easing**
-
-    Choose the acceleration curve for transitions: Ease, Linear, Ease In, Ease Out, or Ease In Out.
-
-**Counter**
-
-Toggle the image counter (e.g. "3 / 12") on or off in the lightbox toolbar.
-
-**Zoom**
-
-Enable or disable pinch-to-zoom and click-to-zoom functionality within the lightbox.
-
-**Download**
-
-When enabled, adds a download button to the lightbox toolbar allowing visitors to save images.
-
-**Rotate**
-
-When enabled, adds rotate and flip controls to the lightbox toolbar, letting visitors adjust image orientation.
-
-**Close Button**
-
-Toggle the close button visibility in the lightbox toolbar.
-
-**Prev/Next Controls**
-
-Show or hide the previous and next navigation arrows in the lightbox.
-
-**Loop**
-
-When enabled, navigating past the last image wraps back to the first image, and vice versa.
-
-**Close on Tap**
-
-When enabled, tapping on the overlay area (outside the image) closes the lightbox.
-
-**Swipe to Close**
-
-When enabled, visitors can swipe vertically to dismiss the lightbox on touch devices.
-
-**Mousewheel**
-
-When enabled, allows navigating between images using the mouse scroll wheel.
-
-**Hide Scrollbar**
-
-When enabled, hides the page scrollbar while the lightbox is open for a cleaner full-screen experience.
-
-**Autoplay**
-
-Automatically advance through images in a slideshow.
-
-*   **Enabled**
-
-    Toggle autoplay on or off.
-*   **Interval**
-
-    Set the time between slides in milliseconds (default: 5000ms).
-*   **Progress Bar**
-
-    When enabled, displays a progress bar showing the time remaining before the next slide.
-
-**Fullscreen**
-
-Enable or disable the fullscreen button in the lightbox toolbar. When activated, visitors can expand the lightbox to fill the entire screen.
-
-{% hint style="success" %}
-**Tip:** For a cinematic presentation, enable Autoplay with a 4–6 second interval, set the Transition to Fade, and enable Fullscreen. This creates a polished, hands-off slideshow experience.
-{% endhint %}
-{% endcolumn %}
-
-{% column %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Lightbox Style**
-
-The Lightbox Style section lets you customise the colours of the lightbox interface elements to match your project's theme.
-
-**Navigation Arrows**
-
-Style the previous/next navigation arrows displayed in the lightbox.
-
-*   **Color**
-
-    Set the colour of the arrow icons.
-*   **Background**
-
-    Set the background colour of the arrow buttons.
-*   **Background Opacity**
-
-    Adjust the transparency of the arrow button backgrounds (0–100%).
-
-**Toolbar Icons**
-
-*   **Color**
-
-    Set the colour of the toolbar icons (close, zoom, download, rotate, fullscreen).
-
-**Counter**
-
-*   **Color**
-
-    Set the colour of the image counter text.
-
-**Progress Bar**
-
-*   **Color**
-
-    Set the colour of the autoplay progress bar.
-
-{% hint style="success" %}
-**Tip:** For best results, use semi-transparent arrow backgrounds with high-contrast icon colours. This keeps navigation controls visible without distracting from the images.
-{% endhint %}
-{% endcolumn %}
-
-{% column %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Lightbox Thumbnails**
-
-The Lightbox Thumbnails section controls the thumbnail strip displayed at the bottom of the lightbox. This strip provides quick navigation between images.
-
-**Enabled**
-
-Toggle the thumbnail strip on or off.
-
-**Aspect Ratio**
-
-Set the aspect ratio for thumbnails in the strip.
-
-* Square (1/1), Landscape (5/4), Wide (4/3), or Widescreen (16/9).
-
-**Size**
-
-Set the size of each thumbnail in pixels (default: 100px).
-
-**Spacing**
-
-Set the gap between thumbnails in pixels (default: 5px).
-
-**Border**
-
-Style the border around lightbox thumbnails.
-
-*   **Radius**
-
-    Set the corner rounding of thumbnails (default: 4px).
-*   **Size**
-
-    Set the border width in pixels (default: 0px).
-*   **Color**
-
-    Set the border colour for inactive thumbnails.
-*   **Active Color**
-
-    Set the border colour for the currently active thumbnail, providing a clear visual indicator of the selected image.
-
-**Background**
-
-*   **Color**
-
-    Set the background colour of the thumbnail strip area.
-{% endcolumn %}
-
-{% column %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Lightbox Media**
-
-Fine-tune the appearance of images displayed inside the lightbox.
-
-**Radius**
-
-Adjust the corner rounding of lightbox images. Use Default to follow your project's theme styling.
-
-**Shadow**
-
-Apply a drop shadow around images in the lightbox to give them depth and contrast. Use Default to follow your project's theme styling.
-
-{% hint style="success" %}
-**Tip:** Use consistent radius and shadow settings between your Thumbnails and Lightbox Media sections for a unified visual style.
-{% endhint %}
-{% endcolumn %}
-
-{% column %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Lightbox Meta Data**
-
-Control how metadata is displayed within the lightbox when viewing full-size images. This section mirrors many of the Thumbnail Meta Data options, allowing you to show different levels of detail in the lightbox.
-
-**Display Type**
-
-Choose where metadata appears in the lightbox.
-
-*   **Hidden**
-
-    No metadata is shown in the lightbox.
-*   **Below**
-
-    Metadata appears directly beneath the full-size image.
-
-**Margin**
-
-Adds spacing between the image and the metadata area below it. The value corresponds to the theme spacing scale.
-
-**Alignment**
-
-Align metadata text to the Left, Center, or Right.
-
-**Caption**
-
-Controls the appearance of the image caption in the lightbox.
-
-*   **Show**
-
-    Toggle captions on or off.
-*   **Color**
-
-    Sets the text colour.
-*   **Font**
-
-    Select a font style from your project's theme.
-*   **Size**
-
-    Define the text size.
-*   **Weight**
-
-    Set the font weight.
-
-**Author**
-
-Controls the appearance of the author name in the lightbox. Offers the same settings as Caption: Show, Color, Font, Size, and Weight.
+Each field can be shown independently and styled with colour, font, size, and weight. Author also has a separate margin. Both are enabled by default when metadata itself is displayed.
 
 **EXIF**
 
-Display photographic metadata within the lightbox.
+Enable EXIF, then choose:
 
-*   **Show**
+* Horizontal or Vertical direction.
+* Left, Center, or Right alignment.
+* Margin, gap, optional icons, colour, font, size, and weight.
+* Aperture, Shutter, ISO, Focal Length, Lens, and Date fields.
 
-    Toggle EXIF data display on or off.
-*   **Direction**
+Aperture, Shutter, ISO, and Focal Length are enabled by default. Lens and Date are off by default.
 
-    Display EXIF items in a Row (horizontal) or Column (vertical) layout.
-*   **Alignment**
+#### Lightbox
 
-    Align EXIF data to the left, centre, or right.
-*   **Gap**
+The Lightbox group controls behaviour. Preview it in an external browser.
 
-    Set the spacing between individual EXIF items.
-*   **Icons**
+**Enabled**
 
-    Toggle EXIF icons on or off.
-*   **Color, Font, Size, Weight**
-
-    Customise the typography of EXIF text.
-
-**EXIF Properties**
-
-Choose which EXIF fields to display in the lightbox. Each can be individually toggled:
-
-* Aperture
-* Shutter Speed
-* ISO
-* Focal Length
-* Lens
-* Date
-{% endcolumn %}
-
-{% column %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Videos**
-
-The Videos section controls the playback behaviour of video content within your gallery. These settings apply to local .mp4 videos as well as YouTube and Vimeo embeds.
-
-**Autoplay**
-
-When enabled, videos begin playing automatically when opened in the lightbox.
-
-**Muted**
-
-When enabled, videos start with the audio muted. This is often required by browsers for autoplay to function.
-
-{% hint style="warning" %}
-Most browsers require videos to be muted for autoplay to work. If you enable Autoplay, consider also enabling Muted for reliable playback.
-{% endhint %}
-
-**Loop**
-
-When enabled, videos restart automatically when they reach the end.
-
-**Show Controls**
-
-Toggle the video player controls (play/pause, volume, progress bar, fullscreen) on or off.
-
-**Preload**
-
-Control how much video data is loaded before the visitor presses play.
-
-*   **None**
-
-    No video data is preloaded. Best for bandwidth-conscious sites.
-*   **Metadata**
-
-    Only loads video metadata (duration, dimensions). This is the default and a good balance between performance and usability.
-*   **Auto**
-
-    The browser decides how much video data to preload. May load the full video.
-
-**Plays Inline**
-
-When enabled, videos play inline on mobile devices rather than entering the device's native fullscreen player. This provides a more seamless browsing experience on iOS devices.
-{% endcolumn %}
-
-{% column %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Advanced**
-
-The [Advanced Section](../components/common-controls/advanced.md) provides options for users who want finer control over styling or need to link directly to the Gallery Pro component.
-
-These settings are ideal for developers and advanced users comfortable with custom CSS or Tailwind utilities.
+Turns the lightbox on or off at responsive breakpoints.
 
 **Deep Linking**
 
-When enabled, each image in the gallery is assigned a unique URL hash. This allows visitors to share direct links to specific images, and the lightbox will open to the correct image when the link is visited.
+Updates the URL hash while an item is open so a specific gallery item can be linked directly. It is off by default.
 
-{% hint style="success" %}
-**Tip:** Deep Linking is especially useful for photographers who want to share direct links to individual images in their portfolio.
-{% endhint %}
+**Overlay**
 
-**CSS Classes**
+Sets the expanded view’s background colour and opacity.
 
-Add one or more Tailwind CSS classes to the Gallery Pro component for custom styling.
+**Animated Thumbnails**
 
-This allows you to extend or override default styles without editing your theme or component code.
+Animates from the selected thumbnail into the lightbox. It is enabled by default with a 400ms duration.
 
-You can use any valid Tailwind utility class to adjust spacing, colours, borders, or animations.
+**Transition**
 
-**ID**
+Choose Slide, Fade, Zoom In, Zoom In (Large), Zoom Out, Zoom Out (Large), Soft Zoom, Scale Up, Slide Circular, Rotate, or Tube. Set Speed in milliseconds and choose Ease, Linear, Ease In, Ease Out, or Ease In Out. The defaults are Slide, 400ms, and Ease.
 
-Assign a unique ID to the component. This is useful for creating in-page [anchor links](../components/common-controls/advanced.md#id) or targeting the component with custom scripts and CSS selectors.
-{% endcolumn %}
+**Controls and Behaviour**
 
-{% column %}
+Enable or disable:
 
-{% endcolumn %}
-{% endcolumns %}
+* Counter — enabled by default.
+* Zoom — enabled by default.
+* Download — disabled by default and downloads the original image when enabled.
+* Rotate and flip controls — disabled by default.
+* Close button — enabled by default.
+* Previous and Next controls — enabled by default.
+* Loop — enabled by default.
+* Close on Tap — enabled by default.
+* Swipe to Close — enabled by default.
+* Mousewheel navigation — disabled by default.
+* Hide Scrollbar — disabled by default.
+* Fullscreen — enabled by default.
+
+**Autoplay**
+
+Automatic advancement is off by default. When enabled, set the Interval in milliseconds; the default is 5000ms. The progress bar is enabled by default.
+
+#### Lightbox Style
+
+Set the navigation arrow colour, background, and opacity; toolbar icon colour; counter colour; and autoplay progress bar colour. Arrow background opacity defaults to 45%.
+
+#### Lightbox Thumbnails
+
+Enable the navigation strip, then set:
+
+* Aspect Ratio — Square, 5:4, 4:3, or 16:9. The default is 5:4.
+* Size — 100px by default.
+* Spacing — 5px by default.
+* Border radius, size, normal colour, and active colour.
+* Background colour.
+
+#### Lightbox Media
+
+**Max Width**
+
+Choose 1200px, 1600px, 2400px, or Original. The default is 1200px. Larger values increase transfer size; Original bypasses lightbox resizing.
+
+**Radius and Shadow**
+
+Apply theme radius and shadow values to expanded media.
+
+#### Lightbox Meta Data
+
+**Type**
+
+Choose Hidden or Below. Below is the default.
+
+**Margin and Alignment**
+
+Set the spacing below the media and align the metadata Left, Center, or Right.
+
+**Caption, Author, and EXIF**
+
+These provide the same styling and field controls as thumbnail metadata, but are configured independently for the lightbox. Caption, Author, and EXIF display are off by default. Aperture, Shutter, ISO, and Focal Length are preselected when EXIF is enabled; Lens and Date are off.
+
+#### Videos
+
+**Playback**
+
+* **Autoplay** — Starts video when opened. It is off by default, and most browsers require Muted for autoplay.
+* **Muted** — Starts without sound. It is off by default.
+* **Loop** — Repeats playback. It is off by default.
+
+**Show Controls**
+
+Displays the browser’s playback controls and is enabled by default.
+
+**Preload**
+
+* **None** — Avoids loading video data in advance.
+* **Metadata** — Loads duration and dimensions. This is the default.
+* **Auto** — Lets the browser decide what to preload.
+
+**Plays Inline**
+
+Keeps video within the page on supported mobile browsers rather than forcing fullscreen. It is enabled by default.
+
+**Thumbnail Overlay and Play Button**
+
+Set overlay colour and opacity, plus play button background, opacity, and icon colour. Default opacities are 20% for the overlay and 50% for the button.
+
+#### Advanced
+
+Use **Classes** to add custom CSS classes and **ID** to assign a unique HTML identifier.
+
+### Accessibility
+
+* Add a meaningful description to every image resource; captions and filenames are not a substitute for useful alternative text.
+* Keep Close, Previous/Next, and video controls available unless there is another obvious, keyboard-accessible way to perform the same actions.
+* Provide captions or transcripts for video content and avoid autoplay with sound.
+* Ensure metadata overlays have sufficient text and background contrast in their normal and hover states.
+* Do not rely on hover-only metadata for essential information; touch and keyboard users may not receive the same hover state.
+* Check focus movement when opening and closing the lightbox in the published gallery.
+
+### Tips and Best Practices
+
+* **Use Grid for consistency:** It is the best choice when uniform thumbnail crops matter.
+* **Compare Masonry modes:** CSS gives column flow; JS generally produces a more balanced lower edge.
+* **Keep image sizes intentional:** Match generated widths to their maximum displayed size rather than always serving Original.
+* **Put album covers first:** The first image in a subfolder represents that album.
+* **Use metadata selectively:** A few useful fields are easier to scan than every available EXIF value.
+* **Protect performance:** Compress images, use video Preload Metadata or None, and avoid an unnecessarily large lightbox Max Width.
+
+### Troubleshooting
+
+#### The Below metadata option does not appear correctly
+
+Below thumbnail metadata is not supported in Masonry modes. Switch Layout Mode to Grid or use Overlay metadata.
+
+#### The lightbox looks different from the editor
+
+Open the page in an external browser. Lightbox behaviour, JS Masonry, fullscreen, video playback, and browser controls cannot be judged reliably from the editor alone.
+
+#### Autoplay video does not start
+
+Enable Muted as well as Autoplay. Browser autoplay policies normally block video that begins with sound.
+
+#### EXIF values are missing
+
+Confirm that the source file contains the selected EXIF fields and that the resource has not been processed in a way that strips metadata.
+
+#### YouTube or Vimeo media is missing
+
+Drag the video URL into Resources and confirm it belongs to the folder selected by Gallery Pro.
+
+#### The gallery loads slowly
+
+Reduce thumbnail Width and Lightbox Max Width, compress source images, avoid Original unless necessary, and set video Preload to Metadata or None.
+
+### Related Components
+
+* [Gallery](../components/gallery.md) — Use the included component for a simpler image gallery.
+* [Masonry Images](masonry-images-free.md) — Create a lightweight folder-based masonry layout without a lightbox or metadata.
+* [Video](../components/video.md) — Present a single video with direct playback controls.
+
+{% include "../../.gitbook/includes/common-controls.md" %}

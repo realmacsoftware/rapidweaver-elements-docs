@@ -113,7 +113,7 @@
   * [Top Pages](elements/components/top-pages.md)
   * [Typography](elements/components/typography.md)
   * [Video](elements/components/video.md)
-* [Components (via Store)](elements/store-components/README.md)
+* [Store Components](elements/store-components/README.md)
   * [Before After (Paid)](elements/store-components/before-after-paid.md)
   * [Card Flip (Paid)](elements/store-components/card-flip-paid.md)
   * [Gallery Pro (Paid)](elements/store-components/gallery-pro.md)

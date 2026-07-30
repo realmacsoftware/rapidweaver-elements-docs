@@ -1,53 +1,156 @@
 ---
-description: Professional-grade content scrolling component
+description: Create a continuously scrolling strip of images or custom content
 ---
 
 # Marquee Pro (Paid)
 
-Marquee Pro is a professional-grade scrolling component for Elements, built for designers who want motion that feels deliberate, refined, and production-ready.
+{% hint style="success" %}
+Marquee Pro is available as a **paid product via the Elements Store**. Install the current version of Elements before adding it to a project.
+{% endhint %}
 
-This is not a basic marquee. Marquee Pro gives you full control over layout, animation, interaction, making it ideal for client work, commercial sites, and polished marketing pages.
+Marquee Pro creates a continuously scrolling strip for logos, announcements, featured content, social links, promotions, and image collections. It can move horizontally or vertically and gives you control over speed, direction, spacing, edge fades, and visitor interaction.
 
-Use it for announcements, logo strips, featured content, social links, promotions, or any repeating content where subtle motion adds clarity rather than distraction.
+Use a Resources folder for a quick image marquee, or use Items mode to build each repeated item from any Elements components.
 
 <a href="elementsapp://storeProduct/com.elementsplatform.marqueepack" class="button primary" data-icon="store">Purchase Marquee Pro</a>
-
-Marquee Pro is **available via the Elements Store** and requires **Elements 2.0 or newer**.
 
 {% embed url="https://youtu.be/jbDbl_fV9Fo" %}
 
 ### Features
 
-* **Two Content Modes** - Use a folder of images or add custom items with full dropzone support
-* **Horizontal & Vertical Scrolling** - Choose the scroll direction that fits your design
-* **Configurable Animation** — Control speed, direction and hover behaviour
-* **Gradient Fade Effect** - Optional smooth fade on edges for a polished look
-* **Draggable Scroll** - Allow users to manually drag and explore content
-* **Accessibility Support** - Automatically respects `prefers-reduced-motion` for users who prefer reduced motion
+* **Folder and Items modes** — Scroll a folder of images or custom component-based items.
+* **Horizontal and vertical layouts** — Match the marquee to the available space.
+* **Responsive visible item count** — Control how much content is shown at each breakpoint.
+* **Adjustable animation** — Set direction and duration from 1 to 300 seconds.
+* **Hover and drag interactions** — Pause, slow, or let visitors drag through the content.
+* **Gradient edge fade** — Soften the points where content enters and leaves.
+* **Reduced-motion support** — Automatic movement stops when the visitor requests reduced motion.
 
-***
+### Requirements
+
+Before using Marquee Pro, make sure you have:
+
+* The Marquee Pro pack installed from the Elements Store.
+* A Resources folder of images or at least one completed custom item.
+
+{% hint style="warning" %}
+Moving content should not be the only place important information appears. Visitors who request reduced motion will see a stationary marquee and need to be able to understand and use it in that state.
+{% endhint %}
+
+### Supported Content and File Types
+
+Marquee Pro supports:
+
+* Image resources from an Elements Resources folder.
+* Any Elements components placed inside custom Items.
+* Horizontal and vertical scrolling layouts.
+
+### How to Use Marquee Pro
+
+You’ll find Marquee Pro under **Interactive** in the Components list.
+
+1. Drag **Marquee Pro** onto the page.
+2. Choose Folder or Items from **Mode**.
+3. Select an Image Folder, or add and populate the custom Items.
+4. Set the visible Amount, layout Direction, and Gap.
+5. Choose the animation Direction and Duration.
+6. Preview the page at several widths and with reduced motion enabled.
+
+### Component Settings
+
+#### Content
+
+**Mode**
+
+* **Folder** — Displays every image in the selected Image Folder.
+* **Items** — Creates a collection of custom items. Each item has a Title for editor organisation and a dropzone that accepts any components.
+
+**Amount**
+
+Sets the responsive number of visible items from 1 to 20. The default is 3.
+
+**Direction**
+
+Choose a **Horizontal** or **Vertical** layout.
+
+**Gap**
+
+Sets the responsive spacing between items using the theme spacing scale.
+
+**Gradient Fade**
+
+Enable a soft fade at the marquee edges. **Fade Size** controls its depth in pixels and defaults to 100px.
+
+#### Animation
+
+**Direction**
+
+Sets the flow to the left or right. In a vertical layout, the same setting determines the corresponding vertical flow.
+
+**Duration**
+
+Sets how long a complete animation cycle takes, from 1 to 300 seconds. The default is 20 seconds. A larger value produces slower movement.
+
+**On Hover**
+
+* **Pause** — Stops automatic movement while the pointer is over the marquee.
+* **Slow** — Changes to the Hover Duration while hovered. The default is 60 seconds, with a range of 1 to 600 seconds.
+* **None** — Keeps the normal animation speed.
+
+**Draggable Scroll**
+
+Lets visitors drag or swipe the track manually. It is off by default.
+
+#### Size
+
+**Height**
+
+Sets a responsive theme or custom height. The default is Auto. Give vertical marquees a defined height so there is a clear viewport for the movement.
+
+**Width**
+
+Sets the responsive component width. The default is 100%.
+
+#### Advanced
+
+Use **Classes** to add custom CSS classes and **ID** to assign a unique HTML identifier.
 
 ### Accessibility
 
-Marquee Pro automatically respects the user's motion preferences:
+* Marquee Pro watches the visitor’s `prefers-reduced-motion` setting and stops automatic animation when Reduce Motion is enabled.
+* Enable Draggable Scroll when visitors may need to reach content that sits outside the stationary viewport.
+* Use Pause for moving items that contain links or controls so they remain easier to target.
+* Add useful alternative text to folder images and keep essential information elsewhere on the page as well.
 
-* When `prefers-reduced-motion: reduce` is enabled in the user's system settings, the animation will not play
-* The component listens for changes to this preference and responds accordingly
-* Touch and drag interactions remain functional for manual navigation
+### Tips and Best Practices
 
-***
+* **Move slowly:** Start with the 20-second default and increase it for long strips or detailed content.
+* **Size by content:** Three visible items is a good starting point; logos can often be smaller, while cards need more space.
+* **Use similar item dimensions:** Consistent shapes create a smoother loop.
+* **Optimise folder images:** Resize and compress them before publishing.
+* **Use a vertical height:** Auto works for horizontal strips, but vertical marquees need a predictable viewport.
 
-### Tips & Best Practices
+### Troubleshooting
 
-1. **Performance**: Optimise images before adding them to the marquee, especially when using folder mode with many images.
-2. **Visible Items**: Adjust the visible items count based on your content. For logos, 4-6 items often works well. For larger images or cards, 2-3 may be more appropriate.
-3. **Duration**: Slower animations (higher duration values) are generally easier on the eyes and feel more professional. Start with the default of 20 seconds and adjust as needed.
-4. **Hover Behaviour:** Use **Pause** when visitors need to interact with content, such as links. Use **Slow** for a subtle effect that does not stop completely. Use **None** for purely decorative marquees.
-5. **Gradient Fade**: The gradient fade helps content feel less abrupt at the edges. Increase the fade size for wider marquees or decrease it for narrower ones.
-6. **Accessibility**: Always ensure your marquee content is not essential for understanding the page, as some users will have animations disabled.
+#### The marquee is not moving
 
-### Availability and Requirements
+Check the visitor’s Reduce Motion preference first. Also confirm the Duration is valid and that the marquee contains enough items to form a scrolling track.
 
-Marquee Pro is **available via the Elements Store** and requires **Elements 2.0 or newer**.
+#### A vertical marquee has no useful height
 
-<a href="elementsapp://storeProduct/com.elementsplatform.marqueepack" class="button primary" data-icon="store">Purchase Marquee Pro</a>
+Set a responsive Height in the Size group rather than leaving it on Auto.
+
+#### Folder images are missing
+
+Confirm that Mode is Folder, Image Folder points to a folder resource, and the folder contains supported images.
+
+#### Custom content cannot be found
+
+Switch Mode to Items, add an item to the collection, and place components in that item’s dropzone.
+
+### Related Components
+
+* [Content Slider](../components/content-slider.md) — Use a user-controlled sequence instead of continuous movement.
+* [Gallery](../components/gallery.md) — Present a static, structured collection of images.
+
+{% include "../../.gitbook/includes/common-controls.md" %}
