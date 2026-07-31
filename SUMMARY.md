@@ -12,7 +12,7 @@
   * [Let's Build](getting-started/quickstart/lets-build.md)
 * [How-to Guides](getting-started/how-to/README.md)
   * [How-to Tutorials](getting-started/how-to/fix-common-design-issues.md)
-  * [Design a Decorative Dividers](getting-started/how-to/design-a-decorative-dividers.md)
+  * [Design a Decorative Divider](getting-started/how-to/design-a-decorative-divider.md)
   * [Add an Icon Inside a Button](getting-started/how-to/add-an-icon-inside-a-button.md)
   * [Adjust Smooth Scroll Speed](getting-started/how-to/adjust-smooth-scroll-speed.md)
   * [Apply Anchor Scroll Padding](getting-started/how-to/apply-anchor-scroll-padding.md)
