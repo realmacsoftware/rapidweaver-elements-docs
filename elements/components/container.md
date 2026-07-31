@@ -10,6 +10,8 @@ The Container component is the primary wrapper for grouping related components. 
 Project-wide container widths can be set for each breakpoint in [Theme Studio → Screens](../theme-studio/screens.md).
 {% endhint %}
 
+{% embed url="https://www.youtube.com/watch?v=wpMW6ysKqKk" %}
+
 ### How to Use Container
 
 You’ll find Container under **Layout** in the Components list.

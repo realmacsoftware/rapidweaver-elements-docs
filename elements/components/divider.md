@@ -6,6 +6,8 @@ description: Create visual separation between sections of a page
 
 The Divider component creates a simple line or coloured block between sections of your website. Use it to organise content, strengthen visual hierarchy, or add a decorative break.
 
+{% embed url="https://www.youtube.com/watch?v=5iCfc3nRnx8" %}
+
 ### How to Use Divider
 
 You’ll find Divider under **Utility** in the Components list.

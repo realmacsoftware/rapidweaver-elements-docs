@@ -10,6 +10,8 @@ The Image Slider component presents a folder of images or a CMS gallery as a tou
 
 Use an image folder from Resources or a CMS gallery field. The images in the selected source become slides automatically.
 
+{% embed url="https://www.youtube.com/watch?v=miqLJ7dhKks" %}
+
 ### How to Use Image Slider
 
 You’ll find Image Slider under **Media** in the Components list.
