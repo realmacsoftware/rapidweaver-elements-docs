@@ -8,6 +8,8 @@ The Markdown component renders standard Markdown inside an Elements layout. It i
 
 Markdown content inherits a Theme Studio Typography style, keeping headings, paragraphs, lists, links, and code visually consistent.
 
+{% embed url="https://youtu.be/ZkmYC_rAN4o" %}
+
 ### How to Use Markdown
 
 You’ll find Markdown under **Content** in the Components list.
@@ -19,8 +21,6 @@ You’ll find Markdown under **Content** in the Components list.
 5. Preview links, images, lists, and code on the page.
 
 The content renders live as you type. You can also drag an image from Resources into the Markdown editor to insert its correct path.
-
-{% embed url="https://youtu.be/ZkmYC_rAN4o" %}
 
 ### Supported Markdown Syntax
 
