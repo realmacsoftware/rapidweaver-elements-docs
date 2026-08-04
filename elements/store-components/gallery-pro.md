@@ -21,6 +21,7 @@ Use it for a focused portfolio, a large collection organised into subfolders, or
 * **Grid and two Masonry layouts** — Choose uniform crops, CSS columns, or a JavaScript-balanced arrangement.
 * **Images and video** — Combine JPG, PNG, MP4, YouTube, and Vimeo resources.
 * **Automatic albums** — Turn Resources subfolders into browsable sub-galleries.
+* **Remote Folder source** — Build the gallery from a folder of images already on your server; new uploads appear without republishing.
 * **Thumbnail metadata** — Display captions, authors, and selected EXIF fields below or over images.
 * **Configurable lightbox** — Control transitions, navigation, zoom, fullscreen, autoplay, thumbnails, and media sizing.
 * **Lightbox metadata** — Show a separate caption, author, and EXIF presentation in the expanded view.
@@ -34,8 +35,9 @@ Before using Gallery Pro, make sure you have:
 
 * Elements 2.0 or newer.
 * The Gallery Pro pack installed from the Elements Store.
-* A Resources folder containing supported images, videos, or video links.
+* A Resources folder containing supported images, videos, or video links, or a folder of images on your web server for the Remote Folder source.
 * Captions, authors, alternative text, and EXIF data added to the relevant resources when those fields should appear.
+* Hosting with PHP support; pages containing Gallery Pro are published as PHP.
 
 {% hint style="warning" %}
 Image Protection can discourage casual downloading, but it cannot prevent a determined visitor from retrieving files delivered to their browser. Do not use it as a substitute for suitable publishing permissions, watermarking, or appropriately sized source images.
@@ -49,6 +51,7 @@ Gallery Pro supports:
 * MP4 video resources.
 * YouTube and Vimeo links added to Resources.
 * Subfolders used as automatic albums.
+* JPG, PNG, GIF, WebP, and AVIF images in a Remote Folder on your server.
 
 {% hint style="success" %}
 To add YouTube or Vimeo media, drag the video or playlist URL from a browser into the Resources area in Elements.
@@ -72,6 +75,24 @@ Gallery Pro reads the contents of the selected Resources folder. If that folder 
 
 Keep related media together, put the preferred cover first, and avoid deeply nested or inconsistently named folders.
 
+### Build a Gallery from a Remote Folder
+
+Switch **Media → Source** to **Remote Folder** to build the gallery from a folder of images that already lives on your web server — useful when photos are uploaded by FTP, a CMS, or another app. Enter the folder as a full URL or a path relative to your published site, for example `https://example.com/photos/holiday` or `/photos/holiday`. The folder must be on the same server as the published site.
+
+The folder is scanned each time the page loads, so images added or removed later appear in the gallery automatically without republishing:
+
+* Images display in filename order, so number files (`01-sunset.jpg`, `02-harbour.jpg`) to control the sequence.
+* Captions are generated from filenames, with hyphens and underscores shown as spaces.
+* Upload a smaller companion file ending in `-thumb` (for example `sunset.jpg` and `sunset-thumb.jpg`) and Gallery Pro uses it as the grid thumbnail for that image.
+
+Remote Folder galleries support JPG, PNG, GIF, WebP, and AVIF images. Albums, video, EXIF, and author metadata require the Resources source. Remote images are served exactly as uploaded — the thumbnail Width and Lightbox Max Width settings do not resize them — so compress and size images before adding them to the folder.
+
+In the editor, a Remote Folder gallery shows placeholder thumbnails. Preview the page in a browser to see the real images.
+
+{% hint style="warning" %}
+Pages containing Gallery Pro are published as PHP, so the site must be hosted on a server with PHP support.
+{% endhint %}
+
 ### Prepare Images for Publishing
 
 For a sharp result on modern displays, use source images that are at least as wide as the largest lightbox size you intend to serve. The default Lightbox Max Width is 1200px, while the responsive thumbnail defaults rise to 1200px at the LG breakpoint.
@@ -82,9 +103,18 @@ Large originals increase upload size and page weight. Resize and compress them b
 
 #### Media
 
+**Source**
+
+* **Resources** — Builds the gallery and its albums from a Resources folder. This is the default.
+* **Remote Folder** — Builds the gallery from a folder of images on your web server.
+
 **Resources**
 
 Selects the folder used to build the gallery and its albums.
+
+**Folder**
+
+Available for the Remote Folder source. Accepts a full URL or a relative path; the folder must be on the same server as your published site.
 
 **Image Protection**
 
@@ -294,6 +324,7 @@ Use **Classes** to add custom CSS classes and **ID** to assign a unique HTML ide
 * **Compare Masonry modes:** CSS gives column flow; JS generally produces a more balanced lower edge.
 * **Keep image sizes intentional:** Match generated widths to their maximum displayed size rather than always serving Original.
 * **Put album covers first:** The first image in a subfolder represents that album.
+* **Pre-size Remote Folder images:** Remote images bypass thumbnail generation, so resize and compress them before uploading them to the server.
 * **Use metadata selectively:** A few useful fields are easier to scan than every available EXIF value.
 * **Protect performance:** Compress images, use video Preload Metadata or None, and avoid an unnecessarily large lightbox Max Width.
 
@@ -318,6 +349,10 @@ Confirm that the source file contains the selected EXIF fields and that the reso
 #### YouTube or Vimeo media is missing
 
 Drag the video URL into Resources and confirm it belongs to the folder selected by Gallery Pro.
+
+#### Remote Folder images do not appear
+
+Confirm the page is published as PHP, the folder path is correct and on the same server as the site, and the folder contains supported image formats. The editor always shows placeholders for Remote Folder galleries, so check the published page or a browser preview.
 
 #### The gallery loads slowly
 

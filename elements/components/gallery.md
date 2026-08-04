@@ -4,7 +4,7 @@ description: Build a responsive image and video gallery with a lightbox
 
 # Gallery
 
-The Gallery component turns a Resources folder into a responsive media grid with optional captions, author information, and a full-screen lightbox. It can combine images, YouTube and Vimeo links, and MP4 video.
+The Gallery component turns a Resources folder into a responsive media grid with optional captions, author information, and a full-screen lightbox. It can combine images, YouTube and Vimeo links, and MP4 video, or build the grid from a Remote Folder of images already on your web server.
 
 {% embed url="https://youtu.be/LwmA-IZNQIs" %}
 
@@ -22,6 +22,8 @@ Add a YouTube or Vimeo video by dragging its URL from your browser into Resource
 
 The Gallery expects a folder rather than a single image.
 
+Remote Folder galleries support JPG, PNG, GIF, WebP, and AVIF images. Video and author information require the Resources source.
+
 ### How to Use Gallery
 
 You’ll find Gallery under **Media** in the Components list.
@@ -37,11 +39,31 @@ You’ll find Gallery under **Media** in the Components list.
 For sharp modern displays, use gallery images at least 1200 pixels wide. [Squash for macOS](https://www.realmacsoftware.com/squash/) can batch resize and compress them.
 {% endhint %}
 
+### Using a Remote Folder
+
+Switch **Media → Source** to **Remote Folder** to build the gallery from a folder of images that already lives on your web server — useful when photos are uploaded by FTP, a CMS, or another app. Enter the folder as a full URL or a path relative to your published site, for example `https://example.com/photos/holiday` or `/photos/holiday`. The folder must be on the same server as the published site.
+
+The folder is read each time the page loads, so images added or removed later appear in the gallery automatically without republishing:
+
+* Images display in filename order, so number files (`01-sunset.jpg`, `02-harbour.jpg`) to control the sequence.
+* Captions are generated from filenames, with hyphens and underscores shown as spaces.
+* Upload a smaller companion file ending in `-thumb` (for example `sunset.jpg` and `sunset-thumb.jpg`) to use it as the grid thumbnail for that image.
+
+Remote images are served exactly as uploaded, so resize and compress them before adding them to the folder. In the editor, a Remote Folder gallery shows placeholder thumbnails; preview the page in a browser to see the real images.
+
+{% hint style="warning" %}
+Pages containing the Gallery component are published as PHP, so the site must be hosted on a server with PHP support.
+{% endhint %}
+
 ### Component Settings
 
 #### Media
 
+**Source** chooses between building the gallery from **Resources** or a **Remote Folder** on your web server. Resources is the default.
+
 **Resources** selects the folder containing gallery media.
+
+**Folder** appears for the Remote Folder source and accepts a full URL or a relative path. The folder must be on the same server as your published site.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2025-10-16 at 11 .45.57@2x.png" alt="The Gallery Media settings with a Resources folder selected"><figcaption><p>The Gallery is built from a folder in Resources.</p></figcaption></figure>
 
