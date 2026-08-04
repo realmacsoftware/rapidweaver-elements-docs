@@ -20,6 +20,8 @@ You’ll find Markdown under **Content** in the Components list.
 
 The content renders live as you type. You can also drag an image from Resources into the Markdown editor to insert its correct path.
 
+{% embed url="https://youtu.be/ZkmYC_rAN4o" %}
+
 ### Supported Markdown Syntax
 
 **Headings**

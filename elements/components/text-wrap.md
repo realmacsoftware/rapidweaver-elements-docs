@@ -6,6 +6,8 @@ description: Flow text around a transparent or rectangular image
 
 Text Wrap places an image to the left or right of its child content so text flows around it. With a transparent PNG, WebP, or SVG, the text can follow the visible shape instead of the image’s rectangular bounds.
 
+<figure><img src="../../.gitbook/assets/CleanShot 2026-07-15 at 10 .43.06@2x.png" alt="A Text Wrap component containing text with an image floated beside it"><figcaption><p>A basic Text Wrap setup in Elements.</p></figcaption></figure>
+
 {% hint style="info" %}
 Text Wrap supports image resources, custom image URLs, and CMS image fields.
 {% endhint %}
@@ -20,7 +22,7 @@ You’ll find Text Wrap under **Layout** in the Components list.
 4. Add alternative text.
 5. Choose Left or Right under Float, then adjust Width, Margin, and Threshold.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-07-15 at 10 .43.06@2x.png" alt="A Text Wrap component containing text with an image floated beside it"><figcaption><p>A basic Text Wrap setup in Elements.</p></figcaption></figure>
+{% embed url="https://youtu.be/nE9T9HgoRS0" %}
 
 ### Component Settings
 
