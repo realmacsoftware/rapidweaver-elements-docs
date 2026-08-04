@@ -34,13 +34,19 @@ You’ll find Image under **Media** in the Components list.
 
 **Mode** switches between Light and Dark while choosing the source. Light is selected by default.
 
+The dark image is shown automatically when the visitor’s browser or operating system is set to dark mode (`prefers-color-scheme: dark`). If no dark image is set, the light image is used everywhere.
+
 Custom mode displays **Source**. CMS mode displays **Field**, which defaults to `{{item.image.src}}`. Both modes provide **Alt** text.
+
+{% hint style="info" %}
+CMS images show a placeholder while editing. Preview or publish the page to see the resolved CMS image.
+{% endhint %}
 
 For Custom and CMS sources, **Width** and **Height** define the intrinsic image size and default to 1280 × 720. Display size is controlled separately under Sizing.
 
 For Resource images:
 
-* **Original** — Exports the original resource size.
+* **Original** — Exports the original resource size. This is the default behaviour.
 * **Custom** — Exports a resized file. File Size defaults to 400 pixels.
 
 {% hint style="warning" %}
@@ -86,9 +92,7 @@ Set **To** to link the image. Avoid enabling both a Link and Lightbox because vi
 * **Tall** — Uses 4:5.
 * **Custom** — Uses an `x/y` value; the default is `7/5`.
 
-When the ratio is not Auto, **Object Fit** offers Fill, Contain, Cover, None, or Scale Down and defaults to Cover.
-
-**Position** chooses the focal point from the centre, edges, or corners and defaults to Centre.
+When the ratio is not Auto, **Object Fit** offers Fill, Contain, Cover, None, or Scale Down and defaults to Cover, and **Position** chooses the focal point from the centre, edges, or corners and defaults to Centre.
 
 <figure><img src="../../.gitbook/assets/CleanShot 2025-11-01 at 4 .20.38@2x.png" alt="Image Aspect Ratio controls with object fit and position options"><figcaption><p>Aspect Ratio controls the image frame and crop.</p></figcaption></figure>
 
