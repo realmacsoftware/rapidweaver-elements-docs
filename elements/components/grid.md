@@ -6,6 +6,10 @@ description: Build responsive two-dimensional layouts with CSS Grid
 
 The Grid component creates responsive layouts with defined columns and rows. It is ideal when content needs to align in two dimensions, such as card grids, galleries, feature comparisons, and structured page sections.
 
+
+
+👉🏻 [Open the Grid Project in Elements](elementsapp://downloadDocument/sJeeTVNqG8Er) that was used in this video.
+
 ### How to Use Grid
 
 You’ll find Grid under **Layout** in the Components list.
