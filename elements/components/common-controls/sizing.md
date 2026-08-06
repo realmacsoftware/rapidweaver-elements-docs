@@ -24,6 +24,10 @@ Container-style components use selection menus:
 
 Container-style Sizing defaults to **Full** width and **Auto** height. [Theme Studio → Screens](../../theme-studio/screens.md) controls Breakpoint widths.
 
+{% hint style="info" %}
+Auto is standard CSS auto sizing, not shrink-to-fit: a block-level component with Auto width fills the available width of its parent. To centre a component that is narrower than its parent, give it a fixed width and Auto left and right margins in [Spacing](spacing.md).
+{% endhint %}
+
 Specialised defaults include:
 
 * **Image and Video** — Width `100%`, Height Auto.

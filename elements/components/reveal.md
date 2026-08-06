@@ -62,6 +62,10 @@ Keep movement subtle and never make the animation the only way to discover essen
 
 A Reveal animation can temporarily extend beyond the viewport. Select the parent Container and set **Layout → Overflow** to Hidden so the animated content is clipped to the section.
 
+#### Content inside Reveal is not centred
+
+Reveal is a block-level wrapper, so an Auto width fills the available width rather than shrinking to fit its content, and a fixed-width child sits at the wrapper’s left edge. Enable the child’s Spacing and set its left and right margins to Auto, or give the Reveal itself a Theme Spacing width matching the content plus Auto left and right margins.
+
 ### Related Components
 
 * [3D Transform](3d-transform.md) — Creates hover and pointer-driven depth effects.

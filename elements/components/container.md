@@ -50,7 +50,11 @@ Standard and Advanced modes reveal the appropriate level of placement control. T
 
 **Height** offers the same modes and defaults to Auto. Its Theme Spacing value also defaults to 36.
 
-**Align** controls the cross-axis position and **Justify** controls the main-axis position. Both offer Auto, Start, End, Centre, or Stretch and default to Centre.
+**Align** and **Justify** position the Container’s content box within the Container — Align on the block axis and Justify on the inline axis. Both offer Auto, Start, End, Centre, or Stretch and default to Centre.
+
+{% hint style="info" %}
+Align and Justify move the content box as a whole; they do not align the Container’s direct children. To centre a fixed-width child, give it Auto left and right margins, or use a [Flex](flex.md) or [Grid](grid.md) parent to control child alignment.
+{% endhint %}
 
 **Gap** controls spacing between child components and defaults to 0.
 
