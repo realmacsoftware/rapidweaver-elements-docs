@@ -71,8 +71,11 @@ Defaults to Normal.
 * **Between**, **Around**, **Evenly** — Spreads the spare space between, around, or evenly among the children.
 * **Stretch** — Children grow to fill the main axis where they have no fixed size.
 
-**Items** sets the default inline-axis alignment of each child within its own area.
-Defaults to Normal. Options are Normal, Start, End, Center, and Stretch.
+**Items** maps to the CSS `justify-items` property, which sets the default inline-axis
+alignment of each child within its own area. It is honoured by grid layouts; in a Flex
+container the main-axis distribution comes from Justify Content instead. Use
+[Grid](grid.md) when you need per-item justification. Defaults to Normal. Options are
+Normal, Start, End, Center, and Stretch.
 
 #### Link
 
