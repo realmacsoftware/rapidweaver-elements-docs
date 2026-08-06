@@ -65,6 +65,8 @@ When enabled, **Color** defaults to Black, **Opacity** to 50%, and **Blur** to 0
 
 **Mode** switches between Light and Dark thumbnail sources. Custom uses a URL or path; CMS uses a field expression defaulting to `{{item.image.src}}`.
 
+As with the [Image](image.md) component, the CMS field must be a Twig expression that outputs the image's URL, like the default `{{item.image.src}}` — a front matter key on its own won't work.
+
 Custom and CMS thumbnails provide **Alt** text.
 
 **Overlay Color** defaults to Surface 50 and **Opacity** to 50%.
