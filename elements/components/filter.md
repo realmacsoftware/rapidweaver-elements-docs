@@ -39,7 +39,7 @@ Set the input text colour, opacity, font, size, weight, letter spacing, line hei
 
 #### Outline
 
-Outline controls style the focus outline shown around the search field. Keep a visible focus indicator for keyboard users.
+The Outline group draws an outline around the search field. **Type** defaults to None: **Static** shows one outline at all times; **Focus** provides separate Unfocused and Focused states. Keep a visible Focus state for keyboard users.
 
 ### Accessibility
 
