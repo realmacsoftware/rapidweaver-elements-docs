@@ -38,6 +38,8 @@ The dark image is shown automatically when the visitor’s browser or operating 
 
 Custom mode displays **Source**. CMS mode displays **Field**, which defaults to `{{item.image.src}}`. Both modes provide **Alt** text.
 
+The Field value must be a Twig expression that outputs the image's URL, like the default `{{item.image.src}}`. Typing a front matter key on its own (for example `image`) won't work — wrap it as an expression, e.g. `{{item.image}}` if your front matter stores the URL directly.
+
 {% hint style="info" %}
 CMS images show a placeholder while editing. Preview or publish the page to see the resolved CMS image.
 {% endhint %}
