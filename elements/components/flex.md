@@ -22,7 +22,7 @@ You’ll find Flex under **Layout** in the Components list.
 
 #### Tags
 
-Add tags when this Flex should be controlled by a [Filter](filter.md) or [Filter Tags](filter-tags.md) component. Each collection item contains one tag title.
+Add tags when this Flex should be controlled by a [Filter](filter.md) or [Filter Tags](filter-tags.md) component. Each collection item contains one tag title. Tags on their own do not make the Flex filterable — you must also switch on **Filter → Enable** and put the Flex in the same group as the Filter or Filter Tags component.
 
 #### Filter
 
@@ -30,7 +30,7 @@ Enable filtering to make the Flex a filterable item. Use its parent as the group
 
 #### Flexbox Settings
 
-**Direction** controls the main axis. Choose Row, Row Reverse, Column, or Column Reverse.
+**Direction** controls the main axis. Choose Column (the default), Column Reverse, Row, or Row Reverse. A new Flex stacks its children vertically until you switch it to Row.
 
 **Wrap Items**
 
@@ -44,17 +44,39 @@ Horizontal and Vertical gaps independently control spacing between items. Both d
 
 **Align**
 
-* **Align Content** positions multiple wrapped lines on the cross axis.
-* **Align Items** positions children within the current line.
+**Content** distributes the lines of a wrapped container along the cross axis. It only
+has an effect when Wrap Items is set to Wrap or Wrap Reverse and the items occupy more
+than one line. Defaults to Normal.
+
+* **Normal** — Lines keep their default position.
+* **Start**, **End**, **Center** — Packs the lines at the start, end, or centre of the cross axis.
+* **Between**, **Around**, **Evenly** — Spreads the spare space between, around, or evenly among the lines.
+* **Stretch** — Lines grow to fill the cross axis.
+* **Baseline** — Aligns the lines on their first baseline.
+
+**Items** aligns each child within its line, on the cross axis. Defaults to Normal.
+
+* **Normal** — Children behave as if Stretch were set, unless they have a size of their own.
+* **Start**, **End**, **Center** — Aligns children at the start, end, or centre of the cross axis.
+* **Stretch** — Children fill the cross axis of the line.
+* **Baseline** — Aligns children on their text baseline, which is useful for mixed type sizes.
 
 **Justify**
 
-* **Justify Content** distributes items along the main axis.
-* **Justify Items** controls item justification where supported.
+**Content** distributes the children along the main axis — the axis set by Direction.
+Defaults to Normal.
+
+* **Normal** — Children keep their default position.
+* **Start**, **End**, **Center** — Packs the children at the start, end, or centre of the main axis.
+* **Between**, **Around**, **Evenly** — Spreads the spare space between, around, or evenly among the children.
+* **Stretch** — Children grow to fill the main axis where they have no fixed size.
+
+**Items** sets the default inline-axis alignment of each child within its own area.
+Defaults to Normal. Options are Normal, Start, End, Center, and Stretch.
 
 #### Link
 
-The Link group can make the whole Flex clickable. Avoid wrapping multiple interactive child controls inside one link.
+The Link group can make the whole Flex clickable. Avoid wrapping multiple interactive child controls inside one link. When a link destination is set, Flex renders as an `<a>` element. This replaces whatever is chosen under **Advanced → HTML Tag** — clear the link if you need a different wrapper tag.
 
 ### Tips and Best Practices
 
