@@ -46,7 +46,7 @@ For Hover and Mouse, **Over** selects Self, Parent, Container, Grid, Flex, or Cu
 
 **Perspective**
 
-* **Distance** — Controls the strength of perspective: Dramatic, Near, Normal, Midrange, Distant, or None. The default is Normal.
+* **Distance** — Controls the strength of the perspective, from the most exaggerated to the most subtle: Dramatic (100px), Near (300px), Normal (500px), Midrange (800px), and Distant (1200px). Shorter distances exaggerate the 3D effect. None removes the perspective, flattening the result. The default is Normal.
 * **Origin** — Sets the viewpoint from Center or any edge or corner. The default is Center.
 
 **Backface**
@@ -56,8 +56,8 @@ Enable **Hide** to prevent the reverse side of rotated content from showing. It 
 **Transform Values**
 
 * **X** and **Y** rotate the content around the horizontal and vertical axes. Both default to 0°.
-* **Scale Z** controls depth scaling and defaults to 100%.
-* **Depth** moves the content towards or away from the viewer and defaults to `0px`.
+* **Scale Z** controls depth scaling and defaults to 100%. It has no visible effect on its own — combine it with a Rotate X or Rotate Y value.
+* **Depth** moves the content towards or away from the viewer and defaults to `0px`. Use any CSS length such as `10px` or `2rem`; percentages are not supported.
 
 Hover and Mouse modes provide separate Start and End values.
 
