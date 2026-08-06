@@ -37,9 +37,8 @@ You’ll find Reveal under **Animation** in the Components list.
 
 **Trigger**
 
-* **Play** — Choose Once on Enter, Always on Enter, or Enter and Exit. The default is Enter and Exit.
-* **Start** — Choose Entering Screen, Middle of Screen, or Exiting Screen. The default is Entering Screen.
-* **End** — Uses the same positions and defaults to Exiting Screen.
+* **Play** — When the animation runs. **Once on Enter** plays it the first time the content enters the viewport and never again; **Always on Enter** replays it each time the content scrolls into view from below; **Enter and Exit** (the default) also plays a matching exit animation when the content leaves, and replays on re-entry in either direction.
+* **Start** / **End** — Where the animation is triggered, measured against the top edge of the Reveal content: **Entering Screen** as it reaches the bottom of the viewport, **Middle of Screen** as it reaches the centre, and **Exiting Screen** as it reaches the top. Start defaults to Entering Screen; End defaults to Exiting Screen. In Scrub mode the animation progresses between the Start and End positions.
 
 **Timing**
 
