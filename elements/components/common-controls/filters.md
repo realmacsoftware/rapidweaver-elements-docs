@@ -34,7 +34,7 @@ Static and each Hover state provide:
 * **Blur** — Defaults to 0 pixels.
 * **Brightness** — Defaults to 100%. Lower values darken; higher values brighten.
 * **Saturate** — Defaults to 100%. `0` removes colour; values above 100 increase saturation.
-* **Drop Shadow** — Defaults to None and uses Theme Studio shadow values.
+* **Drop Shadow** — Defaults to None and uses Theme Studio shadow values. Unlike the Box Shadow in [Effects](effects.md), a drop shadow follows the visible shape of the content — including the transparent areas of PNGs and SVGs — rather than its rectangular box.
 
 ### Backdrop Filters
 

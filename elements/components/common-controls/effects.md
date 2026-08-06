@@ -48,6 +48,8 @@ For Static and each Hover state:
 * **Color** — Overrides the shadow colour and defaults to None.
 * **Opacity** — Controls shadow-colour opacity from 0–100% and defaults to 100%.
 
+Unlike the Drop Shadow in [Filters](filters.md), a box shadow follows the component’s rectangular box rather than the visible shape of transparent PNGs or SVGs.
+
 ### Opacity
 
 The component **Opacity** ranges from 0–100% and defaults to 100% for Static and both Hover states.
