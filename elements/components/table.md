@@ -44,7 +44,7 @@ You’ll find Table under **Content** in the Components list.
 
 CSV File reveals **CSV File**. CSV URL reveals **CSV URL**.
 
-For CSV sources, **First Row is Header** is enabled by default. The Columns collection maps to CSV columns by position.
+For CSV sources, **First Row is Header** is enabled by default; the header row is displayed only when **Show** under Header Cells is also enabled. If First Row is Header is turned off, the first CSV row is treated as data and appears in the table body. The Columns collection maps to CSV columns by position.
 
 For Manual data, **Rows** sets the number of body rows and defaults to 3.
 
@@ -69,7 +69,7 @@ Sorting is enabled per column in the Columns collection.
 
 #### Header Cells
 
-**Show** is enabled by default.
+**Show** is enabled by default. Turning it off removes the header row — including your column titles — from the table and the editing canvas until it is re-enabled.
 
 **Padding** defaults to theme spacing 2 on every side. **Align** offers Top, Middle, or Bottom and defaults to Top. **Background** defaults to Surface 50.
 
@@ -99,7 +99,7 @@ Set Alignment, Font, Color, Size, Weight, and Spacing. Defaults include Body fon
 
 #### Footer Cells and Footer Text
 
-**Show Footer** is off by default. When enabled, Footer Cells provide Padding, Align, Background, and border controls. Defaults include theme spacing 2, Top alignment, Surface 100 background, Solid borders, and Surface 200 border colour.
+**Show** is off by default. Enabling it adds a footer row with an editable cell per column (text or drop zone, following each column's Cell Mode) and reveals Padding, Align, Background, and border controls. Turning it off removes the footer row and anything placed in it from the page. Defaults include theme spacing 2, Top alignment, Surface 100 background, Solid borders, and Surface 200 border colour.
 
 Footer Text provides Alignment, Font, Color, Size, Weight, and Spacing. Defaults include Body font, Text 50, Base size, and weight 600.
 
