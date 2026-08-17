@@ -167,6 +167,17 @@
 * [Elements API](elements/building-extensions.md)
 * [Custom Components](elements/components/custom-components.md)
 * [Deep Linking](elements/url-scheme.md)
+* [Elements Store](store/README.md)
+  * [Store FAQ](store/faq.md)
+  * [Join the Partner Program](store/partners/join-the-partner-program.md)
+  * [Getting Started](store/partners/getting-started/README.md)
+    * [Adding a Product](store/partners/getting-started/adding-a-product.md)
+    * [Updating a Product](store/partners/getting-started/updating-a-product.md)
+  * [Submission Requirements](store/partners/submission-requirements/README.md)
+    * [Component Checklist](store/partners/submission-requirements/component-checklist.md)
+  * [Pack Distribution](store/partners/pack-distribution.md)
+  * [Store API & Deep Linking](store/partners/store-api-and-deep-linking.md)
+  * [Store Refresh](store/partners/store-refresh.md)
 
 ## Press and Creators
 
