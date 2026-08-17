@@ -165,8 +165,6 @@
 ## Developers
 
 * [Elements API](elements/building-extensions.md)
-* [Custom Components](elements/components/custom-components.md)
-* [Deep Linking](elements/url-scheme.md)
 * [Elements Store](store/README.md)
   * [Store FAQ](store/faq.md)
   * [Join the Partner Program](store/partners/join-the-partner-program.md)
@@ -177,7 +175,8 @@
     * [Component Checklist](store/partners/submission-requirements/component-checklist.md)
   * [Pack Distribution](store/partners/pack-distribution.md)
   * [Store API & Deep Linking](store/partners/store-api-and-deep-linking.md)
-  * [Store Refresh](store/partners/store-refresh.md)
+* [Custom Components](elements/components/custom-components.md)
+* [Deep Linking](elements/url-scheme.md)
 
 ## Press and Creators
 
