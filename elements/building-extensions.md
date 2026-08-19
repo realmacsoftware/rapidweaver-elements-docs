@@ -25,6 +25,7 @@ The API can be used to create:
 * Reusable components with editable text and child-component dropzones.
 * Theme-aware Inspector controls for colours, fonts, spacing, sizing, resources, switches, selections, and other values.
 * Interactive components using client-side JavaScript or Alpine.js.
+* Live editor previews for WebGL and other ES-module animations (Three.js), via the [`rwlivepreview` contract](https://docs.realmacsoftware.com/elements-docs/elements-language/guides/editor-live-preview).
 * Components with build-time data processing and conditional output.
 * Packs containing several components, custom icons, assets, collections, and shared files.
 * Add-ons that can be compiled and distributed through the Elements Store.

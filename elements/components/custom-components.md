@@ -180,6 +180,8 @@ When using Alpine directives in the Template, write event handlers with `x-on:` 
 
 Keep controls keyboard accessible and avoid adding the same global event listener more than once when several instances appear on a page.
 
+Page JavaScript does not run on the editing canvas. To play a Three.js (or similar) animation while you edit, emit `<rwlivepreview props="…">` from the Template in edit mode and export a `mount` function from the JavaScript area, guarded with `@if(isEdit)`. The editor imports that export, calls `mount` / `update` / `dispose`, and resolves `import * as THREE from 'three'` to a shared copy. See the [Editor Live Preview](https://docs.realmacsoftware.com/elements-docs/elements-language/guides/editor-live-preview) contract.
+
 ### Transform Values with Hooks
 
 Hooks run at build time in the order **Properties → Hooks → Template**. Read Inspector values from `rw.props`, prepare the values the Template needs, then pass them to the Template with `rw.setProps()`.
