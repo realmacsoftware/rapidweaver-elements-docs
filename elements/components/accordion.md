@@ -24,6 +24,10 @@ You’ll find Accordion under **Interactive** in the Components list.
 
 ### Component Settings
 
+{% hint style="info" %}
+The Transitions settings adjust the speed of the animation when using the transform, filter, and effects properties. They do not currently affect the duration of the accordion opening or closing.
+{% endhint %}
+
 #### Settings
 
 **Show Content in Edit** is enabled by default. Disable it to preview the collapsed structure while editing.
