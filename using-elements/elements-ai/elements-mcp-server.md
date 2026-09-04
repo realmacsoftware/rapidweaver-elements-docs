@@ -1,31 +1,48 @@
 ---
-description: Connect compatible AI clients to the in-development Elements MCP server
+description: Connect AI tools to your open Elements project using the built-in MCP server
 ---
 
 # Elements MCP Server
 
-Elements has a built-in MCP server with a range of tools that LLMs can use.
+The built-in Elements MCP (Model Context Protocol) server lets compatible AI tools work with the project you have open in Elements. You can connect clients such as **Cursor**, **Codex**, or **Claude Desktop**.
 
-At the time of writing (September 2026), the following Mac applications support MCP and can connect to the Elements MCP server. This list is just a guide and not an exhaustive overview of all available clients:
+Keep Elements running with your project open while using a connected AI tool.
 
-* Claude Code (Anthropic)
-* ChatGPT/Codex (OpenAI)
-* Cursor (Anysphere, Inc)
-* Grok Bot
-* Gemini (Google, only available in the US on the Ultra plan)
-* LM Studio
+## Enable the MCP server
 
-### Elements MCP Server Preferences
+1. In Elements, open **Settings** to show the Preferences window.
+2. Select **AI**, then **MCP Server**.
+3. Turn on **Allow AI tools to interact with Elements**.
+4. Use the copy button beside the connection URL to copy it for your AI client.
 
-To enable the MCP server in Elements, open Elements Settings and select the **MCP Server** tab. Switch on the MCP server, then connect your preferred client.
+The full settings path is **Settings > AI > MCP Server**. The screenshot below shows the server enabled, with a green status indicator and the URL `http://localhost:9712/mcp`.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-07-04 at 9 .07.55@2x.png" alt="Elements MCP Server preferences with the server enabled and its local connection URL"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/elements-mcp-server-preferences.png" alt="Elements Preferences showing AI > MCP Server, the enabled Allow AI tools to interact with Elements switch, the connection URL, and the Install in Claude Desktop button"><figcaption><p>Enable the MCP server and connect your AI client in Settings > AI > MCP Server.</p></figcaption></figure>
 
-### How to connect LM Studio to the Elements MCP server
+## Connect Claude Desktop
 
-LM Studio requires you to configure the MCP connection manually. The JSON configuration should look like the example below. Ensure the port number `9712` matches the port shown in the Elements MCP Server settings.
+Elements includes a bundled extension so Claude Desktop can connect without manual configuration.
 
+1. Enable the MCP server using the steps above.
+2. In the **Claude Desktop** section, click **Install in Claude Desktop…**.
+3. Follow the installation prompts in Claude Desktop.
+4. Keep your Elements project open, then use Claude Desktop to work with it.
+
+## Connect Codex, Cursor, or another MCP client
+
+Copy the URL shown in **Settings > AI > MCP Server** and add it to your AI client's MCP server settings. Use the URL displayed in Elements, as the port may differ from the example below:
+
+```text
+http://localhost:9712/mcp
 ```
+
+This is a local connection to Elements on your Mac. Your client needs to support connecting to a local HTTP MCP server. The exact setup steps depend on the client you use.
+
+### LM Studio configuration example
+
+For LM Studio, add an MCP server configuration like this. Replace the URL if Elements shows a different one.
+
+```json
 {
   "mcpServers": {
     "elements": {
@@ -35,12 +52,17 @@ LM Studio requires you to configure the MCP connection manually. The JSON config
 }
 ```
 
-### FAQ:
+## Troubleshooting
 
-<details>
+If your AI client cannot connect or loses its connection:
 
-<summary>Why does Claude Code drop the connection to the Elements MCP server?</summary>
+* Check that Elements is running and a project is open.
+* Check that **Allow AI tools to interact with Elements** is switched on.
+* Check that the URL in your client matches the URL currently shown in Elements.
+* Reconnect or restart the MCP connection in your AI client.
 
-As this is fairly new and evolving technology, we’re not entirely sure why Claude is doing this. However, in our testing connecting Cursor, Codex or any other client to the Elements MCP is rock solid with no dropout issues.
+## Turn off the MCP server
 
-</details>
+Open **Settings > AI > MCP Server** and turn off **Allow AI tools to interact with Elements** to stop AI clients interacting with Elements through the server.
+
+For help adding API keys to the built-in assistant, see [Elements AI Assistant](elements-ai-assistant.md).
