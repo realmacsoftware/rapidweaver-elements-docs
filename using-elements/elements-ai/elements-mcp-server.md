@@ -4,19 +4,14 @@ description: Connect compatible AI clients to the in-development Elements MCP se
 
 # Elements MCP Server
 
-{% hint style="danger" %}
-This feature is in development and is **not yet available in public builds of Elements.**
-{% endhint %}
-
 Elements has a built-in MCP server with a range of tools that LLMs can use.
 
-
-
-At the time of writing (July 2026), the following Mac applications support MCP and can connect to the Elements MCP server:
+At the time of writing (September 2026), the following Mac applications support MCP and can connect to the Elements MCP server. This list is just a guide and not an exhaustive overview of all available clients:
 
 * Claude Code (Anthropic)
-* Codex (OpenAI)
+* ChatGPT/Codex (OpenAI)
 * Cursor (Anysphere, Inc)
+* Grok Bot
 * Gemini (Google, only available in the US on the Ultra plan)
 * LM Studio
 

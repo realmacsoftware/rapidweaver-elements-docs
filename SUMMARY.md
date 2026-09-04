@@ -150,6 +150,7 @@
   * [Publishing](elements/publishing.md)
   * [Syncing Projects](elements/syncing-projects.md)
 * [Elements AI](using-elements/elements-ai/README.md)
+  * [Elements AI Assistant](using-elements/elements-ai/elements-ai-assistant.md)
   * [Elements MCP Server](using-elements/elements-ai/elements-mcp-server.md)
 * [Elements Cloud](using-elements/elements-cloud.md)
 
