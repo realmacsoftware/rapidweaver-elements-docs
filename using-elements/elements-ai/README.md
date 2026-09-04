@@ -55,3 +55,33 @@ The **AI Wiki** appears below **Pages** in the left-hand sidebar. It is a place 
 For example, AI can record your preferred tone of voice or a design decision in the wiki and refer to it when making later changes. This helps it build on the context already recorded for your project.
 
 If you want to add or correct information, ask the AI to update the relevant wiki entry.
+
+## See Elements AI in action
+
+These videos were recorded with in-development versions of Elements. They give you an idea of what's possible, but some features, settings, and workflows may look different in the version you're using.
+
+The videos are listed oldest first by publication date.
+
+1. **[Elements AI can redesign your website in a single prompt](https://youtu.be/-ka3Aj2Za0w)** — 23 June 2026
+
+   See how a single prompt can change the look of an existing website.
+
+2. **[Elements AI can now build blogs](https://youtu.be/4FFZ5X8qLME)** — 30 June 2026
+
+   A look at using Elements AI to fix Markdown issues and build a blog.
+
+3. **[Elements AI Makes Tables Effortless](https://youtu.be/iplTPFAu_zc)** — 21 July 2026
+
+   See how Elements AI can help you present data in a table on your website.
+
+4. **[Elements AI Dev Diary: Context aware image generation](https://youtu.be/5RkD4gD8IRs)** — 23 July 2026
+
+   An early look at generating images with awareness of your project's context.
+
+5. **[Elements AI: From Sketch to Website](https://youtu.be/bqwVZ7xUBLE)** — 29 July 2026
+
+   Watch a sketch become a working website with the help of Elements AI.
+
+6. **[Building a webpage with Elements AI](https://youtu.be/APC7JV6HvDw)** — 30 July 2026
+
+   A relaxed demonstration of trying different prompts with the AI Assistant to build a webpage.
