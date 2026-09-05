@@ -7,7 +7,7 @@ icon: screwdriver-wrench
 
 The Advanced section lets you fine-tune your project’s output and local preview behaviour. These options are optional but useful when you need more control.
 
-<figure><img src="../../.gitbook/assets/advanced-settings (2).jpg" alt="Advanced Project Settings showing site output options including Generate AI Markdown"><figcaption><p>Advanced Section in the Project Settings Window</p></figcaption></figure>
+<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2FivRqr6ikEiUBat7G5QFc%2Fadvanced-settings.jpg?alt=media" alt="Advanced Project Settings showing site options, AI Markdown, web server port, and QR code for device preview"><figcaption><p>Advanced Section in the Project Settings Window</p></figcaption></figure>
 
 ### Site Options
 
@@ -38,6 +38,10 @@ Sets the file extension used for new pages, typically html, but you can change t
 
 Configure the local web server used by Elements when previewing your site:
 
-* Auto: Automatically chooses an available port.
-* Restart Web Server: Use this if the preview server isn’t running correctly.
-* Automatically start web server on document open: Handy if you want preview to be ready as soon as you open a project.
+* **Auto:** Automatically chooses an available port.
+* **Restart Web Server:** Starts or restarts the local preview server and regenerates the QR code. Use this if preview isn’t working, or if the QR code is missing.
+* **Automatically start web server on document open:** Handy if you want preview to be ready as soon as you open a project.
+
+When the web server is running, a QR code appears in this section. Point your iPhone or iPad camera at it to open a live preview of your site on that device. You can also copy the local URL shown beside the port.
+
+If the QR code doesn’t appear, the web server isn’t running yet — press **Restart Web Server** to start it.
