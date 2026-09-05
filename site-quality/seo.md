@@ -30,13 +30,21 @@ The following practices can help search engines understand and index your websit
 3. Structure URLs so they are easy to read
 4. Use the correct heading tags
 5. Add alt text to images
-6. Use a [sitemap](sitemap.xml.md), which Elements generates automatically
+6. Use a sitemap, which Elements generates automatically
+
+### llms.txt and AI Markdown
+
+Agents look for a root `llms.txt` and optional Markdown twins of your pages.
+
+* Add `llms.txt` at the site root: Page Manager → New File → rename to `llms.txt`. Publish and export include it like `robots.txt`.
+* Ask the Assistant (or a connected MCP client) to write or update that file from your pages.
+* Turn on **Generate AI Markdown for every page** in Project Settings → Advanced to publish `<page>.html.md` beside each HTML or PHP page on publish/export. Preview does not write these files. Turning the option off does not remove previously uploaded `.md` files.
 
 ### How to Set Image Alt Text
 
 Image descriptions help users, search engines and accessibility tools understand your content. Set them using the **Description** control in the Image component.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-03-06 at 10 .22.37@2x.png" alt="Image resource selected with its Description field highlighted in the Inspector"><figcaption><p>Setting an Image Description in Elements</p></figcaption></figure>
+<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2FKLUlyH1deuqnXJ6us6J1%2FCleanShot%202025-03-06%20at%2010%E2%80%AF.22.37%402x.png?alt=media&#x26;token=120f4ad2-dada-498c-815d-ee3b409c385f" alt="Image resource selected with its Description field highlighted in the Inspector"><figcaption><p>Setting an Image Description in Elements</p></figcaption></figure>
 
 #### Why Image Alt Text Matters
 
@@ -52,7 +60,7 @@ Image descriptions help users, search engines and accessibility tools understand
 
 Elements offers a dedicated Metadata panel for setting per-page titles, descriptions, and common Open Graph tags for social sharing.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2025-05-09 at 8 .42.25@2x.png" alt="Page Inspector showing editable SEO title, description and social image metadata"><figcaption><p>Setting Metadata in Elements</p></figcaption></figure>
+<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2FJNbnS5dATgKflcZK2zfa%2FCleanShot%202025-05-09%20at%208%E2%80%AF.42.25%402x.png?alt=media&#x26;token=90da88a9-d457-4701-ba72-3971d29b106f" alt="Page Inspector showing editable SEO title, description and social image metadata"><figcaption><p>Setting Metadata in Elements</p></figcaption></figure>
 
 ### Website SEO Checklist
 
@@ -66,8 +74,8 @@ Use this checklist before launching your website:
   Set alt text for every meaningful image using the Image component’s **Description** field. This improves accessibility and image SEO.
 * [ ] **Clean, Human-Friendly URLs**\
   Keep filenames and paths tidy: `/about`, `/contact`, `/services/web-design`, etc. This makes navigation easier for humans _and_ robots.
-* [ ] **Sitemap & robots.txt**\
-  Elements automatically generates `sitemap.xml`. You can [create a `robots.txt` file](robots.txt.md) by adding a plain-text file to the Page Manager.
+* [ ] **Sitemap, robots.txt & llms.txt**\
+  Elements automatically generates `sitemap.xml`. You can create a `robots.txt` file by adding a plain-text file to the Page Manager. Add a root `llms.txt` the same way (or ask the Assistant), and optionally enable **Generate AI Markdown for every page** in Advanced.
 * [ ] **Optimise Images & Media**\
   Compress images before importing them using an app such as Squash or ImageOptim. Faster pages provide a better experience for visitors.
 * [ ] **Descriptive Anchor Text**\
