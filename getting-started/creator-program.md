@@ -1,12 +1,12 @@
 ---
-description: A programme for YouTube creators and bloggers
+description: Open to creators covering apps, tech, and web design
 ---
 
 # Creator Program
 
-One of the things we care deeply about with Elements is how it’s talked about. We're after clear and honest coverage from people who actually build websites.
+One of the things we care deeply about with Elements is how it’s talked about. We're after clear and honest coverage from people who actually build things — websites, apps, and tech products.
 
-We’re inviting YouTube creators and bloggers to spend real time with Elements, create thoughtful coverage, and share it with your audience. In return, you'll get a year of Elements Pro valued at $250, and $100 per video/post, with an opportunity for a lifetime license.
+We’re inviting creators to spend real time with Elements, create thoughtful coverage, and share it with your audience. That includes YouTube and blogs, and also channels like X.com, Medium, Reddit, and Instagram. In return, you'll get a year of Elements Pro valued at $250, and $100 per video/post, with an opportunity for a lifetime license.
 
 ### Why We’re Doing This
 
@@ -16,23 +16,23 @@ The people we want talking about Elements are the ones who:
 
 * Care about how tools are built
 * Explain workflows, not just features
-* Speak to designers, developers, and indie makers
+* Speak to designers, developers, indie makers, and people who care about apps and tech
 
 ### What Creators Get
 
 Creators accepted into the program receive:
 
 * **One full year of Elements Pro worth $249 (USD)**
-* $100 per video or blog article (up to $500 in total).
+* $100 per video or post (up to $500 in total).
 * Promotion of your content through Elements channels
 
-If your videos and articles are high quality and you plan to cover Elements again or on an ongoing basis, we will award lifetime licences.
+If your coverage is high quality and you plan to cover Elements again or on an ongoing basis, we will award lifetime licences.
 
 ### What We Ask in Return
 
 In exchange, we ask for:
 
-* One dedicated YouTube video or in-depth blog post
+* One dedicated piece of coverage — a YouTube video, in-depth blog or Medium article, or a thoughtful post on channels like X.com, Reddit, or Instagram
 * Coverage based on real use, not a script
 * A link back to the Elements website
 
@@ -40,20 +40,15 @@ We actively encourage honest opinions. If something feels awkward or could be be
 
 ### Who This Is For
 
-This program isn’t open to everyone.
+This program is open to anyone who’s interested in covering Elements thoughtfully.
 
-We’re looking for creators who:
+We’re especially glad to hear from creators who:
 
-* Cover web design, macOS apps, no-code tools, or indie development
-* Have an audience that builds websites
-* Publish consistently and thoughtfully
+* Cover apps, tech, web design, macOS software, no-code tools, or indie development
+* Publish on YouTube, blogs, Medium, X.com, Reddit, Instagram, or similar
+* Care about honest, useful coverage over hype
 
-As a rough guide:
-
-* YouTube channels with 5,000+ subscribers
-* Blogs with established readership and original content
-
-Quality always comes before numbers.
+Quality always comes before numbers. You don’t need a huge audience — thoughtful work for the right readers matters more.
 
 ### How the Application Works
 
@@ -61,7 +56,7 @@ We’ve set up a simple application process so expectations are clear on both si
 
 Tell us the following:
 
-* Where you publish
+* Where you publish (YouTube, blog, Medium, X.com, Reddit, Instagram, etc.)
 * The size and type of your audience
 * What kind of content you plan to create
 * Why Elements is a good fit for your readers or viewers
