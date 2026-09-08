@@ -11,6 +11,23 @@ The Inspector is context-aware, meaning the options change depending on which co
 
 {% embed url="https://youtu.be/e3SSIyd9H8U" %}
 
+## Component display modes
+
+Use the display menu beneath the component name in the Inspector to control whether a component appears on the editor canvas and whether it is included in browser previews and published output.
+
+| Option | Editor canvas | Browser preview and published output |
+| --- | --- | --- |
+| **Visible** | Visible | Included |
+| **Hide in Editor** | Hidden | Included |
+| **Do Not Publish** | Visible | Excluded |
+| **Hide and Do Not Publish** | Hidden | Excluded |
+
+**Hide and Do Not Publish** is useful for unfinished or temporarily disabled content that you want to keep in your project. The component and its content remain in the project, but they do not appear on the editor canvas, in browser previews, or on the published website.
+
+You can still find, select, edit, and restore a hidden component in **Page Layout**.
+
+When you apply **Do Not Publish** or **Hide and Do Not Publish** to a container, the container and everything inside it are excluded from browser previews and published output. The individual display modes stored on its child components are not changed.
+
 ### Group Defaults
 
 When you change any value within a group, the group title highlights using the system accent colour. This makes it easy to spot which settings have been modified on a component at a glance.
