@@ -70,6 +70,19 @@ You can change details such as:
 * Author (images)
 * Link URL (all file types)
 
+#### Image Alt Text
+
+In Elements 3.0 and later, set alternative text on the image resource rather than on each Image component:
+
+1. Open **Resources** in the left sidebar.
+2. Select the image.
+3. Open the **Resource Info** panel.
+4. Enter a concise description in **Alt Text**.
+
+Every Image component that uses the resource uses this alt text. Edit the resource's **Alt Text** to update it everywhere that image is used.
+
+See [Image](components/image.md#alternative-text) for Custom and CMS image guidance.
+
 ### Creating Folders
 
 Right-click in Resources and select **New Folder**.

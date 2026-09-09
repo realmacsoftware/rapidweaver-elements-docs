@@ -19,7 +19,7 @@ You’ll find Image under **Media** in the Components list.
 1. Drag **Image** onto the page.
 2. Choose Resource, Custom, or CMS.
 3. Select or enter both Light and Dark sources if needed.
-4. Add alternative text or complete the image metadata in Resources.
+4. For a Resource image, select the image in Resources and add its Alt Text in the Resource Info panel. For Custom and CMS images, add the alternative text in the Image component.
 5. Configure file sizing, loading, aspect ratio, and optional lightbox or mask.
 
 ### Component Settings
@@ -37,6 +37,23 @@ You’ll find Image under **Media** in the Components list.
 The dark image is shown automatically when the visitor’s browser or operating system is set to dark mode (`prefers-color-scheme: dark`). If no dark image is set, the light image is used everywhere.
 
 Custom mode displays **Source**. CMS mode displays **Field**, which defaults to `{{item.image.src}}`. Both modes provide **Alt** text.
+
+#### Alternative text
+
+In Elements 3.0 and later, alternative text for a Resource image is stored on the image resource:
+
+1. Open **Resources** in the left sidebar.
+2. Select the image.
+3. Open the **Resource Info** panel.
+4. Enter a concise description in **Alt Text**.
+
+Every Image component that uses the resource uses this alt text. Changing it in Resources updates those uses.
+
+Custom and CMS images are not backed by an image resource, so set their **Alt** text in the Image component instead.
+
+{% hint style="info" %}
+CSS background images do not have an HTML `alt` attribute. If an image conveys meaningful content, use an Image component and provide alternative text.
+{% endhint %}
 
 The Field value must be a Twig expression that outputs the image's URL, like the default `{{item.image.src}}`. Typing a front matter key on its own (for example `image`) won't work — wrap it as an expression, e.g. `{{item.image}}` if your front matter stores the URL directly.
 

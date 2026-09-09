@@ -42,9 +42,16 @@ Agents look for a root `llms.txt` and optional Markdown twins of your pages.
 
 ### How to Set Image Alt Text
 
-Image descriptions help users, search engines and accessibility tools understand your content. Set them using the **Description** control in the Image component.
+Alternative text helps users, search engines, and accessibility tools understand your images.
 
-<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2FKLUlyH1deuqnXJ6us6J1%2FCleanShot%202025-03-06%20at%2010%E2%80%AF.22.37%402x.png?alt=media&#x26;token=120f4ad2-dada-498c-815d-ee3b409c385f" alt="Image resource selected with its Description field highlighted in the Inspector"><figcaption><p>Setting an Image Description in Elements</p></figcaption></figure>
+In Elements 3.0 and later, alt text for a Resource image is stored on the image resource and reused by every Image component that uses it:
+
+1. Open **Resources** in the left sidebar.
+2. Select the image.
+3. Open the **Resource Info** panel.
+4. Enter a concise description in **Alt Text**.
+
+For Custom and CMS images, set **Alt** in the Image component instead. See [Image](../elements/components/image.md#alternative-text) for complete guidance.
 
 #### Why Image Alt Text Matters
 
@@ -71,7 +78,7 @@ Use this checklist before launching your website:
 * [ ] **Use Proper Headings (H1, H2, H3…)**\
   Use one H1 per page, then nest H2 and H3 headings in a logical order. Set these using the Heading component.
 * [ ] **Image ALT Text**\
-  Set alt text for every meaningful image using the Image component’s **Description** field. This improves accessibility and image SEO.
+  Set alt text for every meaningful Resource image using **Alt Text** in its Resource Info panel. For Custom and CMS images, use the Image component’s **Alt** field.
 * [ ] **Clean, Human-Friendly URLs**\
   Keep filenames and paths tidy: `/about`, `/contact`, `/services/web-design`, etc. This makes navigation easier for humans _and_ robots.
 * [ ] **Sitemap, robots.txt & llms.txt**\
