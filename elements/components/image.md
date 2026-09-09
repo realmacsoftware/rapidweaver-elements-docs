@@ -8,11 +8,14 @@ The Image component displays a project resource, custom URL, or CMS image. It su
 
 {% embed url="https://youtu.be/tB5oOctRItM" %}
 
-### Supported Content and File Types
-
-Use Image for bitmap resources such as JPG and PNG. Use the [SVG component](svg.md) when the vector artwork itself needs fill or stroke styling.
-
 ### How to Use Image
+
+The Image component supports these image formats:
+
+* **JPEG** — `.jpg` and `.jpeg`
+* **PNG** — `.png`
+
+SVG files are not supported by the Image component. Use the [SVG component](svg.md) for vector artwork, including logos and icons that need fill or stroke styling.
 
 You’ll find Image under **Media** in the Components list.
 
