@@ -105,7 +105,7 @@ Give the Assistant a precise target by adding project items to your message. You
 
 Each item appears as a named chip in the message. You can add several items and then describe how they should be used together. For example, you could target a Text component on a particular page and provide an image to use as its background.
 
-<figure><img src="../../.gitbook/assets/elements-ai-target-page-component-image.png" alt="Elements AI Assistant message targeting a Text component, the Confirm page, and the purple-gradient.png image"><figcaption><p>Drag pages, components, and images into the message to give the Assistant specific targets and context.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/elements-ai-target-page-component-image.png" alt="Elements AI Assistant message targeting the Hero section and the purple-gradient.png image"><figcaption><p>Dropped items appear as named chips, making it clear which component and image the Assistant should use.</p></figcaption></figure>
 
 To remove an item before sending, click the **×** on its preview or context chip. Adding an item to the message does not move or remove it from your project.
 
