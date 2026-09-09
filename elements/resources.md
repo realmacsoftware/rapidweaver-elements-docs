@@ -10,7 +10,7 @@ Resources include the images, fonts, documents, media and folders used by your w
 {% embed url="https://www.youtube.com/watch?v=yDEEhLlVUuU" %}
 
 {% hint style="success" %}
-All resources added to a project will be included when publishing or exporting your website.
+Local resources added to a project are included when publishing or exporting your website. Remote resources keep using their original external URLs.
 {% endhint %}
 
 ### Adding Local Resources
@@ -81,19 +81,27 @@ In Elements 3.0 and later, set alternative text on the image resource rather tha
 
 Every Image component that uses the resource uses this alt text. Edit the resource's **Alt Text** to update it everywhere that image is used.
 
-See [Image](components/image.md#alternative-text) for Custom and CMS image guidance.
+**Custom image URLs:** To use a remotely hosted image directly in an Image component, select the component and set **Type** to **Custom**. Paste the image URL into **Source**, then enter its alternative text in the **Alt** field below the URL. This is useful for a one-off remote image that you do not need to add to Resources.
+
+**Remote image resources:** If you want to reuse a remote image, add its URL through **Add Remote Resources**. Select the resulting image in Resources and enter its alternative text in the **Resource Info** panel, just as you would for a local image. The image remains hosted remotely and is not copied into your project.
+
+See [Image](components/image.md#alternative-text) for more Custom and CMS image guidance.
 
 ### Creating Folders
 
 Right-click in Resources and select **New Folder**.
 
-### Adding Remote Resources
+### Adding Remote Resources (Warehouse Images)
 
-Right-click in Resources and select **Add Remote Resources**.
+RapidWeaver Classic users may know externally hosted images as **Warehouse images**, and the process of using them as **warehousing images**. Elements calls these **Remote Resources**.
+
+Right-click the **Resources** heading and select **Add Remote Resources**.
 
 <figure><img src="../.gitbook/assets/CleanShot 2025-08-26 at 9 .36.58@2x.png" alt="Resources contextual menu with Add Remote Resources selected"><figcaption></figcaption></figure>
 
 You can add one or more remote URLs at a time. Place each remote resource on a new line. The Remote Resources window also supports multiple Vimeo and YouTube URLs.
+
+For a remote image, select it in Resources and use the **Resource Info** panel to add its **Alt Text**, caption, author, or link. Elements stores the external URL and metadata in your project, but it does not download or publish a copy of the remote file. If the original URL changes or becomes unavailable, the image will no longer load on your website.
 
 <figure><img src="../.gitbook/assets/CleanShot 2026-07-16 at 3 .15.23@2x.png" alt="Add Remote Resources dialog containing multiple media URLs on separate lines"><figcaption></figcaption></figure>
 
