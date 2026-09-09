@@ -8,6 +8,48 @@ The built-in Elements MCP (Model Context Protocol) server lets compatible AI too
 
 Keep Elements running with your project open while using a connected AI tool.
 
+## What MCP adds
+
+The MCP server acts as a bridge between Elements and your AI client. Elements provides the client with tools for understanding and changing the open project, while the client supplies the AI model and conversation.
+
+You do not need to add an OpenAI or Anthropic API key to Elements when you work through MCP. Sign in to your chosen AI client or configure its model provider, then connect that client to the MCP server.
+
+Through a compatible client, you can:
+
+* Inspect a project's pages, components, resources, Theme, and design system before making changes.
+* Create, edit, duplicate, move, and organise pages and components.
+* Build and refine custom components.
+* Add resources and work with CMS content.
+* Read the AI Wiki for project context and update it with useful decisions and notes.
+* Review a project for inconsistent content, layout, styling, or structure.
+
+The exact experience depends on the AI client and model you use. The client decides how it plans a task, which Elements tools it calls, and what other files or services it can work with.
+
+## Ways to use MCP
+
+MCP works well for focused page edits and for larger jobs that involve several parts of a project. For example:
+
+> Review the Home and About pages, then make their headings, spacing, and calls to action consistent with the existing design system.
+
+> Build a reusable testimonial component with Inspector controls for the quote, name, role, portrait, and alignment. Add it below the services section.
+
+> Read the project brief from the AI Wiki, inspect the current pages, and create a Contact page that matches the rest of the site.
+
+An external client may also be able to combine Elements with context outside the project, such as a brief, a folder of images, source code, or another connected service. What is available depends on that client's features and permissions.
+
+## Why choose MCP over the AI Assistant?
+
+The built-in [Elements AI Assistant](elements-ai-assistant.md) is the quickest option when you want to stay inside Elements. It supports direct chat, drag-and-drop targeting, and image generation with an OpenAI API key. Requests made with your own OpenAI or Anthropic key are metered and billed separately by that provider.
+
+MCP is often a better fit when you:
+
+* Already use a compatible AI client and prefer its models, conversation history, instructions, or skills.
+* Want the AI to work with both your Elements project and files or tools outside Elements.
+* Need help with a larger task that benefits from planning and several coordinated steps.
+* Have an AI subscription that includes usage and would rather use that allowance than pay separate API charges.
+
+Many paid AI subscriptions include a substantial amount of usage for a fixed monthly price. For regular or intensive work, using that subscribed client through MCP can therefore cost less than using a separately billed API key in Elements. MCP itself does not include an AI subscription, and the cheaper option depends on your client's plan limits, the model, and how much you use it. Occasional API use may still cost less.
+
 ## Enable the MCP server
 
 1. In Elements, open **Settings** to show the Preferences window.
