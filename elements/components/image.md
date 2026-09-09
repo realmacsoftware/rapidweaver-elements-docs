@@ -14,6 +14,7 @@ The Image component supports these image formats:
 
 * **JPEG** — `.jpg` and `.jpeg`
 * **PNG** — `.png`
+* **WebP** — `.webp`
 
 SVG files are not supported by the Image component. Use the [SVG component](svg.md) for vector artwork, including logos and icons that need fill or stroke styling.
 
