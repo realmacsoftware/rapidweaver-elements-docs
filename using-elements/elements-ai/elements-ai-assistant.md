@@ -95,11 +95,12 @@ Keeping this information in the wiki helps future conversations start with the s
 
 ## Add context and use skills
 
-Give the Assistant a precise target by adding project items to your message. You can drag and drop:
+Give the Assistant a precise target by adding items to your message. You can drag and drop:
 
 * A **page** from the Pages sidebar.
 * A **component** from the canvas.
 * An **image** from your project resources.
+* **Images and other files** from Finder.
 
 <figure><img src="../../.gitbook/assets/elements-ai-target-component-and-image-workspace.png" alt="Elements with a Hero section selected and an AI Assistant message targeting the Hero component and purple-gradient.png image"><figcaption><p>Target a component and attach an image while you continue working in the editor.</p></figcaption></figure>
 
