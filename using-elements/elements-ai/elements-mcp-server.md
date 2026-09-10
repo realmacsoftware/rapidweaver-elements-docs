@@ -21,9 +21,16 @@ Through a compatible client, you can:
 * Build and refine custom components.
 * Add resources and work with CMS content.
 * Read the AI Wiki for project context and update it with useful decisions and notes.
+* Look up the Elements documentation.
 * Review a project for inconsistent content, layout, styling, or structure.
+* Open, create, close, or switch projects, which the built-in Assistant cannot do.
+* Publish the site.
+
+Image generation is the main thing MCP cannot do. It needs an OpenAI API key added to Elements and is only available in the built-in Assistant.
 
 The exact experience depends on the AI client and model you use. The client decides how it plans a task, which Elements tools it calls, and what other files or services it can work with.
+
+For a side-by-side list of what each option can do, see [What each option can do](README.md#what-each-option-can-do).
 
 ## Ways to use MCP
 
@@ -39,7 +46,9 @@ An external client may also be able to combine Elements with context outside the
 
 ## Why choose MCP over the AI Assistant?
 
-The built-in [Elements AI Assistant](elements-ai-assistant.md) is the quickest option when you want to stay inside Elements. It supports direct chat, drag-and-drop targeting, and image generation with an OpenAI API key. Requests made with your own OpenAI or Anthropic key are metered and billed separately by that provider.
+The built-in [Elements AI Assistant](elements-ai-assistant.md) is the quickest option when you want to stay inside Elements. It supports direct chat, drag-and-drop targeting, one-pass copy rewrites, and image generation with an OpenAI API key. Requests made with your own OpenAI or Anthropic key are metered and billed separately by that provider.
+
+In an MCP client there is nothing to drag onto a message, so describe the page or component you mean, or use that client's own way of attaching files.
 
 MCP is often a better fit when you:
 
