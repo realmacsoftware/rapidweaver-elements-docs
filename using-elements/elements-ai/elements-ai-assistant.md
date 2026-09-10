@@ -69,6 +69,14 @@ With an OpenAI API key, the Assistant can generate images for your project. Desc
 
 > Create a warm, editorial photograph for this bakery hero. Leave clear space in the centre for the headline.
 
+### Rewrite the copy on a page in one pass
+
+When you want the wording changed across a whole page, or across the components you have selected, ask for a rewrite rather than a series of small edits. The Assistant makes the changes in one pass and shows them as a card in the conversation.
+
+> Rewrite the copy on this page in British English and tighten every paragraph.
+
+Expand the card to see each change, then click **Accept** to keep the rewrite or **Undo** to put the original text back.
+
 ### Create and refine custom components
 
 Ask the Assistant to build a custom component when the standard components do not provide the behaviour you need. It can create the component code and add native Inspector controls for settings you may want to adjust later.
@@ -137,6 +145,8 @@ Focused context helps the Assistant understand exactly which part of the project
 The built-in Assistant is the simplest way to work with AI inside Elements. If you prefer to use an external AI client such as Claude Desktop, Codex, Cursor, or LM Studio, connect it through the [Elements MCP Server](elements-mcp-server.md).
 
 Both approaches work with the project open in Elements, but their setup is separate: the Assistant uses **Settings > AI > API Keys**, while external clients connect through **Settings > AI > MCP Server**.
+
+For a side-by-side list of what each option can do, see [What each option can do](README.md#what-each-option-can-do). In short, the Assistant is the only option that generates images, rewrites page copy in one pass, and lets you drag pages, components, and files onto a message. An external client is the only option that can open, create, close, or switch projects.
 
 ### Comparing costs
 

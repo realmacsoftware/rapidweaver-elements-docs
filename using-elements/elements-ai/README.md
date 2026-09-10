@@ -13,6 +13,38 @@ Elements supports two ways to work with AI: use the **Elements AI Assistant** in
 If you prefer to work without AI, you can simply hide the AI Panel and continue building as usual.
 {% endhint %}
 
+## What each option can do
+
+Both options work on the project you have open in Elements, and both can do most of the same things. The table shows what is available with each one today.
+
+| What you can do | AI Assistant | MCP client |
+| --- | --- | --- |
+| Inspect the project's pages, components, Theme, design system, and Resources | Yes | Yes |
+| Build and edit pages | Yes | Yes |
+| Create and refine custom components | Yes | Yes |
+| Work with CMS content | Yes | Yes |
+| Add and use Resources | Yes | Yes |
+| Look up the Elements documentation | Yes | Yes |
+| Publish the site | Yes | Yes |
+| Read and update the AI Wiki | Yes | Yes |
+| Chat inside Elements | Yes | — |
+| Drop pages, components, and files onto a message | Yes | — |
+| Generate images | Yes | — |
+| Rewrite the copy on a page in one pass, then accept or undo it | Yes | — |
+| Read a web page you link to | Yes | — |
+| Break a large research or planning job into helper tasks | Yes | — |
+| Show a live task list in the conversation | Yes | — |
+| Open, create, close, or switch projects | — | Yes |
+| Use the AI client you already subscribe to | — | Yes |
+| Combine your project with files and tools outside Elements | — | Yes |
+
+A few points worth knowing:
+
+* **The AI Wiki is shared.** Whichever option you use, AI reads and writes the same wiki for that project.
+* **Image generation is only in the Assistant**, and it needs an OpenAI API key added to Elements.
+* **Pointing at something precisely** by dragging a page, component, or file onto a message is an Assistant feature. In an MCP client you describe what you want changed, or use that client's own way of attaching files.
+* **Your AI client may add its own abilities.** The table describes what Elements provides, so a client such as Cursor or Claude Desktop may still offer its own web browsing, planning, or task list.
+
 ## Elements AI Assistant: use your own API key
 
 The built-in Elements AI Assistant lets you chat about your project and edit pages directly in Elements using your own provider account.
@@ -51,6 +83,8 @@ Keep Elements running with your project open while using the connected client. S
 The **AI Wiki** appears below **Pages** in the left-hand sidebar. It is a place for AI to keep information about your project, such as its purpose, page structure, writing style, visual direction, and plans.
 
 **The AI Wiki is read-only for humans.** You can browse and read its entries in Elements, but you cannot edit them directly. AI can write and update wiki entries, then use them as context when working on your project.
+
+There is one wiki per project. The built-in Assistant and a connected AI client read and write the same entries, so context recorded through one option is available to the other.
 
 For example, AI can record your preferred tone of voice or a design decision in the wiki and refer to it when making later changes. This helps it build on the context already recorded for your project.
 
