@@ -68,7 +68,7 @@ Many paid AI subscriptions include a substantial amount of usage for a fixed mon
 
 The full settings path is **Settings > AI > MCP Server**. The screenshot below shows the server enabled, with a green status indicator and the URL `http://localhost:9712/mcp`.
 
-<figure><img src="../../.gitbook/assets/elements-mcp-server-preferences.png" alt="Elements Preferences showing AI > MCP Server, the enabled Allow AI tools to interact with Elements switch, the connection URL, and the Install in Claude Desktop button"><figcaption><p>Enable the MCP server and connect your AI client in Settings > AI > MCP Server.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/elements-mcp-server-preferences.png" alt="Elements Preferences showing AI > MCP Server, the enabled connection URL, and buttons to install in Claude Desktop and ChatGPT Desktop"><figcaption><p>Enable the MCP server and use the connection URL or a bundled desktop installer in Settings > AI > MCP Server.</p></figcaption></figure>
 
 ## AI options that affect MCP
 
@@ -86,6 +86,8 @@ Elements includes a bundled extension so Claude Desktop can connect without manu
 4. Keep your Elements project open, then use Claude Desktop to work with it.
 
 ## Use ChatGPT in Work mode
+
+In **Settings > AI > MCP Server**, click **Install in ChatGPT…** to install the bundled plug-in for ChatGPT Desktop and Codex without manual configuration.
 
 ChatGPT must be in **Work mode** to use the Elements MCP server. A regular Chat conversation cannot attach directly to an arbitrary local MCP address such as `localhost:9712/mcp`.
 

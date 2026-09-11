@@ -79,7 +79,7 @@ See [Elements AI Assistant](elements-ai-assistant.md) for the full API key setup
 
 The Elements MCP Server lets compatible AI tools, such as **Cursor**, **Codex**, and **Claude Desktop**, work with the project you have open in Elements.
 
-Open **Settings > AI > MCP Server** and turn on **Allow AI tools to interact with Elements**. Copy the connection URL into your AI client's MCP settings, or use **Install in Claude Desktop…** to install the bundled Claude Desktop extension.
+Open **Settings > AI > MCP Server** and turn on **Allow AI tools to interact with Elements**. Copy the connection URL into your AI client's MCP settings, use **Install in Claude Desktop…**, or use **Install in ChatGPT…** to install the bundled plug-in for ChatGPT Desktop and Codex.
 
 If you use **ChatGPT**, switch the conversation to **Work mode** before connecting to Elements. Elements MCP does not run in a regular Chat conversation because that environment cannot attach directly to a local MCP address such as `localhost:9712/mcp`.
 
