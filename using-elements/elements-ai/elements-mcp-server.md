@@ -20,7 +20,7 @@ Through a compatible client, you can:
 * Create, edit, duplicate, move, and organise pages and components.
 * Build and refine custom components.
 * Add resources and work with CMS content.
-* Read the AI Wiki for project context and update it with useful decisions and notes.
+* Read AI Memory for project context and update it with useful decisions and notes when memory is enabled.
 * Look up the Elements documentation.
 * Review a project for inconsistent content, layout, styling, or structure.
 * Open, create, close, or switch projects, which the built-in Assistant cannot do.
@@ -40,7 +40,7 @@ MCP works well for focused page edits and for larger jobs that involve several p
 
 > Build a reusable testimonial component with Inspector controls for the quote, name, role, portrait, and alignment. Add it below the services section.
 
-> Read the project brief from the AI Wiki, inspect the current pages, and create a Contact page that matches the rest of the site.
+> Read the project brief from AI Memory, inspect the current pages, and create a Contact page that matches the rest of the site.
 
 An external client may also be able to combine Elements with context outside the project, such as a brief, a folder of images, source code, or another connected service. What is available depends on that client's features and permissions.
 
@@ -69,6 +69,12 @@ Many paid AI subscriptions include a substantial amount of usage for a fixed mon
 The full settings path is **Settings > AI > MCP Server**. The screenshot below shows the server enabled, with a green status indicator and the URL `http://localhost:9712/mcp`.
 
 <figure><img src="../../.gitbook/assets/elements-mcp-server-preferences.png" alt="Elements Preferences showing AI > MCP Server, the enabled Allow AI tools to interact with Elements switch, the connection URL, and the Install in Claude Desktop button"><figcaption><p>Enable the MCP server and connect your AI client in Settings > AI > MCP Server.</p></figcaption></figure>
+
+## AI options that affect MCP
+
+Click the **AI** sparkles button in the document toolbar to open **AI Options** to control whether MCP clients can use **AI Memory** for the current project. AI Memory is enabled by default. When you turn it off, connected clients cannot read, search, or update the project memory; they can still inspect and edit the live project through the other Elements tools.
+
+The **Prefer Templates** option controls the built-in AI Assistant. An external AI client decides when to list or apply Elements templates through MCP, so give it an explicit instruction when you want a template-based section or page.
 
 ## Connect Claude Desktop
 

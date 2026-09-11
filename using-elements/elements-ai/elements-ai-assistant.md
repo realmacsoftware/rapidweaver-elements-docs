@@ -43,9 +43,35 @@ Once you have added an API key:
 3. Choose an available model from the menu at the bottom of the panel.
 4. Enter your request and send it to begin.
 
-<figure><img src="../../.gitbook/assets/elements-ai-assistant-and-wiki.png" alt="Elements showing The Little Bakery project, with the AI Wiki below Pages on the left and the AI Assistant open under the sparkles tab on the right"><figcaption><p>The AI Assistant is in the right-hand sidebar. The AI Wiki appears below Pages in the left-hand sidebar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/elements-ai-assistant-and-wiki.png" alt="Elements showing The Little Bakery project, with project memory below Pages on the left and the AI Assistant open under the sparkles tab on the right"><figcaption><p>The AI Assistant is in the right-hand sidebar. AI Memory appears below Pages in the left-hand sidebar; this development screenshot uses its earlier name, AI Wiki.</p></figcaption></figure>
 
 If the Assistant is missing from a custom workspace, right-click the panel icons to find and open it. You can also restore the default workspace.
+
+## Choose a model and effort
+
+The model menu at the bottom of the Assistant only shows models from providers whose API key you have saved:
+
+* An **OpenAI** key makes the supported OpenAI models available.
+* An **Anthropic** key makes the supported Claude models available.
+* If you add both keys, you can switch between both providers without leaving the chat.
+
+Elements uses a curated list of supported models, so the exact names can change as providers update their services.
+
+Use the effort menu beside the model to choose **Low**, **Medium**, **High**, **Extra high**, or **Max**. **Medium** is the default. A lower effort is useful for quick copy or styling changes. A higher effort can help with complex layouts, custom components, and multi-step work, but it may take longer and consume more tokens. Because you are using your own API key, greater token use can increase the amount billed by the provider.
+
+After the Assistant has responded, the footer below the message area shows the session’s input, output, and cached token totals. Use your provider’s account or usage dashboard for billing totals.
+
+## Set AI options for this project
+
+Click the **AI** sparkles button in the document toolbar to open **AI Options** to control how the Assistant works with the current project. Both options are enabled by default and saved with the project.
+
+### AI Memory
+
+Keep **AI Memory** on when you want the Assistant to read and maintain long-term project context. When you turn it off, the Assistant cannot read, search, or update AI Memory. It instead works from the current project state and the context in your conversation. This setting also controls whether connected MCP clients can use that project’s memory.
+
+### Prefer Templates
+
+Keep **Prefer Templates** on when you want the Assistant to favour Smart Templates while building a new section or page. Turn it off when you want it to compose from core components. You can still use a template with this option off by naming it, attaching it to your message, or explicitly asking for one. The change applies to new chats.
 
 ## What the AI Assistant can do
 
@@ -89,17 +115,17 @@ For a request involving several steps, the Assistant can make a plan, work throu
 
 > Rework this landing page for a photography workshop. Keep the existing header and footer, reuse the current colours, and make sure the page works well on mobile.
 
-### Use and maintain the AI Wiki
+### Use and maintain AI Memory
 
-The AI Wiki stores project-specific context such as the site's purpose, page structure, terminology, writing style, visual direction, decisions, and future work.
+AI Memory, called the AI Wiki in earlier versions of Elements, stores project-specific context such as the site's purpose, page structure, terminology, writing style, visual direction, decisions, and future work.
 
-The wiki is read-only for humans: you can browse its files in the left sidebar, but you cannot edit them directly. The Assistant can read the wiki for context and write or update entries as it learns about the project.
+AI Memory is read-only for humans: you can browse its files in the left sidebar, but you cannot edit them directly. When AI Memory is enabled, the Assistant can read it for context and write or update entries as it learns about the project.
 
 Ask the Assistant to record useful information or correct an existing entry:
 
-> Add our writing guidelines to the AI Wiki: use British English, short headings, and a calm, practical tone.
+> Add our writing guidelines to AI Memory: use British English, short headings, and a calm, practical tone.
 
-Keeping this information in the wiki helps future conversations start with the same project context.
+Keeping this information in AI Memory helps future conversations start with the same project context.
 
 ## Add context and use skills
 
@@ -124,8 +150,9 @@ The **+** menu in the message field provides another quick way to add context:
 
 * Choose **Add Selected Component(s)** to target the components currently selected on the canvas.
 * Choose **Add Current Page** to target the page currently open in the editor.
+* Choose **Add Files…** to select one or more supported images, text files, or PDFs without leaving Elements.
 
-<figure><img src="../../.gitbook/assets/elements-ai-add-context-menu.png" alt="The plus menu in the Elements AI Assistant showing Add Selected Components and Add Current Page"><figcaption><p>Use the + menu to add the selected components or current page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/elements-ai-add-context-menu.png" alt="The plus menu in the Elements AI Assistant showing Add Selected Components and Add Current Page"><figcaption><p>Use the + menu to add selected components, the current page, or files. This development screenshot predates the Add Files option.</p></figcaption></figure>
 
 You can also use `@` in the message field to add specific project context. Use `/` to browse available skills for specialised tasks. The options shown depend on the current project and version of Elements.
 

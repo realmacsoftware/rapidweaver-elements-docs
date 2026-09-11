@@ -1,11 +1,11 @@
 ---
-description: Use the built-in AI Assistant, connect external AI tools, and keep project context in the AI Wiki
+description: Use the built-in AI Assistant, connect external AI tools, and keep project context in AI Memory
 icon: hexagon-nodes-bolt
 ---
 
 # Elements AI
 
-Elements supports two ways to work with AI: use the **Elements AI Assistant** inside the app with your own API key, or connect an external AI tool through the **Elements MCP Server**. The **AI Wiki** gives AI a place to record and read context about your project.
+Elements supports two ways to work with AI: use the **Elements AI Assistant** inside the app with your own API key, or connect an external AI tool through the **Elements MCP Server**. **AI Memory** gives AI a place to record and read context about your project. Earlier versions of Elements called this the AI Wiki.
 
 {% hint style="warning" %}
 **AI features in Elements are entirely optional.** You remain in full control of when and how it’s used.
@@ -26,9 +26,10 @@ Both options work on the project you have open in Elements, and both can do most
 | Add and use Resources | Yes | Yes |
 | Look up the Elements documentation | Yes | Yes |
 | Publish the site | Yes | Yes |
-| Read and update the AI Wiki | Yes | Yes |
+| Read and update AI Memory | Yes | Yes |
 | Chat inside Elements | Yes | — |
-| Drop pages, components, and files onto a message | Yes | — |
+| Drop pages, components, templates, and files onto a message | Yes | — |
+| Choose a model and reasoning effort in Elements | Yes | Use the client’s controls |
 | Generate images | Yes | — |
 | Rewrite the copy on a page in one pass, then accept or undo it | Yes | — |
 | Read a web page you link to | Yes | — |
@@ -40,9 +41,9 @@ Both options work on the project you have open in Elements, and both can do most
 
 A few points worth knowing:
 
-* **The AI Wiki is shared.** Whichever option you use, AI reads and writes the same wiki for that project.
+* **AI Memory is shared.** Whichever option you use, AI reads and writes the same project memory when it is enabled.
 * **Image generation is only in the Assistant**, and it needs an OpenAI API key added to Elements.
-* **Pointing at something precisely** by dragging a page, component, or file onto a message is an Assistant feature. In an MCP client you describe what you want changed, or use that client's own way of attaching files.
+* **Pointing at something precisely** by dragging a page, component, template, or file onto a message is an Assistant feature. In an MCP client you describe what you want changed, or use that client's own way of attaching files.
 * **Your AI client may add its own abilities.** The table describes what Elements provides, so a client such as Cursor or Claude Desktop may still offer its own web browsing, planning, or task list.
 
 ## Elements AI Assistant: use your own API key
@@ -64,9 +65,11 @@ Once you have added an API key:
 2. Click the **sparkles icon** in the tabs at the top of the right-hand inspector sidebar.
 3. The **AI Assistant** opens in that sidebar. Enter your request in the message field at the bottom of the panel.
 
+The model menu only shows models from providers whose API key you have added. Use the effort menu beside it to choose how much reasoning the model should apply. **Medium** is the default; lower settings suit quick, simple changes, while higher settings can help with more complex work but may take longer and use more tokens.
+
 For example, you could ask it to create a banner for your business, refine the text on a page, or adjust a layout.
 
-<figure><img src="../../.gitbook/assets/elements-ai-assistant-and-wiki.png" alt="Elements showing The Little Bakery project, with the AI Wiki below Pages on the left and the AI Assistant open under the sparkles tab on the right"><figcaption><p>The AI Assistant is in the right-hand sidebar. The AI Wiki appears below Pages in the left-hand sidebar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/elements-ai-assistant-and-wiki.png" alt="Elements showing The Little Bakery project, with project memory below Pages on the left and the AI Assistant open under the sparkles tab on the right"><figcaption><p>The AI Assistant is in the right-hand sidebar. AI Memory appears below Pages in the left-hand sidebar; this development screenshot uses its earlier name, AI Wiki.</p></figcaption></figure>
 
 See [Elements AI Assistant](elements-ai-assistant.md) for the full API key setup instructions.
 
@@ -78,17 +81,22 @@ Open **Settings > AI > MCP Server** and turn on **Allow AI tools to interact wit
 
 Keep Elements running with your project open while using the connected client. See [Elements MCP Server](elements-mcp-server.md) for connection instructions and troubleshooting.
 
-## AI Wiki: context about your project
+## Control AI for each project
 
-The **AI Wiki** appears below **Pages** in the left-hand sidebar. It is a place for AI to keep information about your project, such as its purpose, page structure, writing style, visual direction, and plans.
+Click the **AI** sparkles button in the document toolbar to open **AI Options** to control how AI works with the current project. These settings are saved with that project and are enabled by default.
 
-**The AI Wiki is read-only for humans.** You can browse and read its entries in Elements, but you cannot edit them directly. AI can write and update wiki entries, then use them as context when working on your project.
+* **AI Memory** lets the Assistant and connected MCP clients read, search, and update the project’s memory. Turn it off when you want AI to work only from the current project state and the context you provide in the conversation.
+* **Prefer Templates** tells the built-in Assistant to start with Smart Templates when it builds a new section or page. Turn it off when you want the Assistant to compose from core components. You can still name, attach, or explicitly request a template. This setting applies to new chats.
 
-There is one wiki per project. The built-in Assistant and a connected AI client read and write the same entries, so context recorded through one option is available to the other.
+## AI Memory: context about your project
 
-For example, AI can record your preferred tone of voice or a design decision in the wiki and refer to it when making later changes. This helps it build on the context already recorded for your project.
+**AI Memory**, called the AI Wiki in earlier versions of Elements, appears below **Pages** in the left-hand sidebar. It keeps project-specific information such as the site’s purpose, page structure, writing style, visual direction, decisions, and plans.
 
-If you want to add or correct information, ask the AI to update the relevant wiki entry.
+**AI Memory is read-only for humans.** You can browse and read its entries in Elements, but you cannot edit them directly. When AI Memory is enabled, the Assistant and connected MCP clients can write and update entries, then use them as context when working on your project.
+
+There is one memory store per project. The built-in Assistant and a connected AI client use the same entries, so context recorded through one option is available to the other.
+
+For example, AI can record your preferred tone of voice or a design decision and refer to it when making later changes. If you want to add or correct information, ask the AI to update the relevant entry.
 
 ## See Elements AI in action
 
