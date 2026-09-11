@@ -67,7 +67,7 @@ Click the **AI** sparkles button in the document toolbar to open **AI Options** 
 
 ### AI Memory
 
-Keep **AI Memory** on when you want the Assistant to read and maintain long-term project context. When you turn it off, the Assistant cannot read, search, or update AI Memory. It instead works from the current project state and the context in your conversation. This setting also controls whether connected MCP clients can use that project’s memory.
+Keep **AI Memory** on when you want the Assistant to read and maintain long-term project context. Turning it off can make the Assistant faster because it skips memory lookup and maintenance, but it will not read or update that context for future conversations. It instead works from the current project state and the context in your conversation. This setting also controls whether connected MCP clients can use that project’s memory.
 
 ### Prefer Templates
 

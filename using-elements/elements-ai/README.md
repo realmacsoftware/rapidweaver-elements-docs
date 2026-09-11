@@ -79,13 +79,15 @@ The Elements MCP Server lets compatible AI tools, such as **Cursor**, **Codex**,
 
 Open **Settings > AI > MCP Server** and turn on **Allow AI tools to interact with Elements**. Copy the connection URL into your AI client's MCP settings, or use **Install in Claude Desktop…** to install the bundled Claude Desktop extension.
 
+If you use **ChatGPT**, switch the conversation to **Work mode** before connecting to Elements. Elements MCP does not run in a regular Chat conversation because that environment cannot attach directly to a local MCP address such as `localhost:9712/mcp`.
+
 Keep Elements running with your project open while using the connected client. See [Elements MCP Server](elements-mcp-server.md) for connection instructions and troubleshooting.
 
 ## Control AI for each project
 
 Click the **AI** sparkles button in the document toolbar to open **AI Options** to control how AI works with the current project. These settings are saved with that project and are enabled by default.
 
-* **AI Memory** lets the Assistant and connected MCP clients read, search, and update the project’s memory. Turn it off when you want AI to work only from the current project state and the context you provide in the conversation.
+* **AI Memory** lets the Assistant and connected MCP clients read, search, and update the project’s memory. Turning it off can make AI work faster because it skips memory lookup and maintenance, but it will not read or update that context for future conversations. AI can still work from the current project state and the context you provide in the conversation.
 * **Prefer Templates** tells the built-in Assistant to start with Smart Templates when it builds a new section or page. Turn it off when you want the Assistant to compose from core components. You can still name, attach, or explicitly request a template. This setting applies to new chats.
 
 ## AI Memory: context about your project

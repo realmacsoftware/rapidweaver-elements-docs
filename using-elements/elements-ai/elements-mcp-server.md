@@ -72,7 +72,7 @@ The full settings path is **Settings > AI > MCP Server**. The screenshot below s
 
 ## AI options that affect MCP
 
-Click the **AI** sparkles button in the document toolbar to open **AI Options** to control whether MCP clients can use **AI Memory** for the current project. AI Memory is enabled by default. When you turn it off, connected clients cannot read, search, or update the project memory; they can still inspect and edit the live project through the other Elements tools.
+Click the **AI** sparkles button in the document toolbar to open **AI Options** to control whether MCP clients can use **AI Memory** for the current project. AI Memory is enabled by default. Turning it off can make MCP work faster because the client skips memory lookup and maintenance, but it will not read or update that context for future conversations. Connected clients can still inspect and edit the live project through the other Elements tools.
 
 The **Prefer Templates** option controls the built-in AI Assistant. An external AI client decides when to list or apply Elements templates through MCP, so give it an explicit instruction when you want a template-based section or page.
 
@@ -84,6 +84,14 @@ Elements includes a bundled extension so Claude Desktop can connect without manu
 2. In the **Claude Desktop** section, click **Install in Claude Desktop…**.
 3. Follow the installation prompts in Claude Desktop.
 4. Keep your Elements project open, then use Claude Desktop to work with it.
+
+## Use ChatGPT in Work mode
+
+ChatGPT must be in **Work mode** to use the Elements MCP server. A regular Chat conversation cannot attach directly to an arbitrary local MCP address such as `localhost:9712/mcp`.
+
+If ChatGPT says that the current chat session does not have a connector that can attach to the local endpoint, the conversation is running in the wrong mode. Switch that conversation to **Work mode**, or start a new Work task, then ask it to connect to Elements again. Keep Elements running, leave the project open, and make sure **Allow AI tools to interact with Elements** is enabled.
+
+This message does not mean the Elements MCP server is broken; it means the current ChatGPT conversation cannot access local MCP connections. See the [Getting started with Codex and the MCP server in Elements](https://forums.realmacsoftware.com/t/getting-started-with-codex-and-the-mcp-server-in-elements-cms/56369) forum guide for another walkthrough.
 
 ## Connect Codex, Cursor, or another MCP client
 
@@ -117,6 +125,7 @@ If your AI client cannot connect or loses its connection:
 * Check that **Allow AI tools to interact with Elements** is switched on.
 * Check that the URL in your client matches the URL currently shown in Elements.
 * Reconnect or restart the MCP connection in your AI client.
+* If you are using ChatGPT, check that the conversation is in **Work mode**. MCP connections are unavailable in a regular Chat conversation.
 
 ## Turn off the MCP server
 
