@@ -1,5 +1,7 @@
 ---
-description: Use the built-in AI Assistant, connect external AI tools, and keep project context in AI Memory
+description: >-
+  Use the built-in AI Assistant, connect external AI tools, and keep project
+  context in AI Memory
 icon: hexagon-nodes-bolt
 ---
 
@@ -17,27 +19,27 @@ If you prefer to work without AI, you can simply hide the AI Panel and continue 
 
 Both options work on the project you have open in Elements, and both can do most of the same things. The table shows what is available with each one today.
 
-| What you can do | AI Assistant | MCP client |
-| --- | --- | --- |
-| Inspect the project's pages, components, Theme, design system, and Resources | Yes | Yes |
-| Build and edit pages | Yes | Yes |
-| Create and refine custom components | Yes | Yes |
-| Work with CMS content | Yes | Yes |
-| Add and use Resources | Yes | Yes |
-| Look up the Elements documentation | Yes | Yes |
-| Publish the site | Yes | Yes |
-| Read and update AI Memory | Yes | Yes |
-| Chat inside Elements | Yes | — |
-| Drop pages, components, templates, and files onto a message | Yes | — |
-| Choose a model and reasoning effort in Elements | Yes | Use the client’s controls |
-| Generate images | Yes | — |
-| Rewrite the copy on a page in one pass, then accept or undo it | Yes | — |
-| Read a web page you link to | Yes | — |
-| Break a large research or planning job into helper tasks | Yes | — |
-| Show a live task list in the conversation | Yes | — |
-| Open, create, close, or switch projects | — | Yes |
-| Use the AI client you already subscribe to | — | Yes |
-| Combine your project with files and tools outside Elements | — | Yes |
+| What you can do                                                              | AI Assistant | MCP client                |
+| ---------------------------------------------------------------------------- | ------------ | ------------------------- |
+| Inspect the project's pages, components, Theme, design system, and Resources | Yes          | Yes                       |
+| Build and edit pages                                                         | Yes          | Yes                       |
+| Create and refine custom components                                          | Yes          | Yes                       |
+| Work with CMS content                                                        | Yes          | Yes                       |
+| Add and use Resources                                                        | Yes          | Yes                       |
+| Look up the Elements documentation                                           | Yes          | Yes                       |
+| Publish the site                                                             | Yes          | Yes                       |
+| Read and update AI Memory                                                    | Yes          | Yes                       |
+| Chat inside Elements                                                         | Yes          | —                         |
+| Drop pages, components, templates, and files onto a message                  | Yes          | —                         |
+| Choose a model and reasoning effort in Elements                              | Yes          | Use the client’s controls |
+| Generate images                                                              | Yes          | —                         |
+| Rewrite the copy on a page in one pass, then accept or undo it               | Yes          | —                         |
+| Read a web page you link to                                                  | Yes          | —                         |
+| Break a large research or planning job into helper tasks                     | Yes          | —                         |
+| Show a live task list in the conversation                                    | Yes          | —                         |
+| Open, create, close, or switch projects                                      | —            | Yes                       |
+| Use the AI client you already subscribe to                                   | —            | Yes                       |
+| Combine your project with files and tools outside Elements                   | —            | Yes                       |
 
 A few points worth knowing:
 
@@ -69,7 +71,7 @@ The model menu only shows models from providers whose API key you have added. Us
 
 For example, you could ask it to create a banner for your business, refine the text on a page, or adjust a layout.
 
-<figure><img src="../../.gitbook/assets/elements-ai-assistant-and-wiki.png" alt="Elements showing The Little Bakery project, with project memory below Pages on the left and the AI Assistant open under the sparkles tab on the right"><figcaption><p>The AI Assistant is in the right-hand sidebar. AI Memory appears below Pages in the left-hand sidebar; this development screenshot uses its earlier name, AI Wiki.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CleanShot 2026-09-11 at 7.26.35 PM@2x.png" alt=""><figcaption><p>The AI Assistant is in the right-hand sidebar. AI Memory appears below Pages in the left-hand sidebar; this development screenshot uses its earlier name, AI Wiki.</p></figcaption></figure>
 
 See [Elements AI Assistant](elements-ai-assistant.md) for the full API key setup instructions.
 
@@ -106,26 +108,21 @@ These videos were recorded with in-development versions of Elements. They give y
 
 The videos are listed oldest first by publication date.
 
-1. **[Elements AI can redesign your website in a single prompt](https://youtu.be/-ka3Aj2Za0w)** — 23 June 2026
+1.  [**Elements AI can redesign your website in a single prompt**](https://youtu.be/-ka3Aj2Za0w) — 23 June 2026
 
-   See how a single prompt can change the look of an existing website.
+    See how a single prompt can change the look of an existing website.
+2.  [**Elements AI can now build blogs**](https://youtu.be/4FFZ5X8qLME) — 30 June 2026
 
-2. **[Elements AI can now build blogs](https://youtu.be/4FFZ5X8qLME)** — 30 June 2026
+    A look at using Elements AI to fix Markdown issues and build a blog.
+3.  [**Elements AI Makes Tables Effortless**](https://youtu.be/iplTPFAu_zc) — 21 July 2026
 
-   A look at using Elements AI to fix Markdown issues and build a blog.
+    See how Elements AI can help you present data in a table on your website.
+4.  [**Elements AI Dev Diary: Context aware image generation**](https://youtu.be/5RkD4gD8IRs) — 23 July 2026
 
-3. **[Elements AI Makes Tables Effortless](https://youtu.be/iplTPFAu_zc)** — 21 July 2026
+    An early look at generating images with awareness of your project's context.
+5.  [**Elements AI: From Sketch to Website**](https://youtu.be/bqwVZ7xUBLE) — 29 July 2026
 
-   See how Elements AI can help you present data in a table on your website.
+    Watch a sketch become a working website with the help of Elements AI.
+6.  [**Building a webpage with Elements AI**](https://youtu.be/APC7JV6HvDw) — 30 July 2026
 
-4. **[Elements AI Dev Diary: Context aware image generation](https://youtu.be/5RkD4gD8IRs)** — 23 July 2026
-
-   An early look at generating images with awareness of your project's context.
-
-5. **[Elements AI: From Sketch to Website](https://youtu.be/bqwVZ7xUBLE)** — 29 July 2026
-
-   Watch a sketch become a working website with the help of Elements AI.
-
-6. **[Building a webpage with Elements AI](https://youtu.be/APC7JV6HvDw)** — 30 July 2026
-
-   A relaxed demonstration of trying different prompts with the AI Assistant to build a webpage.
+    A relaxed demonstration of trying different prompts with the AI Assistant to build a webpage.
