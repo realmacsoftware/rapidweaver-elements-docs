@@ -70,7 +70,7 @@ The model menu only shows models from providers whose API key you have added. Us
 
 For example, you could ask it to create a banner for your business, refine the text on a page, or adjust a layout.
 
-<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2FvbHB6uGD8MXdq60z89bp%2FCleanShot%202026-09-11%20at%207.26.35%20PM%402x.png?alt=media&#x26;token=9aa06973-41ab-4464-b06f-b27b045e0ad7" alt=""><figcaption><p>The AI Assistant is in the right-hand sidebar. AI Memory appears below Pages in the left-hand sidebar; this development screenshot uses its earlier name, AI Wiki.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/elements-ai-assistant.png" alt="Elements showing a consultancy website with AI Memory below Pages and the AI Assistant generating and applying a new hero image"><figcaption><p>The AI Assistant is open in the right-hand sidebar, generating and applying a new hero image while AI Memory remains available beside the project.</p></figcaption></figure>
 
 See Elements AI Assistant for the full API key setup instructions.
 

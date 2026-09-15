@@ -47,7 +47,7 @@ Once you have added an API key:
 3. Choose an available model from the menu at the bottom of the panel.
 4. Enter your request and send it to begin.
 
-<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2Fgit-blob-3349fe9868ce8991e4bad233213ac1c2bf393a4a%2Felements-ai-assistant-and-wiki.png?alt=media" alt="Elements showing The Little Bakery project, with project memory below Pages on the left and the AI Assistant open under the sparkles tab on the right"><figcaption><p>The AI Assistant is in the right-hand sidebar. AI Memory appears below Pages in the left-hand sidebar; this development screenshot uses its earlier name, AI Wiki.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/elements-ai-assistant.png" alt="Elements showing a consultancy website with AI Memory below Pages and the AI Assistant generating and applying a new hero image"><figcaption><p>The AI Assistant is open in the right-hand sidebar, generating and applying a new hero image while AI Memory remains available beside the project.</p></figcaption></figure>
 
 If the Assistant is missing from a custom workspace, right-click the panel icons to find and open it. You can also restore the default workspace.
 
