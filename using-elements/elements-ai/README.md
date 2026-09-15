@@ -10,7 +10,7 @@ icon: hexagon-nodes-bolt
 Elements supports two ways to work with AI: use the **Elements AI Assistant** inside the app with your own API key, or connect an external AI tool through the **Elements MCP Server**. **AI Memory** gives AI a place to record and read context about your project. Earlier versions of Elements called this the AI Wiki.
 
 {% hint style="warning" %}
-**AI features in Elements are entirely optional.** You remain in full control of when and how it’s used.
+**AI features in Elements are entirely optional.** You remain in full control of when and how it's used.
 
 If you prefer to work without AI, you can simply hide the AI Panel and continue building as usual.
 {% endhint %}
@@ -31,7 +31,7 @@ Both options work on the project you have open in Elements, and both can do most
 | Read and update AI Memory                                                    | Yes          | Yes                       |
 | Chat inside Elements                                                         | Yes          | —                         |
 | Drop pages, components, templates, and files onto a message                  | Yes          | —                         |
-| Choose a model and reasoning effort in Elements                              | Yes          | Use the client’s controls |
+| Choose a model and reasoning effort in Elements                              | Yes          | Use the client's controls |
 | Generate images                                                              | Yes          | —                         |
 | Rewrite the copy on a page in one pass, then accept or undo it               | Yes          | —                         |
 | Break a large research or planning job into helper tasks                     | Yes          | —                         |
@@ -70,9 +70,9 @@ The model menu only shows models from providers whose API key you have added. Us
 
 For example, you could ask it to create a banner for your business, refine the text on a page, or adjust a layout.
 
-<figure><img src="../../.gitbook/assets/CleanShot 2026-09-11 at 7.26.35 PM@2x.png" alt=""><figcaption><p>The AI Assistant is in the right-hand sidebar. AI Memory appears below Pages in the left-hand sidebar; this development screenshot uses its earlier name, AI Wiki.</p></figcaption></figure>
+<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2FvbHB6uGD8MXdq60z89bp%2FCleanShot%202026-09-11%20at%207.26.35%20PM%402x.png?alt=media&#x26;token=9aa06973-41ab-4464-b06f-b27b045e0ad7" alt=""><figcaption><p>The AI Assistant is in the right-hand sidebar. AI Memory appears below Pages in the left-hand sidebar; this development screenshot uses its earlier name, AI Wiki.</p></figcaption></figure>
 
-See [Elements AI Assistant](elements-ai-assistant.md) for the full API key setup instructions.
+See Elements AI Assistant for the full API key setup instructions.
 
 ## Elements MCP Server: connect an external AI tool
 
@@ -82,18 +82,18 @@ Open **Settings > AI > MCP Server** and turn on **Allow AI tools to interact wit
 
 If you use **ChatGPT**, switch the conversation to **Work mode** before connecting to Elements. Elements MCP does not run in a regular Chat conversation because that environment cannot attach directly to a local MCP address such as `localhost:9712/mcp`.
 
-Keep Elements running with your project open while using the connected client. See [Elements MCP Server](elements-mcp-server.md) for connection instructions and troubleshooting.
+Keep Elements running with your project open while using the connected client. See Elements MCP Server for connection instructions and troubleshooting.
 
 ## Control AI for each project
 
-Click the **AI** sparkles button in the document toolbar to open **AI Options** to control how AI works with the current project. These settings are saved with that project and are enabled by default.
+Use the Assistant composer and its menu to control how AI works with the current project. These settings are saved with that project and are enabled by default.
 
-* **AI Memory** lets the Assistant and connected MCP clients read, search, and update the project’s memory. Turning it off can make AI work faster because it skips memory lookup and maintenance, but it will not read or update that context for future conversations. AI can still work from the current project state and the context you provide in the conversation.
+* **AI Memory** lets the Assistant and connected MCP clients read, search, and update the project's memory. Turning it off can make AI work faster because it skips memory lookup and maintenance, but it will not read or update that context for future conversations. AI can still work from the current project state and the context you provide in the conversation.
 * **Prefer Templates** tells the built-in Assistant to start with Smart Templates when it builds a new section or page. Turn it off when you want the Assistant to compose from core components. You can still name, attach, or explicitly request a template. This setting applies to new chats.
 
 ## AI Memory: context about your project
 
-**AI Memory**, called the AI Wiki in earlier versions of Elements, appears below **Pages** in the left-hand sidebar. It keeps project-specific information such as the site’s purpose, page structure, writing style, visual direction, decisions, and plans.
+**AI Memory**, called the AI Wiki in earlier versions of Elements, appears below **Pages** in the left-hand sidebar. It keeps project-specific information such as the site's purpose, page structure, writing style, visual direction, decisions, and plans.
 
 **AI Memory is read-only for humans.** You can browse and read its entries in Elements, but you cannot edit them directly. When AI Memory is enabled, the Assistant and connected MCP clients can write and update entries, then use them as context when working on your project.
 

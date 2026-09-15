@@ -1,8 +1,12 @@
 ---
-description: Set up the Elements AI Assistant and use it to build, edit, and refine your website
+description: >-
+  Set up the Elements AI Assistant and use it to build, edit, and refine your
+  website
 ---
 
 # Elements AI Assistant
+
+Set up the Elements AI Assistant and use it to build, edit, and refine your website
 
 The Elements AI Assistant works inside Elements and can make changes directly to your open project. Use it to build and refine pages, write content, generate images, create custom components, and work through larger tasks with an understanding of your project's existing design and content.
 
@@ -12,10 +16,10 @@ You remain in control of the process. Describe the result you want, inspect the 
 
 The Assistant uses your own OpenAI or Anthropic API account. Add a key for the provider you want to use before opening the Assistant.
 
-| Provider | Features |
-| --- | --- |
-| OpenAI | Chat and image generation |
-| Anthropic (Claude) | Chat |
+| Provider           | Features                  |
+| ------------------ | ------------------------- |
+| OpenAI             | Chat and image generation |
+| Anthropic (Claude) | Chat                      |
 
 You can add a key for either provider, or add both. Image generation requires an OpenAI API key.
 
@@ -28,7 +32,7 @@ You can add a key for either provider, or add both. Image generation requires an
 
 The full settings path is **Settings > AI > API Keys**.
 
-<figure><img src="../../.gitbook/assets/elements-ai-api-keys.png" alt="Elements Preferences showing AI > API Keys, with OpenAI supporting Chat and Image Generation and Anthropic supporting Chat"><figcaption><p>Add your OpenAI or Anthropic API key in Settings > AI > API Keys.</p></figcaption></figure>
+<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2Fgit-blob-b484158e6813f9968810d0819c330bd3262ceb9b%2Felements-ai-api-keys.png?alt=media" alt="Elements Preferences showing AI > API Keys, with OpenAI supporting Chat and Image Generation and Anthropic supporting Chat"><figcaption><p>Add your OpenAI or Anthropic API key in Settings > AI > API Keys.</p></figcaption></figure>
 
 Your keys are stored in the macOS Keychain. Elements sends your prompts and relevant project context directly to the provider you choose, and usage is billed to your account with that provider.
 
@@ -43,7 +47,7 @@ Once you have added an API key:
 3. Choose an available model from the menu at the bottom of the panel.
 4. Enter your request and send it to begin.
 
-<figure><img src="../../.gitbook/assets/elements-ai-assistant-and-wiki.png" alt="Elements showing The Little Bakery project, with project memory below Pages on the left and the AI Assistant open under the sparkles tab on the right"><figcaption><p>The AI Assistant is in the right-hand sidebar. AI Memory appears below Pages in the left-hand sidebar; this development screenshot uses its earlier name, AI Wiki.</p></figcaption></figure>
+<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2Fgit-blob-3349fe9868ce8991e4bad233213ac1c2bf393a4a%2Felements-ai-assistant-and-wiki.png?alt=media" alt="Elements showing The Little Bakery project, with project memory below Pages on the left and the AI Assistant open under the sparkles tab on the right"><figcaption><p>The AI Assistant is in the right-hand sidebar. AI Memory appears below Pages in the left-hand sidebar; this development screenshot uses its earlier name, AI Wiki.</p></figcaption></figure>
 
 If the Assistant is missing from a custom workspace, right-click the panel icons to find and open it. You can also restore the default workspace.
 
@@ -59,11 +63,13 @@ Elements uses a curated list of supported models, so the exact names can change 
 
 Use the effort menu beside the model to choose **Low**, **Medium**, **High**, **Extra high**, or **Max**. **Medium** is the default. A lower effort is useful for quick copy or styling changes. A higher effort can help with complex layouts, custom components, and multi-step work, but it may take longer and consume more tokens. Because you are using your own API key, greater token use can increase the amount billed by the provider.
 
-After the Assistant has responded, the footer below the message area shows the session’s input, output, and cached token totals. Use your provider’s account or usage dashboard for billing totals.
+After the Assistant has responded, token usage for the session (input, output, and cached totals) appears above the composer input. Use your provider’s account or usage dashboard for billing totals.
+
+You can also use **on-device dictation** in the Assistant composer to speak your request instead of typing it.
 
 ## Set AI options for this project
 
-Click the **AI** sparkles button in the document toolbar to open **AI Options** to control how the Assistant works with the current project. Both options are enabled by default and saved with the project.
+Open the Assistant composer menu to control how the Assistant works with the current project. Both options are enabled by default and saved with the project.
 
 ### AI Memory
 
@@ -136,11 +142,11 @@ Give the Assistant a precise target by adding items to your message. You can dra
 * An **image** from your project resources.
 * **Images and other files** from Finder.
 
-<figure><img src="../../.gitbook/assets/elements-ai-target-component-and-image-workspace.png" alt="Elements with a Hero section selected and an AI Assistant message targeting the Hero component and purple-gradient.png image"><figcaption><p>Target a component and attach an image while you continue working in the editor.</p></figcaption></figure>
+<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2Fgit-blob-9d1a6b04c6a341d46a52f0246632c1a4cdaa79ea%2Felements-ai-target-component-and-image-workspace.png?alt=media" alt="Elements with a Hero section selected and an AI Assistant message targeting the Hero component and purple-gradient.png image"><figcaption><p>Target a component and attach an image while you continue working in the editor.</p></figcaption></figure>
 
 Each item appears as a named chip in the message. You can add several items and then describe how they should be used together. For example, you could target a Text component on a particular page and provide an image to use as its background.
 
-<figure><img src="../../.gitbook/assets/elements-ai-target-page-component-image.png" alt="Elements AI Assistant message targeting the Hero section and the purple-gradient.png image"><figcaption><p>Dropped items appear as named chips, making it clear which component and image the Assistant should use.</p></figcaption></figure>
+<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2Fgit-blob-00320f63c42a36f959086c53c79bc28022198abb%2Felements-ai-target-page-component-image.png?alt=media" alt="Elements AI Assistant message targeting the Hero section and the purple-gradient.png image"><figcaption><p>Dropped items appear as named chips, making it clear which component and image the Assistant should use.</p></figcaption></figure>
 
 To remove an item before sending, click the **×** on its preview or context chip. Adding an item to the message does not move or remove it from your project.
 
@@ -152,7 +158,7 @@ The **+** menu in the message field provides another quick way to add context:
 * Choose **Add Current Page** to target the page currently open in the editor.
 * Choose **Add Files…** to select one or more supported images, text files, or PDFs without leaving Elements.
 
-<figure><img src="../../.gitbook/assets/elements-ai-add-context-menu.png" alt="The plus menu in the Elements AI Assistant showing Add Selected Components and Add Current Page"><figcaption><p>Use the + menu to add selected components, the current page, or files. This development screenshot predates the Add Files option.</p></figcaption></figure>
+<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2Fgit-blob-ad8345dcfec10874f21acd8351247ee16e15ca69%2Felements-ai-add-context-menu.png?alt=media" alt="The plus menu in the Elements AI Assistant showing Add Selected Components and Add Current Page"><figcaption><p>Use the + menu to add selected components, the current page, or files. This development screenshot predates the Add Files option.</p></figcaption></figure>
 
 You can also use `@` in the message field to add specific project context. Use `/` to browse available skills for specialised tasks. The options shown depend on the current project and version of Elements.
 
@@ -169,11 +175,11 @@ Focused context helps the Assistant understand exactly which part of the project
 
 ## AI Assistant and MCP
 
-The built-in Assistant is the simplest way to work with AI inside Elements. If you prefer to use an external AI client such as Claude Desktop, Codex, Cursor, or LM Studio, connect it through the [Elements MCP Server](elements-mcp-server.md).
+The built-in Assistant is the simplest way to work with AI inside Elements. If you prefer to use an external AI client such as Claude Desktop, Codex, Cursor, or LM Studio, connect it through the Elements MCP Server.
 
 Both approaches work with the project open in Elements, but their setup is separate: the Assistant uses **Settings > AI > API Keys**, while external clients connect through **Settings > AI > MCP Server**.
 
-For a side-by-side list of what each option can do, see [What each option can do](README.md#what-each-option-can-do). In short, the Assistant is the only option that generates images, rewrites page copy in one pass, and lets you drag pages, components, and files onto a message. An external client is the only option that can open, create, close, or switch projects.
+For a side-by-side list of what each option can do, see What each option can do. In short, the Assistant is the only option that generates images, rewrites page copy in one pass, and lets you drag pages, components, and files onto a message. An external client is the only option that can open, create, close, or switch projects.
 
 ### Comparing costs
 
