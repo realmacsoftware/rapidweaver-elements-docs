@@ -34,7 +34,6 @@ Both options work on the project you have open in Elements, and both can do most
 | Choose a model and reasoning effort in Elements                              | Yes          | Use the client’s controls |
 | Generate images                                                              | Yes          | —                         |
 | Rewrite the copy on a page in one pass, then accept or undo it               | Yes          | —                         |
-| Read a web page you link to                                                  | Yes          | —                         |
 | Break a large research or planning job into helper tasks                     | Yes          | —                         |
 | Show a live task list in the conversation                                    | Yes          | —                         |
 | Open, create, close, or switch projects                                      | —            | Yes                       |
