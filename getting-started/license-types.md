@@ -13,6 +13,7 @@ Elements offers flexible licensing options for casual users, hobbyists, professi
 
 * Unlimited websites
 * Templates, Themes, and Components
+* Elements AI, including the built-in AI Assistant and MCP Server
 * One year of updates
 * Installation on up to **three Macs simultaneously per user license**
 * 1 GB of cloud storage for projects while the license is active

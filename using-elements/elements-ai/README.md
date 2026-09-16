@@ -9,6 +9,10 @@ icon: hexagon-nodes-bolt
 
 Elements supports two ways to work with AI: use the **Elements AI Assistant** inside the app with your own API key, or connect an external AI tool through the **Elements MCP Server**. **AI Memory** gives AI a place to record and read context about your project. Earlier versions of Elements called this the AI Wiki.
 
+{% hint style="info" %}
+**Elements AI is available on every Elements plan, including Base, Plus, and Pro.** A Pro plan is not required. Provider API charges or subscriptions are separate from your Elements plan.
+{% endhint %}
+
 {% hint style="warning" %}
 **AI features in Elements are entirely optional.** You remain in full control of when and how it's used.
 
