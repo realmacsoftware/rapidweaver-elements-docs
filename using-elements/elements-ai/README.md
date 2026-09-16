@@ -13,6 +13,12 @@ Elements supports two ways to work with AI: use the **Elements AI Assistant** in
 **Elements AI is available on every Elements plan, including Base, Plus, and Pro.** A Pro plan is not required. Provider API charges or subscriptions are separate from your Elements plan.
 {% endhint %}
 
+## AI Assistant or MCP?
+
+This short tutorial compares the built-in Elements AI Assistant with connecting an external AI client through MCP.
+
+{% embed url="https://youtu.be/i-_Z_oynGCA" %}
+
 ## Compare speed and cost
 
 The **Elements AI Assistant is the fastest way to work with AI in Elements**. Because it runs inside the app, it can respond and start working on your project very quickly. It uses your own OpenAI or Anthropic API key, so that speed comes with separately metered API charges.
