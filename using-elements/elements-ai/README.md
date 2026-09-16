@@ -13,6 +13,21 @@ Elements supports two ways to work with AI: use the **Elements AI Assistant** in
 **Elements AI is available on every Elements plan, including Base, Plus, and Pro.** A Pro plan is not required. Provider API charges or subscriptions are separate from your Elements plan.
 {% endhint %}
 
+## Compare speed and cost
+
+The **Elements AI Assistant is the fastest way to work with AI in Elements**. Because it runs inside the app, it can respond and start working on your project very quickly. It uses your own OpenAI or Anthropic API key, so that speed comes with separately metered API charges.
+
+A connected MCP client can take longer because it has to plan the request and make tool calls through the connection. It can still be the more economical choice when your existing AI subscription includes a generous amount of usage.
+
+| Option                                    | Relative speed in our testing               | Cost                                                                                                              | Best suited to                                                           |
+| ----------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Elements AI Assistant with an API key** | **Fastest overall**                         | API usage is billed separately by OpenAI or Anthropic and can become more expensive with regular or intensive use | Quick changes and the most responsive experience inside Elements         |
+| **Claude through MCP**                    | **Fastest connected client**                | Can use the allowance included with an eligible Claude subscription, subject to its limits                        | Larger tasks when you want a fast external client                        |
+| **Grok through Cursor**                   | **Second-fastest connected setup**          | Uses the relevant Cursor or model subscription and its usage limits                                               | Working on an Elements project alongside other files and tools in Cursor |
+| **ChatGPT through MCP**                   | **Slowest connected client in our testing** | Can use an eligible ChatGPT subscription, subject to its limits                                                   | Using ChatGPT's Work environment when speed is less important            |
+
+These are practical observations rather than formal benchmarks. Performance varies with the model, reasoning effort, task complexity, network conditions, and current service load. If you already pay for an AI client, its bundled subscription usage can be heavily subsidised compared with direct API pricing, so MCP may cost less even when it takes longer.
+
 {% hint style="warning" %}
 **AI features in Elements are entirely optional.** You remain in full control of when and how it's used.
 
@@ -74,7 +89,7 @@ The model menu only shows models from providers whose API key you have added. Us
 
 For example, you could ask it to create a banner for your business, refine the text on a page, or adjust a layout.
 
-<figure><img src="../../.gitbook/assets/elements-ai-assistant.png" alt="Elements showing a consultancy website with AI Memory below Pages and the AI Assistant generating and applying a new hero image"><figcaption><p>The AI Assistant is open in the right-hand sidebar, generating and applying a new hero image while AI Memory remains available beside the project.</p></figcaption></figure>
+<figure><img src="https://3876014504-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNy6AECEVH2p4eFDicpM1%2Fuploads%2Fgit-blob-2c295f6e16b9a769da3fba63d8646dac2c91aab5%2Felements-ai-assistant.png?alt=media" alt="Elements showing a consultancy website with AI Memory below Pages and the AI Assistant generating and applying a new hero image"><figcaption><p>The AI Assistant is open in the right-hand sidebar, generating and applying a new hero image while AI Memory remains available beside the project.</p></figcaption></figure>
 
 See Elements AI Assistant for the full API key setup instructions.
 
