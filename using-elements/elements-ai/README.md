@@ -144,3 +144,6 @@ The videos are listed oldest first by publication date.
 6.  [**Building a webpage with Elements AI**](https://youtu.be/APC7JV6HvDw) — 30 July 2026
 
     A relaxed demonstration of trying different prompts with the AI Assistant to build a webpage.
+7.  [**Elements AI Assistant and Elements MCP: What's the difference?**](https://youtu.be/i-_Z_oynGCA)
+
+    A practical comparison of the built-in AI Assistant and the Elements MCP Server, including how speed, cost, and workflow differ between the two options.
