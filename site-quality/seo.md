@@ -38,7 +38,7 @@ Agents look for a root `llms.txt` and optional Markdown twins of your pages.
 
 * Add `llms.txt` at the site root: Page Manager → New File → rename to `llms.txt`. Publish and export include it like `robots.txt`.
 * Ask the Assistant (or a connected MCP client) to write or update that file from your pages.
-* Turn on **Generate AI Markdown for every page** in Project Settings → Advanced to publish `<page>.html.md` beside each HTML or PHP page on publish/export. Preview does not write these files. Turning the option off does not remove previously uploaded `.md` files.
+* Turn on **Generate AI Markdown for every page** in Project Settings → Advanced to publish Markdown twins with the last extension replaced (`index.md`, `about.md`) beside each HTML or PHP page on publish/export. Preview does not write these files. Turning the option off does not remove previously uploaded `.md` files. On CMS Item, Collection, and Search pages, PHP and template placeholders (such as `{{item.*}}`) are omitted from the twin so source does not leak; static HTML around those regions still converts, and the twin is skipped if nothing convertible remains.
 
 ### How to Set Image Alt Text
 
@@ -51,7 +51,7 @@ In Elements 3.0 and later, alt text for a Resource image is stored on the image 
 3. Open the **Resource Info** panel.
 4. Enter a concise description in **Alt Text**.
 
-For Custom and CMS images, set **Alt** in the Image component instead. See [Image](../elements/components/image.md#alternative-text) for complete guidance.
+For Custom and CMS images, set **Alt** in the Image component instead. See Image for complete guidance.
 
 #### Why Image Alt Text Matters
 
@@ -82,7 +82,7 @@ Use this checklist before launching your website:
 * [ ] **Clean, Human-Friendly URLs**\
   Keep filenames and paths tidy: `/about`, `/contact`, `/services/web-design`, etc. This makes navigation easier for humans _and_ robots.
 * [ ] **Sitemap, robots.txt & llms.txt**\
-  Elements automatically generates `sitemap.xml`. You can create a `robots.txt` file by adding a plain-text file to the Page Manager. Add a root `llms.txt` the same way (or ask the Assistant), and optionally enable **Generate AI Markdown for every page** in Advanced.
+  Elements automatically generates `sitemap.xml`. You can create a `robots.txt` file by adding a plain-text file to the Page Manager. Add a root `llms.txt` the same way (or ask the Assistant), and optionally enable **Generate AI Markdown for every page** in Advanced to publish Markdown twins (`index.md`, `about.md`) beside each page.
 * [ ] **Optimise Images & Media**\
   Compress images before importing them using an app such as Squash or ImageOptim. Faster pages provide a better experience for visitors.
 * [ ] **Descriptive Anchor Text**\

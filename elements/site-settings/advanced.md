@@ -28,7 +28,7 @@ The Advanced section lets you fine-tune your project’s output and local previe
     Helps protect your privacy by removing identifiable info from external requests (like Google Fonts or embedded media).
 *   **Generate AI Markdown for every page**
 
-    On publish/export, writes a Markdown twin beside each page for AI agents (`index.html.md`, `about.html.md`, and so on). New projects default this on; existing projects stay off until you enable it. Preview does not write these files. Turning the option off does not remove previously uploaded `.md` files from the server. Add a root `llms.txt` (Page Manager → New File, or ask the Assistant) to describe and link your site.
+    On publish/export, writes a Markdown twin beside each page for AI agents by replacing the page’s last extension (`index.html` → `index.md`, `about.php` → `about.md`). New projects default this on; existing projects stay off until you enable it. Preview does not write these files. Turning the option off does not remove previously uploaded `.md` files from the server. On CMS Item, Collection, and Search pages, PHP and template placeholders (such as `{{item.*}}`) are omitted from the twin so source does not leak; static HTML around those regions still converts, and the twin is skipped if nothing convertible remains. Add a root `llms.txt` (Page Manager → New File, or ask the Assistant) to describe and link your site.
 
 ### Default Extension
 
