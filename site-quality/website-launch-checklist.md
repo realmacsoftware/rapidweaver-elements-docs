@@ -11,6 +11,16 @@ Use this checklist before you publish a new website or make a major redesign liv
 Legal requirements vary by country, audience, and the data your website collects. Treat the privacy, terms, and cookie checks below as prompts rather than legal advice.
 {% endhint %}
 
+## Ask AI to review your website
+
+The **Elements AI Assistant** or a connected **MCP client** can work through this checklist with you. This is useful for a first pass across a larger project: AI can inspect pages and components, find missing metadata or alt text, spot inconsistent calls to action, review headings and links, and suggest or make many of the fixes.
+
+Try a prompt like this:
+
+> Review the open Elements project against the Website launch checklist. Work through every section, show which checks pass, identify anything that needs attention, and fix the safe project-level issues. Ask before making changes that affect legal wording, tracking, domains, publishing, or third-party services.
+
+AI cannot replace every check. Review legal and privacy requirements yourself, test forms and analytics on the published site, and check the finished website on real devices. The result also depends on which tools your chosen Assistant or MCP client can access.
+
 ## Content and purpose
 
 * [ ] **Make the purpose clear.** A first-time visitor should quickly understand who the website is for, what it offers, and what to do next.
