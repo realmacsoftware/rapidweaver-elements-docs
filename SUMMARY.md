@@ -156,6 +156,7 @@
 
 ## Site Quality
 
+* [Website Launch Checklist](site-quality/website-launch-checklist.md)
 * [Accessibility](site-quality/accessibility.md)
 * [Analytics](site-quality/analytics.md)
 * [SEO](site-quality/seo.md)
