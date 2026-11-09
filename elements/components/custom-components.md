@@ -12,7 +12,7 @@ Custom Components let you extend RapidWeaver Elements with your own reusable bui
 Everything can be created and edited inside Elements, with changes appearing on the canvas as you work. A basic understanding of HTML is helpful, but you can begin with a small snippet and add more advanced features when you need them.
 
 {% hint style="info" %}
-Custom Components use the same [Elements Language](https://docs.realmacsoftware.com/elements-docs/elements-language) that powers Element Packs. They are a practical way to learn the API before moving a component into a distributable pack.
+Custom Components use the same [Elements Language](../../api/README.md) that powers Element Packs. They are a practical way to learn the API before moving a component into a distributable pack.
 {% endhint %}
 
 ### What You Can Create
@@ -142,7 +142,7 @@ Use the property in the Template:
 <p class="{{textColor}}">Hello World!</p>
 ```
 
-See the [Properties reference](https://docs.realmacsoftware.com/elements-docs/elements-language/component/properties-json) for the available controls and configuration options.
+See the [Properties reference](../../api/component/properties.json/README.md) for the available controls and configuration options.
 
 {% hint style="info" %}
 The [Add Snow to Your Website](../../getting-started/how-to/add-snow-to-your-website.md) tutorial is a complete example driven by Amount and Follow Mouse properties.
@@ -180,7 +180,7 @@ When using Alpine directives in the Template, write event handlers with `x-on:` 
 
 Keep controls keyboard accessible and avoid adding the same global event listener more than once when several instances appear on a page.
 
-Page JavaScript does not run on the editing canvas. To play a Three.js (or similar) animation while you edit, emit `<rwlivepreview props="…">` from the Template in edit mode and export a `mount` function from the JavaScript area, guarded with `@if(isEdit)`. The editor imports that export, calls `mount` / `update` / `dispose`, and resolves `import * as THREE from 'three'` to a shared copy. See the [Editor Live Preview](https://docs.realmacsoftware.com/elements-docs/elements-language/guides/editor-live-preview) contract.
+Page JavaScript does not run on the editing canvas. To play a Three.js (or similar) animation while you edit, emit `<rwlivepreview props="…">` from the Template in edit mode and export a `mount` function from the JavaScript area, guarded with `@if(isEdit)`. The editor imports that export, calls `mount` / `update` / `dispose`, and resolves `import * as THREE from 'three'` to a shared copy. See the [Editor Live Preview](../../api/guides/editor-live-preview.md) contract.
 
 ### Transform Values with Hooks
 
@@ -204,7 +204,7 @@ The Template can then use the derived value:
 <p>{{fullName}}</p>
 ```
 
-See the [Hooks reference](https://docs.realmacsoftware.com/elements-docs/elements-language/component/hooks.js) for the complete build-time API.
+See the [Hooks reference](../../api/component/hooks.js/README.md) for the complete build-time API.
 
 ### Tips and Best Practices
 
@@ -227,10 +227,10 @@ Custom Components are ideal for project-specific work and learning the Elements 
 
 Dev Packs are editable development bundles and should not be sold or distributed directly. Compile finished work into an Element Pack through the Elements Platform before sharing or selling it.
 
-Use the [Element Pack getting-started guide](https://docs.realmacsoftware.com/elements-docs/elements-language/api-introduction/getting-started) to create a pack, then explore the [open-source Core Components](https://docs.realmacsoftware.com/elements-docs/elements-language/dev-resources/open-source-components) for production examples.
+Use the [Element Pack getting-started guide](../../api/getting-started/getting-started.md) to create a pack, then explore the [open-source Core Components](../../api/development-resources/open-source-components.md) for production examples.
 
 ### Related Documentation
 
-* [Elements Language](https://docs.realmacsoftware.com/elements-docs/elements-language) — Complete API and template-language documentation.
+* [Elements Language](../../api/README.md) — Complete API and template-language documentation.
 * [Deep Linking](../url-scheme.md) — Create links that import Custom Components into Elements.
 * [Licence Types](../../getting-started/license-types.md) — Compare Custom Component limits and commercial permissions.

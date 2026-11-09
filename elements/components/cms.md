@@ -12,14 +12,14 @@ Use it to create blogs, portfolios, knowledge bases, team pages, product listing
 This page is an overview. For installation, system requirements, Markdown formatting, components, templates, pretty URLs, and troubleshooting, see the full Elements CMS documentation.
 {% endhint %}
 
-<a href="https://docs.realmacsoftware.com/elements-docs/cms" class="button primary" data-icon="database">Read the Full CMS Documentation</a>
+<a href="../../cms/README.md" class="button primary" data-icon="database">Read the Full CMS Documentation</a>
 
 ### Requirements
 
 Elements CMS requires a web server running **PHP 8.4 or newer** with the `mbstring` extension enabled. Pages that use CMS data must have their page extension set to `.php`.
 
 {% hint style="warning" %}
-Confirm that your hosting meets the current [CMS system requirements](https://docs.realmacsoftware.com/elements-docs/cms/getting-started/system-requirements) before building or publishing a CMS-powered site.
+Confirm that your hosting meets the current [CMS system requirements](../../cms/getting-started/system-requirements.md) before building or publishing a CMS-powered site.
 {% endhint %}
 
 ### How Elements CMS Works
@@ -50,4 +50,4 @@ Each Markdown file can contain a YAML front matter header for structured informa
 
 Visit the [Elements CMS website](https://cms.elementsplatform.com) for an overview of components, use cases, the Online Editor, and available plans.
 
-Use the [full Elements CMS documentation](https://docs.realmacsoftware.com/elements-docs/cms) when you are ready to install the CMS or configure a website.
+Use the [full Elements CMS documentation](../../cms/README.md) when you are ready to install the CMS or configure a website.

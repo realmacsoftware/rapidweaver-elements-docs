@@ -11,10 +11,10 @@ The Elements API is the developer system used to create components for RapidWeav
 
 You can start with a project-specific Custom Component inside Elements, then move to an Element Dev Pack when you need a reusable package with multiple components, files, icons, collections, or shared assets.
 
-[Open the complete Elements API reference](https://docs.realmacsoftware.com/elements-docs/elements-language)
+[Open the complete Elements API reference](../api/README.md)
 
 {% hint style="info" %}
-The Elements API is the same component system used by the components supplied with Elements. The [open-source Core Components](https://docs.realmacsoftware.com/elements-docs/elements-language/dev-resources/open-source-components) provide complete production examples.
+The Elements API is the same component system used by the components supplied with Elements. The [open-source Core Components](../api/development-resources/open-source-components.md) provide complete production examples.
 {% endhint %}
 
 ### What You Can Build
@@ -25,7 +25,7 @@ The API can be used to create:
 * Reusable components with editable text and child-component dropzones.
 * Theme-aware Inspector controls for colours, fonts, spacing, sizing, resources, switches, selections, and other values.
 * Interactive components using client-side JavaScript or Alpine.js.
-* Live editor previews for WebGL and other ES-module animations (Three.js), via the [`rwlivepreview` contract](https://docs.realmacsoftware.com/elements-docs/elements-language/guides/editor-live-preview).
+* Live editor previews for WebGL and other ES-module animations (Three.js), via the [`rwlivepreview` contract](../api/guides/editor-live-preview.md).
 * Components with build-time data processing and conditional output.
 * Packs containing several components, custom icons, assets, collections, and shared files.
 * Add-ons that can be compiled and distributed through the Elements Store.
@@ -75,7 +75,7 @@ Directives add editable content and component behaviour:
 * `@portal` places scripts, styles, or markup in another page location.
 * `@anchor` creates linkable anchor points.
 
-See the [Elements Language reference](https://docs.realmacsoftware.com/elements-docs/elements-language/component/language) for the complete syntax.
+See the [Elements Language reference](../api/component/language/README.md) for the complete syntax.
 
 ### Inspector Properties
 
@@ -99,7 +99,7 @@ For example, a theme colour property can generate a utility class:
 
 The Template can then use `{{textColor}}` wherever the generated class is needed.
 
-The [Properties reference](https://docs.realmacsoftware.com/elements-docs/elements-language/component/properties-json) documents the available Inspector controls, values, defaults, visibility rules, and responsive behaviour.
+The [Properties reference](../api/component/properties.json/README.md) documents the available Inspector controls, values, defaults, visibility rules, and responsive behaviour.
 
 ### Build-Time Hooks
 
@@ -117,7 +117,7 @@ const transformHook = (rw) => {
 exports.transformHook = transformHook;
 ```
 
-The Template can then output `{{fullName}}`. See the [Hooks reference](https://docs.realmacsoftware.com/elements-docs/elements-language/component/hooks.js) for the build-time API.
+The Template can then output `{{fullName}}`. See the [Hooks reference](../api/component/hooks.js/README.md) for the build-time API.
 
 ### Anatomy of an Element Dev Pack
 
@@ -145,33 +145,33 @@ You need:
 
 CSS, JavaScript, and JSON become useful as components grow more advanced. A code editor is recommended for Dev Packs; the official guide uses standard editors such as Visual Studio Code, Nova, or BBEdit.
 
-The optional [RW Elements Tools](https://docs.realmacsoftware.com/elements-docs/elements-language/dev-resources/build-tools) package provides build helpers, reusable controls, shared properties, and hook utilities for larger component projects.
+The optional [RW Elements Tools](../api/development-resources/build-tools/README.md) package provides build helpers, reusable controls, shared properties, and hook utilities for larger component projects.
 
 ### Getting Started
 
 1. Build a small [Custom Component](components/custom-components.md) if you want to learn inside an existing project.
-2. Follow the [API Quickstart](https://docs.realmacsoftware.com/elements-docs/elements-language/getting-started/getting-started) to create and install an Element Dev Pack.
-3. Explore the [official example Dev Packs](https://github.com/realmacsoftware/RWElementDevPacks/tree/main) and [open-source Core Components](https://docs.realmacsoftware.com/elements-docs/elements-language/dev-resources/open-source-components).
+2. Follow the [API Quickstart](../api/getting-started/getting-started.md) to create and install an Element Dev Pack.
+3. Explore the [official example Dev Packs](https://github.com/realmacsoftware/RWElementDevPacks/tree/main) and [open-source Core Components](../api/development-resources/open-source-components.md).
 4. Add properties, editable content, and dropzones before introducing complex JavaScript.
 5. Test several component instances, every breakpoint, keyboard interaction, and the published output.
-6. Read the [Store distribution guide](https://docs.realmacsoftware.com/elements-docs/store/partners/pack-distribution) before sharing or selling a finished pack.
+6. Read the [Store distribution guide](../store/partners/pack-distribution.md) before sharing or selling a finished pack.
 
 ### API Reference
 
-* [Elements API overview](https://docs.realmacsoftware.com/elements-docs/elements-language)
-* [Quickstart](https://docs.realmacsoftware.com/elements-docs/elements-language/getting-started/getting-started)
-* [Elements Language](https://docs.realmacsoftware.com/elements-docs/elements-language/component/language)
-* [Properties](https://docs.realmacsoftware.com/elements-docs/elements-language/component/properties-json)
-* [Templates](https://docs.realmacsoftware.com/elements-docs/elements-language/component/templates)
-* [Hooks](https://docs.realmacsoftware.com/elements-docs/elements-language/component/hooks.js)
-* [Assets](https://docs.realmacsoftware.com/elements-docs/elements-language/component/assets)
-* [Collections](https://docs.realmacsoftware.com/elements-docs/elements-language/component/collections)
-* [Shared Files](https://docs.realmacsoftware.com/elements-docs/elements-language/component/shared-files)
-* [Build Tools](https://docs.realmacsoftware.com/elements-docs/elements-language/dev-resources/build-tools)
+* [Elements API overview](../api/README.md)
+* [Quickstart](../api/getting-started/getting-started.md)
+* [Elements Language](../api/component/language/README.md)
+* [Properties](../api/component/properties.json/README.md)
+* [Templates](../api/component/templates/README.md)
+* [Hooks](../api/component/hooks.js/README.md)
+* [Assets](../api/component/assets.md)
+* [Collections](../api/component/collections/README.md)
+* [Shared Files](../api/component/shared-files/README.md)
+* [Build Tools](../api/development-resources/build-tools/README.md)
 * [Component Development Forum](https://forums.realmacsoftware.com/c/rapidweaver-elements/custom-components/56)
 
 ### Distribution
 
 Use a Dev Pack for development and testing. When a pack is ready to share or sell, compile it through the Elements Platform and follow the Store requirements for packaging, product information, testing, and submission.
 
-The [Store distribution guide](https://docs.realmacsoftware.com/elements-docs/store/partners/pack-distribution) explains the release path for finished Element Packs.
+The [Store distribution guide](../store/partners/pack-distribution.md) explains the release path for finished Element Packs.
