@@ -12,7 +12,7 @@ Each product submission has two parts:
 2. **Info** — the listing details, pricing, and screenshots shown in the Store.
 
 {% hint style="warning" %}
-Make sure your pack defines valid [categories in info.json](https://docs.realmacsoftware.com/elements-docs/elements-language/element-pack/info-json). If not, your submission will fail.
+Make sure your pack defines valid [categories in info.json](../../../api/element-pack/info.json.md). If not, your submission will fail.
 {% endhint %}
 
 {% embed url="https://youtu.be/x1b5k77Mv5Y" %}

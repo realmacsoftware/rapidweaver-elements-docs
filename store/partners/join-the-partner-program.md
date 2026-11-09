@@ -16,11 +16,11 @@ Elements and the Elements API allows you to build unique products that can be us
 
 Your Product for Elements can contain a single add-on type, or bundle together different types, including any combination of the following:
 
-* [Components](https://docs.realmacsoftware.com/elements-docs/elements-language/component/components) – Reusable, structured elements
-* [Resources](https://docs.realmacsoftware.com/elements-docs/elements-language/resource/what-are-resources) – Assets like, icons, images, video, audio, or other files
-* [Templates](https://docs.realmacsoftware.com/elements-docs/elements-language/template/what-are-templates) – Pre-built sections consisting of multiple components
-* [Themes](https://docs.realmacsoftware.com/elements-docs/elements-language/theme/what-are-themes) – Predefined visual styles
-* [Projects](https://docs.realmacsoftware.com/elements-docs/elements-language/project/what-are-projects) – Pre-built projects
+* [Components](../../api/component/components.md) – Reusable, structured elements
+* [Resources](../../api/resource/what-are-resources.md) – Assets like, icons, images, video, audio, or other files
+* [Templates](../../api/template/what-are-templates.md) – Pre-built sections consisting of multiple components
+* [Themes](../../api/theme/what-are-themes.md) – Predefined visual styles
+* [Projects](../../api/project/what-are-projects.md) – Pre-built projects
 * eBooks — Coming soon
 
 ### Monetising Products for Elements
