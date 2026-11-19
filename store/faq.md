@@ -75,10 +75,6 @@ Your refund should arrive back into your account within 72 hours from the time o
 
 <summary>Why is the refunded amount slightly different?</summary>
 
-The difference comes down to currency conversion and bank fees, rather than anything we control on our side.
-
-When the original payment was made, your bank may have applied an exchange rate and a foreign transaction fee. When we issue a refund, we can only return the original amount in the original currency. Your bank then converts that back to your native currency using the current exchange rate and may apply fees again.
-
-That’s why you’ll sometimes see a small difference between what went out and what came back, even though the refund itself was processed in full.
+Currency conversion and bank fees can make a refund look slightly different from what you paid. See [Billing](https://docs.realmacsoftware.com/buying-and-billing/billing) for the full explanation.
 
 </details>
